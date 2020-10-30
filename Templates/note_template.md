@@ -1,10 +1,8 @@
-tags: 
+tags: #Math #Ufscar 
 date: {{date}}
 
 ---
 
+
+
 ---
-
-## Links
-
-## References
