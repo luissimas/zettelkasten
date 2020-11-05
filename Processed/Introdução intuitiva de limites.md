@@ -33,7 +33,7 @@ $$
 \therefore\\
 $$
 $$
-lim_{x\to\pm\infty}\frac{p(x)}{q(x)}=lim_{x\to\pm\infty}\frac{a_nx^n}{b_mx^m}
+\lim_{x\to\pm\infty}\frac{p(x)}{q(x)}=\lim_{x\to\pm\infty}\frac{a_nx^n}{b_mx^m}
 $$
 
 ---

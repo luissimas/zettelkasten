@@ -1,8 +1,8 @@
 ## Today
-- [ ] Calculus notes
-- [ ] Digital logic notes
-
+- [ ] Calculus
+	- [ ] Exercícios 10 - 20
+	- [ ] Maratona 20km
+	
 ## This Week
 - [ ] Dotfiles repo
-- [X] Web dev
-- [ ] Automation scripts
+- [ ] Vim setup

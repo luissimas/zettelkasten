@@ -1,4 +1,4 @@
-tags: #Math #Ufscar 
+tags: 
 date: {{date}}
 
 ---
