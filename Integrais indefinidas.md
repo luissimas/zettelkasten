@@ -7,45 +7,6 @@ $$
 $$
 Onde $C$ representa uma constante genérica tal que $C\in\mathbb{R}$.
 
-# Integrais imediatas
-Usando as [[Retas tangentes e regras de derivação#Regras de derivação|regras de derivação]] estabelecidas podemos definir algumas integrais indefinidas cujo cálculo é imediato:
-$$
-\int{x^\alpha}\,dx=\frac{x^{\alpha+1}}{\alpha+1}+C
-$$
-$$
-\int{\frac{1}{x}}\,dx=\ln{|x|}+C
-$$
-$$
-\int{\sin{x}}\,dx=-\cos{x}+C
-$$
-$$
-\int{\cos{x}}\,dx=\sin{x}+C
-$$
-$$
-\int{e^x}\,dx=e^x+C
-$$
-$$
-\int{a^x}\,dx=\frac{a^x}{\ln{a}}+C
-$$
-$$
-\int{\sec^2{x}}\,dx=\tan{x}+C
-$$
-$$
-\int{\csc^2{x}}\,dx=-\cot{x}+C
-$$
-$$
-\int{\sec{x}\cdot\tan{x}}\,dx=\sec{x}+C
-$$
-$$
-\int{\csc{x}\cdot\cot{x}}\,dx=-\csc{x}+C
-$$
-$$
-\int{\frac{1}{1+x^2}}\,dx=\arctan{x}+C
-$$
-$$
-\int{\frac{1}{\sqrt{1-x^2}}}\,dx=\arcsin{x}+C
-$$
-
 # Propriedades
 Existem algumas propriedades para manipular expressões envolvendo integrais, definidas também a partir das regras de derivação:
 $$
@@ -68,9 +29,37 @@ $$
 \int{f(g(x))\cdot g'(x)}\,dx=\int{f(u)\,du}=F(u)+C=F(g(x))+C
 $$
 
+# Integrais imediatas
+Usando as [[Retas tangentes e regras de derivação#Regras de derivação|regras de derivação]] e a técnica da mudança de variável, podemos definir algumas integrais indefinidas cujo cálculo é imediato:
+$$
+\begin{array}{|c|c|}
+\hline
+\displaystyle\int{x^\alpha}\,dx=\frac{x^{\alpha+1}}{\alpha+1}+C, (\alpha \not=-1) &\displaystyle \int{\frac{1}{x}}\,dx=\ln{|x|}+C \\
+\hline
+\displaystyle\int{\sin{x}}\,dx=-\cos{x}+C &\displaystyle \int{\cos{x}\,dx=\sin{x}+C} \\
+\hline
+\displaystyle\int{e^x}\,dx=e^x+C & \displaystyle\int{a^x}\,dx=\frac{a^x}{\ln{a}}+C \\
+\hline
+\displaystyle\int{\sec^2{x}\,dx=\tan{x}+C} & \displaystyle\int{\csc^2{x}\,dx=-\cot{x}+C} \\
+\hline
+\displaystyle\int{\sec{x}\cdot\tan{x}}\,dx=\sec{x}+C &\displaystyle \int{\csc{x}\cdot\cot{x}}\,dx=-\csc{x}+C \\
+\hline
+\displaystyle\int{\sec{x}}\,dx=\ln{|\sec{x}+\tan{x}|} +C &\displaystyle \int{\csc{x}\,dx}=-\ln{|\csc{x}+\cot{x}|}+C\\
+\hline
+\displaystyle\int{\tan{x}}\,dx=-\ln{\cos{x}} +C &\displaystyle \int{\cot{x}}\,dx=\ln{|\sin{x}|} +C\\
+\hline
+\displaystyle\int{\frac{1}{1+x^2}}\,dx=\arctan{x}+C &\displaystyle \int{\frac{1}{\sqrt{1-x^2}}}\,dx=\arcsin{x}+C \\
+\hline
+\displaystyle\int{\frac{1}{a^2+x^2}}\,dx=\frac{1}{a}\arctan{\frac{x}{a}} +C &\displaystyle \int{\frac{1}{a^2-x^2}}\,dx=\frac{1}{2a}\ln{\Big|\frac{a+x}{a-x}\Big|} +C\\
+\hline
+\displaystyle\int{\frac{1}{\sqrt{a^2-x^2}}}\,dx=\arcsin{\frac{x}{a}} +C &\displaystyle\int{\frac{1}{\sqrt{x^2+\lambda}}}\,dx=\ln{|x+\sqrt{x^2+\lambda}|} +C\\
+\hline
+\end{array}
+$$
+
 ---
 
 created: 04/11/2020
-modified: 06/11/2020
+modified: 08/11/2020
 
 [[calculo1v2020aula15.pdf]]

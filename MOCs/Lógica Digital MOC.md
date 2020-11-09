@@ -10,7 +10,6 @@ This chapter is where things really start, it introduces the following concepts:
 [[Boolean algebra]]
 [[Logic synthesis]]
 [[Verilog|Introduction to Verilog]]
-[[Karnaugh maps]]
 
 ## Chapter 3 (sections 3.1 to 3.5)
 
