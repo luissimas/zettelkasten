@@ -1,6 +1,11 @@
 ## Today
 - [ ] IPA 
-	- [ ] What do I have to do?
+	- [x] What do I have to do?
+	- [ ] Setup MOC
+	- [ ] Get Books
+	- [ ] Watch class
+	- [ ] Read theory
+	- [ ] Exercise
 ## This Week
 - [ ] Lógica Digital
 	- [ ] Chapter 5
