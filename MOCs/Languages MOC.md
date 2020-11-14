@@ -4,6 +4,7 @@ Ultimamente acabei ficando fascinado pela ideia de aprender diversas línguas di
 
 ## Basics
 [[Why learn a new language?]]
+[[How to learn a new language]]
 ## Languages
 ### Português
 ### English
