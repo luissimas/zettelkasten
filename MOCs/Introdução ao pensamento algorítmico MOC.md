@@ -3,7 +3,7 @@ Essa disciplina introduz a base do pensamento computacional e algorítmico. Os d
 
 ## Aulas
 ### Semana 01
-Nessa semana fomos introduzidos à disciplina
+Nessa semana fomos introduzidos à disciplina e aos pilares do pensamento algorítmico. Fomos introduzidos aos conceitos de abstração, decomposição, reconhecimento de padrões e redução do espaço de busca.
 
 ### Semana 02
 ### Semana 03
@@ -24,6 +24,7 @@ Nessa semana fomos introduzidos à disciplina
 ### Chapter 8
 ### Chapter 9
 ### Chapter 10
+### Chapter 11
 
 ---
 

@@ -3,7 +3,7 @@
 ## This Week
 - [ ] Lógica Digital
 	- [ ] Chapter 5
-		- [ ] Setup
+		- [x] Setup
 		- [ ] Flip-flops
 		- [ ] Registers
 		- [ ] Shift registers

@@ -19,9 +19,17 @@ This chapter presents the topics involving arithmetic circuits and operations:
 [[Representation of numbers in Verilog]]
 
 ## Chapter 4 
-This chapter presents the basics of combinational circuits:
+This chapter presents some interesting combinational circuits:
 [[Multiplexers]]
 [[Encoders and decoders]]
+
+## Chapter 5
+Here we are introduced to circuits that can store infomation, these circuits are called *sequential circuits*.
+[[Sequential circuits]]
+[[Flip-flops]]
+[[Registers]]
+[[Counters]]
+[[Implementation of storage in Verilog]]
 
 ---
 
