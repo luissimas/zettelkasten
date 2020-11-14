@@ -1,19 +1,4 @@
 ## Today
-- [ ] CDI
-	- [x] Notes aula 16
-	- [ ] Problemas
-		- [x] 1
-		- [x] 2
-		- [ ] 3
-		- [ ] 4
-		- [ ] 5
-		- [ ] 6
-		- [ ] 7
-		- [ ] 8
-- [x] CAP
-	- [x] URI Exercises
-		- [x] OBG
-		- [x] Prova
 - [ ] IPA 
 	- [ ] What do I have to do?
 ## This Week
@@ -27,7 +12,7 @@
 		- [x] Verilog examples
 	- [ ] Chapter 4
 		- [ ] Combinational circuits
-		- [ ] Multiplexers
+		- [x] Multiplexers
 		- [ ] Encoders and decoders
 - [ ] Dotfiles repo
 - [ ] Vim setup
