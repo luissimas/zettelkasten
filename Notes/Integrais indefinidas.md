@@ -24,7 +24,7 @@ Os dois métodos usado para o cálculo de integrais indefinidas são a [[Integra
 Vale lembrar que nenhuma dessas técnicas resolvem todos os problemas envolvendo integrais, mas pelo menos nos ajudam em boa parte deles.
 
 # Integrais imediatas
-Usando as [[Retas tangentes e regras de derivação#Regras de derivação|regras de derivação]] e as [[#Técnicas de integração|técnicas de integração]], podemos definir algumas integrais indefinidas cujo cálculo é imediato:
+Usando as [[Retas tangentes e regras de derivação#Regras de derivação|regras de derivação]] e as [[Integrais indefinidas#Técnicas de integração|técnicas de integração]], podemos definir algumas integrais indefinidas cujo cálculo é imediato:
 $$
 \begin{array}{|c|c|}
 \hline

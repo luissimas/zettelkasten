@@ -3,9 +3,9 @@
 	- [x] What do I have to do?
 	- [ ] Setup MOC
 	- [ ] Get Books
-	- [ ] Watch class
-	- [ ] Read theory
-	- [ ] Exercise
+	- [x] Watch class
+	- [x] Read theory
+	- [x] Exercise
 ## This Week
 - [ ] Lógica Digital
 	- [ ] Chapter 5
