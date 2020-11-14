@@ -1,9 +1,10 @@
 ## Today
-- [ ] IPA 
-## This Week
+- [ ] IPA
+	- [ ] Chapter 1
 - [ ] Lógica Digital
 	- [ ] Chapter 5
 		- [x] Setup
+		- [ ] Latches
 		- [ ] Flip-flops
 		- [ ] Registers
 		- [ ] Shift registers
