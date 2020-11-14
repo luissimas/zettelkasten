@@ -26,6 +26,5 @@ In [[Lógica Digital MOC#Chapter 3 sections 3 1 to 3 5|Chapter 3]] we return to 
 
 ---
 
-links: 
 created: 07/11/2020
 modified: 07/11/2020

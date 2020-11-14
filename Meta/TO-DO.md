@@ -1,17 +1,33 @@
 ## Today
+- [ ] CDI
+	- [x] Notes aula 16
+	- [ ] Problemas
+		- [x] 1
+		- [x] 2
+		- [ ] 3
+		- [ ] 4
+		- [ ] 5
+		- [ ] 6
+		- [ ] 7
+		- [ ] 8
 - [x] CAP
-	- [x] Leitura
-	- [x] Funcoes
-	- [x] Curso UFMG
-	- [x] Site Linguagem C
-	- [x] Exercícios
-
+	- [x] URI Exercises
+		- [x] OBG
+		- [x] Prova
+- [ ] IPA 
+	- [ ] What do I have to do?
 ## This Week
 - [ ] Lógica Digital
 	- [x] Setup Books notes
 	- [x] Chapter 1
-	- [ ] Chapter 2
-	- [ ] Chapter 3
+	- [x] Chapter 2
+	- [x] Chapter 3
+		- [x] Representation of numers
+		- [x] Arithmetic operations
+		- [x] Verilog examples
 	- [ ] Chapter 4
+		- [ ] Combinational circuits
+		- [ ] Multiplexers
+		- [ ] Encoders and decoders
 - [ ] Dotfiles repo
 - [ ] Vim setup

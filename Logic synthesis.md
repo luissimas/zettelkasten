@@ -9,6 +9,5 @@ The are serveral ways to realize the logic synthesis, in the book we are present
 
 ---
 
-links: 
 created: 09/11/2020
 modified: 09/11/2020

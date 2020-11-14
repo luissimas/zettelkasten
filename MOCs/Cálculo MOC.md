@@ -2,6 +2,7 @@
 Cálculo é o ramo da matemática que estuda a taxa de variação de grandezas, geramente representadas por funções. O curso é baseado no material das aulas do Prof. João Sampaio, disponível no final de cada nota. Vale lembrar que tivemos enfoque na área prática, logo não há muitas demonstrações nas notas. 
 
 ## Unidade 2
+Nessa unidade foram introduzidos os conceitos de limites e derivadas.
 [[Velocidade instantânea e derivadas]]
 [[Retas tangentes e regras de derivação]]
 [[Derivação em cadeia e implícita]]
@@ -11,6 +12,7 @@ Cálculo é o ramo da matemática que estuda a taxa de variação de grandezas, 
 [[Máximos e mínimos]]
 
 ## Unidade 3
+Aqui os conceitos de derivadas foram ampliados, foram introduzidas novas regras de derivação e aplicações práticas das derivadas. 
 [[Funções exponenciais e logarítmicas]]
 [[Derivação de funções exponenciais e logarítmicas]]
 [[Funções trigonométricas]]
@@ -19,10 +21,12 @@ Cálculo é o ramo da matemática que estuda a taxa de variação de grandezas, 
 [[Taxas relacionadas]]
 
 ## Unidade 4
+Nessa unidade demos início ao estudo de integrais, desde as integrais indefinidas até as integrais definidas e o teorema fundamental do cálculo. Ao longo do caminho foram coletadas diversas integrais imediatas.
 [[Integrais indefinidas]]
+[[Integração por partes]]
+[[Integrais definidas]]
 
 ---
 
-links: [[UFSCar MOC]]
 created: 30/10/2020
-modified: 06/11/2020
+modified: 13/11/2020

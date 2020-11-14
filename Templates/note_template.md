@@ -1,8 +1,6 @@
-# 
-
+# {{templater_title}}
 
 ---
 
-links: 
 created: {{date}}
 modified: {{date}}

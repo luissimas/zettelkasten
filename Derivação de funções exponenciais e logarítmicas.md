@@ -20,4 +20,5 @@ $$
 
 created: 03/11/2020
 modified: 06/11/2020
+
 [[calculo1v2020aula10.pdf]]

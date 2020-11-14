@@ -3,6 +3,7 @@
 
 [[Cálculo MOC]]
 [[Lógica Digital MOC]]
+[[Introdução ao pensamento algorítmico MOC]]
 
 ## 2 Semestre
 
