@@ -24,8 +24,8 @@ This chapter presents some interesting combinational circuits:
 [[Encoders and decoders]]
 
 ## Chapter 5
-Here we are introduced to circuits that can store infomation, these circuits are called *sequential circuits*.
-[[Sequential circuits]]
+Here we were introduced to circuits that can store infomation, these circuits are called [[Sequential circuits|sequential circuits]]. We also were introduced to the different elements that are used to store information:
+[[Latches]]
 [[Flip-flops]]
 [[Registers]]
 [[Counters]]
