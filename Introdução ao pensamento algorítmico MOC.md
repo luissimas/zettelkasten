@@ -1,4 +1,5 @@
 # Introdução ao pensamento algorítmico MOC 
+Essa disciplina introduz a base do pensamento computacional e algorítmico. 
 ## Aula 01
 - Decomposicao
 - Reconhecimento de padroes
