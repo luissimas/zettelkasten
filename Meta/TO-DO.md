@@ -6,8 +6,8 @@
 		- [x] Setup
 		- [x] Latches
 		- [x] Flip-flops
-		- [ ] Registers
-		- [ ] Shift registers
+		- [x] Registers
+		- [x] Shift registers
 		- [ ] counters
 		- [ ] verilog	
 - [ ] Dotfiles repo
