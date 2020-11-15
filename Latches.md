@@ -13,7 +13,9 @@ This latch simplifies the previous latches, instead of two inputs (S and R) we n
 ![[gatedDlatch.png]]
 
 ## Propagation Delay
-One key factor to consider is that in real aplications, there is a propagation delay to the signals inside a circuit. Therefore, in a latch we can sometimes have situations were the input signals change at the same time as the *Clk* signal. This could cause unpredictable results and lost of the input signal.  
+One key factor to consider is that in real aplications, there is a propagation delay to the signals inside a circuit. Therefore, in a latch we can sometimes have situations were the input signals change at the same time as the *Clk* signal. This could cause unpredictable results and lost of the input signal. In the image we can see represented in the diagram the "time" frame in wich the input signal has to be *stable* in order to make sure that de propagation delay will not mess up the signal.
+![[propagationdelay.png]]
+This created the need for a type of circuit that can sync the *Clk* changes in a way that allows the input signals to always be stable for the change. These circuits are called [[Flip-Flops]].
 
 ---
 

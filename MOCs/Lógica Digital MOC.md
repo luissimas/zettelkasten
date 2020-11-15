@@ -26,7 +26,7 @@ This chapter presents some interesting combinational circuits:
 ## Chapter 5
 Here we were introduced to circuits that can store infomation, these circuits are called [[Sequential circuits|sequential circuits]]. We also were introduced to the different elements that are used to store information:
 [[Latches]]
-[[Flip-flops]]
+[[Flip-Flops]]
 [[Registers]]
 [[Counters]]
 [[Implementation of storage in Verilog]]
