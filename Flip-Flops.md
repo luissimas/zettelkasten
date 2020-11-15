@@ -1,5 +1,6 @@
 # Flip-Flops
-Flip-flops have a behaviour very similar to [[Latches|latches]], but they differ in the sense that in flip-flops, the stored signal can change only once during one clock cycle. Not only that, but the output state can change only on the *edge* of the clock signal. If the state changes when the clock signal goes from $0$ to $1$, we say that it  **
+Flip-flops have a behaviour very similar to [[Latches|latches]], but they differ in the sense that in flip-flops, the stored signal can change only once during one clock cycle. Not only that, but the output state can change only on the *edge* of the clock signal. 
+If the flip-flop allows state changes only when the clock signal goes from $0$ to $1$, we say that it is a *positive-edge-triggered* flip-flop. If it allows state changes only when the clock signal goes from $1$ to $0$, we say that it is a *negative-edge-triggered* flip-flop.
 
 ## Master-Slave D Flip-Flop
 This way of implementation uses two [[Latches#Gated D Latch|gated D latches]] that are controled by the same clock. In this type of circuit the master and slave can never be enabled at the same time. This gives the circuit the characteristic of only changing the output state when the clock goes from $1$ to $0$, also called the *negative edge* of the clock.
@@ -16,7 +17,7 @@ This type of flip-flops allows two new inputs to change the value of the output 
 ![[clearandpresetflip-flops.png]]
 
 ## T Flip-Flop
-The T flip-flop is a simple modification do the D flip-flop. Here we conect the outputs to the inputs of the circuit and controll them using a control input $T$. The circuit maintains the original state if $T=0$, and inverts its state if $T=1$.
+The T flip-flop is a simple modification do the D flip-flop. Here we conect the outputs to the inputs of the circuit and controll them using a control input $T$. The circuit maintains the state if $T=0$, and inverts its state if $T=1$.
 
 ![[Tflip-flops.png]]
 

@@ -5,7 +5,7 @@
 	- [ ] Chapter 5
 		- [x] Setup
 		- [x] Latches
-		- [ ] Flip-flops
+		- [x] Flip-flops
 		- [ ] Registers
 		- [ ] Shift registers
 		- [ ] counters
