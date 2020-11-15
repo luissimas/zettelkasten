@@ -30,10 +30,11 @@ Here we were introduced to circuits that can store infomation, these circuits ar
 [[Registers]]
 [[Counters]]
 [[Implementation of storage in Verilog]]
+[[Non-blocking assignments]]
 
 ---
 
 created: 06/11/2020
-modified: 11/11/2020
+modified: 15/11/2020
 
 [[Fundamentals_of_Digital_Logic.pdf]]

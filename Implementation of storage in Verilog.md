@@ -14,10 +14,10 @@ module D_latch(D, Clk, Q);
 endmodule
 ```
 
-For flip-flops we have to use the `posedge` and `negedge` keywords, these keywords describe the desired clock edge that trigger the circuit.
+For flip-flops we have to use the `posedge` and `negedge` keywords, these keywords describe the desired clock edge that trigger the evaluation of the expression.
 
 ```verilog
-module flipflop (D, Clock, Q)
+module flipflop(D, Clock, Q);
 	input D, Clock;
 	output reg Q;
 	
@@ -26,6 +26,8 @@ module flipflop (D, Clock, Q)
 
 endmodule
 ```
+
+To describe counters and registers we have to use the [[Non-blocking assignments|non-blocking assignments]], otherwise we'll end up with a circuit that doesn't make sense.
 
 ---
 

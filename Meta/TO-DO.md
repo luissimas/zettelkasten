@@ -9,6 +9,6 @@
 		- [x] Registers
 		- [x] Shift registers
 		- [x] counters
-		- [ ] verilog	
+		- [x] verilog	
 - [ ] Dotfiles repo
 - [ ] Vim setup
