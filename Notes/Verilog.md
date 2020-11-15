@@ -45,9 +45,10 @@ module example3(input x1,x2,s,f);
 endmodule
 ```
 
-Here the procedural statement `if-else` is contained inside de `always` block, wich also causes the expression to be evaluated every time one or more values inside the `@()` list change. If a signal is assigned a value inside a procedural statement, then it has to be declared using the keyword `reg`.
+Here the procedural statement `if-else` is contained inside de `always` block, wich also causes the expression to be evaluated every time one or more values inside the `@()` list change. If a signal is assigned a value inside a procedural statement, then it has to be declared using the keyword `reg`. 
+When multiple statements are included in an `always` block, the `begin` and `end` keywords are needed; otherwise, these keywords can be omitted.
 
 ---
 
 created: 09/11/2020
-modified: 10/11/2020
+modified: 15/11/2020
