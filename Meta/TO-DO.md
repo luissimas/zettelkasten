@@ -4,7 +4,7 @@
 - [ ] Lógica Digital
 	- [ ] Chapter 5
 		- [x] Setup
-		- [ ] Latches
+		- [x] Latches
 		- [ ] Flip-flops
 		- [ ] Registers
 		- [ ] Shift registers
