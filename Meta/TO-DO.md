@@ -8,7 +8,7 @@
 		- [x] Flip-flops
 		- [x] Registers
 		- [x] Shift registers
-		- [ ] counters
+		- [x] counters
 		- [ ] verilog	
 - [ ] Dotfiles repo
 - [ ] Vim setup

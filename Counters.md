@@ -20,14 +20,19 @@ We can implement the ability to enable and clear the counters with the simple ad
 ![[clearenablesynccounter.png]]
 
 ## Counters with Parallel Load 
-This type of counters allow us to start with a count different than $0$ or the limit of the counter. Here we implement a synchronous counter with [[Flip-Flops#Master-Slave D Flip-Flop|D flip-flops]] and [[Multiplexers|multiplexers]]. We also have to add the control input *Load*. When $Load=0$ the circuit counts. When $Load=1$ the circuit loads a new value from the inputs to the flip-flops.
+This type of counters allow us to start the count with an arbitary external value. Here we implement a synchronous counter with [[Flip-Flops#Master-Slave D Flip-Flop|D flip-flops]] and [[Multiplexers|multiplexers]]. We also have to add the control input *Load*. When $Load=0$ the circuit counts. When $Load=1$ the circuit loads a new value from the inputs to the flip-flops.
 
-
+![[parallelloadcounter.png]]
 
 ## Reset Synchronization
+This type of implementation allow us to reset the count to $0$ when the count gets to an specific value. Here we use a synchronous counter with parallel load, its parallel load feature is used to reset the counter when the count reaches, in this case, $5$.
+
+![[synresetcounter.png]]
 
 ## BCD Counter
+This type of counter is very interesting because it allows us to code the binary count to decimal representation.
 
+![[bcdcounter.png]]
 
 ---
 
