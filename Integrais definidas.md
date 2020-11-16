@@ -6,8 +6,6 @@ $$
 \int_a^b{f(x)}\,dx=\text{área sob o gráfico de f no intervalo } [a,b]
 $$
 
-Porém, se $f(x)<0$ em $[a,b]$, teremos uma área com valor negativo, que na verdade corresponde ao valor positivo da área do gráfico.
-
 ## Regras de derivação
 ### Por substituição
 
