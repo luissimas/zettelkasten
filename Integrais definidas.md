@@ -37,10 +37,8 @@ $$
 ## Teorema fundamental do cálculo
 Serve para conectar a definição de integral definida como cálculo das funções primitivas ([[Integrais indefinidas]]), nos permitindo utilizar as técnicas de integração no cálculo de áreas sob o gráfico de funções.
 
-## Técnicas de integração 
-[[Integração definida por mudança de variável]]
 
-[[Integração definida por partes]]
+## Técnicas de integração 
 
 # Aula
 - [ ] Figuras com os gráficos da aula

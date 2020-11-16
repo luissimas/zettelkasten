@@ -1,4 +1,4 @@
-# Integração indefinida por partes
+# Integração por partes
 A integração por partes é equivalente a uma [[Retas tangentes e regras de derivação#Regras de derivação|regra do produto]] inversa.  A ideia é que aplicando a integração por partes, nós transformamos uma integral em outra, dessa vez mais fácil de ser calculada.
 Supondo que $u(x)$ e $v(x)$ são funções deriváveis em um intervalo $I\subset\mathbb{R}$, temos que:
 $$
@@ -24,7 +24,7 @@ $$
 $$
 A ideia é sempre substituir:
 - como função $u$:  a função mais a esquerda no anagrama;
-- como diferencial $dv$ : a função mais a direita no anagrama;
+- como diferencial $dv$: a função mais a direita no anagrama;
 
 ---
 

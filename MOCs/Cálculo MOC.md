@@ -23,7 +23,7 @@ Aqui os conceitos de derivadas foram ampliados, foram introduzidas novas regras 
 ## Unidade 4
 Nessa unidade demos início ao estudo de integrais, desde as integrais indefinidas até as integrais definidas e o teorema fundamental do cálculo. Ao longo do caminho foram coletadas diversas integrais imediatas.
 [[Integrais indefinidas]]
-[[Integração indefinida por partes]]
+[[Integração por partes]]
 [[Integrais definidas]]
 
 ---
