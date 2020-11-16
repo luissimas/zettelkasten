@@ -1,13 +1,15 @@
 # Integrais definidas
-A ideia das integrais definidas surge a partir da situação da soma das áreas de diversos retângulos sob o gráfico de $f$. Porém conforme os retângulos vão ficando cada vez mais estreitos e mais numerosos, podemos dizer que a soma da área desses retângulos (tão estreitos quanto linhas, ou seja: infinitamente estreitos) tende a $\displaystyle\int_a^b{f(x)}\,dx$, ou seja:
+As integrais definidas são usadas para calcular a área sob o gráfico de uma função $f$ em um **intervalo definido**.\
+Imagine uma situação na qual desejamos calcular a área sob o gráfico de uma curva. Uma forma intuitiva de obter aproximações da área dessa curva é dividir o espaço sob a curva em vários retângulos como na figura:
+
+Assim, a soma das áreas desses diversos retângulos sob o gráfico de $f$ é uma aproximação da área sob o gráfico de $f$. Dessa forma, é possível deduzir que quanto mais retângulos mais precisa fica essa aproximação, pois sua base vai ficando cada vez mais estreita, até que quase não hajam "sobras". Conhecendo o conceito de limites, podemos dizer então que a base dos triângulos tende a $0$, podemos dizer então que a soma da área desses retângulos (tão estreitos quanto linhas, ou seja: infinitamente estreitos) tende a $\displaystyle\int_a^b{f(x)}\,dx$, que representa a área sob o gráfico de $f$ ou seja:
 $$
 \lim_{\max{\Delta x_i\to 0}}\sum_{i=1}^{n}f(c_i)\Delta x_i = \int_a^b{f(x)}\,dx
 $$
-Então, se $f(x)>=0$ em $[a,b]$, temos:
+Então, temos:
 $$
-\int_a^b{f(x)}\,dx=\text{área sob o gráfico de f no intervalo } [a,b]
+\int_a^b{f(x)}\,dx=\text{área (com sinal) sob o gráfico de f no intervalo } [a,b]
 $$
-É importante ressaltar que essa área tem sinal. E para algumas aplicações isso faz diferença.
 
 ## Propriedades
 Podemos assumir algumas propriedades das integrais definidas:
@@ -26,14 +28,14 @@ $$
 $$
 É possível ainda definir o *Teorema do valor médio para integrais*, que fornece a seguinte definição:
 
-Se $f$ é contínua no intervalo [a,b], existe $c\in[a,b]$ tal que
+Se $f$ é contínua no intervalo $[a,b]$, existe $c\in[a,b]$ tal que
 $$
 \int_a^b{f(x)}\,dx=f(c)\cdot(b-a)
 $$
 
 
 ## Teorema fundamental do cálculo
-Serve para conectar a definição de integral definida como cálculo das funções primitivas ([[Integrais indefinidas]]).
+Serve para conectar a definição de integral definida como cálculo das funções primitivas ([[Integrais indefinidas]]), nos permitindo utilizar as técnicas de integração no cálculo de áreas sob o gráfico de funções.
 
 ## Técnicas de integração 
 [[Integração definida por mudança de variável]]
