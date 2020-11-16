@@ -9,9 +9,11 @@
 	- [ ] Questionário
 	- [ ] Prática
 - [ ] CDI
-	- [ ] Aula 17
-	- [ ] Notes
+	- [x] Aula 17
+	- [x] Notes
 	- [ ] Problemas
+	- [ ] Tentar calcular a área de um círculo
+	- [ ] Tentar calcular o volume de uma esfera
 - [ ] Vim setup
 	- [ ] CoC
 	- [ ] Theme
