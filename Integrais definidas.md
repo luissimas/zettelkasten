@@ -14,13 +14,19 @@ Porém, se $f(x)<0$ em $[a,b]$, teremos uma área com valor negativo, que na ver
 ### Por partes
 
 ## Teorema fundamental do cálculo
-
+Serve para conectar a definição de integral definida como cálculo das funções primitivas ([[Integrais indefinidas]]).
 
 ## Técnicas de integração 
 [[Integração definida por mudança de variável]]
 
 [[Integração definida por partes]]
 
+# Aula
+- Descrever melhor a notação
+	- Notação com o somatório das areas dos retangulos
+- Figuras com os gráficos
+- Integral é área **com sinal**
+- 
 
 ---
 
