@@ -16,8 +16,19 @@ $$
 &\int_a^b{(f(x)+g(x))}\,dx=\int_a^b{f(x)}\,dx+\int_a^b{g(x)}\,dx\\
 &\int_a^b{k\cdot f(x)}\,dx=k\cdot \int_a^b{f(x)}\,dx\\
 &\int_a^c{f(x)}\,dx+\int_c^b{f(x)}\,dx=\int_a^b{f(x)}\,dx\\
-&\text{se } f(x)\le g(x)\text{, para todo}x\in[a,b]\text{, então}\int_a^b{f(x)}\,dx\le\int_a^b{g(x)}\,dx
+&\text{se } f(x)\le g(x)\text{, para todo }x\in[a,b]\text{, então}\int_a^b{f(x)}\,dx\le\int_a^b{g(x)}\,dx
 \end{aligned}
+$$
+Existem ainda algumas convenções úteis da notação de integrais definidas, essas propriedades não partem de nenhuma definição, portanto são apenas convenções para facilitar o uso das integrais.
+$$
+\int_a^a{f(x)}\,dx=0\\
+\int_b^a{f(x)}\,dx=- \int_a^b{f(x)}\,dx
+$$
+É possível ainda definir o *Teorema do valor médio para integrais*, que fornece a seguinte definição:
+
+Se $f$ é contínua no intervalo [a,b], existe $c\in[a,b]$ tal que
+$$
+\int_a^b{f(x)}\,dx=f(c)\cdot(b-a)
 $$
 
 
@@ -34,9 +45,12 @@ Serve para conectar a definição de integral definida como cálculo das funçõ
 - [X] Integral é área **com sinal**
 - [X] Descrever melhor a notação
 	- [X] Notação com o somatório das areas dos retângulos
-- [ ] Propriedades (Proposição 17.2)
-- [ ] Convenções da notação (Observação 17.5)
+- [X] Propriedades (Proposição 17.2)
+- [X] Convenções da notação (Observação 17.5)
 - [ ] Teorema fundamental do cálculo (conectar integral definida com indefinida)
+	- [ ] Primeira versão 
+	- [ ] Segunda versão
+- [ ] Técnicas de derivação
 		
 
 ---
