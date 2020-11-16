@@ -26,9 +26,10 @@ Serve para conectar a definição de integral definida como cálculo das funçõ
 - Integral é área **com sinal**
 - Descrever melhor a notação
 	- Notação com o somatório das areas dos retângulos
-- Teorema fundamental do cálculo (conectar integral definida com indefinida)
 - Propriedades (Proposição 17.2)
 - Convenções da notação (Observação 17.5)
+- Teorema fundamental do cálculo (conectar integral definida com indefinida)
+		
 
 ---
 
