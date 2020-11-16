@@ -1,14 +1,20 @@
 ## Today
 - [ ] IPA
 	- [ ] Chapter 1
-- [ ] Lógica Digital
-	- [ ] Chapter 5
-		- [x] Setup
-		- [x] Latches
-		- [x] Flip-flops
-		- [x] Registers
-		- [x] Shift registers
-		- [x] counters
-		- [x] verilog	
-- [ ] Dotfiles repo
+	- [ ] Aula
+	- [ ] Exercícios presença
+- [ ] LD
+	- [ ] Exercício PDF
+	- [ ] Exemplos verilog
+	- [ ] Questionário
+	- [ ] Prática
+- [ ] CDI
+	- [ ] Aula 17
+	- [ ] Notes
+	- [ ] Problemas
 - [ ] Vim setup
+	- [ ] CoC
+	- [ ] Theme
+	- [ ] File tree
+	- [ ] Keymaps
+	

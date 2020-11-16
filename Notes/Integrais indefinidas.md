@@ -20,7 +20,7 @@ $$
 $$
 
 # Técnicas de integração
-Os dois métodos usado para o cálculo de integrais indefinidas são a [[Integração por mudança de variável|integração por mudança de variável]] e a [[Integração por partes|integração por partes]].
+Os dois métodos usado para o cálculo de integrais indefinidas são a [[Integração indefinida por mudança de variável|integração por mudança de variável]] e a [[Integração indefinida por partes|integração por partes]].
 Vale lembrar que nenhuma dessas técnicas resolvem todos os problemas envolvendo integrais, mas pelo menos nos ajudam em boa parte deles.
 
 # Integrais imediatas
