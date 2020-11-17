@@ -1,6 +1,7 @@
 # Retas tangentes
 A reta tangente é uma interpretação geométrica da derivada. Sendo $f(x)$ uma função derivável, temos que $f'(x_0)$ é o coeficiente angular (inclinação) da reta tangente ao gráfico de $f(x)$ no ponto $P_0=(x_0, f(x_0))$.
-![[derivada_tangente.png]]
+![](../Attachments/Calc1/derivada_tangente.png)
+
 A equação dessa reta tangente é dada por:
 $$
 y-y_0=f'(x_0)(x-x_0)

@@ -19,7 +19,8 @@ module example_blocking(D, Clock, Q1, Q2);
 endmodule
 ```
 Produces:
-![[blocking.png]]
+![](../Attachments/LD/blocking.png)
+
 
 ```verilog
 module example_nonblocking(D, Clock, Q1, Q2);
@@ -35,7 +36,8 @@ module example_nonblocking(D, Clock, Q1, Q2);
 endmodule
 ```
 Produces:
-![[nonblocking.png]]
+![](../Attachments/LD/nonblocking.png)
+
 
 ---
 
