@@ -13,10 +13,8 @@
 	- [x] Notes
 	- [ ] Problemas
 	- [ ] Tentar calcular a área de um círculo
-	- [ ] Tentar calcular o volume de uma esfera
-- [ ] Vim setup
-	- [ ] CoC
-	- [ ] Theme
-	- [ ] File tree
-	- [ ] Keymaps
-	
+- [ ] CAP
+	- [x] Leituras
+	- [x] Exercícios
+	- [ ] URI
+	- [ ] Prova
