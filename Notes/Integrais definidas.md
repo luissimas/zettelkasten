@@ -25,8 +25,10 @@ $$
 $$
 Existem ainda algumas convenções úteis da notação de integrais definidas, essas propriedades não partem de nenhuma definição, portanto são apenas convenções para facilitar o uso das integrais.
 $$
-\int_a^a{f(x)}\,dx=0\\
-\int_b^a{f(x)}\,dx=- \int_a^b{f(x)}\,dx
+\begin{aligned}
+&\int_a^a{f(x)}\,dx=0\\
+&\int_b^a{f(x)}\,dx=- \int_a^b{f(x)}\,dx
+\end{aligned}
 $$
 É possível ainda definir o *Teorema do valor médio para integrais*, que fornece a seguinte definição:
 

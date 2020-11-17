@@ -12,7 +12,6 @@
 	- [x] Aula 17
 	- [x] Notes
 	- [ ] Problemas
-	- [ ] Tentar calcular a área de um círculo
 - [ ] CAP
 	- [x] Leituras
 	- [x] Exercícios
