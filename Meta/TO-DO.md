@@ -8,11 +8,11 @@
 	- [x] Exemplos verilog
 	- [x] Questionário
 	- [ ] Prática
-- [ ] CDI
+- [x] CDI
 	- [x] Aula 17
 	- [x] Notes
 	- [x] Problemas
-	- [ ] Resolver os últimos
+	- [x] Resolver os últimos
 - [ ] CAP
 	- [x] Leituras
 	- [x] Exercícios

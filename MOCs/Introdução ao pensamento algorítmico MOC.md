@@ -16,7 +16,7 @@ Ok, preciso estudar o primeiro capítulo do livro e fazer os exercícios propost
 ### Semana 08
 
 ## Book
-O livro-base da disciplina é o [[GrokkingAlgorithms.pdf|Grooking Algorithms]], um livro com várias ilustrações que busca mostrar de forma intuitiva os conceitos de algoritmos.
+O livro-base da disciplina é o [[GrokkingAlgorithms.pdf|Grooking Algorithms]], um livro com várias ilustrações que busca mostrar de forma intuitiva os conceitos de algoritmos. Como a minha versão do livro é escrita em inglês as notas daqui pra frente estarão todas em inglês também.
 ### Chapter 1
 This chapter introduces the base concepts of algorithms.
 [[Binary search]]
