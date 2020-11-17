@@ -2,7 +2,7 @@
 As integrais definidas são usadas para calcular a área sob o gráfico de uma função $f$ em um **intervalo definido**.\
 Imagine uma situação na qual desejamos calcular a área sob o gráfico de uma curva. Uma forma intuitiva de obter aproximações da área dessa curva é dividir o espaço sob a curva em vários retângulos como na figura:
 
-![[integraldefinidagrafico.png]]
+![image](../Attachments/Calc1/integraldefinidagrafico.png)
 
 Assim, a soma das áreas desses diversos retângulos sob o gráfico de $f$ é uma aproximação da área sob o gráfico de $f$. Dessa forma, é possível deduzir que quanto mais retângulos mais precisa fica essa aproximação, pois sua base vai ficando cada vez mais estreita, até que quase não hajam "sobras". Conhecendo o conceito de limites, podemos dizer então que a base dos triângulos tende a $0$, podemos dizer então que a soma da área desses retângulos (quase tão estreitos quanto linhas, ou seja: infinitamente estreitos) tende a $\displaystyle\int_a^b{f(x)}\,dx$, que representa a área sob o gráfico de $f$ ou seja:
 $$

@@ -81,7 +81,7 @@ $$
 
 ## Adder and subtractor circuit
 To make a circuit that performs both addition and subtraction we can put a set of XOR gates (with a selector to complement or not the number to be subtracted) before a standart adder circuit, like is shown in the example: 
-![[adder_sub.png]]
+![AdderSubtractorUnit](../Attachments/LD/adder_sub.png)
 
 ---
 
