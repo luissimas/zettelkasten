@@ -1,17 +1,18 @@
 ## Today
 - [ ] IPA
 	- [ ] Chapter 1
-	- [ ] Aula
+	- [x] Aula
 	- [ ] Exercícios presença
 - [ ] LD
-	- [ ] Exercício PDF
+	- [x] Exercício PDF
 	- [x] Exemplos verilog
-	- [ ] Questionário
+	- [x] Questionário
 	- [ ] Prática
-- [x] CDI
+- [ ] CDI
 	- [x] Aula 17
 	- [x] Notes
 	- [x] Problemas
+	- [ ] Resolver os últimos
 - [ ] CAP
 	- [x] Leituras
 	- [x] Exercícios
