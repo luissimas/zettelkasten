@@ -5,7 +5,7 @@
 	- [ ] Exercícios presença
 - [ ] LD
 	- [ ] Exercício PDF
-	- [ ] Exemplos verilog
+	- [x] Exemplos verilog
 	- [ ] Questionário
 	- [ ] Prática
 - [x] CDI
