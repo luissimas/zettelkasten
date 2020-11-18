@@ -6,7 +6,7 @@
 - [ ] LD
 	- [x] Exercício PDF
 	- [x] Exemplos verilog
-	- [ ] Questionário
+	- [x] Questionário
 	- [ ] Prática
 - [ ] CDI
 	- [x] Aula 17
@@ -27,9 +27,9 @@
 			- [ ] 3
 	- [ ] Simulados
 	- [ ] Trabalho
-		- [ ] 1
-		- [ ] 2
-		- [ ] 3
+		- [x] 1
+		- [x] 2
+		- [x] 3
 		- [ ] 4
 		- [ ] 5
 		- [ ] Format
