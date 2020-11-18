@@ -1,4 +1,4 @@
-## Today
+## UFSCar
 - [ ] IPA
 	- [ ] Chapter 1
 	- [x] Aula
@@ -6,16 +6,37 @@
 - [ ] LD
 	- [x] Exercício PDF
 	- [x] Exemplos verilog
-	- [x] Questionário
+	- [ ] Questionário
 	- [ ] Prática
-- [x] CDI
+- [ ] CDI
 	- [x] Aula 17
 	- [x] Notes
 	- [x] Problemas
 	- [x] Resolver os últimos
+	- [ ] Aula 18
+		- [ ] Notes
+		- [ ] Problemas
+			- [ ] 1
+			- [ ] 2
+			- [ ] 3
+	- [ ] Aula 19
+		- [ ] Notes
+		- [ ] Problemas
+			- [ ] 1
+			- [ ] 2
+			- [ ] 3
+	- [ ] Trabalho
+		- [ ] 1
+		- [ ] 2
+		- [ ] 3
+		- [ ] 4
+		- [ ] 5
+		- [ ] Format
 - [ ] CAP
 	- [x] Leituras
 	- [x] Exercícios
 	- [ ] URI
 	- [ ] Prova
+	
+## Extra
 - [ ] nnn setup

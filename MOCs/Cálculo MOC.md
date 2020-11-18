@@ -25,6 +25,8 @@ Nessa unidade demos início ao estudo de integrais, desde as integrais indefinid
 [[Integrais indefinidas]]
 [[Integração por partes]]
 [[Integrais definidas]]
+[[Ampliando técnicas de integração]]
+[[Substituições trignométricas e funções racionais]]
 
 ---
 
