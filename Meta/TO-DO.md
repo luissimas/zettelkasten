@@ -18,3 +18,4 @@
 	- [x] Exercícios
 	- [ ] URI
 	- [ ] Prova
+- [ ] nnn setup
