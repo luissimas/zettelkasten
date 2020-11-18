@@ -56,7 +56,6 @@ $$
 \text{se }\quad \int{f(x)}\,dx=F(x)+C\quad\text{então}\quad \int_a^b{f(x)}\,dx=F(b)-F(a)
 $$
 
-
 ---
 
 created: 15/11/2020
