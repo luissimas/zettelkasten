@@ -2,6 +2,7 @@
 - [ ] IPA
 	- [ ] Chapter 1
 	- [x] Aula
+	- [ ] Exercícios
 	- [ ] Exercícios presença
 - [ ] LD
 	- [x] Exercício PDF
