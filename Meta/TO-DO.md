@@ -37,7 +37,7 @@
 - [ ] CAP
 	- [x] Leituras
 	- [x] Exercícios
-	- [ ] URI
+	- [x] URI
 	- [ ] Prova
 	
 ## Extra
