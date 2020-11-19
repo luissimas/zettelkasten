@@ -4,6 +4,7 @@ Binary search é um algorítmo que busca por um elemento em uma lista ordenada e
 - nunca usar $m= \frac{min+max}{2}$, pois a soma pode causar overflow dos valores inteiros
 - usar $m=min + \frac{max-min}{2}$, assim não há a possibilidade de overflow
 
+
 ---
 
 created: 19/11/2020
