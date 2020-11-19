@@ -2,14 +2,14 @@
 Essa disciplina introduz a base do pensamento computacional e algorítmico. Os dois livros nos quais a disciplina se baseia estão referenciados no final dessa nota. Por enquanto estou decidindo seguir mais com o *Grokking Algorithms*, gostei bastante da proposta e da forma como ele se estrutura. Apesar disso, as notas compilam conteúdo tanto das aulas quanto de ambos os livros, quando necessário.
 
 ## Book
-O livro-base da disciplina é o [[GrokkingAlgorithms.pdf|Grooking Algorithms]], um livro com várias ilustrações que busca mostrar de forma intuitiva os conceitos de algoritmos. Como a minha versão do livro é escrita em inglês as notas daqui pra frente estarão todas em inglês também.
+O livro-base da disciplina é o [[GrokkingAlgorithms.pdf|Grooking Algorithms]], um livro com várias ilustrações que busca mostrar de forma intuitiva os conceitos de algoritmos.
 ### Chapter 1
-This chapter introduces the base concepts of algorithms.
+Esse capítulo introdus os conceitos básicos de algoritmos.
 [[Binary search]]
 [[Big O notation]]
 
 ### Chapter 2
-Here we are presented to a brief introduction of data structures and recursion
+Nesse capítulo somos introduzidos a estruturas de dados e recursão.
 [[Arrays]]
 [[Linked lists]]
 [[Recursion]]
