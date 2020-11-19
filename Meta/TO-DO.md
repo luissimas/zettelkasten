@@ -42,3 +42,4 @@
 	
 ## Extra
 - [ ] nnn setup
+- [ ] .h file for suckless themes
