@@ -1,4 +1,5 @@
 # Big O notation
+Big O notation é uma notação utilizada para descrever a velocidade de algoritmos.
 
 ---
 

@@ -3,7 +3,7 @@
 	- [ ] Chapter 1
 	- [x] Aula
 	- [ ] Exercícios
-	- [ ] Exercícios presença
+	- [x] Exercícios presença
 - [ ] LD
 	- [x] Exercício PDF
 	- [x] Exemplos verilog
