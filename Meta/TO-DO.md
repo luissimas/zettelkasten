@@ -43,3 +43,5 @@
 ## Extra
 - [ ] nnn setup
 - [ ] .h file for suckless themes
+- [ ] init.vim
+- [ ] snippets
