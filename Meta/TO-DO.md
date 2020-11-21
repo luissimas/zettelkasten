@@ -43,5 +43,5 @@
 	
 ## Extra
 - [ ] nnn setup
-- [ ] init.vim
-- [ ] snippets
+- [ ] VIM
+	- [ ] snippets
