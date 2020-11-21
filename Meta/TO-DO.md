@@ -1,6 +1,6 @@
 ## UFSCar
 - [ ] IPA
-	- [ ] Chapter 1
+	- [x] Chapter 1
 	- [x] Aula
 	- [ ] Exercícios
 	- [x] Exercícios presença
