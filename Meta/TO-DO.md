@@ -31,9 +31,10 @@
 		- [x] 1
 		- [x] 2
 		- [x] 3
-		- [ ] 4
-		- [ ] 5
-		- [ ] Format
+		- [x] 4
+		- [x] 5
+		- [x] Format
+		- [ ] Revisar
 - [ ] CAP
 	- [x] Leituras
 	- [x] Exercícios
