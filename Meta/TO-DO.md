@@ -35,14 +35,13 @@
 		- [x] 5
 		- [x] Format
 		- [ ] Revisar
-- [ ] CAP
+- [x] CAP
 	- [x] Leituras
 	- [x] Exercícios
 	- [x] URI
-	- [ ] Prova
+	- [x] Prova
 	
 ## Extra
 - [ ] nnn setup
-- [ ] .h file for suckless themes
 - [ ] init.vim
 - [ ] snippets
