@@ -17,7 +17,7 @@ Given that information, we can calculate the minimum time that the clock cycle c
 
 $$
 \begin{aligned}
-  &T_{min}=t_{cQ}+t_{gates}+t_su\\
+  &T_{min}=t_{cQ}+t_{gates}+t_{su}\\
   &F_{max}=\frac{1}{T_{min}}
 \end{aligned}
 $$
@@ -34,7 +34,7 @@ If thats true, then the signal have enough time to keep output stable. If thats 
 We desire to calculate the maximum clock frequency and determine the existence of any hold time violations on the following circuit:
 ![](../Attachments/LD/timinganalysisexample.png)
 
-Considering the longest path, we have the following
+Considering the longest path, we have the following:
 
 $$
 \begin{aligned}
@@ -46,6 +46,32 @@ $$
   &T_{min}=1+3\cdot 1,2 + 1,2 + 0,6 = 6,4\\
   &F_{max}=\frac{1}{6,4}=156,25\text{MHz}
 \end{aligned}
+$$
+
+Considering the shortest path, we have the following:
+
+$$
+\begin{aligned}
+  &t_{cQ} = 0,8\\
+  &t_{cQ} + t_{gates} > t_h\\
+  &0,8 + t_{XOR} > 0,4\\
+  &2 > 0,4
+\end{aligned}
+$$
+
+So there is no hold time violations on the circuit.
+
+## Clock skew
+Sometimes we have a delay in the arrival of clock in only one point of the circuit, we call that delay time $t_{skew}$. The clock skew has the effect of reducing the delay of that part of the circuit, because it provides aditional time before data is loaded into the flip-flop. So we have the following:
+
+$$
+  T_{min}=t_{cQ}+t_{gates}+t_{su}-t_{skew}\\
+$$
+
+This can change the critical path of the circuit that we choose to calculate the maximum frequency, so we have to pay very close attention to that. Another effect is that the hold time is increased:
+
+$$
+  t_{cQ} + t_{gates} > t_h + t_{skew}
 $$
 
 ---
