@@ -31,6 +31,7 @@ Here we were introduced to circuits that can store infomation, these circuits ar
 [[Counters]]
 [[Implementation of storage in Verilog]]
 [[Non-blocking assignments]]
+[[Timing analysis]]
 
 ---
 

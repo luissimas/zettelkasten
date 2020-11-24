@@ -4,11 +4,11 @@
 	- [x] Aula
 	- [x] Exercícios
 	- [x] Exercícios presença
-- [ ] LD
+- [x] LD
 	- [x] Exercício PDF
 	- [x] Exemplos verilog
 	- [x] Questionário
-	- [ ] Prática
+	- [x] Prática
 - [ ] CDI
 	- [x] Aula 17
 	- [x] Notes
