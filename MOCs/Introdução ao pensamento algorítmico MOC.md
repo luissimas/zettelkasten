@@ -9,14 +9,19 @@ This chapter introduces the basics of algorithms and how to measure the runtime 
 [[Big O notation]]
 
 ### Chapter 2
-Here we are introduced to the first two basic data structures. We also start to touch the concepts of recursion an
-[[Arrays]]
-[[Linked lists]]
-[[Recursion]]
+Here we are introduced to the first two basic data structures. We also are presented to our first and more basic sorting algorithm.
+[[Arrays and linked lists]]
 
 ### Chapter 3
+This chapter focus only on the topic of recursion, from its core concept to call stacks and so on.
+[[Recursion]]
+
 ### Chapter 4
+This chapter focus on the quicksort algorithm.
+
 ### Chapter 5
+Here we are presented to hash tables and its uses.
+
 ### Chapter 6
 ### Chapter 7
 ### Chapter 8
