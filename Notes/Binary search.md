@@ -1,14 +1,14 @@
 # Binary search
-Binary search é um algorítmo que busca por um elemento em uma lista ordenada e retorna a sua posição. A ideia é que a cada passo executado o espaço de busca é reduzido pela metade. Isso ocorre pois o algoritmo busca primeiro pelo elemento no meio da lista, e então compara esse elemento com alvo da busca. Caso o elemento encontrado seja menor que o alvo, o algoritmo descarta todos os valores menores que o elemento encontrado e assume que agora ele é o limite do intervalo de busca. O processo ocorre de forma análoga quando o elemento encontrado é maior que o alvo.
-Ao implementar o algoritmo, é importante se atentar a forma como vamos encontrar o meio da lista. Apesar de ser intuitivo fazer algo como 
+Binary search is an algoritm that searches for a element in a **ordered** list and returns its position. The idea is that each step reduces in half the search space. The algoritm first gets the middle element in the interval, then it compares the element with the target element, if the middle element is bigger than the target, then we set the max of the interval to the middle element, that's why is crucial that the list or array is **sorted**. The process is analog if the middle element is smaller than the target, every time that we get a new element we cut the array in half, until the middle element is equal to the target element.
+The binary search takes $\log_2{n}$ steps to find the target, in other words, its a very very efficient algorithm in wich the steps needed to find the target element grow at a lower rate as the number of elements increases. That means that the bigger the number of elements, more usefull the binary search becomes!
+When we implement this algorithm, is very very important to pay attention in the way that we obtain the middle element. It's very intuitive to do:
 $$
-m= \frac{min+max}{2}
+  m= \frac{min+max}{2}
 $$
-Essa forma nunca deve ser usada, pois é muito fácil causar overflow na soma $(min+max)$ quando lidamos com valores muito grandes. Ao invés disso, podemos usar a expressão 
+But this is a very poor aproach that can easily lead to overflow when dealing with larger numbers. We should always use the equivalent expression:
 $$
-m=min + \frac{max-min}{2}
+  m=min + \frac{max-min}{2}
 $$
-Que encontra o valor médio entre $min$ e $max$ sem risco algum de causar overflow
 
 ---
 
