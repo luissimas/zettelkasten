@@ -12,7 +12,7 @@ The nature of linked lists implies in some interesting characteristics:
 
 ## Arrays
 Arrays are probably the most common and simple way to arrange a sequence of different elements of data from the same type. Inserting items in a array is not that simple, since an array require a fixed area of memory with consecutive blocks for each index. The main advantage of the arrays are that we always know the address of every element in the array, so it's very easy to read any element by just knowing its index, without the need to go through every element before, as in linked lists.
-Knowing that, we can say that an array is very easy to read, since it allows random access of its elements. But also is very slow to insert or delete from a array, because we have to rearrange the whole structu
+Knowing that, we can say that an array is very easy to read, since it allows random access of its elements. But also is very slow to insert or delete from a array, because we have to rearrange the whole structure of the array and in some cases reallocate all memory blocks.
 $$
 \begin{array}{|c|c|c|}
 \hline
