@@ -33,6 +33,9 @@ Here we were introduced to circuits that can store infomation, these circuits ar
 [[Non-blocking assignments]]
 [[Timing analysis]]
 
+## Chapter 6
+In this chapter we continue to explore the [[Sequential circuits|sequential circuits]], learning more formal way of describing those circuits and new design techniques.
+
 ---
 
 created: 06/11/2020
