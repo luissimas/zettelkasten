@@ -11,6 +11,7 @@ This chapter introduces the basics of algorithms and how to measure the runtime 
 ### Chapter 2
 Here we are introduced to the first two basic data structures. We also are presented to our first and more basic sorting algorithm.
 [[Arrays and linked lists]]
+[[Selection sort]]
 
 ### Chapter 3
 This chapter focus only on the topic of recursion, from its core concept to call stacks and so on.
