@@ -2,7 +2,7 @@
 Calcular integrais não é uma tarefa intuitiva, há vezes em que nos deparamos com expressões dentro de integrais cuja solução não é imediata. Ao longo do tempo foram desenvolvidas diversas técnicas para manipular essas expressões em integrais mais simples de serem calculadas.
 
 ## Completando quadrados
-Completar um quadrado em uma expressão $ax^2+bx+c$ significa escrever o trinômio na forma $a(x+m)^2+n$.
+A ideia dessa técnica é transformar expressões do tipo $ax^2+bx+c$ em expressões da forma $a(x+m)^2+n$, para então aplicar as integrais da [[Notes/Integrais indefinidas#Integrais imediatas|tabela de integrais imediatas]].
 
 ## Integrais envolvendo funções trigonométricas
 
@@ -10,7 +10,7 @@ Completar um quadrado em uma expressão $ax^2+bx+c$ significa escrever o trinôm
 ## Fórmulas de recorrência
 
 
-## Decompondo em soma de  frações
+## Decompondo em soma de frações
 
 ---
 
