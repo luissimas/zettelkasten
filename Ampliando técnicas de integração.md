@@ -2,7 +2,7 @@
 ## Completando quadrados
 ## Integrais com senx cosx
 ## Fórmulas de recorrência
-## Decompondo em frações
+## Decompondo em soma de  frações
 
 ---
 
