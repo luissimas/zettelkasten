@@ -1,16 +1,6 @@
 # Ampliando técnicas de integração
 Calcular integrais não é uma tarefa intuitiva, há vezes em que nos deparamos com expressões dentro de integrais cuja solução não é imediata. Ao longo do tempo foram desenvolvidas diversas técnicas para manipular essas expressões em integrais mais simples de serem calculadas.
-
-## Completando quadrados
-A ideia dessa técnica é transformar expressões do tipo $ax^2+bx+c$ em expressões da forma $a(x+m)^2+n$, para então aplicar as integrais da [[Notes/Integrais indefinidas#Integrais imediatas|tabela de integrais imediatas]].
-
-## Integrais envolvendo funções trigonométricas
-
-
-## Fórmulas de recorrência
-
-
-## Decompondo em soma de frações
+Essas técnicas envolvem propriedades trigonométricas, completar quadrados, e usar diversos truques para manipular as expressões. Por conta disso não acho que valha a pena descrevê-las aqui, a melhor forma de fixar esse tipo de conteúdo é através da prática.
 
 ---
 
