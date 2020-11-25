@@ -1,6 +1,6 @@
 # Ampliando técnicas de integração
 ## Completando quadrados
-## Integrais com senx cosx
+## Integrais envolvendo funções trigonométricas
 ## Fórmulas de recorrência
 ## Decompondo em soma de  frações
 
