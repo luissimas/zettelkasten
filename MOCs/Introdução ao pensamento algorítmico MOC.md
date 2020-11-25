@@ -3,6 +3,7 @@ Essa disciplina introduz a base do pensamento computacional e algorítmico. Os d
 
 ## Classes
 [[Backtracking]]
+[[Prova de corretude]]
 
 ## Book
 O livro-base da disciplina é o [[GrokkingAlgorithms.pdf|Grooking Algorithms]], um livro com várias ilustrações que busca mostrar de forma intuitiva os conceitos de algoritmos.
