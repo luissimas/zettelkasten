@@ -7,6 +7,9 @@ Recursion is a technique for solving problems that evolves around the idea of a 
  ## Stack
 Stack is a simple way to arrange data one on top of each other. Computers have a *call stack* to organize the function calls, the last call is always put on top of the stack, and when the function returns, it gets removed from the stack. This is very important when it comes down to *recursion*, because each call of the function gets put on top of the stack to be executed while the previous function is paused, until the last function reaches the *base case*, then the values are returned to the previous functions, that uses this value to return another value to the previous and so on.
 
+## Performance
+The main drawback from the recursive approach is that when we call a function, all its variables are stored in the stack, so for each call we have to store all the variables "again". This can become a problem when a program has a lot of recursive calls.
+
 >"Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation."
 
 ---
