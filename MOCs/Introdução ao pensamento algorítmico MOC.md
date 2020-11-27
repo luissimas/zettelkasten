@@ -22,7 +22,7 @@ This chapter focus only on the topic of recursion, from its core concept to call
 [[Recursion]]
 
 ### Chapter 4
-This chapter focus on the quicksort algorithm.
+This chapter focus on using recursion to solve more complex problems and introduces the quicksort algorithm.
 [[Divide and conquer]]
 [[Quicksort]]
 
