@@ -23,6 +23,8 @@ This chapter focus only on the topic of recursion, from its core concept to call
 
 ### Chapter 4
 This chapter focus on the quicksort algorithm.
+[[Divide and conquer]]
+[[Quicksort]]
 
 ### Chapter 5
 Here we are presented to hash tables and its uses.
