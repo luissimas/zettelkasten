@@ -4,6 +4,7 @@ Essas técnicas envolvem propriedades trigonométricas, completar quadrados, e u
 
 ## Completamento de quadrados
 
+
 ## Integrais envolvendo funções trigonométricas
 
 ## Fórmulas de redução
