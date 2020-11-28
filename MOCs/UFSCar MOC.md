@@ -1,9 +1,9 @@
 # UFSCar
 ## 1 Semestre
 
-[[Cálculo MOC]]
-[[Lógica Digital MOC]]
-[[Introdução ao pensamento algorítmico MOC]]
+[[MOCs/CDI MOC]]
+[[MOCs/LD MOC]]
+[[MOCs/IPA MOC]]
 
 ## 2 Semestre
 

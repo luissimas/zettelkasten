@@ -21,7 +21,7 @@ $$
 
 (857)_{10}=(1101011001)_2
 $$
-In [[Lógica Digital MOC#Chapter 3 sections 3 1 to 3 5|Chapter 3]] we return to this subject when discussing the representation of negative numbers.
+In [[MOCs/LD MOC#Chapter 3 sections 3 1 to 3 5|Chapter 3]] we return to this subject when discussing the representation of negative numbers.
 
 
 ---

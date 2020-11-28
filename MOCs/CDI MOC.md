@@ -1,4 +1,4 @@
-# Cálculo
+# Cálculo 1
 Cálculo é o ramo da matemática que estuda a taxa de variação de grandezas, geramente representadas por funções. O curso é baseado no material das aulas do Prof. João Sampaio, disponível no final de cada nota. Vale lembrar que tivemos enfoque na área prática, logo não há muitas demonstrações nas notas. 
 
 ## Unidade 2
