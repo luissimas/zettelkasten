@@ -1,5 +1,7 @@
 # Books MOC 
-[[Farenheit 451]]
+Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiência muito interessante. Apreciar as texturas e construções criadas, cada adjetivo e advérbio colocados com o singular propósito de enriquecer a narrativa.
+
+[[Fahrenheit 451]]
 [[The Secret History]]
 
 ---

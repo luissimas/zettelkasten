@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "bb4cd92dfc1ae123",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae779a66333bdcc4",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "The Secret History.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "23485a42a2324da8",
+    "type": "split",
+    "children": [
+      {
+        "id": "931288ddfe6eda3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db8ca3fc3b7c6db9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "36457d0bb31b81d4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ac0368bcb794a0aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "8490e5980c93c310",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "627c2ec7479968aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "The Secret History.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "The Secret History.md",
+    "MOCs/Books MOC.md",
+    "Farenheit 451.md",
+    "Ampliando técnicas de integração.md",
+    "MOCs/LD MOC.md",
+    "Untitled.md"
+  ]
+}
