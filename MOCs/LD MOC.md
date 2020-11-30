@@ -38,7 +38,6 @@ In this chapter we continue to explore the [[Sequential circuits|sequential circ
 [[State Diagram and Table]]
 
 
-
 ---
 
 created: 06/11/2020

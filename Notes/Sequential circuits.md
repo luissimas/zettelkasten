@@ -1,6 +1,5 @@
 # Sequential circuits
 Sequential circuits (also called *finite state machines*) are a class of digital circuits in which the output values depends not only on the input values but also on the past * state* of the circuit. This circuits utilize storage elements that store the values of logic signals.
-Here we have a example of a *Mealy state machine*.
 ![[Attachments/LD/sequentialcircuit.png]]
 
 ## Moore type

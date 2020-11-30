@@ -6,7 +6,6 @@ First we define a *starting state*, this is the state that the circuit should en
 The state table is a more formal and readable way of describing the changes in the state of the circuit:
 ![[Attachments/LD/statetable.png]]
 
-
 ---
 
 created: 30/11/2020
