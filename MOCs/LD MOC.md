@@ -35,7 +35,9 @@ Here we were introduced to circuits that can store information, these circuits a
 
 ## Chapter 6
 In this chapter we continue to explore the [[Sequential circuits|sequential circuits]], learning more formal ways of describing those circuits and new design techniques.
+[[Finite state machines]]
 [[State Diagram and Table]]
+[[Designing sequential circuits]]
 
 
 ---
