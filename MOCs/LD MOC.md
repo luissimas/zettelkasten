@@ -34,7 +34,10 @@ Here we were introduced to circuits that can store infomation, these circuits ar
 [[Timing analysis]]
 
 ## Chapter 6
-In this chapter we continue to explore the [[Sequential circuits|sequential circuits]], learning more formal way of describing those circuits and new design techniques.
+In this chapter we continue to explore the [[Sequential circuits|sequential circuits]], learning more formal ways of describing those circuits and new design techniques.
+
+
+
 
 ---
 
