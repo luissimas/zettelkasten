@@ -7,7 +7,7 @@ Finite state machines are abstract models capable of describing the behavior of 
 - A function that determine the output
 - An initial state
 
-We can represent an finite state machine using [[[State Diagram and Table|state diagram and tables]].
+We can represent an finite state machine using [[State Diagram and Table|state diagram and tables]].
 
 ---
 

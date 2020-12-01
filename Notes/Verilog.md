@@ -1,7 +1,7 @@
 # Verilog
-Verilog is a [[Hardware description language|hardware description language]] that provides a very good design portability. In Verilog we can describe a circuit in a number of ways, the main three are: functional, structual and behavioral.
+Verilog is a [[Hardware description language|hardware description language]] that provides a very good design portability. In Verilog we can describe a circuit in a number of ways, the main three are: functional, structural and behavioral.
 ## Structural
-In the sctructural specification we describe the circuit with a basic set of logic gates in a module, like in the example of a multiplexer with 2 inputs:
+In the structural specification we describe the circuit with a basic set of logic gates in a module, like in the example of a multiplexer with 2 inputs:
 ```verilog
 module example1(x1,x2,s,f);
 	input x1, x2, s;
@@ -16,7 +16,7 @@ endmodule
 ```
 
 ## Functional
-The functional specification offers a higher level of abstraction when compared with the strucutal specification. Here we can describe the circuit using the logic function expression.
+The functional specification offers a higher level of abstraction when compared with the structural specification. Here we can describe the circuit using the logic function expression.
 ```verilog
 module example2(x1,x2,s,f);
 	input x1, x2, s;
@@ -30,7 +30,7 @@ endmodule
 Here the keyword `assign` specifies that whenever a signal in the expression changes, the value of `f` will be re-evaluated.
 
 ## Behavioral
-The behavioral specification allows us to describe the behaviour of a logic circuit in a even more abstract way. We can describe the same 2 input multiplexer like this:
+The behavioral specification allows us to describe the behavior of a logic circuit in a even more abstract way. We can describe the same 2 input multiplexer like this:
 ```verilog
 module example3(input x1,x2,s,f);
 	input x1, x2, s;
@@ -45,7 +45,7 @@ module example3(input x1,x2,s,f);
 endmodule
 ```
 
-Here the procedural statement `if-else` is contained inside de `always` block, wich also causes the expression to be evaluated every time one or more values inside the `@()` list change. If a signal is assigned a value inside a procedural statement, then it has to be declared using the keyword `reg`. 
+Here the procedural statement `if-else` is contained inside the `always` block, which also causes the expression to be evaluated every time one or more values inside the `@()` list change. If a signal is assigned a value inside a procedural statement, then it has to be declared using the keyword `reg`. 
 When multiple statements are included in an `always` block, the `begin` and `end` keywords are needed; otherwise, these keywords can be omitted.
 
 ---

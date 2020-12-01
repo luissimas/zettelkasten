@@ -38,7 +38,7 @@ In this chapter we continue to explore the [[Sequential circuits|sequential circ
 [[Finite state machines]]
 [[State Diagram and Table]]
 [[Designing sequential circuits]]
-
+[[Finite state machines in Verilog]]
 
 ---
 
