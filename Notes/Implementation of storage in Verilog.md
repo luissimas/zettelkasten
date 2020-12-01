@@ -51,7 +51,7 @@ module nbit_register(D, Clock, Resetn, Q);
 endmodule
 ```
 
-A general description for a *n-bit* paralllel-access shift register can be done like the following example:
+A general description for a *n-bit* parallel-access shift register can be done like the following example:
 ```verilog
 module nbit_shifter_load(R, L, w, Clock, Q);
   parameter n = 16; //The desired value
