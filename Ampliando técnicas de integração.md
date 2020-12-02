@@ -13,7 +13,7 @@ ax^2+bx+c = a\left(x^2+\frac{b}{a}x+\frac{c}{a}\right)
 $$
 Agora, para colocá-lo na forma $(x+b)^2 = x^2+2x\cdot b+b^2$:
 $$
-a\left(x^2+2x\cdot\frac{\frac{b}{a}}{2}+\left(\frac{b}{a}\right)^2-\left(\frac{b}{a}\right)^2\right)
+a\left[\left(x^2+2x\cdot\frac{\frac{b}{a}}{2}+\left(\frac{b}{a}\right)^2\right)-\left(\frac{b}{a}\right)^2\right]
 $$
 
 
