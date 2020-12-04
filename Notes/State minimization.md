@@ -11,6 +11,8 @@ P_3&=(AD)(B)(CEG)(F)\\
 P_4&=P_3
 \end{aligned}
 $$
+So, we can represent the same circuit using only $4$ states, instead of the initial $7$. The resulting table looks like that:
+![[stateminimizationtableexampleminimized.png]]
 
 ---
 
