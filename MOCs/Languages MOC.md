@@ -8,6 +8,7 @@ Ultimamente acabei ficando fascinado pela ideia de aprender diversas línguas di
 ### Português
 ### English
 ### Latim
+Estou usando o livro *Lingua Latina per se Illustrata*, ele utiliza o método natural. Pretendo também começar a usar o livro *Gramática Latina*, para me aprofundar mais sobre as estruturas da língua.
 R&omacr;ma in It&amacr;lia est.
 Rōma in Itālia est.
 
