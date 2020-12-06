@@ -20,9 +20,9 @@ $$
 Podemos usar essa técnica para resolver integrais envolvendo expressões $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, e $\sqrt{x^2-a^2}$. A ideia é utilizar as relações trigonométricas para transformar as expressões em funções trigonométricas, fundamentalmente mais simples de serem integradas. Para fazer isso, é necessário identificar qual substituição devemos aplicar e então substituir tanto a expressão quando o $dx$. As principais substituições são:
 $$
 \begin{aligned}
-  \frac{\sqrt{a^2-x^2}}{a}&=\cos{\theta}\qquad dx=a\cos{\theta}d\theta\\
-  \frac{\sqrt{x^2-a^2}}{a}&=\tan{\theta}\qquad dx=a\sec{\theta}\tan{\theta}d\theta\\
-  \frac{\sqrt{a^2+x^2}}{a}&=\sec{\theta}\qquad dx=a\sec^2{\theta}d\theta\\
+  \sqrt{a^2-x^2}&=a\cos{\theta}\qquad dx=a\cos{\theta}d\theta\\
+  \sqrt{x^2-a^2}&=a\tan{\theta}\qquad dx=a\sec{\theta}\tan{\theta}d\theta\\
+  \sqrt{a^2+x^2}&=a\sec{\theta}\qquad dx=a\sec^2{\theta}d\theta\\
 \end{aligned}
 $$
 
