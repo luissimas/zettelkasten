@@ -16,6 +16,8 @@ $$
 a\left[\left(x^2+2x\cdot\frac{\frac{b}{a}}{2}+\left(\frac{b}{a}\right)^2\right)-\left(\frac{b}{a}\right)^2\right]
 $$
 
+## Substituições trigonométricas
+Podemos usar essa técnica para resolver integrais envolvendo expressões $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, e $\sqrt{x^2-a^2}$
 
 ---
 
