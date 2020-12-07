@@ -27,6 +27,15 @@ Nessa unidade demos início ao estudo de integrais, desde as integrais indefinid
 [[Integrais definidas]]
 [[Ampliando técnicas de integração]]
 
+## Unidade 5
+Na última unidade do curso trabalhamos as aplicações da integral para diversos fins, todos eles listados abaixo:
+[[Área de uma região plana]]
+[[Valor médio de uma função]]
+[[Volume de um sólido por fatiamento]]
+[[Comprimento de uma curva]]
+[[Área de uma superfície de revolução]]
+[[Centro de gravidade de uma região plana]]
+
 ---
 
 created: 30/10/2020

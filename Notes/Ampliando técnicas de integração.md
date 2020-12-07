@@ -13,8 +13,9 @@ ax^2+bx+c = a\left(x^2+\frac{b}{a}x+\frac{c}{a}\right)
 $$
 Agora, para colocá-lo na forma $(x+b)^2 = x^2+2x\cdot b+b^2$:
 $$
-a\left[\left(x^2+2x\cdot\frac{\frac{b}{a}}{2}+\left(\frac{b}{a}\right)^2\right)-\left(\frac{b}{a}\right)^2\right]
+a\left[\left(x^2+2x\cdot\frac{\frac{b}{a}}{2}+\left(\frac{b}{a}\right)^2\right)-\left(c+\frac{b}{a}\right)^2\right]
 $$
+Note que no final é necessário compensar o valor de $\left(\frac{b}{a}\right)^2$ para que no final tenhamos o mesmo valor de $c$.
 
 ## Substituições trigonométricas
 Podemos usar essa técnica para resolver integrais envolvendo expressões $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, e $\sqrt{x^2-a^2}$. A ideia é utilizar as relações trigonométricas para transformar as expressões em funções trigonométricas, fundamentalmente mais simples de serem integradas. Para fazer isso, é necessário identificar qual substituição devemos aplicar e então substituir tanto a expressão quando o $dx$. As principais substituições são:
