@@ -33,10 +33,8 @@ Na última unidade do curso trabalhamos as aplicações da integral para diverso
 [[Valor médio de uma função]]
 [[Volume de um sólido por fatiamento]]
 [[Comprimento de uma curva]]
-[[Área de uma superfície de revolução]]
-[[Centro de gravidade de uma região plana]]
 
 ---
 
 created: 30/10/2020
-modified: 13/11/2020
+modified: 07/12/2020
