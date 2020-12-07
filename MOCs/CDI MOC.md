@@ -32,6 +32,7 @@ Na última unidade do curso trabalhamos as aplicações da integral para diverso
 [[Área de uma região plana]]
 [[Valor médio de uma função]]
 [[Volume de um sólido por fatiamento]]
+[[Volume de um sólido por revolução]]
 [[Comprimento de uma curva]]
 
 ---
