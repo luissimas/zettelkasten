@@ -1,8 +1,8 @@
 # Valor médio de uma função
 $$
-  \overline{f}
+  \overline{f}=\frac{\displaystyle\int_a^b{f(x)}\,dx}{b-a}
 $$
-  
+ 
 
 ---
 
