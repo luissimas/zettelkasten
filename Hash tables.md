@@ -1,6 +1,5 @@
 # Hash tables
 A hash table is a data structure that allows us to search, insert and delete data all in $\text{O}(1)$ (constant time). That can be acomplished by combining an array and a mapping function (aka hash function), those are the two components of a hash table.
-The idea is to 
 
 
 - A hash function is a function where you put any type of data and get back a number.
