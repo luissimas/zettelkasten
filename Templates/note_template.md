@@ -1,5 +1,6 @@
 # {{templater_title}}
 
+
 ---
 
 created: {{date}}
