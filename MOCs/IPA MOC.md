@@ -28,6 +28,7 @@ This chapter focus on using recursion to solve more complex problems and introdu
 ### Chapter 5
 Here we are presented to hash tables and its uses.
 [[Hash tables]]
+[[Hash function]]
 
 ### Chapter 6
 ### Chapter 7
