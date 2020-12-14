@@ -41,9 +41,13 @@ In this chapter we continue to explore the [[Sequential circuits|sequential circ
 [[Finite state machines in Verilog]]
 [[State minimization]]
 
+## Chapter 7
+In the final chapter covered by the course, we are presented to some more aspects of digital systems.
+[[Bus structure]]
+
 ---
 
 created: 06/11/2020
-modified: 15/11/2020
+modified: 14/12/2020
 
 [[Fundamentals_of_Digital_Logic.pdf]]
