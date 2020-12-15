@@ -44,7 +44,6 @@ In this chapter we continue to explore the [[Sequential circuits|sequential circ
 ## Chapter 7
 In the final chapter covered by the course, we are presented to some more aspects of digital systems.
 [[Bus structure]]
-[[Bus structures in Verilog]]
 
 ---
 
