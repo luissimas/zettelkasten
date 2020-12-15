@@ -31,6 +31,11 @@ Here we are presented to hash tables and its uses.
 [[Hash function]]
 
 ### Chapter 6
+This chapter presents the concept of graphs and some algorithms to work with them.
+[[Graphs]]
+[[Breadth-first search]]
+[[Topological sort]]
+
 ### Chapter 7
 ### Chapter 8
 ### Chapter 9
