@@ -1,5 +1,5 @@
 # Dijkstra's algorithm
-This algorithm allows us to find the *shortest* path from one node to another in a directed [[Weighted graphs|weighted graph]] that doesen't have any cycle.
+This algorithm allows us to find the *shortest* path from one node to another in a directed [[Weighted graphs|weighted graph]] without *negative-weighted* edges.
 
 ---
 
