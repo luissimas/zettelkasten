@@ -36,6 +36,10 @@ This chapter presents the concept of graphs and some algorithms to work with the
 [[Breadth-first search]]
 
 ### Chapter 7
+Still in the context of graphs we are presented to new concepts and ways to work with them.
+[[Weighted graphs]]
+[[Dijkstra's algorithm]]
+
 ### Chapter 8
 ### Chapter 9
 ### Chapter 10
