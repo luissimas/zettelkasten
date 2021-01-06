@@ -11,7 +11,7 @@ I feel very familiarized with english, I grew up listening and reading it in boo
 ## Latim
 Comecei a aprender Latim pela simples beleza da língua, e também porque estou bastante interessado na sua construção e estrutura. É interessante perceber como várias palavras de diversas línguas derivam do Latim, e a quantidade de palavras que expressam ideias muito complexas é assustadora.\
 Estou usando o livro *Lingua Latina per se Illustrata*, ele utiliza o método natural. Pretendo também começar a usar o livro *Gramática Latina*, para me aprofundar mais sobre as estruturas da língua.
-Estou deixando todos os exercícios do livro escritos em PDF em um outro repositório, lá pretendo compilar todas as notas para que elas sejam de mais fácil acesso no futuro.
+[[Casos]]
 
 ---
 
