@@ -1,6 +1,6 @@
 # Timing analysis
-Timing analysis is used to calculate the total delay of a circuit that uses [[Flip-Flops|flip-flops]] considering its various propagation delays for each point in the cicuit.
-Imagine that we wish to calculate the maximum clock frequency of a circuit $F_max$, and determine if the circuit have any hold time violations. We first need to know some information that is usually in the specification of each chip, since it depends on the materials used and the logic arrangement of the logic gates. 
+Timing analysis is used to calculate the total delay of a circuit that uses [[Flip-Flops|flip-flops]] considering its various propagation delays for each point in the circuit.
+Imagine that we wish to calculate the maximum clock frequency of a circuit $F_{max}$, and determine if the circuit have any hold time violations. We first need to know some information that is usually in the specification of each chip, since it depends on the materials used and the logic arrangement of the logic gates. 
 In order to calculate the maximum clock frequency we always have to consider the longest and slowest path of the circuit that uses flip-flops. To determine hold time violations, we have to consider the shortest and faster path.
 
 $$

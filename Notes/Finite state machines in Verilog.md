@@ -23,7 +23,7 @@ module simpleFSM (Clock, Resetn, w, z);
 	// Define the sequential block 
 	always @(negedge Resetn, posedge Clock)
 		// If the reset signal is given, we go back to the first state
-		if (Resetn == 0) y < = A;
+		if (Resetn == 0) y <= A;
 		// Otherwise, we save the state to be used next time
 		else y <= Y;
 	// Define output in a continuous assignment
