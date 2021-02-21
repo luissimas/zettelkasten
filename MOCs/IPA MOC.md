@@ -40,11 +40,6 @@ Still in the context of graphs we are presented to new concepts and ways to work
 [[Weighted graphs]]
 [[Dijkstra's algorithm]]
 
-### Chapter 8
-### Chapter 9
-### Chapter 10
-### Chapter 11
-
 ---
 
 created: 10/11/2020

@@ -3,6 +3,12 @@ Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiê
 
 [[Fahrenheit 451]]
 [[The Secret History]]
+[[Memórias Póstumas de Brás Cubas]]
+[[O mito de Sísifo]]
+[[O Estrangeiro]]
+[[Meditações]]
+[[A metamorfose]]
+[[Livro do desassossego]]
 
 ---
 
