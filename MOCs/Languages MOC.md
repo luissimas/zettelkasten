@@ -13,10 +13,13 @@ Comecei a aprender Latim pela simples beleza da língua, e também porque estou 
 Estou usando o livro *Lingua Latina per se Illustrata*, ele utiliza o método natural. Pretendo também começar a usar o livro *Gramática Latina*, para me aprofundar mais sobre as estruturas da língua.
 [[Casos]]
 
+## Esperanto
+A ideia do esperanto me pareceu muito interessante, então agora no final de fevereiro de 2021 decidi começar a aprender.
+
 [[Esperanto]]
 
 
 ---
 
 created: 14/11/2020
-modified: 22/11/2020
+modified: 21/02/2021
