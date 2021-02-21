@@ -13,6 +13,9 @@ Comecei a aprender Latim pela simples beleza da língua, e também porque estou 
 Estou usando o livro *Lingua Latina per se Illustrata*, ele utiliza o método natural. Pretendo também começar a usar o livro *Gramática Latina*, para me aprofundar mais sobre as estruturas da língua.
 [[Casos]]
 
+[[Esperanto]]
+
+
 ---
 
 created: 14/11/2020

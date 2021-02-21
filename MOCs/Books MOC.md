@@ -1,14 +1,14 @@
 # Books MOC 
 Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiência muito interessante. Apreciar as texturas e construções criadas, cada adjetivo e advérbio colocados com o singular propósito de enriquecer a narrativa.
 
-[[Fahrenheit 451]]
-[[The Secret History]]
-[[Memórias Póstumas de Brás Cubas]]
-[[O mito de Sísifo]]
-[[O Estrangeiro]]
-[[Meditações]]
-[[A metamorfose]]
-[[Livro do desassossego]]
+- [x] Fahrenheit 451
+- [x] The Secret History
+- [x]  Memórias Póstumas de Brás Cubas
+- [x]  O mito de Sísifo
+- [x]  O Estrangeiro
+- [ ]  Meditações
+- [ ]  A metamorfose
+- [ ]  Livro do desassossego
 
 ---
 
