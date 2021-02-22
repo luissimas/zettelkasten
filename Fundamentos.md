@@ -2,16 +2,19 @@
 ## Sistemas
 Um sistema computacional é composto por 3 componentes: Hardware, Software e Dados. Usar diferentes níveis de abstração facilita o uso e desenvolvimento de sistemas computacionais.
 
-| Camadas de abstração                                          |
-| ------------------------------------------------------------ |
-| Linguagem Natural                                            |
-| Algoritmo (Sequência de instruções)                          |
-| Programa (Seguindo o padrão de uma linguagem de programação) |
-| Arquitetura do Computador                                    |
-| Microarquitetura (Implementação da Unidade de Controle)      |
-| Dispositivos Lógicos                                         |
+| Camadas de abstração                                    |
+| ------------------------------------------------------- |
+| Linguagem Natural                                       |
+| Algoritmo (Sequência de instruções)                     |
+| Programa de Aplicação                        |
+| Sistema Operacional                          |
+| Arquitetura do Computador                               |
+| Microarquitetura (Implementação da Unidade de Controle) |
+| Circuitos Lógicos                                       |
+| Dispositivos eletrônicos                                                        |
 
 Uma das camadas de abstração que vale a pena ser mencionada agora é a camada de programa
+![[barramentobasico.png]]
 
 ## Arquitetura
 Atributos visíveis para o programador, ou seja, atributos que têm impacto direto na execução de algum programa.
