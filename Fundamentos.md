@@ -1,5 +1,5 @@
 # Fundamentos
-## Sistemas
+## Sistema Computacional
 Um sistema computacional é composto por 3 componentes: Hardware, Software e Dados. Usar diferentes níveis de abstração facilita o uso e desenvolvimento de sistemas computacionais.
 
 | Camadas de abstração                                    |
@@ -13,7 +13,16 @@ Um sistema computacional é composto por 3 componentes: Hardware, Software e Dad
 | Circuitos Lógicos                                       |
 | Dispositivos eletrônicos                                                        |
 
-Uma das camadas de abstração que vale a pena ser mencionada agora é a camada de programa
+### Nível de Software
+A camada de Software engloba tanto o programa de aplicação quanto o sistema operacional.
+O sistema operacional gerencia os recursos do sistema e interage diretamente com a arquitetura do computador. As instruções do programa são "traduzidas" pelos compiladores para códigos de instruções definidos pela arquitetura, que correspondem a operações a serem executadas pelo hardware.
+
+### Nível de Máquina
+No nível de máquina temos os demais elementos que compõe o sistema computacional.
+A arquitetura do computador é uma especificação formal de todas as funções que podem ser executadas pela máquina (ISA - Instruction Ser Architecture.
+A microarquitetura é a implementação da ISA em nível de hardware, ou seja, a forma como as instruções serão executadas pelos circuitos.
+Os circuitos lógicos (compostos por dispositivos eletrônicos) são a base do hardware, eles são organizados e conectados em diferentes agrupamentos, como a ULA.
+
 ![[barramentobasico.png]]
 
 ## Arquitetura
