@@ -1,4 +1,4 @@
-# Introdução ao pensamento algorítmico MOC 
+# Introdução ao pensamento algorítmico
 Essa disciplina introduz a base do pensamento computacional e algorítmico. Os dois livros nos quais a disciplina se baseia estão referenciados no final dessa nota. Por enquanto estou decidindo seguir mais com o *Grokking Algorithms*, gostei bastante da proposta e da forma como ele se estrutura. Apesar disso, as notas compilam conteúdo tanto das aulas quanto de ambos os livros, quando necessário.
 
 ## Classes
