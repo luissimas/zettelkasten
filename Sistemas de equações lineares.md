@@ -55,7 +55,14 @@ x_2 \\
 \vdots \\
 x_n
 \end{bmatrix}
-\text 
+, \qquad
+B = 
+\begin{bmatrix}
+b_1 \\
+b_2 \\
+\vdots \\
+b_m
+\end{bmatrix}
 $$
 
 ---
