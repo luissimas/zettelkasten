@@ -21,7 +21,7 @@ O sistema operacional gerencia os recursos do sistema e interage diretamente com
 No nível de máquina temos os demais elementos que compõe o sistema computacional.
 A arquitetura do computador é uma especificação formal de todas as funções que podem ser executadas pela máquina (ISA - Instruction Ser Architecture.
 A microarquitetura é a implementação da ISA em nível de hardware, ou seja, a forma como as instruções serão executadas pelos circuitos.
-Os circuitos lógicos (compostos por dispositivos eletrônicos) são a base do hardware, eles são organizados e conectados em diferentes agrupamentos, como a ULA.
+Os circuitos lógicos (compostos por dispositivos eletrônicos) são a base do hardware, eles são organizados e conectados em diferentes agrupamentos, como a ALU (Aritmetic Logic Unit).
 
 ![[barramentobasico.png]]
 
