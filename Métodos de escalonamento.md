@@ -46,7 +46,7 @@ Usando essas operações é possível transformar **qualquer sisteam** em um sis
 O Método para a redução de uma matriz $M$ a uma forma escalonada é o seguinte:
 1. Seja $c_1$ a primeira coluna não nula de $M$. Se necessário, troque as linhas para que o elemento da linha 1 e coluna $c_1$ seja não nulo. Esse elemento é chamado de **pivô**. Anule os elementos abaixo do pivô utilizando a operação $L_i \rightarrow L_i - \frac{M_{ic_i}}{M_{1c_i}}\cdot L_i$ para cada $i>1$. Chame a nova matriz de $M^1$.
 2. Tome como pivô o próximo elemento não nulo da próxima linha (se necessário troque as linhas para que o elemento da linha 2 e coluna $c_2$ seja não nulo) e repita o processo de anular os elementos abaixo do novo pivô.
-3. continue o processo considerando $c_k$ a primeira coluna de $M^{k-1}$ em que existem elementos não nulos. Se necessário troque a linha k por alguma abaixo e tome o primeiro elemento não nulo dessa linha como o novo pivô. Continue a anular os elementos da coluna $c_k$ abaixo da linha $k$ com as operações $L_i \rightarrow L_i - \frac{M_{ic_i}}{M_{1c_i}}\cdot L_i$
+3. Continue o processo considerando $c_k$ a primeira coluna de $M^{k-1}$ em que existem elementos não nulos. Se necessário troque a linha k por alguma abaixo e tome o primeiro elemento não nulo dessa linha como o novo pivô. Continue a anular os elementos da coluna $c_k$ abaixo da linha $k$ com as operações $L_i \rightarrow L_i - \frac{M_{ic_k}}{M_{kc_k}}\cdot L_k$ para $i>k$. Repita o processo até que acabem as linhas não nulas ou as colunas.
 
 
 ## Método de Gauss-Jordan
