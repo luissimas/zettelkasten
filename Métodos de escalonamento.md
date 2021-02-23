@@ -1,12 +1,13 @@
 # Métodos de escalonamento
+## Sistemas escalonados
 Sistemas chamados de escalonados possuem a seguinte forma:
 $$
 \begin{aligned}
 \begin{cases}
-    a_{11}x_1 &+ a_{12}x_2 &+ \cdots &+ a_{1n}x_n &= b_1 \\
-    0 &+ a_{22}x_2 &+ \cdots &+ a_{2n}x_n &= b_2 \\
-    \vdots &+ \vdots &+ \ddots &+ \vdots &= \vdots \\
-    0 &+ 0 &+ \cdots &+ a_{mn}x_n &= b_m \\
+    a_{11}x_1 &+ &a_{12}x_2 &+ &\cdots &+ &a_{1n}x_n &= b_1 \\
+    0 &+ &a_{22}x_2 &+ &\cdots &+ &a_{2n}x_n &= b_2 \\
+    \vdots &+ &\vdots &+ &\ddots &+ &\vdots &= \vdots \\
+    0 &+ &0 &+ &\cdots &+ &a_{mn}x_n &= b_m \\
 \end{cases}
 \end{aligned}
 $$
@@ -26,6 +27,16 @@ $$
   &x = 8 - 3 - 1 = 4
 \end{align}
 $$
+
+## Manipulação de sistemas
+É possível manipular sistemas sem alterar o conjunto das soluções de algumas formas:
+1. Trocar duas equações entre si
+2. Multiplicar uma equação por um número não nulo
+3. Substituir uma equação pela soma dela com uma outra equação (mantendo a outra equação no sistema!)
+Todas essas alterações acima não alteram o conjunto das soluções do sistema, desde que sejam aplicadas aos dois lados da equação que se deseja alterar. 
+
+## Resolução de sistemas lineares
+Sabendo que os sistemas escalonados são de resolução mais simples, e também que é possível alterar a forma de um sistema sem alterar o conjunto das soluções, é intuitivo tentar manipular um sistema linear para colocá-lo em sua forma escalonada, assim resolvendo-o.
 
 ---
 
