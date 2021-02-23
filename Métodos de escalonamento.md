@@ -38,6 +38,10 @@ Todas essas alterações acima não alteram o conjunto das soluções do sistema
 Sabendo que os sistemas escalonados são de resolução mais simples, e também que é possível alterar a forma de um sistema sem alterar o conjunto das soluções, é intuitivo tentar manipular um sistema linear para colocá-lo em sua forma escalonada, assim resolvendo-o. É essa a ideia dos dois métodos a seguir.
 
 ## Método de Eliminação de Gauss
+O *Método de Eliminação de Gauss* usa as operações básicas para manipulação de sistemas, que estão aqui descritas em notação matricial:
+1. Troca de linhas entre si: $L_i \longleftrightarrow L_j$
+2. Multiplicação de uma linha por um escalar $\lambda\neq 0$: $L_i \rightarrow \lambda L_i$
+3. Adição a uma linha de um múltiplo de outra (mantendo essa outra linha): $L_i \rightarrow L_i + \lambda L_k$
 ## Método de Gauss-Jordan
 
 ---
