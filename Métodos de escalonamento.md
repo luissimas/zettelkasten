@@ -32,11 +32,13 @@ $$
 É possível manipular sistemas sem alterar o conjunto das soluções de algumas formas:
 1. Trocar duas equações entre si
 2. Multiplicar uma equação por um número não nulo
-3. Substituir uma equação pela soma dela com uma outra equação (mantendo a outra equação no sistema!)
-Todas essas alterações acima não alteram o conjunto das soluções do sistema, desde que sejam aplicadas aos dois lados da equação que se deseja alterar. 
+3. Substituir uma equação pela soma dela com uma outra equação, ou múltiplo de outra equação (mantendo a outra equação no sistema!)
 
-## Resolução de sistemas lineares
-Sabendo que os sistemas escalonados são de resolução mais simples, e também que é possível alterar a forma de um sistema sem alterar o conjunto das soluções, é intuitivo tentar manipular um sistema linear para colocá-lo em sua forma escalonada, assim resolvendo-o.
+Todas essas alterações acima não alteram o conjunto das soluções do sistema, desde que sejam aplicadas aos dois lados da equação que se deseja alterar. 
+Sabendo que os sistemas escalonados são de resolução mais simples, e também que é possível alterar a forma de um sistema sem alterar o conjunto das soluções, é intuitivo tentar manipular um sistema linear para colocá-lo em sua forma escalonada, assim resolvendo-o. É essa a ideia dos dois métodos a seguir.
+
+## Método de Eliminação de Gauss
+## Método de Gauss-Jordan
 
 ---
 
