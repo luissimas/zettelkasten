@@ -1,15 +1,14 @@
 # Métodos de escalonamento
-## Sistemas escalonados
+## Sistemas escalonados TODO: Botar tudo em notação matricial
 Sistemas chamados de escalonados possuem a seguinte forma:
 $$
-\begin{aligned}
-\begin{cases}
-    a_{11}x_1 &+ &a_{12}x_2 &+ &\cdots &+ &a_{1n}x_n &= b_1 \\
-    0 &+ &a_{22}x_2 &+ &\cdots &+ &a_{2n}x_n &= b_2 \\
-    \vdots &+ &\vdots &+ &\ddots &+ &\vdots &= \vdots \\
-    0 &+ &0 &+ &\cdots &+ &a_{mn}x_n &= b_m \\
-\end{cases}
-\end{aligned}
+\begin{bmatrix}
+a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
+0 & a_{12} & a_{13} & \cdots & a_{1n} \\
+0 & 0 & a_{13} & \cdots & a_{2n} \\
+\vdots & \ddots & \vdots \\
+a_{m1} & \cdots & a_{mn}
+\end{bmatrix}
 $$
 
 Os sistemas na forma escalonada (triangular) são de simples resolução, pois basta fazer a resolução  iniciando da última linha. Por exemplo:
