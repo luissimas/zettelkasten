@@ -13,7 +13,12 @@ São requisitos para uma linguagem ser considerada orientada a objetos:
 
 ## Classes
 Classes são modelos de objetos, objetos são instâncias (concretizações) de classes.
+A principal diferença das classes para os structs é que os structs apenas agrupam dados, já as classes os protegem e fornecem ferramentas muito mais robustas para manipulá-los replicá-los.
 Ações são chamadas de métodos, características são chamadas de atributos.
+Herança e composição permite a reutilização das classes.
+Classes mais genéricas permitem que outras classes herdem seus atributos.
+Classes podem ser compostas de outras classes "menores".
+O construtor é chamado toda vez que um objeto é instanciado e tem por função inicializar o objeto.
 
 ---
 
