@@ -30,6 +30,9 @@ $$
 \end{align}
 $$
 
+## Sistemas Lineares Homogêneos
+> Um sistema linear é **homogêneo** se os termos independentes são todos nulos, ou seja, um sistema na forma $AX = 0$
+
 ---
 
 created: 24/02/2021
