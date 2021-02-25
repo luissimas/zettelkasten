@@ -1,8 +1,8 @@
 # Resolução de sistemas lineares por escalonamento
-Aplicando os conceitos de [[Posto de matriz|posto]] para analisar [[Sistemas de equações lineares|sistemas lineares]] podemos rapidamente indentificar características importantes do sistema. Segundo a definição do *Teorema de Rouché-Capelli*:
+Aplicando os conceitos de [[Posto de matriz|posto]] para analisar [[Sistemas de equações lineares|sistemas lineares]] na forma de matrizes *l-reduzidas* podemos rapidamente indentificar características importantes do sistema. Segundo a definição do *Teorema de Rouché-Capelli*:
 > Seja um sistema linear de $m$ equações a $n$ variáveis $AX=B$, cuja matriz dos coeficientes $A$ tem um posto $p$ e cuja matriz ampliada $Ã$ tem posto $q$. Então:
 > 1. se $p \neq q$, o sistema é impossível
-> 2. se $p = q$, o sistema é possível e determinado
+> 2. se $p = q = n$, o sistema é possível e determinado
 > 3. se $p = q < n$ , o sistema é possível e indeterminado, com grau de liberdade $n-p$
 
 Quando nos deparamos com um sistema indeterminado, devemos representá-lo de uma forma específica escolher as variáveis livres, colocá-las em forma de parâmetro e evidenciá-las. Por falta de uma explicação formal do material fica aqui o exemplo:
