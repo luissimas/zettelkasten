@@ -25,4 +25,4 @@ Combinatória é uma ferramenta importante para a estatística, pois ela permite
 ---
 
 created: 23/02/2021
-**modified: 01/03/2021
+modified: 01/03/2021
