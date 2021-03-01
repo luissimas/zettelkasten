@@ -5,6 +5,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[Fundamentos]]
 [[Computador Elementar]]
 [[Assembly]]
+[[ISA]]
 
 ## Prática
 [[Revisão Verilog]]
