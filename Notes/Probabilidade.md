@@ -11,7 +11,10 @@ Todo experimento aleatório possui um conjunto de resultados possíveis, esses r
 Tendo a noção de eventos, podemos definir que o conjunto de todos os eventos elementares (resultados possíveis) de um experimento aleatório $\varepsilon$ é denominado **espaço amostral**, representado por $\Omega$. O número de eventos elementares em um dado $\Omega$ é chamado de cardinalidade, representado por $|\Omega|$.
 Seja um experimento aleatório $\varepsilon$ com espaço amostral $\Omega$, qualquer subconjunto de $A$ - isto é, um conjunto formado pela união de eventos elementares - de $\Omega$ é denominado um **evento** do experimento. Além disso, o conjunto de todos os eventos associados a um experimento aleatório $\varepsilon$ é denominado **espaço de eventos** e é denotado pela letra $\mathcal{F}$.
 
+## Métodos de enumeração
+
+
 ---
 
 created: 23/02/2021
-modified: 23/02/2021
+modified: 01/03/2021
