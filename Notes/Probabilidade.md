@@ -16,7 +16,7 @@ P(E)=\frac{|E|}{|\Omega|}
 $$
 Essa é a definição clássica de probabilidade, válida quando $\Omega$ é finito e os eventos elementares são equiprováveis.
 
-## Métodos de enumeração
+## Contagem
 Combinatória é uma ferramenta importante para a estatística, pois ela permite contar elementos de um conjunto sem necessariamente precisar listar todos esses elementos.
 > **Princícipo da adição:** Se $A$ e $B$ são dois conjuntos **disjuntos** com $p$ e $q$ elementos, então $A\cup B$ possui $p + q$ elementos
 
