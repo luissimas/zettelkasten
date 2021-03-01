@@ -25,9 +25,11 @@ Combinatória é uma ferramenta importante para a estatística, pois ela permite
 ### Permutação
 Permutação = ordenação
 A ordem importa!
+Usa-se vetores
 
 ### Combinação
 Ordem não importa
+Usa-se conjuntos
 
 ---
 
