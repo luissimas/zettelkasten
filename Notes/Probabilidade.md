@@ -18,9 +18,12 @@ Essa é a definição clássica de probabilidade, válida quando $\Omega$ é fin
 
 ## Métodos de enumeração
 Combinatória é uma ferramenta importante para a estatística, pois ela permite contar elementos de um conjunto sem necessariamente precisar listar todos esses elementos.
-> **Princícipo da adição:** Se $A$ e $B$ são dois conjuntos com $p$ e $q$ elementos, então $A\cup B$ possui $p + q$ elementos
+> **Princícipo da adição:** Se $A$ e $B$ são dois conjuntos **disjuntos** com $p$ e $q$ elementos, então $A\cup B$ possui $p + q$ elementos
 
 > **Princícipo da multiplicação:** Se uma decisão $d_1$ pode ser tomada de $x_1$ maneiras; e se, para cada uma dessas decisões, existir $x_2$ maneiras de tomar a decisão $d_2$; e assim por diante até a decisão $d_p$ que pode ser tomada de $x_p$ maneiras; então o número de maneiras de se tomar, sucessivamente, as decisões $d_1,d_2,\dots,d_p$ é $$\prod_{i=1}^{p}x_i=x_1x_2\dots x_p$$
+### Permutação
+Permutação = ordenação
+A ordem importa!
 
 ---
 
