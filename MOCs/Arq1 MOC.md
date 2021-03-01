@@ -3,6 +3,8 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 
 ## Teórica
 [[Fundamentos]]
+[[Computador Elementar]]
+[[Assembly]]
 
 ## Prática
 [[Revisão Verilog]]
