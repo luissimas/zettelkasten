@@ -19,6 +19,7 @@ Herança e composição permite a reutilização das classes.
 Classes mais genéricas permitem que outras classes herdem seus atributos.
 Classes podem ser compostas de outras classes "menores".
 O construtor é chamado toda vez que um objeto é instanciado e tem por função inicializar o objeto.
+Podem haver vários construtores com parâmetros diferentes, isso se chama sobrecarga de um método (no caso o construtor)
 O destrutor é particularmente útil quando há alocação dinâmica de memória, pois é ele que desaloca a memória alocada pelo construtor.
 
 ---
