@@ -33,8 +33,6 @@ Na combinação a **ordem dos elementos não importa**. Geralmente os problemas 
 
 Na definição acima estamos dividindo por $p!$ pois devemos desconsiderar os conjuntos que estão sendo diferenciados na contagem apenas pela ordem dos elementos.
 
-## Probabilidade
-
 ---
 
 created: 23/02/2021
