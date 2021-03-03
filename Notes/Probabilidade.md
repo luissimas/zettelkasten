@@ -10,7 +10,7 @@ Modelos matemáticos são simplificações de fenômenos reais, deprezando certo
 Todo experimento aleatório possui um conjunto de resultados possíveis, esses resultados possíveis são na verdade os resultados indivisíveis de um experimento. Cada conjunto unitário determinado por um e somente um desses resultados possíveis é chamado de **evento elementar**. Por exemplo, no jogo da moeda os eventos elementares são: $\{\text{cara}\} \text{ e } \{\text{coroa}\}$. É importante destacar a notação de conjuntos.
 Tendo a noção de eventos, podemos definir que o conjunto de todos os eventos elementares (resultados possíveis) de um experimento aleatório $\varepsilon$ é denominado **espaço amostral**, representado por $\Omega$. O número de eventos elementares em um dado $\Omega$ é chamado de cardinalidade, representado por $|\Omega|$.
 Seja um experimento aleatório $\varepsilon$ com espaço amostral $\Omega$, qualquer subconjunto de $A$ - isto é, um conjunto formado pela união de eventos elementares - de $\Omega$ é denominado um **evento** do experimento. Além disso, o conjunto de todos os eventos associados a um experimento aleatório $\varepsilon$ é denominado **espaço de eventos** e é denotado pela letra $\mathcal{F}$.
-Considerando um evento aleatório $\varepsilon$ com espaço amostral $\Omega$ e espaço de eventos $\mathcal{F}$, a probabilidade de ocorrência de um evento $E$ é uma função $P:F\rightarrow[0,1]$
+Considerando um evento aleatório $\varepsilon$ com espaço amostral $\Omega$ e espaço de eventos $\mathcal{F}$, a probabilidade de ocorrência de um evento $E$ é uma função $P:\mathcal{F}\rightarrow[0,1]$
 $$
 P(E)=\frac{|E|}{|\Omega|}
 $$
@@ -32,6 +32,8 @@ Na combinação a **ordem dos elementos não importa**. Geralmente os problemas 
 > O número de modos que podemos escolher $p$ objetos distintos entre $n$ objetos distintos de forma que não importe a ordem de seleção é dado por:$$\frac{n\times(n-1)\times\dots\times(n-p+1)}{p!}$$
 
 Na definição acima estamos dividindo por $p!$ pois devemos desconsiderar os conjuntos que estão sendo diferenciados na contagem apenas pela ordem dos elementos.
+
+## Probabilidade
 
 ---
 
