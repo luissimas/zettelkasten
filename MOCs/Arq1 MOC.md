@@ -7,6 +7,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[Assembly]]
 [[ISA]]
 [[Endereçamento]]
+[[CISC e RISC]]
 
 ## Prática
 [[Revisão Verilog]]

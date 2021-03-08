@@ -57,10 +57,10 @@ Um dos operandos é o endereço da próxima instrução a ser executada. Caso a 
 Esse tipo de instrução simplesmente recebe um operando como endereço da próxima instrução e atualiza o *PC* para que essa instrução seja a próxima a ser executada, após isso o *PC* é incrementado a partir da nova instrução.
 
 #### Procedure calls (Chamadas de procedimentos)
-Com esse tipo de instrução é possível invocar (chamar) um subprograma (procedimento) para ser executado. No momento da chamada o *PC* é atualizado com o ínicio (primeira instrução) do procedimento, após executar todo o procedimento ocorre o retorno para o endereço em que ocorreu a chamada.
+Com esse tipo de instrução é possível invocar (chamar) um subprograma (procedimento) para ser executado. No momento da chamada o *PC* é atualizado com o ínicio (primeira instrução) do procedimento, após executar todo o procedimento ocorre o retorno da execução para o endereço em que ocorreu a chamada.
 
 #### Procedure returns (Retorno de procedimentos)
-
+Esse tipo de instrução permite que um endereço de retorno seja armazenado no momento da chamada de um procedimento, para que então após a execução do procedimento a execução do programa retorne para o endereço armazenado.
 
 ---
 
