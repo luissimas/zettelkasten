@@ -41,6 +41,26 @@ Dada as diferentes formas de [[Endereçamento|endereçamento]], surgem também d
 | String                 | String compare, string search                         |
 | Graphics               | Pixel and vertex operations, compression/decompression operations                                                      |
 
+A maioria dessas instruções são autoexplicativas, e podemos ter um entendimento intuitivo de como elas - pelo menos em um nível elevado de abstração - funcionam.
+
+### Control Flow
+As instruções de controle de fluxo são particularmente interessantes pois manipulam o [[Computador Elementar|PC (Program Counter)]], dessa forma é possível alterar o fluxo das instruções, criar laços de repetição e outras estruturas de controle interessantes.
+Por padrão da maioria das ISAs após a execução de uma instrução o *PC* é incrementado para buscar a próxima instrução, isso pode ser chamado de:
+- *Branch* quando for condicional
+- *Jump* quando não for condicional
+
+Existem 4 tipos de instruções de controle de fluxo:
+#### Conditional Branches (Desvios condicionais)
+Um dos operandos é o endereço da próxima instrução a ser executada. Caso a condição seja satisfeita o *PC* é atualizado com o endereço especificado no operando, caso contrário ele é incrementado normalmente.
+
+#### Jumps (Desvios)
+Esse tipo de instrução simplesmente recebe um operando como endereço da próxima instrução e atualiza o *PC* para que essa instrução seja a próxima a ser executada, após isso o *PC* é incrementado a partir da nova instrução.
+
+#### Procedure calls (Chamadas de procedimentos)
+Com esse tipo de instrução é possível invocar (chamar) um subprograma (procedimento) para ser executado. No momento da chamada o *PC* é atualizado com o ínicio (primeira instrução) do procedimento, após executar todo o procedimento ocorre o retorno para o endereço em que ocorreu a chamada.
+
+#### Procedure returns (Retorno de procedimentos)
+
 
 ---
 
