@@ -12,6 +12,11 @@ Na primeira unidade do curso fomos apresentados aos princípios algébricos que 
 Referencial Teórico: [[Matrizes_e_sitemas_lineares.pdf]]
 
 ## Unidade 2
+Nessa unidade o foco são os vetores.
+[[Tratamento geométrico de vetores]]
+[[Tratamento algébrico de vetores]]
+
+Dessa unidade em diante o referencial teórico foi o seguinte: [[Geometria_Analitica_Winterle.pdf]]
 
 ## Unidade 3
 
