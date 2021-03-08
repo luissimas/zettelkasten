@@ -8,6 +8,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[ISA]]
 [[Endereçamento]]
 [[CISC e RISC]]
+[[Bits de uma arquitetura]]
 
 ## Prática
 [[Revisão Verilog]]
@@ -15,4 +16,4 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 ---
 
 created: 22/02/2021
-modified: 22/02/2021
+modified: 08/03/2021

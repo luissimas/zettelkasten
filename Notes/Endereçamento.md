@@ -6,6 +6,11 @@ O endereçamento é feito geralmente **byte-a-byte**, sendo que cada byte tem um
 - Words (32 bits)
 - Double Words (64 bits)
 
+Para que os blocos de bytes sejam processados da maneira correta temos dois modos de ordenação:
+- *Big-endian*: O byte menos significativo (LSB) é armazenado no maior endereço do bloco.
+- *Little-endian*: O byte menos significativo (LSB) é armazenado no menor endereço do bloco.
+![[littleandbigendian.png]]
+
 ## Modos
 Existem diversos modos como os bits do campo de endereço são interpretados.
 
