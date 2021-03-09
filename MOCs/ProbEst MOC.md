@@ -1,6 +1,9 @@
 # Probabilidade e Estatística
 Probabilidade é o estudo matemático na quantificação da aleatoriedade de eventos. A Estatística é a ciência da coleta e análise de dados. Nesse curso tivemos uma introdução à essas duas áreas da matemática.
 
+[[Modelos matemáticos]]
+[[Espaço amostral e eventos]]
+[[Contagem]]
 [[Probabilidade]]
 [[Amostragem]]
 [[Análise descritiva e exploratória]]
