@@ -18,7 +18,8 @@ Considerando os vetores $\vec{u}=\overrightarrow{AB}$ e $\vec{v}=\overrightarrow
 ![[sumvectors.png]]
 
 ## Multiplicação de números reais por vetores
-Dado um vetor $\vec{v}\neq$\vec{0}$$
+Dado um vetor $\vec{v}\neq\vec{0}$ e um número real $a\neq0$, o produto desses elementos é dado por $a\vec{v}$.
+![[multvectors.png]]
 
 ---
 
