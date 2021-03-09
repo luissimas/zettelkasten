@@ -15,10 +15,17 @@ Um vetor nada mais é do que um segmento orientado representando módulo, direç
 
 ## Adição de vetores
 Considerando os vetores $\vec{u}=\overrightarrow{AB}$ e $\vec{v}=\overrightarrow{BC}$, podemos obter a sua soma posicionando o ínicio do segmento do segundo vetor sobre a extremidade do primeiro vetor. Assim, o vetor que representa sua soma é o vetor que vai da extremidade $A$ até a extremidade $C$.
+
 ![[sumvectors.png]]
 
 ## Multiplicação de números reais por vetores
-Dado um vetor $\vec{v}\neq\vec{0}$ e um número real $a\neq0$, o produto desses elementos é dado por $a\vec{v}$.
+Dado um vetor $\vec{v}\neq\vec{0}$ e um número real $a\neq0$, o produto desses elementos é dado por $a\vec{v}$. Sobre o vetor resultante podemos dizer que:
+- $|a\vec{v}| = |a|\cdot|\vec{v}|$ 
+- $a\vec{v} // \vec{v}$ 
+- $a\vec{v}$ e $\vec{v}$ têm o mesmo sentido se $a>0$
+- $a\vec{v}$ e $\vec{v}$ têm sentido oposto se $a<0$
+- $a\vec{v} = \vec{0}$ se $a=0$
+
 ![[multvectors.png]]
 
 ---
