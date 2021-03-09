@@ -3,7 +3,7 @@ As grandezas vetoriais (aceleração, velocidade, força etc), diferentemente da
 Um vetor nada mais é do que um segmento orientado representando módulo, direção e sentido. Há algumas propriedades básicas importantes que definem relações entre vetores:
 > Dois vetores $\vec{u}$ e $\vec{v}$ são paralelos, ou seja, $\vec{u}//\vec{v}$, se os seus representantes tiverem a mesma direção. 
 
-> Para que dois vetores sejam iguais, ou seja, $\vec{u}=\vec{v}$, os seus representantes devem ter igual módulo, a direção e o sentido.
+> Para que dois vetores sejam iguais, ou seja, $\vec{u}=\vec{v}$, os seus representantes devem ter igual módulo, direção e sentido.
 
 > Cada vetor não nulo $\vec{v}$ possui um vetor *oposto* $-\vec{v}$ com o mesmo módulo e mesma direção, porém sentido **oposto**.
 
