@@ -14,6 +14,11 @@ Um vetor nada mais é do que um segmento orientado representando módulo, direç
 > Dois ou mais vetores são *coplanares* se existir algum plano no qual esses vetores estão representados. Vale destacar que *dois vetores quaisquer são sempre coplanares*, pois é sempre possível conter dois de seus representantes em um plano.
 
 ## Adição de vetores
+Considerando os vetores $\vec{u}=\overrightarrow{AB}$ e $\vec{v}=\overrightarrow{BC}$, podemos obter a sua soma posicionando o ínicio do segmento do segundo vetor sobre a extremidade do primeiro vetor. Assim, o vetor que representa sua soma é o vetor que vai da extremidade $A$ até a extremidade $C$.
+![[sumvectors.png]]
+
+## Multiplicação de números reais por vetores
+Dado um vetor $\vec{v}\neq$\vec{0}$$
 
 ---
 
