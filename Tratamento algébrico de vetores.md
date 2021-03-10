@@ -45,6 +45,17 @@ Onde $\overrightarrow{AB} = B-A$.
 ## Representante natural
 Considerando a base canônica, um vetor tem infinitos representantes. Dentre todos os representantes de um vetor aquele que "melhor o caracteriza" é aquele que tem origem no ponto $O(0,0)$ e extremidade no ponto $P(x_2-x_1,y_2-y_1)$. Esse vetor é chamado de *vetor posição* ou *representante natural* de $\overrightarrow{AB}$.
 
+## Ponto médio
+Dado um segmento de extremos $A(x_1,y_1)$ e $B(x_2,y_2)$, o ponto médio de $AB$ é dado por
+>$$M\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right)$$
+
+## Paralelismo de dois vetores
+Dois vetores são paralelos quando *suas componentes forem proporcionais*, ou seja: se dois vetores $\vec{u}=(x_1,y_1)$ e $\vec{v}=(x_2,y_2)$ são paralelos, existe um número real $\alpha$ tal que $\vec{u}=\alpha \vec{v}$. Esse número $\alpha$ é dado por
+>$$\alpha=\frac{x_1}{x_2}=\frac{y_1}{y_2}$$
+
+## Módulo de um vetor
+Seja o vetor $\vec{v}=(x,y)$, pelo *teorema de Pitágoras* é possível afirmar que:
+>$$|\vec{v}|=\sqrt{x^2+y^2}$$
 
 ---
 
