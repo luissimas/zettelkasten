@@ -72,8 +72,16 @@ Nesse caso os *componentes* de $\vec{v}$ na base *canônica* são chamados de *a
 
 ![[planosvetoresespaciais.png]]
 
-Assim como no plano de duas dimensões, cada ponto $P(x,y,z)$ corresponde ao vetor $\vec{v}=x \vec{i}+y \vec{j}+z \vec{k}$, ou seja, podemos expressar um vetor da seguinte forma
-> $\vec{v}=(x,y,z)$
+A intersecção desses planos divide o espaço em oito regiões denominadas octantes.
+
+![[octantes.png]]
+
+Assim como no plano de duas dimensões, cada ponto $P(x,y,z)$ corresponde ao vetor $\vec{v}=x \vec{i}+y \vec{j}+z \vec{k}$, ou seja, podemos expressar um vetor da seguinte forma $\vec{v}=(x,y,z)$, que é a expressão analítica de $\vec{v}$.
+Todas as definições válidas para o plano são análogas às do espaço, porém é necessário considerar o eixo $z$ em todas elas.
+- Dois vetores $\vec{v}=(x_1,y_1,z_1)$ e $\vec{u}=(x_2,y_2,z_2)$ são iguais se e somente se $x_1=x_2,y_1=y_2,z_1=z_2$
+- Sejam $A(x_1,y_1,z_1)$ e $B(x_2,y_2,z_2)$ dois pontos no espaço, então $\overrightarrow{AB}=(x_2-x_1,y_2-y_1,z_2-z_1)$
+- Se $A(x_1,y_1,z_1)$ e $B(x_2,y_2,z_2)$ são pontos extremos de um segmento, o ponto médio $M$ de $AB$ é $M\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2},\frac{z_1+z_2}{2}\right)$
+- O módulo do vetor $\vec{v}=(x,y,z)$ é dado por $|\vec{v}|=\sqrt{x^2+y^2+z^2}$
 
 ---
 
