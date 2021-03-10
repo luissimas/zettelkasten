@@ -24,8 +24,17 @@ Os *componentes* de $\vec{v}$ na base *canônica* são chamados de *abcissa* ($x
 
 ## Operações com vetores
 Sejam os vetores $\vec{u}=(x_1,y_1)$ e $\vec{v}=(x_2,y_2)$, com $a\in\mathbb{R}$ temos as seguintes operações:
-> $$\vec{u}+\vec{v}=(x_1+x_2,y_1+y_2)$$
-> $$\alpha\vec{u}$$
+>$$
+\begin{align}
+  \vec{u}+\vec{v}&=(x_1+x_2,y_1+y_2)\\
+   \alpha \vec{u}&=(\alpha x_1,\alpha y_1)\\
+   -\vec{u}&=(-x_1,-y_1)\\
+   \vec{u}-\vec{v}&=(x_1-x_2,y_1-y_2)
+\end{align}
+>$$
+
+## Vetor definido por dois pontos
+
 
 
 ---
