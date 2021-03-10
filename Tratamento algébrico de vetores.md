@@ -68,7 +68,12 @@ Trabalhando com *espaço* podemos considerar a base canônica $\{\vec{i},\vec{j}
 
 ![[baseortogonalespacial.png]]
 
+Nesse caso os *componentes* de $\vec{v}$ na base *canônica* são chamados de *abcissa* ($x$), *ordenada* ($y$) e *cota* ($z$). Cada par de vetores da base, ou seja, cada dupla de eixos determina um plano coordenado. Sendo assim temos três planos coordenados: $xOy$, $xOz$ e $yOz$.
 
+![[planosvetoresespaciais.png]]
+
+Assim como no plano de duas dimensões, cada ponto $P(x,y,z)$ corresponde ao vetor $\vec{v}=x \vec{i}+y \vec{j}+z \vec{k}$, ou seja, podemos expressar um vetor da seguinte forma
+> $\vec{v}=(x,y,z)$
 
 ---
 
