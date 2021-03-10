@@ -1,6 +1,6 @@
 # Probabilidade
 A probabilidade é uma ferramenta da [[Estatística|estatística]], com ela é possível estudar experimentos que repetidos sob as **mesmas condições** produzem resultados **diferentes**.
-Considerando um [[Espaço amostral e eventos|evento aleatório]] $\varepsilon$ com espaço amostral $\Omega$ e espaço de eventos $\mathcal{F}$, a probabilidade de ocorrência de um evento $E$ é uma função $P:\mathcal{F}\rightarrow[0,1]$
+Considerando um [[Espaço amostral e eventos|evento aleatório]] $\varepsilon$ com espaço amostral $\Omega$ e espaço de eventos $\mathcal{F}$, ou seja, um **espaço de probabilidade** $(\Omega,\mathcal{F},P)$ a probabilidade de ocorrência de um evento $E$ é uma função $P:\mathcal{F}\rightarrow[0,1]$
 $$
 P(E)=\frac{|E|}{|\Omega|}
 $$
@@ -9,6 +9,8 @@ Há algumas propriedades importantes no cálculo de probabilidades, elas são fu
 > Se $A$ é um evento de $\mathcal{F}$, então $$P(A^c)=1-P(A)$$
 
 > Se $A$ e $B$ são eventos de $\mathcal{F}$ , então $$P(A\cup B)=P(A)+P(B)-P(A\cap B)$$
+
+## Probabilidade condicional
 
 ---
 
