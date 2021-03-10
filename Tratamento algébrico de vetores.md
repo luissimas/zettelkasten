@@ -64,6 +64,11 @@ Com base nisso, podemos inferir que a distância entre dois pontos $A(x_1,y_1)$ 
 Dado um vetor $\vec{v}$, é possível associa-lo a dois vetores unitários paralelos: $\frac{\vec{v}}{|\vec{v}|}$ e $-\frac{\vec{v}}{|\vec{v}|}$
 
 ## Vetores no espaço
+Trabalhando com *espaço* podemos considerar a base canônica $\{\vec{i},\vec{j},\vec{k}\}$. Essa base determina o *sistema cartesiano ortogonal* composto por três vetores unitários e ortogonais entre si com origem no ponto $O$.
+
+![[baseortogonalespacial.png]]
+
+
 
 ---
 
