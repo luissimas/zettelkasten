@@ -8,11 +8,11 @@ Essa é a definição clássica de probabilidade, válida apenas quando $\Omega$
 Há algumas propriedades importantes no cálculo de probabilidades, elas são fundamentadas nas propriedades de conjuntos.
 > Se $A$ é um evento de $\mathcal{F}$, então $$P(A^c)=1-P(A)$$
 
-> Se $A$ e $B$ são eventos de $\mathcal{F}$ , então $$P(A\cup B)=P(A)+P(B)-P(A\cap B)$$
+> Se $A$ e $B$ são eventos de $\mathcal{F}$ , então $$P(A \cup B)=P(A)+P(B)-P(A \cap B)$$
 
 ## Probabilidade condicional
 Na probabilidade condicional trabalha-se a probabilidade de ocorrência de um dado evento $A$ sabendo que os resultados possíveis são **somente** os resultados favoráveis a um determinado evento $B$. Note que devemos contar a cardinalidade de $A \cap B$ ao invés de simplesmente $A$, pois estamos considerando apenas os resultados contidos no evento $B$.
-> $$P(A|B)=\frac{|A \cap B|}{|B|}$$
+> $$P(A|B)=\frac{|A \cap B|}{|B|} = \frac{P(A \cap B)}{P(B)}$$
 
 ---
 
