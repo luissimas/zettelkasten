@@ -57,6 +57,12 @@ Dois vetores são paralelos quando *suas componentes forem proporcionais*, ou se
 Seja o vetor $\vec{v}=(x,y)$, pelo *teorema de Pitágoras* é possível afirmar que:
 >$$|\vec{v}|=\sqrt{x^2+y^2}$$
 
+Com base nisso, podemos inferir que a distância entre dois pontos $A(x_1,y_1)$ e $B(x_2,y_2)$, ou seja, o comprimento do vetor $\overrightarrow{AB}$ é dado por:
+>$$ d(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$
+
+## Vetor unitário
+Dado um vetor $\vec{v}$, é possível associa-lo a dois vetores unitários paralelos: $\frac{\vec{v}}{|\vec{v}|}$ e $-\frac{\vec{v}}{|\vec{v}|}$
+
 ---
 
 created: 09/03/2021
