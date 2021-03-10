@@ -34,7 +34,16 @@ Sejam os vetores $\vec{u}=(x_1,y_1)$ e $\vec{v}=(x_2,y_2)$, com $a\in\mathbb{R}$
 >$$
 
 ## Vetor definido por dois pontos
+> Dado um vetor $\overrightarrow{AB}$ de origem no ponto $A(x_1,x_2)$ e extremidade em $B(x_2,y_2)$, podemos definir $\overrightarrow{AB}$ como$$\overrightarrow{AB}=(x_2-x_1,y_2-y_1)$$
 
+Um exemplo dessa definição é dado na figura a seguir:
+
+![[vetorpordoispontos.png]]
+
+Onde $\overrightarrow{AB} = B-A$.
+
+## Representante natural
+Considerando a base canônica, um vetor tem infinitos representantes. Dentre todos os representantes de um vetor aquele que "melhor o caracteriza" é aquele que tem origem no ponto $O(0,0)$ e extremidade no ponto $P(x_2-x_1,y_2-y_1)$. Esse vetor é chamado de *vetor posição* ou *representante natural* de $\overrightarrow{AB}$.
 
 
 ---
