@@ -63,6 +63,8 @@ Com base nisso, podemos inferir que a distância entre dois pontos $A(x_1,y_1)$ 
 ## Vetor unitário
 Dado um vetor $\vec{v}$, é possível associa-lo a dois vetores unitários paralelos: $\frac{\vec{v}}{|\vec{v}|}$ e $-\frac{\vec{v}}{|\vec{v}|}$
 
+## Vetores no espaço
+
 ---
 
 created: 09/03/2021
