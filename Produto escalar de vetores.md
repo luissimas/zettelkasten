@@ -38,6 +38,22 @@ Seja o vetor $\vec{v}=x \vec{i}+y \vec{j}+z \vec{k}$, os *ângulos diretores* de
 
 ![[angulosdiretores.png]]
 
+Utilizando as definições anteriores, é possível verificar que os valores dos cossenos diretores de $\vec{v}$ são precisamente os componentes do versor de $\vec{v}$, ou seja:
+$$
+  \begin{aligned}
+    \cos{\alpha} &= \frac{x}{|\vec{v}|}\\
+    \cos{\beta} &= \frac{y}{|\vec{v}|}\\
+    \cos{\gamma} &= \frac{z}{|\vec{v}|}
+  \end{aligned}
+$$
+Isso implica que:
+$$
+  \cos^2{\alpha}+\cos^2{\beta}+\cos^2{\gamma}=1
+$$
+
+## Projeção de um vetor sobre outro
+
+
 ---
 
 created: 15/03/2021
