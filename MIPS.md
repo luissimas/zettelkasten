@@ -17,13 +17,22 @@ Em [[Assembly|assembly]] os registradores são identificados com o símbolo `$` 
 As instruções são divididas em 3 tipos principais, de acordo com a forma de seus operandos.
 
 ### R-Type
-Esse tipo é caracterizado pelo uso de **registradores** na instrução
+Esse tipo é caracterizado pelo uso de **registradores** na instrução, ou seja, todos os operandos são códigos de registradores. Nesse tipo de instrução o **opcode é igual a 0**, sendo a variante da operação especificada no campo *funct* da instrução.
+
+![[rtypemipsinstruction.png]]
+
+Note que o campo *shamt* é usado apenas em operações referentes a deslocamento de bits dos operandos.
 
 ### I-Type
-Esse tipo é caracterizado pelo uso de **valores imediatos**, que podem ser representados como valores constante ou o endereço do dado a ser acessado mantido dentro da própria instrução.
+Esse tipo é caracterizado pelo uso de **valores imediatos**, que podem ser representados como valores constantes ou o endereço do dado a ser acessado mantido dentro da própria instrução.
+
+![[itypemipsinstruction.png]]
+
 
 ### J-Type
-Esse tipo é caracterizado por compreender as instruções de desvio incondicional ([[ISA#Jumps Desvios|jumps]])
+Esse tipo é caracterizado por compreender as instruções de desvio incondicional ([[ISA#Jumps Desvios|jumps]]). Nessa instrução o operando é o endereço (target), que é o local da memória onde está armazenada a instrução para a qual se deseja saltar.
+
+![[jtypemipsinstruction.png]]
 
 ---
 
