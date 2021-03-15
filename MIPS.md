@@ -16,13 +16,13 @@ Em [[Assembly|assembly]] os registradores são identificados com o símbolo `$` 
 
 As instruções são divididas em 3 tipos principais, de acordo com a forma de seus operandos.
 
-## R-Type
+### R-Type
 Esse tipo é caracterizado pelo uso de **registradores** na instrução
 
-## I-Type
+### I-Type
 Esse tipo é caracterizado pelo uso de **valores imediatos**, que podem ser representados como valores constante ou o endereço do dado a ser acessado mantido dentro da própria instrução.
 
-## J-Type
+### J-Type
 Esse tipo é caracterizado por compreender as instruções de desvio incondicional ([[ISA#Jumps Desvios|jumps]])
 
 ---
