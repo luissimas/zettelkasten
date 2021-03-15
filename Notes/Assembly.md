@@ -6,9 +6,9 @@ Vale lembrar que, por ser uma linguagem muito próxima do hardware, um programa 
 graph TD
   h["Programa de alto nível (C, C++)"] --> c((Compilador)) --> a["Programa em Assembly"] --> ass((Assembler)) --> lm[Programa em linguagem de máquina] --> lk((Linker)) --> pe[Programa executável]
 ```
-Nesse processo, o *Linker* é responsável por importar e gerenciar bibliotecas externas utilizadas no programa.
+Nesse processo, o *Linker* é responsável por importar e gerenciar bibliotecas externas e arquivos separados utilizados no programa, gerando o arquivo executável final.
 
 ---
 
 created: 01/03/2021
-modified: 01/03/2021
+modified: 15/03/2021
