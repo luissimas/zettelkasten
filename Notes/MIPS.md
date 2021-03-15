@@ -37,26 +37,6 @@ Esse tipo é caracterizado por compreender as instruções de desvio incondicion
 
 ![[jtypemipsinstruction.png]]
 
-## Instruções
-
-
-### Leitura e escrita
-da memória para um registrador
-
-### Movimentação de dados
-de um registrador para outro
-
-### Aritméticas
-
-### Desvios incondicionais
-jumps
-
-### Desvios condicionais
-comparações + jumps
-
-### Chamadas de subrotina
-
-
 ---
 
 created: 15/03/2021
