@@ -37,8 +37,6 @@ Esse tipo é caracterizado por compreender as instruções de desvio incondicion
 
 ![[jtypemipsinstruction.png]]
 
-## Instruções
-
 ---
 
 created: 15/03/2021
