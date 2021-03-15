@@ -18,7 +18,20 @@ $$
   \vec{u}\cdot \vec{u}=|\vec{u}||\vec{v}|\cos(\theta),\quad 0^{\circ}\leq\theta\leq180^{\circ}
 $$
 Sendo $\theta$ o ângulo entre os vetores $\vec{u}$ e $\vec{v}$.
+De maneira análoga à definição algébrica, temos as seguintes propriedades:
+$$
+\begin{align}
+  |\vec{u} +\vec{v}|^2&=|\vec{u}|^2 + |\vec{v}|^2 +2 |\vec{u}||\vec{v}|\cos{\theta} \\
+  |\vec{u} -\vec{v}|^2&=|\vec{u}|^2 + |\vec{v}|^2 -2 |\vec{u}||\vec{v}|\cos{\theta} \\
+\end{align}  
+$$
 
+A partir disso é possível inferir uma condição para que dois vetores sejam [[Tratamento geométrico de vetores|orgotonais]]:
+> Dois vetores $\vec{u}$ e $\vec{v}$ são ortogonais se, e somente se, $\vec{u}\cdot \vec{v}=0$
+
+## Cálculo do ângulo de dois vetores
+Dados os vetores $\vec{u}$ e $\vec{v}$, o ângulo $\theta$ formado por esses dois vetores é dado por:
+>$$\cos{\theta}=\frac{\vec{u}\cdot \vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
 
 
 ---
