@@ -16,6 +16,12 @@ Na probabilidade condicional trabalha-se a probabilidade de ocorrência de um da
 
 ## Eventos independentes
 Dois eventos são **independentes** quando a ocorrência de um não altera a probabilidade de ocorrência do outro.
+> Para um dado espaço de probabilidade ($\Omega$, $\mathcal{F}$, $P$), dados dois eventos $A$ e $B$, dizemos que $A$ e $B$ são eventos independentes quando uma das seguintes condições for satisfeita:$$\begin{aligned} &P(A \cap B) = P(A)P(B)\\
+  &P(A|B) = P(A)\text{, se } P(B) > 0\\
+  &P(B|A) = P(B) \text{, se } P(A) > 0
+  \end{aligned}$$
+
+  
 
 ## Variáveis aleatórias
 
