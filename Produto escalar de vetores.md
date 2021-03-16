@@ -56,7 +56,7 @@ $$
 Sejam os vetores $\vec{u}$ e $\vec{v}$, e $\theta$ o ângulo entre eles, se decompormos um dos vetores, por exemplo $\vec{v}=\vec{v_1}+\vec{v_2}$, sendo $\vec{v_1}//\vec{u}$ e $\vec{v_2}\perp \vec{u}$. Quando isso ocorre o vetor $\vec{v_1}$ é chamado de *projeção ortogonal de $\vec{v}$ sobre $\vec{u}$*, e indicado por: 
 $$
 \begin{align}
-  \vec{v_1}=\text{proj}_{\vec{u}}\vec{v}=\left(\frac{\vec{v}\cdot \vec{u}}{\vec{u}\cdot \vec{u}}\right)\vec{u}\\
+  \vec{v_1}=\text{proj}_{\vec{u}}\vec{v}=\left(\frac{\vec{v}\cdot \vec{u}}{|\vec{u}|^2}\right)\vec{u}\\
 
 \end{align}
 $$
