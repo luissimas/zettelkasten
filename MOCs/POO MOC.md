@@ -1,6 +1,8 @@
 # Programação Orientada a Objetos
 [[Introdução a Orientação a Objetos]]
 
+Referencial teórico: [[cppdeitel.pdf]]
+
 ---
 
 created: 23/02/2021
