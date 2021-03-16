@@ -15,7 +15,7 @@ $$
 ## Definição geométrica
 Usando a lei dos cossenos e as definições anteriores, é possível chegar na seguinte definição:
 $$
-  \vec{u}\cdot \vec{u}=|\vec{u}||\vec{v}|\cos(\theta),\quad 0^{\circ}\leq\theta\leq180^{\circ}
+  \vec{u}\cdot \vec{v}=|\vec{u}||\vec{v}|\cos(\theta),\quad 0^{\circ}\leq\theta\leq180^{\circ}
 $$
 Sendo $\theta$ o ângulo entre os vetores $\vec{u}$ e $\vec{v}$.
 De maneira análoga à definição algébrica, temos as seguintes propriedades:
@@ -61,7 +61,6 @@ $$
 $$
 
 ![[projecaovetores.png]]
-
 
 ---
 
