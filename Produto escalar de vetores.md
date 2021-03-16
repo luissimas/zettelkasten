@@ -15,7 +15,7 @@ $$
 ## Definição geométrica
 Usando a lei dos cossenos e as definições anteriores, é possível chegar na seguinte definição:
 $$
-  \vec{u}\cdot \vec{v}=|\vec{u}||\vec{v}|\cos(\theta),\quad 0^{\circ}\leq\theta\leq180^{\circ}
+  \vec{u}\cdot \vec{v}=|\vec{u}||\vec{v}|\cos{\theta},\quad 0^{\circ}\leq\theta\leq180^{\circ}
 $$
 Sendo $\theta$ o ângulo entre os vetores $\vec{u}$ e $\vec{v}$.
 De maneira análoga à definição algébrica, temos as seguintes propriedades:
@@ -26,6 +26,7 @@ $$
 \end{align}  
 $$
 
+Note que essa definição **não depende das coordenadas** dos vetores, **apenas de seu módulo**.
 A partir disso é possível inferir uma condição para que dois vetores sejam [[Tratamento geométrico de vetores|orgotonais]]:
 > Dois vetores $\vec{u}$ e $\vec{v}$ são ortogonais se, e somente se, $\vec{u}\cdot \vec{v}=0$
 
