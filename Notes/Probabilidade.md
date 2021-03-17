@@ -24,7 +24,8 @@ Dois eventos são **independentes** quando a ocorrência de um não altera a pro
   
 
 ## Variáveis aleatórias
-
+é uma função que associa a cada elemento do espaço amostral um número
+$X^{-1}(\{0\})$: imagem inversa do conjunto unitário $0$ (exemplo)
 
 ---
 
