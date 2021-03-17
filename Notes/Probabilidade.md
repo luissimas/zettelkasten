@@ -25,6 +25,7 @@ Dois eventos são **independentes** quando a ocorrência de um não altera a pro
 
 ## Variáveis aleatórias
 
+
 ---
 
 created: 03/03/2021
