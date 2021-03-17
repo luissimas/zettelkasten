@@ -13,9 +13,17 @@ target: dependencies
 Quando rodamos *make* ele executa a *action* para todos os *targets* cujas *depencencies* sofreram alterações. Os *macros* são semelhantes a constantes e facilitam a modificação de certos componentes de uma determinada *Makefile*.
 Existem alguns macros especiais pré-definidos:
 - `$@` é o nome do target
-- `$?` é o nome das dependências que sofreram alterações
-- `$@` é o nome do target
-- `$@` é o nome do target
+- `$?` é o nome das dependências daquele target que sofreram alterações
+- `$^` é o nome de todas as dependências daquele target
+
+Fiz um makefile genérico para *C++*:
+
+```Makefile
+MACRO = 
+
+target: dependencies
+  action
+```
 
 ---
 
