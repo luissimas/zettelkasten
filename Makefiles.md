@@ -19,10 +19,17 @@ Existem alguns macros especiais pré-definidos:
 Fiz um makefile genérico para *C++*:
 
 ```Makefile
-MACRO = 
+CXX=g++
+CXXFLAGS=-Wall
 
-target: dependencies
-  action
+LIBRARIES=
+EXECUTABLE=output
+
+all: *.cpp
+	$(CXX) $(CXXFLAGS) $? -o $(EXECUTABLE) $(LIBRARIES)
+
+clean:
+	rm $(EXECUTABLE)
 ```
 
 ---
