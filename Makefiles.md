@@ -26,7 +26,7 @@ LIBRARIES=
 EXECUTABLE=output
 
 all: *.cpp
-	$(CXX) $(CXXFLAGS) $? -o $(EXECUTABLE) $(LIBRARIES)
+	$(CXX) $(CXXFLAGS) $^ -o $(EXECUTABLE) $(LIBRARIES)
 
 clean:
 	rm $(EXECUTABLE)
