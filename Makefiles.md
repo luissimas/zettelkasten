@@ -4,12 +4,18 @@ Makefiles são arquivos que descrevem a relação entre os diferentes arquivos d
 A sintaxe básica de um *Makefile* segue a seguinte estrutura:
 
 ```Makefile
+MACRO = 
 
 target: dependencies
   action
 ```
 
-Quando rodamos *make* ele verifica todas as dependências, toda vez que uma dependência é alterada a ação especificada é executada.
+Quando rodamos *make* ele executa a *action* para todos os *targets* cujas *depencencies* sofreram alterações. Os *macros* são semelhantes a constantes e facilitam a modificação de certos componentes de uma determinada *Makefile*.
+Existem alguns macros especiais pré-definidos:
+- `$@` é o nome do target
+- `$?` é o nome das dependências que sofreram alterações
+- `$@` é o nome do target
+- `$@` é o nome do target
 
 ---
 
