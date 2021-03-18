@@ -16,7 +16,7 @@ Na probabilidade condicional trabalha-se a probabilidade de ocorrência de um da
 
 ## Eventos independentes
 Dois eventos são **independentes** quando a ocorrência de um não altera a probabilidade de ocorrência do outro.
-> Para um dado espaço de probabilidade ($\Omega$, $\mathcal{F}$, $P$), dados dois eventos $A$ e $B$, dizemos que $A$ e $B$ são eventos independentes quando uma das seguintes condições for satisfeita:$$\begin{aligned} &P(A \cap B) = P(A)P(B)\\
+> Para um dado espaço de probabilidade ($\Omega, \mathcal{F}, P$), dados dois eventos $A$ e $B$, dizemos que $A$ e $B$ são eventos independentes quando uma das seguintes condições for satisfeita:$$\begin{aligned} &P(A \cap B) = P(A)P(B)\\
   &P(A|B) = P(A)\text{, se } P(B) > 0\\
   &P(B|A) = P(B) \text{, se } P(A) > 0
   \end{aligned}$$
@@ -24,7 +24,11 @@ Dois eventos são **independentes** quando a ocorrência de um não altera a pro
   
 
 ## Variáveis aleatórias
-é uma função que associa a cada elemento do espaço amostral um número
+Apesar do nome, as variáveis aleatórias na realidade são funções que associam a cada elemento do espaço amostral um número, esse número é definido de acordo com o que se deseja representar com a variável aleatória.
+> Dado um experimento aleatório com espaço de probabilidade ($\Omega, \mathcal{F}, P$), uma **variável aleatória** é qualquer função $X:\Omega\rightarrow\mathbb{R}$ tal que
+$$X^{-1}(I)=\{\omega\in\Omega:X(\omega)\in I\}\in\mathcal{F}$$
+>Ou seja, X é uma função tal que sua imagem inversa são eventos de $\mathcal{F}$
+
 $X^{-1}(\{0\})$: imagem inversa do conjunto unitário $0$ (exemplo)
 
 ---
