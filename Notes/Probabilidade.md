@@ -29,7 +29,19 @@ Apesar do nome, as variáveis aleatórias na realidade são funções que associ
 $$X^{-1}(I)=\{\omega\in\Omega:X(\omega)\in I\}\in\mathcal{F}$$
 >Ou seja, X é uma função tal que sua imagem inversa são eventos de $\mathcal{F}$
 
-$X^{-1}(\{0\})$: imagem inversa do conjunto unitário $0$ (exemplo)
+Por exemplo, a expressão $X^{-1}(\{0\})$, é lida como: imagem inversa do conjunto unitário $0$
+
+### Variáveis aleatórias discretas
+A variável aleatória $X:\Omega\rightarrow\mathbb{R}$ é chamada de **discreta** quando seu conjunto imagem $Im(X)$ é finito ou infinito enumerável, ou seja, os valores possíveis de $X$ podem ser escritos em forma de lista:
+>$$
+Im(X)=
+\begin{cases}
+  \{x_1,x_2,\dots,x_n\},\qquad\text{ no caso finito;}\\
+  \{x_1,x_2,x_3,\dots\},\qquad\text{ no caso infinito;}\\
+\end{cases}
+>$$
+
+
 
 ---
 
