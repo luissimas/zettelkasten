@@ -21,7 +21,7 @@ Algumas propriedades úteis dos determinantes são:
 ## Determinantes de ordem superior
 Para calcular o determinante de ordem superior a 2 é necessário usar o *Teorema de Laplace*:
 1. Selecionar uma linha ou coluna, dando preferência àquela que tenha a maior quantidade de zeros.
-2. Somar os produtos dos números da linha ou coluna selecionada multiplicados pelo determinante da submatriz obtida eliminando todos os elementos da linha e coluna do elemento selecionado.
+2. Somar alternando os sinais os produtos dos elementos da linha ou coluna selecionada multiplicados pelos determinantes de cada submatriz obtida eliminando todos os elementos da linha e coluna do elemento selecionado.
 
 $$
 det
@@ -37,6 +37,21 @@ det
   y_1 & z_1 \\
   y_2 & z_2
 \end{bmatrix}
+a
+-
+det
+\begin{bmatrix}
+  x_1 & z_1 \\
+  x_2 & z_2
+\end{bmatrix}
+b
++
+det
+\begin{bmatrix}
+  x_1 & y_1 \\
+  x_2 & y_2
+\end{bmatrix}
+c
 $$
 
 ---
