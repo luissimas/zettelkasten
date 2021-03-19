@@ -41,9 +41,22 @@ $$
 ![[produtovetorialortogonal.png]]
 
 ### Sentido
+O sentido do produto vetorial pode ser intuitivamente determinado através da *regra da mão direita* ilustrada na figura, a ideia é fazer com que os dedos da mão direita apontem no sentido da rotação do ângulo que vai do primeiro até o segundo vetor, então o polegar indica o sentido correto do vetor resultante.
 
+![[regradamaodireita.png]]
+
+### Módulo
+A seguinte definição do módulo de um produto vetorial é obtida a partir da *identidade de Lagrange*.
+> Sendo $\theta$ o ângulo entre os vetores $\vec{u}$ e $\vec{v}$, então$$
+|\vec{u}\times \vec{v}|=|\vec{u}||\vec{v}|\sin{\theta}
+>$$
 
 ## Interpretação geométrica
+A área de um paralelogramo determinado pelos vetores $\vec{u}$ e $\vec{v}$ é numericamente igual ao módulo do vetor $\vec{u}\times\vec{v}$, ou seja:
+$$
+  A=|\vec{u}\times \vec{v}|
+$$
+
 
 ---
 
