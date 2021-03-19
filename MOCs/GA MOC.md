@@ -16,6 +16,8 @@ Nessa unidade o foco são os vetores.
 [[Tratamento geométrico de vetores]]
 [[Tratamento algébrico de vetores]]
 [[Produto escalar de vetores]]
+[[Determinantes]]
+[[Produto vetorial]]
 
 Dessa unidade em diante o referencial teórico foi o seguinte: [[Geometria_Analitica_Winterle.pdf]]
 
