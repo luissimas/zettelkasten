@@ -51,12 +51,10 @@ A seguinte definição do módulo de um produto vetorial é obtida a partir da *
 |\vec{u}\times \vec{v}|=|\vec{u}||\vec{v}|\sin{\theta}
 >$$
 
-## Interpretação geométrica
 A área de um paralelogramo determinado pelos vetores $\vec{u}$ e $\vec{v}$ é numericamente igual ao módulo do vetor $\vec{u}\times\vec{v}$, ou seja:
 $$
   A=|\vec{u}\times \vec{v}|
 $$
-
 
 ---
 
