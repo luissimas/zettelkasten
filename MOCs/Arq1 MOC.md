@@ -10,6 +10,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[CISC e RISC]]
 [[Bits de uma arquitetura]]
 [[MIPS]]
+[[ULA]]
 
 ## Prática
 [[Revisão Verilog]]
