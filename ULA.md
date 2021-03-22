@@ -4,6 +4,8 @@ Essa unidade recebe como entrada os dois operandos (no caso da arquitetura [[MIP
 
 ![[ulascheme.png]]
 
+[[Arithmetic logic circuits]]
+
 ---
 
 created: 22/03/2021
