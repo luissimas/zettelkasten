@@ -41,6 +41,15 @@ Im(X)=
 \end{cases}
 >$$
 
+### Distribuição das probabilidades de uma variável aleatória
+
+>$$
+p_X(x)=
+\begin{cases}
+  P(X=x)\qquad\text{ se } x\in Im(X)\\
+  0,\qquad\text{ caso contrário}\\
+\end{cases}
+>$$
 
 ---
 
