@@ -15,8 +15,22 @@ As seguintes propriedades do produto misto decorrem principalmente das proprieda
 3. $(\alpha\vec{u},\vec{v},\vec{w})=(\vec{u},\alpha\vec{v},\vec{w})=(\vec{u},\vec{v},\alpha\vec{w})=\alpha(\vec{u},\vec{v},\vec{w})$
 4. $(\vec{u},\vec{v},\vec{w})=0$ se, e somente se, os três vetores forem **coplanares**.
 
-## Características
 ## Interpretação geométrica
+Geometricamente, o produto misto $\vec{u}\cdot(\vec{v},\vec{w})$ é igual, em módulo, ao volume do paralelepípedo de arestas determinadas pelos vetores não coplanares $\vec{u}$, $\vec{v}$ e $\vec{w}$.
+
+![[volumeparalelepipedoprodutomisto.png]]
+
+A área da base do paralelepípedo é dada por $|\vec{v} \times \vec{w}|$, como definido nos [[Produto vetorial#Módulo|produtos vetoriais]]. Sendo $\theta$ o ângulo entre $\vec{u}$ e $|\vec{v} \times \vec{w}|$, a altura do paralelepípedo é dada por:
+$$
+  h=|\vec{u}||\cos{\theta}|
+$$
+Sendo assim, o volume $V$ do paralelepípedo é dado por:
+$$
+  V=|\vec{v} \times \vec{w}||\vec{u}||\cos{\theta}|=|(\vec{u},\vec{v},\vec{w})|
+$$
+
+
+
 
 ---
 
