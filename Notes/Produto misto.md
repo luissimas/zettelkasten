@@ -26,7 +26,11 @@ $$
 $$
 Sendo assim, o volume $V$ do paralelepípedo é dado por:
 $$
-  V=|\vec{v} \times \vec{w}||\vec{u}||\cos{\theta}|=|(\vec{u},\vec{v},\vec{w})|
+  V=|\vec{v} \times \vec{w}||\vec{u}||\cos{\theta}|
+$$
+ou seja,
+$$
+  V=|(\vec{u},\vec{v},\vec{w})|
 $$
 
 ## Volume do tetraedro
