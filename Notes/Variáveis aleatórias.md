@@ -24,7 +24,29 @@ p_X(x)=
   P(X=x),\qquad\text{ se } x\in Im(X)\\
   0,\qquad\text{ caso contrário}\\
 \end{cases}
->$$ com
+>$$ com$$
+\sum_{x\in Im(X)}{p(x)}=1
+>$$
+
+Como convenção, sendo $X$ uma variável aleatória discreta com função de distribuição de probabilidade $p_X$, escrevemos $X \sim p_X$ e dizemos que **$X$ possui distribuição $p_X$**.
+Existem alguns **modelos discretos** que definem funções de distribuição de probabilidade para experimentos comuns.
+
+#### Bernoulli
+Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição *Bernoulli* com parâmetro $\theta, \theta \in ]0,1[$, quando $Im(X) = \{0,1\}$ e sua função de distribuição de probabilidade é dada por:
+>$$
+p_X(x)=
+\begin{cases}
+  \theta^x(1-\theta)^{1-x},\qquad\text{ se } x \in Im(X)\\
+  0,\qquad\text{ caso contrário.}
+\end{cases}
+>$$
+
+A notação para descrever essa função é $X \sim Bernoulli(\theta)$.
+Geralmente associamos como **sucesso** a ocorrência de $1$ e **fracasso** a ocorrência de $0$.
+
+#### Binomial
+
+#### Geométrica
 
 ---
 
