@@ -11,7 +11,7 @@ A palavra permutação significa ordenação. Geralmente os problemas de ordena�
 
 ### Combinação
 Na combinação a **ordem dos elementos não importa**. Geralmente os problemas de combinação seguem o formato: *de quantos modos é possível formar grupos a partir da seleção de $p$ objetos distintos entre $n$ objetos distindos dados?*. A ideia aqui é trabalhar com grupos de elementos, portanto a ordem na qual os elementos estão dispostos não importa. Vale lembrar que para representar cada grupo de elementos deve-se usar sempre a notação de conjuntos ($\{e_1,e_2,\dots,e_p\}$), pois ela representa o fato de que a ordem dos elementos não importa.
-> O número de modos que podemos escolher $p$ objetos distintos entre $n$ objetos distintos de forma que não importe a ordem de seleção é dado por:$$\frac{n\times(n-1)\times\dots\times(n-p+1)}{p!}$$
+> O número de modos que podemos escolher $p$ objetos distintos entre $n$ objetos distintos de forma que não importe a ordem de seleção é dado por:$$\frac{n\times(n-1)\times\dots\times(n-p+1)}{p!}=\frac{n!}{(n-p)!p!}=\binom{n}{p}$$
 
 Na definição acima estamos dividindo por $p!$ pois devemos desconsiderar os conjuntos que estão sendo diferenciados na contagem apenas pela ordem dos elementos.
 

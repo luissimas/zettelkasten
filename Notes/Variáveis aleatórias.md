@@ -32,7 +32,7 @@ Como convenção, sendo $X$ uma variável aleatória discreta com função de di
 Existem alguns **modelos discretos** que definem funções de distribuição de probabilidade para experimentos comuns.
 
 #### Bernoulli
-Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição *Bernoulli* com parâmetro $\theta, \theta \in ]0,1[$, quando $Im(X) = \{0,1\}$ e sua função de distribuição de probabilidade é dada por:
+Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição *Bernoulli* com parâmetro $\theta$, $\theta \in ]0,1[$, quando $Im(X) = \{0,1\}$ e sua função de distribuição de probabilidade é dada por:
 >$$
 p_X(x)=
 \begin{cases}
@@ -42,11 +42,33 @@ p_X(x)=
 >$$
 
 A notação para descrever essa função é $X \sim Bernoulli(\theta)$.
-Geralmente associamos como **sucesso** a ocorrência de $1$ e **fracasso** a ocorrência de $0$.
+Geralmente associamos como **sucesso** a ocorrência de $1$ e **fracasso** a ocorrência de $0$. É chamado **ensaio de Bernoulli** o experimento aleatório que tem resposta do tipo sucesso e fracasso.
 
 #### Binomial
+Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição *Binomial* com parâmetros $n$ e $\theta$, $n \in \mathbb{N}$ e $\theta \in ]0,1[$, quando $Im(X) = \{0,1,2,\dots,n\}$ e sua função de distribuição de probabilidade é dada por:
+>$$
+p_X(x)=
+\begin{cases}
+  \binom{n}{x}\theta^x(n-\theta)^{1-x},\qquad\text{ se } x \in Im(X)\\
+  0,\qquad\text{ caso contrário.}
+\end{cases}
+>$$
+
+A notação para descrever essa função é $X \sim Binomial(n,\theta)$.
+Esse tipo de experimento pode ser interpretado como a **realização de $n$ *ensaios de Bernoulli* indepentendes, anotando-se o número de sucessos obtidos.** Note que a utilização de $\binom{n}{x}$ nos permite considerar as $n$ [[Contagem#Combinação|combinações]] possíveis desprezando a ordem.
 
 #### Geométrica
+Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição *Geométrica* com parâmeto $\theta$, $\theta \in ]0,1[$, quando $Im(X) = \{0,1,2,\dots,n\}$ e sua função de distribuição de probabilidade é dada por:
+>$$
+p_X(x)=
+\begin{cases}
+  (1-\theta)^x\theta,\qquad\text{ se } x \in Im(X)\\
+  0,\qquad\text{ caso contrário.}
+\end{cases}
+>$$
+
+A notação para descrever essa função é $X \sim Geométrica(\theta)$.
+Esse tipo de experimento pode ser interpretado como a **realização de $n$ *ensaios de Bernoulli* indepentendes, anotando-se o número de fracassos obtidos antes de obter o primeiro sucesso.**
 
 ---
 
