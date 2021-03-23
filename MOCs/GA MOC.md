@@ -18,6 +18,7 @@ Nessa unidade o foco são os vetores.
 [[Produto escalar de vetores]]
 [[Determinantes]]
 [[Produto vetorial]]
+[[Produto misto]]
 
 Dessa unidade em diante o referencial teórico foi o seguinte: [[Geometria_Analitica_Winterle.pdf]]
 
