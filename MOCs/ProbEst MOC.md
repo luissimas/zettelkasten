@@ -5,6 +5,7 @@ Probabilidade é o estudo matemático na quantificação da aleatoriedade de eve
 [[Espaço amostral e eventos]]
 [[Contagem]]
 [[Probabilidade]]
+[[Variáveis aleatórias]]
 [[Amostragem]]
 [[Análise descritiva e exploratória]]
 [[Inferência Estatística]]
