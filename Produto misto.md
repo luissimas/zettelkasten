@@ -29,8 +29,28 @@ $$
   V=|\vec{v} \times \vec{w}||\vec{u}||\cos{\theta}|=|(\vec{u},\vec{v},\vec{w})|
 $$
 
+## Volume do tetraedro
+Considerando $A$, $B$, $C$ e $D$ pontos não coplanares, em que $\overrightarrow{AB}$, $\overrightarrow{AC}$ e $\overrightarrow{AD}$ determinam um paralelepípedo de volume definido por:
+$$
+  V=|(\overrightarrow{AB}, \overrightarrow{AC}, \overrightarrow{AD})|
+$$
 
+![[tetraedroprodutomisto.png]]
 
+Podemos repartir o paralelepípedo em dois prismas triangulares de mesmo tamanho, com seus volumes $V_p$ definidos por:
+$$
+  V_p=\frac{1}{2}V
+$$
+
+Podemos ainda repartir cada prisma em três pirâmides de mesmo volume, sendo uma delas o tetraedro $ABCD$, de volume $V_t$ dado por:
+$$
+  V_t=\frac{1}{3}V_p=\frac{1}{6}V
+$$
+
+ou seja,
+$$
+  V_t=\frac{1}{6}|(\overrightarrow{AB}, \overrightarrow{AC}, \overrightarrow{AD})|
+$$
 
 ---
 
