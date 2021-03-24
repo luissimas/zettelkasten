@@ -70,6 +70,9 @@ p_X(x)=
 A notação para descrever essa função é $X \sim Geométrica(\theta)$.
 Esse tipo de experimento pode ser interpretado como a **realização de $n$ *ensaios de Bernoulli* indepentendes, anotando-se o número de fracassos obtidos antes de obter o primeiro sucesso.**
 
+## Variáveis aleatórias contínuas
+A variável aleatória $X:\Omega\rightarrow\mathbb{R}$ é chamada de **contínua** quando seu conjunto imagem $Im(X)$ não é enumerável.
+
 ---
 
 created: 23/03/2021
