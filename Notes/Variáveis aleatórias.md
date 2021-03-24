@@ -72,6 +72,7 @@ Esse tipo de experimento pode ser interpretado como a **realização de $n$ *ens
 
 ## Variáveis aleatórias contínuas
 A variável aleatória $X:\Omega\rightarrow\mathbb{R}$ é chamada de **contínua** quando seu conjunto imagem $Im(X)$ não é enumerável.
+Vamo integrar os bagulho pra achar a tal da função densidade de probabilidade
 
 ---
 
