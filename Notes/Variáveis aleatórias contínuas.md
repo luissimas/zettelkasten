@@ -51,7 +51,7 @@ f_X(x)=
 \end{cases}
 >$$
 
-A notação utilizada para esse tipo de distribuição é $X\sim Exponencial(\alpha)$
+A notação utilizada para esse tipo de distribuição é $X\sim Exponencial(\alpha)$. Esse tipo de distribuição é usado quando existe uma variação exponencial das probabilidades da variável aleatória. Vale destacar que o parâmetro $\alpha$ indica a taxa de ocorrência do evento por unidade de medida, que pode ser tempo, distância, volume etc.
 
 ---
 
