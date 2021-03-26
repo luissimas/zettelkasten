@@ -3,6 +3,31 @@ A variável aleatória $X:\Omega\rightarrow\mathbb{R}$ é chamada de **contínua
 
 ### Função densidade de probabilidade
 Quando lidamos com variáveis aleatórias contínuas, não podemos mais utilizar *funções de distribuição de probabilidade*, pois não é possível calcular as probabilidades nos pontos. Ao invés disso, usamos *funções de densidade de probabilidade* para caracterizar as variáveis aleatórias contínuas.
+A função de densidade representa a variação das probabilidades durante o intervalo, mas **a imagem na função de densidade de probabilidade NÃO é a probabilidade do evento naquele determinado ponto**.
+Sabendo disso, podemos dizer que a **área sob a curva da função de densidade de probabilidade** em um intervalo $[a,b]$ é igual a $P(a \leq X \leq b)$. Para encontrar a área sob uma curva devemos usar [[Integrais definidas|integrais]], daí surge a seguinte definição:
+
+> Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, \mathcal{P})$, seja $X:\Omega\rightarrow\mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$. A função $f_X:\mathbb{R}\rightarrow\mathbb{R}$ é uma * **função densidade de probabilidade** (f.d.p.)* quando:
+>  1. $f_X$ é *não-negativa*, ou seja: $$
+  f_X(x) \geq 0,\qquad \forall x \in \mathbb{R}
+>$$
+>  2. A área total sob a curva deve ser igual a 1, ou seja: $$
+  \int_{-\infty}^{+\infty}{f_X(x)}\,dx = 1
+>$$
+
+Assim, podemos dizer que as áreas sob a curva da função densidade associadas a intervalos reais representam a distribuição das probabilidades ao longo de tais intervalos. Disso podemos tirar conclusões importantes:
+
+Dada uma variável aleatória contínua $X:\Omega\rightarrow\mathbb{R}$:
+>$$
+  P(X=x_0) = \int_{x_0}^{x_0}{f_X(x)}\,dx = 0
+>$$
+
+E ainda, pela natureza das integrais, tomando dois números reais $a$ e $b$ com $a < b$ temos que:
+
+>$$
+  P(a \leq X \leq b) = P(a \lt X \leq b) = P(a \leq X \lt b) = P(a \lt X \lt b) = \int_{a}^{b}{f_X(x)}\,dx
+>$$
+
+Ou seja, a abertura do intervalo não importa na hora de calcular a probabilidade.
 
 ---
 
