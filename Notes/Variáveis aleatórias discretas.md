@@ -41,7 +41,7 @@ Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Ome
 >$$
 p_X(x)=
 \begin{cases}
-  \binom{n}{x}\theta^x(n-\theta)^{1-x},\qquad\text{ se } x \in Im(X)\\
+  \binom{n}{x}\theta^x(1-\theta)^{n-x},\qquad\text{ se } x \in Im(X)\\
   0,\qquad\text{ caso contrário.}
 \end{cases}
 >$$
