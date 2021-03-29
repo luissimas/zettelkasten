@@ -44,3 +44,5 @@ Semelhante ao [[ISA#Deslocamento|endereçamento por deslocamento]], esse modo re
 
 created: 08/03/2021
 modified: 08/03/2021
+
+[[isapt2.pdf]]

@@ -11,6 +11,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[MIPS]]
 [[ULA]]
 [[Unidade de controle]]
+[[Clock]]
 
 ---
 
