@@ -1,7 +1,6 @@
 # Arquitetura e Organização de Computadores
 Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalhamos os princípios da arquitetura e organização básica dos componentes de computadores. Foram abordados tópicos desde circuitos digitais até linguagens de baixo nível.
 
-## Teórica
 [[Fundamentos]]
 [[Computador Elementar]]
 [[Assembly]]
@@ -11,9 +10,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[Bits de uma arquitetura]]
 [[MIPS]]
 [[ULA]]
-
-## Prática
-[[Revisão Verilog]]
+[[Unidade de controle]]
 
 ---
 
