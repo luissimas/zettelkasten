@@ -1,7 +1,5 @@
 # Latin MOC
 ## Partēs orātiōnis
-[[Casos]]
-
 [[Nōmina]]
 [[Prōnōmina]]
 [[Verba]]
