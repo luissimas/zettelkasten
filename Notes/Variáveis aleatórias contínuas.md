@@ -54,7 +54,7 @@ f_X(x)=
 A notação utilizada para esse tipo de distribuição é $X\sim Exponencial(\alpha)$. Esse tipo de distribuição é usado quando existe uma variação exponencial das probabilidades da variável aleatória. Vale destacar que o parâmetro $\alpha$ indica a taxa de ocorrência do evento por unidade de medida, que pode ser tempo, distância, volume etc.
 
 ### Distribuição normal
-Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega,\mathcal{F},P)$, sendo $X:\Omega \rightarrow \mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição normal no intervalo $[a,b] \subset \mathbb{R}$ quando $Im(X)=[a,b]$ e sua função densidade de probabilidade é dada por:
+Esse é o tipo de distribuição mais importante, 
 
 ---
 
