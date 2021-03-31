@@ -11,21 +11,16 @@ Todos os nomes tem uma raíz (thema), que é a parte que não muda indepentende 
 - Numerī (números): singulāris et plūrālis
 - [[Casos do latim|Cāsūs (casos)]]: Nōminātīvus, accūsātīvus, genetīvus, datīvus, ablātīvus et vocātīvus
 
-
-
 [[Prōnōmina|Pronomes (prōnōmina)]]
 [[Verba|Verbos (verba)]]
 
-
 Nomes (substantivos, pronomes e adjetivos) são **declinados**, verbos são **conjugados** (não é a mesma coisa!).
 
-[[Dēclīnātiōnēs substantivōrum]]
-
-### Particulae (indēclīnābilēs)
-[[Adverbia]]
-[[Coniūnctiōnēs]]
-[[Praepositiōnēs]]
-[[Interiectiōnēs]]
+Nas orações existem também as partículas, que não se declinam:
+- [[Adverbia|Advérbios (adverbia)]]
+- [[Coniūnctiōnēs|Conjunções (coniūnctiōnēs)]]
+- [[Praepositiōnēs|Preposições (praepositiōnēs)]]
+- [[Interiectiōnēs|Interjeições (interiectiōnēs)]]
 
 ---
 
