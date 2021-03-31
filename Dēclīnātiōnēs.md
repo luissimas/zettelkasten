@@ -39,6 +39,26 @@ Genitīvus: sing. -ī, plūr. -ōrum
 | **abl.** |  -ō   |  -īs  |
 
 ## [3] Dēclīnātiō **tertia**
+Genitīvus: sing. -is, plūr. -um/ium.
+
+[A] Genitīvus plūrālis: -um.
+1. Nōmina masculīna et fēminīna
+
+|          | sing. | plūr. |
+|:--------:|:-----:|:-----:|
+| **nōm.** |  -  |  -ēs   |
+| **acc.** |  -em  |  -ēs   |
+| **gen.** |  -is   | -um |
+| **dat.** |  -ī   |  -ibus  |
+| **abl.** |  -e   |  -ibus  |
+
+2. Nōmina neutra
+
+
+[B] Genitīvus plūrālis: -ium
+1. Nōmina masculīna et fēminīna
+
+2. Nōmina neutra
 
 ## [4] Dēclīnātiō **quārta**
 

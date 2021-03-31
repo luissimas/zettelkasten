@@ -13,10 +13,11 @@ Referencial Teórico: [[Matrizes_e_sitemas_lineares.pdf]]
 
 ## Unidade 2
 Nessa unidade o foco são os vetores.
+[[Determinantes]]
+
 [[Tratamento geométrico de vetores]]
 [[Tratamento algébrico de vetores]]
 [[Produto escalar de vetores]]
-[[Determinantes]]
 [[Produto vetorial]]
 [[Produto misto]]
 
