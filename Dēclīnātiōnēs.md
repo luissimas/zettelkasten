@@ -60,7 +60,7 @@ Genitīvus: sing. -is, plūr. -um/ium.
 | **acc.** | -     | -a/ia   |
 | **gen.** | -is   | -um/ium |
 | **dat.** | -ī    | -ibus   |
-| **abl.** | -e    | -ibus   |
+| **abl.** | -e/ī  | -ibus   |
 
 
 
@@ -83,10 +83,10 @@ Genitīvus: sing. -ēī/eī, plūr. -ērum.
 | **nōm.** | -ēs   | -ēs     |
 | **acc.** | -em   | -ēs     |
 | **gen.** | -ēī/eī| -ērum   |
-| **dat.** | -ēī   | -ēbus   |
+| **dat.** | -ēī/eī| -ēbus   |
 | **abl.** | -ē    | -ēbus   |
 
 ---
 
 created: 30/03/2021
-modified: 30/03/2021
+modified: 31/03/2021
