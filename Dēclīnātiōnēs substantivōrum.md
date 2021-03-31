@@ -1,5 +1,5 @@
-# Dēclīnātiōnēs
-Existem ao todo 5 declinações, a maneira mais fácil de identificá-las é através do caso genitivo, que sempre é diferente para cada declinação.
+# Dēclīnātiōnēs substantivōrum
+Existem ao todo 5 declinações para os substantivos, a maneira mais fácil de identificá-las é através do caso genitivo, que sempre é diferente para cada declinação.
 
 Dēclīnātiōnēs nōminum sunt quīnque:
 
