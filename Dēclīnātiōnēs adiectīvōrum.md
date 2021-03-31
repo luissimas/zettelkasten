@@ -6,13 +6,18 @@ Dēclīnātiōnēs adiectīvum sunt tria:
 ## [1/2] Dēclīnātiō **prīma** et **secunda**
 Genitīvus: sing. -ae, plūr. -ārum.
 
-|          | sing. | plūr. |
-|:---------|:------|:------|
-| **nōm.** |  -a   |  -ae  |
-| **acc.** |  -am  |  -ās  |
-| **gen.** |  -ae  | -ārum |
-| **dat.** |  -ae  |  -īs  |
-| **abl.** |  -ā   |  -īs  |
+Singulāris
+
+|          | sing. | plūr. |     |
+|:-------- |:----- |:----- |: --- |
+| **nōm.** | -a    | -ae   |     |
+| **acc.** | -am   | -ās   |     |
+| **gen.** | -ae   | -ārum |     |
+| **dat.** | -ae   | -īs   |     |
+| **abl.** | -ā    | -īs   |     |
+
+Plūrālis
+
 
 ## [3] Dēclīnātiō **tertia**
 Genitīvus: sing. -is, plūr. -um/ium.
