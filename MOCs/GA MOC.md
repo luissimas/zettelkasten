@@ -3,6 +3,7 @@ A Geometria Analítica é o estudo da geometria por meio de coordenadas e de pri
 
 ## Unidade 1
 Na primeira unidade do curso fomos apresentados aos princípios algébricos que formam a base da geometria analítica.
+
 [[Sistemas de equações lineares]]
 [[Métodos de escalonamento]]
 [[Posto de matriz]]
@@ -13,6 +14,7 @@ Referencial Teórico: [[Matrizes_e_sitemas_lineares.pdf]]
 
 ## Unidade 2
 Nessa unidade o foco são os vetores.
+
 [[Determinantes]]
 
 [[Tratamento geométrico de vetores]]
