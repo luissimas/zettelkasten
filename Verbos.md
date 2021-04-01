@@ -8,7 +8,7 @@ Verbos expressam ação ou estado, e suas variações são chamadas de *conjuga�
 
 Os verbos também podem apresentar uma forma nominal, ou seja, funcionam como um nome (mais especificamente um adjetivo) na oração.
 
-[[Participium|Participium]]
+[[Particípio|Particípio (participium)]]
 
 ---
 
