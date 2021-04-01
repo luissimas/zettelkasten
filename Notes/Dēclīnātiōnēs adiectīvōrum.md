@@ -30,15 +30,25 @@ Plūrālis
 ## [3] Dēclīnātiō **tertia**
 Genitīvus: sing. -is, plūr. -um/ium.
 
-1. Nōmina masculīna et fēminīna
+Singulāris
 
-|          | sing. | plūr.   |
-|:---------|:------|:--------|
-| **nōm.** | -     | -ēs     |
-| **acc.** | -em   | -ēs     |
-| **gen.** | -is   | -um/ium |
-| **dat.** | -ī    | -ibus   |
-| **abl.** | -e    | -ibus   |
+|          | masc./fēm. | neutr. |
+|:-------- |:---------- |:------ |
+| **nōm.** | -is        | -e     |
+| **acc.** | -em        | -e     |
+| **gen.** | -is        | -is    |
+| **dat.** | -ī         | -ī     |
+| **abl.** | -ī/e       | -ī/e   |
+
+Plūrālis
+
+|          | masc./fēm. | neutr.  |
+|:-------- |:---------- |:------- |
+| **nōm.** | -ēs        | -ia/a   |
+| **acc.** | -ēs        | -ia/a   |
+| **gen.** | -ium/um    | -ium/um |
+| **dat.** | -ibus      | -ibus   |
+| **abl.** | -ibus      | -ibus   |
 
 ---
 
