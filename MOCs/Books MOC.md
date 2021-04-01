@@ -16,7 +16,7 @@ Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiê
 | Done    | Meditações                      | Marco Aurélio    | Português            |  158  |
 | Done    | A Metamorfose                   | Franz Kafka      | Português            |  85   |
 | Reading | Livro do Desassossego           | Fernando Pessoa  | Português (Original) |  368  |
-| Reading | Joyland                         | Stephen King     | English (Original)   |  230  |
+| Done    | Joyland                         | Stephen King     | English (Original)   |  230  |
 | To read | 1984                            | George Orwell    | Português            |  392  |
 | To read | The Crying of Lot 49            | Thomas Pynchon   | English (Original)   |  ???  |
 | To read | Mason & Dixon                   | Thomas Pynchon   | Português            |  ???  |

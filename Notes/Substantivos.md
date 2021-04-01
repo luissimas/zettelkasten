@@ -7,7 +7,7 @@ Todos os nomes tem uma raíz (thema), que é a parte que não muda indepentende 
 
 Os diversos padrões de desinências dos substantivos foram agrupados em um total de 5 declinações:
 
-[[Dēclīnātiōnēs substantivōrum]]
+[[Declinações dos substantivos]]
 
 ---
 

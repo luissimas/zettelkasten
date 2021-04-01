@@ -6,7 +6,9 @@ Verbos expressam ação ou estado, e suas variações são chamadas de *conjuga�
 - Voz (ativa e passiva)
 - Modo (indicativo, infinitivo, imperativo, subjuntivo)
 
-Os verbos também podem apresentar uma forma nor
+Os verbos também podem apresentar uma forma nominal, ou seja, funcionam como um nome (mais especificamente um adjetivo) na oração.
+
+[[Participium|Participium]]
 
 ---
 
