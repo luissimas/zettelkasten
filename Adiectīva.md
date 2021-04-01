@@ -3,9 +3,10 @@ Assim como no português, em latim os adjetivos são nomes que exprimem qualidad
 
 [[Dēclīnātiōnēs adiectīvōrum]]
 
-Os adjetivos comparativos expressam
+Podemos também usar os adjetivos para expressar algumas relações de comparação entre substantivos.
 
 [[Comparātīvus]]
+[[Superlātīvus]]
 
 ---
 

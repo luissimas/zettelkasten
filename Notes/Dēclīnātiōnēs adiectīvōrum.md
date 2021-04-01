@@ -4,7 +4,7 @@ Existem ao todo 3 declinações para os substantivos, a maneira mais fácil de i
 Dēclīnātiōnēs adiectīvum sunt tria:
 
 ## [1/2] Dēclīnātiō **prīma** et **secunda**
-Genitīvus: sing. -ae, plūr. -ārum.
+Genitīvus: singulāris -ī/īus -ae/īus -ī/īus
 
 Singulāris
 
@@ -28,14 +28,14 @@ Plūrālis
 
 
 ## [3] Dēclīnātiō **tertia**
-Genitīvus: sing. -is, plūr. -um/ium.
+Genitīvus plūrālis: -ium/um.
 
 Singulāris
 
 |          | masc./fēm. | neutr. |
 |:-------- |:---------- |:------ |
-| **nōm.** | -is        | -e     |
-| **acc.** | -em        | -e     |
+| **nōm.** | -is/       | -e/    |
+| **acc.** | -em        | -e/    |
 | **gen.** | -is        | -is    |
 | **dat.** | -ī         | -ī     |
 | **abl.** | -ī/e       | -ī/e   |
