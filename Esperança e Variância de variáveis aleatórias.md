@@ -14,7 +14,7 @@ Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Ome
 
 Esse valor esperado é um conceito fundamental em probabilidade, pois fornece informação a respeito do comportamento médio do experimento aleatório em questão.
 
-Um fato interessante é que o valor médio esperado de uma variável aleatória $X \sim Binomial(n,\theta)$ é sempre $E(X)=np$.
+Um fato interessante é que o valor médio esperado de uma variável aleatória $X \sim Binomial(n,\theta)$ é sempre $E(X)=n\theta$.
 
 ---
 
