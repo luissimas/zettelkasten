@@ -26,7 +26,7 @@ Nessa unidade o foco são os vetores.
 Dessa unidade em diante o referencial teórico foi o seguinte: [[Geometria_Analitica_Winterle.pdf]]
 
 ## Unidade 3
-Nessa unidade expandimos os conceitos de geometria analítica tomando como base os conhecimentos prévios de vetores.
+Nessa unidade expandimos os conceitos de geometria analítica tomando como base os conhecimentos de vetores.
 
 [[A reta]]
 [[O plano]]
