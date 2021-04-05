@@ -16,9 +16,10 @@ O vetor $\vec{v}$ é chamado *vetor diretor* da reta $r$, e $t$ é denominado *p
 
 
 ## Equações paramétricas
-Da equação vetorial da reta pode-se obter o seguinte sistema, que descreve cada coordenada individualmente:
+Da equação vetorial da reta $r$ com vetor diretor $\vec{v}=(a,b,c)$, tomando um ponto $A(x_1,y_1,z_1)$ tal que $A \in r$, pode-se obter o seguinte sistema, que descreve cada coordenada do ponto em $r$ individualmente:
 
 $$
+r:
  \begin{cases}
     x&=x_1+at\\
     y&=y_1+bt\\
