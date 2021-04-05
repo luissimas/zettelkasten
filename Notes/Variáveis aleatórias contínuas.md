@@ -42,7 +42,7 @@ f_X(x)=
 A notação utilizada para esse tipo de distribuição é $X\sim Uniforme([a,b])$. Esse tipo de distribuição é utilizada em situações nas quais a probabilidade da variável aleatória pertencer a intervalos de tamanhos iguais é sempre a mesma.
 
 ### Distribuição exponencial
-Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega,\mathcal{F},P)$, sendo $X:\Omega \rightarrow \mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição exponencial com parâmetro $\alpha$, $\alpha > 0$ quando $Im(X)=]0,-\infty[$ e sua função densidade de probabilidade é dada por:
+Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega,\mathcal{F},P)$, sendo $X:\Omega \rightarrow \mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição exponencial com parâmetro $\alpha$, $\alpha > 0$ quando $Im(X)=]0,+\infty[$ e sua função densidade de probabilidade é dada por:
 >$$
 f_X(x)=
 \begin{cases}
