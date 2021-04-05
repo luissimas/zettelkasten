@@ -28,6 +28,8 @@ Nesse tipo de implementação a ULA gera os sinais de controle usando uma [[Fini
 
 ![[datapathmulticiclo.png]]
 
+Vale destacar que nessa implementação todos os registradores intermediários são invisíveis para o programador, eles servem única e exclusivamente para avidar perda de sincronização nas transições.
+
 ---
 
 created: 29/03/2021
