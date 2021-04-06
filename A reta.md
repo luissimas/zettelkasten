@@ -29,6 +29,7 @@ $$
 
 ## Reta definida por dois pontos
 Com dois pontos é possível definir uma reta. Se uma reta $r$ passa pelos pontos $A(x_1,y_1,z_1)$ e $B(x_2,y_2,z_2)$, então ela tem como vetor diretor o vetor $\vec{v} = \overrightarrow{AB}$, e podemos usar tanto o ponto $A$ quanto o ponto $B$ como pontos iniciais, então:
+
 $$
   r:
   \begin{cases}
@@ -39,14 +40,47 @@ $$
 $$
 
 ## Equações simétricas da reta
-Colocando o *parâmetro* $t$ em evidência cada equação
+Colocando o *parâmetro* $t$ em evidência cada uma das [[A reta#Equações paramétricas|equações paramétricas]], temos a seguinte relação:
+
+$$
+  t = \frac{x-x_1}{a} = \frac{y-y_1}{b} = \frac{z-z_1}{c}
+$$
+
+Essas equações são chamadas de *equações simétricas* da reta que passa pelo ponto $A(x_1,y_1,z_1)$ e tem a direção do vetor $\vec{v}=(a,b,c)$. Com elas é possível substituir o valor de apenas uma das coordenadas do ponto $B(x,y,z) \in r$ desejado para se obter as outras duas coordenadas, pois se o ponto pertence à reta essa igualdade é sempre verdadeira.
 
 ## Equações reduzidas da reta
+A partir das [[A reta#Equações simétricas da reta|equações simétricas]] podemos expressar duas variáveis em função de uma terceira, resultando em um sistema desse formato:
+
+$$
+  r:
+  \begin{cases}
+    y=mx+n\\
+    z=px+q
+  \end{cases}
+$$
+
+Nesse caso, a equação está *reduzida em $x$*.
+
 ## Retas paralelas aos planos coordenados
-## Retas paralelas aos eixos coordernados
+Uma reta é paralela a um dos planos $xOy$, $xOz$ ou $yOz$ se os seus vetores diretores forem paralelos a tal plano. Para que isso aconteça, *uma das componentes do vetor é nula*.
+
+## Retas paralelas aos eixos coordenados
+Uma reta é paralela a um dos eixos $Ox$, $Oy$ ou $Oz$ se os seus vetores diretores forem paralelos a $\vec{i}=(1,0,0)$, $\vec{j}=(0,1,0)$ ou $\vec{k}=(0,0,1)$. Para que isso aconteça, *duas das componentes do vetor são nulas*.
+
 ## Ângulo de duas retas
+Sejam $r_1$ e $r_2$ duas retas com vetores diretores $\vec{v}_1$ e $\vec{v}_2$, respectivamente. O ângulo das duas retas $r_1$ e $r_2$ é o menor ângulo entre um vetor diretor de $r_1$ e um vetor diretor de $r_2$, ou seja, é igual a:
+
+>$$
+  \cos{\theta} = \frac{|\vec{v}_1 \cdot \vec{v}_2|}{|\vec{v}_1||\vec{v}_2|},
+  \qquad \text{com}\quad 0 \leq \theta \leq \frac{\pi}{2}
+>$$
+
+
+
 ## Retas ortogonais
+
 ## Reta ortogonal a duas retas
+
 ## Intersecção de duas retas
 
 ---
