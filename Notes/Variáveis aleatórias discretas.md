@@ -50,7 +50,7 @@ A notação para descrever essa função é $X \sim Binomial(n,\theta)$.
 Esse tipo de experimento pode ser interpretado como a **realização de $n$ *ensaios de Bernoulli* indepentendes, anotando-se o número de sucessos obtidos.** Note que a utilização de $\binom{n}{x}$ nos permite considerar as $n$ [[Contagem#Combinação|combinações]] possíveis desprezando a ordem.
 
 ### Geométrica
-Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição *Geométrica* com parâmeto $\theta$, $\theta \in ]0,1[$, quando $Im(X) = \{0,1,2,\dots,n\}$ e sua função de distribuição de probabilidade é dada por:
+Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$. Dizemos que $X$ tem distribuição *Geométrica* com parâmeto $\theta$, $\theta \in ]0,1[$, quando $Im(X) = \{0,1,2,\dots\}$ e sua função de distribuição de probabilidade é dada por:
 >$$
 p_X(x)=
 \begin{cases}
@@ -60,7 +60,7 @@ p_X(x)=
 >$$
 
 A notação para descrever essa função é $X \sim Geométrica(\theta)$.
-Esse tipo de experimento pode ser interpretado como a **realização de $n$ *ensaios de Bernoulli* indepentendes, anotando-se o número de fracassos obtidos antes de obter o primeiro sucesso.**
+Esse tipo de experimento pode ser interpretado como a **realização de indefinidos *ensaios de Bernoulli* indepentendes, anotando-se o número de fracassos obtidos até obter-se o primeiro sucesso.**
 
 ---
 

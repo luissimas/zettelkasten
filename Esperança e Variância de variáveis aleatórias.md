@@ -15,7 +15,6 @@ Esse valor esperado é um conceito fundamental em probabilidade, pois fornece in
 
 Um fato interessante é que o valor médio esperado de uma variável aleatória $X \sim Binomial(n,\theta)$ é sempre $E(X)=n\theta$.
 
-- Demonstrar proposição 1 (início da aula)
 
 ## Variância
 
