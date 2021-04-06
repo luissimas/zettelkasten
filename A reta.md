@@ -75,11 +75,20 @@ Sejam $r_1$ e $r_2$ duas retas com vetores diretores $\vec{v}_1$ e $\vec{v}_2$, 
   \qquad \text{com}\quad 0 \leq \theta \leq \frac{\pi}{2}
 >$$
 
-
-
 ## Retas ortogonais
+Duas retas $r_1$ e $r_2$ são ortogonais se seus vetores diretores $\vec{v}_1$ $\vec{v}_2$ são ortogonais, ou seja:
+
+>$$
+ r_1 \perp r_2 \Leftrightarrow \vec{v}_1 \cdot \vec{v}_2 = 0
+>$$
 
 ## Reta ortogonal a duas retas
+Sendo $r_1$ e $r_2$ retas não paralelas, com vetores diretores $\vec{v}_1$ $\vec{v}_2$, uma terceira reta $r$ com vetor diretor $\vec{v}$ será ortogonal as duas outras quando:
+
+>$$
+  \vec{v}=\vec{v}_1 \times \vec{v}_2
+>$$
+
 
 ## Intersecção de duas retas
 
