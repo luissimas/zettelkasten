@@ -13,8 +13,6 @@ $$
 Qualquer uma das equações acima é denominada *equação vetorial* de $r$. Sabendo que existem infinitos vetores paralelos à reta, podemos dizer que a reta $r$ possui infinitas equações vetoriais.
 O vetor $\vec{v}$ é chamado *vetor diretor* da reta $r$, e $t$ é denominado *parâmetro*.
 
-
-
 ## Equações paramétricas
 Da equação vetorial da reta $r$ com vetor diretor $\vec{v}=(a,b,c)$, tomando um ponto inicial $A(x_1,y_1,z_1)$ tal que $A \in r$, pode-se obter o seguinte sistema, que descreve cada coordenada do ponto em $r$ individualmente:
 
@@ -75,8 +73,10 @@ Sejam $r_1$ e $r_2$ duas retas com vetores diretores $\vec{v}_1$ e $\vec{v}_2$, 
   \qquad \text{com}\quad 0 \leq \theta \leq \frac{\pi}{2}
 >$$
 
+Note que isso deriva diretamente do [[Produto escalar de vetores#Cálculo do ângulo de dois vetores|cálculo do ângulo de dois vetores]].
+
 ## Retas ortogonais
-Duas retas $r_1$ e $r_2$ são ortogonais se seus vetores diretores $\vec{v}_1$ $\vec{v}_2$ são ortogonais, ou seja:
+Duas retas $r_1$ e $r_2$ são ortogonais se seus vetores diretores $\vec{v}_1$ $\vec{v}_2$ [[Produto escalar de vetores#Definição geométrica|são ortogonais]], ou seja:
 
 >$$
  r_1 \perp r_2 \Leftrightarrow \vec{v}_1 \cdot \vec{v}_2 = 0
@@ -89,8 +89,10 @@ Sendo $r_1$ e $r_2$ retas não paralelas, com vetores diretores $\vec{v}_1$ $\ve
   \vec{v}=\vec{v}_1 \times \vec{v}_2
 >$$
 
+Ou seja, basta fazer o [[Produto vetorial|produto vetorial]] entre os vetores diretores das retas.
 
 ## Intersecção de duas retas
+Para encontrar a intersecção entre duas retas, basta igualar suas equações, assim encontra-se o ponto comum entre as duas retas, também chamado de *ponto de intersecção*.
 
 ---
 
