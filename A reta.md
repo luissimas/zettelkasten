@@ -93,6 +93,9 @@ Ou seja, basta fazer o [[Produto vetorial|produto vetorial]] entre os vetores di
 
 ## Intersecção de duas retas
 Para encontrar a intersecção entre duas retas, basta igualar suas equações, assim encontra-se o ponto comum entre as duas retas, também chamado de *ponto de intersecção*.
+É importante destacar que:
+- Se duas retas tem intersecção, elas são coplanares
+- Se duas retas são paralelas, elas são coplanares
 
 ---
 
