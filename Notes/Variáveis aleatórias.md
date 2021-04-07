@@ -6,7 +6,7 @@ $$X^{-1}(I)=\{\omega\in\Omega:X(\omega)\in I\}\in\mathcal{F}$$
 
 Por exemplo, a expressão $X^{-1}(\{0\})$, é lida como: imagem inversa do conjunto unitário $0$.
 
-De maneira geral, existem dois tipos de variáveis aleatórias, as [[Variáveis aleatórias discretas|discretas]] e as [[Variáveis aleatórias contínuas|contínuas]]. Para ambos os tipos de variáveis é possível calcular o valor médio que determinada variável aleatória pode assumir, esse valor médio é chamado de [[Esperança e Variância de variáveis aleatórias|esperança da variável aleatória]].
+De maneira geral, existem dois tipos de variáveis aleatórias, as [[Variáveis aleatórias discretas|discretas]] e as [[Variáveis aleatórias contínuas|contínuas]]. Para ambos os tipos de variáveis é possível calcular o valor médio que determinada variável aleatória pode assumir, esse valor médio é chamado de [[Esperança e Variância de variáveis aleatórias`|esperança da variável aleatória]].
 
 
 ---
