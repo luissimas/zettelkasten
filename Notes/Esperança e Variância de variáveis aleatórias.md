@@ -14,7 +14,7 @@ Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Ome
  \sum_{x \in Im(X)}{|x|p_X(x)} < \infty
 >$$
 
-Para as funções de distribuição mais comuns temos expressões que podem nos dizer rapidamente qual o valor médio esperado da variável aleatória:
+Para as variáveis aleatórias mais comuns temos expressões que podem nos dizer rapidamente qual o valor médio esperado da variável aleatória:
 
 >Se $X \sim Bernoulli(\theta)$, então:
 >$$
@@ -32,17 +32,17 @@ Para as funções de distribuição mais comuns temos expressões que podem nos 
 >$$
 
 ## Esperança de variáveis aleatórias contínuas
-Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$ e [[Variáveis aleatórias contínuas#Função densidade de probabilidade|função densidade de probabilidade]] $p_X$. O valor médio esperado ou *esperança* de $X$ é dada por:
+Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$ e [[Variáveis aleatórias contínuas#Função densidade de probabilidade|função densidade de probabilidade]] $f_X$. O valor médio esperado ou *esperança* de $X$ é dada por:
 
 >$$
- E(X) := \int_{x \in Im(X)}{xp_X(x)}\,dx
+ E(X) := \int_{x \in Im(X)}{xf_X(x)}\,dx
 >$$
 >com
 >$$
- \int_{x \in Im(X)}{|x|p_X(x)}\,dx < \infty
+ \int_{x \in Im(X)}{|x|f_X(x)}\,dx < \infty
 >$$
 
-Para as funções densidade mais comuns temos expressões que podem nos dizer rapidamente qual o valor médio esperado da variável aleatória:
+Para as variáveis aleatórias mais comuns temos expressões que podem nos dizer rapidamente qual o valor médio esperado da variável aleatória:
 
 >Se $X \sim Uniforme([a,b])$, então:
 >$$
@@ -71,6 +71,38 @@ Dado um experimento aleatório com espaço de probabilidade $(\Omega, \mathcal{F
 
 A variância e o desvio padrão são medidas da **variabilidade** da distribuição **em torno da sua média**.
 Veja que a variância pode ser interpretada como **o valor médio da distância dos valores da variável aleatória em relação ao seu valor médio esperado**. Apesar das boas propriedades matemáticas da variância, ao elevar a esperança da variável aleatória ao quadrado também elevamos suas unidades de medida ao quadrado (na prática as variáveis aleatórias representam grandezas do mundo real!), por essa razão temos o **desvio padrão**, que **retorna a variância à unidade de medida da variável aleatória**. Podemos dizer então que o desvio padrão é a forma interpretável fisicamente da variância de uma variável aleatória.
+
+Para as variávies aleatórias mais comuns temos expressões que podem nos dizer rapidamente qual a variância esperada da variável aleatória:
+
+>Se $X \sim Bernoulli(\theta)$, então:
+>$$
+  Var(X) = \theta(1-\theta)
+>$$
+
+>Se $X \sim Binomial(n, \theta)$, então:
+>$$
+  Var(X) = n\theta(1-\theta)
+>$$
+
+>Se $X \sim Geométrica(\theta)$, então:
+>$$
+  Var(X) = \frac{1-\theta}{\theta^2}
+>$$
+
+>Se $X \sim Uniforme([a,b])$, então:
+>$$
+  Var(X) = \frac{1}{b-a}
+>$$
+
+>Se $X \sim Exponencial(\alpha)$, então:
+>$$
+  Var(X) = \frac{1}{\alpha}
+>$$
+
+>Se $X \sim Normal(\mu, \sigma^2)$, então:
+>$$
+  Var(X) = \mu
+>$$
 
 ---
 
