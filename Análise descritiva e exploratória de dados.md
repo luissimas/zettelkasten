@@ -28,8 +28,22 @@ Quando a *amostragem* é conduzida por um plano **probabilístico** há mais gar
 - **Amostragem por Conglomerados (A.C.):** A população é subdividida em pequenos grupos chamados conglomerados, os conglomerados são muito semelhantes entre si, porém a característica de interesse é **heterogênea** dentro de cada grupo. Assim sorteiam-se apenas alguns conglomerados e selecionam-se todos os seus elementos para compor a amostra.
 - **Amostragem Estratificada (A.E.):** A população é subdividida em pequenos grupos chamados estratos, nesse caso a característica de interesse é **homogênea** dentro de cada estrato. Assim sorteiam-se alguns indivíduos de cada estrato para compor a amostra.
 
-## Organização e representação dos dados
+
 ## Tipos de variáveis
+As variáveis são as características que serão consideradas no estudo, e se dividem em dois grupos:
+
+### Variáveis qualitativas
+São as variáveis que identificam um atributo, classe ou qualidade do indivíduo ou objeto em observação. Se dividem em dois tipos:
+
+- **Nominais:** são variáveis que **não** apresentam ordem aparente nas suas possíveis categorias.
+- **Ordinais:** são variáveis que **apresentam** ordem aparente nas suas possíveis categorias.
+
+### Variáveis quantitativas
+São as variáveis que quantificam (identificam uma medida numérica) de algum atributo do indivíduo ou objeto em observação. Se dividem em dois tipos:
+
+- **Discretas:** são variáveis que podem apenas assumir apenas um valor **finito** ou **infinito enumerável**.
+- **Contínuas:** são variáveis que podem assumir qualquer valor em um **subconjunto não enumerável** dos números reais.
+
 
 ---
 
