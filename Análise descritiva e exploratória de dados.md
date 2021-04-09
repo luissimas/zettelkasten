@@ -21,7 +21,12 @@ Amostragem é o procedimento de **coleta** de uma **amostra** de dados de uma de
 - **Plano probabilístico**: mecanismos aleatórios de sorteio, a **probabilidade de selecionar** qualquer elemento da população para compor a amostra é sempre **igual para todos os elementos.**
 - **Plano não-probabilístico**: mecanismos não aleatórios, qualquer modo de selecionar elementos da população em que os elementos **não possuem a mesma probabilidade de serem selecionados.**
 
-Quando a *amostragem* é conduzida por um plano **probabilístico** há mais garantias a respeito da **representatividade** da amostra.
+Quando a *amostragem* é conduzida por um plano **probabilístico** há mais garantias a respeito da **representatividade** da amostra. Os principais planos probabilísticos são:
+
+- **Amostragem Casual Simples (A.C.S.):** Todos os elementos da população são enumerados sem repetição e sorteia-se $n$ elementos para compor a amostra.
+- **Amostragem Sistemática (A.S):** os elementos da população são ordenados e escolhidos periodicamente, em um intervalo regular.
+- **Amostragem por Conglomerados (A.C.):** A população é subdividida em pequenos grupos chamados conglomerados, os conglomerados são muito semelhantes entre si, porém a característica de interesse é **heterogênea** dentro de cada grupo. Assim sorteiam-se apenas alguns conglomerados e selecionam-se todos os seus elementos para compor a amostra.
+- **Amostragem Estratificada (A.E.):** A população é subdividida em pequenos grupos chamados estratos, nesse caso a característica de interesse é **homogênea** dentro de cada estrato. Assim sorteiam-se alguns indivíduos de cada estrato para compor a amostra.
 
 ## Organização e representação dos dados
 ## Tipos de variáveis
