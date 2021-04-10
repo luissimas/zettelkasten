@@ -23,6 +23,14 @@ Um caso específico é quando um plano $\pi$ intercepta os eixos coordenados nos
 
 Essa equação é equivalente à *equação geral* para esses planos, porém pode ser mais conveniente encontrá-la em determinados contextos.
 
+Uma outra forma de obter a equação geral de um plano é através do[[Produto misto|produto misto]]. Seja $A(x_0,y_0,z_0)$ um ponto pertencente a um plano $\pi$ e $\vec{u}=(a_1,b_1,c_1)$ e $\vec{u}=(a_1,b_1,c_1)$ dois vetores paralelos a $\pi$, e não paralelos entre si. Sendo $P(x,y,z)$ um ponto qualquer do plano $\pi$, $\overrightarrow{AP}$, $\vec{u}$ e $\vec{v}$ são coplanares, portanto o produto misto deles é nulo, ou seja:
+
+>$$
+  (\overrightarrow{AP},\vec{u},\vec{v}) = 0
+>$$
+
+Assim, podemos obter uma equação geral do plano mantendo as incógnitas do ponto $P$ e desenvolvendo o produto misto.
+
 ## Equação vetorial e equações paramétricas do plano
 Seja $A(x_0,y_0,z_0)$ um ponto pertencente a um plano $\pi$ e $\vec{u}=(a_1,b_1,c_1)$ e $\vec{u}=(a_1,b_1,c_1)$ dois vetores paralelos a $\pi$, e não paralelos entre si.
 
