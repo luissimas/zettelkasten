@@ -1,0 +1,16 @@
+# O plano
+Seja $A(x_1,y_1,z_1)$ um ponto pertencente ao plano $\pi$ e $\vec{n}=(a,b,c)$, $\vec{n} \neq \vec{0}$, um vetor ortogonal (normal) ao plano $pi$. Como $\vec{n} \perp \pi$, $\vec{n}$ é ortogonal a todo vetor representado em $\pi$, então um ponto $P(x,y,z)$ percente a $\pi$ se, e somente se, o vetor $\overrightarrow{AP}$ é ortogonal a $\vec{n}$. A partir disso obtem-se a equação geral do plano:
+
+>$$
+  ax+by+cz+d=0
+>$$
+>sendo que
+>$$
+  d = -ax_1 -by_1 - cz_1
+>$$
+
+
+---
+
+created: 10/04/2021
+modified: 10/04/2021

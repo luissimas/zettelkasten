@@ -24,7 +24,7 @@
 /* 6. Notion Colour Blocks
 /* 7. In-document header (scrolls with the document) [remove for compatibility with Andy's mode]
 /*     7.1. Adjustments for non-in-document headers (graphs, etc)\
-/*     7.2. Active pane border 
+/*     7.2. Active pane border
 /*     7.3. Misc fixes
 /* 8. Tags
 /*     8.1. Tag custom colours
@@ -636,162 +636,6 @@ ol>li {
   color: var(--text-red);
 }
 
-/* 7. In-document header (scrolls with the document) [remove for compatibility with Andy's mode] */
-/* !!! Remove from here down if you want to use with Andy Matuschak mode V2 !!! */
-.markdown-preview-view,
-.markdown-source-view {
-  background-color: transparent;
-}
-
-/* fix to padding top so that the editor and preview line up */
-.markdown-source-view.is-readable-line-width .CodeMirror {
-  padding: 0;
-  padding-top: 15px;
-}
-
-.markdown-preview-view,
-.CodeMirror-lines {
-  padding-top: 15px;
-}
-
-.markdown-preview-view {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-/* This is where the magic happens */
-.workspace-leaf-content[data-type=markdown] .view-header,
-.workspace-leaf.mod-active .workspace-leaf-content[data-type=markdown] .view-header {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  height: auto;
-  padding-top: 108px;
-}
-
-.workspace-split.mod-root .workspace-leaf {
-  background-color: var(--background-primary);
-}
-
-.workspace>.workspace-split>.workspace-leaf:first-of-type:last-of-type .workspace-leaf-content[data-type=markdown] .view-header {
-  background-color: transparent;
-  border: none;
-}
-
-.workspace-leaf {
-  position: relative;
-}
-
-.workspace-leaf-content[data-type=markdown] {
-  overflow: auto;
-  position: unset;
-  margin-top: 35px;
-}
-
-.workspace-leaf-content[data-type=markdown] .view-header-title-container {
-  width: 100%;
-  margin-top: auto;
-  height: auto;
-  padding: 0;
-}
-
-.workspace-leaf-content[data-type=markdown] .view-header-title-container:after {
-  content: none;
-}
-
-.workspace-leaf-content[data-type=markdown] .view-header-title {
-  font-size: 40px;
-  line-height: 1.2em;
-  padding: 3px 2px;
-  height: auto;
-  margin: 0;
-  color: var(--text-normal);
-  white-space: normal;
-}
-
-.workspace-leaf-content[data-type=markdown] .view-actions {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-color: transparent;
-  z-index: 1;
-}
-
-.workspace-leaf-content[data-type=markdown] .view-header-icon {
-  position: absolute;
-  left: 0;
-  z-index: 2;
-}
-
-.workspace-leaf-content[data-type=markdown] .view-content {
-  height: auto;
-}
-
-.workspace-leaf-content[data-type=markdown] .markdown-source-view {
-  z-index: 0;
-}
-
-.view-action {
-  color: var(--text-normal);
-  margin: 0;
-  padding: 0 8px;
-  height: 28px;
-  line-height: 28px;
-  border-radius: 3px;
-  transition: background-color 20ms ease-in 0s;
-}
-
-.view-action>svg {
-  max-width: 14px;
-  max-height: 14px;
-}
-
-.view-action:hover,
-.view-action.is-active {
-  color: var(--text-normal);
-  background-color: var(--background-primary-alt);
-}
-
-.workspace-split.mod-vertical>.workspace-leaf:not(:last-child) {
-  padding-right: 4px;
-}
-
-/* 7.1. Adjustments for non-in-document headers (graphs, etc) */
-.workspace-leaf-content:not([data-type=markdown]) .view-header,
-.workspace-leaf.mod-active .workspace-leaf-content:not([data-type=markdown]) .view-header {
-  border: none;
-  background-color: var(--background-primary);
-}
-
-.workspace-leaf-content:not([data-type=markdown]) .view-header-title-container:after,
-.workspace-leaf.mod-active .workspace-leaf-content:not([data-type=markdown]) .view-header-title-container:after {
-  background: linear-gradient(to right, transparent, var(--background-primary));
-}
-
-/* 7.2. Active pane border */
-/* Notion doesn't have multiple panes. And with the header modifications above,
-  how do you tell which pane is active? I'm just putting a border around the
-  active pane for now (unless there's only one pane) */
-.workspace-leaf.mod-active {
-  border: 1px solid var(--interactive-accent);
-}
-
-.workspace-leaf:not(.mod-active),
-.workspace>.workspace-split>.workspace-leaf:first-of-type:last-of-type {
-  border: 1px solid transparent;
-}
-
-/* 7.3 Misc fixes */
-/* Fix for the search pane scrolling off the page */
-.markdown-source-view,
-.workspace-split.mod-root .view-content {
-  position: unset;
-}
-
 /* 8. Tags */
 a.tag,
 .cm-s-obsidian span.cm-hashtag,
@@ -821,7 +665,7 @@ a.tag,
 }
 
 /* 8.1. Tag custom colours */
-/* As of Obsidian 0.9.0 there are custom classes for tags. 
+/* As of Obsidian 0.9.0 there are custom classes for tags.
  * this theme provides varibles of the form --background-<color> and --text-<color> for the following colours:
  * gray, brown, orange, yellow, green, blue, purple, pink, red
  * If you want your own colours for your own specific tags you can copy and utilize this: */
