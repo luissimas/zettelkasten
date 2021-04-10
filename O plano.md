@@ -1,10 +1,16 @@
 # O plano
-Seja $A(x_1,y_1,z_1)$ um ponto pertencente ao plano $\pi$ e $\vec{n}=(a,b,c)$, $\vec{n} \neq \vec{0}$, um vetor ortogonal (normal) ao plano $pi$. Como $\vec{n} \perp \pi$, $\vec{n}$ é ortogonal a todo vetor representado em $\pi$, então um ponto $P(x,y,z)$ percente a $\pi$ se, e somente se, o vetor $\overrightarrow{AP}$ é ortogonal a $\vec{n}$. A partir disso obtem-se a equação geral do plano:
+Seja $A(x_1,y_1,z_1)$ um ponto pertencente ao plano $\pi$ e $\vec{n}=(a,b,c)$, $\vec{n} \neq \vec{0}$, um vetor **ortogonal (normal) ao plano** $pi$.
+
+![[eqgeralplano.png]]
+
+Como $\vec{n} \perp \pi$, $\vec{n}$ é ortogonal a todo vetor representado em $\pi$, então um ponto $P(x,y,z)$ percente a $\pi$ se, e somente se, o vetor $\overrightarrow{AP}$ é ortogonal a $\vec{n}$. A partir disso obtem-se a *equação geral* do plano:
 
 >$$
   ax+by+cz+d=0
 >$$
->sendo que
+
+sendo que:
+
 >$$
   d = -ax_1 -by_1 - cz_1
 >$$
@@ -16,6 +22,30 @@ Um caso específico é quando um plano $\pi$ intercepta os eixos coordenados nos
 >$$
 
 Essa equação é equivalente à *equação geral* para esses planos, porém pode ser mais conveniente encontrá-la em determinados contextos.
+
+## Equação vetorial e equações paramétricas do plano
+Seja $A(x_0,y_0,z_0)$ um ponto pertencente a um plano $\pi$ e $\vec{u}=(a_1,b_1,c_1)$ e $\vec{u}=(a_1,b_1,c_1)$ dois vetores paralelos a $\pi$, e não paralelos entre si.
+
+![[eqvetorialplano.png]]
+
+Para todo ponto $P$ do plano, os vetores $\overrightarrow{AP}$, $\vec{u}$ e $\vec{v}$ são **coplanares**, chamamos os vetores $\vec{u}$ e $\vec{v}$ de *vetores diretores* de $\pi$. A partir disso obtem-se a *equação vetorial* do plano:
+
+>$$
+  (x,y,z)=(x_0,y_0,z_0) + h(a_1,b_1,c_1) + t(a_2,b_2,c_2),\quad h,t \in \mathbb{R}
+>$$
+
+Pela condição de igualdade, podemos definir as *equações paramétricas* de $\pi$ com *parâmetros* $h$ e $t$:
+
+$$
+\begin{cases}
+    x = x_0 + a_1h + a_2t\\
+    y = y_0 + b_1h + b_2t\\
+    z = z_0 + c_1h + c_2t
+\end{cases}
+\qquad h,t \in \mathbb{R}
+$$
+
+
 
 ---
 
