@@ -53,8 +53,6 @@ $$
 \qquad h,t \in \mathbb{R}
 $$
 
-
-
 ---
 
 created: 10/04/2021
