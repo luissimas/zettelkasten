@@ -93,12 +93,33 @@ Então, a **perpendicularidade dos planos** depende diretamente da **perpendicul
 >$$
 
 ## Paralelismo e perpendicularismo entre reta e plano
+Seja $r$ uma reta com vetor diretor $\vec{v}$ e um plano $\pi$, sendo $\vec{n}$ um vetor normal a $\pi$.
 
+![[parperpretaplano.png]]
+
+Então, o paralelismo e a perpendicularidade entre um plano e uma reta depende diretamente do paralelismo e da perpendicularidade entre o vetor diretor da reta e o vetor normal ao plano.
+
+>$$
+  r//\pi\Leftrightarrow \vec{v}\perp \vec{n}\Leftrightarrow \vec{v}\cdot\vec{n}=0
+>$$
+
+>$$
+  r\perp\pi\Leftrightarrow \vec{v}//\vec{n}\Leftrightarrow \vec{v}=\alpha\vec{n}
+>$$
 
 ## Reta contida em um plano
+Uma reta $r$ está contida no plano $\pi$ se:
 
+1. Dois pontos $A$ e $B$ de $r$ forem também de $\pi$ **ou**
+2. $\vec{v}\cdot \vec{n}=0$, em que $\vec{v}$ é um vetor diretor de $r$ e $\vec{n}$ um vetor normal a $\pi$ e $A \in \pi$, sendo $A \in r$.
+
+![[retacontidanoplano.png]]
 
 ## Intersecção de dois planos
+A interseção entre dois planos é definida por uma reta $r$ que contém os pontos em comum entre os dois planos. Existem dois procedimentos para encontrar a intersecção entre dois planos:
+
+1. Como $r$ está contida nos dois planos, as coodernadas de qualquer ponto $(x,y,z) \in r$ devem satisfazer, simultâneamente, as equações de ambos os planos. Sendo assim podemos definir $r$ como um sistema de duas equações: as equações dos planos.
+2. Podemos definir um ponto $A$ que esteja contido em ambos os planos e um vetor $\vec{v}$ que seja simultaneamente ortogonal aos vetores normais dos dois planos, ou seja, $\vec{v}$ é definido pelo [[Produto vetorial|produto vetorial]] entre os vetores normais dos dois planos. A partir disso podemos definir a reta através de um ponto $A$ e um vetor $\vec{v}$.
 
 
 ## Intersecção de reta com plano
