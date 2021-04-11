@@ -53,6 +53,41 @@ $$
 \qquad h,t \in \mathbb{R}
 $$
 
+## Equação vetorial de um paralelogramo
+Dados os pontos não colineares $A$, $B$ e $C$, os vetores $\overrightarrow{AB}$ e $\overrightarrow{AC}$ determinam o paralelogramo cuja equação vetorial é
+
+>$$
+  P=A+h(\overrightarrow{AB})+t(\overrightarrow{AC})\quad h,t \in [0,1]
+>$$
+
+![[eqvetorialparalelogramo.png]]
+
+## Casos particulares da equação geral do plano
+Caso um ou mais coeficientes da equação *geral do plano* $ax+by+cz+d=0$ seja nulo, o plano ocupará uma posição particular em relação aos eixos ou planos coordenados.
+
+1. Se $d=0$, então o plano passa pela origem.
+2. Se o coeficiente de apenas uma coordenada for nulo, então o plano é paralelo ao eixo dessa coordenada, ou seja, **o plano é paralelo ao eixo da variável ausente na equação.**
+3. Se dois coeficientes duas coordenadas forem nulos, então o plano é paralelo ao plano formado pelos eixos dessas coordenadas. Por exemplo: $\pi:z=k\therefore\pi//xOy$
+
+## Ângulo de dois planos
+Sejam os planos $\pi_1$ e $\pi_2$ com vetores normais $\vec{n}_1$ e $\vec{n_2}$, respectivamente:
+
+
+## Planos perpendiculares
+
+
+## Paralelismo e perpendicularismo entre reta e plano
+
+
+## Reta contida em um plano
+
+
+## Intersecção de dois planos
+
+
+## Intersecção de reta com plano
+
+
 ---
 
 created: 10/04/2021
