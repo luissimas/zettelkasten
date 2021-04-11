@@ -108,9 +108,9 @@ Então, o paralelismo e a perpendicularidade entre um plano e uma reta depende d
 >$$
 
 ## Reta contida em um plano
-Uma reta $r$ está contida no plano $\pi$ se:
+Uma reta $r$ está contida no plano $\pi$ se qualquer uma das duas condições forem verdadeiras:
 
-1. Dois pontos $A$ e $B$ de $r$ forem também de $\pi$ **ou**
+1. Dois pontos $A$ e $B$ de $r$ forem também de $\pi$
 2. $\vec{v}\cdot \vec{n}=0$, em que $\vec{v}$ é um vetor diretor de $r$ e $\vec{n}$ um vetor normal a $\pi$ e $A \in \pi$, sendo $A \in r$.
 
 ![[retacontidanoplano.png]]
