@@ -124,7 +124,7 @@ A interseção entre dois planos é definida por uma reta $r$ que contém os pon
 ![[intersecaodoisplanos.png]]
 
 ## Intersecção de reta com plano
-
+Para determinar a intersecção de uma reta $r$ com um plano $\pi$ basta encontrar um ponto $A$ tal que $A\in r$ e $A\in\pi$ simultaneamente.
 
 ---
 
