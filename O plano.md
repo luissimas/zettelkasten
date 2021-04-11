@@ -72,9 +72,25 @@ Caso um ou mais coeficientes da equação *geral do plano* $ax+by+cz+d=0$ seja n
 ## Ângulo de dois planos
 Sejam os planos $\pi_1$ e $\pi_2$ com vetores normais $\vec{n}_1$ e $\vec{n_2}$, respectivamente:
 
+![[anguloplanos.png]]
+
+O ângulo de dois planos $\pi_1$ e $\pi_2$ é o menor ângulo que um vetor normal a $\pi_1$ forma com um vetor normal a $\pi_2$. Sendo $\theta$ esse ângulo, tem-se:
+
+>$$
+  \cos{\theta}= \frac{|\vec{n_1}\cdot \vec{n_2}|}{|\vec{n_1}||\vec{n_2}|}\quad 0\leq\theta\leq \frac{\pi}{2}
+>$$
+
 
 ## Planos perpendiculares
+Sejam os planos $\pi_1$ e $\pi_2$ com vetores normais $\vec{n}_1$ e $\vec{n_2}$, respectivamente.
 
+![[planosperpendiculares.png]]
+
+Então, a **perpendicularidade dos planos** depende diretamente da **perpendicularidade entre seus vetores normais.**
+
+>$$
+  \pi_1\perp\pi_2 \Leftrightarrow \vec{n_1}\perp\vec{n_2}\Leftrightarrow \vec{n_1}\cdot \vec{n_2} = 0
+>$$
 
 ## Paralelismo e perpendicularismo entre reta e plano
 
