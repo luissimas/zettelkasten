@@ -9,7 +9,7 @@ As arquiteturas [[CISC e RISC#RISC|RISC]] são propícias para a organização e
 Para a implementação de pipeline divide-se a execução total de uma instrução nos seguintes passos:
 
 - IF (Instruction fetch): Busca da instrução na memória e incrementa do PC + 4
-- ID (Instruction decode): Envio do *OPCODE* à [[Unidade de controle|unidade de controle]] e leitura do valor dos registradores determinados na instrução (quando houver).
+- ID (Instruction decode): Envio do *opcode* à [[Unidade de controle|unidade de controle]] e leitura do valor dos registradores determinados na instrução (quando houver).
 - EX (Execution): A execução da instrução varia de acordo com o tipo de instrução (nesse momento a unidade de controle já determinou de qual tipo é a instrução):
   - Se instrução load ou store: [[ULA]] calcula o endereço de memória a ser acessado.
   - Se instrução R-type: [[ULA]] executa a operação com os registradores lidos no estágio ID.
