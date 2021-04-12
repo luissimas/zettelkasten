@@ -29,7 +29,7 @@ O pipeline requer *registradores intermediários* para que os dados de cada inst
 1. IF/ID
 2. ID/EX
 3. EX/MEM
-4. MEM/WM
+4. MEM/WB
 
 Esses registradores armazenam também os sinais de controle fornecidos pela unidade de controle, para que seja possível ativar corretamente as unidades corretas em cada etapa sem interferência das outras instruções.
 
