@@ -43,10 +43,9 @@ Sejam $r_1$ e $r_2$ as retas definidas pelos pontos $A_1$ e $A_2$ e pelos vetore
 
 Usando a [[Produto misto#Interpretação geométrica|definição de volume]] chega-se na seguinte definição:
 
-$$
+>$$
   d=d(r_1,r_2)= \frac{|(\vec{v_1},\vec{v_2},\overrightarrow{A_1A_2})|}{|\vec{v_1}\times \vec{v_2}|}
-$$
-
+>$$
 
 ---
 
