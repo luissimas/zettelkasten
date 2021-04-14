@@ -18,10 +18,21 @@ Tomando o vetor diretor da reta $\vec{v}$ temos que:
 >$$
 
 ## Distância de ponto a plano
-Dado um ponto $P_0$ e um plano $\pi$
+Dado um ponto $P_0(x_0,y_0,z_0)$ e um plano $\pi:ax+by+cz+d=0$, para calcular a distância $d(P_0,\pi)$ tomamos um ponto qualquer $A(x_1,y_1,z_1) \in \pi$ e um vetor $\vec{n} = (a,b,c)$ normal a $\pi$.
+
+![[distanciapontoplano.png]]
+
+Podemos perceber que a distância é o módulo da [[Produto escalar de vetores#Projeção de um vetor sobre outro|projeção]] de $\overrightarrow{AP_0}$ na direção de $\vec{n}$, sendo assim, a partir da definição de projeção ortogonal define-se a seguinte expressão:
+
+>$$
+  d(P_0,\pi) = \frac{|ax_0+by_0+cz_0+d|}{\sqrt{a^2+b^2+c^2}}
+>$$
 
 ## Distância entre duas retas
+Dadas as retas $r_1$ e $r_2$, o cálculo da distância depende da relação que elas estabelecem entre si:
 
+1. Se $r_1$ e $r_2$ são **concorrentes**, então $d(r_1,r_2) = 0$, pois elas possuem um ponto em comum.
+2.
 
 ---
 
