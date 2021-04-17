@@ -1,26 +1,37 @@
 # Programming MOC
-[[Makefiles]]
-## Hardware
-[[Hardware description language]]
-[[Verilog]]
+Need to better organize this shit.
 
+Categorizing languages by paradigm maybe (?)
+
+# Paradigms
 ## Imperative
+### Procedural
 [[Assembly]]
 [[C]]
-[[Python]]
-
-## Object Oriented
+### Object-oriented
+[[C++]]
 [[Java]]
 [[C#]]
-[[C++]]
+[[Python]]
 
-## Functional
+## Declarative
+### Functional
 [[Haskell]]
 [[Julia]]
 [[Qoc]]
 
-## Monkey work
-[[Web Development MOC]]
+### Database
+
+## Hardware
+[[Hardware description language]]
+[[Verilog]]
+
+# Web development
+[[Node.js]]
+
+# Misc
+[[Makefiles]]
+
 
 ---
 
