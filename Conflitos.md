@@ -22,8 +22,10 @@ O caso de conflito causado pelo uso simultâneo de registradores pode ser resolv
 ![[hazardregistradores.png]]
 
 ## Hazards de controle
-Os *hazards* de controle estão ligados a instruções do tipo **branch** e ao controle de fluxo do programa. Eles ocorrem quando o cálculo uma condição de salto depende do resultado de outra instrução que ainda está sendo executada.
-O que ocorre é que a instrução subsequente ao branch é buscada no próximo ciclo de *clock*, porém o resultado que determina qual é essa instrução a ser buscada ainda não foi produzido.
+Os *hazards* de controle estão ligados a instruções do tipo **branch** e ao controle de fluxo do programa. O que ocorre é que a instrução subsequente ao branch é buscada no próximo ciclo de *clock*, porém o resultado que determina qual é essa instrução a ser buscada ainda não foi produzido.
+Uma solução imediata seria inserir um *stall* após cada instrução branch, para que seja possível determinar se o salto ocorrerá ou não antes de carregar a próxima instrução. O problema dessa implementação é que há uma perda de desempenho desnecessária quando o desvio não é tomado. Para contornar essa perda de desempenho assume-se então que o desvio nunca será tomado, ou seja, a próxima instrução é sempre carregada. Porém quando o desvio for tomado é introduzida a *stall* necessária para que a instrução correta seja carregada.
+
+![[hazardcontroleexemplo.png]]
 
 ## Hazards de dados
 Os *hazards* de dados ocorrem quando uma instrução **depende** da conclusão de uma instrução prévia que ainda esteja sendo executada.
