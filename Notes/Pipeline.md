@@ -21,7 +21,7 @@ Para a implementação de pipeline divide-se a execução total de uma instruç�
   - Dado lido da memória por uma instrução load.
   - Resultado da [[ULA]] em instruções R-type.
 
-## Registradores de Pipelining
+## Registradores de pipeline
 O pipeline requer *registradores intermediários* para que os dados de cada instrução possam avançar junto com a execução da mesma sem serem sobrescritos pelos dados da instrução que vem sendo executada logo atrás. Esses registradores tem o propósito de atuar na transição das etapas, e são ao todo 4:
 
 1. IF/ID

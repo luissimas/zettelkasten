@@ -28,7 +28,17 @@ Os *hazards* de dados ocorrem quando uma instrução **depende** da conclusão d
 
 ![[hazarddadosexemplo.png]]
 
-Pode-se usar paradas, porém uma solução mais eficiente é utilizar o encaminhamento (*forwarding*) dos dados. Observa-se que em uma [[]]instrução de tipo R
+Pode-se usar paradas, porém uma solução mais eficiente é utilizar o encaminhamento (*forwarding*) dos dados.
+
+### Forwarding
+
+O *forwarding* (ou *bypassing*) consiste em implementar uma forma de recuperar a uma informação gerada por uma instrução e encaminhá-la diretamente para a próxima.
+Observa-se que em uma [[MIPS#R-Type|instrução de tipo R]] o resultado da operação já está disponível nos [[Pipeline#Registradores de Pipelining|registradores de pipeline]] antes de ser gravado na memória. A ideia então é implementar um mecanismo que permita que esses registradores sejam acessados diretamente pelas instruções caso necessário, diminuindo assim a necessidade de *stalls* para aguardar os ciclos de escrita e leitura do dado.
+A implementação de *forwarding* é feita através de um novo circuito lógico para determinar se o valor lido por uma instrução se encontra no banco registradores ou se está sendo processado e se encontra nos registradores de pipeline.
+
+![[implementacaofowarding.png]]
+
+Vale destacar que o *forwarding* é uma boa solução para muitos casos, porém não resolve todos os conflitos. Há casos em que ainda é necessário o uso de *stalls*
 
 ---
 
