@@ -80,7 +80,6 @@ O ângulo de dois planos $\pi_1$ e $\pi_2$ é o menor ângulo que um vetor norma
   \cos{\theta}= \frac{|\vec{n_1}\cdot \vec{n_2}|}{|\vec{n_1}||\vec{n_2}|}\quad 0\leq\theta\leq \frac{\pi}{2}
 >$$
 
-
 ## Planos perpendiculares
 Sejam os planos $\pi_1$ e $\pi_2$ com vetores normais $\vec{n}_1$ e $\vec{n_2}$, respectivamente.
 
@@ -122,6 +121,14 @@ A interseção entre dois planos é definida por uma reta $r$ que contém os pon
 2. Podemos definir um ponto $A$ que esteja contido em ambos os planos e um vetor $\vec{v}$ que seja simultaneamente ortogonal aos vetores normais dos dois planos, ou seja, $\vec{v}$ é definido pelo [[Produto vetorial|produto vetorial]] entre os vetores normais dos dois planos. A partir disso podemos [[A reta#Equação vetorial|definir a reta através de um ponto e um vetor]].
 
 ![[intersecaodoisplanos.png]]
+
+## Ângulo entre reta e plano
+Dada uma reta $r$ com vetor diretor $\vec{v}$ e um plano $\pi$ com vetor normal $\vec{n}$, o ângulo $\theta$ entre $r$ e $\pi$ é dado por:
+
+$$
+  \sin{\theta} = \frac{|\vec{v}\cdot \vec{n}|}{|\vec{v}||\vec{n}|}\quad 0\leq\theta\leq \frac{\pi}{2}
+$$
+
 
 ## Intersecção de reta com plano
 Para determinar a intersecção de uma reta $r$ com um plano $\pi$ basta encontrar um ponto $A$ tal que $A\in r$ e $A\in\pi$ simultaneamente. Isso pode ser feito substituindo cada uma das variáveis da equação geral do plano pela uma [[A reta#Equações paramétricas|equação paramétrica da reta]] correspondente àquela coordenada. Dessa forma é possível encontrar um parâmetro $t$ que indica qual ponto da reta $r$ pertence também ao plano $\pi$.
