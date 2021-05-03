@@ -22,6 +22,8 @@ O caso de conflito causado pelo uso simultâneo de registradores pode ser resolv
 ![[hazardregistradores.png]]
 
 ## Hazards de controle
+Os *hazards* de controle estão ligados a instruções do tipo **branch** e ao controle de fluxo do programa. Eles ocorrem quando o cálculo uma condição de salto depende do resultado de outra instrução que ainda está sendo executada.
+O que ocorre é que a instrução subsequente ao branch é buscada no próximo ciclo de *clock*, porém o resultado que determina qual é essa instrução a ser buscada ainda não foi produzido.
 
 ## Hazards de dados
 Os *hazards* de dados ocorrem quando uma instrução **depende** da conclusão de uma instrução prévia que ainda esteja sendo executada.
@@ -38,7 +40,10 @@ A implementação de *forwarding* é feita através de um novo circuito lógico 
 
 ![[implementacaofowarding.png]]
 
-Vale destacar que o *forwarding* é uma boa solução para muitos casos, porém não resolve todos os conflitos. Há casos em que ainda é necessário o uso de *stalls*
+Vale destacar que o *forwarding* é uma boa solução para muitos casos, porém não resolve todos os conflitos. Há casos em que mesmo com a implementação de *forwarding* ainda é necessário o uso de *stalls* para resolver possíveis conflitos, para determinar a necessidade das *stalls* é necessário o uso de *pipeline interlock*.
+O *pipeline interlock* é a implementação de um mecanismo que determina se um ou mais *stalls* devem ser inseridos após a emissão de uma instrução.
+
+![[hazarddadosimplementacao.png]]
 
 ---
 
