@@ -27,6 +27,7 @@ Categorizing languages by paradigm maybe (?)
 [[Verilog]]
 
 # Web development
+[[HTTP]]
 [[Node.js]]
 
 # Misc
