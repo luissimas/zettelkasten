@@ -1,5 +1,5 @@
 # Tipos abstratos de dados
-Tipos abstratos nada mais são do que **abstrações** de um conjunto de estruturas, eles são compostos por dados organizados em uma estrutura e um conjunto de operações (ou operadores) que manipulam (e são os únicos que podem manipular) esses dados. Um ponto importante é que quando especificamos um *TAD*, ou *ADT (Abstract Data Type)*, não é necessário especificar como as operações são implementadas, apenas quais operações estão disponíveis. Isso permite que os TADs forneçam uma visão das funcionalidades que não depende da implementação das mesmas.
+Tipos abstratos são **abstrações** de um conjunto de estruturas, eles são compostos por dados organizados em uma estrutura e um conjunto de operações (ou operadores) que manipulam (e são os únicos que podem manipular) esses dados. Um ponto importante é que quando especificamos um *TAD*, ou *ADT (Abstract Data Type)*, não é necessário especificar como as operações são implementadas, apenas quais operações estão disponíveis. Isso permite que os TADs forneçam uma visão das funcionalidades que não depende da implementação das mesmas.
 
 ![[abstractdatatypes.png]]
 
