@@ -3,7 +3,7 @@ Tipos abstratos nada mais são do que **abstrações** de um conjunto de estrutu
 
 ![[abstractdatatypes.png]]
 
-
+Os tipos abstratos de dados permitem uma maior reusabilidade de código e facilitam a manutenção. Como a abstração cria uma "interface" de interação com o software é possível alterar e melhorar a implementação sem alterar a interface, melhorando muito a manutenção do código.
 
 ---
 
