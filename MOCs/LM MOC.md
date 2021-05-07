@@ -1,4 +1,5 @@
 # Lógica Matemática
+[[fundamentoslogicamatematica.pdf]]
 
 
 ---
