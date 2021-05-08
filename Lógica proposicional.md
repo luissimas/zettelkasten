@@ -1,5 +1,8 @@
 # Lógica proposicional
 
+## Proposições
+- Atômicas
+- Compostas
 
 ---
 
