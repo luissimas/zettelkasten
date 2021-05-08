@@ -1,6 +1,10 @@
 # Lógica Matemática
 [[fundamentoslogicamatematica.pdf]]
 
+## Lógica proposicional
+[[Lógica proposicional]]
+
+## Lógica de predicados
 
 ---
 
