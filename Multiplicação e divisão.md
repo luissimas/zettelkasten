@@ -48,6 +48,7 @@ Ao realizar otimizações semelhantes às da [[Multiplicação e divisão#Multip
 ![[divisionimplementation2.png]]
 
 Note que a única diferença dessa implementação para a de multiplicação é a unidade de controle, isso permite que seja utilizado **o mesmo hardware para ambas as operações**.
+É importante destacar que como a divisão produz dois resultados (resto e quociente), na arquitetura [[MIPS]] o resultado dessa operação é armazenado em **dois registradores** de $32$ *bits*, os registradores `$HI` contendo o resto da divisão e `$LO` contendo o quociente.
 
 ---
 
