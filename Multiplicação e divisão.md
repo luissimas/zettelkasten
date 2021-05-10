@@ -34,7 +34,20 @@ Ao invés de utilizar um registrador dedicado para o multiplicador, nessa implem
 É importante destacar que como o produto de dois números de $32$ *bits* é um número de $64$ *bits*, na arquitetura [[MIPS]] o resultado dessa operação é armazenado em **dois registradores** de $32$ *bits*, os registradores `$HI` e `$LO`.
 
 ## Divisão
+A divisão se assemelha à multiplicação, porém introduz alguns novos desafios. A divisão é executada através de subtrações e comparações sucessivas.
 
+![[divisiondiagram.png]]
+
+Note que o dividendo é armazenado inicialmente no registrador do resto da divisão, isso é uma otimização possível pois ao fazer subtrações parciais nesse registrador ao final da execução seu conteúdo será apenas o resto da divisão.
+Uma possível implementação desse algoritmo é a seguinte:
+
+![[divisionimplementation.png]]
+
+Ao realizar otimizações semelhantes às da [[Multiplicação e divisão#Multiplicação|multiplicação]], é possível produzir a seguinte implementação:
+
+![[divisionimplementation2.png]]
+
+Note que a única diferença dessa implementação para a de multiplicação é a unidade de controle, isso permite que seja utilizado **o mesmo hardware para ambas as operações**.
 
 ---
 
