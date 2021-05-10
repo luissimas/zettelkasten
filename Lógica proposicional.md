@@ -23,12 +23,19 @@ Chamamos de *alfabeto* da lógica proposicional o conjunto de símbolos a partir
 ### Conectivos (operadores) lógicos
 As proposições compostas (ou fórmulas proposicionais) são formadas por proposições atômicas ligadas por conectivos lógicos, na lógica proposicional existem cinco conectivos:
 
-- Negação ($\neg$): não
-- Conjunção ($\land$): e; mas; também
-- Disjunção ($\lor$): ou
-- Condicional ($\implies$): se, então
-- Bicondicional ($\iff$)
+- Negação ($\neg$): não; é falso que.
+- Conjunção ($\land$): e; mas; também; além disso.
+- Disjunção ($\lor$): ou.
+- Condicional ($\implies$): se ***p***, então ***q***; ***p*** implica ***q***.
+- Bicondicional ($\iff$): ***p*** se e somente se ***q***; ***p*** é condição necessária e suficiente para ***q***.
 
+Assim como na matemática, os operadores possuem ordem de precedência. Da maior para a menor precedência, os operadores se organizam da seguinte forma:
+
+1. $\neg$ (maior precedência)
+2. $\land$
+3. $\lor$
+4. $\implies$
+5. $\iff$ (menor precedência)
 
 ---
 
