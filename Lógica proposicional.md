@@ -18,7 +18,7 @@ Chamamos de *alfabeto* da lógica proposicional o conjunto de símbolos a partir
 - Dois símbolos de pontuação: *(* e *)*.
 - Dois símbolos de verdade: verdadeiro *(V)* e falso *(F)*.
 - Um conjunto de *átomos*: *p, q, r, s, t etc...*
-- Cinco conectivos lógicos: $\neg$, $\land$, $\lor$, $\implies$, $\iff$
+- Cinco conectivos lógicos: $\neg$, $\land$, $\lor$, $\implies$ e $\iff$
 
 ## Operadores
 ### Precedência de operadores
