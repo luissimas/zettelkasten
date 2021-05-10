@@ -13,6 +13,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[Unidade de controle]]
 [[Pipeline]]
 [[Conflitos]]
+[[Multiplicação e divisão]]
 
 ---
 
