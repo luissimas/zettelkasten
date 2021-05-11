@@ -85,7 +85,7 @@ Cada um dos operadores lógicos possui uma interpretação específica
 
 - Bicondicional ($\iff$): É $V$ se o valor-verdade de suas subfórmulas forem **iguais**.
 
-| $p$ | $q$ | $p \implies q$ |
+| $p$ | $q$ | $p \iff q$ |
 |:---:|:---:|:--------------:|
 | $V$ | $V$ |      $V$       |
 | $V$ | $F$ |      $F$       |
