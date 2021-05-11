@@ -6,11 +6,11 @@ Existem dois princípios fundamentais na lógica proposicional:
 - **Princípio do terceiro excluído: ** toda proposição ou é verdadeira ou falsa, não há terceiro valor possível.
 
 É importante antes de mais nada entender o conceito de **proposição**, pois as proposições são as estruturas básicas que compõe a lógica proposicional.
-Uma *proposição* é um enunciado completo que exprime um pensamento de sentido completo no qual podemos atribuir um *valor-verdade*. Proposições afirmam fatos ou exprimem juízos que podem (ou não) representar a realidade. Atribuímos às proposições *valores lógicos*, que podem ser *verdadeiro(V)* ou *falso(F)*.
+Uma *proposição* é um enunciado completo que exprime um pensamento de sentido completo no qual podemos atribuir um *valor-verdade*. Proposições afirmam fatos ou exprimem juízos que podem (ou não) representar a realidade. Atribuímos às proposições *valores lógicos*, que podem ser *verdadeiro($V$)* ou *falso($F$)*.
 Uma proposição pode ser classificada em um dos dois tipos:
 
-- Atômica (ou simples): formada por uma e somente uma proposição, não possui nenhum conectivo lógico.
-- Composta (fórmula proposicional): formada por duas ou mais proposições atômicas ligadas por conectivos lógicos.
+- Atômica (fórmula atômica): formada por uma e somente uma proposição, não possui nenhum conectivo lógico.
+- Composta (fórmula composta): formada por duas ou mais proposições atômicas ligadas por conectivos lógicos.
 
 Como qualquer outra linguagem, a lógica proposicional é composta por **sintaxe** e **semântica**.
 
@@ -21,12 +21,12 @@ A sintaxe especifica quais são os símbolos utilizados na linguagem e como esse
 Chamamos de *alfabeto* da lógica proposicional o conjunto de símbolos a partir dos quais sequências válidas são construídas. Os símbolos que compõe esse alfabeto são:
 
 - Dois símbolos de pontuação: *(* e *)*.
-- Dois símbolos de verdade: verdadeiro *(V)* e falso *(F)*.
+- Dois símbolos de verdade: verdadeiro *($V$)* e falso *($F$)*.
 - Um conjunto de *átomos*: *p, q, r, s, t etc...*
 - Cinco conectivos lógicos: $\neg$, $\land$, $\lor$, $\implies$ e $\iff$
 
 ### Conectivos (operadores) lógicos
-As proposições compostas (ou fórmulas proposicionais) são formadas por proposições atômicas ligadas por conectivos lógicos, na lógica proposicional existem cinco conectivos:
+As proposições compostas (ou fórmulas compostas) são formadas por proposições atômicas ligadas por conectivos lógicos, na lógica proposicional existem cinco conectivos:
 
 - Negação ($\neg$): não; é falso que.
 - Conjunção ($\land$): e; mas; também; além disso.
@@ -44,6 +44,29 @@ Assim como na matemática, os operadores possuem ordem de precedência. Da maior
 
 ## Semântica
 A semântica especifica como as sequências válidas da linguagem se relacionam entre si e qual o valor-verdade dessa relação.
+
+### Interpretação
+Chamamos de *interpretação* o valor-verdade associado à uma fórmula. Podemos também dizer que a *interpretação* é uma **função** cujo contradomínio é o conjunto composto pelos elementos $V$ e $F$.
+Cada um dos operadores lógicos possui uma interpretação específica
+
+- Negação ($\neg$): Inverte o valor-verdade da fórmula.
+
+| $p$   | $\neg p$        |
+| --- | -------- |
+| $V$ | $F$ |
+| $F$ | $V$ |
+
+- Conjunção ($\land$): É $V$ apenas se **todos** os valores-verdade de suas subfórmulas forem $V$.
+
+| $p$ | $q$ | $p \land q$|
+|-|-|-|
+
+- Disjunção ($\lor$): É $V$ se o valor-verdade de **pelo menos uma** de suas subfórmulas for $V$.
+- Condicional ($\implies$): É V se o valor-verdade do antecedente é $F$ ou se o valor-verdade do consequente é $V$.
+- Bicondicional ($\iff$): É $V$ se o valor-verdade de suas subfórmulas forem **iguais**.
+
+### Tabela-verdade
+O número de linhas de uma tabela-verdade para uma determinada expressão é igual a $2^n$, em que $n$ é o número total de átomos na expressão. É importante também sempre organizar as colunas da tabela-verdade na ordem de precedência dos operadores da expressão.
 
 ---
 
