@@ -96,7 +96,7 @@ Para as variávies aleatórias mais comuns temos expressões que podem nos dizer
 
 >Se $X \sim Exponencial(\alpha)$, então:
 >$$
-  Var(X) = \frac{1}{\alpha}
+  Var(X) = \frac{1}{\alpha^2}
 >$$
 
 >Se $X \sim Normal(\mu, \sigma^2)$, então:
