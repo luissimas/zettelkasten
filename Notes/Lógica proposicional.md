@@ -95,6 +95,16 @@ Cada um dos operadores lógicos possui uma interpretação específica
 ### Tabela-verdade
 O número de linhas de uma tabela-verdade para uma determinada expressão é igual a $2^n$, em que $n$ é o número total de átomos na expressão. É importante também sempre organizar as colunas da tabela-verdade na ordem de precedência dos operadores da expressão.
 
+### Classificação de fórmulas
+
+- Verdadeira: uma fórmula $\alpha$ é **verdadeira** na interpretação $I$ se tem valor-verdade $V$ na interpretação $I$.
+- Falsa: uma fórmula $\alpha$ é **falsa** na interpretação $I$ se tem valor-verdade $F$ na interpretação $I$.
+- Satisfazível (consistente): uma fórmula $\alpha$ é satisfazível se existe **pelo menos uma** interpretação $I$ tal que $I[\alpha] = V$.
+- Inválida (falsificável): uma fórmula $\alpha$ é inválida se existe **pelo menos uma** interpretação $I$ tal que $I[\alpha] = F$.
+- Tautologia: uma fórmula $\alpha$ é *tautologia* se for **verdadeira** em **todas** as interpretações possíveis.
+- Contradição (insatisfazível ou inconsistente): uma fórmula $\alpha$ é contradição se for **false** em **todas** as interpretações possíveis.
+- Contingência: uma fórmula que não é nem tautologia nem contradição é chamada de contingente (ou contingência).
+
 ---
 
 created: 08/05/2021
