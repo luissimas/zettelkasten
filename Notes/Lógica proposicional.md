@@ -113,7 +113,7 @@ $\nvDash$
 
 
 ### Equivalência lógica
-Duas fórmulas $\alpha$ e $\beta$ são **logicamente equivalentes** se as interpretações que satisfazem $\alpha$ são exatamente as mesmas que satisfazem $\beta$.
+Duas fórmulas $\alpha$ e $\beta$ são **logicamente equivalentes** se as interpretações que satisfazem $\alpha$ são exatamente as mesmas que satisfazem $\beta$. Em outras palavras, a equivalência lógica entre $\alpha$ e $\beta$ ocorre se e somente se $\alpha \vDash \beta$ e $\beta \vDash \alpha$.
 A equivalência lógica é representada por $\equiv$.
 
 
