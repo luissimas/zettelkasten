@@ -18,12 +18,15 @@ Uma estatística é um **valor** ou conjunto de valores observáveis que resume 
 
 Alguns exemplos de estatísticas:
 
-> - Média amostral: $\displaystyle \bar{X} := \frac{1}{n}\sum_{i=1}^{n}{X_1}$
-> - Variância amostral: $\displaystyle S^2 := \frac{1}{n-1}\sum_{i=1}^{n}{(X_i-\bar{X})^2}$
-> - Menor valor da amostra: $\displaystyle X_{(1)} := \min{(X_1,\dots,X_n)}$
-> - Maior valor da amostra: $\displaystyle$
-> - Amplitude amostral: $\displaystyle$
+> - Média amostral: $\bar{X} := \frac{1}{n}\sum_{i=1}^{n}{X_1}$
+> - Variância amostral: $S^2 := \frac{1}{n-1}\sum_{i=1}^{n}{(X_i-\bar{X})^2}$
+> - Menor valor da amostra: $X_{(1)} := \min{(X_1,\dots,X_n)}$
+> - Maior valor da amostra: $X_{(n)} := \max{(X_1,\dots,X_n)}$
+> - Amplitude amostral: $W := X_{(n)} - X_{(1)}$
 
+### Distribuições conjuntas
+
+> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a uma experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. A **distribuição conjunta de probabilidade** do vetor $(X_1, X_2, \dots, X_n)$ é uma função $p : \mathbb{R}^n \rightarrow [0,1]$ (ou $f : \mathbb{R}^n \rightarrow [0,+\infty]$) tal que quando $X$ é uma variável aleatória discreta
 
 ---
 
