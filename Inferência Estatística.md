@@ -26,7 +26,15 @@ Alguns exemplos de estatísticas:
 
 ### Distribuições conjuntas
 
-> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a uma experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. A **distribuição conjunta de probabilidade** do vetor $(X_1, X_2, \dots, X_n)$ é uma função $p : \mathbb{R}^n \rightarrow [0,1]$ (ou $f : \mathbb{R}^n \rightarrow [0,+\infty]$) tal que quando $X$ é uma variável aleatória discreta
+> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a uma experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. A **distribuição conjunta de probabilidade** do vetor $(X_1, X_2, \dots, X_n)$ é uma função $p : \mathbb{R}^n \rightarrow [0,1]$ (ou $f : \mathbb{R}^n \rightarrow [0,+\infty]$) tal que quando $X$ é uma [[Variáveis aleatórias discretas|variável aleatória discreta]]
+>$$
+  p(x_1,\dots,x_n|\theta) =
+  \begin{cases}
+  P(X_1 = x_1, \dots, X_n = x_n), se (x_1,\dots,x_n) \in Im(X_1,\dots,X_n)\\
+  0, \text{caso contrário}
+  \end{cases}
+>$$
+
 
 ---
 
