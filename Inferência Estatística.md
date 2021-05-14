@@ -25,15 +25,23 @@ Alguns exemplos de estatísticas:
 > - Amplitude amostral: $W := X_{(n)} - X_{(1)}$
 
 ### Distribuições conjuntas
+As distribuições conjuntas
 
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a uma experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. A **distribuição conjunta de probabilidade** do vetor $(X_1, X_2, \dots, X_n)$ é uma função $p : \mathbb{R}^n \rightarrow [0,1]$ (ou $f : \mathbb{R}^n \rightarrow [0,+\infty]$) tal que quando $X$ é uma [[Variáveis aleatórias discretas|variável aleatória discreta]]
 >$$
   p(x_1,\dots,x_n|\theta) =
   \begin{cases}
-  P(X_1 = x_1, \dots, X_n = x_n), se (x_1,\dots,x_n) \in Im(X_1,\dots,X_n)\\
-  0, \text{caso contrário}
+  P(X_1 = x_1, \dots, X_n = x_n), \qquad\text{se} (x_1,\dots,x_n) \in Im(X_1,\dots,X_n)\\
+  0, \qquad\text{caso contrário}
   \end{cases}
 >$$
+>e quando $X$ é uma variável aleatória contínua $f(x_1,\dots,x_n|\theta)$ é tal que
+>$$
+  P(a_1 \leq X_1 \leq b_1, \dots, a_n \leq X_n \leq b_n) =
+  \int_{a_1}^{b_1}{\dots \int_{a_n}^{b_n}{f(x_1,\dots,x_n|\theta)}\,dx_n}\dots\,dx_1
+>$$
+> em que $[a_1,b_1], \dots, [a_n, b_n]$ são intervalos reais.
+
 
 
 ---
