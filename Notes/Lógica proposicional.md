@@ -106,6 +106,17 @@ Fórmulas podem ter diversas classificações de acordo com seus valores-verdade
 - **Contradição** (insatisfazível ou inconsistente): uma fórmula $\alpha$ é contradição se for **falsa** em **todas** as interpretações possíveis.
 - **Contingente**: uma fórmula que não é nem tautologia nem contradição é chamada de contingente (ou contingência).
 
+### Consequência lógica
+Uma fórmula $\beta$ é **consequência lógica** de outra fórmula $\alpha$ (ou $\alpha$ implica logicamente $\beta$) se **toda** interpretação que **satisfaz** $\alpha$ também satisfaz $\beta$.
+A consequência lógica é representada por $\vDash$.
+$\nvDash$
+
+
+### Equivalência lógica
+Duas fórmulas $\alpha$ e $\beta$ são **logicamente equivalentes** se as interpretações que satisfazem $\alpha$ são exatamente as mesmas que satisfazem $\beta$.
+A equivalência lógica é representada por $\equiv$.
+
+
 ---
 
 created: 08/05/2021
