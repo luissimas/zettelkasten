@@ -30,7 +30,7 @@ Cada um dos operadores lógicos possui uma interpretação específica
 | $F$ | $V$ |    $V$     |
 | $F$ | $F$ |    $F$     |
 
-- Condicional ($\implies$): É V se o valor-verdade do antecedente é $F$ ou se o valor-verdade do consequente é $V$.
+- Condicional ($\implies$): É $V$ se o valor-verdade do antecedente é $F$ ou se o valor-verdade do consequente é $V$.
 
 | $p$ | $q$ | $p \implies q$ |
 |:---:|:---:|:--------------:|
