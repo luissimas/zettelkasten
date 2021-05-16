@@ -24,7 +24,7 @@ Antes de mais nada é importante definir o conceito de **dual**, pois ele forma 
 |                                              $p \iff q \equiv (p \implies q) \land (q \implies p)$                                               | Definição de $\iff$ em termos de $\implies$ e $\land$ |
 |                                             $p \iff q \equiv (\neg p \lor q) \land (\neg q \lor p)$                                              | Definição de $\iff$ em termos de $\lor$ e $\neg$      |
 |                         $$\begin{aligned} (p \lor (p \land q)) \equiv p \\ (p \land (p \lor q)) \equiv p\end{aligned}$$                          | Leis da absorção                                      |
-|            $$\begin{aligned} (p \land q) \lor (\neg p \land q) \equiv q \\ (p \lor q) \land (\neg p \land q) \equiv q \end{aligned}$$            | Generalização das Leis da absorção                    |
+|            $$\begin{aligned} (p \land q) \lor (\neg p \land q) \equiv q \\ (p \lor q) \land (\neg p \lor q) \equiv q \end{aligned}$$            | Generalização das Leis da absorção                    |
 
 
 ---
