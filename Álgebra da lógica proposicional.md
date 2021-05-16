@@ -8,23 +8,25 @@ Antes de mais nada é importante definir o conceito de **dual**, pois ele forma 
 > *Exemplo:* o dual da proposição $(p \land q) \lor F$ é a proposição $(p \lor q) \land V$
 
 ## Leis de equivalência
-|                                                                       Lei                                                                        | Nome                                                  |
-|:------------------------------------------------------------------------------------------------------------------------------------------------:| ----------------------------------------------------- |
-|                                                            $p \land \neg p \equiv F$                                                             | Lei da contradição                                    |
-|                                                             $p \lor \neg p \equiv V$                                                             | Lei do terceiro excluído                              |
-|                                     $$\begin{aligned}p \land V \equiv p \\ p \lor F \equiv p\end{aligned}$$                                      | Leis da identidade                                    |
-|                                     $$\begin{aligned}p \land F \equiv F \\ p \lor V \equiv V\end{aligned}$$                                      | Leis da dominação                                     |
-|                                     $$\begin{aligned}p \land p \equiv p \\ p \lor p \equiv p\end{aligned}$$                                      | Leis idempotentes                                     |
-|                                                              $\neg\neg p \equiv p$                                                               | Dupla negação                                         |
-|                             $$\begin{aligned}p \land q \equiv q \land p \\ p \lor q \equiv q \lor p \end{aligned}$$                              | Leis comutativas                                      |
-|           $$\begin{aligned}(p \land q) \land r \equiv  p \land (q \land r)\\ (p \lor q) \lor r \equiv p \lor (q \lor r)\end{aligned}$$           | Leis associativas                                     |
-| $$\begin{aligned}p \land (q \lor r) \equiv  (p \land q) \lor (p \land r)\\ p  \lor (q \land r) \equiv (p \lor q) \land (p \lor r)\end{aligned}$$ | Leis distributivas                                    |
-|             $$\begin{aligned}\neg (p \land q) \equiv \neg p \lor \neg q\\ \neg (p \lor q) \equiv \neg p \land \neg q\end{aligned}$$              | Leis de DeMorgan                                      |
+A seguir são apresentadas as mais importantes leis de equivalência, acompanhadas de sua forma dual.
+
+|                                                                       Lei                                                                        |                         Nome                          |
+|:------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------:|
+|                                                            $p \land \neg p \equiv F$                                                             |                  Lei da contradição                   |
+|                                                             $p \lor \neg p \equiv V$                                                             |               Lei do terceiro excluído                |
+|                                     $$\begin{aligned}p \land V \equiv p \\ p \lor F \equiv p\end{aligned}$$                                      |                  Leis da identidade                   |
+|                                     $$\begin{aligned}p \land F \equiv F \\ p \lor V \equiv V\end{aligned}$$                                      |                   Leis da dominação                   |
+|                                     $$\begin{aligned}p \land p \equiv p \\ p \lor p \equiv p\end{aligned}$$                                      |                   Leis idempotentes                   |
+|                                                              $\neg\neg p \equiv p$                                                               |                     Dupla negação                     |
+|                             $$\begin{aligned}p \land q \equiv q \land p \\ p \lor q \equiv q \lor p \end{aligned}$$                              |                   Leis comutativas                    |
+|           $$\begin{aligned}(p \land q) \land r \equiv  p \land (q \land r)\\ (p \lor q) \lor r \equiv p \lor (q \lor r)\end{aligned}$$           |                   Leis associativas                   |
+| $$\begin{aligned}p \land (q \lor r) \equiv  (p \land q) \lor (p \land r)\\ p  \lor (q \land r) \equiv (p \lor q) \land (p \lor r)\end{aligned}$$ |                  Leis distributivas                   |
+|             $$\begin{aligned}\neg (p \land q) \equiv \neg p \lor \neg q\\ \neg (p \lor q) \equiv \neg p \land \neg q\end{aligned}$$              |                   Leis de DeMorgan                    |
 |                                                       $p \implies q \equiv \neg p \lor q$                                                        | Definição de $\implies$ em termos de $\lor$ e $\neg$  |
 |                                              $p \iff q \equiv (p \implies q) \land (q \implies p)$                                               | Definição de $\iff$ em termos de $\implies$ e $\land$ |
-|                                             $p \iff q \equiv (\neg p \lor q) \land (\neg q \lor p)$                                              | Definição de $\iff$ em termos de $\lor$ e $\neg$      |
-|                         $$\begin{aligned} (p \lor (p \land q)) \equiv p \\ (p \land (p \lor q)) \equiv p\end{aligned}$$                          | Leis da absorção                                      |
-|            $$\begin{aligned} (p \land q) \lor (\neg p \land q) \equiv q \\ (p \lor q) \land (\neg p \lor q) \equiv q \end{aligned}$$            | Generalização das Leis da absorção                    |
+|                                             $p \iff q \equiv (\neg p \lor q) \land (\neg q \lor p)$                                              |   Definição de $\iff$ em termos de $\lor$ e $\neg$    |
+|                         $$\begin{aligned} (p \lor (p \land q)) \equiv p \\ (p \land (p \lor q)) \equiv p\end{aligned}$$                          |                   Leis da absorção                    |
+|            $$\begin{aligned} (p \land q) \lor (\neg p \land q) \equiv q \\ (p \lor q) \land (\neg p \lor q) \equiv q \end{aligned}$$             |          Generalização das Leis da absorção           |
 
 
 ---
