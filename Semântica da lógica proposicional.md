@@ -11,12 +11,12 @@ Cada um dos operadores lógicos possui uma interpretação específica
 - Condicional ($\implies$): É $V$ se o valor-verdade do antecedente é $F$ ou se o valor-verdade do consequente é $V$.
 - Bicondicional ($\iff$): É $V$ se o valor-verdade de suas subfórmulas forem **iguais**.
 
-| $p$ | $q$ | $\neg p$ | $p \land q$ | $p \lor q$ | $p \implies q$ | $p \iff q$ |
-|:---:|:---:|:--------:|:-----------:|:----------:|:--------------:|:----------:|
-| $V$ | $V$ |   $F$    |     $V$     |    $V$     |      $V$       |    $V$     |
-| $V$ | $F$ |   $F$    |     $F$     |    $V$     |      $F$       |    $F$     |
-| $F$ | $V$ |   $V$    |     $F$     |    $V$     |      $V$       |    $F$     |
-| $F$ | $F$ |   $V$    |     $F$     |    $F$     |      $V$       |    $V$     |
+| $p$ | $q$ | $\neg p$ | $\neg q$ | $p \land q$ | $p \lor q$ | $p \implies q$ | $p \iff q$ |
+|:---:|:---:|:--------:|:--------:|:-----------:|:----------:|:--------------:|:----------:|
+| $V$ | $V$ |   $F$    |   $F$    |     $V$     |    $V$     |      $V$       |    $V$     |
+| $V$ | $F$ |   $F$    |   $V$    |     $F$     |    $V$     |      $F$       |    $F$     |
+| $F$ | $V$ |   $V$    |   $F$    |     $F$     |    $V$     |      $V$       |    $F$     |
+| $F$ | $F$ |   $V$    |   $V$    |     $F$     |    $F$     |      $V$       |    $V$     |
 
 ## Tabela-verdade
 O número de linhas de uma tabela-verdade para uma determinada expressão é igual a $2^n$, em que $n$ é o número total de átomos na expressão. É importante também sempre organizar as colunas da tabela-verdade na ordem de precedência dos operadores da expressão.
