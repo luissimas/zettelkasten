@@ -15,14 +15,6 @@ O conceito de equivalência lógica se relaciona com a ideia de igualdade e (em 
 
 >Duas fórmulas $\alpha$ e $\beta$ são **logicamente equivalentes** se as interpretações que satisfazem $\alpha$ são **exatamente as mesmas** que satisfazem $\beta$. Em outras palavras, a equivalência lógica entre $\alpha$ e $\beta$ ocorre se e somente se $\alpha \vDash \beta$ e $\beta \vDash \alpha$. A equivalência lógica é representada por $\alpha \equiv \beta$.
 
-### Leis de equivalência
-- **Dupla negação:**
-- **Leis idempotentes:**
-- **Leis comutativas:**
-- **Leis associativas:**
-- **Leis distributivas:**
-- **Regra da bicondicional:**
-
 ---
 
 created: 16/05/2021
