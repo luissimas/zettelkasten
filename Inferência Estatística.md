@@ -25,7 +25,7 @@ Alguns exemplos de estatísticas:
 > - Amplitude amostral: $W := X_{(n)} - X_{(1)}$
 
 ### Distribuições conjuntas
-As distribuições conjuntas
+As distribuições conjuntas descrevem a distribuição de um vetor composto por $n$ variáveis aleatórias.
 
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a uma experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. A **distribuição conjunta de probabilidade** do vetor $(X_1, X_2, \dots, X_n)$ é uma função $p : \mathbb{R}^n \rightarrow [0,1]$ (ou $f : \mathbb{R}^n \rightarrow [0,+\infty]$) tal que quando $X$ é uma [[Variáveis aleatórias discretas|variável aleatória discreta]]
 >$$
@@ -42,6 +42,16 @@ As distribuições conjuntas
 >$$
 > em que $[a_1,b_1], \dots, [a_n, b_n]$ são intervalos reais.
 
+Pela definição é possível perceber que encontrar a distribuição conjunta de um vetor $(X_1, X_2,\dots, X_n)$ não é trivial, portanto algumas suposições são feitas sobre a natureza desses vetores para facilitar o processo de encontrar a distribuição conjunta.
+A primeira suposição feita é que $(X_1,X_2,\dots,X_n)$ é uma sequência de variáveis aleatórias *independentes* com a mesma distribuição $p(x|\theta)$ (ou $f(x|\theta)$), ou seja:
+$$
+  p(x_1,\dots,x_n|\theta)=\prod_{i=1}^{n}{p(x_i|\theta)}
+$$
+ou
+$$
+  f(x_1,\dots,x_n|\theta)=\prod_{i=1}^{n}{f(x_i|\theta)}
+$$
+em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido e $p(x_1,\dots,x_n|\theta)$ ou $f(x_1,\dots,x_n|\theta)$ é a função de distribuição conjunta de probabilidade do vetor $(X_1,\dots,X_n)$
 
 
 ---
