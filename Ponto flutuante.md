@@ -26,15 +26,28 @@ A representação do expoente é feita utilizando a chamada *representação pol
 - **Precisão simples (8 bits):** $\text{val}(E) = E - 127$
 - **Precisão dupla (11 bits):** $\text{val}(E) = E - 1023$
 
-Overflow e underflow
+É importante lembrar que o expoente está sujeito tanto a *overflow* quando a *underflow*.
+
+Os valores extremos do expoente são reservados para a representação dos seguintes casos:
+
+### Zero
+Para representar o zero em *FP* utiliza-se o expoente $E = 0$ e a parte fracionária $F = 0$.
+
+### Infinito
+Para representar o infinito em *FP* utiliza-se o expoente máximo ($255$ e $2047$ para precisão simples e dupla, respectivamente) e a parte fracionária $F = 0$.
+
+### NaN (not a number)
+O *NaN* é gerado em situações excepcionais, como $\frac{0}{0}$ ou raízes de números negativos. Para representar esse caso em *FP* utiliza-se o expoente máximo ($255$ e $2047$ para precisão simples e dupla, respectivamente) e a parte fracionária $F \neq 0$.
 
 ## Adição e subtração
+Para realizar as operações de adição e subtração com números $FP$ é necessário um circuito dedicado que possa lidar com as operações de expoente e arredondamentos necessárias.
 
-## Multiplicação
+![[adicaofloatingpoint.png]]
 
-## Divisão
+![[implementacaoadicaofloatingpoint.png]]
 
 ## Implementação em MIPS
+Na arquitetura [[MIPS]] utiliza-se um **coprocessador** dedicado chamado *Coprocessor 1* ou *Floating Point Unit (FPU)* para realizar as operações relacionadas a números *FP*. São reservados $32$ registradores *FP*: $\text{\$f0}, \text{\$f1}, \dots, \text{\$f31}$. Vale lembrar que como todos os registradores MIPS são de $32$ *bits*, é necessário o uso de dois registradores em conjunto para armazenas os números de precisão dupla.
 
 ---
 
