@@ -14,6 +14,7 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[Pipeline]]
 [[Conflitos]]
 [[Multiplicação e divisão]]
+[[Ponto flutuante]]
 
 ---
 
