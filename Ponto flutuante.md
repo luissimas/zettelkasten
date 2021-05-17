@@ -2,9 +2,23 @@
 representar números reais em representação binária
 
 notação científica para representar números de uma forma mais eficiente
-números normalizados, ou seja, exatamente um dífito diferente de zero antes do ponto. Dessa forma é possível manter sempre a máxima precisão das casas decimais.
+números normalizados, ou seja, exatamente um dígito diferente de zero antes do ponto. Dessa forma é possível manter sempre a máxima precisão das casas decimais.
 
 Padrão IEEE 754 padroniza a forma como números em ponto flutuante podem ser representados em sistemas computacionais.
+
+A parte inteira da fração sempre será um único dígito $1$, pois sempre adota-se uma representação normalizada. Sabendo disso, o padrão *IEE 754* assume implicitamente que o dígito $1$ sempre está presente, dessa forma não é necessário armazená-lo.
+
+Representação do expoente em *Bias*
+
+Overflow e underflow
+
+## Adição e subtração
+
+## Multiplicação
+
+## Divisão
+
+## Implementação em MIPS
 
 ---
 
