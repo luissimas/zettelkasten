@@ -51,3 +51,5 @@ O *pipeline interlock* é a implementação de um mecanismo que determina se um 
 
 created: 03/05/2021
 modified: 03/05/2021
+
+[[hazards.pdf]]

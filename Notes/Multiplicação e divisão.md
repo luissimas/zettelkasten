@@ -53,3 +53,5 @@ Note que a única diferença dessa implementação para a de multiplicação é 
 ---
 
 created: 10/05/2021
+
+[[Multiplicação_Divisão.pdf]]

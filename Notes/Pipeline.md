@@ -37,3 +37,5 @@ Esses registradores armazenam também os sinais de controle fornecidos pela unid
 
 created: 12/04/2021
 modified: 12/04/2021
+
+[[pipeline.pdf]]
