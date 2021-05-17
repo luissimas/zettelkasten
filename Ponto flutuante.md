@@ -1,7 +1,7 @@
 # Ponto flutuante
 representar números reais em representação binária
 
-notação científica para representar números de uma forma mais eficiente
+A notação científica é uma forma eficiente de se representar números muito grandes ou muito pequenos.
 números normalizados, ou seja, exatamente um dígito diferente de zero antes do ponto. Dessa forma é possível manter sempre a máxima precisão das casas decimais.
 
 Padrão IEEE 754 padroniza a forma como números em ponto flutuante podem ser representados em sistemas computacionais.
