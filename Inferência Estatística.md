@@ -47,3 +47,5 @@ As distribuições conjuntas
 ---
 
 created: 14/05/2021
+
+[[introducao_inferencia.pdf]]
