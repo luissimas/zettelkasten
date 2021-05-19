@@ -14,6 +14,15 @@ Alguns pontos e eixos notáveis das parábolas são:
 - **Vértice:** é o ponto $V$ de intersecção da parábola com o seu eixo.
 
 ## Equações reduzidas
+Dada uma parábola de vértice $V(0,0)$, existem dois casos possíveis:
+
+- O eixo da parábola é o eixo dos $y$:
+Seja $P(x,y)$ um ponto qualquer da parábola de foco $F(0,\frac{P}{2})$ e diretriz de equação $y = - \frac{P}{2}$
+A equação reduzida da parábola nesse caso é:
+>$$
+  x^2 = 2py
+>$$
+
 
 ## Translação de eixos
 
