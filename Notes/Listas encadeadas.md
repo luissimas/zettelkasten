@@ -6,6 +6,11 @@ Listas encadeadas utilizam do conceito de **alocação encadeada** de elementos 
 
 ![[listaencadeada.png]]
 
+## Listas duplamente encadeadas
+As listas duplamente encadeadas são uma variação interessante das listas encadeadas simples, pois permitem percorrer os elementos da lista nas duas direções. Além de um ponteiro para o próximo elemento do conjunto, cada elemento também armazena um ponteiro para o elemento anterior. Essa implementação garante mais flexibilidade para manipular os elementos, porém utiliza mais memória, já que temos agora três campos em cada nó.
+
+![[listasduplamenteencadeadas.png]]
+
 ---
 
 created: 13/05/2021
