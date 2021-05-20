@@ -60,13 +60,13 @@ Dessa forma, definem-se as *fórmulas de translação* do ponto de um plano para
 Usando a translação de eixos é possível manipular o vértice da parábola para obter as equações reduzidas mesmo que o vértice $V$ da parábola não seja o ponto $(0,0)$ do plano cartesiano.
 Dada uma parábola de vértice $V \neq (0,0)$, tomamos um novo sistema $x'O'y'$ tal que $O' = V$. Assim, ao escrever a equação reduzida da parábola em relação ao novo sistema, podemos substituir $x'$ e $y'$ pelas suas *fórmulas de translação*, obtendo as expressões:
 
-- Se o eixo da parábola é o eixo dos $y$:
+- Se o eixo da parábola é paralelo ao eixo dos $y$:
 A equação da parábola nesse caso é:
 >$$
   (x - h)^2 = 2p(y - k)
 >$$
 
-- Se o eixo da parábola é o eixo dos $x$:
+- Se o eixo da parábola é paralelo ao eixo dos $x$:
 A equação da parábola nesse caso é:
 >$$
   (y - k)^2 = 2p(x - h)
