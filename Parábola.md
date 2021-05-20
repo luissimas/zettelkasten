@@ -58,7 +58,7 @@ Dessa forma, definem-se as *fórmulas de translação* do ponto de um plano para
   x' = x - h \qquad\text{e}\qquad y' = y - k
 >$$
 
-
+Usando a translação de eixos é possível manipular o vértice da parábola para obter as equações reduzidas mesmo que o vértice $V$ da parábola não seja o ponto $(0,0)$ do plano cartesiano.
 
 
 ## Equações paramétricas
