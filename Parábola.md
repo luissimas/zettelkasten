@@ -14,23 +14,35 @@ Alguns pontos e eixos notáveis das parábolas são:
 - **Vértice:** é o ponto $V$ de intersecção da parábola com o seu eixo.
 
 ## Equações reduzidas
-Dada uma parábola de vértice $V(0,0)$, existem dois casos possíveis:
+Dada uma parábola de vértice $V(0,0)$, existem dois casos possíveis, note que em ambos os casos o número real $p \neq 0$ é chamado de **parâmetro** da parábola:
 
-- O eixo da parábola é o eixo dos $y$:
+
+- Se o eixo da parábola é o eixo dos $y$:
 Seja $P(x,y)$ um ponto qualquer da parábola de *foco* $F(0,\frac{p}{2})$ e *diretriz* de equação $y = - \frac{p}{2}$
 A equação reduzida da parábola nesse caso é:
 >$$
   x^2 = 2py
 >$$
 
-- O eixo da parábola é o eixo dos $x$:
+![[parabolaequacaoreduzidacaso1.png]]
+
+Analisando a equação, pode-se perceber que $py \geq 0$, dessa forma seus sinais são sempre iguais. Temos então dois casos de sinais que influenciam na concavidade da parábola:
+
+![[concavidadecasos1.png]]
+
+- Se o eixo da parábola é o eixo dos $x$:
 Seja $P(x,y)$ um ponto qualquer da parábola de *foco* $F(\frac{p}{2},0)$ e *diretriz* de equação $x = - \frac{p}{2}$
 A equação reduzida da parábola nesse caso é:
 >$$
   y^2 = 2px
 >$$
 
-Em ambos os casos o número real $p \neq 0$ é chamado de **parâmetro** da parábola
+![[parabolaequacaoreduzidacaso2.png]]
+
+Analisando a equação, pode-se perceber que $px \geq 0$, dessa forma seus sinais são sempre iguais. Temos então dois casos de sinais que influenciam na concavidade da parábola:
+
+![[concavidadecasos2.png]]
+
 
 ## Translação de eixos
 
