@@ -43,11 +43,11 @@ Analisando a equação, pode-se perceber que $px \geq 0$, dessa forma seus sinai
 
 ![[concavidadecasos2.png]]
 
-
 ## Translação de eixos
 
 
 ## Equações paramétricas
+
 
 ---
 
