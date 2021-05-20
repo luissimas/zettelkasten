@@ -16,7 +16,6 @@ Alguns pontos e eixos notáveis das parábolas são:
 ## Equações reduzidas
 Dada uma parábola de vértice $V(0,0)$, existem dois casos possíveis, note que em ambos os casos o número real $p \neq 0$ é chamado de **parâmetro** da parábola:
 
-
 - Se o eixo da parábola é o eixo dos $y$:
 Seja $P(x,y)$ um ponto qualquer da parábola de *foco* $F(0,\frac{p}{2})$ e *diretriz* de equação $y = - \frac{p}{2}$
 A equação reduzida da parábola nesse caso é:
@@ -59,7 +58,21 @@ Dessa forma, definem-se as *fórmulas de translação* do ponto de um plano para
 >$$
 
 Usando a translação de eixos é possível manipular o vértice da parábola para obter as equações reduzidas mesmo que o vértice $V$ da parábola não seja o ponto $(0,0)$ do plano cartesiano.
+Dada uma parábola de vértice $V \neq (0,0)$, tomamos um novo sistema $x'O'y'$ tal que $O' = V$. Assim, ao escrever a equação reduzida da parábola em relação ao novo sistema, podemos substituir $x'$ e $y'$ pelas suas *fórmulas de translação*, obtendo as expressões:
 
+- Se o eixo da parábola é o eixo dos $y$:
+A equação da parábola nesse caso é:
+>$$
+  (x - h)^2 = 2p(y - k)
+>$$
+
+- Se o eixo da parábola é o eixo dos $x$:
+A equação da parábola nesse caso é:
+>$$
+  (y - k)^2 = 2p(x - h)
+>$$
+
+Note que as observações sobre o sinal do *parâmetro* com relação à concavidade são válidas também para essas equações.
 
 ## Equações paramétricas
 
