@@ -94,9 +94,22 @@ Colocando o $x$ ou o $y$ em evidência em uma *equação geral* de uma parábola
   x = ay^2 + by + c \qquad a \neq 0
 >$$
 
-
 ## Equações paramétricas
-
+Considerando as equações reduzidas da parábola, podemos trocar $x$ ou $y$ por um parâmetro $t \in \mathbb{R}$, dessa forma obtemos as equações paramétricas da parábola para cada caso:
+> Caso a equação reduzida da parábola seja $x^2 = 2py$:
+>$$
+\begin{cases}
+  x = t\\
+  y = \frac{1}{2p}t^2
+\end{cases}
+>$$
+> Caso a equação reduzida da parábola seja $y^2 = 2px$:
+>$$
+\begin{cases}
+  x = \frac{1}{2p}t^2\\
+  y = t
+\end{cases}
+>$$
 
 ---
 
