@@ -75,8 +75,25 @@ A equação na *forma padrão* da parábola nesse caso é:
 Note que as observações sobre o sinal do *parâmetro* com relação à concavidade são válidas também para essas equações.
 
 ## Equação geral
+Tomando como base a equação da parábola na *forma padrão*, se apenas desenvolvermos o quadrado e as multiplicações chegaremos na *equação geral da parábola*, que apresenta duas possíveis formas:
+>$$
+  ax^2 + cx + dy + f = 0 \qquad a \neq 0
+>$$
+>ou
+>$$
+  by^2 + cy + dx + f = 0 \qquad b \neq 0
+>$$
 
 ## Equação explícita
+Colocando o $x$ ou o $y$ em evidência em uma *equação geral* de uma parábola, obtemos sua forma reduzida. Existem duas possíveis formas para as equações reduzidas de uma parábola:
+>$$
+  y = ax^2 + bx + c \qquad a \neq 0
+>$$
+>ou
+>$$
+  x = ay^2 + by + c \qquad a \neq 0
+>$$
+
 
 ## Equações paramétricas
 
