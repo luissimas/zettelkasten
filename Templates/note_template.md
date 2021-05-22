@@ -4,4 +4,3 @@
 ---
 
 created: {{date}}
-modified: {{date}}
