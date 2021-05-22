@@ -2,7 +2,7 @@
 Consequência e equivalência lógica são relações estabelecidas entre duas fórmulas (ou conjunto de fórmulas).
 
 ## Consequência lógica
-O conceito de consequência lógica se relaciona com a ideia de prova ou dedução, ou seja, entender se uma conclusão pode ser obtida a partir de um conjunto de um conjunto de proposições (fórmulas) chamadas premissas.
+A ideia de consequência lógica serve de base para a ideia de [[Cálculo proposicional|prova ou dedução]], ou seja, entender se uma conclusão pode ser obtida a partir de um conjunto de proposições (fórmulas) chamadas *premissas*.
 
 >Uma fórmula $\beta$ é **consequência lógica** de outra fórmula $\alpha$ ($\alpha$ implica logicamente $\beta$) se **toda** interpretação que **satisfaz** $\alpha$ **também satisfaz** $\beta$. A consequência lógica é representada por $\alpha \vDash \beta$. Caso não haja consequência lógica entre duas fórmulas escreve-se $\alpha \nvDash \beta$.
 

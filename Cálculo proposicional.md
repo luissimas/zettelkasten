@@ -1,4 +1,5 @@
-# Regras de inferência
+# Cálculo proposicional
+O cálculo proposicional utiliza das propriedades da [[Consequência e equivalência lógica#Consequência lógica|consequência lógica]] para inferir e deduzir novos conhecimentos a partir de um conjunto de fatos conhecidos *a priori*.
 
 Assume-se que as premissas são verdadeiras para então inferir uma conclusão lógica.
 
@@ -6,6 +7,14 @@ Assume-se que as premissas são verdadeiras para então inferir uma conclusão l
 
 *Premissas* à esquerda do conectivo *logo*.
 *Conclusão* à direita do conectivo *logo*.
+
+## Argumentos
+Separa premissas de conclusões
+|-
+
+
+## Regras de inferência
+Existem ao todo $14$ regras de inferência
 
 - *Modus ponens* é a regra de inferência mais importante
 - *Modus tollens*
@@ -21,12 +30,8 @@ Assume-se que as premissas são verdadeiras para então inferir uma conclusão l
 - *Regra da inconsistência*
 - *Introdução da equivalência*
 - *Eliminação da equivalência*
-- **
-- **
-- **
 
 
-[[Consequência e equivalência lógica]]
 
 ---
 
