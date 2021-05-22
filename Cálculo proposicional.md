@@ -15,6 +15,13 @@ Separa premissas de conclusões
 
 Um argumento é **válido** somente se a sua conclusão é uma **consequência lógica** de suas premissas
 
+Para mostrar a invalidade de um argumento basta encontrar um contraexemplo
+
+Existem duas formas de mostrar a validade de um argumento:
+- Método semântico: via construção da tabela-verdade e análise das interpretações. Esse método é mecânico e conceitualmente simples, porém pode ser inviável por conta da quantidade de proposições na fórmula.
+
+- Método sintático: via construção de uma prova com base nas regras de inferência e leis de equivalência, ou usando inferência por resolução.
+
 
 ## Regras de inferência
 Existem ao todo $14$ regras de inferência
