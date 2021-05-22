@@ -10,7 +10,10 @@ Assume-se que as premissas são verdadeiras para então inferir uma conclusão l
 
 ## Argumentos
 Separa premissas de conclusões
+
 |-
+
+Um argumento é **válido** somente se a sua conclusão é uma **consequência lógica** de suas premissas
 
 
 ## Regras de inferência
