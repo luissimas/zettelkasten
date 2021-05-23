@@ -52,6 +52,23 @@ Existem ao todo $14$ regras de inferência:
 - *Introdução da equivalência*
 - *Eliminação da equivalência*
 
+| Regra |                      Nome                       |
+|:-----:|:-----------------------------------------------:|
+| $p, p \imples q \vdash q$ |                 *Modus ponens*                  |
+|       |                 *Modus tollens*                 |
+|       |     Silogismo hipotético (regra da cadeia)      |
+|       |              Silogismo disjuntivo               |
+|       |                  Simplificação                  |
+|       |            Conjunção (ou combinação)            |
+|       |                 Regra de casos                  |
+|       |                     Adição                      |
+|       | Dilema construtivo (a partir do *modus ponens*) |
+|       | Dilema destrutivo (a partir do *modus tollens*) |
+|       |                  Contraposição                  |
+|       |             Regra da inconsistência             |
+|       |           Introdução da equivalência            |
+|       |           Eliminação da equivalência            |
+
 
 ---
 
