@@ -34,7 +34,7 @@ Esse método consiste na construção da tabela-verdade e análise das [[Semânt
 Esse método consiste em construir uma prova para o dado argumento com base nas [[Cálculo proposicional#Regras de inferência|regras de inferência]] e [[Álgebra da lógica proposicional#Leis de equivalência|leis de equivalência]], ou usando inferência por resolução.
 
 ## Regras de inferência
-As regras de inferência são argumentos lógicos notáveis já conhecidos
+As regras de inferência são argumentos lógicos notáveis já conhecidos que podem ser utilizados para verificar a validade de argumentso mais complexos.
 Existem ao todo $14$ regras de inferência
 
 - *Modus ponens* é a regra de inferência mais importante
