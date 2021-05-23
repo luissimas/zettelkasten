@@ -5,8 +5,6 @@ Podemos usar o Node para qualquer propósito que necessite de execução local d
 ## Module System
 O Node separa as diversas funcionalidades nativas do sistema (e também de pacotes externos ou criados pelo desenvolvedor) em módulos.
 
-## NPM
-
 ---
 
 created: 17/04/2021
