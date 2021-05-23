@@ -35,8 +35,8 @@ Esse método consiste em construir uma prova para o dado argumento com base nas 
 
 ## Regras de inferência
 As regras de inferência são argumentos lógicos notáveis já conhecidos que podem ser utilizados para verificar a validade de argumentso mais complexos.
-Existem ao todo $14$ regras de inferência
 
+Existem ao todo $14$ regras de inferência:
 - *Modus ponens* é a regra de inferência mais importante
 - *Modus tollens*
 - *Silogismo hipotético (regra da cadeia)*
@@ -53,7 +53,8 @@ Existem ao todo $14$ regras de inferência
 - *Eliminação da equivalência*
 
 
-
 ---
 
 created: 22/05/2021
+
+[[Regras_inferencia_equivalencia.pdf]]
