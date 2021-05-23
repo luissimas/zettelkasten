@@ -52,22 +52,22 @@ Existem ao todo $14$ regras de inferência:
 - *Introdução da equivalência*
 - *Eliminação da equivalência*
 
-| Regra |                      Nome                       |
-|:-----:|:-----------------------------------------------:|
-| $p, p \imples q \vdash q$ |                 *Modus ponens*                  |
-|       |                 *Modus tollens*                 |
-|       |     Silogismo hipotético (regra da cadeia)      |
-|       |              Silogismo disjuntivo               |
-|       |                  Simplificação                  |
-|       |            Conjunção (ou combinação)            |
-|       |                 Regra de casos                  |
-|       |                     Adição                      |
-|       | Dilema construtivo (a partir do *modus ponens*) |
-|       | Dilema destrutivo (a partir do *modus tollens*) |
-|       |                  Contraposição                  |
-|       |             Regra da inconsistência             |
-|       |           Introdução da equivalência            |
-|       |           Eliminação da equivalência            |
+|                                             Regra                                              |                      Nome                       |
+|:----------------------------------------------------------------------------------------------:|:-----------------------------------------------:|
+|                                  $p, p \implies q  \vDash q$                                   |                 *Modus ponens*                  |
+|                              $p \implies q, \neg q \vDash \neg p$                              |                 *Modus tollens*                 |
+|                        $p \implies q, q \implies r \vDash p \implies r$                        |     Silogismo hipotético (regra da cadeia)      |
+|    $$\begin{aligned} p \lor q, \neg p \vDash q \\ p \lor q, \neg q \vDash p\end{aligned}$$     |              Silogismo disjuntivo               |
+|           $$\begin{aligned} p \land q \vDash p \\ p \land q \vDash q\end{aligned}$$            |                  Simplificação                  |
+|                                         $p, q \vDash$                                          |            Conjunção (ou combinação)            |
+|                           $p \implies q, \neg p \implies q \vDash q$                           |                 Regra de casos                  |
+|            $$\begin{aligned} p \vDash p \lor q \\ q \vDash p \lor q \end{aligned}$$            |                     Adição                      |
+|                     $p \implies q, r \implies s, p \lor r \vDash q \lor s$                     | Dilema construtivo (a partir do *modus ponens*) |
+|           $p \implies q, r \implies s, \neg q \lor \neg s \vDash \neg p \lor \neg r$           | Dilema destrutivo (a partir do *modus tollens*) |
+|                          $p \implies q \vDash \neg q \implies \neg p$                          |                  Contraposição                  |
+|                                      $p, \neg p \vDash q$                                      |             Regra da inconsistência             |
+|                          $p \implies q, q \implies p \vDash p \iff q$                          |           Introdução da equivalência            |
+| $$\begin{aligned} p \iff q \vdash p \implies q \\ p \iff q \vdash q \implies p \end{aligned}$$ |           Eliminação da equivalência            |
 
 
 ---
