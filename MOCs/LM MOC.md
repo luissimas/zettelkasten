@@ -8,6 +8,7 @@ Na primeira parte do curso fomos introduzidos à [[Lógica proposicional|lógica
 [[Consequência e equivalência lógica]]
 [[Álgebra da lógica proposicional]]
 [[Cálculo proposicional]]
+[[Técnicas dedutivas]]
 
 ## Lógica de predicados
 

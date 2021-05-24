@@ -32,7 +32,7 @@ Esse método consiste na construção da tabela-verdade e análise das [[Semânt
 Para verificar a validade de um argumento $\alpha_1, \alpha_2, \alpha_3, \dots, \alpha_{n-1} \vdash \alpha_n$ utilizando o método semântico, basta fazer a tabela-verdade com todas as fórmulas presentes e verificar se $\left(\alpha_1 \land \alpha_2 \land \alpha_3 \land \dots \land \alpha_{n-1} \right) \implies \alpha_n$ é uma [[Semântica da lógica proposicional#Classificação de fórmulas|tautologia]].
 
 ### Método sintático
-Esse método consiste em construir uma prova para o dado argumento com base nas [[Cálculo proposicional#Regras de inferência|regras de inferência]] e [[Álgebra da lógica proposicional#Leis de equivalência|leis de equivalência]], ou usando inferência por resolução.
+Esse método representa a **essência do cálculo proposicional**. Para verificar a validade de um argumento utilizando o método sintático, deve-se desenvolver uma [[Técnicas dedutivas|prova (ou dedução)]] para o dado argumento com base nas [[Cálculo proposicional#Regras de inferência|regras de inferência]] e [[Álgebra da lógica proposicional#Leis de equivalência|leis de equivalência]].
 
 ## Regras de inferência
 As regras de inferência são argumentos lógicos notáveis já conhecidos que podem ser utilizados para verificar a validade de argumentos mais complexos.
