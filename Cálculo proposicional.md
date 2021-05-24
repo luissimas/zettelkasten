@@ -56,7 +56,6 @@ Existem ao todo $14$ regras de inferência:
 |                          $p \implies q, q \implies p \vDash p \iff q$                          |       Introdução da equivalência       |
 | $$\begin{aligned} p \iff q \vdash p \implies q \\ p \iff q \vdash q \implies p \end{aligned}$$ |       Eliminação da equivalência       |
 
-
 ---
 
 created: 22/05/2021
