@@ -37,20 +37,6 @@ Esse método consiste em construir uma prova para o dado argumento com base nas 
 As regras de inferência são argumentos lógicos notáveis já conhecidos que podem ser utilizados para verificar a validade de argumentso mais complexos.
 
 Existem ao todo $14$ regras de inferência:
-- *Modus ponens* é a regra de inferência mais importante
-- *Modus tollens*
-- *Silogismo hipotético (regra da cadeia)*
-- *Silogismo disjuntivo*
-- *Simplificação*
-- *Conjunção (ou combinação)*
-- *Regra de casos*
-- *Adição*
-- *Dilema construtivo (montado a partir do modus ponens)*
-- *Dilema destrutivo (montado a partir do modus tollens)*
-- *Contraposição*
-- *Regra da inconsistência*
-- *Introdução da equivalência*
-- *Eliminação da equivalência*
 
 |                                             Regra                                              |                  Nome                  |
 |:----------------------------------------------------------------------------------------------:|:--------------------------------------:|
@@ -59,7 +45,7 @@ Existem ao todo $14$ regras de inferência:
 |                        $p \implies q, q \implies r \vDash p \implies r$                        | Silogismo hipotético (regra da cadeia) |
 |    $$\begin{aligned} p \lor q, \neg p \vDash q \\ p \lor q, \neg q \vDash p\end{aligned}$$     |          Silogismo disjuntivo          |
 |           $$\begin{aligned} p \land q \vDash p \\ p \land q \vDash q\end{aligned}$$            |             Simplificação              |
-|                                         $p, q \vDash p \land q$                                          |       Conjunção (ou combinação)        |
+|                                    $p, q \vDash p \land q$                                     |       Conjunção (ou combinação)        |
 |                           $p \implies q, \neg p \implies q \vDash q$                           |             Regra de casos             |
 |            $$\begin{aligned} p \vDash p \lor q \\ q \vDash p \lor q \end{aligned}$$            |                 Adição                 |
 |                     $p \implies q, r \implies s, p \lor r \vDash q \lor s$                     |           Dilema construtivo           |
