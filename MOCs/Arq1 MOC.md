@@ -15,6 +15,10 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[Conflitos]]
 [[Multiplicação e divisão]]
 [[Ponto flutuante]]
+[[Memória cache]]
+[[Memória virtual]]
+[[Desempenho]]
+[[Dispositivos de I/O]]
 
 ---
 
