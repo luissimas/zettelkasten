@@ -12,8 +12,17 @@ Existem diversas formas de desenvolver uma prova para um [[Cálculo proposiciona
 Dessa forma, para provar que $\alpha_n$ é uma conclusão válida das premissas $\alpha_1, \alpha_2, \dots, \alpha_{n-1}$, é necessário produzir uma sequência de demonstração de forma que as premissas sejam derivadas em proposições $\beta_1, \beta_2, \dots, \beta_k$ até que se atinja a proposição $\alpha_n$, ou seja, até que $\beta_k \equiv \alpha_n$.
 
 ## Prova condicional
+A prova condicional segue a mesma base da prova direta, porém além das premissas e proposições derivadas, introduz-se uma ou mais premissas provisórias chamadas de *hipóteses*, é importante destacar que **todas** as hipóteses devem ser **descartadas** até o final da prova. Além disso, as hipóteses devem ser descartadas na mesma ordem em que foram inseridas.
+Para provar uma conclusão que tem a forma condicional, por exemplo $p \implies q$, a partir de um conjunto de premissas, deve-se introduzir o antecedente $p$ como uma *hipótese*, deduzir $q$ utilizando $p$ e, no final, descartar a hipótese $p$ reconstruindo $p \implies q$.
 
-## Prova por redução ao absurdo
+Esse método de prova é embasado no *Teorema da dedução*
+> Sejam $\delta$ e $\beta$ duas fórmulas bem-formadas (proposições válidas) e $\alpha_1,\dots, \alpha_n$ um conjunto de premissas. Então, as proposições $\alpha_1,\dots, \alpha_n$ e $\delta$ implicam logicamente $\beta$ se e somente se as proposições $\alpha_1,\dots, \alpha_n$ implicarem logicamente $\delta \implies \beta$, ou seja:
+>$$
+  \alpha_1, \alpha_2, \alpha_3, \dots, \alpha_n, \delta \vDash  \beta \quad \iff \quad \alpha_1, \alpha_2, \alpha_3, \dots, \alpha_n \vDash \delta \implies \beta
+>$$
+
+## Prova indireta (redução ao absurdo)
+A prova indireta se baseia no princípio de que a partir de uma [[Semântica da lógica proposicional#Classificação de fórmulas|contradição]] pode-se deduzir qualquer proposição.
 
 ## Inferência por resolução
 
