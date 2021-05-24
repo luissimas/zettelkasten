@@ -5,11 +5,8 @@ Assume-se que as premissas são verdadeiras para então inferir uma conclusão l
 
 > "Quando todas as premissas são verdadeiras, então o consequente também é verdadeiro."
 
-*Premissas* à esquerda do conectivo *logo*.
-*Conclusão* à direita do conectivo *logo*.
-
 ## Argumentos
-Separa premissas de conclusões
+Separa premissas de conclusões.
 
 > Um argumento é uma sequência $\alpha_1, \alpha_2, \alpha_3, \dots \alpha_n$ de proposições, com $n \geq 1$, na qual as $n - 1$ primeiras proposições são chamadas de premissas e a última proposição $\alpha_n$ é chamada de conclusão. Um argumento é denotado por:
 >$$
