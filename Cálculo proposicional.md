@@ -59,7 +59,7 @@ Existem ao todo $14$ regras de inferência:
 |                        $p \implies q, q \implies r \vDash p \implies r$                        | Silogismo hipotético (regra da cadeia) |
 |    $$\begin{aligned} p \lor q, \neg p \vDash q \\ p \lor q, \neg q \vDash p\end{aligned}$$     |          Silogismo disjuntivo          |
 |           $$\begin{aligned} p \land q \vDash p \\ p \land q \vDash q\end{aligned}$$            |             Simplificação              |
-|                                         $p, q \vDash$                                          |       Conjunção (ou combinação)        |
+|                                         $p, q \vDash p \land q$                                          |       Conjunção (ou combinação)        |
 |                           $p \implies q, \neg p \implies q \vDash q$                           |             Regra de casos             |
 |            $$\begin{aligned} p \vDash p \lor q \\ q \vDash p \lor q \end{aligned}$$            |                 Adição                 |
 |                     $p \implies q, r \implies s, p \lor r \vDash q \lor s$                     |           Dilema construtivo           |
