@@ -42,9 +42,13 @@ Utiliza-se ainda um *bit de validade*, que indica se o determinado bloco do cach
 
 ![[cachedirectmappingimplementation.png]]
 
-## Políticas de escrita
+![[cacheassociativeimplementation.png]]
 
-## Substituição de blocos
+## Políticas de escrita
+Como os dados da memória cache são **cópias** dos dados presentes na memória principal, é necessário alguma forma de escrever os dados alterados do cache nos seus respectivos endereços na memória principal. Existem duas maneiras de se implementar a escrita de dados do cache:
+
+- **Write-through**: O dado a ser escrito é sempre atualizado no cache e na memória principal. Esse método é mais simples de ser implementado, porém seu desempenho é prejudicado pelo fato de ser necessário acessar níveis mais baixos da hierarquia de memória em operações de escrita.
+- **Write-back**: O dado a ser escrito é atualizado na memória principal apenas quando o bloco no cache é substituído por outro. Esse método garante um melhor desempenho, pois as operações se restringem ao cache, porém adiciona complicações de implementação e dificulta a integridade dos dados.
 
 ---
 
