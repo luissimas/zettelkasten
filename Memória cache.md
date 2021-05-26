@@ -24,9 +24,16 @@ Com essa disposição das memórias é possível otimizar o uso das memórias ma
 Como a memória cache é capaz de armazenar menos blocos de dados do que a memória principal, é necessário fazer um mapeamento dos blocos da memória principal nas linhas de cache, dessa forma é possível fazer uma correspondência entre blocos na memória principal e blocos na memória cache. Além disso é necessário também algum mecanismo que permita verificar qual bloco da memória principal ocupa uma linha específica da cache, para que seja possível verificar se um determinado bloco da memória principal está ou não armazenado na memória cache.
 Existem diferentes estratégias de se implementar um mapeamento dos blocos:
 
-- **Mapeamento direto**:
-- **Totalmente associativo**:
-- **Associativo em conjuntos**:
+- **Mapeamento direto**: Um bloco tem **apenas um** local possível no cache. Esse método é simples de ser implementado, porém os blocos são sobrescritos com uma maior frequência do que o necessário.
+- **Associativo em conjuntos**: Um bloco pode ser armazenado em um **subconjunto restrito** de locais no cache.
+- **Totalmente associativo**: Um bloco pode ser armazenado em **qualquer local** do cache. Esse método é muito incomum e difícil de ser implementado
+
+![[blockmapping.png]]
+
+### Mapeamento direto
+Uma forma de implementação comum de um cache com mapeamento direto é através do módulo da divisão do endereço do bloco na memória principal pela quantidade de blocos do cache.
+
+![[cachedirectmapping.png]]
 
 ---
 
