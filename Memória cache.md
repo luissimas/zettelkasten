@@ -30,11 +30,24 @@ Existem diferentes estratégias de se implementar um mapeamento dos blocos:
 
 ![[blockmapping.png]]
 
-### Mapeamento direto
-Uma forma de implementação comum de um cache com mapeamento direto é através do módulo da divisão do endereço do bloco na memória principal pela quantidade de blocos do cache.
+Uma forma de implementação comum de um cache com mapeamento direto e mapeamento associativo é através do módulo da divisão do endereço do bloco na memória principal pela quantidade de blocos do cache.
 
 ![[cachedirectmapping.png]]
+
+O que acontece na prática é que o endereço do bloco na memória principal é desmembrado para compor o endereço no cache.
+
+![[cacheblockaddress.png]]
+
+Utiliza-se ainda um *bit de validade*, que indica se o determinado bloco do cache contém dados válidos. Isso é útil para tratar situações de início de cache, quando os dados são apenas "lixo" e podem ser sobrescritos, e também situações em que um dado é atualizado na memória principal, tornando sua antiga cópia armazenada em cache inválida.
+
+![[cachedirectmappingimplementation.png]]
+
+## Políticas de escrita
+
+## Substituição de blocos
 
 ---
 
 created: 24/05/2021
+
+[[Memoria_Cache.pdf]]
