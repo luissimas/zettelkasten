@@ -55,8 +55,14 @@ Como em toda elipse tem-se $a > b$, para saber se a elipse tem seu eixo maior so
 - Se $a^2$ for denominador de $x^2$, então o eixo maior está sobre o eixo $x$
 - Se $a^2$ for denominador de $y^2$, então o eixo maior está sobre o eixo $y$
 
+## Translação de eixos
+Usando a [[Translação de eixos|translação de eixos]] é possível manipular o centro da elipse para obter as equações reduzidas mesmo que o centro $C$ da elipse não seja o ponto $(0,0)$ do plano cartesiano.
 
-## Equações na forma padrão
+![[elipsetranslacaodeeixos.png]]
+
+Dada uma elipse de centro $C=(h,k) \neq (0,0)$, temos dois casos possíveis:
+
+-
 
 ## Equação geral
 
