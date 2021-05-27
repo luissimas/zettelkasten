@@ -35,6 +35,8 @@ Nessa unidade expandimos os conceitos básicos de geometria analítica tomando c
 ## Unidade 4
 Nessa unidade foram introduzidas as curvas cônicas e suas diversas variantes.
 
+[[Translação de eixos]]
+
 [[Cônicas]]
 [[Parábola]]
 [[Elipse]]

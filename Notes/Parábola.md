@@ -43,21 +43,10 @@ Analisando a equação, pode-se perceber que $px \geq 0$, dessa forma seus sinai
 ![[concavidadecasos2.png]]
 
 ## Translação de eixos
-Dado o plano cartesiano $xOy$, sendo $O$ a *origem* do sistema cartesiano, podemos tomar um novo ponto arbitrário $O'(h,k)$ e introduzir um novo sistema $x'O'y'$, tal que os eixos desse novo sistema tenham a mesma direção, sentido e unidade de medida dos eixos $Ox$ e $Oy$. Dessa forma, qualquer ponto $P$ do plano tem duas representações: $P(x,y)$ no sistema $xOy$ e $P'(x',y')$ no sistema $x'O'y'$.
+Usando a [[Translação de eixos|translação de eixos]] é possível manipular o vértice da parábola para obter as equações reduzidas mesmo que o vértice $V$ da parábola não seja o ponto $(0,0)$ do plano cartesiano.
 
-![[translacaodeeixos.png]]
+![[parabolatranslacaodeeixos.png]]
 
-Dessa forma, definem-se as *fórmulas de translação* do ponto de um plano para outro:
-
->$$
-  x = x' + h \qquad\text{e}\qquad y = y' + k
->$$
->ou
->$$
-  x' = x - h \qquad\text{e}\qquad y' = y - k
->$$
-
-Usando a translação de eixos é possível manipular o vértice da parábola para obter as equações reduzidas mesmo que o vértice $V$ da parábola não seja o ponto $(0,0)$ do plano cartesiano.
 Dada uma parábola de vértice $V \neq (0,0)$, tomamos um novo sistema $x'O'y'$ tal que $O' = V$. Assim, ao escrever a equação reduzida da parábola em relação ao novo sistema, podemos substituir $x'$ e $y'$ pelas suas *fórmulas de translação*, obtendo as expressões:
 
 - Se o eixo da parábola é paralelo ao eixo dos $y$:

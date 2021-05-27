@@ -33,10 +33,27 @@ Dada uma elipse de centro $C(0,0)$, levamos em conta dois casos distintos:
 
 - O *eixo maior* está sobre o eixo dos $x$:
 
-Dado um ponto $P(x,y)$ de uma elipse de focos $F_1(-c,0)$ e $F_2(c,0)$
+![[equacaoreduzidaelipsecaso1.png]]
 
+Dado um ponto $P(x,y)$ de uma elipse de focos $F_1(-c,0)$ e $F_2(c,0)$. Desenvolvendo a definição $d(P,F_1) + d(P,F_2) = 2a$ obtém-se a *equação reduzida* para esse caso:
+>$$
+  \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
+>$$
 
 - O *eixo maior* está sobre o eixo dos $y$:
+
+![[equacaoreduzidaelipsecaso2.png]]
+
+Procedendo de maneira análoga ao caso anterior, obtém-se a seguinte *equação reduzida*:
+>$$
+  \frac{x^2}{b^2} + \frac{y^2}{a^2} = 1
+>$$
+
+### Observação
+Como em toda elipse tem-se $a > b$, para saber se a elipse tem seu eixo maior sobre o eixo $x$ ou $y$ basta *observar onde está o maior denominador* $a^2$ na sua equação reduzida, ou seja:
+
+- Se $a^2$ for denominador de $x^2$, então o eixo maior está sobre o eixo $x$
+- Se $a^2$ for denominador de $y^2$, então o eixo maior está sobre o eixo $y$
 
 
 ## Equações na forma padrão
