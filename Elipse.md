@@ -60,13 +60,29 @@ Usando a [[Translação de eixos|translação de eixos]] é possível manipular 
 
 ![[elipsetranslacaodeeixos.png]]
 
-Dada uma elipse de centro $C=(h,k) \neq (0,0)$, temos dois casos possíveis:
+Dada uma elipse de centro $C=(h,k) \neq (0,0)$, temos dois casos possíveis para as equações reduzidas:
 
--
+- O *eixo maior* é paralelo ao eixo dos $x$:
+
+>$$
+  \frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1
+>$$
+
+- O *eixo maior* é paralelo ao eixo dos $y$:
+
+>$$
+  \frac{(x - h)^2}{b^2} + \frac{(y - k)^2}{a^2} = 1
+>$$
 
 ## Equação geral
+Eliminando os denomidaores e desenvolvendo os quadrados de uma *equação reduzida*, obtemos uma *equação geral* da elipse, que tem a forma:
+
+>$$
+  ax^2 + by^2 + cx + dy + f = 0
+>$$
 
 ## Equações paramétricas
+
 
 ---
 
