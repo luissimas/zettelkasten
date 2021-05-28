@@ -30,7 +30,7 @@ A seguir são apresentadas as mais importantes leis de equivalência, acompanhad
 
 ## Formas normais
 
-Forma normal conjuntiva (FNC)
+### Forma normal conjuntiva (FNC)
 
 - Forma clausal
 - Conjunção de clausas
@@ -39,7 +39,7 @@ Forma normal conjuntiva (FNC)
 
 > Para toda fórmula $\beta$ da [[Lógica Proposicional]] existe uma fórmula $\alpha$ na *FNC* que é equivalente a $\beta$, ou seja: $\alpha \equiv \beta$.
 
-Forma normal disjuntiva (FND)
+### Forma normal disjuntiva (FND)
 
 ---
 
