@@ -28,6 +28,8 @@ A seguir são apresentadas as mais importantes leis de equivalência, acompanhad
 |                         $$\begin{aligned} (p \lor (p \land q)) \equiv p \\ (p \land (p \lor q)) \equiv p\end{aligned}$$                          |                   Leis da absorção                    |
 |            $$\begin{aligned} (p \land q) \lor (\neg p \land q) \equiv q \\ (p \lor q) \land (\neg p \lor q) \equiv q \end{aligned}$$             |          Generalização das Leis da absorção           |
 
+## Formas normais
+
 
 ---
 
