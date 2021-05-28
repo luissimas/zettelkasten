@@ -87,9 +87,50 @@ Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduz
 >$$
 
 ## Equações paramétricas
-Dada uma elipse de equação $\frac{x^2}{a^2} + \frac{y^2}{b^2}$
+Dada uma elipse de equação $\displaystyle \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, podemos traçar uma circunferência de centro $O$ e raio igual ao semieixo maior da elipse e com base nessa circunferência obter as *equações reduzidas* da elipse.
 
 ![[elipseequacoesparametricas.png]]
+
+Dado um ponto $P(x,y)$ qualquer da elipse, temos dois casos possíveis para as equações paramétricas:
+
+- O *eixo maior* é paralelo ao eixo dos $x$:
+>$$
+\begin{cases}
+  x = a\cos{\theta}\\
+  y = b\sin{\theta}
+\end{cases}
+\qquad 0 \leq \theta \leq 2\pi
+>$$
+
+- O *eixo maior* é paralelo ao eixo dos $y$:
+>$$
+\begin{cases}
+  x = b\cos{\theta}\\
+  y = a\sin{\theta}
+\end{cases}
+\qquad 0 \leq \theta \leq 2\pi
+>$$
+
+Vale destacar que quando o centro da elipse for $C(h,k)$, os dois casos possíveis para as equações tem a seguinte forma:
+
+- O *eixo maior* é paralelo ao eixo dos $x$:
+>$$
+\begin{cases}
+  x = h + a\cos{\theta}\\
+  y = k + b\sin{\theta}
+\end{cases}
+\qquad 0 \leq \theta \leq 2\pi
+>$$
+
+- O *eixo maior* é paralelo ao eixo dos $y$:
+>$$
+\begin{cases}
+  x = h + b\cos{\theta}\\
+  y = k + a\sin{\theta}
+\end{cases}
+\qquad 0 \leq \theta \leq 2\pi
+>$$
+
 
 ---
 
