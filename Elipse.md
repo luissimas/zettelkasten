@@ -80,7 +80,7 @@ Dada uma elipse de centro $C=(h,k) \neq (0,0)$, temos dois casos possíveis para
 >$$
 
 ## Equação geral
-Eliminando os denomidaores e desenvolvendo os quadrados de uma *equação reduzida*, obtemos uma *equação geral* da elipse, que tem a forma:
+Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduzida*, obtemos uma *equação geral* da elipse, que tem a forma:
 
 >$$
   ax^2 + by^2 + cx + dy + f = 0
