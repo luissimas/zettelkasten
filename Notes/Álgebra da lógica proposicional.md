@@ -36,8 +36,8 @@ Usando as leis de equivalência é possível manipular as proposições e coloc�
 ### Forma normal conjuntiva (FNC)
 Uma *Forma Normal Conjuntiva (FNC)*, ou *Forma Clausal*, é composta por:
 
-- **Literais**: elemento básico da *FNC*, um literal é uma formula atômica ($p$) ou a negação de uma fórmula atômica ($\neg p$).
-- **Cláusulas**: uma cláusula é uma disjunção de literais
+- **Literais (L)**: elemento básico da *FNC*, um literal é uma formula atômica ($p$) ou a negação de uma fórmula atômica ($\neg p$).
+- **Cláusulas (C)**: uma cláusula é uma [[Sintaxe da lógica proposicional#Conectivos operadores lógicos|disjunção]] de literais $L_1 \lor L_2 \lor \dots \lor L_n$, onde $n$ é o tamanho da cláusula.
 
 Uma fórmula proposicional está na  quando for uma conjunção $$
 
