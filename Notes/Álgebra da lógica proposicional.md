@@ -29,15 +29,23 @@ A seguir são apresentadas as mais importantes leis de equivalência, acompanhad
 |            $$\begin{aligned} (p \land q) \lor (\neg p \land q) \equiv q \\ (p \lor q) \land (\neg p \lor q) \equiv q \end{aligned}$$             |          Generalização das Leis da absorção           |
 
 ## Formas normais
+Usando as leis de equivalência é possível manipular as proposições e colocá-las em formatos mais desejáveis. Através das formas normais é possível padronizar as proposições compostas, tornando sua identificação comparação mais simples e objetivas.
+
+> Para toda fórmula $\beta$ da [[Lógica Proposicional]] existe uma fórmula $\alpha$ tanto na *FNC* quanto na *FND* que é equivalente a $\beta$, ou seja: $\alpha \equiv \beta$.
 
 ### Forma normal conjuntiva (FNC)
+Uma *Forma Normal Conjuntiva (FNC)*, ou *Forma Clausal*, é composta por:
+
+- **Literais**: elemento básico da *FNC*, um literal é uma formula atômica ($p$) ou a negação de uma fórmula atômica ($\neg p$).
+- **Cláusulas**: uma cláusula é uma disjunção de literais
+
+Uma fórmula proposicional está na  quando for uma conjunção $$
 
 - Forma clausal
 - Conjunção de clausas
 - Uma clausa é a disjunção de literais
 - Literal = fórmulas atômicas
 
-> Para toda fórmula $\beta$ da [[Lógica Proposicional]] existe uma fórmula $\alpha$ na *FNC* que é equivalente a $\beta$, ou seja: $\alpha \equiv \beta$.
 
 ### Forma normal disjuntiva (FND)
 
