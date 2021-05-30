@@ -27,6 +27,21 @@ A prova indireta se baseia no princípio de que a partir de uma [[Semântica da 
 Para provar uma conclusão $\beta$ através de uma prova indireta, deve-se introduzir a negação $\neg \beta$ da conclusão no conjunto de premissas como uma hipótese e então deduzir uma contradição. Ao chegar na contradição, prova-se a validade do argumento.
 
 ## Inferência por resolução
+A *inferência por resolução* é um método simples e eficiente para inferir conclusões lógicas a partir de premissas. Ao contrário dos demais métodos de prova, esse não exige a aplicação direta de operações baseadas nas [[Cálculo proposicional#Regras de inferência|regras de inferência]] e [[Álgebra da lógica proposicional#Leis de equivalência|leis de equivalência]]. Ao invés disso, a inferência por resolução se baseia na manipulação de fórmulas na [[Álgebra da lógica proposicional#Formas normais|forma normal]], mais especificamente na [[Álgebra da lógica proposicional#Forma normal conjuntiva (FNC)|forma normal conjuntiva (FNC)]].
+
+>Dadas duas cláusulas $\alpha$ e $\beta$ e um literal $p$ tal que $p \in \alpha$ e $\neg p \in \beta$. Então
+>$$
+  \left\{ \alpha, \beta \right\} \vDash \text{resolvente}(\alpha, \beta; p)
+>$$
+>Tal que
+>$$
+  \text{resolvente}(\alpha, \beta; p) = (\alpha - p) \cup (\beta - p)
+>$$
+> Ou seja, o $\text{resolvente}$ é a cláusula obtida pela *união* de $\alpha$ e $\beta$ removendo-se o literal $p$ e seu complementar de ambas as cláusulas.
+
+
+
+É importante destacar que esse método de inferência **só é aplicável à [[Álgebra da lógica proposicional#Forma normal conjuntiva (FNC)|cláusulas]]**, portanto é necessário antes de tudo transformar **todas as fórmulas** do argumento em **cláusulas**.
 
 ---
 
