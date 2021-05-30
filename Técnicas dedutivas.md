@@ -39,6 +39,9 @@ A *inferência por resolução* é um método simples e eficiente para inferir c
 >$$
 > Ou seja, o $\text{resolvente}$ é a cláusula obtida pela *união* de $\alpha$ e $\beta$ removendo-se o literal $p$ e seu complementar de ambas as cláusulas.
 
+O método de inferência por resolução é um método de inferência por **refutação**, ou seja, o objetivo é refutar a **conclusão** ou **todo o teorema**. Portanto, deve-se negar a conclusão (ou o teorema todo) e fazer sucessivas *regras de resolução* entre as cláusulas para eliminar os literais até chegar-se em uma cláusula vazia ($\text{nil}$ ).
+
+>Uma cláusula $\alpha$ pode ser inferida por resolução de um conjunto de cláusulas $\Gamma$ ($\Gamma \vdash_{\text{RES}} \alpha$) se a partir do conjunto $\Gamma \cup \left\{ \neg a \right\}$ obtém-se a cláusula vazia ($\text{nil}$).
 
 
 É importante destacar que esse método de inferência **só é aplicável à [[Álgebra da lógica proposicional#Forma normal conjuntiva (FNC)|cláusulas]]**, portanto é necessário antes de tudo transformar **todas as fórmulas** do argumento em **cláusulas**.
