@@ -37,8 +37,30 @@ Outro elemento importante é a *excentricidade* da hipérbole, definida por:
 A *excentricidade* se relaciona diretamente com a *abertura* da hipérbole (denotada pelo ângulo $\theta$ na figura), quanto maior a *excentricidade*, maior a *abertura* da hipérbole. Quando $a = b$, as assíntotas se tornam perpendiculares ($\theta = 90°$). Nesse caso a hipérbole é chamada de *hipérbole equilátera*.
 
 ## Equações reduzidas
+Dada uma hipérbole de centro $C(0,0)$, existem dois casos distintos:
+
+- O *eixo real* está sobre o eixo dos $x$:
+
+![[equacaoreduzidahiperbolecaso1.png]]
+
+Dado um ponto $P(x,y)$ de uma hipérbole de focos $F_1(-c,0)$  e $F_1(c,0)$. Desenvolvendo a definição $|d(P,F_1) - d(P,F_2)| = 2a$ obtém-se a *equação reduzida* para esse caso:
+
+>$$
+  \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1
+>$$
+
+- O *eixo real* está sobre o eixo dos $y$:
+
+![[equacaoreduzidahiperbolecaso2.png]]
+
+Dado um ponto $P(x,y)$ de uma hipérbole de focos $F_1(0,-c)$  e $F_1(0,c)$. Desenvolvendo a definição $|d(P,F_1) - d(P,F_2)| = 2a$ obtém-se a *equação reduzida* para esse caso:
+
+>$$
+  \frac{y^2}{a^2} - \frac{x^2}{b^2} = 1
+>$$
 
 ### Observações
+As assíntotas $r$ e $s$ são retas que passam pelo centro da hipérbole,
 
 ## Translação de eixos
 
