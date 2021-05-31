@@ -75,8 +75,31 @@ As assíntotas $r$ e $s$ são retas que passam pelo centro da hipérbole, portan
 >$$
 
 ## Translação de eixos
+Usando a [[Translação de eixos|translação de eixos]] é possível manipular o centro da hipérbole para obter as equações reduzidas mesmo que o centro $C$ da hipérbole não seja o ponto $(0,0)$ do plano cartesiano.
+
+![[hiperboletranslacaodeeixos.png]]
+
+Dada uma hipérbole de centro $C(h,k) \neq (0,0)$, temos dois casos possíveis para as equações reduzidas:
+
+- O *eixo real* é paralelo ao eixo dos $x$:
+
+>$$
+  \frac{\left(x-h\right)^2}{a^2} - \frac{\left(y-k\right)^2}{b^2} = 1
+>$$
+
+- O *eixo real* é paralelo ao eixo dos $y$:
+
+>$$
+  \frac{\left(y-k\right)^2}{a^2} - \frac{\left(x-h\right)^2}{b^2} = 1
+>$$
 
 ## Equação geral
+Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduzida*, obtemos uma *equação geral* da hipérbole, que tem a forma:
+
+>$$
+  ax^2 + by^2 + cx + dy + f = 0
+>$$
+> com $a$ e $b$ de sinais contrários.
 
 ## Equações paramétricas
 
