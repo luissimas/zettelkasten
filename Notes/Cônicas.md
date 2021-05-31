@@ -34,6 +34,23 @@ De maneira geral, uma **cônica** pode ser expressa por uma *equação geral* no
 
 Dessa forma, é possível definir uma cônica com cinco pontos no plano, ou seja, por qualquer conjunto de cinco pontos do plano sempre passa uma única curva cônica.
 
+Dados cinco pontos no plano $P_1(x_1, y_1)$, $P_2(x_2, y_2)$, $P_3(x_3, y_3)$, $P_4(x_4, y_4)$ e $P_5(x_5, y_5)$, basta substituir as coordenadas de cada ponto na equação geral, obtendo-se assim um [[Sistemas de equações lineares|sistema de equação linear]] com cinco equações e seis incógnitas:
+
+$$
+  \begin{cases}
+    Ax_1^2 + Bx_1y_1 + Cy_1^2 + Dx_1 + Ey_1 + F = 0\\\\
+    Ax_2^2 + Bx_2y_2 + Cy_2^2 + Dx_2 + Ey_2 + F = 0\\\\
+    Ax_3^2 + Bx_3y_3 + Cy_3^2 + Dx_3 + Ey_3 + F = 0\\\\
+    Ax_4^2 + Bx_4y_4 + Cy_4^2 + Dx_4 + Ey_4 + F = 0\\\\
+    Ax_5^2 + Bx_5y_5 + Cy_5^2 + Dx_5 + Ey_5 + F = 0\\
+  \end{cases}
+$$
+
+Em seguida, pode-se [[Resolução de sistemas lineares por escalonamento|resolver]] o sistema utilizando [[Métodos de escalonamento#Método de Gauss-Jordan|Gauss-Jordan]]. A solução desse sistema terá um dos parâmetros livres, então basta fixar um valor para esse parâmetro para obter-se uma equação geral da cônica determinada pelos 5 pontos.
+
+## Equação reduzida
+
+
 ---
 
 created: 18/05/2021
