@@ -85,6 +85,7 @@ Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduz
 >$$
   ax^2 + by^2 + cx + dy + f = 0
 >$$
+> com $a$ e $b$ de sinais iguais.
 
 ## Equações paramétricas
 Dada uma elipse de equação $\displaystyle \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, podemos traçar uma circunferência de centro $O$ e raio igual ao semieixo maior da elipse e com base nessa circunferência obter as *equações reduzidas* da elipse.
