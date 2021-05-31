@@ -102,6 +102,7 @@ Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduz
 > com $a$ e $b$ de sinais contrários.
 
 ## Equações paramétricas
+Dada uma hipérbole de equação $$
 
 ---
 
