@@ -31,7 +31,7 @@ Pela figura, vê-se que é possível relacionar $a$, $b$ e $c$ através da segui
 Outro elemento importante é a *excentricidade* da hipérbole, definida por:
 
 >$$
-  e = \frac{c}{a}
+  e = \frac{c}{a} \qquad e > 1
 >$$
 
 A *excentricidade* se relaciona diretamente com a *abertura* da hipérbole (denotada pelo ângulo $\theta$ na figura), quanto maior a *excentricidade*, maior a *abertura* da hipérbole. Quando $a = b$, as assíntotas se tornam perpendiculares ($\theta = 90°$). Nesse caso a hipérbole é chamada de *hipérbole equilátera*.
