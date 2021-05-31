@@ -20,11 +20,21 @@ Com base na figura, uma hipérbole é composta pelos seguintes elementos:
 - **Centro**: é o ponto médio $C$ do segmento $F_1F_2$.
 - **Vértices**: são os pontos $A_1$ e $A_2$.
 - **Eixo real ou transverso**: é o segmento $A_1A_2$ de comprimento $2a$.
+- **Eixo imaginário ou não transverso**: é o segmento $B_1B_2$ de comprimento $2b$, com $B_1B_2 \perp A_1A_2$ em $C$.
+- **Assíntotas**: são as retas $r$ e $s$ das quais a hipérbole se aproxima cada vez mais à medida que os pontos se afastam dos vértices.
 
 Pela figura, vê-se que é possível relacionar $a$, $b$ e $c$ através da seguinte equação:
 >$$
   c^2 = a^2 + b^2
 >$$
+
+Outro elemento importante é a *excentricidade* da hipérbole, definida por:
+
+>$$
+  e = \frac{c}{a}
+>$$
+
+A *excentricidade* se relaciona diretamente com a *abertura* da hipérbole (denotada pelo ângulo $\theta$ na figura), quanto maior a *excentricidade*, maior a *abertura* da hipérbole. Quando $a = b$, as assíntotas se tornam perpendiculares ($\theta = 90°$). Nesse caso a hipérbole é chamada de *hipérbole equilátera*.
 
 ## Equações reduzidas
 
