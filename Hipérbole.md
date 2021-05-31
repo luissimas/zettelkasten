@@ -60,7 +60,19 @@ Dado um ponto $P(x,y)$ de uma hipérbole de focos $F_1(0,-c)$  e $F_1(0,c)$. Des
 >$$
 
 ### Observações
-As assíntotas $r$ e $s$ são retas que passam pelo centro da hipérbole,
+As assíntotas $r$ e $s$ são retas que passam pelo centro da hipérbole, portanto suas equações são do tipo $y = mx$, sendo $m$ a *declividade*. A *declividade* é determinada através de uma relação entre $a$ e $b$, que depende da forma da equação:
+
+- O *eixo real* está sobre o eixo dos $x$:
+
+>$$
+  m = \pm \frac{b}{a}
+>$$
+
+- O *eixo real* está sobre o eixo dos $y$:
+
+>$$
+  m = \pm \frac{a}{b}
+>$$
 
 ## Translação de eixos
 
