@@ -102,7 +102,45 @@ Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduz
 > com $a$ e $b$ de sinais contrários.
 
 ## Equações paramétricas
-Dada uma hipérbole de equação $$
+Dado um ponto $P(x,y)$ qualquer da hipérbole, temos dois casos para suas equações paramétricas:
+
+- O *eixo real* é paralelo ao eixo dos $x$:
+
+>$$
+\begin{cases}
+  x = a\sec{\theta}\\
+  y = b\tan{\theta}
+\end{cases}
+>$$
+
+- O *eixo real* é paralelo ao eixo dos $y$:
+
+>$$
+\begin{cases}
+  x = b\tan{\theta}\\
+  y = a\sec{\theta}
+\end{cases}
+>$$
+
+Quando o centro da hipérbole for $C(h,k)$, aplicando a translação de eixos, as equações paramétricas para cada caso são;
+
+- O *eixo real* é paralelo ao eixo dos $x$:
+
+>$$
+\begin{cases}
+  x = h + a\sec{\theta}\\
+  y = k + b\tan{\theta}
+\end{cases}
+>$$
+
+- O *eixo real* é paralelo ao eixo dos $y$:
+
+>$$
+\begin{cases}
+  x = h + b\tan{\theta}\\
+  y = k + a\sec{\theta}
+\end{cases}
+>$$
 
 ---
 
