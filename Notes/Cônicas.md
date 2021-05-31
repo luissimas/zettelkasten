@@ -25,6 +25,15 @@ Note que se os planos secantes passarem pelo vértice $O$, serão obtidas as cha
 
 ![[tiposconicasdegeneradas.png]]
 
+## Equação geral
+De maneira geral, uma **cônica** pode ser expressa por uma *equação geral* no seguinte formato:
+
+>$$
+  Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
+>$$
+
+Dessa forma, é possível definir uma cônica com cinco pontos no plano, ou seja, por qualquer conjunto de cinco pontos do plano sempre passa uma única curva cônica.
+
 ---
 
 created: 18/05/2021
