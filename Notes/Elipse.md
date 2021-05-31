@@ -10,7 +10,7 @@ Dados dois pontos distintos $F_1$ e $F_2$, tal que a distância $d(F_1, F_2) = 2
 
 ## Elementos
 
-![[elementoselipse.png]]
+![[elementoshiperbole.png]]
 
 Com base na figura, uma elipse é composta pelos seguintes elementos:
 
@@ -21,7 +21,7 @@ Com base na figura, uma elipse é composta pelos seguintes elementos:
 - **Eixo menor**: é o segmento $B_1B_2$ de comprimento $2b$ e perpendicular a $A_1A_2$ no seu ponto médio.
 - **Vértices**: são os pontos $A_1$, $A_2$, $B_1$ e $B_2$.
 
-Pela figura, vê-se que é possível relacionar os $a$, $b$ e $c$ através da seguinte equação:
+Pela figura, vê-se que é possível relacionar $a$, $b$ e $c$ através da seguinte equação:
 >$$
   a^2 = b^2 + c^2
 >$$
