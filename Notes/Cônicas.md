@@ -49,7 +49,7 @@ $$
 Em seguida, pode-se [[Resolução de sistemas lineares por escalonamento|resolver]] o sistema utilizando [[Métodos de escalonamento#Método de Gauss-Jordan|Gauss-Jordan]]. A solução desse sistema terá um dos parâmetros livres, então basta fixar um valor para esse parâmetro para obter-se uma equação geral da cônica determinada pelos 5 pontos.
 
 ## Equação reduzida
-
+Dada a equação geral de uma cônica, podemos aplicar [[Rotação de eixos|rotação]] e [[Translação de eixos|translação]] de eixos no sistema cartesiano com o objetivo de simplificar essa equação.
 
 ---
 
