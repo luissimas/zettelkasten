@@ -30,6 +30,39 @@ Da mesma forma:
 \end{cases}
 >$$
 
+Na notação matricial, temos:
+
+>$$
+\begin{bmatrix}
+  x\\
+  y
+\end{bmatrix} =
+\begin{bmatrix}
+  \cos{\theta} & -\sin{\theta}\\
+  \sin{\theta} & \cos{\theta}\\
+\end{bmatrix} =
+\begin{bmatrix}
+  x'\\
+  y'
+\end{bmatrix}
+>$$
+
+e
+
+>$$
+\begin{bmatrix}
+  x'\\
+  y'
+\end{bmatrix} =
+\begin{bmatrix}
+  \cos{\theta} & \sin{\theta}\\
+  -\sin{\theta} & \cos{\theta}\\
+\end{bmatrix} =
+\begin{bmatrix}
+  x\\
+  y
+\end{bmatrix}
+>$$
 
 ---
 
