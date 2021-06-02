@@ -67,6 +67,16 @@ Aplica-se a [[Rotação de eixos|rotação]] com o objetivo de eliminar o termo 
 \end{cases}
 >$$
 
+Para auxiliar nos cálculos, já existem algumas relações a serem utilizadas:
+>$$
+  \sin{2\theta} = \frac{|B|}{H} \qquad\qquad \cos{2\theta} = \text{sign}\left( \frac{A-C}{B} \right) \frac{|A - C|}{H}
+>$$
+>com
+>$$
+  H = \sqrt{B^2 + (A-C)^2}
+>$$
+
+
 
 
 ---
