@@ -67,6 +67,8 @@ Aplica-se a [[Rotação de eixos|rotação]] com o objetivo de eliminar o termo 
 \end{cases}
 >$$
 
+O objetivo aqui é eliminar o termo misto da equação geral, portanto precisamos obter um ângulo de rotação $\theta$ que possibilite $B' = 0$. Após obter $B' = 0$, devemos recalcular todos os coeficientes da equação com o ângulo de rotação adotado.
+
 Para auxiliar nos cálculos, já existem algumas relações a serem utilizadas:
 >$$
   \sin{2\theta} = \frac{|B|}{H} \qquad\qquad \cos{2\theta} = \text{sign}\left( \frac{A-C}{B} \right) \frac{|A - C|}{H}
