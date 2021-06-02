@@ -50,6 +50,24 @@ Em seguida, pode-se [[Resolução de sistemas lineares por escalonamento|resolve
 
 ## Equação reduzida
 Dada a equação geral de uma cônica, podemos aplicar [[Rotação de eixos|rotação]] e [[Translação de eixos|translação]] de eixos no sistema cartesiano com o objetivo de simplificar essa equação.
+Aplica-se a [[Rotação de eixos|rotação]] com o objetivo de eliminar o termo misto $xy$. Após a rotação, a equação geral se transforma numa equação da seguinte forma:
+
+>$$
+  A'x'^2 + B'x'y' + C'y'^2 + D'x' + E'y' + F' = 0
+>$$
+>onde:
+>$$
+\begin{cases}
+  A' = A\cos^2{\theta} + B\sin{\theta}\cos{\theta} + C\sin^2{\theta}\\
+  B' = (C - A)\sin{2\theta} + B\cos{2\theta}\\
+  C' = A\sin^2{\theta} - B\sin{\theta}\cos{\theta} + C\cos^2{\theta}\\
+  D' = D\cos{\theta + E\sin{\theta}}\\
+  E' = E\cos{\theta - D\sin{\theta}}\\
+  F' = F\\
+\end{cases}
+>$$
+
+
 
 ---
 
