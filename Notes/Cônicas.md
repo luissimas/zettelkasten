@@ -76,8 +76,10 @@ Para auxiliar nos cálculos, já existem algumas relações a serem utilizadas:
   H = \sqrt{B^2 + (A-C)^2}
 >$$
 
-
-
+A partir disso podemos obter os outros elementos usando as seguintes relações fundamentais:
+>$$
+  \cos{2\theta} = 2 \cos^2{\theta} - 1 \qquad\qquad \sin^2{\theta} + \cos^2{\theta} = 1
+>$$
 
 ---
 
