@@ -110,8 +110,25 @@ M =
 \end{bmatrix}
 >$$
 
-E também um valor discriminante
+E também um valor discriminante:
+>$$
+  \Delta = B^2 - 4AC = -\frac{1}{4}\det{(Q)}
+>$$
 
+A partir dos valores de $\Delta$ e $\det{(M)}$ é possível **classificar** qualquer cônica dados apenas seus parâmetros, sem a necessidade de fazer rotações e translações para obter sua forma reduzida:
+
+> Se $\Delta < 0$, então a cônica é uma [[Elipse|elipse]] ou suas degenerações, sendo:
+> - uma **elipse**, se $\Delta < 0$ e $\det{(M)} < 0$
+> - um **ponto**, se $\Delta < 0$ e $\det{(M)} = 0$
+> - um **conjunto vazio**, se $\Delta < 0$ e $\det{(M)} > 0$
+
+> Se $\Delta > 0$, então a cônica é uma [[Hipérbole|hipérbole]] ou suas degenerações, sendo:
+> - uma **hipérbole**, se $\Delta > 0$ e $\det{(M)} \neq 0$
+> - **duas retas concorrentes**, se $\Delta > 0$ e $\det{(M)} = 0$
+
+> Se $\Delta = 0$, então a cônica é uma [[Parábola|parábola]] ou suas degenerações, sendo:
+> - uma parábola, se $\Delta = 0$ e $\det{(M)} \neq 0$
+> - uma única reta ou duas retas paralelas, se $\Delta = 0$ e $\det{(M)} = 0$
 
 ---
 
