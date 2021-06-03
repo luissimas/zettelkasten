@@ -10,7 +10,7 @@ Dados dois pontos distintos $F_1$ e $F_2$, tal que a distância $d(F_1, F_2) = 2
 
 ## Elementos
 
-![[elementoshiperbole.png]]
+![[elementoselipse.png]]
 
 Com base na figura, uma elipse é composta pelos seguintes elementos:
 
