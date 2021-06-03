@@ -16,6 +16,17 @@ Para efetivamente traduzir os endereços, utiliza-se uma *tabela de páginas*, q
 
 ![[memoriavirtualtabeladepaginas.png]]
 
+Veja que nesse processo de tradução as páginas sempre são acessadas através da memória principal, e isso pode comprometer o desempenho geral do sistema. Para otimizar o processo de tradução de endereços, é implementada uma [[Memória cache|memória cache]], chamada de *Translation Lookup Buffer (TLB)*, para armazenar exclusivamente os ponteiros para as tabelas de páginas. Com a introdução dessa nova memória cache, é necessária a implementação de novas políticas para gerenciar o seu acesso:
+
+## Processo
+Intuitivamente, um processo é um programa sendo executado. Mais especificamente, um processo é o **estado de um programa em execução**. Esse estado é composto por:
+
+- O valor do registrador [[Computador Elementar|PC]].
+- O valor dos registradores da CPU.
+- A tabela de páginas.
+
+O *SO* manipula o estado de um programa tanto salvando quanto restaurando esse estado.
+
 ---
 
 created: 03/06/2021
