@@ -127,8 +127,8 @@ A partir dos valores de $\Delta$ e $\det{(M)}$ é possível **classificar** qual
 > - **duas retas concorrentes**, se $\Delta > 0$ e $\det{(M)} = 0$
 
 > Se $\Delta = 0$, então a cônica é uma [[Parábola|parábola]] ou suas degenerações, sendo:
-> - uma parábola, se $\Delta = 0$ e $\det{(M)} \neq 0$
-> - uma única reta ou duas retas paralelas, se $\Delta = 0$ e $\det{(M)} = 0$
+> - uma **parábola**, se $\Delta = 0$ e $\det{(M)} \neq 0$
+> - uma **única reta** ou **duas retas paralelas**, se $\Delta = 0$ e $\det{(M)} = 0$
 
 ---
 
