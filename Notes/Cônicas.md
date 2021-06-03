@@ -85,6 +85,34 @@ A partir disso podemos obter os outros elementos usando as seguintes relações 
 
 Após a rotação de eixos, aplica-se, se necessária, uma [[Translação de eixos|translação]] de eixos **completando os quadrados** da expressão, com o objetivo de eliminar os termos lineares. Após esse processo, obtém-se uma equação reduzida da cônica que possibilitará a sua identificação.
 
+## Invariantes
+Existem alguns elementos associados às cônicas que não se alteram independente de rotações ou translações, portanto eles nos permitem identificar características das cônicas com base apenas nos valores dos seus parâmetros.
+Dada uma cônica de equação geral:
+
+>$$
+  Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
+>$$
+
+Temos duas matrizes associadas à ela:
+
+>$$
+Q =
+\begin{bmatrix}
+  A & \frac{B}{2}\\
+  \frac{B}{2} & C
+\end{bmatrix}
+\qquad\qquad
+M =
+\begin{bmatrix}
+  A & \frac{B}{2} & \frac{D}{2}\\
+  \frac{B}{2} & C & \frac{E}{2}\\
+  \frac{D}{2} & \frac{E}{2} & F
+\end{bmatrix}
+>$$
+
+E também um valor discriminante
+
+
 ---
 
 created: 18/05/2021
