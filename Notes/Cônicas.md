@@ -133,3 +133,4 @@ A partir dos valores de $\Delta$ e $\det{(M)}$ é possível **classificar** qual
 ---
 
 created: 18/05/2021
+a
