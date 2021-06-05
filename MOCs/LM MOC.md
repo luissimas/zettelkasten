@@ -11,6 +11,7 @@ Na primeira parte do curso fomos introduzidos à [[Lógica proposicional|lógica
 [[Técnicas dedutivas]]
 
 ## Lógica de predicados
+Nessa parte do curso estudamos a [[Lógica de predicados|lógica de predicados]], uma forma mais complexa e poderosa de representação.
 
 ---
 
