@@ -48,7 +48,23 @@ em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido e $p(x_1,\dots,x_n|
 
 ### Distribuições amostrais
 Dada uma estatística $T(X_1, \dots, X_n)$, chamamos a distribuição dessa estatística de *distribuição amostral*, ou seja, a *distribuição amostral* é a distribuição dos valores que a estatística assume para todas as possíveis amostras. Essa distribuição depende da distribuição da população, do tamanho da amostra e do método de seleção da amostra, isso faz com que seja muito difícil obter a distribuição exata das estatísticas, por essa razão trabalhamos com *distribuições aproximadas*.
-As seguintes relações envolvendo a
+As seguintes relações são muito úteis, pois nos permitem relacionar a [[Esperança e variância de variáveis aleatórias|esperança e variância]] das variáveis com a esperança e variância amostrais.
+
+> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$  associado a um experimento aleatório, se $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias **independentes** definidas sobre $(\Omega, \mathcal{F}, P)$, então as seguintes afirmações são verdadeiras:
+>$$
+\begin{aligned}
+  &\text{(i)}\quad E\left(a\sum_{i=1}^{n}{X_i}+b\right) = a \sum_{i=1}^{n}{E(X_i)}+b \qquad \text{e}\qquad E\left(\prod_{i=1}^{n}{X_1}\right) = \prod_{i=1}^{n}{E(X_i)}\\\\
+  &\text{(ii)}\quad Var\left(a \sum_{i=1}^{n}{X_1}+b\right) = a^2 \sum_{i=1}^{n}{Var(X_i)}
+\end{aligned}
+>$$
+
+#### Distribuição da média amostral
+> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Se $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $E(X) = \mu$ e $Var(X) = \sigma^2$, então
+>$$
+  E(\bar{X}) = \mu \qquad \text{e} \qquad Var(\bar{X}) = \frac{\sigma^2}{n}
+>$$
+> em que $\bar{X}$ é a **média amostral**.
+
 
 ---
 
