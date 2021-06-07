@@ -26,7 +26,7 @@ As distribuições conjuntas descrevem a distribuição de um vetor composto por
   0, \qquad\text{caso contrário}
   \end{cases}
 >$$
->e quando $X$ é uma variável aleatória contínua $f(x_1,\dots,x_n|\theta)$ é tal que
+>e quando $X$ é uma [[Variáveis aleatórias contínuas|variável aleatória contínua]] $f(x_1,\dots,x_n|\theta)$ é tal que
 >$$
   P(a_1 \leq X_1 \leq b_1, \dots, a_n \leq X_n \leq b_n) =
   \int_{a_1}^{b_1}{\dots \int_{a_n}^{b_n}{f(x_1,\dots,x_n|\theta)}\,dx_n}\dots\,dx_1
