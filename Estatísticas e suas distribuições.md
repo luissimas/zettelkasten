@@ -58,13 +58,15 @@ As seguintes relações são muito úteis, pois nos permitem relacionar a [[Espe
 \end{aligned}
 >$$
 
-#### Distribuição da média amostral
+Com essas relações, podemos determinar a esperança e variância da média amostral $\bar{X}$ a partir da esperança e variância de $X$.
+
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Se $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $E(X) = \mu$ e $Var(X) = \sigma^2$, então
 >$$
   E(\bar{X}) = \mu \qquad \text{e} \qquad Var(\bar{X}) = \frac{\sigma^2}{n}
 >$$
 > em que $\bar{X}$ é a **média amostral**.
 
+Apesar disso, não sabemos de fato qual é a distribuição amostral de $\bar{X}$
 
 ---
 
