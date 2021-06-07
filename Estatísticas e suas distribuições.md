@@ -69,6 +69,7 @@ Com essas relações, podemos determinar a esperança e variância de diversas e
 
 Apesar disso, **não** sabemos de fato qual é a distribuição amostral **exata** de $\bar{X}$, e nunca saberemos. Entretanto, podemos encontrar a distribuição **aproximada** através do *Teorema do Limite Central (T.L.C.)*, que nos permite aproximar a distribuição da média amostral a uma [[Variáveis aleatórias contínuas#Distribuição normal|distribuição normal]].
 
+> ***Teorema do limite central***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Se $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $E(X) = \mu$ e $Var(X) = \sigma^2$, então
 >$$
   \bar{X} \simeq Normal\left(\mu,\frac{\sigma^2}{n}\right)
@@ -87,6 +88,17 @@ Note que essa aproximação depende do tamanho da amostra $n$. Em geral, para $n
 Vale destacar que quando $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória de uma variável aleatória com distribuição normal, então o *T.L.C.* é válido para qualquer $n$, ou seja, se $X$ tem distribuição normal, então $\bar{X}$ tem distribuição *exata* normal.
 
 ### Proporção amostral
+Podemos utilizar o *T.L.C.* para aproximar também a distribuição da proporção amostral $\hat{p}$ pela [[Variáveis aleatórias contínuas#Distribuição normal|distribuição normal]]. Nesse caso temos:
+
+>$$
+  E(\hat{p}) = p \qquad \text{e} \qquad Var(\hat{p}) = \frac{p(1-p)}{n}
+>$$
+
+Portanto, para $n$ suficientemente grande, a distribuição *aproximada* de $\hat{p}$ é:
+
+>$$
+  \hat{p} \simeq Normal\left(p, \frac{p(1-p)}{n}\right)
+>$$
 
 ---
 
