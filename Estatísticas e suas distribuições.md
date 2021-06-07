@@ -66,7 +66,7 @@ Com essas relações, podemos determinar a esperança e variância da média amo
 >$$
 > em que $\bar{X}$ é a **média amostral**.
 
-Apesar disso, não sabemos de fato qual é a distribuição amostral de $\bar{X}$
+Apesar disso, não sabemos de fato qual é a distribuição amostral de $\bar{X}$. Como dito anteriormente, são raras as situações em que é possível encontrar a distribuição amostral exata de uma estatística, apesar disso podemos encontrar distribuições aproximadas.
 
 ---
 
