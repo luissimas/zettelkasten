@@ -49,7 +49,7 @@ Nessa unidade expandimos os conceitos e cônicas para o sistema tridimensional.
 [[Superfícies quádricas]]
 [[Superfícies de revolução]]
 [[Elipsoides]]
-[[Hiperboloides]]
+[[Hiperboloides 1]]
 [[Paraboloides]]
 [[Superfícies cônicas]]
 [[Superfícies cilíndricas]]
