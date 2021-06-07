@@ -5,7 +5,7 @@ O objetivo da inferência estatística é justamente obter conclusões sobre car
 - *[[Estimação de parâmetros]]*: buscar, segundo algum critério, valores que representem adequadamente os parâmetros desconhecidos de uma distribuição de probabilidade com base em uma amostra de observações.
 - *[[Teste de hipóteses]]*: utilizar a amostra de observações da distribuição de probabilidade para verificar a validade de afirmações sobre valores dos parâmetros desconhecidos.
 
-[[Estatísticas e suas distribuições]]
+Ambas as área se baseiam nas [[Estatísticas e suas distribuições|estatísticas e suas distribuições]], sendo essa a base para toda a inferência estatística.
 
 ---
 

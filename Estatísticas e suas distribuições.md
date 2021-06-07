@@ -3,6 +3,8 @@ Uma estatística é um **valor** ou conjunto de valores observáveis que resume 
 
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ que representa uma característica observável associada a uma população $\mathcal{P}$ de indivíduos ou objetos. Uma **estatística** é **qualquer** função $T(X_1,\dots,X_n)$ da amostra que **não depende de parâmetros desconhecidos** da distribuição de $X$.
 
+Note que uma uma estatística **não depende de parâmetros populacionais desconhecidos**. Isso significa que podemos, através das estatísticas, utilizar valores conhecidos das amostras para obter estimações dos parâmetros desconhecidos da população.
+
 Alguns exemplos de estatísticas:
 
 > - Média amostral: $\bar{X} := \frac{1}{n}\sum_{i=1}^{n}{X_1}$
@@ -10,6 +12,8 @@ Alguns exemplos de estatísticas:
 > - Menor valor da amostra: $X_{(1)} := \min{(X_1,\dots,X_n)}$
 > - Maior valor da amostra: $X_{(n)} := \max{(X_1,\dots,X_n)}$
 > - Amplitude amostral: $W := X_{(n)} - X_{(1)}$
+
+Note que todos esses exemplos são **funções** da amostra. Sendo assim, dadas amostras diferentes, as estatísticas podem assumir valores diferentes.
 
 ### Distribuições conjuntas
 As distribuições conjuntas descrevem a distribuição de um vetor composto por $n$ variáveis aleatórias.
