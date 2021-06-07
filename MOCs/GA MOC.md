@@ -44,8 +44,15 @@ Nessa unidade foram introduzidas as curvas cônicas e suas diversas variantes.
 [[Hipérbole]]
 
 ## Unidade 5
+Nessa unidade expandimos os conceitos e cônicas para o sistema tridimensional.
 
-
+[[Superfícies quádricas]]
+[[Superfícies de revolução]]
+[[Elipsoides]]
+[[Hiperboloides]]
+[[Paraboloides]]
+[[Superfícies cônicas]]
+[[Superfícies cilíndricas]]
 
 ---
 
