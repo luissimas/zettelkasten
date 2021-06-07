@@ -47,6 +47,8 @@ em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido e $p(x_1,\dots,x_n|
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. Dizemos que $(X_1, X_2, \dots, X_n)$ é uma **amostra aleatória** da variável aleatória $X$ quando $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias independentes e com a mesma distribuição $p(x|\theta)$ (ou $f(x|\theta)$) da variável aleatória $X$.
 
 ### Distribuições amostrais
+Dada uma estatística $T(X_1, \dots, X_n)$, chamamos a distribuição dessa estatística de *distribuição amostral*, ou seja, a *distribuição amostral* é a distribuição dos valores que a estatística assume para todas as possíveis amostras. Essa distribuição depende da distribuição da população, do tamanho da amostra e do método de seleção da amostra, isso faz com que seja muito difícil obter a distribuição exata das estatísticas, por essa razão trabalhamos com *distribuições aproximadas*.
+As seguintes relações envolvendo a
 
 ---
 
