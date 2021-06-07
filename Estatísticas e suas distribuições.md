@@ -15,7 +15,7 @@ Alguns exemplos de estatísticas:
 
 Note que todos esses exemplos são **funções** da amostra. Sendo assim, dadas amostras diferentes, as estatísticas podem assumir valores diferentes.
 
-### Distribuições conjuntas
+## Distribuições conjuntas
 As distribuições conjuntas descrevem a distribuição de um vetor composto por $n$ variáveis aleatórias.
 
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. A **distribuição conjunta de probabilidade** do vetor $(X_1, X_2, \dots, X_n)$ é uma função $p : \mathbb{R}^n \rightarrow [0,1]$ (ou $f : \mathbb{R}^n \rightarrow [0,+\infty]$) tal que quando $X$ é uma [[Variáveis aleatórias discretas|variável aleatória discreta]]
@@ -46,8 +46,8 @@ em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido e $p(x_1,\dots,x_n|
 
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. Dizemos que $(X_1, X_2, \dots, X_n)$ é uma **amostra aleatória** da variável aleatória $X$ quando $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias independentes e com a mesma distribuição $p(x|\theta)$ (ou $f(x|\theta)$) da variável aleatória $X$.
 
-### Distribuições amostrais
-Dada uma estatística $T(X_1, \dots, X_n)$, chamamos a distribuição dessa estatística de *distribuição amostral*, ou seja, a *distribuição amostral* é a distribuição dos valores que a estatística assume para todas as possíveis amostras. Essa distribuição depende da distribuição da população, do tamanho da amostra e do método de seleção da amostra, isso faz com que seja muito difícil obter a distribuição exata das estatísticas, por essa razão trabalhamos com *distribuições aproximadas*.
+## Distribuições amostrais
+Dada uma estatística $T(X_1, \dots, X_n)$, chamamos a distribuição dessa estatística de *distribuição amostral*, ou seja, a *distribuição amostral* é a distribuição dos valores que a estatística assume para todas as possíveis amostras. Essa distribuição depende da distribuição da população, do tamanho da amostra e do método de seleção da amostra, isso faz com que seja muito difícil obter a distribuição exata das estatísticas, por essa razão trabalhamos com **distribuições aproximadas**.
 As seguintes relações são muito úteis, pois nos permitem relacionar a [[Esperança e variância de variáveis aleatórias|esperança e variância]] das variáveis com a esperança e variância amostrais.
 
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$  associado a um experimento aleatório, se $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias **independentes** definidas sobre $(\Omega, \mathcal{F}, P)$, então as seguintes afirmações são verdadeiras:
@@ -58,15 +58,35 @@ As seguintes relações são muito úteis, pois nos permitem relacionar a [[Espe
 \end{aligned}
 >$$
 
-Com essas relações, podemos determinar a esperança e variância da média amostral $\bar{X}$ a partir da esperança e variância de $X$.
+Com essas relações, podemos determinar a esperança e variância de diversas estatísticas a partir da esperança e variância de $X$.
 
+### Média amostral
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Se $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $E(X) = \mu$ e $Var(X) = \sigma^2$, então
 >$$
   E(\bar{X}) = \mu \qquad \text{e} \qquad Var(\bar{X}) = \frac{\sigma^2}{n}
 >$$
 > em que $\bar{X}$ é a **média amostral**.
 
-Apesar disso, não sabemos de fato qual é a distribuição amostral de $\bar{X}$. Como dito anteriormente, são raras as situações em que é possível encontrar a distribuição amostral exata de uma estatística, apesar disso podemos encontrar distribuições aproximadas.
+Apesar disso, **não** sabemos de fato qual é a distribuição amostral **exata** de $\bar{X}$, e nunca saberemos. Entretanto, podemos encontrar a distribuição **aproximada** através do *Teorema do Limite Central (T.L.C.)*, que nos permite aproximar a distribuição da média amostral a uma [[Variáveis aleatórias contínuas#Distribuição normal|distribuição normal]].
+
+> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Se $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $E(X) = \mu$ e $Var(X) = \sigma^2$, então
+>$$
+  \bar{X} \simeq Normal\left(\mu,\frac{\sigma^2}{n}\right)
+>$$
+> quando $n \rightarrow +\infty$
+
+Podemos ainda *normalizar* o intervalo, obtendo:
+
+> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Se $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $E(X) = \mu$ e $Var(X) = \sigma^2$, então
+>$$
+  \frac{\bar{X} - \mu}{\sigma/\sqrt{n}} \simeq Normal(0,1)
+>$$
+> quando $n \rightarrow +\infty$
+
+Note que essa aproximação depende do tamanho da amostra $n$. Em geral, para $n \geq 30$ essa aproximação é válida se a distribuição da população não for muito diferente da normal.
+Vale destacar que quando $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória de uma variável aleatória com distribuição normal, então o *T.L.C.* é válido para qualquer $n$, ou seja, se $X$ tem distribuição normal, então $\bar{X}$ tem distribuição *exata* normal.
+
+### Proporção amostral
 
 ---
 
