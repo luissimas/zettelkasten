@@ -51,6 +51,7 @@ em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido e $p(x_1,\dots,x_n|
 
 ## Distribuições amostrais
 Dada uma estatística $T(X_1, \dots, X_n)$, chamamos a distribuição dessa estatística de *distribuição amostral*, ou seja, a *distribuição amostral* é a distribuição dos valores que a estatística assume para todas as possíveis amostras. Essa distribuição depende da distribuição da população, do tamanho da amostra e do método de seleção da amostra, isso faz com que seja muito difícil obter a distribuição exata das estatísticas, por essa razão trabalhamos com **distribuições aproximadas**.
+
 As seguintes relações são muito úteis, pois nos permitem relacionar a [[Esperança e variância de variáveis aleatórias|esperança e variância]] das variáveis com a esperança e variância amostrais.
 
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$  associado a um experimento aleatório, se $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias **independentes** definidas sobre $(\Omega, \mathcal{F}, P)$, então as seguintes afirmações são verdadeiras:
@@ -88,6 +89,7 @@ Podemos ainda *normalizar* o intervalo, obtendo:
 > quando $n \rightarrow +\infty$
 
 Note que essa aproximação depende do tamanho da amostra $n$. Em geral, para $n \geq 30$ essa aproximação é válida se a distribuição da população não for muito diferente da normal.
+
 Vale destacar que quando $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória de uma variável aleatória com distribuição normal, então o *T.L.C.* é válido para qualquer $n$, ou seja, se $X$ tem distribuição normal, então $\bar{X}$ tem distribuição *exata* normal.
 
 ### Proporção amostral
