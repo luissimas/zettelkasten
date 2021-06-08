@@ -53,7 +53,7 @@ Saber comparar estimadores só é útil quando já temos dois estimadores defini
 >$$
 > no caso em que $X$ é uma variável aleatória contínua.
 > - Suponha que o argumento que maximiza a função de verossimilhança $L(\theta|x_1,\dots,x_n)$ existe e é igual a $\hat{\theta} = T(x_1,\dots,x_n) \in \Theta$, para cada amostra $(x_1, x_2, \dots, x_n)$ que pode ser observada a partir de $(X_1, X_2, \dots, X_n)$. A estatística $\hat{\theta} = T(X_1,\dots,X_n)$ é chamada de **estimador de máxima verossimilhança** para $\theta$.
-
+> - Observada a amostra $(x_1, x_2, \dots, x_n)$ de $(X_1, X_2, \dots, X_n)$ e sendo $\hat{\theta}$ um estimador de máxima verossimilhança para $\theta$, então $\hat{\theta} = T(x_1,\dots,x_n)$ é uma **estimativa de máxima verossimilhança** para $\theta$.
 
 ---
 
