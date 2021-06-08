@@ -12,6 +12,31 @@ Os intervalos de confiança são obtidos a partir da [[Estatísticas e suas dist
 Note que, para obter um intervalo de confiança, é necessário obter um estimador e sua distribuição. É natural então que bons estimadores produzam bons intervalos, e de fato produzem. Portanto, buscaremos sempre utilizar os [[Estimação pontual#Estimadores de máxima verossimilhança|estimadores de máxima verossimilhança]] para construir bons intervalos de confiança.
 
 ## Intervalos de confiança para a proporção populacional
+Seja $p \in ]0,1[$ a proporção (desconhecida) de indivíduos ou objetos de uma certa população $\mathcal{P}$ que são portadores de uma determinada característica $X$. Dada uma amostra $(X_1, X_2, \dots, X_n)$ da variável aleatória $X$, obtida a partir dessa população, o estimador de máxima verossimilhança de $p$ é a proporção amostral
+
+$$
+  \hat{p} := \frac{1}{n} \sum_{i=1}^{n}{X_i}
+$$
+
+Para $n$ suficientemente grande, segue pelo *Teorema Central do Limite* que
+
+$$
+  \hat{p} \simeq Normal(p, \frac{p(1-p)}{n})
+$$
+
+Normalizando a distribuição, temos
+
+$$
+  \frac{\hat{p} - p}{\sqrt{\frac{p(1-p)}{n}}} \simeq Normal(0,1)
+$$
+
+Dessa forma, para um coeficiente de confiança $\gamma \in ]0,1[$, temos
+
+$$
+  P\left(\hat{p} - z\sqrt{\frac{p(1-p)}{n}} \leq p \leq \hat{p} + z\sqrt{\frac{p(1-p)}{n}}\right)
+$$
+
+A partir disso, podemos construir um
 
 ## Intervalos de confiança para a média populacional
 
