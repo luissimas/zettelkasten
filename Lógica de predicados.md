@@ -1,5 +1,5 @@
 # Lógica de predicados
-
+A lógica de predicados é uma generalização
 
 Como qualquer outra linguagem, a lógica de predicados é composta por [[Sintaxe da lógica de predicados|sintaxe]] e [[Semântica da lógica de predicados|semântica]].
 

@@ -3,8 +3,9 @@ A lógica busca formalizar matematicamente o raciocínio, eliminando ambiguidade
 
 ## Lógica proposicional
 Na primeira parte do curso fomos introduzidos à [[Lógica proposicional|lógica proposicional]], tratando de diversos tópicos que a compõe:
-[[Semântica da lógica proposicional]]
+
 [[Sintaxe da lógica proposicional]]
+[[Semântica da lógica proposicional]]
 [[Consequência e equivalência lógica]]
 [[Álgebra da lógica proposicional]]
 [[Cálculo proposicional]]
@@ -12,6 +13,9 @@ Na primeira parte do curso fomos introduzidos à [[Lógica proposicional|lógica
 
 ## Lógica de predicados
 Nessa parte do curso estudamos a [[Lógica de predicados|lógica de predicados]], uma forma mais complexa e poderosa de representação.
+
+[[Sintaxe da lógica de predicados]]
+[[Semântica da lógica de predicados]]
 
 ---
 
