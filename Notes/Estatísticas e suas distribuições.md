@@ -1,6 +1,7 @@
 # Estatísticas e suas distribuições
 Uma estatística é um **valor** ou conjunto de valores observáveis que resume a característica $X$ na amostra. As estatísticas serão utilizadas para realizar a inferência sobre os parâmetros desconhecidos da população.
 
+> ***Estatística***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ que representa uma característica observável associada a uma população $\mathcal{P}$ de indivíduos ou objetos. Uma **estatística** é **qualquer** função $T(X_1,\dots,X_n)$ da amostra que **não depende de parâmetros desconhecidos** da distribuição de $X$.
 
 Note que uma uma estatística **não depende de parâmetros populacionais desconhecidos**. Isso significa que podemos, através das estatísticas, utilizar valores conhecidos das amostras para obter estimações dos parâmetros desconhecidos da população.
@@ -18,6 +19,7 @@ Note que todos esses exemplos são **funções** da amostra. Sendo assim, dadas 
 ## Distribuições conjuntas
 As distribuições conjuntas descrevem a distribuição de um vetor composto por $n$ variáveis aleatórias.
 
+> ***Distribuição conjunta***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. A **distribuição conjunta de probabilidade** do vetor $(X_1, X_2, \dots, X_n)$ é uma função $p : \mathbb{R}^n \rightarrow [0,1]$ (ou $f : \mathbb{R}^n \rightarrow [0,+\infty]$) tal que quando $X$ é uma [[Variáveis aleatórias discretas|variável aleatória discreta]]
 >$$
   p(x_1,\dots,x_n|\theta) =
@@ -44,6 +46,7 @@ $$
 $$
 em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido e $p(x_1,\dots,x_n|\theta)$ ou $f(x_1,\dots,x_n|\theta)$ é a função de distribuição conjunta de probabilidade do vetor $(X_1,\dots,X_n)$
 
+> ***Amostra aleatória***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. Dizemos que $(X_1, X_2, \dots, X_n)$ é uma **amostra aleatória** da variável aleatória $X$ quando $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias independentes e com a mesma distribuição $p(x|\theta)$ (ou $f(x|\theta)$) da variável aleatória $X$.
 
 ## Distribuições amostrais
