@@ -11,6 +11,10 @@ Os intervalos de confiança são obtidos a partir da [[Estatísticas e suas dist
 
 Note que, para obter um intervalo de confiança, é necessário obter um estimador e sua distribuição. É natural então que bons estimadores produzam bons intervalos, e de fato produzem. Portanto, buscaremos sempre utilizar os [[Estimação pontual#Estimadores de máxima verossimilhança|estimadores de máxima verossimilhança]] para construir bons intervalos de confiança.
 
+## Intervalos de confiança para a proporção populacional
+
+## Intervalos de confiança para a média populacional
+
 ---
 
 created: 08/06/2021
