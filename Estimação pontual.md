@@ -39,6 +39,21 @@ Com essas definições, podemos então comparar dois estimadores diferentes e ve
 > para todo $\theta \in \Theta$.
 
 ## Estimadores de máxima verossimilhança
+Saber comparar estimadores só é útil quando já temos dois estimadores definidos e queremos saber qual deles é melhor. Mas muitas vezes é necessário obter os estimadores, e mais, obter *bons estimadores*. O *método da máxima verossimilhança* nos permite derivar bons estimadores pontuais com boas propriedades, tendo como base apenas a amostra e sua [[Estatísticas e suas distribuições#Distribuições amostrais|distribuição]].
+
+> ***Função, estimador e estimativa de máxima verossimilhança***
+> Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Seja $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta$ é um parâmetro desconhecido.
+> - Observada a amostra $(x_1, x_2, \dots, x_n)$ de $(X_1, X_2, \dots, X_n)$, a **função de verossimilhança** é a função $L(\cdot|x_1,\dots,x_n) : \Theta \rightarrow \mathbb{R}_+$ tal que
+>$$
+  L(\theta|x_1,\dots,x_n) = p(x_1,\dots,x_n|\theta) = \prod_{i=1}^{n}{p(x_i|\theta)}
+>$$
+> no caso em que $X$ é uma variável aleatória discreta e
+>$$
+  L(\theta|x_1,\dots,x_n) = f(x_1,\dots,x_n|\theta) = \prod_{i=1}^{n}{f(x_i|\theta)}
+>$$
+> no caso em que $X$ é uma variável aleatória contínua.
+> - Suponha que o argumento que maximiza a função de verossimilhança $L(\theta|x_1,\dots,x_n)$ existe e é igual a $\hat{\theta} = T(x_1,\dots,x_n) \in \Theta$, para cada amostra $(x_1, x_2, \dots, x_n)$ que pode ser observada a partir de $(X_1, X_2, \dots, X_n)$. A estatística $\hat{\theta} = T(X_1,\dots,X_n)$ é chamada de **estimador de máxima verossimilhança** para $\theta$.
+
 
 ---
 

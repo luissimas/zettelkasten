@@ -7,7 +7,6 @@ O primeiro passo para a estimação de parâmetros é definir onde "mora" o par�
 > ***Espaço paramétrico***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, e $X : \Omega \rightarrow \mathbb{R}$ uma variável aleatória que representa uma característica observável associada a uma população $\mathcal{P}$ de indivíduos ou objetos. Suponha que $X$ tenha função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta$ é um parâmetro desconhecido. O conjunto $\Theta$, $\Theta \subset {R}$, em que $\theta$ toma valores é chamado de **espaço paramétrico**.
 
-
 Dentro dessa área temos dois tipos de estimação, a [[Estimação pontual|estimação pontual]] e a [[Estimação intervalar|estimação intervalar]].
 
 ---
