@@ -41,6 +41,8 @@ Com essas definições, podemos então comparar dois estimadores diferentes e ve
 ## Estimadores de máxima verossimilhança
 Saber comparar estimadores só é útil quando já temos dois estimadores definidos e queremos saber qual deles é melhor. Mas muitas vezes é necessário obter os estimadores, e mais, obter *bons estimadores*. O *método da máxima verossimilhança* nos permite derivar bons estimadores pontuais com boas propriedades, tendo como base apenas a amostra e sua [[Estatísticas e suas distribuições#Distribuições amostrais|distribuição]].
 
+Esse método é bastante intuitivo, pois ele consiste em *tentar encontrar o valor do parâmetro que é mais plausível de ter produzido os dados que de fato observamos (amostra)*.
+
 > ***Função, estimador e estimativa de máxima verossimilhança***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Seja $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta$ é um parâmetro desconhecido.
 > - Observada a amostra $(x_1, x_2, \dots, x_n)$ de $(X_1, X_2, \dots, X_n)$, a **função de verossimilhança** é a função $L(\cdot|x_1,\dots,x_n) : \Theta \rightarrow \mathbb{R}_+$ tal que
