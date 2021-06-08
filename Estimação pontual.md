@@ -45,7 +45,7 @@ Esse método é bastante intuitivo, pois ele consiste em *tentar encontrar o val
 
 > ***Função, estimador e estimativa de máxima verossimilhança***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Seja $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta$ é um parâmetro desconhecido.
-> - Observada a amostra $(x_1, x_2, \dots, x_n)$ de $(X_1, X_2, \dots, X_n)$, a **função de verossimilhança** é a função $L(\cdot|x_1,\dots,x_n) : \Theta \rightarrow \mathbb{R}_+$ tal que
+> - Observada a amostra $(x_1, x_2, \dots, x_n)$ de $(X_1, X_2, \dots, X_n)$, a **função de verossimilhança** é a função $L(\theta|x_1,\dots,x_n) : \Theta \rightarrow \mathbb{R}_+$ tal que
 >$$
   L(\theta|x_1,\dots,x_n) = p(x_1,\dots,x_n|\theta) = \prod_{i=1}^{n}{p(x_i|\theta)}
 >$$
@@ -57,7 +57,14 @@ Esse método é bastante intuitivo, pois ele consiste em *tentar encontrar o val
 > - Suponha que o argumento que maximiza a função de verossimilhança $L(\theta|x_1,\dots,x_n)$ existe e é igual a $\hat{\theta} = T(x_1,\dots,x_n) \in \Theta$, para cada amostra $(x_1, x_2, \dots, x_n)$ que pode ser observada a partir de $(X_1, X_2, \dots, X_n)$. A estatística $\hat{\theta} = T(X_1,\dots,X_n)$ é chamada de **estimador de máxima verossimilhança** para $\theta$.
 > - Observada a amostra $(x_1, x_2, \dots, x_n)$ de $(X_1, X_2, \dots, X_n)$ e sendo $\hat{\theta}$ um estimador de máxima verossimilhança para $\theta$, então $\hat{\theta} = T(x_1,\dots,x_n)$ é uma **estimativa de máxima verossimilhança** para $\theta$.
 
-Veja que se a ideia é encontrar o argumento que maximiza a função de verossimilhança, podemos [[Velocidade instantânea e derivadas#Derivadas|derivar]] essa função e então encontrar seu ponto de máximo. Note que derivar funções pode se tornar algo complicado, entretanto sabemos que é simples [[Derivação de funções exponenciais e logarítmicas|derivar funções logarítmicas]]. Portanto, podemos manipular a função de máxima verossimilhança para facilitar a sua derivação.
+Veja que se a ideia é encontrar o argumento que maximiza a função de verossimilhança, podemos [[Velocidade instantânea e derivadas#Derivadas|derivar]] essa função e então encontrar seu ponto de máximo. Note que derivar funções pode se tornar algo complicado, entretanto sabemos que é simples [[Derivação de funções exponenciais e logarítmicas|derivar funções logarítmicas]]. Portanto, podemos manipular a função de máxima verossimilhança para facilitar a sua derivação:
+
+> Dado que $\ln{x}$ é uma função contínua estritamente crescente para todo $x > 0$ e $L(\theta|x_1,\dots,x_n)$ é uma função positiva para todo $\theta \in \Theta$. Para qualquer que seja a amostra observada $(x_1, x_2, \dots, x_n)$ de $(X_1, X_2, \dots, X_n)$, podemos considerar o logaritmo natural da função de verossimilhança de $\theta$:
+>$$
+  l(\theta|x_1,\dots,x_n) := \ln{L(\theta|x_1,\dots,x_n)}
+>$$
+> o qual é chamado de *função de log-verossimilhança* de $\theta$. Assim, o valor de $\theta$ que maximiza a função de verossimilhança $L(\theta|x_1,\dots,x_n)$ é também o que maximiza a função de log-verossimilhança $l(\theta|x_1,\dots,x_n)$
+
 
 ### Propriedades dos estimadores de máxima verossimilhança
 
