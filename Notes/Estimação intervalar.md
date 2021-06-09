@@ -33,7 +33,7 @@ $$
 Dessa forma, para um coeficiente de confiança $\gamma \in ]0,1[$, temos
 
 $$
-  P\left(\hat{p} - z\sqrt{\frac{p(1-p)}{n}} \leq p \leq \hat{p} + z\sqrt{\frac{p(1-p)}{n}}\right)
+  P\left(\hat{p} - z\sqrt{\frac{p(1-p)}{n}} \leq p \leq \hat{p} + z\sqrt{\frac{p(1-p)}{n}}\right) = \gamma
 $$
 
 A partir disso, podemos construir dois intervalos de confiança. O primeiro é um intervalo conservador, geralmente utilizado para $n$ não suficientemente grande:
