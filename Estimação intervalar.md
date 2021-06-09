@@ -46,7 +46,55 @@ O segundo é um intervalo mais preciso, porém depende de um $n$ suficientemente
   \left[\hat{p} - z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}};\quad \hat{p} + z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]
 >$$
 
-## Intervalos de confiança para a média populacional
+## Intervalos de confiança para a média de populações normais
+Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, e $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $X \sim Normal(\mu, \sigma^2)$, $\mu \in \mathbb{R}$ e $\sigma^2 > 0$. Quando $\mu$ é **desconhecido** e $\sigma^2 = \sigma_0^2$ é **conhecido**, o estimador de máxima verossimilhança para $\mu$ é $\bar{X}$ e
+
+$$
+  \frac{\bar{X}-\mu}{\sigma/\sqrt{n}} \sim Normal(0,1)
+$$
+
+Dessa forma, fixado um nível de confiança $\gamma \in ]0,1[$, existem $z \in \mathbb{R}_+$ tal que
+
+$$
+  P\left(-z \leq \frac{\bar{X}-\mu}{\sigma/\sqrt{n}} \leq z\right)
+$$
+
+Assim, um intervalo com nível de confiança $\gamma$ para $\mu$ é
+
+$$
+  \left[ \bar{X} - z \frac{\sigma_0}{\sqrt{n}};\quad \bar{X} + z \frac{\sigma_0}{\sqrt{n}}\right]
+$$
+
+Porém, quando a variância $\sigma^2$ da variável aleatória $X$ também é um parâmetro **desconhecido**, não podemos utilizar esse mesmo intervalo de confiança para $\mu$, pois esse intervalo depende da variância populacional.
+
+No caso da variância populacional ser desconhecida, podemos utilizar a *variância amostral* $S^2$ para estimar $\sigma^2$. Porém com isso devemos considerar outra distribuição, e aí que entra a distribuição *t-Student*. Dizemos então que a variável não possui mais distribuição normal padrão, mas sim distribuição *t-Student* com $n-1$ graus de liberdade.
+
+$$
+  T := \frac{\bar{X}-\mu}{S/\sqrt{n}} \sim t_{(n-1)}
+$$
+
+Dessa forma, fixado um nível de confiança $\gamma \in ]0,1[$, existe $t \in \mathbb{R}$ tal que
+
+$$
+  P\left( -t \leq \frac{\bar{X} - \mu}{S/\sqrt{n}} \leq t \right)
+$$
+
+Portanto, um intervalo com nível de confiança $\gamma$ para $\mu$ é
+
+$$
+  \left[ \bar{X} - t \frac{S}{\sqrt{n}};\quad \bar{X} + t \frac{S}{\sqrt{n}}\right]
+$$
+
+## Intervalos de confiança para a variância de populações normais
+Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, e $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $X \sim Normal(\mu, \sigma^2)$, $\mu \in \mathbb{R}$ e $\sigma^2 > 0$ são parâmetros desconhecidos. Para construir um intervalo de confiança para $\sigma^2$, utilizamos a *variância amostral* $S^2$ como estimador e introduzimos uma outra distribuição, a *qui-quadrado*.
+Consideramos o seguinte fato:
+
+$$
+  \frac{(n-1)S^2}{\sigma^2} \sim \mathcal{X}_{(n-1)}
+$$
+
+em que
+
 
 ---
 
