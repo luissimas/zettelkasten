@@ -57,7 +57,7 @@ As seguintes relações são muito úteis, pois nos permitem relacionar a [[Espe
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$  associado a um experimento aleatório, se $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias **independentes** definidas sobre $(\Omega, \mathcal{F}, P)$, então as seguintes afirmações são verdadeiras:
 >$$
 \begin{aligned}
-  &\text{(i)}\quad E\left(a\sum_{i=1}^{n}{X_i}+b\right) = a \sum_{i=1}^{n}{E(X_i)}+b \qquad \text{e}\qquad E\left(\prod_{i=1}^{n}{X_1}\right) = \prod_{i=1}^{n}{E(X_i)}\\\\
+  &\text{(i)}\quad E\left(a\sum_{i=1}^{n}{X_i}+b\right) = a \sum_{i=1}^{n}{E(X_i)}+b \qquad \text{e}\qquad E\left(\prod_{i=1}^{n}{X_i}\right) = \prod_{i=1}^{n}{E(X_i)}\\\\
   &\text{(ii)}\quad Var\left(a \sum_{i=1}^{n}{X_1}+b\right) = a^2 \sum_{i=1}^{n}{Var(X_i)}
 \end{aligned}
 >$$
