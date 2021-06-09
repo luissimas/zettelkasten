@@ -21,7 +21,7 @@ $$
 Para $n$ suficientemente grande, segue pelo *Teorema Central do Limite* que
 
 $$
-  \hat{p} \simeq Normal(p, \frac{p(1-p)}{n})
+  \hat{p} \simeq Normal\left(p, \frac{p(1-p)}{n}\right)
 $$
 
 Normalizando a distribuição, temos
