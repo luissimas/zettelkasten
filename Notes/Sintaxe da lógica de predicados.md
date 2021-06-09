@@ -32,7 +32,13 @@ Uma fórmula bem-formada é definida como:
 - Se $\alpha$ e $\beta$ são fórmulas, então suas combinações através de *conectivos lógicos* também são fórmulas.
 - Se $\alpha$ é uma fórmula e $X$ é uma *variável livre* em $\alpha$, então $\exists X$ e $\forall X$ são fórmulas.
 
-Uma fórmula que não contém nenhuma ocorrência de variáveis livres é chamada de *fórmula fechada*.
+Chamamos de *variáveis livres* as variáveis que não estão sendo *quantificadas* por um quantificador em determinada fórmula. Caso uma variável esteja sendo quantificada no escopo de uma fórmula, dizemos que ela está *ligada*. Vale destacar que uma variável pode ter ocorrências livres e ligadas em uma mesma fórmula.
+
+### Fórmula fechada
+Uma fórmula que não contém **nenhuma ocorrência** de variáveis livres é chamada de *fórmula fechada*. Podemos, a partir de fórmulas não-fechadas, produzir fórmulas fechadas através dos *fechamentos*, que podem ser de dois tipos:
+
+- **Fechamento universal**: Obtida com a adição de um quantificador **universal** $\forall$ associado a cada variável que ocorre livre na fórmula.
+- **Fechamento existencial**: Obtida com a adição de um quantificador **existencial** $\exists$ associado a cada variável que ocorre livre na fórmula.
 
 ---
 
