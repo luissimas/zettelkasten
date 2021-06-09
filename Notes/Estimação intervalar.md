@@ -95,6 +95,41 @@ $$
 
 em que
 
+$$
+  S^2 := \frac{1}{n-1} \sum_{i=1}^{n}{\left(X_1 - \bar{X}\right)^2}
+$$
+
+é a variância amostral e $\mathcal{X}_{(n-1)}$ é uma distribuição *qui-quadrado* com $n-1$ graus de liberdade.
+Note que a distribuição *qui-quadrado*, ao contrário da *Normal* e *t-Student*, não é simétrica. Portanto, dado um nível de confiança $\gamma \in ]0,1[$, devemos tomar $q_1 \geq 0$ e $q_2 \geq 0$ tais que
+
+$$
+  P(Q \geq q_2) = P(Q \leq q_1) = \frac{1-\gamma}{2}
+$$
+
+em que
+
+$$
+  Q = \frac{(n-1)S^2}{\sigma^2} \sim \mathcal{X}_{(n-1)}
+$$
+
+ou seja,
+
+$$
+  P\left(q_1 \leq \frac{(n-1)S^2}{\sigma^2} \leq q_2\right)
+$$
+
+Assim,
+
+$$
+  P\left( \frac{(n-1)S^2}{q_2} \leq \sigma^2 \leq \frac{(n-1)S^2}{q_1} \right) = \gamma
+$$
+
+Portanto, um intervalo com nível de confiança $\gamma$ para $\sigma^2$ é
+
+$$
+  \left[ \frac{(n-1)S^2}{q_2} ;\quad \frac{(n-1)S^2}{q_1} \right]
+$$
+
 
 ---
 
