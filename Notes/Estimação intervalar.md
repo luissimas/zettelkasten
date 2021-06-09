@@ -56,7 +56,7 @@ $$
 Dessa forma, fixado um nível de confiança $\gamma \in ]0,1[$, existem $z \in \mathbb{R}_+$ tal que
 
 $$
-  P\left(-z \leq \frac{\bar{X}-\mu}{\sigma/\sqrt{n}} \leq z\right)
+  P\left(-z \leq \frac{\bar{X}-\mu}{\sigma/\sqrt{n}} \leq z\right) = \gamma
 $$
 
 Assim, um intervalo com nível de confiança $\gamma$ para $\mu$ é
@@ -76,7 +76,7 @@ $$
 Dessa forma, fixado um nível de confiança $\gamma \in ]0,1[$, existe $t \in \mathbb{R}$ tal que
 
 $$
-  P\left( -t \leq \frac{\bar{X} - \mu}{S/\sqrt{n}} \leq t \right)
+  P\left( -t \leq \frac{\bar{X} - \mu}{S/\sqrt{n}} \leq t \right) = \gamma
 $$
 
 Portanto, um intervalo com nível de confiança $\gamma$ para $\mu$ é
@@ -115,7 +115,7 @@ $$
 ou seja,
 
 $$
-  P\left(q_1 \leq \frac{(n-1)S^2}{\sigma^2} \leq q_2\right)
+  P\left(q_1 \leq \frac{(n-1)S^2}{\sigma^2} \leq q_2\right) = \gamma
 $$
 
 Assim,
