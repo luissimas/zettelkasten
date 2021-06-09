@@ -36,7 +36,15 @@ $$
   P\left(\hat{p} - z\sqrt{\frac{p(1-p)}{n}} \leq p \leq \hat{p} + z\sqrt{\frac{p(1-p)}{n}}\right)
 $$
 
-A partir disso, podemos construir um
+A partir disso, podemos construir dois intervalos de confiança. O primeiro é um intervalo conservador, geralmente utilizado para $n$ não suficientemente grande:
+>$$
+  \left[\hat{p} - \frac{z}{2\sqrt{n}}; \quad \hat{p} + \frac{z}{2\sqrt{n}}\right]
+>$$
+
+O segundo é um intervalo mais preciso, porém depende de um $n$ suficientemente grande:
+>$$
+  \left[\hat{p} - z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}};\quad \hat{p} + z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]
+>$$
 
 ## Intervalos de confiança para a média populacional
 
