@@ -17,7 +17,6 @@ Esta disciplina é uma sequência da disciplina de [[LD MOC|LD]], nela trabalham
 [[Ponto flutuante]]
 [[Memória cache]]
 [[Memória virtual]]
-[[Desempenho]]
 [[Dispositivos de I/O]]
 
 ---
