@@ -6,7 +6,6 @@ Essa disciplina introduz algumas estruturas de dados básicas. A disciplina usa 
 [[Filas]]
 [[Listas encadeadas]]
 [[Listas cadastrais]]
-[[Árvores]]
 
 ---
 
