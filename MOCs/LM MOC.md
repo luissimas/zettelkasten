@@ -17,6 +17,7 @@ Nessa parte do curso estudamos a [[Lógica de predicados|lógica de predicados]]
 [[Sintaxe da lógica de predicados]]
 [[Semântica da lógica de predicados]]
 [[Consequência e equivalência lógica na lógica de predicados]]
+[[Inferência na lógica de predicados]]
 
 ---
 
