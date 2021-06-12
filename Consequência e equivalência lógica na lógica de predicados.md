@@ -20,7 +20,6 @@ Vale destacar que as [[Consequência e equivalência lógica|consequências e eq
 \end{aligned}
 >$$
 
-
 ---
 
 created: 12/06/2021
