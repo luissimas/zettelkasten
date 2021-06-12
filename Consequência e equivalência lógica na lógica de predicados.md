@@ -11,13 +11,18 @@ Consequência e equivalência lógica são relações estabelecidas entre duas f
 > ***Equivalência lógica***
 > Duas fórmulas $\alpha$ e $\beta$ são **logicamente equivalentes** se as interpretações que satisfazem $\alpha$ são exatamente as mesmas que satisfazem $\beta$.
 
-Vale destacar que tanto as [[Consequência e equivalência lógica|consequências quanto as equivalências]] da [[Lógica proposicional|lógica proposicional]] são igualmente válidas para a lógica de predicados.
+Vale destacar que as [[Consequência e equivalência lógica|consequências e equivalências]] básicas da [[Lógica proposicional|lógica proposicional]] são igualmente válidas para a lógica de predicados. Além dessas, temos uma equivalência específica para os *quantificadores* da lógica de predicados.
+
+>$$
+\begin{aligned}
+  &\neg(\forall X \alpha[X]) \equiv (\exists X \neg \alpha[X])\\\\
+  &\neg(\exists X \alpha[X]) \equiv (\forall X \neg \alpha[X])
+\end{aligned}
+>$$
+
 
 ---
 
 created: 12/06/2021
 
-
-
 [[Regras_inferencia_equivalencia.pdf]]
-
