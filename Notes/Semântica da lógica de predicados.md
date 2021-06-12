@@ -1,5 +1,5 @@
 # Semântica da lógica de predicados
-A semântica especifica como as sequências válidas se relacionam entre si e qual o valor-verdade dessas relações.
+A semântica especifica como as sequências válidas se relacionam entre si e qual o valor-verdade dessas relações. No campo da semântica são tratados não só as interpretações e classificação das fórmulas lógicas, mas também [[Consequência e equivalência lógica na lógica de predicados|as relações de consequência e equivalência]] que elas estabelecem entre si.
 
 ## Interpretação ($I$)
 Na lógica de predicados uma interpretação $I$ de uma fórmula $\alpha$ é composta dos seguintes elementos:
@@ -31,8 +31,6 @@ As fórmulas da lógica de predicados podem ter diversas classificações de aco
 - **Inválida (falsificável)**: uma fórmula fechada $\alpha$ é inválida se existe **pelo menos uma** interpretação $I$ tal que $I[\alpha] = F$.
 - **Contradição (insatisfazível)**: uma fórmula fechada $\alpha$ é contradição (ou insatisfazível) se for $F$ em **todas** as interpretações possíveis, ou seja, não há modelo para $\alpha$.
 - **Contingente (contingência)**: uma fórmula fechada $\alpha$ é contingente se não for nem uma tautologia nem uma contradição.
-
-É importante destacar que, pela possibilidade
 
 ---
 
