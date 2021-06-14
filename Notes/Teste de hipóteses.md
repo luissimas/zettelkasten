@@ -41,8 +41,6 @@ Note que, pela natureza do teste de hipótese, a veracidade da hipótese nunca p
 >$$
 
 
-
-
 ## Procedimento geral de um teste de hipóteses
 1. Fixe a hipótese nula $H_0$ e a hipóteses alternativa $H_1$.
 2. Use a teoria estatística para determinar a [[Estatísticas e suas distribuições|estatística]] apropriada para o teste.
