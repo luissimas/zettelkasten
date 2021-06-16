@@ -28,7 +28,7 @@ A equação de um hiperboloide de uma folha depende de qual eixo coordenado a hi
 >$$
 
 ## Hiperboloide de duas folhas
-A rotação da hipérbole dada em torno do eixo $Oy$ cria um $hiperboloide de duas folhas$, cuja equação é obtida da equação da hipérbole, substituindo-se $z$ por $\pm \sqrt{x^2 + z^2}$.
+A rotação da hipérbole dada em torno do eixo $Oy$ cria um *hiperboloide de duas folhas*, cuja equação é obtida da equação da hipérbole, substituindo-se $z$ por $\pm \sqrt{x^2 + z^2}$.
 
 ![[hiperboloideduasfolhas.png]]
 
