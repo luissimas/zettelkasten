@@ -31,7 +31,8 @@ Existem dois tipos especiais de substituições:
 
 > ***Unificação***
 > Dado um conjunto $S$ de expressões, e substituições $k \in \mathbb{N}$ e $\theta_k$. Iniciamos com $k = 0$ e $\theta_k = \{\}$.
-> 1. Se $|S\theta_k| = 1$
+> 1. Se $|S\theta_k| = 1$, então terminamos, $\theta_k$ é uma *mgu* de $S$. Caso contrário, determinamos o conjunto de diferenças $D_k$ de $S\theta_k$.
+> 2. Se existe uma variável $x$ e um termo $t$ em $D_k$ tal que $x$ não ocorre em $t$, então fazemos $\theta_{k+1} = \theta_k{t/x}$, $k=k+1$ e retornamos ao passo $1$. Caso contrário, terminamos, e $S$ não é unificável.
 
 De maneira geral, a unificação consiste em, dado um conjunto de expressões, unificá-lo em um conjunto unitário (com apenas uma expressão). Esse processo se dá através de sucessivas composições de substituições.
 
