@@ -21,11 +21,17 @@ Existem dois tipos especiais de substituições:
 >$$
   E_1\theta = E_2\theta = \dots = E_k\theta
 >$$
-> ou seja, se quando aplicada no conjunto de expressões, a substituição produz uma única expressão comum para todas as expressões do conjunto.
+> ou seja, se quando aplicada no conjunto de expressões, a substituição produz **uma única expressão comum** para todas as expressões do conjunto.
+
+> ***Substituição unificadora mais geral***
+> Uma substituição unificadora $\delta$ do conjunto de expressões $\{E_1, E_2, \dots, E_k\}$ é a **unificadora mais geral** *(mgu)* se ela é aquela que faz o mínimo possível de substituições para *unificar* o conjunto.
 
 > ***Conjunto de diferenças***
+> Dado um conjunto $S = \{E_1,\dots,E_n\}$ finito de expressões, o **conjunto de diferenças** $D = \{F_1,\dots,F_n\}$ é dado por todos os símbolos que não coincidem entre as expressões.
 
 > ***Unificação***
+> Dado um conjunto $S$ de expressões, e substituições $k \in \mathbb{N}$ e $\theta_k$. Iniciamos com $k = 0$ e $\theta_k = \{\}$.
+> 1. Se $|S\theta_k| = 1$
 
 De maneira geral, a unificação consiste em, dado um conjunto de expressões, unificá-lo em um conjunto unitário (com apenas uma expressão). Esse processo se dá através de sucessivas composições de substituições.
 
