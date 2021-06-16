@@ -16,13 +16,18 @@ Existem dois tipos especiais de substituições:
 
 É possível ainda **compor substituições**, ou seja, aplicar duas ou mais substituições em cadeia.
 
-> ***Unificação***
+> ***Substituição unificadora***
 > Uma substituição $\theta$ é *unificadora* de um conjunto de expressões $\{E_1,E_2,\dots,E_k\}$ se e somente se:
 >$$
   E_1\theta = E_2\theta = \dots = E_k\theta
 >$$
 > ou seja, se quando aplicada no conjunto de expressões, a substituição produz uma única expressão comum para todas as expressões do conjunto.
 
+> ***Conjunto de diferenças***
+
+> ***Unificação***
+
+De maneira geral, a unificação consiste em, dado um conjunto de expressões, unificá-lo em um conjunto unitário (com apenas uma expressão). Esse processo se dá através de sucessivas composições de substituições.
 
 ---
 
