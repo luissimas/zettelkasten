@@ -1,6 +1,4 @@
 # Dispositivos de IO
-asdfkjh
-
 
 ---
 
