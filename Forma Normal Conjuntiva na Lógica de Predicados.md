@@ -1,4 +1,4 @@
-# Cláusulas de Horn
+# Forma Normal Conjuntiva na Lógica de Predicados
 
 > ***Literal***
 > Um literal é um átomo (literal positivo) ou a negação de um átomo (literal negativo). Os literais $L$ e $\neg L$ são chamados de **complementares**.
@@ -12,10 +12,21 @@
 > Ou seja, uma cláusula é uma *disjunção* de *literais*, com todas as variáveis sendo quantificadas **universalmente**.
 
 > ***Skolemização***
+> O processo de *skolemização* consiste em eliminar os quantificadores existenciais de uma fórmula substituindo-os por uma *função de Skolem*. Uma *função de Skolem* pode assumir duas formas, dependendo do contexto do quantificador que se deseja eliminar:
+> - Uma função cujos argumentos são as variáveis quantificadas universalmente que influenciam o quantificador existencial sendo removido.
+> - Uma constante, se o quantificador existencial sendo removido não estiver no escopo de nenhum quantificador universal.
 
 > ***Forma Normal Prenex (FNP)***
+> Uma fórmula $\alpha$ da [[Lógica de predicados|lógica de predicados]] está na *Forma Normal Prenex (FNP)* se e somente se $\alpha$ estiver na forma
+>$$
+  (Q_1X_1)(Q_2X_2)\dots(Q_nX_n)(M)
+>$$
+> Em que cada $Q_i$, $i = 1,\dots n$ é um quantificador $\forall$ ou $\exists$, e $M$ é uma fórmula que não contém quantificadores (**matriz**).
 
 > ***Forma Normal Conjuntiva (RNC)***
+> Uma fórmula $\alpha$ está na *Forma Normal Conjuntiva (FNC)* se e somente se estiver na *FNP* e sua **matriz** for uma **conjunção de disjunções** de **literais**.
+
+De maneira geral, o processo para se obter transformar uma fórmula da lógica de predicados em uma fórmula equivalente na forma normal conjuntiva se dá pelo seguinte algoritmo:
 
 1. Eliminar as variáveis livres quantificando-as existencialmente.
 2. Eliminar os quantificadores desnecessários (que não contenham nenhuma ocorrência da variável quantificada em seu escopo).

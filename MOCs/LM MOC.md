@@ -22,7 +22,7 @@ Nessa parte do curso estudamos a [[Lógica de predicados|lógica de predicados]]
 [[Consequência e equivalência lógica na lógica de predicados]]
 [[Inferência na lógica de predicados]]
 [[Unificação e Substituição]]
-[[Cláusulas de Horn]]
+[[Forma Normal Conjuntiva na Lógica de Predicados]]
 [[Resolução na lógica de predicados]]
 
 ---
