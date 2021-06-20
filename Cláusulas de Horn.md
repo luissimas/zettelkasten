@@ -11,18 +11,20 @@
 > Na qual cada $L_i (1 \leq i \leq q)$ é um literal e $X_1, X_2, X_3, \dots, X_p$ são todas variáveis que ocorrem nos literais $L_1, L_2, L_3, \dots, L_q$.
 > Ou seja, uma cláusula é uma *disjunção* de *literais*, com todas as variáveis sendo quantificadas **universalmente**.
 
+> ***Skolemização***
+
 > ***Forma Normal Prenex (FNP)***
 
 > ***Forma Normal Conjuntiva (RNC)***
 
-1. Eliminar variáveis livres quantificando-as existencialmente.
-2. Eliminar quantificadores desnecessários (que não contenham nenhuma ocorrência da variável quantificada em seu escopo).
+1. Eliminar as variáveis livres quantificando-as existencialmente.
+2. Eliminar os quantificadores desnecessários (que não contenham nenhuma ocorrência da variável quantificada em seu escopo).
 3. Renomear as variáveis quantificadas até que todos os quantificadores operem sobre variáveis diferentes.
 4. Remover os operadores $\iff$ e $\implies$.
-5.
-6.
-7.
-8.
+5. Mover as negações $\neg$ para o interior da fórmula.
+6. Eliminar os quantificadores existenciais através da *skolemização*.
+7. Obter a *forma normal Prenex* movendo os quantificadores universais para a frente da fórmula.
+8. Colocar a matriz da *FNP* na forma conjuntiva.
 
 ---
 
