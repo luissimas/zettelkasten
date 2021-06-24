@@ -23,7 +23,7 @@
 >$$
 > Em que cada $Q_i$, $i = 1,\dots n$ é um quantificador $\forall$ ou $\exists$, e $M$ é uma fórmula que não contém quantificadores (**matriz**).
 
-> ***Forma Normal Conjuntiva (RNC)***
+> ***Forma Normal Conjuntiva (FNC)***
 > Uma fórmula $\alpha$ está na *Forma Normal Conjuntiva (FNC)* se e somente se estiver na *FNP* e sua **matriz** for uma **conjunção de disjunções** de **literais**.
 
 De maneira geral, o processo para se obter transformar uma fórmula da lógica de predicados em uma fórmula equivalente na forma normal conjuntiva se dá pelo seguinte algoritmo:
