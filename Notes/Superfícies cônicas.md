@@ -3,7 +3,7 @@ Dada uma reta $g$ no plano $yz$ de equações $z=my$, $x=0$. A rotação dessa r
 
 ![[superficiesconicas.png]]
 
-A equação de uma *superfície cônica circular* depende de qual eixo coordenado a $reta geratriz$ foi girada para obtê-lo. Existem três casos para as equações:
+A equação de uma *superfície cônica circular* depende de qual eixo coordenado a *reta geratriz* foi girada para obtê-lo. Existem três casos para as equações:
 
 - Caso tenha sido girada ao longo do eixo $Oz$
 >$$
