@@ -21,7 +21,20 @@ Um conjunto é dito **finito** se sua cardinalidade é um número natural $n$, c
 A cardinalidade do conjunto vazio é zero, ou seja $|\varnothing| = 0$.
 
 ## Conjunto universo
-O *conjunto universo* define o **contexto** dos objetos em discussão.
+O *conjunto universo* define o **contexto** dos objetos em discussão. Esse conjunto é geralmente denotado por $\mathbb{U}$. Quando há a possibilidade de ambiguidade na descrição de um conjunto, utiliza-se o conjunto universo para definir o contexto trabalhado no determinado momento.
+
+## Subconjunto
+Um conjunto $A$ é um **subconjunto** de $B$ se todo elemento de $A$ também é elemento de $B$. Essa relação pode ser denotada por:
+- $A \subseteq B$: $A$ está contido em $B$
+- $B \supseteq A$: $B$ contém $A$
+
+$A$ não é subconjunto de $B$ se pelo menos um elemento de $A$ não pertence a $B$, essa relação é denotada por $A \not\subset B$.
+
+Algumas propriedades importantes da contingência de conjuntos:
+1. Todo conjunto é subconjunto do conjunto universo e contém o conjunto vazio: $\varnothing \subseteq A \subseteq \mathbb{U}$
+2. Todo conjunto é subconjunto de si mesmo: $A \subseteq A$
+3. Transitividade: se $A \subseteq B$ e $B \subseteq C$ então $A \subseteq C$
+4. Igualdade: $A = B$ se e somente se $A \subseteq B$ e $B \subseteq A$
 
 ---
 
