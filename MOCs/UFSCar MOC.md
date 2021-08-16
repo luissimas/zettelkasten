@@ -1,6 +1,5 @@
 # UFSCar
 ## 1° Semestre
-
 [[MOCs/CDI MOC]]
 [[MOCs/LD MOC]]
 [[MOCs/IPA MOC]]
@@ -13,10 +12,10 @@
 [[MOCs/LM MOC]]
 [[MOCs/AED1 MOC]]
 
-# 3° Semestre
+## 3° Semestre
 [[MOCs/SO MOC]]
-[[MOCs/CDS MOC]]
 [[MOCs/MD MOC]]
+[[MOCs/CDS MOC]]
 [[MOCs/FIL MOC]]
 
 ---
