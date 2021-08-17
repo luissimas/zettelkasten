@@ -36,6 +36,12 @@ Algumas propriedades importantes da contingência de conjuntos:
 3. Transitividade: se $A \subseteq B$ e $B \subseteq C$ então $A \subseteq C$
 4. Igualdade: $A = B$ se e somente se $A \subseteq B$ e $B \subseteq A$
 
+## Conjunto potência
+O conjunto potência (ou conjunto das partes) de um conjunto $S$, denotado por $2^S$ ou $\wp (P)$, é aquele formado por **todos** os subconjuntos de $S$. Note que para qualquer conjunto $S$, $\wp (P)$ sempre contém pelo menos $\varnothing$ e $S$ como elementos.
+
+## Partições
+Dado um conjunto não-vazio $A$, uma *partição* $P$ de $A$ é uma subdivisão de $A$ em conjuntos não-vazios, disjuntos dois a dois de tal forma que a união de todos os elementos de $P$ é $A$.
+
 ---
 
 created: 16/08/2021
