@@ -3,6 +3,7 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 
 ## Teoria dos conjuntos
 [[Conjuntos]]
+[[Operações em conjuntos]]
 
 ## Demonstração de teoremas
 
