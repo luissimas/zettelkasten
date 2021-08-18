@@ -17,6 +17,18 @@ Segue abaixo um teorema importantíssimo que associa a ideia de limite de sequê
 >$$
 
 Note que a recíproca do teorema **não** é verdadeira, ou seja, ainda é possível que uma sequência possua um limite mesmo que função que a representa não possua um limite definido.
+Sabendo disso, convém aqui enunciar algumas propriedades de limites aplicáveis tanto para funções quanto para sequências.
+
+> Sejam $(a_n)$ e $(b_n)$ sequências de números reais tal que $\lim_{n \to +\infty} a_n = A$ e $\lim_{n \to +\infty} b_n = B$, tal que $A \in \mathbb{R}$ e $B \in \mathbb{R}$, as seguintes propriedades são verdadeiras:
+>$$
+\begin{aligned}
+  &\lim_{n \to + \infty}(a_n + b_n) = A + B\\
+  &\lim_{n \to + \infty}(a_n - b_n) = A - B\\
+  &\lim_{n \to + \infty}(a_n \cdot b_n) = A \cdot B\\
+  &\lim_{n \to + \infty}(k \cdot b_n) = k \cdot B\\
+  &\lim_{n \to + \infty} \frac{a_n}{b_n} = \frac{A}{B}, \quad \text{com } B \neq 0\\
+\end{aligned}
+>$$
 
 ---
 
