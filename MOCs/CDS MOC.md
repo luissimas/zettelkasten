@@ -1,7 +1,7 @@
 # CDS MOC
 
 ## Sequências e séries
-[[Sequências]]
+[[Sequências Numéricas]]
 
 ## Funções de várias variáveis
 

@@ -1,4 +1,4 @@
-# Sequências
+# Sequências Numéricas
 
 ## Sequências infinitas
 
