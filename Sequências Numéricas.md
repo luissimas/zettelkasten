@@ -30,6 +30,18 @@ Sabendo disso, convém aqui enunciar algumas propriedades de limites aplicáveis
 \end{aligned}
 >$$
 
+## Sequências crescentes limitadas
+Antes de calcular o limite de uma sequência, é necessário determinar se a sequência possui um limite, isto é, se a sequência converge para algum número real. Isso pode ser determinado através do teorema a seguir, que de fato apresenta uma definição intuitiva.
+
+> ***Teorema da sequência crescente***
+> Uma sequência crescente de números reais converge se, e somente se, é limitada superiormente. Se uma sequência crescente converge, ela converge para o seu menor limitante superior.
+
+> ***Sequência crescente***
+> Uma sequência $(a_n)$ é crescente se e somente se $a_n \leq a_{n+1} \quad \forall n \in \mathbb{Z}$.
+
+> ***Sequência limitada***
+> Uma sequ6encia $(a_n)$ é **limitada superiormente** se existe um número $M$ (*limitante superior*) tal que $a_n \leq M \quad \forall n \in \mathbb{Z}$. Se $M$ é um limitante superior para $(a_n)$ mas não existe nenhum outro limitante superior para $(a_n)$ menor que $M$, então $M$ é o *menor limitante superior* para $(a_n)$.
+
 ---
 
 created: 16/08/2021
