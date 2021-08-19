@@ -40,7 +40,7 @@ Antes de calcular o limite de uma sequência, é necessário determinar se a seq
 > Uma sequência $(a_n)$ é crescente se e somente se $a_n \leq a_{n+1} \quad \forall n \in \mathbb{Z}$.
 
 > ***Sequência limitada***
-> Uma sequ6encia $(a_n)$ é **limitada superiormente** se existe um número $M$ (*limitante superior*) tal que $a_n \leq M \quad \forall n \in \mathbb{Z}$. Se $M$ é um limitante superior para $(a_n)$ mas não existe nenhum outro limitante superior para $(a_n)$ menor que $M$, então $M$ é o *menor limitante superior* para $(a_n)$.
+> Uma sequência $(a_n)$ é **limitada superiormente** se existe um número $M$ (*limitante superior*) tal que $a_n \leq M \quad \forall n \in \mathbb{Z}$. Se $M$ é um limitante superior para $(a_n)$ mas não existe nenhum outro limitante superior para $(a_n)$ menor que $M$, então $M$ é o *menor limitante superior* para $(a_n)$.
 
 ---
 
