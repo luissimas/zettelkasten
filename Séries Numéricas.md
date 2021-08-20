@@ -28,6 +28,8 @@ a_1 + a_2 + \dots + a_n + \dots = \sum_{n=1}^{\infty}{a_n} = L
 >$$
 > Se a sequência de somas parciais da série não converge, dizemos que a série **diverge**.
 
+A ideia então é, a partir de uma dada sequência $(a_n)$, construir uma **segunda sequência** $(s_n)$ composta pelas somas parciais dos termos de $(a_n)$. A partir daí é necessário determinar se a sequência $(s_n)$ converge ou diverge, se ela for convergente então é possível afirmar que há uma **série convergente**.
+
 ## Convergência de séries
 
 Uma forma imediata de verificar se uma série diverge ou converge é verificar se seus termos se aproximam de $0$.
