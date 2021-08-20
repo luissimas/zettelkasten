@@ -28,6 +28,11 @@ a_1 + a_2 + \dots + a_n + \dots = \sum_{n=1}^{\infty}{a_n} = L
 >$$
 > Se a sequência de somas parciais da série não converge, dizemos que a série **diverge**.
 
+Uma forma imediata de verificar se uma série diverge ou converge é verificar se seus termos se aproximam de $0$.
+
+> Dada uma série $S = \displaystyle\sum_{n=1}^{\infty}{a_n}$. Se $S$ converge, então $\displaystyle\lim_{n \to \infty} a_n = 0$.
+
+Note que a recíproca dessa condição não é válida, ou seja, existem sequências que tendem a $0$ cuja soma não é convergente.
 
 ---
 
