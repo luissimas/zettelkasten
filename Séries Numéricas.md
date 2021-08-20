@@ -36,8 +36,7 @@ Como há um número infinito de termos, não é possível simplesmente realizar 
 A ideia então é, a partir de uma dada sequência $(a_n)$, construir uma **segunda sequência** $(s_n)$ composta pelas somas parciais dos termos de $(a_n)$. A partir daí é necessário determinar se a sequência $(s_n)$ converge ou diverge, se ela for convergente então é possível afirmar que há uma **série convergente**.
 
 ## Convergência de séries
-
-Uma forma imediata de verificar se uma série diverge ou converge é verificar se seus termos se aproximam de $0$.
+Uma forma imediata de verificar se uma série diverge ou converge é verificar se seu termo geral $a_n$ converge a $0$.
 
 > Dada uma série $S = \displaystyle\sum_{n=1}^{\infty}{a_n}$. Se $S$ converge, então $\displaystyle\lim_{n \to \infty} a_n = 0$.
 
