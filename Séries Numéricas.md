@@ -40,7 +40,7 @@ Uma forma imediata de verificar se uma série diverge ou converge é verificar s
 
 > Dada uma série $S = \displaystyle\sum_{n=1}^{\infty}{a_n}$. Se $S$ converge, então $\displaystyle\lim_{n \to \infty} a_n = 0$.
 
-Note que a recíproca dessa condição não é válida, ou seja, existem sequências que tendem a $0$ cuja soma não é convergente.
+Note que a recíproca dessa condição não é válida, ou seja, existem sequências convergem a $0$ cuja soma não é convergente.
 
 ---
 
