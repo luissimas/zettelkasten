@@ -12,19 +12,24 @@ Como há um número infinito de termos, não é possível simplesmente realizar 
 >$$
   \sum_{n=1}^{\infty}{a_n} = a_1 + a_2 + \dots + a_n + \dots
 >$$
-> é uma **série infinita**. O número $a_n$ é o **n-ésimo** termo da série. A sequência $(s_n)$ definida por
+> é uma **série infinita**. O número $a_n$ é o **n-ésimo** termo da série. A sequência $(S_n)$ definida por
 >$$
 \begin{aligned}
-  s_1 &= a_1\\
-  s_2 &= a_1 + a_2\\
+  S_1 &= a_1\\
+  S_2 &= a_1 + a_2\\
   &\vdots\\
-  s_n &= a_1 + a_2 + \dots + a_n\\
+  S_n &= a_1 + a_2 + \dots + a_n\\
   &\vdots\\
 \end{aligned}
 >$$
-> é a **sequência de somas parciais** da série. Se a sequência de somas parciais convergir para um limite $L$, dizemos que a série **converge** e que a soma é $L$:
+> é a **sequência de somas parciais** da série.
+> Dizemos que a série
 >$$
-a_1 + a_2 + \dots + a_n + \dots = \sum_{n=1}^{\infty}{a_n} = L
+  \sum_{n=1}^{\infty}{a_n} = a_1 + a_2 + \dots + a_n + \dots
+>$$
+> converge a $L$ se
+>$$
+  \lim_{n \to \infty} S_n = L
 >$$
 > Se a sequência de somas parciais da série não converge, dizemos que a série **diverge**.
 
