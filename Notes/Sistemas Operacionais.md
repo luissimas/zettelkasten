@@ -7,8 +7,6 @@ Computadores modernos são sistemas complexos, consistindo muitas vezes em vári
 
 ![[sistemaoperacional.png]]
 
-Sistemas operacionais são em geral programas extremamente complexos, que buscam oferecer uma camada abstração para a interação com os recursos do computador. Essa interação com os recursos do sistema são muitas vezes feitas através das **chamadas de sistema**.
-
 ---
 
 created: 23/08/2021
