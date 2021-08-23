@@ -1,5 +1,6 @@
 # Sistemas Operacionais
-[[SistemasOperacionaisModernos.pdf]]
+Uma sequência natural de [[Arq1 MOC | ARQ]], essa disciplina explora os principais aspectos de sistemas operacionais e suas diferentes implementações.
+O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisModernos.pdf | Sistemas Operacionais Modernos]].
 
 ## Introdução
 
@@ -8,6 +9,8 @@
 ## Gerenciamento de memória
 
 ## Sistema de arquivos
+
+## Gerenciamento de IO
 
 ---
 
