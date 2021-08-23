@@ -7,6 +7,7 @@ O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisMode
 
 ## Processos e threads
 [[Processos]]
+[[Threads]]
 
 ## Gerenciamento de memória
 
