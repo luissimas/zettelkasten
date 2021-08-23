@@ -5,10 +5,9 @@ Em sua essência um processo é uma abstração para um programa em execução. 
 Um processo representa uma instância de um programa em execução, incluindo todos os dados relacionados a ele como valores do contador do programa, registradores e variáveis.
 
 ## Criação de processos
-
-Processos que ficam em segundo plano são chamados de **daemons**.
-
 Em sistemas *UNIX* há apenas uma chamada de sistema para criar um novo processo: `fork`. A chamada `fork` cria um **clone** do processo que a chamou, ou seja, após a chamada `fork` tanto o processo pai quanto o filho possuem o mesmo estado, incluindo imagem de memória, variáveis de ambiente e mais (porém possuem seus próprios espaços de endereços distintos, ou seja, alterações no espaço de endereço do processo filho não alteram o processo pai). Normalmente após uma chamada `fork` o processo filho executa uma outra chamada de sistema como `execve` para então executar um programa diferente.
+
+- Processos que ficam em segundo plano são chamados de **daemons**.
 
 ## Término de processos
 
