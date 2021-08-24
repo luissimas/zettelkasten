@@ -17,7 +17,7 @@ Antes de mais nada é essencial definir alguns termos importantes quando se trat
 A prova por refutação consiste em refutar uma afirmação, ou seja, provar que ela é falsa. A maneira mais simples de provar que uma afirmação é falsa é apresentar um *contraexemplo* para aquela afirmação, ou seja, mostrar um único caso específico para o qual ela não seja verdadeira.
 
 ## Prova por exaustão
-A prova por exaustão consiste em verificar que uma afirmação é verdadeira para todos os elementos sobre os quais ela afirma algo.
+A prova por exaustão consiste em verificar que uma afirmação é verdadeira para todos os elementos sobre os quais ela se refere.
 Note que só é possível aplicar a prova por exaustão se a conjetura é uma afirmação sobre um conjunto finito de elementos.
 
 ## Prova por indução
