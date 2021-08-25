@@ -154,5 +154,12 @@
   "editor:toggle-comments": [],
   "editor:toggle-bold": [],
   "editor:toggle-italics": [],
-  "markdown:toggle-preview": []
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ]
 }
