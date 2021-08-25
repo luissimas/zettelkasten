@@ -12,8 +12,19 @@ A maior vantagem desse tipo de implementação é certamente o desempenho, pois 
 Apesar dessas vantagens, o ponto crítico dessa implementação é que se uma thread for bloqueada (por um processo de IO por exemplo), o processo inteiro é bloqueado, pois para o kernel (que só enxerga o nível de processo, não de thread), o processo está bloqueado aguardando o retorno de alguma chamada.
 
 ## Threads no kernel
+Threads implementadas no kernel, ao contrário das implementadas no espaço de usuário, são visíveis ao kernel e suportadas diretamente pelo SO.
+Nessa implementação o escalonamento e gerenciamento das threads é feito pelo kernel através de uma tabela de threads independente da tabela de processos, mas também gerenciada pelo kernel.
 
 ![[threadsnucleo.png]]
+
+Esse tipo de implementação, apesar de mais custoso em termos de desempenho, oferece uma grande vantagem pois se uma thread realiza uma chamada de sistema bloqueante o processo inteiro não é bloqueado. Isso ocorre pois o kernel é capaz de chavear a execução do processo para outra thread enquanto outra está bloqueada.
+
+## Threads híbridas
+Uma outra implementação possível é misturar o uso de threads implementadas no núcleo e no sistema. Geralmente um processo pode ter diversas threads implementadas no kernel, e para cada uma dessas threads de execução podem haver mais threads em modo usuário.
+
+![[threadshibridas.png]]
+
+Essa implementação é particularmente flexível se comparada às outras duas, possibilitando um bom aproveitamento do desempenho das threads em modo usuário e permitindo um gerenciamento mais eficiente pelo kernel.
 
 ---
 
