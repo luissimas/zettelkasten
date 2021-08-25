@@ -42,6 +42,14 @@ Uma forma imediata de verificar se uma série diverge ou converge é verificar s
 
 Note que a recíproca dessa condição não é válida, ou seja, existem sequências convergem a $0$ cuja soma não é convergente.
 
+## Critérios de convergência
+Além da verificação pelo termo geral, existem muitas outras formas de verificar a convergência de séries, algumas delas são enunciadas aqui.
+
+> ***Critério da comparação***
+> Dadas duas sequências numéricas $(a_n)$ e $(b_n)$ com $0 \leq a_n \leq b_n$, pode-se afirmar duas coisas:
+> 1. Se $\sum_{n=1}^{\infty}{a_n}$ for divergente, então $\sum_{n=1}^{\infty}{b_n}$ também diverge.
+> 2. Se $\sum_{n=1}^{\infty}{b_n}$ for convergente, então $\sum_{n=1}^{\infty}{a_n}$ também converge.
+
 ---
 
 created: 20/08/2021
