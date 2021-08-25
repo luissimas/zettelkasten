@@ -35,8 +35,7 @@
   "command-palette:open": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "P"
     }
@@ -53,19 +52,17 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
-      "key": "H"
+      "key": "O"
     }
   ],
   "app:go-forward": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
-      "key": "L"
+      "key": "I"
     }
   ],
   "workspace:close": [
@@ -76,20 +73,13 @@
       "key": "Q"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": ","
-    }
-  ],
+  "app:toggle-left-sidebar": [],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "."
+      "key": "E"
     }
   ],
   "app:open-settings": [
@@ -141,23 +131,8 @@
       "key": "g"
     }
   ],
-  "file-explorer:new-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "n"
-    }
-  ],
-  "file-explorer:new-file-in-new-pane": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
+  "file-explorer:new-file": [],
+  "file-explorer:new-file-in-new-pane": [],
   "table-editor-obsidian:format-all-tables": [
     {
       "modifiers": [
@@ -166,5 +141,18 @@
       "key": "F"
     }
   ],
-  "editor:open-search": []
+  "editor:open-search": [],
+  "app:open-help": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:toggle-comments": [],
+  "editor:toggle-bold": [],
+  "editor:toggle-italics": [],
+  "markdown:toggle-preview": []
 }
