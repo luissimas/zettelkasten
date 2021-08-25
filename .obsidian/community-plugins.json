@@ -1,7 +1,6 @@
 [
   "templater-obsidian",
-  "code-block-copy",
   "obsidian-hider",
   "obsidian-git",
-  "table-editor-obsidian"
+  "sliding-panes-obsidian"
 ]
