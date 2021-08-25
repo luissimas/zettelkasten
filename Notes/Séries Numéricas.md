@@ -47,8 +47,13 @@ Além da verificação pelo termo geral, existem muitas outras formas de verific
 
 > ***Critério da comparação***
 > Dadas duas sequências numéricas $(a_n)$ e $(b_n)$ com $0 \leq a_n \leq b_n$, pode-se afirmar duas coisas:
-> 1. Se $\sum_{n=1}^{\infty}{a_n}$ for divergente, então $\sum_{n=1}^{\infty}{b_n}$ também diverge.
-> 2. Se $\sum_{n=1}^{\infty}{b_n}$ for convergente, então $\sum_{n=1}^{\infty}{a_n}$ também converge.
+> 1. Se $\displaystyle\sum_{n=1}^{\infty}{a_n}$ for divergente, então $\displaystyle\sum_{n=1}^{\infty}{b_n}$ também diverge.
+> 2. Se $\displaystyle\sum_{n=1}^{\infty}{b_n}$ for convergente, então $\displaystyle\sum_{n=1}^{\infty}{a_n}$ também converge.
+
+> ***Critério da comparação no limite***
+> Dadas duas sequências numéricas $(a_n)$ e $(b_n)$ com $0 \leq a_n$ e $0 \leq b_n$, $\forall n$
+
+> ***Critério da integral***
 
 ---
 
