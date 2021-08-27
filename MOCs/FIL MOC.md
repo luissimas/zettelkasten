@@ -7,7 +7,6 @@ Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque pa
 Nesse bloco introdutório fomos introduzidos aos conceitos primordiais do que se entendia como ciência, conceitos esses que foram muito discutidos e questionados por Kuhn e Popper.
 
 [[Indução]]
-[[Indutivismo]]
 
 ## Falseabilismo de Karl Popper
 
