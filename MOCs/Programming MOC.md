@@ -17,8 +17,7 @@ Categorizing languages by paradigm maybe (?)
 ## Declarative
 ### Functional
 [[Haskell]]
-[[Julia]]
-[[Qoc]]
+[[OCaml]]
 
 ### Database
 
