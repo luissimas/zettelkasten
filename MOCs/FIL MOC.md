@@ -1,5 +1,5 @@
 # Filosofia da Ciência
-Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque particular na ideia de mudança e progresso na visão de dois importantes pensadores: Karl Popper e Thomas S. Kuhn.
+Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque particular na ideia de mudança e progresso na visão de dois importantes pensadores: [[Karl Popper]] e [[Thomas Kuhn]].
 
 > Podemos definir a filosofia da ciência como a reflexão filosófica sistemática sobre a natureza do conhecimento científico.
 
@@ -7,6 +7,7 @@ Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque pa
 Nesse bloco introdutório fomos introduzidos aos conceitos primordiais do que se entendia como ciência, conceitos esses que foram muito discutidos e questionados por Kuhn e Popper.
 
 [[Indução]]
+[[Indutivismo]]
 
 ## Falseabilismo de Karl Popper
 
