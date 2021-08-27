@@ -15,7 +15,6 @@ OCaml comes from the ML family of languages.
 ## Notes
 You **can** use type annotations, but you almost **never need** to do it, because overall the type inference is very good.
 
-
 ---
 
 created: 27/08/2021
