@@ -24,7 +24,7 @@ Uma inconveniência da aplicação do critério da comparação é que a sua man
 >$$
 > pode-se afirmar o seguinte com base no valor de $L$:
 > 1. $0<L<+\infty$: $\displaystyle\sum_{n=1}^{\infty}{a_n}$ converge $\iff$ $\displaystyle\sum_{n=1}^{\infty}{b_n}$ converge.
-> 2. $L = 0$: se $\displaystyle\sum_{n=1}^{\infty}{a_n}$ diverge então $\displaystyle\sum_{n=1}^{\infty}{b_n}$ diverge.
+> 2. $L = 0$: se $\displaystyle\sum_{n=1}^{\infty}{a_n}$ converge então $\displaystyle\sum_{n=1}^{\infty}{b_n}$ converge.
 > 3. $L = \infty$: se $\displaystyle\sum_{n=1}^{\infty}{b_n}$ diverge então $\displaystyle\sum_{n=1}^{\infty}{a_n}$ diverge.
 
 Note que para o *critério da comparação no limite* não é necessário saber qual a relação de desigualdade das duas sequências, pois analisa-se apenas o limite de seu quociente. Vale destacar também que esse critério permite conclusões mais claras e precisas, pois quando existe um limite definido para o quociente das duas sequências, a informação sobre convergência deve necessariamente ser a mesma entre as séries.
