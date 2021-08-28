@@ -1,0 +1,57 @@
+# Séries Numéricas
+Uma *série infinita* é a soma de uma [[Sequências Numéricas | sequência]] infinita de números na forma
+>$$
+  \sum_{n=1}^{\infty}{a_n} = a_1 + a_2 + \dots + a_n + \dots
+>$$
+
+Como há um número infinito de termos, não é possível simplesmente realizar as operações de adição para cada termo. Ao invés disso, podemos observar o resultado da soma dos $n$ primeiros termos da sequência, também chamada de *soma parcial*. Com base na *soma parcial*, podemos analisar o comportamento do resultado da soma à medida que $n$ cresce, dessa forma é possível determinar o resultado da série infinita manipulando a ideia de [[Introdução intuitiva de limites | limites]].
+
+> Dada uma sequência $(a_n)$, uma expressão da forma
+>$$
+  \sum_{n=1}^{\infty}{a_n} = a_1 + a_2 + \dots + a_n + \dots
+>$$
+> é uma **série infinita**. O número $a_n$ é o **n-ésimo** termo da série. A sequência $(S_n)$ definida por
+>$$
+\begin{aligned}
+  S_1 &= a_1\\
+  S_2 &= a_1 + a_2\\
+  &\vdots\\
+  S_n &= a_1 + a_2 + \dots + a_n\\
+  &\vdots\\
+\end{aligned}
+>$$
+> é a **sequência de somas parciais** da série.
+> Dizemos que a série
+>$$
+  \sum_{n=1}^{\infty}{a_n} = a_1 + a_2 + \dots + a_n + \dots
+>$$
+> converge a $L$ se
+>$$
+  \lim_{n \to \infty} S_n = L
+>$$
+> Se a sequência de somas parciais da série não converge, dizemos que a série **diverge**.
+A ideia então é, a partir de uma dada sequência $(a_n)$, construir uma **segunda sequência** $(s_n)$ composta pelas somas parciais dos termos de $(a_n)$. A partir daí é necessário determinar se a sequência $(s_n)$ converge ou diverge, se ela for convergente então é possível afirmar que há uma **série convergente**.
+
+## Convergência de séries
+Uma forma imediata de verificar se uma série diverge ou converge é verificar se seu termo geral $a_n$ converge a $0$.
+
+> Dada uma série $S = \displaystyle\sum_{n=1}^{\infty}{a_n}$. Se $S$ converge, então $\displaystyle\lim_{n \to \infty} a_n = 0$.
+Note que a recíproca dessa condição não é válida, ou seja, existem sequências convergem a $0$ cuja soma não é convergente.
+
+## Critérios de convergência
+Além da verificação pelo termo geral, existem muitas outras formas de verificar a convergência de séries, algumas delas são enunciadas aqui.
+
+> ***Critério da comparação***
+> Dadas duas [[Sequências numéricas | sequências numéricas]] $(a_n)$ e $(b_n)$ com $0 \leq a_n \leq b_n$, pode-se afirmar duas coisas:
+> 1. Se $\displaystyle\sum_{n=1}^{\infty}{a_n}$ for divergente, então $\displaystyle\sum_{n=1}^{\infty}{b_n}$ também diverge.
+> 2. Se $\displaystyle\sum_{n=1}^{\infty}{b_n}$ for convergente, então $\displaystyle\sum_{n=1}^{\infty}{a_n}$ também converge.
+
+A ideia central do *critério da comparação* de relacionar duas sequências e inferir conclusões sobre a convergência de uma com base no conhecimento da convergência da outra serve de base para os outros critérios aqui enunciados.
+
+> ***Critério da comparação no limite***
+> Dadas duas sequências numéricas $(a_n)$ e $(b_n)$ com $0 \leq a_n$ e $0 \leq b_n$, $\forall n$
+
+> ***Critério da integral***
+---
+
+created: 20/08/2021
