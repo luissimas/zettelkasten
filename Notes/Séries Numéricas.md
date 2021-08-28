@@ -47,9 +47,17 @@ Além da verificação pelo termo geral, existem muitas outras formas de verific
 > 2. Se $\displaystyle\sum_{n=1}^{\infty}{b_n}$ for convergente, então $\displaystyle\sum_{n=1}^{\infty}{a_n}$ também converge.
 
 A ideia central do *critério da comparação* de relacionar duas sequências e inferir conclusões sobre a convergência de uma com base no conhecimento da convergência da outra serve de base para os outros critérios aqui enunciados.
+Uma inconveniência da aplicação do critério da comparação é que a sua manipulação algébrica e aplicação muitas vezes não consideram a ordem de grandeza do crescimento das sequências, e sim apenas uma relação estrita de maior ou menor. Por esse motivo desenvolveu-se uma variação do critério da comparação, que usa da mesma base porém é mais pragmático e manipulável.
 
 > ***Critério da comparação no limite***
-> Dadas duas sequências numéricas $(a_n)$ e $(b_n)$ com $0 \leq a_n$ e $0 \leq b_n$, $\forall n$
+> Dadas duas sequências numéricas $(a_n)$ e $(b_n)$ com $0 \leq a_n$ e $0 \leq b_n$, $\forall n$. Supondo $L$ tal que
+>$$
+\displaystyle\lim_{n \to \infty}\frac{a_n}{b_n} = L
+>$$
+> pode-se afirmar o seguinte com base no valor de $L$:
+> 1. $0<L<+\infty$: $\displaystyle\sum_{n=1}^{\infty}{a_n}$ converge $\iff$ $\displaystyle\sum_{n=1}^{\infty}{b_n}$ converge.
+> 2. $L = 0$: $\displaystyle\sum_{n=1}^{\infty}{a_n}$ diverge $\implies$ $\displaystyle\sum_{n=1}^{\infty}{b_n}$ diverge.
+> 3. $L = \infty$: $\displaystyle\sum_{n=1}^{\infty}{b_n}$ diverge $\implies$ $\displaystyle\sum_{n=1}^{\infty}{a_n}$ diverge.
 
 > ***Critério da integral***
 ---
