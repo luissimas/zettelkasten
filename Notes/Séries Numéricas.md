@@ -60,6 +60,7 @@ Uma inconveniência da aplicação do critério da comparação é que a sua man
 > 3. $L = \infty$: se $\displaystyle\sum_{n=1}^{\infty}{b_n}$ diverge então $\displaystyle\sum_{n=1}^{\infty}{a_n}$ diverge.
 
 > ***Critério da integral***
+
 ---
 
 created: 20/08/2021
