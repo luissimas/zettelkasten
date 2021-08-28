@@ -5,13 +5,15 @@ Imagine uma situação na qual desejamos calcular a área sob o gráfico de uma 
 ![image](../Attachments/Calc1/integraldefinidagrafico.png)
 
 Assim, a soma das áreas desses diversos retângulos sob o gráfico de $f$ é uma aproximação da área sob o gráfico de $f$. Dessa forma, é possível deduzir que quanto mais retângulos mais precisa fica essa aproximação, pois sua base vai ficando cada vez mais estreita, até que quase não hajam "sobras". Conhecendo o conceito de limites, podemos dizer então que a base dos triângulos tende a $0$, podemos dizer então que a soma da área desses retângulos (quase tão estreitos quanto linhas, ou seja: infinitamente estreitos) tende a $\displaystyle\int_a^b{f(x)}\,dx$, que representa a área sob o gráfico de $f$ ou seja:
-$$
+>$$
 \lim_{\max{\Delta x_i\to 0}}\sum_{i=1}^{n}f(c_i)\Delta x_i = \int_a^b{f(x)}\,dx
-$$
+>$$
+
 Então, temos:
-$$
+
+>$$
 \int_a^b{f(x)}\,dx=\text{área (com sinal) sob o gráfico de f no intervalo } [a,b]
-$$
+>$$
 
 ## Propriedades
 Podemos assumir algumas propriedades das integrais definidas:
@@ -40,21 +42,22 @@ $$
 ## Teorema fundamental do cálculo
 A expressão que define as integrais definidas é capaz de sintetizar de forma muito eficiente (e elegante) o que de fato a integral definida representa, porém não é viável aplicá-la para resolução de problemas. Com o propósito de fornecer um meio para calcular as integrais definidas, surge então o *Teorema fundamental do cálculo*.
 De forma geral, esse teorema serve para conectar a definição de integral definida com o cálculo das [[Integrais indefinidas#Antiderivadas|funções primitivas]], nos permitindo utilizar as técnicas de integração no cálculo de áreas sob o gráfico de funções.
-### Primeira versão
-Seja $f$ uma função contínua no intervalo $[a,b]$. Para cada $x\in[a,b]$:
-$$
-\varphi(x)=\int_a^x{f(t)}\,dt
-$$
-Então:
-$$
-\varphi'(x)=f(x), \quad\forall x\in[a,b]
-$$
 
-### Segunda versão
-Sendo $f$ uma função contínua no intervalo $[a,b]$,
-$$
+>***Teorema fundamental do cálculo - primeira versão***
+>Seja $f$ uma função contínua no intervalo $[a,b]$. Para cada $x\in[a,b]$:
+>$$
+\varphi(x)=\int_a^x{f(t)}\,dt
+>$$
+>então:
+>$$
+\varphi'(x)=f(x), \quad\forall x\in[a,b]
+>$$
+
+>***Teorema fundamental do cálculo - segunda versão***
+>Sendo $f$ uma função contínua no intervalo $[a,b]$,
+>$$
 \text{se }\quad \int{f(x)}\,dx=F(x)+C\quad\text{então}\quad \int_a^b{f(x)}\,dx=F(b)-F(a)
-$$
+>$$
 
 ---
 
