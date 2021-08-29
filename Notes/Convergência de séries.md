@@ -61,12 +61,12 @@ O critério da raiz nos permite determinar a convergência de uma série com bas
 > 3. $L = 1$: nada se conclui.
 
 ### Critério da razão
-O critério da razão é muito similar ao *critério da raiz*, porém utiliza-se da razão entre o *n-ésimo* termo somado com $1$ e o próprio termo.
+O critério da razão é muito similar ao *critério da raiz*, porém utiliza-se da razão entre o *n-ésimo* termo e seu antecessor.
 
 > ***Critério da razão***
 > Dada uma sequência numérica $(a_n)$ tal que $a_n > 0$, considera-se $L$ tal que:
 >$$
-  \lim_{n\to \infty} \frac{a_n + 1}{a_n} = L
+  \lim_{n\to \infty} \frac{a_{n + 1}}{a_n} = L
 >$$
 > pode-se afirmar o seguinte com base no valor de $L$:
 > 1. $L > 1$: $\displaystyle\sum_{n = 1}^{\infty}{a_n}$ diverge.
