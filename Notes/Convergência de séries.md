@@ -41,6 +41,12 @@ O critério da integral nos permite verificar a convergência de séries manipul
 > ***Critério da integral***
 > Dada uma função **contínua e decrescente** $f : [1, + \infty[ \to \mathbb{R}$ com $f(x) > 0, \forall x \in [1, + \infty[$. Seja $a_n$ uma sequência numérica que pode ser descrita em termos da função contínua tal que $a_n = f(x)$. É possível afirmar que $\displaystyle \sum_{n=1}^{\infty}{a_n}$ converge $\iff$ $\displaystyle\int_{1}^{+ \infty}{f(x)}\,dx$ converge.
 
+Note que com o *critério da integral* não é necessário encontrar uma série comparadora, toda a análise pode ser feita apenas com a [[Sequências Numéricas | sequência]] em questão. Entretanto vale destacar que para ser aplicado o critério requer a verificação de algumas coisas:
+
+1. A série deve ser representada por uma **função contínua**.
+2. Essa função contínua deve ser **decrescente**.
+3. Essa função deve ter uma [[Integrais indefinidas | primitiva]] calculável.
+
 ---
 
 created: 28/08/2021
