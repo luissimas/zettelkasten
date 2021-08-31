@@ -35,6 +35,9 @@ A ideia desse tipo de prova é, dado um teorema na forma $p \implies q$, provar 
 ## Prova indireta (redução ao absurdo)
 A [[Técnicas dedutivas#Prova indireta (redução ao absurdo) | prova indireta]] consiste em, dada uma proposição na forma "se $p$ então $q$", mostrar que é impossível $p$ ser verdadeiro ao mesmo tempo que $q$ seja falso.
 
+## Prova por vacuidade
+Se $A$ é um **conjunto vazio**, a afirmação $\forall x \in A Q(x)$ é sempre verdadeira, qualquer que seja o predicado $Q$. Essa afirmação é verdadeira por *vacuidade*.
+
 ---
 
 created: 24/08/2021
