@@ -20,7 +20,12 @@ A prova por refutação consiste em refutar uma afirmação, ou seja, provar que
 A prova por exaustão consiste em verificar que uma afirmação é verdadeira para todos os elementos sobre os quais ela se refere.
 Note que só é possível aplicar a prova por exaustão se a conjetura é uma afirmação sobre um conjunto finito de elementos.
 
-## Prova por indução
+## Prova direta
+A prova direta é uma sequência de passos baseados em definições e resultados já conhecidos que permite nos levar da *hipótese* $P$ até a conclusão $Q$ para provar teoremas na forma *"se $P$ então $Q$"*.
+
+## Prova por contraposição
+
+## Prova indireta (redução ao absurdo)
 
 ---
 
