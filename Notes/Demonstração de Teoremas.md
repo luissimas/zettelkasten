@@ -21,7 +21,7 @@ A prova por exaustão consiste em verificar que uma afirmação é verdadeira pa
 Note que só é possível aplicar a prova por exaustão se a conjetura é uma afirmação sobre um conjunto finito de elementos.
 
 ## Prova direta
-A prova direta é uma sequência de passos baseados em definições e resultados já conhecidos que permite nos levar da *hipótese* $P$ até a conclusão $Q$ para provar teoremas na forma *"se $P$ então $Q$"*.
+A [[Técnicas dedutivas#Prova direta | prova direta]] é uma sequência de passos baseados em definições e resultados já conhecidos que permite nos levar da *hipótese* $P$ até a conclusão $Q$ para provar teoremas na forma *"se $P$ então $Q$"*.
 
 ## Prova por contraposição
 A prova por contraposição se baseia no fato de que a afirmação "se $p$ então $b$" é [[Consequência e equivalência lógica#Equivalência lógica | logicamente equivalente]] a "se não $p$ então não $q$".
@@ -30,7 +30,10 @@ A prova por contraposição se baseia no fato de que a afirmação "se $p$ entã
   p \implies q \equiv \lnot p \implies \lnot q
 >$$
 
+A ideia desse tipo de prova é, dado um teorema na forma $p \implies q$, provar a validade de sua *contrapositiva* $\lnot p \implies \lnot q$.
+
 ## Prova indireta (redução ao absurdo)
+A [[Técnicas dedutivas#Prova indireta (redução ao absurdo) | prova indireta]] consiste em, dada uma proposição na forma "se $p$ então $q$", mostrar que é impossível $p$ ser verdadeiro ao mesmo tempo que $q$ seja falso.
 
 ---
 
