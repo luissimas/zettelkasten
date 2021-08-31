@@ -24,6 +24,11 @@ Note que só é possível aplicar a prova por exaustão se a conjetura é uma af
 A prova direta é uma sequência de passos baseados em definições e resultados já conhecidos que permite nos levar da *hipótese* $P$ até a conclusão $Q$ para provar teoremas na forma *"se $P$ então $Q$"*.
 
 ## Prova por contraposição
+A prova por contraposição se baseia no fato de que a afirmação "se $p$ então $b$" é [[Consequência e equivalência lógica#Equivalência lógica | logicamente equivalente]] a "se não $p$ então não $q$".
+
+>$$
+  p \implies q \equiv \lnot p \implies \lnot q
+>$$
 
 ## Prova indireta (redução ao absurdo)
 
