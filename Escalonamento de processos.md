@@ -34,12 +34,20 @@ O chaveamento circular (*round-robin*) é um dos algoritmos mais antigos, simple
 Vale destacar que a escolha da duração do *quantum* é importante. Se o o *quantum* for muito pequeno haverão muitas trocas de contexto, diminuindo a eficiência da CPU. Em contrapartida, se o *quantum* for muito grande, o tempo de resposta pode ser comprometido.
 
 #### Escalonamento por prioridade
+Nesse algoritmo é atribuído a cada processo um nível de prioridade. Os processos prontos com maior prioridade são executados primeiro.
+As prioridades dos processos podem ser atribuídas dinâmica ou estaticamente. Para evitar que processos de alta prioridade executem infinitamente, o escalonador pode reduzir a prioridade do processo a cada execução, dessa forma é possível garantir que todos os processos serão executados em algum momento.
+
+![[escalonamentoprioridade.png]]
 
 #### Múltiplas filas
+No algoritmo de múltiplas filas os processos são organizados em classes de prioridades, cada uma das classes possui *quanta* diferentes. Dessa forma é possível deixar processos *CPU bound* executarem por mais tempo, diminuindo o número de chaveamentos necessários, enquanto os demais processos continuam com um *quantum* mais curto, mantendo um bom tempo de resposta.
+A cada vez que um processo é executado e suspenso ele recebe mais tempo de execução e sua prioridade de execução é reduzida. Dessa forma os processos interativos e com *quantum* curtos podem ser executados com mais frequência, e os processos que necessitam de mais tempo de CPU são executados com menos frequência, porém quanto são executados eles possuem uma parcela maior de tempo da CPU.
 
 #### Processo mais curto em seguida
+Esse algoritmo seque o mesmo princípio do *tarefa mais curta primeiro* dos sistemas em lote. Porém para processos interativos geralmente não se conhece o tempo de execução *a priori*, portanto é necessário fazer uma estimativa de tempo. É com base nessa estimativa que os processos são escalonados.
 
 #### Escalonamento garantido
+Nesse algoritmo a ideia é apenas dividir de maneira proporcional o tempo de CPU para cada processo
 
 #### Escalonamento por loteria
 
