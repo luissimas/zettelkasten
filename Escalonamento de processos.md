@@ -47,14 +47,17 @@ A cada vez que um processo é executado e suspenso ele recebe mais tempo de exec
 Esse algoritmo seque o mesmo princípio do *tarefa mais curta primeiro* dos sistemas em lote. Porém para processos interativos geralmente não se conhece o tempo de execução *a priori*, portanto é necessário fazer uma estimativa de tempo. É com base nessa estimativa que os processos são escalonados.
 
 #### Escalonamento garantido
-Nesse algoritmo a ideia é apenas dividir de maneira proporcional o tempo de CPU para cada processo
+Nesse algoritmo a ideia é apenas dividir de maneira proporcional o tempo de CPU para cada usuário utilizando o sistema. Dessa forma é possível determinar com precisão quanto tempo cada processo irá receber de CPU, porém, em termos de utilização de CPU, esta não é uma forma muito eficiente de escalonar processos.
 
 #### Escalonamento por loteria
+No escalonamento por loteria cada processo recebe uma quantidade de "bilhetes", e o escalonador sorteia um dos bilhetes para ser executado em seguida. Dessa forma, quanto mais bilhetes um processo tem, maior a sua chance de ser executado.
 
 #### Fração justa
+O escalonamento por fração justa leva em conta o número de processos de cada usuário e aloca a prioridade dos processos de acordo com o dono. Usuários com mais processos ativos terão maior prioridade no uso da CPU.
 
 ### Sistemas de tempo real
 Sistemas de tempo real geralmente não requerem algoritmos preemptivos, isto ocorre porque nesses sistemas os processos são criados para realizar tarefas curtas e rapidamente se bloquearem, geralmente tornando um algoritmo preemptivo desnecessário.
+Os algoritmos de escalonamento desse tipo de sistema geralmente são baseados em eventos externos que precisam ser atendidos pela execução de algum processo.
 
 ---
 
