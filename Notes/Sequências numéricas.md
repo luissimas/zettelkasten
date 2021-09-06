@@ -1,4 +1,4 @@
-# Sequências Numéricas
+# Sequências numéricas
 Uma sequência de números reais é qualquer sequência de números $a_1, a_2, \dots, a_n$ tal que $a_n \in \mathbb{R} \quad \forall n \in \mathbb{Z}$. Sequências numéricas podem ser denotadas também pela notação $(a_n)_{n\in\mathbb{Z}}$.
 
 > ***Sequência convergente***

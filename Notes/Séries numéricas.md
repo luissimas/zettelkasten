@@ -1,5 +1,5 @@
-# Séries Numéricas
-Uma *série infinita* é a soma de uma [[Sequências Numéricas | sequência]] infinita de números na forma
+# Séries numéricas
+Uma *série infinita* é a soma de uma [[Sequências numéricas | sequência]] infinita de números na forma
 >$$
   \sum_{n=1}^{\infty}{a_n} = a_1 + a_2 + \dots + a_n + \dots
 >$$

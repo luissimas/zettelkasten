@@ -38,6 +38,13 @@ A [[Técnicas dedutivas#Prova indireta (redução ao absurdo) | prova indireta]]
 ## Prova por vacuidade
 Se $A$ é um **conjunto vazio**, a afirmação $\forall x \in A Q(x)$ é sempre verdadeira, qualquer que seja o predicado $Q$. Essa afirmação é verdadeira por *vacuidade*.
 
+## Indução matemática
+> ***Princípio da Indução Matemática***
+> Seja $P(n)$ uma proposição definida sobre $\mathbb{N}$. Suponha que:
+> 1. $P(0)$ é verdade (base da indução)
+> 2. Sempre que $P(k)$ é verdade para algum $k \in \mathbb{N}$, temos que $P(k+1)$ é verdade (passo indutivo)
+> Então, $P(n)$ é verdade para todo $n \in \mathbb{N}$
+
 ---
 
 created: 24/08/2021

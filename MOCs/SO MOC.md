@@ -3,7 +3,7 @@ Uma sequência natural de [[Arq1 MOC | ARQ]], essa disciplina explora os princip
 O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisModernos.pdf | Sistemas Operacionais Modernos]].
 
 ## Introdução
-[[Sistemas Operacionais]]
+[[Sistemas operacionais]]
 
 ## Processos e threads
 [[Processos]]

@@ -7,7 +7,7 @@ Probabilidade é o estudo matemático na quantificação da aleatoriedade de eve
 [[Probabilidade]]
 [[Variáveis aleatórias]]
 [[Análise descritiva e exploratória de dados]]
-[[Inferência Estatística]]
+[[Inferência estatística]]
 [[Regressão Linear]]
 [[ANOVA]]
 
