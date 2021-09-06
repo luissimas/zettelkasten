@@ -5,6 +5,7 @@ A disciplina de cálculo diferencial e séries trata de três grandes tópicos d
 [[Sequências numéricas]]
 [[Séries numéricas]]
 [[Convergência de séries]]
+[[Séries de potências]]
 
 ## Funções de várias variáveis
 
