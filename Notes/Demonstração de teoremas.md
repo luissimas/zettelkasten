@@ -39,6 +39,8 @@ A [[Técnicas dedutivas#Prova indireta (redução ao absurdo) | prova indireta]]
 Se $A$ é um **conjunto vazio**, a afirmação $\forall x \in A Q(x)$ é sempre verdadeira, qualquer que seja o predicado $Q$. Essa afirmação é verdadeira por *vacuidade*.
 
 ## Indução matemática
+A prova por indução matemática consiste em provar a validade do teorema para um caso base e então generalizar essa hipótese para então provar a validade para um caso consecutivo.
+
 > ***Princípio da Indução Matemática***
 > Seja $P(n)$ uma proposição definida sobre $\mathbb{N}$. Suponha que:
 > 1. $P(0)$ é verdade (base da indução)
