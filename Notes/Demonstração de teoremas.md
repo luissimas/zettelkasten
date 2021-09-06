@@ -48,5 +48,35 @@ A prova por indução matemática consiste em provar a validade do teorema para 
 > Então, $P(n)$ é verdade para todo $n \in \mathbb{N}$
 
 ---
+Vamos provar por indução que para todo $n \geq 0$ é verdade que $1+3+5+\dots+(2n+1) = (n+1)^2$.
+Tomando como base da indução $k=0$ segue que: $2 \cdot 0 + 1 = (0 + 1)^2 = 1$. Portanto o teorema é válido para $n=0$.
+Para o passo indutivo vamos assumir como verdadeira a hipótese $1+3+5+\dots+(k+1)^2$. Primeiro reescrevemos: $(k+1)^2 = k^2 + 2k + 1$. Para provar a validade de $P(k+1)$, ou seja, provar a que $1+3+5+\dots+(2(k+1)+1) = ((k+1) + 1)^2$, vamos primeiro reescrever a expressão considerando o fato de que o antecessor de $k + 1$ é $k$, dessa forma:
+$$
+\begin{aligned}
+  1+3+5+\dots+(2(k+1)+1)&=((k+1) + 1)^2\\
+  1+3+5+\dots+(2k+1)+(2(k+1)+1)&=((k+1) + 1)^2\\
+  1+3+5+\dots+(2k+1)+(2k+3)&=((k+1) + 1)^2
+\end{aligned}
+$$
+Expandindo a expressão da direita e reagrupando os termos obtemos:
+$$
+\begin{aligned}
+  1+3+5+\dots+(2k+1)+(2k+3)&=(k+2)^2\\
+  1+3+5+\dots+(2k+1)+(2k+3)&=k^2+4k+4\\
+  1+3+5+\dots+(2k+1)+(2k+3)&=k^2+2k+1+(2k+3)
+\end{aligned}
+$$
+Subtraindo $2k + 3$ em ambos os lados da expressão obtemos:
+$$
+\begin{aligned}
+  1+3+5+\dots+(2k+1)+(2k+3)-(2k+3)&=k^2+2k+1+(2k+3)-(2k+3)\\
+  1+3+5+\dots+(2k+1)&=k^2+2k+1\\
+  1+3+5+\dots+(2k+1)&=(k+1)^2
+\end{aligned}
+$$
+Que é justamente a hipótese tomada para o passo indutivo. Sendo assim, prova-se a validade do passo indutivo.
+Portando, para todo número natural $n$ tem-se que $1+3+5+\dots+(2n+1) = (n+1)^2$. 
+
+---
 
 created: 24/08/2021
