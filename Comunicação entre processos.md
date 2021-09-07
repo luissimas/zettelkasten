@@ -30,6 +30,7 @@ Nessa solução são usadas duas rotinas `enter_region` e `leave_region`. A cham
 Uma possibilidade de implementação dessa solução é usando uma instrução `TSL` *(Test and Set Lock)* que verifica se o valor da trava `LOCK` era `0` e, em caso afirmativo, atribui um valor diferente de `0` para a trava. O importante aqui é que a instrução `TSL` é atômica, ou seja, é de fato uma única instrução executada pelo processador implementada em nível de hardware. Dessa forma não é possível haver condições de corrida ao verificar e atualizar a trava.
 
 ## Sleep/Wake up
+Esse tipo de solução é parecida com as soluções de espera ocupada, porém, ao invés de entrar em um laço de espera, os processos que estão na fila para entrar na região crítica são bloqueados pela chamada de systema `sleep` e desbloqueados por uma chamada `wakeup` quando puderem entrar na região.
 
 ## Semáforos
 
