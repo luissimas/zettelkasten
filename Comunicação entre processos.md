@@ -1,6 +1,6 @@
 # Comunicação entre processos
 [[Processos]] sempre precisam se comunicar, essa comunicação deve ser bem definida e estruturada de maneira a garantir que haja um bom desempenho e, principalmente, que os processos não entrem em *condições de corrida*. Condições de corrida ocorrem quando dois ou mais processos estão lendo ou escrevendo dados em um espaço de memória compartilhado e o resultado final depende de qual processo executa e quando ele executa.
-Uma maneira de evitar as condições de corrida, isto é, atingir a **exclusão mútua** no acesso a áreas de memória compartilhadas, é através da implementação do conceito de **regiões críticas**. A parte do programa executado por um processos onde a memória compartilhada é acessada ou onde podem ocorrer quaisquer condições de corrida é chamada de **região crítica**.
+Uma maneira de evitar as condições de corrida, isto é, atingir a **exclusão mútua** no acesso a áreas de memória compartilhadas, é através da implementação do conceito de **regiões críticas**. Região crítica é o nome dado a qualquer parte do programa executado por um processos onde a memória compartilhada é acessada ou onde podem ocorrer quaisquer condições de corrida.
 Uma boa solução utilizando o conceito de região crítica precisa estar em conformidade com quatro condições:
 
 1. Dois processos jamais podem estar simultaneamente dentro de suas regiões críticas.
@@ -11,6 +11,13 @@ Uma boa solução utilizando o conceito de região crítica precisa estar em con
 ![[regiaocritica.png]]
 
 ## Busy wait
+### Desabilitando interrupções
+Quando um processo entra em sua região crítica ele desabilita todas as interrupções do sistema (inclusive as interrupções de clock), dessa forma ele não pode ser interrompido até finalizar a operação.
+O problema dessa solução é que ela funciona apenas para sistemas com apenas uma CPU. Em sistemas multiprocessados desabilitar as interrupções de uma CPU não impede que processos sendo executados em outras CPUs entrem na região crítica enquanto outro processo já está nela.
+
+### Variáveis de trava
+### Alternância explícita
+### Solução de Peterson
 
 ## Sleep/Wake up
 
