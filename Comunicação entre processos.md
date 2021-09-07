@@ -39,9 +39,9 @@ A operação `down` em um semáforo é uma tentativa de uso de algum recurso. A 
 A operação `up` em um semáforo incrementa o valor atual, indicando que algum recurso foi liberado. Se há processos dormindo nesse semáforo, o a operação escolhe um deles e o acorda (permitindo que o processo acordado complete a operação `down` e decremente o semáforo).
 Um semáforo usado especificamente para a exclusão mútua do acesso uma região crítica possui apenas dois valores possíveis `0` ou `1`. Esse tipo de semáforo é chamado de *mutex*.
 
-## Monitores
-
 ## Passagem de mensagem
+A troca de mensagens permite a comunicação de processos não só em uma mesma máquina, mas também em um ambiente de sistemas distribuídos.
+Essa solução usa duas operações primitivas `send` e `receive`, geralmente implementadas como chamadas de sistema.
 
 ---
 
