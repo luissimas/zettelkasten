@@ -33,6 +33,10 @@ Uma possibilidade de implementação dessa solução é usando uma instrução `
 Esse tipo de solução é parecida com as soluções de espera ocupada, porém, ao invés de entrar em um laço de espera, os processos que estão na fila para entrar na região crítica são bloqueados pela chamada de systema `sleep` e desbloqueados por uma chamada `wakeup` quando puderem entrar na região.
 
 ## Semáforos
+Semáforos utilizam as primitivas de *sleep/wake up*, mas fazem isso de uma forma diferente. De forma geral semáforo é uma variável utilizada para controlar o acesso a recursos compartilhados (originalmente utilizada para armazenar o número de *wake ups* armazenados para uso futuro). Se uma variável semáforo tem o valor `0`, isso indica que não o recurso não está disponível, caso contrário há algum recurso livre e existem um ou mais *wake ups* a serem executados.
+Semáforos possuem duas operações `down` e `up`, ambas generalizações das operações `sleep` e `wakeup`. É importante destacar que essas operações são implementadas como uma única instrução **atômica**, garantindo que se uma operação de semáforo tenha começado, ela não será interrompida. Essas operações geralmente são implementadas como **chamadas de sistema**, permitindo que o núcleo desabilite as interrupções enquanto está verificando o semáforo. Além disso é possível ainda proteger os semáforos com instruções `TSL`.
+A operação `down` em um semáforo é uma tentativa de uso de algum recurso. A operação verifica se o valor atual é maior do que `0`, se esse for o caso então o valor do semáforo é decrementado e a execução continua. Se o valor do semáforo for `0` em uma operação `down`, o processo é colocado para dormir **sem completar** o `down`.
+A operação `up` em um semáforo incrementa o valor atual, indicando que algum recurso foi liberado. Se há processos dormindo nesse semáforo, o a operação escolhe um deles e o acorda (permitindo que o processo acordado complete a operação `down` e decremente o semáforo).
 
 ## Monitores
 
