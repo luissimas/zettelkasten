@@ -1,7 +1,9 @@
 # Convergência de séries
 Uma forma imediata de verificar se uma [[Séries numéricas | série]] diverge ou converge é verificar se seu termo geral $a_n$ converge a $0$.
 
+> ***Critério do termo geral***
 > Dada uma série $S = \displaystyle\sum_{n=1}^{\infty}{a_n}$. Se $S$ converge, então $\displaystyle\lim_{n \to \infty} a_n = 0$.
+
 Note que a recíproca dessa condição não é válida, ou seja, existem sequências convergem a $0$ cuja soma não é convergente.
 
 ## Critérios de convergência
