@@ -3,7 +3,7 @@ Nascido em 28 de julho de 1920, em Himmelhof, um distrito de Viena, Karl Raimund
 
 ![[Popper.jpg]]
 
-Popper ficou conhecido principalmente por seus artigos e livros polêmicos e estimulantes, com posições fortes.  
+Popper ficou conhecido principalmente por seus artigos e livros polêmicos e estimulantes, com posições fortes tanto na área política quanto (e principalmente) na [[FIL MOC | filosofia da ciência]].
 
 ---
 

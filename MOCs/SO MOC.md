@@ -10,6 +10,7 @@ O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisMode
 [[Threads]]
 [[Escalonamento de processos]]
 [[Comunicação entre processos]]
+[[Deadlocks]]
 
 ## Gerenciamento de memória
 
