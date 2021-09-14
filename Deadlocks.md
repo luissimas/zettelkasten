@@ -26,8 +26,8 @@ O método de detecção e recuperação busca primariamente desenvolver métodos
 Os algoritmos de detecção são baseados em grafos e matrizes, levando em conta quais recursos estão alocados para quais processos e também quais solicitações de recursos estão pendentes no sistema. Esses algoritmos são computacionalmente caros, pois envolvem verificar todos os processos sendo executados na máquina. Por essa razão, geralmente os algoritmos de detecção são executados em um intervalo periódico longo (talvez alguns minutos) ou então quando o uso da CPU cai abaixo de algum limite estipulado.
 Após a detecção de um *deadlock*, é necessário ter mecanismos para recuperar o sistema e sair desse estado de impasse. Infelizmente, nenhuma das soluções para recuperação de *deadlocks* é muito atrativa. Todas tem seus prós e, especialmente, seus contras.
 
-1. Preempção:
-2. Retrocesso (rollback):
+1. Preempção: Retirar o recurso temporariamente de um processo e então entregá-lo a outro processo que o solicitou. Essa solução geralmente é muito difícil ou até mesmo impossível, pela natureza não preemptiva dos recursos concedidos.
+2. Retrocesso (rollback): Os processos podem gerar checkpoints periodicamente, salvando seu estado em um arquivo utilizado posteriormente para a restauração do processo a um determinado ponto de execução.
 3. Eliminação de processos:
 
 ### Evitar dinamicamente
