@@ -36,7 +36,7 @@ Para esse tipo de solução, é necessário saber a priori quais recursos cada p
 O principal problema dessa implementação é que é impossível saber com precisão qual a necessidade máxima de recursos de um processo. Além disso, o número de processos e até mesmo de recursos é dinâmico no sistema, e podem variar no meio da execução de processos. Dessa forma, apesar de ser teoricamente excelente, esse tipo de solução não é aplicada na prática.
 
 ### Prevenção estrutural
-A melhor maneira de evitar *deadlocks* é eliminar diretamente as condições que os tornam possíveis, tornando-os assim estruturalmente impossíveis de acontecer
+A melhor maneira de evitar *deadlocks* é eliminar diretamente as condições que os tornam possíveis, tornando sua ocorrência estruturalmente impossível.
 
 ---
 
