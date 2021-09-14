@@ -15,6 +15,18 @@ Antes de tudo, é importante definir o que são de fato os recursos. Nesse conte
 Existem dois tipos de recursos: **preemptíveis** e **não preemptíveis**. Recursos preemptíveis são aqueles que podem ser retirados do processo sem causar prejuízo algum. A memória é um exemplo de recurso preemptível (graças ao sistema de gerenciamento de memória e paginação). Recursos não preemptíveis são aqueles que não podem ser retirados do processo sem potencialmente causar prejuízos. Gravadores de CD e impressoras são exemplos de recursos não preemptíveis.
 Geralmente *deadlocks* envolvem recursos **não preemptíveis**, pois não é possível realocar os recursos sem causar prejuízos aos processos, gerando um impasse.
 
+## Solucões
+Em geral, existem quatro maneiras de lidar com *deadlocks*:
+
+### Ignorar o problema
+Ignorar o problema é de fato a solução mais simples, e dependendo do caso pode até ser a solução mais razoável. *Deadlocks* são extremamente difíceis de se detectar e tratar, e dependendo da frequência com a qual eles ocorrem em um sistema, é razoável apenas ignorar o problema.
+
+### Detecção e recuperação
+
+### Evitar dinamicamente
+
+### Prevenção estrutural
+
 ---
 
 created: 14/09/2021
