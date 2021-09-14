@@ -28,11 +28,15 @@ Após a detecção de um *deadlock*, é necessário ter mecanismos para recupera
 
 1. Preempção: Retirar o recurso temporariamente de um processo e então entregá-lo a outro processo que o solicitou. Essa solução geralmente é muito difícil ou até mesmo impossível, pela natureza não preemptiva dos recursos concedidos.
 2. Retrocesso (rollback): Os processos podem gerar checkpoints periodicamente, salvando seu estado em um arquivo utilizado posteriormente para a restauração do processo a um determinado ponto de execução.
-3. Eliminação de processos:
+3. Eliminação de processos: Matar os processos presos no ciclo de deadlock até que os outros processos possam seguir sua execução. Essa é a forma mais simples (e bruta) de resolver o problema, mas claramente não é uma boa alternativa.
 
 ### Evitar dinamicamente
+Esse método visa evitar completamente os *deadlocks* através de uma alocação cuidadosa dos recursos aos processos. Se determinadas informações estiverem disponíveis, é possível prever possíveis *deadlocks* e então decidir se é seguro conceder ou não um recurso solicitado por um processo naquele instante.
+Para esse tipo de solução, é necessário saber a priori quais recursos cada processo pode utilizar e em qual quantidade ele pode fazê-lo. Com base nessa informação e na quantidade de recursos disponíveis, o sistema operacional pode saber como responder a uma solicitação por um recurso de maneira a evitar que seja possível a ocorrência de um *deadlock*.
+O principal problema dessa implementação é que é impossível saber com precisão qual a necessidade máxima de recursos de um processo. Além disso, o número de processos e até mesmo de recursos é dinâmico no sistema, e podem variar no meio da execução de processos. Dessa forma, apesar de ser teoricamente excelente, esse tipo de solução não é aplicada na prática.
 
 ### Prevenção estrutural
+A melhor maneira de evitar *deadlocks* é eliminar diretamente as condições que os tornam possíveis, tornando-os assim estruturalmente impossíveis de acontecer
 
 ---
 
