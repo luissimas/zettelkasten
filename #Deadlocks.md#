@@ -5,10 +5,10 @@
 
 De maneira geral, quatro condições devem ser satisfeitas para haver um impasse:
 
-1. Exclusão mútua. Cada recurso pode ser utilizado por apenas um processo por vez
-2. Posse e espera. Processos que já possuem algum recurso podem solicitar outros recursos sem liberar os anteriores.
-3. Não preempção. Recursos concedidos antes não podem ser retirados de um processo, eles precisam ser explicitamente liberados.
-4. Espera circular. Deve haver uma lista circular de dois ou mais processos, cada um deles esperando por um recurso de posse do membro seguinte da cadeia.
+1. Exclusão mútua: Cada recurso pode ser utilizado por apenas um processo por vez
+2. Posse e espera: Processos que já possuem algum recurso podem solicitar outros recursos sem liberar os anteriores.
+3. Não preempção: Recursos concedidos antes não podem ser retirados de um processo, eles precisam ser explicitamente liberados.
+4. Espera circular: Deve haver uma lista circular de dois ou mais processos, cada um deles esperando por um recurso de posse do membro seguinte da cadeia.
 
 ## Recursos
 Antes de tudo, é importante definir o que são de fato os recursos. Nesse contexto, recursos são qualquer coisa que precisa ser solicitada, usada e liberada após um tempo. Impressoras, áreas de memória compartilhada, dispositivos de hardware e outros são todos exemplos de recursos.
@@ -23,6 +23,12 @@ Ignorar o problema é de fato a solução mais simples, e dependendo do caso pod
 
 ### Detecção e recuperação
 O método de detecção e recuperação busca primariamente desenvolver métodos para detectar *deadlocks* e então tomar alguma medida para remediar a situação.
+Os algoritmos de detecção são baseados em grafos e matrizes, levando em conta quais recursos estão alocados para quais processos e também quais solicitações de recursos estão pendentes no sistema. Esses algoritmos são computacionalmente caros, pois envolvem verificar todos os processos sendo executados na máquina. Por essa razão, geralmente os algoritmos de detecção são executados em um intervalo periódico longo (talvez alguns minutos) ou então quando o uso da CPU cai abaixo de algum limite estipulado.
+Após a detecção de um *deadlock*, é necessário ter mecanismos para recuperar o sistema e sair desse estado de impasse. Infelizmente, nenhuma das soluções para recuperação de *deadlocks* é muito atrativa. Todas tem seus prós e, especialmente, seus contras.
+
+1. Preempção: Retirar o recurso temporariamente de um processo e então entregá-lo a outro processo que o solicitou. Essa solução geralmente é muito difícil ou qu
+2. Retrocesso (rollback):
+3. Eliminação de processos:
 
 ### Evitar dinamicamente
 
