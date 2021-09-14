@@ -37,7 +37,10 @@ O principal problema dessa implementação é que é impossível saber com preci
 
 ### Prevenção estrutural
 A melhor maneira de evitar *deadlocks* é eliminar diretamente as condições que os tornam possíveis, tornando sua ocorrência estruturalmente impossível.
-A condição de exclusão mútua pode ser evitada utilizando spooling e garantindo que apenas daemons específicos para cada recurso interajam diretamente com ele.
+A condição de exclusão mútua pode ser evitada utilizando spooling e garantindo que apenas daemons específicos para cada recurso interajam diretamente com ele. Essa solução pode funcionar para alguns recursos específicos, mas em alguns casos só carrega a possibilidade de *deadlock* para outras regiões.
+A condição de posse e espera poderia ser evitada garantindo que os processos solicitassem por todos os recursos antes de iniciar sua execução. Dessa forma, não há a possibilidade de um processo fazer outra solicitação por recursos durante a execução. O problema dessa solução é que não é possível saber quais recursos serão necessários antes da execução do processo. Além disso, essa é uma alternativa muito ineficiente do ponto de vista de alocação dos recursos.
+A condição de não preempção pode ser evitada através da virtualização de alguns recursos, utilizando o disco para armazenar as solicitações ao recurso real e permitindo que apenas um daemon interaja diretamente com o recurso. Essa abordagem funciona em alguns casos, porém há recursos que não podem ser virtualizados dessa forma.
+A condição de espera circular pode ser evitada de algumas maneiras diferentes. A primeira maneira seria restringir os processos a poderem ter apenas um recurso alocado de cada vez, mas isso é inviável para a maioria dos processos. Uma outra solução seria categorizar cada tipo de recurso no sistema e então estabelecer regras de alocação para impossibilitar a ocorrência de ciclos.
 
 ---
 
