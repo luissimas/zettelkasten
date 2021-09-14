@@ -1,0 +1,33 @@
+# Deadlocks
+*Deadlocks* são um dos principais problemas de [[Comunicação entre processos | IPC]]. Geralmente um processo precisa de acesso exclusivo não somente a um recurso, mas a vários. Com a implementação de mecanismos de exclusão mútua é possível haver casos em que um processo `A` esteja aguardando por um recurso `R` que está alocado para o processo `B`, que por sua vez esteja aguardando por um recurso `E` que está alocado ao processo `A`. Nessa situacão ambos os processos ficariam esperando eternamente sem poder avançar, damos a esse tipo de situação o nome de **impasse (deadlock)**.
+
+> Um conjunto de processos estará em situação de impasse se cada processo no conjunto estiver esperando por um evento que apenas outro processo no conjunto pode causar.
+
+De maneira geral, quatro condições devem ser satisfeitas para haver um impasse:
+
+1. Exclusão mútua. Cada recurso pode ser utilizado por apenas um processo por vez
+2. Posse e espera. Processos que já possuem algum recurso podem solicitar outros recursos sem liberar os anteriores.
+3. Não preempção. Recursos concedidos antes não podem ser retirados de um processo, eles precisam ser explicitamente liberados.
+4. Espera circular. Deve haver uma lista circular de dois ou mais processos, cada um deles esperando por um recurso de posse do membro seguinte da cadeia.
+
+## Recursos
+Antes de tudo, é importante definir o que são de fato os recursos. Nesse contexto, recursos são qualquer coisa que precisa ser solicitada, usada e liberada após um tempo. Impressoras, áreas de memória compartilhada, dispositivos de hardware e outros são todos exemplos de recursos.
+Existem dois tipos de recursos: **preemptíveis** e **não preemptíveis**. Recursos preemptíveis são aqueles que podem ser retirados do processo sem causar prejuízo algum. A memória é um exemplo de recurso preemptível (graças ao sistema de gerenciamento de memória e paginação). Recursos não preemptíveis são aqueles que não podem ser retirados do processo sem potencialmente causar prejuízos. Gravadores de CD e impressoras são exemplos de recursos não preemptíveis.
+Geralmente *deadlocks* envolvem recursos **não preemptíveis**, pois não é possível realocar os recursos sem causar prejuízos aos processos, gerando um impasse.
+
+## Solucões
+Em geral, existem quatro maneiras de lidar com *deadlocks*:
+
+### Ignorar o problema
+Ignorar o problema é de fato a solução mais simples, e dependendo do caso pode até ser a solução mais razoável. *Deadlocks* são extremamente difíceis de se detectar e tratar, e dependendo da frequência com a qual eles ocorrem em um sistema, é razoável apenas ignorar o problema.
+
+### Detecção e recuperação
+O método de detecção e recuperação busca primariamente desenvolver métodos para detectar *deadlocks* e então tomar alguma medida para remediar a situação.
+
+### Evitar dinamicamente
+
+### Prevenção estrutural
+
+---
+
+created: 14/09/2021
