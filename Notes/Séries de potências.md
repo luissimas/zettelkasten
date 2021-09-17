@@ -16,7 +16,6 @@ As séries de potência possuem um formato atrativo para a aplicação do [[Crit
 Dada uma série de potências $\displaystyle\sum_{n=0}^{\infty}{c_n(x-x_0)^n}$, com $\displaystyle c_n \neq 0$. Se $\displaystyle \lim_{n\to\infty} \frac{|c_{n+1}|}{|c_n|} = L$. Então o **raio de convergência** $R$ é dado por $\displaystyle R=\frac{1}{L}$. Note que aqui adota-se como convenção que $\displaystyle \frac{1}{\infty} = 0$ e $\displaystyle \frac{1}{0} = \infty$.
 
 ## Integração e derivação termo a termo
-
 Dada uma série de potências $\displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$ com um raio de converência $R > 0$. Seja $I$ o intervalo de convergência da série. Com base nisso, podemos relacionar a série com uma **função real** $f$ tal que:
 
 $$
@@ -26,11 +25,11 @@ $$
 \end{aligned}
 $$
 
-Com base nessa relação é possível tirar as seguintes conclusões:
+Essa função $f$ é contínua em todo o intervalo no qual a série converge. Com base nessa relação é possível tirar as seguintes conclusões:
 
 1. $f$ é **derivável** em $]x_0 - R, x_0 + R[$. E sua derivada é dada por:
 $$
-f'(x) = \sum_{n=0}^{\infty}{n \cdot c_n(x-x_0)^{n-1}}
+f'(x) = \sum_{n=1}^{\infty}{n \cdot c_n(x-x_0)^{n-1}}
 $$
 
 2. $f$ é **integrável** e sua primitiva é dada por:
