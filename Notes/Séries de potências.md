@@ -16,7 +16,7 @@ As séries de potência possuem um formato atrativo para a aplicação do [[Crit
 Dada uma série de potências $\displaystyle\sum_{n=0}^{\infty}{c_n(x-x_0)^n}$, com $\displaystyle c_n \neq 0$. Se $\displaystyle \lim_{n\to\infty} \frac{|c_{n+1}|}{|c_n|} = L$. Então o **raio de convergência** $R$ é dado por $\displaystyle R=\frac{1}{L}$. Note que aqui adota-se como convenção que $\displaystyle \frac{1}{\infty} = 0$ e $\displaystyle \frac{1}{0} = \infty$.
 
 ## Integração e derivação termo a termo
-Dada uma série de potências $\displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$ com um raio de converência $R > 0$. Seja $I$ o intervalo de convergência da série. Com base nisso, podemos relacionar a série com uma **função real** $f$ tal que:
+Dada uma série de potências $\displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$ com um raio de convergência $R > 0$. Seja $I$ o intervalo de convergência da série. Com base nisso, podemos relacionar a série com uma **função real** $f$ tal que:
 
 $$
 \begin{aligned}
