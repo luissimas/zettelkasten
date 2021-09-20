@@ -1,6 +1,7 @@
 # Relações
 Uma relação $R$ é um [[Conjuntos|conjunto]] de *tuplas* $(a_1,a_2, \dots, a_n)$ com $a_1 \in A_1$, $a_2 \in A_2$, $\dots$, $a_n \in A_n$. Note que $R$ é necessariamente um subconjunto do conjunto definido pelo produto cartesiano [[Operações em conjuntos|produto cartesiano]] $A_1 \times A_2 \times \dots \times A_n$ Essas tuplas de objetos são relacionadas através de uma **lei de associação**.
 As relações compostas por *pares* de elementos, ou seja, apenas dois elementos por tupla, são chamadas de *relações binárias.* Dessa forma, $x R y$ indica que o par ordenado $(x,y)$ satisfaz a relação $R$.
+Se uma relação associa elementos de um mesmo conjunto, esta é chamada de *autorrelação*.
 
 ## Domínio
 O *domínio* de uma relação $R$ é o conjunto de todos os **primeiros** elementos dos pares ordenados que estão em $R$.
@@ -25,6 +26,24 @@ Os elementos de $A$ e $B$ são representados em dois *discos disjuntos* e são i
 
 ### Grafo orientado para uma autorrelação
 Essa representação é usada para representar relações entre os elementos de um mesmo conjunto. Os elementos do conjunto são representados por *vértices* no grafo e são inseridas setas de um elemento ao outro caso eles estabeleçam uma relação.
+
+## Propriedades das autorrelações
+As relações podem apresentar propriedades muito importantes para suas aplicações em problemas computacionais.
+
+### Reflexiva
+Dada uma relação $R$ definida em um conjunto $A$, $R$ é **reflexiva** se **para todo** $x \in A$ temos $x R x$, ou seja, se **todo** elemento de $A$ está relacionado a ele mesmo.
+
+### Antirreflexiva
+Dada uma relação $R$ definida em um conjunto $A$, $R$ é **antirreflexiva** (ou irreflexiva) se **para todo** $x \in A$ temos $x \not{R} x$, ou seja, se **nenhum** elemento de $A$ está relacionado a ele mesmo.
+
+### Simétrica
+Dada uma relação $R$ definida em um conjunto $A$, $R$ é **simétrica** se **para todo** $x, y \in A$ temos $x R y \implies y R x$.
+
+### Antissimétrica
+Dada uma relação $R$ definida em um conjunto $A$, $R$ é **antissimétrica** se **para todo** $x, y \in A$ temos $x R y \land y R x \implies x = y$.
+
+### Transitiva
+Dada uma relação $R$ definida em um conjunto $A$, $R$ é **transitiva** se **para todo** $x, y, z \in A$ temos $x R y \land y R z \implies x R z$.
 
 ---
 created: 17/09/2021

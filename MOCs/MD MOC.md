@@ -3,7 +3,9 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 
 [[Conjuntos]]
 [[Operações em conjuntos]]
+
 [[Demonstração de teoremas]]
+
 [[Relações]]
 
 ## Funções
