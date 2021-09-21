@@ -13,6 +13,8 @@ O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisMode
 [[Deadlocks]]
 
 ## Gerenciamento de memória
+[[Gerenciamento de memória]]
+[[Memória virtual]]
 
 ## Sistema de arquivos
 
