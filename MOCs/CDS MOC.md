@@ -6,6 +6,7 @@ A disciplina de cálculo diferencial e séries trata de três grandes tópicos d
 [[Séries numéricas]]
 [[Convergência de séries]]
 [[Séries de potências]]
+[[Séries de Taylor]]
 
 ## Funções de várias variáveis
 

@@ -27,7 +27,7 @@ $$
 
 Essa função $f$ é contínua em todo o intervalo no qual a série converge. Com base nessa relação é possível tirar as seguintes conclusões:
 
-1. $f$ é **derivável** em $]x_0 - R, x_0 + R[$. E sua derivada é dada por:
+1. $f$ é **infinitamente derivável** em $]x_0 - R, x_0 + R[$. E sua derivada é dada por:
 $$
 f'(x) = \sum_{n=1}^{\infty}{n \cdot c_n(x-x_0)^{n-1}}
 $$
@@ -38,6 +38,8 @@ $$
 $$
 
 3. Se $\displaystyle \displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$ for convergente em $x_0 \pm R$, ou seja, se a série for **convergente** em alguma das **extremidades** do intervalo, então $f$ é **contínua** em $x_0 \pm R$.
+
+Note então que, como consequência do item 3, após derivar ou integrar a série é necessário verificar novamente a convergência nas extremidades do intervalo.
 
 ---
 
