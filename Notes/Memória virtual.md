@@ -20,10 +20,14 @@ Cada entrada em uma tabela de páginas apresenta algumas informações important
 
 Os bits de proteção indicam as permissões de acesso àquela página virtual, geralmente indicando escrita e leitura. É armazenado também um bit que indica se a página foi alterada na memória principal, ele é útil para decidir se é necessário atualizar a página armazenada no disco. Outro bit importante é aquele que indica se a página está sendo referenciada, seu valor é usado principalmente pelos algoritmos de substituição de página, pois é mais vantajoso substituir páginas que não estão sendo utilizadas na memória principal.
 
-Veja que nesse processo de tradução as páginas sempre são acessadas através da memória principal, e isso pode comprometer o desempenho geral do sistema.
-Para otimizar o processo de tradução de endereços, é implementada uma [[Memória cache|memória cache]], chamada de *Translation Lookup Buffer (TLB)*, para armazenar exclusivamente os endereços virtuais e a tradução correspondente. Com a introdução dessa nova memória cache, é necessária a implementação de novas políticas para gerenciar o seu acesso:
+### TLB (memória associativa)
+Veja que nesse processo de tradução de endereços virtuais as páginas sempre são acessadas através da memória principal, e isso pode comprometer o desempenho geral do sistema. Afim de acelerar o processo de paginação, é comum implementar em nível de hardware um mecanismo para mapear endereços virtuais para endereços físicos, eliminando a necessidade de referenciar as tabelas de página na memória principal para então mapear seu endereço. Esse mecanismo é chamado de *TLB (Translation Lookaside Buffer)*, ou *memória associativa*. Geralmente a *TLB* é implementado dentro da *MMU*, e consiste em um pequeno número de entradas que contém as informações sobre uma página virtual.
 
-![memoriavirtualtlb](../Attachments/Arq1/memoriavirtualtlb.png)
+    ![tlb](../Attachments/SO/tlb.png)
+
+Quando um endereço virtual chega na *MMU*, primeiro é verificado se a página que correspondente já está na *TLB*. Caso a página esteja presente, a tradução de endereço é feita diretamente, sem necessidade de consultar a memória principal. Caso a página não esteja presente na *TLB*, ela é trazida da tabela de páginas da memória e então armazenada na *TLB* para acelerar as consultas futuras.
+
+### Substituição de páginas
 
 ---
 
