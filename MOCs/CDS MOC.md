@@ -9,6 +9,7 @@ A disciplina de cálculo diferencial e séries trata de três grandes tópicos d
 [[Séries de Taylor]]
 
 ## Funções de várias variáveis
+[[Parametrização de curvas planas]]
 
 ## Funções implícitas e funções inversas
 

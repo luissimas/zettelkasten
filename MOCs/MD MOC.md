@@ -7,8 +7,11 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 [[Demonstração de teoremas]]
 
 [[Relações]]
+[[Propriedades das autorrelações]]
+[[Relações de equivalência]]
+[[Relações de ordem]]
 
-## Funções
+[[Funções]]
 
 ## Teoria dos números
 
