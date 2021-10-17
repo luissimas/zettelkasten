@@ -18,4 +18,4 @@ Essa representação geométrica pode não ser muito clara, por conta disso é c
 
 O conjunto de pontos $(x,y) \in D_f$ tais que $f (x,y) = c$, sendo $c$ uma constante real, é chamada de *curva de nível de* $f$ *no nível* $c$.
 
-Note que, enquanto o *gráfico* de $f$ é um subconjunto de $\mathbb{R}^3$, uma curva de nível é um subconjunto do domínio de $f$, portanto é, nesse caso, um subconjunto de $\mathbb{R}^2$, o que torna sua representação fundamentalmente mais simples de ser obtida.
+Note que, enquanto o *gráfico* de $f$ é um subconjunto de $\mathbb{R}^3$, uma curva de nível é um **subconjunto do domínio** de $f$, portanto é, nesse caso, um subconjunto de $\mathbb{R}^2$, o que torna sua representação fundamentalmente mais simples de ser obtida.

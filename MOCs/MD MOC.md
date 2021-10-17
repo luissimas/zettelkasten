@@ -13,6 +13,8 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 
 [[Funções]]
 
+[[Somatórios e produtórios]]
+
 ## Teoria dos números
 
 ## Teoria dos grafos
