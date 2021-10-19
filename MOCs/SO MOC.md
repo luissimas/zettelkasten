@@ -15,8 +15,11 @@ O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisMode
 ## Gerenciamento de memória
 [[Gerenciamento de memória]]
 [[Memória virtual]]
+[[Substituição de páginas]]
 
 ## Sistema de arquivos
+[[Sistema de arquivos]]
+[[Implementação de sistemas de arquivos]]
 
 ## Gerenciamento de IO
 
