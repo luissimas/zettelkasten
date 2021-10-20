@@ -1,0 +1,738 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=prv_Fun_E7_F5es.md 2021.10.13)  13 OCT 2021 10:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_Fun_E7_F5es.md /AUCTEXINPUT{ Fun_E7_F5es.md.tex }
+(./Fun_E7_F5es.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+No file Fun_E7_F5es.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/padawan/.emacs.d/straight/build/auctex/latex/preview.sty
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prtightpage.def
+\PreviewBorder=\dimen148
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count266
+\hfuzz=\dimen149
+(/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.cfg)) (/home/padawan/.emacs.d/straight/build/auctex/latex/prfootnotes.def)
+\pr@snippet=\count267
+\pr@box=\box50
+\pr@output=\toks22
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
+./Fun_E7_F5es.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     S$
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./Fun_E7_F5es.md.tex:6: Preview: Snippet 1 ended.(447828+0x439636).
+<-><->
+      
+l.6 $S$
+       
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Fun_E7_F5es.md.tex:7: Preview: Snippet 2 started.
+<-><->
+      
+l.7 $
+     T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:7: Preview: Snippet 2 ended.(447828+0x473999).
+<-><->
+      
+l.7 $T$
+       
+Not a real error.
+
+[2]
+./Fun_E7_F5es.md.tex:8: Preview: Snippet 3 started.
+<-><->
+      
+l.8 $
+     f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:8: Preview: Snippet 3 ended.(455111+127431x391398).
+<-><->
+      
+l.8 $f$
+       
+Not a real error.
+
+[3]
+./Fun_E7_F5es.md.tex:9: Preview: Snippet 4 started.
+<-><->
+      
+l.9 $
+     S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:9: Preview: Snippet 4 ended.(447828+0x439636).
+<-><->
+      
+l.9 $S$
+       
+Not a real error.
+
+[4]
+./Fun_E7_F5es.md.tex:10: Preview: Snippet 5 started.
+<-><->
+      
+l.10 $
+      T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:10: Preview: Snippet 5 ended.(447828+0x473999).
+<-><->
+      
+l.10 $T$
+        
+Not a real error.
+
+[5]
+./Fun_E7_F5es.md.tex:11: Preview: Snippet 6 started.
+<-><->
+      
+l.11 $
+      f:S \to T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:11: Preview: Snippet 6 ended.(455111+127431x2870599).
+<-><->
+      
+l.11 $f:S \to T$
+                
+Not a real error.
+
+[6]
+./Fun_E7_F5es.md.tex:12: Preview: Snippet 7 started.
+<-><->
+      
+l.12 $
+      S \times T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:12: Preview: Snippet 7 ended.(447828+54613x1714625).
+<-><->
+      
+l.12 $S \times T$
+                 
+Not a real error.
+
+[7]
+./Fun_E7_F5es.md.tex:13: Preview: Snippet 8 started.
+<-><->
+      
+l.13 $
+      S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:13: Preview: Snippet 8 ended.(447828+0x439636).
+<-><->
+      
+l.13 $S$
+        
+Not a real error.
+
+[8]
+./Fun_E7_F5es.md.tex:14: Preview: Snippet 9 started.
+<-><->
+      
+l.14 $
+      S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:14: Preview: Snippet 9 ended.(447828+0x439636).
+<-><->
+      
+l.14 $S$
+        
+Not a real error.
+
+[9]
+./Fun_E7_F5es.md.tex:15: Preview: Snippet 10 started.
+<-><->
+      
+l.15 $
+      T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:15: Preview: Snippet 10 ended.(447828+0x473999).
+<-><->
+      
+l.15 $T$
+        
+Not a real error.
+
+[10]
+./Fun_E7_F5es.md.tex:16: Preview: Snippet 11 started.
+<-><->
+      
+l.16 $
+      (s,t)$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:16: Preview: Snippet 11 ended.(491520+163840x1344853).
+<-><->
+      
+l.16 $(s,t)$
+            
+Not a real error.
+
+[11]
+./Fun_E7_F5es.md.tex:17: Preview: Snippet 12 started.
+<-><->
+      
+l.17 $
+      t$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:17: Preview: Snippet 12 ended.(403098+0x236658).
+<-><->
+      
+l.17 $t$
+        
+Not a real error.
+
+[12]
+./Fun_E7_F5es.md.tex:18: Preview: Snippet 13 started.
+<-><->
+      
+l.18 $
+      s$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:18: Preview: Snippet 13 ended.(282168+0x307200).
+<-><->
+      
+l.18 $s$
+        
+Not a real error.
+
+[13]
+./Fun_E7_F5es.md.tex:19: Preview: Snippet 14 started.
+<-><->
+      
+l.19 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:19: Preview: Snippet 14 ended.(455111+127431x391398).
+<-><->
+      
+l.19 $f$
+        
+Not a real error.
+
+[14]
+./Fun_E7_F5es.md.tex:20: Preview: Snippet 15 started.
+<-><->
+      
+l.20 $
+      s$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:20: Preview: Snippet 15 ended.(282168+0x307200).
+<-><->
+      
+l.20 $s$
+        
+Not a real error.
+
+[15]
+./Fun_E7_F5es.md.tex:21: Preview: Snippet 16 started.
+<-><->
+      
+l.21 $
+      t$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:21: Preview: Snippet 16 ended.(403098+0x236658).
+<-><->
+      
+l.21 $t$
+        
+Not a real error.
+
+[16]
+./Fun_E7_F5es.md.tex:22: Preview: Snippet 17 started.
+<-><->
+      
+l.22 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:22: Preview: Snippet 17 ended.(455111+127431x391398).
+<-><->
+      
+l.22 $f$
+        
+Not a real error.
+
+[17]
+./Fun_E7_F5es.md.tex:23: Preview: Snippet 18 started.
+<-><->
+      
+l.23 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:23: Preview: Snippet 18 ended.(455111+127431x391398).
+<-><->
+      
+l.23 $f$
+        
+Not a real error.
+
+[18]
+./Fun_E7_F5es.md.tex:24: Preview: Snippet 19 started.
+<-><->
+      
+l.24 $
+      s$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:24: Preview: Snippet 19 ended.(282168+0x307200).
+<-><->
+      
+l.24 $s$
+        
+Not a real error.
+
+[19]
+./Fun_E7_F5es.md.tex:25: Preview: Snippet 20 started.
+<-><->
+      
+l.25 $
+      t$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:25: Preview: Snippet 20 ended.(403098+0x236658).
+<-><->
+      
+l.25 $t$
+        
+Not a real error.
+
+[20]
+./Fun_E7_F5es.md.tex:26: Preview: Snippet 21 started.
+<-><->
+      
+l.26 $
+      t = f(s)$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:26: Preview: Snippet 21 ended.(491520+163840x2318788).
+<-><->
+      
+l.26 $t = f(s)$
+               
+Not a real error.
+
+[21]
+./Fun_E7_F5es.md.tex:27: Preview: Snippet 22 started.
+<-><->
+      
+l.27 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:27: Preview: Snippet 22 ended.(455111+127431x391398).
+<-><->
+      
+l.27 $f$
+        
+Not a real error.
+
+[22]
+./Fun_E7_F5es.md.tex:28: Preview: Snippet 23 started.
+<-><->
+      
+l.28 $
+      f: S \to T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:28: Preview: Snippet 23 ended.(455111+127431x2870599).
+<-><->
+      
+l.28 $f: S \to T$
+                 
+Not a real error.
+
+[23]
+./Fun_E7_F5es.md.tex:29: Preview: Snippet 24 started.
+<-><->
+      
+l.29 $
+      T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:29: Preview: Snippet 24 ended.(447828+0x473999).
+<-><->
+      
+l.29 $T$
+        
+Not a real error.
+
+[24]
+./Fun_E7_F5es.md.tex:30: Preview: Snippet 25 started.
+<-><->
+      
+l.30 $
+      S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:30: Preview: Snippet 25 ended.(447828+0x439636).
+<-><->
+      
+l.30 $S$
+        
+Not a real error.
+
+[25]
+./Fun_E7_F5es.md.tex:31: Preview: Snippet 26 started.
+<-><->
+      
+l.31 $
+      f: S \to T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:31: Preview: Snippet 26 ended.(455111+127431x2870599).
+<-><->
+      
+l.31 $f: S \to T$
+                 
+Not a real error.
+
+[26]
+./Fun_E7_F5es.md.tex:32: Preview: Snippet 27 started.
+<-><->
+      
+l.32 $
+      T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:32: Preview: Snippet 27 ended.(447828+0x473999).
+<-><->
+      
+l.32 $T$
+        
+Not a real error.
+
+[27]
+./Fun_E7_F5es.md.tex:33: Preview: Snippet 28 started.
+<-><->
+      
+l.33 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:33: Preview: Snippet 28 ended.(455111+127431x391398).
+<-><->
+      
+l.33 $f$
+        
+Not a real error.
+
+[28]
+./Fun_E7_F5es.md.tex:34: Preview: Snippet 29 started.
+<-><->
+      
+l.34 $
+      S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:34: Preview: Snippet 29 ended.(447828+0x439636).
+<-><->
+      
+l.34 $S$
+        
+Not a real error.
+
+[29]
+./Fun_E7_F5es.md.tex:35: Preview: Snippet 30 started.
+<-><->
+      
+l.35 $
+      S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:35: Preview: Snippet 30 ended.(447828+0x439636).
+<-><->
+      
+l.35 $S$
+        
+Not a real error.
+
+[30]
+./Fun_E7_F5es.md.tex:36: Preview: Snippet 31 started.
+<-><->
+      
+l.36 $
+      T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:36: Preview: Snippet 31 ended.(447828+0x473999).
+<-><->
+      
+l.36 $T$
+        
+Not a real error.
+
+[31]
+./Fun_E7_F5es.md.tex:37: Preview: Snippet 32 started.
+<-><->
+      
+l.37 $
+      f: S \to T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:37: Preview: Snippet 32 ended.(455111+127431x2870599).
+<-><->
+      
+l.37 $f: S \to T$
+                 
+Not a real error.
+
+[32]
+./Fun_E7_F5es.md.tex:38: Preview: Snippet 33 started.
+<-><->
+      
+l.38 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:38: Preview: Snippet 33 ended.(455111+127431x391398).
+<-><->
+      
+l.38 $f$
+        
+Not a real error.
+
+[33]
+./Fun_E7_F5es.md.tex:39: Preview: Snippet 34 started.
+<-><->
+      
+l.39 $
+      f^{-1}$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:39: Preview: Snippet 34 ended.(533465+127431x1095002).
+<-><->
+      
+l.39 $f^{-1}$
+             
+Not a real error.
+
+[34]
+./Fun_E7_F5es.md.tex:40: Preview: Snippet 35 started.
+<-><->
+      
+l.40 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:40: Preview: Snippet 35 ended.(455111+127431x391398).
+<-><->
+      
+l.40 $f$
+        
+Not a real error.
+
+[35]
+./Fun_E7_F5es.md.tex:41: Preview: Snippet 36 started.
+<-><->
+      
+l.41 $
+      f : S \to T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:41: Preview: Snippet 36 ended.(455111+127431x2870599).
+<-><->
+      
+l.41 $f : S \to T$
+                  
+Not a real error.
+
+[36]
+./Fun_E7_F5es.md.tex:42: Preview: Snippet 37 started.
+<-><->
+      
+l.42 $
+      T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:42: Preview: Snippet 37 ended.(447828+0x473999).
+<-><->
+      
+l.42 $T$
+        
+Not a real error.
+
+[37]
+./Fun_E7_F5es.md.tex:43: Preview: Snippet 38 started.
+<-><->
+      
+l.43 $
+      S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:43: Preview: Snippet 38 ended.(447828+0x439636).
+<-><->
+      
+l.43 $S$
+        
+Not a real error.
+
+[38]
+./Fun_E7_F5es.md.tex:44: Preview: Snippet 39 started.
+<-><->
+      
+l.44 $
+      f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:44: Preview: Snippet 39 ended.(455111+127431x391398).
+<-><->
+      
+l.44 $f$
+        
+Not a real error.
+
+[39]
+./Fun_E7_F5es.md.tex:45: Preview: Snippet 40 started.
+<-><->
+      
+l.45 $
+      f : S \to T$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:45: Preview: Snippet 40 ended.(455111+127431x2870599).
+<-><->
+      
+l.45 $f : S \to T$
+                  
+Not a real error.
+
+[40]
+./Fun_E7_F5es.md.tex:46: Preview: Snippet 41 started.
+<-><->
+      
+l.46 $
+      g : T \to V$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:46: Preview: Snippet 41 ended.(447828+127431x2903593).
+<-><->
+      
+l.46 $g : T \to V$
+                  
+Not a real error.
+
+[41]
+./Fun_E7_F5es.md.tex:47: Preview: Snippet 42 started.
+<-><->
+      
+l.47 $
+      g \circ f$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:47: Preview: Snippet 42 ended.(455111+127431x1346442).
+<-><->
+      
+l.47 $g \circ f$
+                
+Not a real error.
+
+[42]
+./Fun_E7_F5es.md.tex:48: Preview: Snippet 43 started.
+<-><->
+      
+l.48 $
+      S$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:48: Preview: Snippet 43 ended.(447828+0x439636).
+<-><->
+      
+l.48 $S$
+        
+Not a real error.
+
+[43]
+./Fun_E7_F5es.md.tex:49: Preview: Snippet 44 started.
+<-><->
+      
+l.49 $
+      V$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:49: Preview: Snippet 44 ended.(447828+0x527929).
+<-><->
+      
+l.49 $V$
+        
+Not a real error.
+
+[44]
+./Fun_E7_F5es.md.tex:50: Preview: Snippet 45 started.
+<-><->
+      
+l.50 $
+      (g \circ f) = g(f(x))$
+Not a real error.
+
+./Fun_E7_F5es.md.tex:50: Preview: Snippet 45 ended.(491520+163840x4851479).
+<-><->
+      
+l.50 $(g \circ f) = g(f(x))$
+                            
+Not a real error.
+
+[45] ) 
+Here is how much of TeX's memory you used:
+ 351 strings out of 477741
+ 7191 string characters out of 5849994
+ 305039 words of memory out of 5000000
+ 19087 multiletter control sequences out of 15000+600000
+ 410657 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,4n,62p,195b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Fun_E7_F5es.md.pdf (45 pages, 49151 bytes).
+PDF statistics:
+ 171 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

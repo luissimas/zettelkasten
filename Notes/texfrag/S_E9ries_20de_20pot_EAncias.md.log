@@ -1,0 +1,588 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=prv_S_E9ries_20de_20pot_EAncias.md 2021.9.29)  29 SEP 2021 09:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_S_E9ries_20de_20pot_EAncias.md /AUCTEXINPUT{ S_E9ries_20de_20pot_EAncias.md.tex }
+(./S_E9ries_20de_20pot_EAncias.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+No file S_E9ries_20de_20pot_EAncias.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/padawan/.emacs.d/straight/build/auctex/latex/preview.sty
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prtightpage.def
+\PreviewBorder=\dimen148
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count266
+\hfuzz=\dimen149
+(/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.cfg)) (/home/padawan/.emacs.d/straight/build/auctex/latex/prfootnotes.def)
+\pr@snippet=\count267
+\pr@box=\box50
+\pr@output=\toks22
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
+./S_E9ries_20de_20pot_EAncias.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     $
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./S_E9ries_20de_20pot_EAncias.md.tex:8: Preview: Snippet 1 ended.(1978647+0x22609920).
+<-><->
+      
+l.8 $$
+      
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./S_E9ries_20de_20pot_EAncias.md.tex:9: Preview: Snippet 2 started.
+<-><->
+      
+l.9 $
+     x_0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:9: Preview: Snippet 2 ended.(282168+98303x668559).
+<-><->
+      
+l.9 $x_0$
+         
+Not a real error.
+
+[2]
+./S_E9ries_20de_20pot_EAncias.md.tex:10: Preview: Snippet 3 started.
+<-><->
+      
+l.10 $
+      x$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:10: Preview: Snippet 3 ended.(282168+0x374556).
+<-><->
+      
+l.10 $x$
+        
+Not a real error.
+
+[3]
+./S_E9ries_20de_20pot_EAncias.md.tex:11: Preview: Snippet 4 started.
+<-><->
+      
+l.11 $
+      R > 0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:11: Preview: Snippet 4 ended.(447828+25623x1704158).
+<-><->
+      
+l.11 $R > 0$
+            
+Not a real error.
+
+[4]
+./S_E9ries_20de_20pot_EAncias.md.tex:12: Preview: Snippet 5 started.
+<-><->
+      
+l.12 $
+      |x-x_0|<R$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:12: Preview: Snippet 5 ended.(491520+163840x3584672).
+<-><->
+      
+l.12 $|x-x_0|<R$
+                
+Not a real error.
+
+[5]
+./S_E9ries_20de_20pot_EAncias.md.tex:13: Preview: Snippet 6 started.
+<-><->
+      
+l.13 $
+      |x-x_0|>R$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:13: Preview: Snippet 6 ended.(491520+163840x3584672).
+<-><->
+      
+l.13 $|x-x_0|>R$
+                
+Not a real error.
+
+[6]
+./S_E9ries_20de_20pot_EAncias.md.tex:14: Preview: Snippet 7 started.
+<-><->
+      
+l.14 $
+      x_0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:14: Preview: Snippet 7 ended.(282168+98303x668559).
+<-><->
+      
+l.14 $x_0$
+          
+Not a real error.
+
+[7]
+./S_E9ries_20de_20pot_EAncias.md.tex:15: Preview: Snippet 8 started.
+<-><->
+      
+l.15 $
+      I = \{x_0\}$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:15: Preview: Snippet 8 ended.(491520+163840x2537239).
+<-><->
+      
+l.15 $I = \{x_0\}$
+                  
+Not a real error.
+
+[8]
+./S_E9ries_20de_20pot_EAncias.md.tex:16: Preview: Snippet 9 started.
+<-><->
+      
+l.16 $
+      R=0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:16: Preview: Snippet 9 ended.(447828+0x1704158).
+<-><->
+      
+l.16 $R=0$
+          
+Not a real error.
+
+[9]
+./S_E9ries_20de_20pot_EAncias.md.tex:17: Preview: Snippet 10 started.
+<-><->
+      
+l.17 $
+      x_0 \in \mathbb{R}$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:17: Preview: Snippet 10 ended.(451470+98303x1942863).
+<-><->
+      
+l.17 $x_0 \in \mathbb{R}$
+                         
+Not a real error.
+
+[10]
+./S_E9ries_20de_20pot_EAncias.md.tex:18: Preview: Snippet 11 started.
+<-><->
+      
+l.18 $
+      I = \mathbb{R}$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:18: Preview: Snippet 11 ended.(451470+0x1686634).
+<-><->
+      
+l.18 $I = \mathbb{R}$
+                     
+Not a real error.
+
+[11]
+./S_E9ries_20de_20pot_EAncias.md.tex:19: Preview: Snippet 12 started.
+<-><->
+      
+l.19 $
+      R=\infty$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:19: Preview: Snippet 12 ended.(447828+0x2031838).
+<-><->
+      
+l.19 $R=\infty$
+               
+Not a real error.
+
+[12]
+./S_E9ries_20de_20pot_EAncias.md.tex:20: Preview: Snippet 13 started.
+<-><->
+      
+l.20 $
+      x_0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:20: Preview: Snippet 13 ended.(282168+98303x668559).
+<-><->
+      
+l.20 $x_0$
+          
+Not a real error.
+
+[13]
+./S_E9ries_20de_20pot_EAncias.md.tex:21: Preview: Snippet 14 started.
+<-><->
+      
+l.21 $
+      \displaystyle\sum_{n=0}^{\infty}{c_n(x-x_0)^n}$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:21: Preview: Snippet 14 ended.(1082257+830854x4447655).
+<-><->
+      
+l.21 ...laystyle\sum_{n=0}^{\infty}{c_n(x-x_0)^n}$
+                                                  
+Not a real error.
+
+[14]
+./S_E9ries_20de_20pot_EAncias.md.tex:22: Preview: Snippet 15 started.
+<-><->
+      
+l.22 $
+      \displaystyle c_n \neq 0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:22: Preview: Snippet 15 ended.(455111+127430x1841832).
+<-><->
+      
+l.22 $\displaystyle c_n \neq 0$
+                               
+Not a real error.
+
+[15]
+./S_E9ries_20de_20pot_EAncias.md.tex:23: Preview: Snippet 16 started.
+<-><->
+      
+l.23 $
+      \displaystyle \lim_{n\to\infty} \frac{|c_{n+1}|}{|c_n|} = L$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:23: Preview: Snippet 16 ended.(934876+613385x4623220).
+<-><->
+      
+l.23 ..._{n\to\infty} \frac{|c_{n+1}|}{|c_n|} = L$
+                                                  
+Not a real error.
+
+[16]
+./S_E9ries_20de_20pot_EAncias.md.tex:24: Preview: Snippet 17 started.
+<-><->
+      
+l.24 $
+      R$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:24: Preview: Snippet 17 ended.(447828+0x502671).
+<-><->
+      
+l.24 $R$
+        
+Not a real error.
+
+[17]
+./S_E9ries_20de_20pot_EAncias.md.tex:25: Preview: Snippet 18 started.
+<-><->
+      
+l.25 $
+      \displaystyle R=\frac{1}{L}$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:25: Preview: Snippet 18 ended.(865699+449545x1979773).
+<-><->
+      
+l.25 $\displaystyle R=\frac{1}{L}$
+                                  
+Not a real error.
+
+[18]
+./S_E9ries_20de_20pot_EAncias.md.tex:26: Preview: Snippet 19 started.
+<-><->
+      
+l.26 $
+      \displaystyle \frac{1}{\infty} = 0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:26: Preview: Snippet 19 ended.(865699+449545x2014134).
+<-><->
+      
+l.26 $\displaystyle \frac{1}{\infty} = 0$
+                                         
+Not a real error.
+
+[19]
+./S_E9ries_20de_20pot_EAncias.md.tex:27: Preview: Snippet 20 started.
+<-><->
+      
+l.27 $
+      \displaystyle \frac{1}{0} = \infty$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:27: Preview: Snippet 20 ended.(865699+449545x2014134).
+<-><->
+      
+l.27 $\displaystyle \frac{1}{0} = \infty$
+                                         
+Not a real error.
+
+[20]
+./S_E9ries_20de_20pot_EAncias.md.tex:28: Preview: Snippet 21 started.
+<-><->
+      
+l.28 $
+      \displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:28: Preview: Snippet 21 ended.(1082257+830854x4447655).
+<-><->
+      
+l.28 ...aystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$
+                                                  
+Not a real error.
+
+[21]
+./S_E9ries_20de_20pot_EAncias.md.tex:29: Preview: Snippet 22 started.
+<-><->
+      
+l.29 $
+      R > 0$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:29: Preview: Snippet 22 ended.(447828+25623x1704158).
+<-><->
+      
+l.29 $R > 0$
+            
+Not a real error.
+
+[22]
+./S_E9ries_20de_20pot_EAncias.md.tex:30: Preview: Snippet 23 started.
+<-><->
+      
+l.30 $
+      I$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:30: Preview: Snippet 23 ended.(447828+0x339512).
+<-><->
+      
+l.30 $I$
+        
+Not a real error.
+
+[23]
+./S_E9ries_20de_20pot_EAncias.md.tex:31: Preview: Snippet 24 started.
+<-><->
+      
+l.31 $
+      f$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:31: Preview: Snippet 24 ended.(455111+127431x391398).
+<-><->
+      
+l.31 $f$
+        
+Not a real error.
+
+[24]
+./S_E9ries_20de_20pot_EAncias.md.tex:32: Preview: Snippet 25 started.
+<-><->
+      
+l.32 $
+      $
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:37: Preview: Snippet 25 ended.(3027223+0x22609920).
+<-><->
+      
+l.37 $$
+       
+Not a real error.
+
+[25]
+./S_E9ries_20de_20pot_EAncias.md.tex:38: Preview: Snippet 26 started.
+<-><->
+      
+l.38 $
+      f$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:38: Preview: Snippet 26 ended.(455111+127431x391398).
+<-><->
+      
+l.38 $f$
+        
+Not a real error.
+
+[26]
+./S_E9ries_20de_20pot_EAncias.md.tex:39: Preview: Snippet 27 started.
+<-><->
+      
+l.39 $
+      f$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:39: Preview: Snippet 27 ended.(455111+127431x391398).
+<-><->
+      
+l.39 $f$
+        
+Not a real error.
+
+[27]
+./S_E9ries_20de_20pot_EAncias.md.tex:40: Preview: Snippet 28 started.
+<-><->
+      
+l.40 $
+      ]x_0 - R, x_0 + R[$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:40: Preview: Snippet 28 ended.(491520+163840x4599799).
+<-><->
+      
+l.40 $]x_0 - R, x_0 + R[$
+                         
+Not a real error.
+
+[28]
+./S_E9ries_20de_20pot_EAncias.md.tex:41: Preview: Snippet 29 started.
+<-><->
+      
+l.41 $
+      $
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:43: Preview: Snippet 29 ended.(1978647+0x22609920).
+<-><->
+      
+l.43 $$
+       
+Not a real error.
+
+[29]
+./S_E9ries_20de_20pot_EAncias.md.tex:44: Preview: Snippet 30 started.
+<-><->
+      
+l.44 $
+      f$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:44: Preview: Snippet 30 ended.(455111+127431x391398).
+<-><->
+      
+l.44 $f$
+        
+Not a real error.
+
+[30]
+./S_E9ries_20de_20pot_EAncias.md.tex:45: Preview: Snippet 31 started.
+<-><->
+      
+l.45 $
+      $
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:47: Preview: Snippet 31 ended.(1978647+0x22609920).
+<-><->
+      
+l.47 $$
+       
+Not a real error.
+
+[31]
+./S_E9ries_20de_20pot_EAncias.md.tex:48: Preview: Snippet 32 started.
+<-><->
+      
+l.48 $
+      \displaystyle \displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:48: Preview: Snippet 32 ended.(1082257+830854x4447655).
+<-><->
+      
+l.48 ...aystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$
+                                                  
+Not a real error.
+
+[32]
+./S_E9ries_20de_20pot_EAncias.md.tex:49: Preview: Snippet 33 started.
+<-><->
+      
+l.49 $
+      x_0 \pm R$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:49: Preview: Snippet 33 ended.(447828+98303x1972220).
+<-><->
+      
+l.49 $x_0 \pm R$
+                
+Not a real error.
+
+[33]
+./S_E9ries_20de_20pot_EAncias.md.tex:50: Preview: Snippet 34 started.
+<-><->
+      
+l.50 $
+      f$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:50: Preview: Snippet 34 ended.(455111+127431x391398).
+<-><->
+      
+l.50 $f$
+        
+Not a real error.
+
+[34]
+./S_E9ries_20de_20pot_EAncias.md.tex:51: Preview: Snippet 35 started.
+<-><->
+      
+l.51 $
+      x_0 \pm R$
+Not a real error.
+
+./S_E9ries_20de_20pot_EAncias.md.tex:51: Preview: Snippet 35 ended.(447828+98303x1972220).
+<-><->
+      
+l.51 $x_0 \pm R$
+                
+Not a real error.
+
+[35] ) 
+Here is how much of TeX's memory you used:
+ 351 strings out of 477741
+ 7271 string characters out of 5849867
+ 306087 words of memory out of 5000000
+ 19087 multiletter control sequences out of 15000+600000
+ 410657 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,8n,62p,227b,126s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on S_E9ries_20de_20pot_EAncias.md.pdf (35 pages, 70605 bytes).
+PDF statistics:
+ 149 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

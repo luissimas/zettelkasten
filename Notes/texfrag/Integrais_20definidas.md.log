@@ -1,0 +1,393 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=prv_Integrais_20definidas.md 2021.9.21)  21 SEP 2021 17:30
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_Integrais_20definidas.md /AUCTEXINPUT{ Integrais_20definidas.md.tex }
+(./Integrais_20definidas.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+No file Integrais_20definidas.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/padawan/.emacs.d/straight/build/auctex/latex/preview.sty
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prtightpage.def
+\PreviewBorder=\dimen148
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count266
+\hfuzz=\dimen149
+(/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.cfg)) (/home/padawan/.emacs.d/straight/build/auctex/latex/prfootnotes.def)
+\pr@snippet=\count267
+\pr@box=\box50
+\pr@output=\toks22
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
+./Integrais_20definidas.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     f$
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./Integrais_20definidas.md.tex:6: Preview: Snippet 1 ended.(455111+127431x391398).
+<-><->
+      
+l.6 $f$
+       
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Integrais_20definidas.md.tex:7: Preview: Snippet 2 started.
+<-><->
+      
+l.7 $
+     f$
+Not a real error.
+
+./Integrais_20definidas.md.tex:7: Preview: Snippet 2 ended.(455111+127431x391398).
+<-><->
+      
+l.7 $f$
+       
+Not a real error.
+
+[2]
+./Integrais_20definidas.md.tex:8: Preview: Snippet 3 started.
+<-><->
+      
+l.8 $
+     f$
+Not a real error.
+
+./Integrais_20definidas.md.tex:8: Preview: Snippet 3 ended.(455111+127431x391398).
+<-><->
+      
+l.8 $f$
+       
+Not a real error.
+
+[3]
+./Integrais_20definidas.md.tex:9: Preview: Snippet 4 started.
+<-><->
+      
+l.9 $
+     0$
+Not a real error.
+
+./Integrais_20definidas.md.tex:9: Preview: Snippet 4 ended.(422343+0x327681).
+<-><->
+      
+l.9 $0$
+       
+Not a real error.
+
+[4]
+./Integrais_20definidas.md.tex:10: Preview: Snippet 5 started.
+<-><->
+      
+l.10 $
+      \displaystyle\int_a^b{f(x)}\,dx$
+Not a real error.
+
+./Integrais_20definidas.md.tex:10: Preview: Snippet 5 ended.(1048584+597113x3128387).
+<-><->
+      
+l.10 $\displaystyle\int_a^b{f(x)}\,dx$
+                                      
+Not a real error.
+
+[5]
+./Integrais_20definidas.md.tex:11: Preview: Snippet 6 started.
+<-><->
+      
+l.11 $
+      f$
+Not a real error.
+
+./Integrais_20definidas.md.tex:11: Preview: Snippet 6 ended.(455111+127431x391398).
+<-><->
+      
+l.11 $f$
+        
+Not a real error.
+
+[6]
+./Integrais_20definidas.md.tex:12: Preview: Snippet 7 started.
+<-><->
+      
+l.12 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:14: Preview: Snippet 7 ended.(1986565+0x22609920).
+<-><->
+      
+l.14 >$$
+        
+Not a real error.
+
+[7]
+./Integrais_20definidas.md.tex:15: Preview: Snippet 8 started.
+<-><->
+      
+l.15 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:17: Preview: Snippet 8 ended.(1711233+0x22609920).
+<-><->
+      
+l.17 >$$
+        
+Not a real error.
+
+[8]
+./Integrais_20definidas.md.tex:18: Preview: Snippet 9 started.
+<-><->
+      
+l.18 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:25: Preview: Snippet 9 ended.(7434756+0x22609920).
+<-><->
+      
+l.25 $$
+       
+Not a real error.
+
+[9]
+./Integrais_20definidas.md.tex:26: Preview: Snippet 10 started.
+<-><->
+      
+l.26 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:31: Preview: Snippet 10 ended.(3498015+0x22609920).
+<-><->
+      
+l.31 $$
+       
+Not a real error.
+
+[10]
+./Integrais_20definidas.md.tex:32: Preview: Snippet 11 started.
+<-><->
+      
+l.32 $
+      f$
+Not a real error.
+
+./Integrais_20definidas.md.tex:32: Preview: Snippet 11 ended.(455111+127431x391398).
+<-><->
+      
+l.32 $f$
+        
+Not a real error.
+
+[11]
+./Integrais_20definidas.md.tex:33: Preview: Snippet 12 started.
+<-><->
+      
+l.33 $
+      [a,b]$
+Not a real error.
+
+./Integrais_20definidas.md.tex:33: Preview: Snippet 12 ended.(491520+163840x1283033).
+<-><->
+      
+l.33 $[a,b]$
+            
+Not a real error.
+
+[12]
+./Integrais_20definidas.md.tex:34: Preview: Snippet 13 started.
+<-><->
+      
+l.34 $
+      c\in[a,b]$
+Not a real error.
+
+./Integrais_20definidas.md.tex:34: Preview: Snippet 13 ended.(491520+163840x2367632).
+<-><->
+      
+l.34 $c\in[a,b]$
+                
+Not a real error.
+
+[13]
+./Integrais_20definidas.md.tex:35: Preview: Snippet 14 started.
+<-><->
+      
+l.35 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:37: Preview: Snippet 14 ended.(1711233+0x22609920).
+<-><->
+      
+l.37 $$
+       
+Not a real error.
+
+[14]
+./Integrais_20definidas.md.tex:38: Preview: Snippet 15 started.
+<-><->
+      
+l.38 $
+      f$
+Not a real error.
+
+./Integrais_20definidas.md.tex:38: Preview: Snippet 15 ended.(455111+127431x391398).
+<-><->
+      
+l.38 $f$
+        
+Not a real error.
+
+[15]
+./Integrais_20definidas.md.tex:39: Preview: Snippet 16 started.
+<-><->
+      
+l.39 $
+      [a,b]$
+Not a real error.
+
+./Integrais_20definidas.md.tex:39: Preview: Snippet 16 ended.(491520+163840x1283033).
+<-><->
+      
+l.39 $[a,b]$
+            
+Not a real error.
+
+[16]
+./Integrais_20definidas.md.tex:40: Preview: Snippet 17 started.
+<-><->
+      
+l.40 $
+      x\in[a,b]$
+Not a real error.
+
+./Integrais_20definidas.md.tex:40: Preview: Snippet 17 ended.(491520+163840x2458577).
+<-><->
+      
+l.40 $x\in[a,b]$
+                
+Not a real error.
+
+[17]
+./Integrais_20definidas.md.tex:41: Preview: Snippet 18 started.
+<-><->
+      
+l.41 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:43: Preview: Snippet 18 ended.(1590174+0x22609920).
+<-><->
+      
+l.43 >$$
+        
+Not a real error.
+
+[18]
+./Integrais_20definidas.md.tex:44: Preview: Snippet 19 started.
+<-><->
+      
+l.44 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:46: Preview: Snippet 19 ended.(950272+0x22609920).
+<-><->
+      
+l.46 >$$
+        
+Not a real error.
+
+[19]
+./Integrais_20definidas.md.tex:47: Preview: Snippet 20 started.
+<-><->
+      
+l.47 $
+      f$
+Not a real error.
+
+./Integrais_20definidas.md.tex:47: Preview: Snippet 20 ended.(455111+127431x391398).
+<-><->
+      
+l.47 $f$
+        
+Not a real error.
+
+[20]
+./Integrais_20definidas.md.tex:48: Preview: Snippet 21 started.
+<-><->
+      
+l.48 $
+      [a,b]$
+Not a real error.
+
+./Integrais_20definidas.md.tex:48: Preview: Snippet 21 ended.(491520+163840x1283033).
+<-><->
+      
+l.48 $[a,b]$
+            
+Not a real error.
+
+[21]
+./Integrais_20definidas.md.tex:49: Preview: Snippet 22 started.
+<-><->
+      
+l.49 $
+      $
+Not a real error.
+
+./Integrais_20definidas.md.tex:51: Preview: Snippet 22 ended.(1711233+0x22609920).
+<-><->
+      
+l.51 >$$
+        
+Not a real error.
+
+[22] ) 
+Here is how much of TeX's memory you used:
+ 355 strings out of 477741
+ 7281 string characters out of 5849915
+ 308069 words of memory out of 5000000
+ 19089 multiletter control sequences out of 15000+600000
+ 412191 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,10n,62p,215b,136s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Integrais_20definidas.md.pdf (22 pages, 87891 bytes).
+PDF statistics:
+ 112 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

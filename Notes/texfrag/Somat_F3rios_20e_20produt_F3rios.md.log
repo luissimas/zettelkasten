@@ -1,0 +1,468 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=prv_Somat_F3rios_20e_20produt_F3rios.md 2021.10.19)  19 OCT 2021 07:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_Somat_F3rios_20e_20produt_F3rios.md /AUCTEXINPUT{ Somat_F3rios_20e_20produt_F3rios.md.tex }
+(./Somat_F3rios_20e_20produt_F3rios.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+No file Somat_F3rios_20e_20produt_F3rios.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/padawan/.config/emacs/straight/build/auctex/latex/preview.sty
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/padawan/.config/emacs/straight/build/auctex/latex/prtightpage.def
+\PreviewBorder=\dimen148
+) (/home/padawan/.config/emacs/straight/build/auctex/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count266
+\hfuzz=\dimen149
+(/home/padawan/.config/emacs/straight/build/auctex/latex/prauctex.cfg)) (/home/padawan/.config/emacs/straight/build/auctex/latex/prfootnotes.def)
+\pr@snippet=\count267
+\pr@box=\box50
+\pr@output=\toks22
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
+./Somat_F3rios_20e_20produt_F3rios.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     $
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./Somat_F3rios_20e_20produt_F3rios.md.tex:8: Preview: Snippet 1 ended.(2001584+0x22609920).
+<-><->
+      
+l.8 $$
+      
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:9: Preview: Snippet 2 started.
+<-><->
+      
+l.9 $
+     k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:9: Preview: Snippet 2 ended.(455111+0x361814).
+<-><->
+      
+l.9 $k$
+       
+Not a real error.
+
+[2]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:10: Preview: Snippet 3 started.
+<-><->
+      
+l.10 $
+      f(k)$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:10: Preview: Snippet 3 ended.(491520+163840x1262938).
+<-><->
+      
+l.10 $f(k)$
+           
+Not a real error.
+
+[3]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:11: Preview: Snippet 4 started.
+<-><->
+      
+l.11 $
+      k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:11: Preview: Snippet 4 ended.(455111+0x361814).
+<-><->
+      
+l.11 $k$
+        
+Not a real error.
+
+[4]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:12: Preview: Snippet 5 started.
+<-><->
+      
+l.12 $
+      m$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:12: Preview: Snippet 5 ended.(282168+0x575415).
+<-><->
+      
+l.12 $m$
+        
+Not a real error.
+
+[5]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:13: Preview: Snippet 6 started.
+<-><->
+      
+l.13 $
+      n$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:13: Preview: Snippet 6 ended.(282168+0x393370).
+<-><->
+      
+l.13 $n$
+        
+Not a real error.
+
+[6]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:14: Preview: Snippet 7 started.
+<-><->
+      
+l.14 $
+      k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:14: Preview: Snippet 7 ended.(455111+0x361814).
+<-><->
+      
+l.14 $k$
+        
+Not a real error.
+
+[7]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:15: Preview: Snippet 8 started.
+<-><->
+      
+l.15 $
+      k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:15: Preview: Snippet 8 ended.(455111+0x361814).
+<-><->
+      
+l.15 $k$
+        
+Not a real error.
+
+[8]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:16: Preview: Snippet 9 started.
+<-><->
+      
+l.16 $
+      \displaystyle \sum_{k \in K}{c f(x)} = c\sum_{k \in K}{f(x)}$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:16: Preview: Snippet 9 ended.(688132+888507x6550752).
+<-><->
+      
+l.16 ...{k \in K}{c f(x)} = c\sum_{k \in K}{f(x)}$
+                                                  
+Not a real error.
+
+[9]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:17: Preview: Snippet 10 started.
+<-><->
+      
+l.17 $
+      \displaystyle \sum_{k \in K}{(f(x) \pm g(x))} = \sum_{k \in K}{f(x)} \...
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:17: Preview: Snippet 10 ended.(688132+888507x11651344).
+<-><->
+      
+l.17 ..._{k \in K}{f(x)} \pm \sum_{k \in K}{g(x)}$
+                                                  
+Not a real error.
+
+[10]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:18: Preview: Snippet 11 started.
+<-><->
+      
+l.18 $
+      \{K_1, K_2\}$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:18: Preview: Snippet 11 ended.(491520+163840x2647839).
+<-><->
+      
+l.18 $\{K_1, K_2\}$
+                   
+Not a real error.
+
+[11]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:19: Preview: Snippet 12 started.
+<-><->
+      
+l.19 $
+      K$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:19: Preview: Snippet 12 ended.(447828+0x603477).
+<-><->
+      
+l.19 $K$
+        
+Not a real error.
+
+[12]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:20: Preview: Snippet 13 started.
+<-><->
+      
+l.20 $
+      \displaystyle \sum_{k \in K}{f(x)} = \sum_{k \in K_1}{f(x)} + \sum_{k ...
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:20: Preview: Snippet 13 ended.(688132+919327x9622838).
+<-><->
+      
+l.20 ...k \in K_1}{f(x)} + \sum_{k \in K_2}{f(x)}$
+                                                  
+Not a real error.
+
+[13]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:21: Preview: Snippet 14 started.
+<-><->
+      
+l.21 $
+      p$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:21: Preview: Snippet 14 ended.(282168+127431x329728).
+<-><->
+      
+l.21 $p$
+        
+Not a real error.
+
+[14]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:22: Preview: Snippet 15 started.
+<-><->
+      
+l.22 $
+      K$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:22: Preview: Snippet 15 ended.(447828+0x603477).
+<-><->
+      
+l.22 $K$
+        
+Not a real error.
+
+[15]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:23: Preview: Snippet 16 started.
+<-><->
+      
+l.23 $
+      J \subseteq \mathbb{Z}$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:23: Preview: Snippet 16 ended.(451470+89110x1737153).
+<-><->
+      
+l.23 $J \subseteq \mathbb{Z}$
+                             
+Not a real error.
+
+[16]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:24: Preview: Snippet 17 started.
+<-><->
+      
+l.24 $
+      \sum_{k \in K}{f(p(k))} = \sum_{j \in J}{f(j)}$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:24: Preview: Snippet 17 ended.(491524+285812x7897361).
+<-><->
+      
+l.24 ...{k \in K}{f(p(k))} = \sum_{j \in J}{f(j)}$
+                                                  
+Not a real error.
+
+[17]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:25: Preview: Snippet 18 started.
+<-><->
+      
+l.25 $
+      c$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:25: Preview: Snippet 18 ended.(282168+0x283611).
+<-><->
+      
+l.25 $c$
+        
+Not a real error.
+
+[18]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:26: Preview: Snippet 19 started.
+<-><->
+      
+l.26 $
+      c$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:26: Preview: Snippet 19 ended.(282168+0x283611).
+<-><->
+      
+l.26 $c$
+        
+Not a real error.
+
+[19]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:27: Preview: Snippet 20 started.
+<-><->
+      
+l.27 $
+      $
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:29: Preview: Snippet 20 ended.(1986565+0x22609920).
+<-><->
+      
+l.29 $$
+       
+Not a real error.
+
+[20]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:30: Preview: Snippet 21 started.
+<-><->
+      
+l.30 $
+      k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:30: Preview: Snippet 21 ended.(455111+0x361814).
+<-><->
+      
+l.30 $k$
+        
+Not a real error.
+
+[21]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:31: Preview: Snippet 22 started.
+<-><->
+      
+l.31 $
+      $
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:33: Preview: Snippet 22 ended.(2001584+0x22609920).
+<-><->
+      
+l.33 $$
+       
+Not a real error.
+
+[22]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:34: Preview: Snippet 23 started.
+<-><->
+      
+l.34 $
+      k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:34: Preview: Snippet 23 ended.(455111+0x361814).
+<-><->
+      
+l.34 $k$
+        
+Not a real error.
+
+[23]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:35: Preview: Snippet 24 started.
+<-><->
+      
+l.35 $
+      X_k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:35: Preview: Snippet 24 ended.(447828+98303x865396).
+<-><->
+      
+l.35 $X_k$
+          
+Not a real error.
+
+[24]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:36: Preview: Snippet 25 started.
+<-><->
+      
+l.36 $
+      $
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:38: Preview: Snippet 25 ended.(2001584+0x22609920).
+<-><->
+      
+l.38 $$
+       
+Not a real error.
+
+[25]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:39: Preview: Snippet 26 started.
+<-><->
+      
+l.39 $
+      k$
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:39: Preview: Snippet 26 ended.(455111+0x361814).
+<-><->
+      
+l.39 $k$
+        
+Not a real error.
+
+[26]
+./Somat_F3rios_20e_20produt_F3rios.md.tex:40: Preview: Snippet 27 started.
+<-><->
+      
+l.40 $
+      $
+Not a real error.
+
+./Somat_F3rios_20e_20produt_F3rios.md.tex:42: Preview: Snippet 27 ended.(2001584+0x22609920).
+<-><->
+      
+l.42 $$
+       
+Not a real error.
+
+[27] ) 
+Here is how much of TeX's memory you used:
+ 351 strings out of 477741
+ 7351 string characters out of 5849826
+ 306102 words of memory out of 5000000
+ 19087 multiletter control sequences out of 15000+600000
+ 410657 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,3n,62p,237b,60s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Somat_F3rios_20e_20produt_F3rios.md.pdf (27 pages, 74456 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

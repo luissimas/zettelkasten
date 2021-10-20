@@ -1,0 +1,1908 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=prv_Rela_E7_F5es.md 2021.10.7)  7 OCT 2021 11:45
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_Rela_E7_F5es.md /AUCTEXINPUT{ Rela_E7_F5es.md.tex }
+(./Rela_E7_F5es.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+No file Rela_E7_F5es.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/padawan/.emacs.d/straight/build/auctex/latex/preview.sty
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prtightpage.def
+\PreviewBorder=\dimen148
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count266
+\hfuzz=\dimen149
+(/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.cfg)) (/home/padawan/.emacs.d/straight/build/auctex/latex/prfootnotes.def)
+\pr@snippet=\count267
+\pr@box=\box50
+\pr@output=\toks22
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
+./Rela_E7_F5es.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     R$
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./Rela_E7_F5es.md.tex:6: Preview: Snippet 1 ended.(447828+0x502671).
+<-><->
+      
+l.6 $R$
+       
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Rela_E7_F5es.md.tex:7: Preview: Snippet 2 started.
+<-><->
+      
+l.7 $
+     (a_1,a_2, \dots, a_n)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:7: Preview: Snippet 2 ended.(491520+163840x4241328).
+<-><->
+      
+l.7 $(a_1,a_2, \dots, a_n)$
+                           
+Not a real error.
+
+[2]
+./Rela_E7_F5es.md.tex:8: Preview: Snippet 3 started.
+<-><->
+      
+l.8 $
+     a_1 \in A_1$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:8: Preview: Snippet 3 ended.(447828+98303x2226931).
+<-><->
+      
+l.8 $a_1 \in A_1$
+                 
+Not a real error.
+
+[3]
+./Rela_E7_F5es.md.tex:9: Preview: Snippet 4 started.
+<-><->
+      
+l.9 $
+     a_2 \in A_2$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:9: Preview: Snippet 4 ended.(447828+98303x2226931).
+<-><->
+      
+l.9 $a_2 \in A_2$
+                 
+Not a real error.
+
+[4]
+./Rela_E7_F5es.md.tex:10: Preview: Snippet 5 started.
+<-><->
+      
+l.10 $
+      \dots$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:10: Preview: Snippet 5 ended.(69176+0x873807).
+<-><->
+      
+l.10 $\dots$
+            
+Not a real error.
+
+[5]
+./Rela_E7_F5es.md.tex:11: Preview: Snippet 6 started.
+<-><->
+      
+l.11 $
+      a_n \in A_n$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:11: Preview: Snippet 6 ended.(447828+98303x2352393).
+<-><->
+      
+l.11 $a_n \in A_n$
+                  
+Not a real error.
+
+[6]
+./Rela_E7_F5es.md.tex:12: Preview: Snippet 7 started.
+<-><->
+      
+l.12 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:12: Preview: Snippet 7 ended.(447828+0x502671).
+<-><->
+      
+l.12 $R$
+        
+Not a real error.
+
+[7]
+./Rela_E7_F5es.md.tex:13: Preview: Snippet 8 started.
+<-><->
+      
+l.13 $
+      A_1 \times A_2 \times \dots \times A_n$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:13: Preview: Snippet 8 ended.(447828+98303x5586856).
+<-><->
+      
+l.13 $A_1 \times A_2 \times \dots \times A_n$
+                                             
+Not a real error.
+
+[8]
+./Rela_E7_F5es.md.tex:14: Preview: Snippet 9 started.
+<-><->
+      
+l.14 $
+      x R y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:14: Preview: Snippet 9 ended.(447828+127431x1222051).
+<-><->
+      
+l.14 $x R y$
+            
+Not a real error.
+
+[9]
+./Rela_E7_F5es.md.tex:15: Preview: Snippet 10 started.
+<-><->
+      
+l.15 $
+      (x,y)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:15: Preview: Snippet 10 ended.(491520+163840x1520375).
+<-><->
+      
+l.15 $(x,y)$
+            
+Not a real error.
+
+[10]
+./Rela_E7_F5es.md.tex:16: Preview: Snippet 11 started.
+<-><->
+      
+l.16 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:16: Preview: Snippet 11 ended.(447828+0x502671).
+<-><->
+      
+l.16 $R$
+        
+Not a real error.
+
+[11]
+./Rela_E7_F5es.md.tex:17: Preview: Snippet 12 started.
+<-><->
+      
+l.17 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:17: Preview: Snippet 12 ended.(447828+0x502671).
+<-><->
+      
+l.17 $R$
+        
+Not a real error.
+
+[12]
+./Rela_E7_F5es.md.tex:18: Preview: Snippet 13 started.
+<-><->
+      
+l.18 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:18: Preview: Snippet 13 ended.(447828+0x502671).
+<-><->
+      
+l.18 $R$
+        
+Not a real error.
+
+[13]
+./Rela_E7_F5es.md.tex:19: Preview: Snippet 14 started.
+<-><->
+      
+l.19 $
+      $
+Not a real error.
+
+./Rela_E7_F5es.md.tex:21: Preview: Snippet 14 ended.(950272+0x22609920).
+<-><->
+      
+l.21 $$
+       
+Not a real error.
+
+[14]
+./Rela_E7_F5es.md.tex:22: Preview: Snippet 15 started.
+<-><->
+      
+l.22 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:22: Preview: Snippet 15 ended.(447828+0x502671).
+<-><->
+      
+l.22 $R$
+        
+Not a real error.
+
+[15]
+./Rela_E7_F5es.md.tex:23: Preview: Snippet 16 started.
+<-><->
+      
+l.23 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:23: Preview: Snippet 16 ended.(447828+0x502671).
+<-><->
+      
+l.23 $R$
+        
+Not a real error.
+
+[16]
+./Rela_E7_F5es.md.tex:24: Preview: Snippet 17 started.
+<-><->
+      
+l.24 $
+      $
+Not a real error.
+
+./Rela_E7_F5es.md.tex:26: Preview: Snippet 17 ended.(950272+0x22609920).
+<-><->
+      
+l.26 $$
+       
+Not a real error.
+
+[17]
+./Rela_E7_F5es.md.tex:27: Preview: Snippet 18 started.
+<-><->
+      
+l.27 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:27: Preview: Snippet 18 ended.(447828+0x502671).
+<-><->
+      
+l.27 $R$
+        
+Not a real error.
+
+[18]
+./Rela_E7_F5es.md.tex:28: Preview: Snippet 19 started.
+<-><->
+      
+l.28 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:28: Preview: Snippet 19 ended.(447828+0x491521).
+<-><->
+      
+l.28 $A$
+        
+Not a real error.
+
+[19]
+./Rela_E7_F5es.md.tex:29: Preview: Snippet 20 started.
+<-><->
+      
+l.29 $
+      B$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:29: Preview: Snippet 20 ended.(447828+0x529977).
+<-><->
+      
+l.29 $B$
+        
+Not a real error.
+
+[20]
+./Rela_E7_F5es.md.tex:30: Preview: Snippet 21 started.
+<-><->
+      
+l.30 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:30: Preview: Snippet 21 ended.(447828+0x491521).
+<-><->
+      
+l.30 $A$
+        
+Not a real error.
+
+[21]
+./Rela_E7_F5es.md.tex:31: Preview: Snippet 22 started.
+<-><->
+      
+l.31 $
+      B$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:31: Preview: Snippet 22 ended.(447828+0x529977).
+<-><->
+      
+l.31 $B$
+        
+Not a real error.
+
+[22]
+./Rela_E7_F5es.md.tex:32: Preview: Snippet 23 started.
+<-><->
+      
+l.32 $
+      0$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:32: Preview: Snippet 23 ended.(422343+0x327681).
+<-><->
+      
+l.32 $0$
+        
+Not a real error.
+
+[23]
+./Rela_E7_F5es.md.tex:33: Preview: Snippet 24 started.
+<-><->
+      
+l.33 $
+      1$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:33: Preview: Snippet 24 ended.(422343+0x327681).
+<-><->
+      
+l.33 $1$
+        
+Not a real error.
+
+[24]
+./Rela_E7_F5es.md.tex:34: Preview: Snippet 25 started.
+<-><->
+      
+l.34 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:34: Preview: Snippet 25 ended.(447828+0x491521).
+<-><->
+      
+l.34 $A$
+        
+Not a real error.
+
+[25]
+./Rela_E7_F5es.md.tex:35: Preview: Snippet 26 started.
+<-><->
+      
+l.35 $
+      B$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:35: Preview: Snippet 26 ended.(447828+0x529977).
+<-><->
+      
+l.35 $B$
+        
+Not a real error.
+
+[26]
+./Rela_E7_F5es.md.tex:36: Preview: Snippet 27 started.
+<-><->
+      
+l.36 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:36: Preview: Snippet 27 ended.(447828+0x491521).
+<-><->
+      
+l.36 $A$
+        
+Not a real error.
+
+[27]
+./Rela_E7_F5es.md.tex:37: Preview: Snippet 28 started.
+<-><->
+      
+l.37 $
+      B$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:37: Preview: Snippet 28 ended.(447828+0x529977).
+<-><->
+      
+l.37 $B$
+        
+Not a real error.
+
+[28]
+./Rela_E7_F5es.md.tex:38: Preview: Snippet 29 started.
+<-><->
+      
+l.38 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:38: Preview: Snippet 29 ended.(447828+0x491521).
+<-><->
+      
+l.38 $A$
+        
+Not a real error.
+
+[29]
+./Rela_E7_F5es.md.tex:39: Preview: Snippet 30 started.
+<-><->
+      
+l.39 $
+      B$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:39: Preview: Snippet 30 ended.(447828+0x529977).
+<-><->
+      
+l.39 $B$
+        
+Not a real error.
+
+[30]
+./Rela_E7_F5es.md.tex:40: Preview: Snippet 31 started.
+<-><->
+      
+l.40 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:40: Preview: Snippet 31 ended.(447828+0x491521).
+<-><->
+      
+l.40 $A$
+        
+Not a real error.
+
+[31]
+./Rela_E7_F5es.md.tex:41: Preview: Snippet 32 started.
+<-><->
+      
+l.41 $
+      B$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:41: Preview: Snippet 32 ended.(447828+0x529977).
+<-><->
+      
+l.41 $B$
+        
+Not a real error.
+
+[32]
+./Rela_E7_F5es.md.tex:42: Preview: Snippet 33 started.
+<-><->
+      
+l.42 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:42: Preview: Snippet 33 ended.(447828+0x502671).
+<-><->
+      
+l.42 $R$
+        
+Not a real error.
+
+[33]
+./Rela_E7_F5es.md.tex:43: Preview: Snippet 34 started.
+<-><->
+      
+l.43 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:43: Preview: Snippet 34 ended.(447828+0x491521).
+<-><->
+      
+l.43 $A$
+        
+Not a real error.
+
+[34]
+./Rela_E7_F5es.md.tex:44: Preview: Snippet 35 started.
+<-><->
+      
+l.44 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:44: Preview: Snippet 35 ended.(447828+0x502671).
+<-><->
+      
+l.44 $R$
+        
+Not a real error.
+
+[35]
+./Rela_E7_F5es.md.tex:45: Preview: Snippet 36 started.
+<-><->
+      
+l.45 $
+      x \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:45: Preview: Snippet 36 ended.(447828+25623x1667065).
+<-><->
+      
+l.45 $x \in A$
+              
+Not a real error.
+
+[36]
+./Rela_E7_F5es.md.tex:46: Preview: Snippet 37 started.
+<-><->
+      
+l.46 $
+      x R x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:46: Preview: Snippet 37 ended.(447828+0x1251783).
+<-><->
+      
+l.46 $x R x$
+            
+Not a real error.
+
+[37]
+./Rela_E7_F5es.md.tex:47: Preview: Snippet 38 started.
+<-><->
+      
+l.47 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:47: Preview: Snippet 38 ended.(447828+0x491521).
+<-><->
+      
+l.47 $A$
+        
+Not a real error.
+
+[38]
+./Rela_E7_F5es.md.tex:48: Preview: Snippet 39 started.
+<-><->
+      
+l.48 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:48: Preview: Snippet 39 ended.(447828+0x502671).
+<-><->
+      
+l.48 $R$
+        
+Not a real error.
+
+[39]
+./Rela_E7_F5es.md.tex:49: Preview: Snippet 40 started.
+<-><->
+      
+l.49 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:49: Preview: Snippet 40 ended.(447828+0x491521).
+<-><->
+      
+l.49 $A$
+        
+Not a real error.
+
+[40]
+./Rela_E7_F5es.md.tex:50: Preview: Snippet 41 started.
+<-><->
+      
+l.50 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:50: Preview: Snippet 41 ended.(447828+0x502671).
+<-><->
+      
+l.50 $R$
+        
+Not a real error.
+
+[41]
+./Rela_E7_F5es.md.tex:51: Preview: Snippet 42 started.
+<-><->
+      
+l.51 $
+      x \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:51: Preview: Snippet 42 ended.(447828+25623x1667065).
+<-><->
+      
+l.51 $x \in A$
+              
+Not a real error.
+
+[42]
+./Rela_E7_F5es.md.tex:52: Preview: Snippet 43 started.
+<-><->
+      
+l.52 $
+      x \not{R} x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:52: Preview: Snippet 43 ended.(455111+127430x1615863).
+<-><->
+      
+l.52 $x \not{R} x$
+                  
+Not a real error.
+
+[43]
+./Rela_E7_F5es.md.tex:53: Preview: Snippet 44 started.
+<-><->
+      
+l.53 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:53: Preview: Snippet 44 ended.(447828+0x491521).
+<-><->
+      
+l.53 $A$
+        
+Not a real error.
+
+[44]
+./Rela_E7_F5es.md.tex:54: Preview: Snippet 45 started.
+<-><->
+      
+l.54 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:54: Preview: Snippet 45 ended.(447828+0x502671).
+<-><->
+      
+l.54 $R$
+        
+Not a real error.
+
+[45]
+./Rela_E7_F5es.md.tex:55: Preview: Snippet 46 started.
+<-><->
+      
+l.55 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:55: Preview: Snippet 46 ended.(447828+0x491521).
+<-><->
+      
+l.55 $A$
+        
+Not a real error.
+
+[46]
+./Rela_E7_F5es.md.tex:56: Preview: Snippet 47 started.
+<-><->
+      
+l.56 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:56: Preview: Snippet 47 ended.(447828+0x502671).
+<-><->
+      
+l.56 $R$
+        
+Not a real error.
+
+[47]
+./Rela_E7_F5es.md.tex:57: Preview: Snippet 48 started.
+<-><->
+      
+l.57 $
+      x, y \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:57: Preview: Snippet 48 ended.(447828+127431x2303158).
+<-><->
+      
+l.57 $x, y \in A$
+                 
+Not a real error.
+
+[48]
+./Rela_E7_F5es.md.tex:58: Preview: Snippet 49 started.
+<-><->
+      
+l.58 $
+      x R y \implies y R x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:58: Preview: Snippet 49 ended.(447828+127431x4228125).
+<-><->
+      
+l.58 $x R y \implies y R x$
+                           
+Not a real error.
+
+[49]
+./Rela_E7_F5es.md.tex:59: Preview: Snippet 50 started.
+<-><->
+      
+l.59 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:59: Preview: Snippet 50 ended.(447828+0x502671).
+<-><->
+      
+l.59 $R$
+        
+Not a real error.
+
+[50]
+./Rela_E7_F5es.md.tex:60: Preview: Snippet 51 started.
+<-><->
+      
+l.60 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:60: Preview: Snippet 51 ended.(447828+0x491521).
+<-><->
+      
+l.60 $A$
+        
+Not a real error.
+
+[51]
+./Rela_E7_F5es.md.tex:61: Preview: Snippet 52 started.
+<-><->
+      
+l.61 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:61: Preview: Snippet 52 ended.(447828+0x502671).
+<-><->
+      
+l.61 $R$
+        
+Not a real error.
+
+[52]
+./Rela_E7_F5es.md.tex:62: Preview: Snippet 53 started.
+<-><->
+      
+l.62 $
+      x, y \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:62: Preview: Snippet 53 ended.(447828+127431x2303158).
+<-><->
+      
+l.62 $x, y \in A$
+                 
+Not a real error.
+
+[53]
+./Rela_E7_F5es.md.tex:63: Preview: Snippet 54 started.
+<-><->
+      
+l.63 $
+      x R y \land y R x \implies x = y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:63: Preview: Snippet 54 ended.(447828+127431x6549483).
+<-><->
+      
+l.63 $x R y \land y R x \implies x = y$
+                                       
+Not a real error.
+
+[54]
+./Rela_E7_F5es.md.tex:64: Preview: Snippet 55 started.
+<-><->
+      
+l.64 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:64: Preview: Snippet 55 ended.(447828+0x502671).
+<-><->
+      
+l.64 $R$
+        
+Not a real error.
+
+[55]
+./Rela_E7_F5es.md.tex:65: Preview: Snippet 56 started.
+<-><->
+      
+l.65 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:65: Preview: Snippet 56 ended.(447828+0x491521).
+<-><->
+      
+l.65 $A$
+        
+Not a real error.
+
+[56]
+./Rela_E7_F5es.md.tex:66: Preview: Snippet 57 started.
+<-><->
+      
+l.66 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:66: Preview: Snippet 57 ended.(447828+0x502671).
+<-><->
+      
+l.66 $R$
+        
+Not a real error.
+
+[57]
+./Rela_E7_F5es.md.tex:67: Preview: Snippet 58 started.
+<-><->
+      
+l.67 $
+      x, y, z \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:67: Preview: Snippet 58 ended.(447828+127431x2928025).
+<-><->
+      
+l.67 $x, y, z \in A$
+                    
+Not a real error.
+
+[58]
+./Rela_E7_F5es.md.tex:68: Preview: Snippet 59 started.
+<-><->
+      
+l.68 $
+      x R y \land y R z \implies x R z$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:68: Preview: Snippet 59 ended.(447828+127431x6126164).
+<-><->
+      
+l.68 $x R y \land y R z \implies x R z$
+                                       
+Not a real error.
+
+[59]
+./Rela_E7_F5es.md.tex:69: Preview: Snippet 60 started.
+<-><->
+      
+l.69 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:69: Preview: Snippet 60 ended.(447828+0x502671).
+<-><->
+      
+l.69 $R$
+        
+Not a real error.
+
+[60]
+./Rela_E7_F5es.md.tex:70: Preview: Snippet 61 started.
+<-><->
+      
+l.70 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:70: Preview: Snippet 61 ended.(447828+0x491521).
+<-><->
+      
+l.70 $A$
+        
+Not a real error.
+
+[61]
+./Rela_E7_F5es.md.tex:71: Preview: Snippet 62 started.
+<-><->
+      
+l.71 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:71: Preview: Snippet 62 ended.(447828+0x502671).
+<-><->
+      
+l.71 $R$
+        
+Not a real error.
+
+[62]
+./Rela_E7_F5es.md.tex:72: Preview: Snippet 63 started.
+<-><->
+      
+l.72 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:72: Preview: Snippet 63 ended.(447828+0x502671).
+<-><->
+      
+l.72 $R$
+        
+Not a real error.
+
+[63]
+./Rela_E7_F5es.md.tex:73: Preview: Snippet 64 started.
+<-><->
+      
+l.73 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:73: Preview: Snippet 64 ended.(447828+0x502671).
+<-><->
+      
+l.73 $R$
+        
+Not a real error.
+
+[64]
+./Rela_E7_F5es.md.tex:74: Preview: Snippet 65 started.
+<-><->
+      
+l.74 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:74: Preview: Snippet 65 ended.(447828+0x491521).
+<-><->
+      
+l.74 $A$
+        
+Not a real error.
+
+[65]
+./Rela_E7_F5es.md.tex:75: Preview: Snippet 66 started.
+<-><->
+      
+l.75 $
+      a \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:75: Preview: Snippet 66 ended.(447828+25623x1638925).
+<-><->
+      
+l.75 $a \in A$
+              
+Not a real error.
+
+[66]
+./Rela_E7_F5es.md.tex:76: Preview: Snippet 67 started.
+<-><->
+      
+l.76 $
+      a$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:76: Preview: Snippet 67 ended.(282168+0x346416).
+<-><->
+      
+l.76 $a$
+        
+Not a real error.
+
+[67]
+./Rela_E7_F5es.md.tex:77: Preview: Snippet 68 started.
+<-><->
+      
+l.77 $
+      [a]$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:77: Preview: Snippet 68 ended.(491520+163840x710506).
+<-><->
+      
+l.77 $[a]$
+          
+Not a real error.
+
+[68]
+./Rela_E7_F5es.md.tex:78: Preview: Snippet 69 started.
+<-><->
+      
+l.78 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:78: Preview: Snippet 69 ended.(447828+0x491521).
+<-><->
+      
+l.78 $A$
+        
+Not a real error.
+
+[69]
+./Rela_E7_F5es.md.tex:79: Preview: Snippet 70 started.
+<-><->
+      
+l.79 $
+      a$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:79: Preview: Snippet 70 ended.(282168+0x346416).
+<-><->
+      
+l.79 $a$
+        
+Not a real error.
+
+[70]
+./Rela_E7_F5es.md.tex:80: Preview: Snippet 71 started.
+<-><->
+      
+l.80 $
+      $
+Not a real error.
+
+./Rela_E7_F5es.md.tex:82: Preview: Snippet 71 ended.(950272+0x22609920).
+<-><->
+      
+l.82 $$
+       
+Not a real error.
+
+[71]
+./Rela_E7_F5es.md.tex:83: Preview: Snippet 72 started.
+<-><->
+      
+l.83 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:83: Preview: Snippet 72 ended.(447828+0x491521).
+<-><->
+      
+l.83 $A$
+        
+Not a real error.
+
+[72]
+./Rela_E7_F5es.md.tex:84: Preview: Snippet 73 started.
+<-><->
+      
+l.84 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:84: Preview: Snippet 73 ended.(447828+0x502671).
+<-><->
+      
+l.84 $R$
+        
+Not a real error.
+
+[73]
+./Rela_E7_F5es.md.tex:85: Preview: Snippet 74 started.
+<-><->
+      
+l.85 $
+      $
+Not a real error.
+
+./Rela_E7_F5es.md.tex:87: Preview: Snippet 74 ended.(950272+0x22609920).
+<-><->
+      
+l.87 $$
+       
+Not a real error.
+
+[74]
+./Rela_E7_F5es.md.tex:88: Preview: Snippet 75 started.
+<-><->
+      
+l.88 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:88: Preview: Snippet 75 ended.(447828+0x502671).
+<-><->
+      
+l.88 $R$
+        
+Not a real error.
+
+[75]
+./Rela_E7_F5es.md.tex:89: Preview: Snippet 76 started.
+<-><->
+      
+l.89 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:89: Preview: Snippet 76 ended.(447828+0x491521).
+<-><->
+      
+l.89 $A$
+        
+Not a real error.
+
+[76]
+./Rela_E7_F5es.md.tex:90: Preview: Snippet 77 started.
+<-><->
+      
+l.90 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:90: Preview: Snippet 77 ended.(447828+0x502671).
+<-><->
+      
+l.90 $R$
+        
+Not a real error.
+
+[77]
+./Rela_E7_F5es.md.tex:91: Preview: Snippet 78 started.
+<-><->
+      
+l.91 $
+      \preceq $
+Not a real error.
+
+./Rela_E7_F5es.md.tex:91: Preview: Snippet 78 ended.(416790+89110x509726).
+<-><->
+      
+l.91 $\preceq $
+               
+Not a real error.
+
+[78]
+./Rela_E7_F5es.md.tex:92: Preview: Snippet 79 started.
+<-><->
+      
+l.92 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:92: Preview: Snippet 79 ended.(447828+0x502671).
+<-><->
+      
+l.92 $R$
+        
+Not a real error.
+
+[79]
+./Rela_E7_F5es.md.tex:93: Preview: Snippet 80 started.
+<-><->
+      
+l.93 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:93: Preview: Snippet 80 ended.(447828+0x491521).
+<-><->
+      
+l.93 $A$
+        
+Not a real error.
+
+[80]
+./Rela_E7_F5es.md.tex:94: Preview: Snippet 81 started.
+<-><->
+      
+l.94 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:94: Preview: Snippet 81 ended.(447828+0x502671).
+<-><->
+      
+l.94 $R$
+        
+Not a real error.
+
+[81]
+./Rela_E7_F5es.md.tex:95: Preview: Snippet 82 started.
+<-><->
+      
+l.95 $
+      (A, R)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:95: Preview: Snippet 82 ended.(491520+163840x1795187).
+<-><->
+      
+l.95 $(A, R)$
+             
+Not a real error.
+
+[82]
+./Rela_E7_F5es.md.tex:96: Preview: Snippet 83 started.
+<-><->
+      
+l.96 $
+      R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:96: Preview: Snippet 83 ended.(447828+0x502671).
+<-><->
+      
+l.96 $R$
+        
+Not a real error.
+
+[83]
+./Rela_E7_F5es.md.tex:97: Preview: Snippet 84 started.
+<-><->
+      
+l.97 $
+      A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:97: Preview: Snippet 84 ended.(447828+0x491521).
+<-><->
+      
+l.97 $A$
+        
+Not a real error.
+
+[84]
+./Rela_E7_F5es.md.tex:98: Preview: Snippet 85 started.
+<-><->
+      
+l.98 $
+      (A, R)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:98: Preview: Snippet 85 ended.(491520+163840x1795187).
+<-><->
+      
+l.98 $(A, R)$
+             
+Not a real error.
+
+[85]
+./Rela_E7_F5es.md.tex:99: Preview: Snippet 86 started.
+<-><->
+      
+l.99 $
+      x, y \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:99: Preview: Snippet 86 ended.(447828+127431x2303158).
+<-><->
+      
+l.99 $x, y \in A$
+                 
+Not a real error.
+
+[86]
+./Rela_E7_F5es.md.tex:100: Preview: Snippet 87 started.
+<-><->
+      
+l.100 $
+       x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:100: Preview: Snippet 87 ended.(282168+0x374556).
+<-><->
+      
+l.100 $x$
+         
+Not a real error.
+
+[87]
+./Rela_E7_F5es.md.tex:101: Preview: Snippet 88 started.
+<-><->
+      
+l.101 $
+       y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:101: Preview: Snippet 88 ended.(282168+127431x344824).
+<-><->
+      
+l.101 $y$
+         
+Not a real error.
+
+[88]
+./Rela_E7_F5es.md.tex:102: Preview: Snippet 89 started.
+<-><->
+      
+l.102 $
+       x R y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:102: Preview: Snippet 89 ended.(447828+127431x1222051).
+<-><->
+      
+l.102 $x R y$
+             
+Not a real error.
+
+[89]
+./Rela_E7_F5es.md.tex:103: Preview: Snippet 90 started.
+<-><->
+      
+l.103 $
+       y R x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:103: Preview: Snippet 90 ended.(447828+127431x1222051).
+<-><->
+      
+l.103 $y R x$
+             
+Not a real error.
+
+[90]
+./Rela_E7_F5es.md.tex:104: Preview: Snippet 91 started.
+<-><->
+      
+l.104 $
+       R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:104: Preview: Snippet 91 ended.(447828+0x502671).
+<-><->
+      
+l.104 $R$
+         
+Not a real error.
+
+[91]
+./Rela_E7_F5es.md.tex:105: Preview: Snippet 92 started.
+<-><->
+      
+l.105 $
+       R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:105: Preview: Snippet 92 ended.(447828+0x502671).
+<-><->
+      
+l.105 $R$
+         
+Not a real error.
+
+[92]
+./Rela_E7_F5es.md.tex:106: Preview: Snippet 93 started.
+<-><->
+      
+l.106 $
+       A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:106: Preview: Snippet 93 ended.(447828+0x491521).
+<-><->
+      
+l.106 $A$
+         
+Not a real error.
+
+[93]
+./Rela_E7_F5es.md.tex:107: Preview: Snippet 94 started.
+<-><->
+      
+l.107 $
+       R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:107: Preview: Snippet 94 ended.(447828+0x502671).
+<-><->
+      
+l.107 $R$
+         
+Not a real error.
+
+[94]
+./Rela_E7_F5es.md.tex:108: Preview: Snippet 95 started.
+<-><->
+      
+l.108 $
+       R$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:108: Preview: Snippet 95 ended.(447828+0x502671).
+<-><->
+      
+l.108 $R$
+         
+Not a real error.
+
+[95]
+./Rela_E7_F5es.md.tex:109: Preview: Snippet 96 started.
+<-><->
+      
+l.109 $
+       (x,y)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:109: Preview: Snippet 96 ended.(491520+163840x1520375).
+<-><->
+      
+l.109 $(x,y)$
+             
+Not a real error.
+
+[96]
+./Rela_E7_F5es.md.tex:110: Preview: Snippet 97 started.
+<-><->
+      
+l.110 $
+       x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:110: Preview: Snippet 97 ended.(282168+0x374556).
+<-><->
+      
+l.110 $x$
+         
+Not a real error.
+
+[97]
+./Rela_E7_F5es.md.tex:111: Preview: Snippet 98 started.
+<-><->
+      
+l.111 $
+       y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:111: Preview: Snippet 98 ended.(282168+127431x344824).
+<-><->
+      
+l.111 $y$
+         
+Not a real error.
+
+[98]
+./Rela_E7_F5es.md.tex:112: Preview: Snippet 99 started.
+<-><->
+      
+l.112 $
+       P = (A, R)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:112: Preview: Snippet 99 ended.(491520+163840x3180766).
+<-><->
+      
+l.112 $P = (A, R)$
+                  
+Not a real error.
+
+[99]
+./Rela_E7_F5es.md.tex:113: Preview: Snippet 100 started.
+<-><->
+      
+l.113 $
+       C$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:113: Preview: Snippet 100 ended.(447828+0x515276).
+<-><->
+      
+l.113 $C$
+         
+Not a real error.
+
+[100]
+./Rela_E7_F5es.md.tex:114: Preview: Snippet 101 started.
+<-><->
+      
+l.114 $
+       C \subseteq A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:114: Preview: Snippet 101 ended.(447828+89110x1880603).
+<-><->
+      
+l.114 $C \subseteq A$
+                     
+Not a real error.
+
+[101]
+./Rela_E7_F5es.md.tex:115: Preview: Snippet 102 started.
+<-><->
+      
+l.115 $
+       C$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:115: Preview: Snippet 102 ended.(447828+0x515276).
+<-><->
+      
+l.115 $C$
+         
+Not a real error.
+
+[102]
+./Rela_E7_F5es.md.tex:116: Preview: Snippet 103 started.
+<-><->
+      
+l.116 $
+       P$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:116: Preview: Snippet 103 ended.(447828+0x511773).
+<-><->
+      
+l.116 $P$
+         
+Not a real error.
+
+[103]
+./Rela_E7_F5es.md.tex:117: Preview: Snippet 104 started.
+<-><->
+      
+l.117 $
+       C$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:117: Preview: Snippet 104 ended.(447828+0x515276).
+<-><->
+      
+l.117 $C$
+         
+Not a real error.
+
+[104]
+./Rela_E7_F5es.md.tex:118: Preview: Snippet 105 started.
+<-><->
+      
+l.118 $
+       C$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:118: Preview: Snippet 105 ended.(447828+0x515276).
+<-><->
+      
+l.118 $C$
+         
+Not a real error.
+
+[105]
+./Rela_E7_F5es.md.tex:119: Preview: Snippet 106 started.
+<-><->
+      
+l.119 $
+       P$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:119: Preview: Snippet 106 ended.(447828+0x511773).
+<-><->
+      
+l.119 $P$
+         
+Not a real error.
+
+[106]
+./Rela_E7_F5es.md.tex:120: Preview: Snippet 107 started.
+<-><->
+      
+l.120 $
+       C$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:120: Preview: Snippet 107 ended.(447828+0x515276).
+<-><->
+      
+l.120 $C$
+         
+Not a real error.
+
+[107]
+./Rela_E7_F5es.md.tex:121: Preview: Snippet 108 started.
+<-><->
+      
+l.121 $
+       (A,R)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:121: Preview: Snippet 108 ended.(491520+163840x1795187).
+<-><->
+      
+l.121 $(A,R)$
+             
+Not a real error.
+
+[108]
+./Rela_E7_F5es.md.tex:122: Preview: Snippet 109 started.
+<-><->
+      
+l.122 $
+       x, y \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:122: Preview: Snippet 109 ended.(447828+127431x2303158).
+<-><->
+      
+l.122 $x, y \in A$
+                  
+Not a real error.
+
+[109]
+./Rela_E7_F5es.md.tex:123: Preview: Snippet 110 started.
+<-><->
+      
+l.123 $
+       x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:123: Preview: Snippet 110 ended.(282168+0x374556).
+<-><->
+      
+l.123 $x$
+         
+Not a real error.
+
+[110]
+./Rela_E7_F5es.md.tex:124: Preview: Snippet 111 started.
+<-><->
+      
+l.124 $
+       z \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:124: Preview: Snippet 111 ended.(447828+25623x1626107).
+<-><->
+      
+l.124 $z \in A$
+               
+Not a real error.
+
+[111]
+./Rela_E7_F5es.md.tex:125: Preview: Snippet 112 started.
+<-><->
+      
+l.125 $
+       x R z$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:125: Preview: Snippet 112 ended.(447828+0x1210825).
+<-><->
+      
+l.125 $x R z$
+             
+Not a real error.
+
+[112]
+./Rela_E7_F5es.md.tex:126: Preview: Snippet 113 started.
+<-><->
+      
+l.126 $
+       y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:126: Preview: Snippet 113 ended.(282168+127431x344824).
+<-><->
+      
+l.126 $y$
+         
+Not a real error.
+
+[113]
+./Rela_E7_F5es.md.tex:127: Preview: Snippet 114 started.
+<-><->
+      
+l.127 $
+       z \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:127: Preview: Snippet 114 ended.(447828+25623x1626107).
+<-><->
+      
+l.127 $z \in A$
+               
+Not a real error.
+
+[114]
+./Rela_E7_F5es.md.tex:128: Preview: Snippet 115 started.
+<-><->
+      
+l.128 $
+       z R y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:128: Preview: Snippet 115 ended.(447828+127431x1181093).
+<-><->
+      
+l.128 $z R y$
+             
+Not a real error.
+
+[115]
+./Rela_E7_F5es.md.tex:129: Preview: Snippet 116 started.
+<-><->
+      
+l.129 $
+       (A,R)$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:129: Preview: Snippet 116 ended.(491520+163840x1795187).
+<-><->
+      
+l.129 $(A,R)$
+             
+Not a real error.
+
+[116]
+./Rela_E7_F5es.md.tex:130: Preview: Snippet 117 started.
+<-><->
+      
+l.130 $
+       x, y \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:130: Preview: Snippet 117 ended.(447828+127431x2303158).
+<-><->
+      
+l.130 $x, y \in A$
+                  
+Not a real error.
+
+[117]
+./Rela_E7_F5es.md.tex:131: Preview: Snippet 118 started.
+<-><->
+      
+l.131 $
+       x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:131: Preview: Snippet 118 ended.(282168+0x374556).
+<-><->
+      
+l.131 $x$
+         
+Not a real error.
+
+[118]
+./Rela_E7_F5es.md.tex:132: Preview: Snippet 119 started.
+<-><->
+      
+l.132 $
+       z \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:132: Preview: Snippet 119 ended.(447828+25623x1626107).
+<-><->
+      
+l.132 $z \in A$
+               
+Not a real error.
+
+[119]
+./Rela_E7_F5es.md.tex:133: Preview: Snippet 120 started.
+<-><->
+      
+l.133 $
+       z R x$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:133: Preview: Snippet 120 ended.(447828+0x1210825).
+<-><->
+      
+l.133 $z R x$
+             
+Not a real error.
+
+[120]
+./Rela_E7_F5es.md.tex:134: Preview: Snippet 121 started.
+<-><->
+      
+l.134 $
+       y$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:134: Preview: Snippet 121 ended.(282168+127431x344824).
+<-><->
+      
+l.134 $y$
+         
+Not a real error.
+
+[121]
+./Rela_E7_F5es.md.tex:135: Preview: Snippet 122 started.
+<-><->
+      
+l.135 $
+       z \in A$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:135: Preview: Snippet 122 ended.(447828+25623x1626107).
+<-><->
+      
+l.135 $z \in A$
+               
+Not a real error.
+
+[122]
+./Rela_E7_F5es.md.tex:136: Preview: Snippet 123 started.
+<-><->
+      
+l.136 $
+       y R z$
+Not a real error.
+
+./Rela_E7_F5es.md.tex:136: Preview: Snippet 123 ended.(447828+127431x1181093).
+<-><->
+      
+l.136 $y R z$
+             
+Not a real error.
+
+[123] ) 
+Here is how much of TeX's memory you used:
+ 355 strings out of 477741
+ 7236 string characters out of 5849987
+ 305042 words of memory out of 5000000
+ 19089 multiletter control sequences out of 15000+600000
+ 412191 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,4n,62p,197b,105s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Rela_E7_F5es.md.pdf (123 pages, 67287 bytes).
+PDF statistics:
+ 426 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

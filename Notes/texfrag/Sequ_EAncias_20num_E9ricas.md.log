@@ -1,0 +1,498 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=prv_Sequ_EAncias_20num_E9ricas.md 2021.9.29)  29 SEP 2021 08:01
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_Sequ_EAncias_20num_E9ricas.md /AUCTEXINPUT{ Sequ_EAncias_20num_E9ricas.md.tex }
+(./Sequ_EAncias_20num_E9ricas.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+No file Sequ_EAncias_20num_E9ricas.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/padawan/.emacs.d/straight/build/auctex/latex/preview.sty
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prtightpage.def
+\PreviewBorder=\dimen148
+) (/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count266
+\hfuzz=\dimen149
+(/home/padawan/.emacs.d/straight/build/auctex/latex/prauctex.cfg)) (/home/padawan/.emacs.d/straight/build/auctex/latex/prfootnotes.def)
+\pr@snippet=\count267
+\pr@box=\box50
+\pr@output=\toks22
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
+./Sequ_EAncias_20num_E9ricas.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     a_1, a_2, \dots, a_n$
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./Sequ_EAncias_20num_E9ricas.md.tex:6: Preview: Snippet 1 ended.(282168+127431x3731602).
+<-><->
+      
+l.6 $a_1, a_2, \dots, a_n$
+                          
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+./Sequ_EAncias_20num_E9ricas.md.tex:7: Preview: Snippet 2 started.
+<-><->
+      
+l.7 $
+     a_n \in \mathbb{R} \quad \forall n \in \mathbb{Z}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:7: Preview: Snippet 2 ended.(455111+98303x4628010).
+<-><->
+      
+l.7 ... \mathbb{R} \quad \forall n \in \mathbb{Z}$
+                                                  
+Not a real error.
+
+[2]
+./Sequ_EAncias_20num_E9ricas.md.tex:8: Preview: Snippet 3 started.
+<-><->
+      
+l.8 $
+     (a_n)_{n\in\mathbb{Z}}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:8: Preview: Snippet 3 ended.(491520+163840x2228609).
+<-><->
+      
+l.8 $(a_n)_{n\in\mathbb{Z}}$
+                            
+Not a real error.
+
+[3]
+./Sequ_EAncias_20num_E9ricas.md.tex:9: Preview: Snippet 4 started.
+<-><->
+      
+l.9 $
+     (a_n)_{n\in\mathbb{Z}}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:9: Preview: Snippet 4 ended.(491520+163840x2228609).
+<-><->
+      
+l.9 $(a_n)_{n\in\mathbb{Z}}$
+                            
+Not a real error.
+
+[4]
+./Sequ_EAncias_20num_E9ricas.md.tex:10: Preview: Snippet 5 started.
+<-><->
+      
+l.10 $
+      L \in \mathbb{R}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:10: Preview: Snippet 5 ended.(451470+25623x1720314).
+<-><->
+      
+l.10 $L \in \mathbb{R}$
+                       
+Not a real error.
+
+[5]
+./Sequ_EAncias_20num_E9ricas.md.tex:11: Preview: Snippet 6 started.
+<-><->
+      
+l.11 $
+      $
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:13: Preview: Snippet 6 ended.(1245184+0x22609920).
+<-><->
+      
+l.13 >$$
+        
+Not a real error.
+
+[6]
+./Sequ_EAncias_20num_E9ricas.md.tex:14: Preview: Snippet 7 started.
+<-><->
+      
+l.14 $
+      (a_n)_{n\in\mathbb{Z}}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:14: Preview: Snippet 7 ended.(491520+163840x2228609).
+<-><->
+      
+l.14 $(a_n)_{n\in\mathbb{Z}}$
+                             
+Not a real error.
+
+[7]
+./Sequ_EAncias_20num_E9ricas.md.tex:15: Preview: Snippet 8 started.
+<-><->
+      
+l.15 $
+      (a_n)_{n \in \mathbb{Z}}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:15: Preview: Snippet 8 ended.(491520+163840x2228609).
+<-><->
+      
+l.15 $(a_n)_{n \in \mathbb{Z}}$
+                               
+Not a real error.
+
+[8]
+./Sequ_EAncias_20num_E9ricas.md.tex:16: Preview: Snippet 9 started.
+<-><->
+      
+l.16 $
+      f.[1, +\infty[ \to \mathbb{R}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:16: Preview: Snippet 9 ended.(491520+163840x3995878).
+<-><->
+      
+l.16 $f.[1, +\infty[ \to \mathbb{R}$
+                                    
+Not a real error.
+
+[9]
+./Sequ_EAncias_20num_E9ricas.md.tex:17: Preview: Snippet 10 started.
+<-><->
+      
+l.17 $
+      a_n = f(n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:17: Preview: Snippet 10 ended.(491520+163840x2871450).
+<-><->
+      
+l.17 $a_n = f(n)$
+                 
+Not a real error.
+
+[10]
+./Sequ_EAncias_20num_E9ricas.md.tex:18: Preview: Snippet 11 started.
+<-><->
+      
+l.18 $
+      $
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:20: Preview: Snippet 11 ended.(1245184+0x22609920).
+<-><->
+      
+l.20 >$$
+        
+Not a real error.
+
+[11]
+./Sequ_EAncias_20num_E9ricas.md.tex:21: Preview: Snippet 12 started.
+<-><->
+      
+l.21 $
+      (a_n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:21: Preview: Snippet 12 ended.(491520+163840x1212876).
+<-><->
+      
+l.21 $(a_n)$
+            
+Not a real error.
+
+[12]
+./Sequ_EAncias_20num_E9ricas.md.tex:22: Preview: Snippet 13 started.
+<-><->
+      
+l.22 $
+      (b_n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:22: Preview: Snippet 13 ended.(491520+163840x1147718).
+<-><->
+      
+l.22 $(b_n)$
+            
+Not a real error.
+
+[13]
+./Sequ_EAncias_20num_E9ricas.md.tex:23: Preview: Snippet 14 started.
+<-><->
+      
+l.23 $
+      \lim_{n \to +\infty} a_n = A$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:23: Preview: Snippet 14 ended.(455111+152917x4891918).
+<-><->
+      
+l.23 $\lim_{n \to +\infty} a_n = A$
+                                   
+Not a real error.
+
+[14]
+./Sequ_EAncias_20num_E9ricas.md.tex:24: Preview: Snippet 15 started.
+<-><->
+      
+l.24 $
+      \lim_{n \to +\infty} b_n = B$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:24: Preview: Snippet 15 ended.(455111+152917x4865216).
+<-><->
+      
+l.24 $\lim_{n \to +\infty} b_n = B$
+                                   
+Not a real error.
+
+[15]
+./Sequ_EAncias_20num_E9ricas.md.tex:25: Preview: Snippet 16 started.
+<-><->
+      
+l.25 $
+      A \in \mathbb{R}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:25: Preview: Snippet 16 ended.(451470+25623x1765825).
+<-><->
+      
+l.25 $A \in \mathbb{R}$
+                       
+Not a real error.
+
+[16]
+./Sequ_EAncias_20num_E9ricas.md.tex:26: Preview: Snippet 17 started.
+<-><->
+      
+l.26 $
+      B \in \mathbb{R}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:26: Preview: Snippet 17 ended.(451470+25623x1804281).
+<-><->
+      
+l.26 $B \in \mathbb{R}$
+                       
+Not a real error.
+
+[17]
+./Sequ_EAncias_20num_E9ricas.md.tex:27: Preview: Snippet 18 started.
+<-><->
+      
+l.27 $
+      $
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:35: Preview: Snippet 18 ended.(6808608+0x22609920).
+<-><->
+      
+l.35 >$$
+        
+Not a real error.
+
+[18]
+./Sequ_EAncias_20num_E9ricas.md.tex:36: Preview: Snippet 19 started.
+<-><->
+      
+l.36 $
+      (a_n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:36: Preview: Snippet 19 ended.(491520+163840x1212876).
+<-><->
+      
+l.36 $(a_n)$
+            
+Not a real error.
+
+[19]
+./Sequ_EAncias_20num_E9ricas.md.tex:37: Preview: Snippet 20 started.
+<-><->
+      
+l.37 $
+      a_n \leq a_{n+1} \quad \forall n \in \mathbb{Z}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:37: Preview: Snippet 20 ended.(455111+152917x5594217).
+<-><->
+      
+l.37 ...eq a_{n+1} \quad \forall n \in \mathbb{Z}$
+                                                  
+Not a real error.
+
+[20]
+./Sequ_EAncias_20num_E9ricas.md.tex:38: Preview: Snippet 21 started.
+<-><->
+      
+l.38 $
+      (a_n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:38: Preview: Snippet 21 ended.(491520+163840x1212876).
+<-><->
+      
+l.38 $(a_n)$
+            
+Not a real error.
+
+[21]
+./Sequ_EAncias_20num_E9ricas.md.tex:39: Preview: Snippet 22 started.
+<-><->
+      
+l.39 $
+      M$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:39: Preview: Snippet 22 ended.(447828+0x707242).
+<-><->
+      
+l.39 $M$
+        
+Not a real error.
+
+[22]
+./Sequ_EAncias_20num_E9ricas.md.tex:40: Preview: Snippet 23 started.
+<-><->
+      
+l.40 $
+      a_n \leq M \quad \forall n \in \mathbb{Z}$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:40: Preview: Snippet 23 ended.(455111+98303x4934754).
+<-><->
+      
+l.40 $a_n \leq M \quad \forall n \in \mathbb{Z}$
+                                                
+Not a real error.
+
+[23]
+./Sequ_EAncias_20num_E9ricas.md.tex:41: Preview: Snippet 24 started.
+<-><->
+      
+l.41 $
+      M$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:41: Preview: Snippet 24 ended.(447828+0x707242).
+<-><->
+      
+l.41 $M$
+        
+Not a real error.
+
+[24]
+./Sequ_EAncias_20num_E9ricas.md.tex:42: Preview: Snippet 25 started.
+<-><->
+      
+l.42 $
+      (a_n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:42: Preview: Snippet 25 ended.(491520+163840x1212876).
+<-><->
+      
+l.42 $(a_n)$
+            
+Not a real error.
+
+[25]
+./Sequ_EAncias_20num_E9ricas.md.tex:43: Preview: Snippet 26 started.
+<-><->
+      
+l.43 $
+      (a_n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:43: Preview: Snippet 26 ended.(491520+163840x1212876).
+<-><->
+      
+l.43 $(a_n)$
+            
+Not a real error.
+
+[26]
+./Sequ_EAncias_20num_E9ricas.md.tex:44: Preview: Snippet 27 started.
+<-><->
+      
+l.44 $
+      M$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:44: Preview: Snippet 27 ended.(447828+0x707242).
+<-><->
+      
+l.44 $M$
+        
+Not a real error.
+
+[27]
+./Sequ_EAncias_20num_E9ricas.md.tex:45: Preview: Snippet 28 started.
+<-><->
+      
+l.45 $
+      M$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:45: Preview: Snippet 28 ended.(447828+0x707242).
+<-><->
+      
+l.45 $M$
+        
+Not a real error.
+
+[28]
+./Sequ_EAncias_20num_E9ricas.md.tex:46: Preview: Snippet 29 started.
+<-><->
+      
+l.46 $
+      (a_n)$
+Not a real error.
+
+./Sequ_EAncias_20num_E9ricas.md.tex:46: Preview: Snippet 29 ended.(491520+163840x1212876).
+<-><->
+      
+l.46 $(a_n)$
+            
+Not a real error.
+
+[29] ) 
+Here is how much of TeX's memory you used:
+ 355 strings out of 477741
+ 7306 string characters out of 5849875
+ 308084 words of memory out of 5000000
+ 19089 multiletter control sequences out of 15000+600000
+ 412191 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,10n,62p,225b,167s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Sequ_EAncias_20num_E9ricas.md.pdf (29 pages, 72980 bytes).
+PDF statistics:
+ 134 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

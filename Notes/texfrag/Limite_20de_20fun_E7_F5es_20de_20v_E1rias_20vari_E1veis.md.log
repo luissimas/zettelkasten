@@ -1,0 +1,87 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=prv_Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md 2021.10.20)  20 OCT 2021 10:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**&prv_Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md /AUCTEXINPUT{ Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md.tex }
+(./Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md.tex (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+No file Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/padawan/.config/emacs/straight/build/auctex/latex/preview.sty
+Package: preview 2017/04/24 12.3 (AUCTeX/preview-latex)
+ (/usr/share/texmf-dist/tex/generic/luatex85/luatex85.sty
+Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
+) (/home/padawan/.config/emacs/straight/build/auctex/latex/prtightpage.def
+\PreviewBorder=\dimen148
+) (/home/padawan/.config/emacs/straight/build/auctex/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count266
+\hfuzz=\dimen149
+(/home/padawan/.config/emacs/straight/build/auctex/latex/prauctex.cfg)) (/home/padawan/.config/emacs/straight/build/auctex/latex/prfootnotes.def)
+\pr@snippet=\count267
+\pr@box=\box50
+\pr@output=\toks22
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
+./Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md.tex:6: Preview: Snippet 1 started.
+<-><->
+      
+l.6 $
+     $
+Not a real error.
+
+./Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md.tex:7: Undefined control sequence.
+l.7 |g(x,y)| \leq M\text{, } \fortall
+                                      (x,y) \text{ tal que } 0 < ||(x,y) - (...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Preview: Tightpage -32891 -32891 32891 32891
+./Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md.tex:8: Preview: Snippet 1 ended.(950272+0x22609920).
+<-><->
+      
+l.8 $$
+      
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] ) 
+Here is how much of TeX's memory you used:
+ 355 strings out of 477741
+ 7506 string characters out of 5849642
+ 305171 words of memory out of 5000000
+ 19089 multiletter control sequences out of 15000+600000
+ 412191 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,4n,62p,283b,105s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Limite_20de_20fun_E7_F5es_20de_20v_E1rias_20vari_E1veis.md.pdf (1 page, 42777 bytes).
+PDF statistics:
+ 29 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

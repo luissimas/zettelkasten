@@ -59,7 +59,7 @@ $$
 $$
 > se houver uma função $g(x,y)$ tal que:
 $$
-|g(x,y)| \leq M\text{, } \fortall (x,y) \text{ tal que } 0 < ||(x,y) - (x_0,y_0)|| < r
+|g(x,y)| \leq M\text{, } \forall (x,y) \text{ tal que } 0 < ||(x,y) - (x_0,y_0)|| < r
 $$
 > então
 $$
