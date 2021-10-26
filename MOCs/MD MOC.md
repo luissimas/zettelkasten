@@ -19,6 +19,8 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 [[Aritmética modular]]
 
 ## Teoria dos grafos
+[[Grafos]]
+[[Grafos orientados]]
 [[Grafos não orientados]]
 
 ---
