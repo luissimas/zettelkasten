@@ -22,6 +22,8 @@ O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisMode
 [[Implementação do sistema de arquivos]]
 
 ## Gerenciamento de IO
+[[Hardware de IO]]
+[[Software de IO]]
 
 ---
 
