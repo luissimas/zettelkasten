@@ -4,7 +4,9 @@ Um grafo não orientado é um par $(V, A)$ onde:
 - $A$ é uma relação em $V$, ou seja, um subconjunto do produto cartesiano $V \times V$ onde cada aresta é um **par não ordenado** de vértices.
 
 Dados dois vértices $v$ e $w$, dizemos que uma aresta com *extremos* $v$ e $w$ **incide** em $v$ e em $w$. Portanto, a relação de incidência relaciona uma aresta aos vértices de seus extremos.
+
 Dois vértices $v$ e $w$ são ditos **vizinhos** em um grafo $G$ se e somente se existe uma aresta em $G$ com extremos $v$ e $w$. Veja que a relação de adjacência é uma relação simétrica entre vértices.
+
 O **grau** de um vértice $v$ em um grafo $G$ é o *número de arestas* que incidem em $v$. Geralmente denota-se o grau de um vértice $v$ como $d_G(v)$, ou simplesmente $d(v)$.
 
 > **Teorema 1**
