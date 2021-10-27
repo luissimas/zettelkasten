@@ -33,7 +33,7 @@ f'(x)=nx^{n-1}
 \Bigg(\frac{1}{f(x)}\Bigg)'=-\frac{f'(x)}{(f(x))^2}
 >$$
 >$$
-\Bigg(\frac{f(x)}{g(x)}\Bigg)'=-\frac{(f'(x)g(x))-(f(x)g'(x))}{(g(x))^2}
+\Bigg(\frac{f(x)}{g(x)}\Bigg)'=\frac{(f'(x)g(x))-(f(x)g'(x))}{(g(x))^2}
 >$$
 
 ---

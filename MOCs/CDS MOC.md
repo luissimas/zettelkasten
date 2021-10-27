@@ -11,6 +11,7 @@ A disciplina de cálculo diferencial e séries trata de três grandes tópicos d
 ## Funções de várias variáveis
 [[Funções de várias variáveis]]
 [[Limite de funções de várias variáveis]]
+[[Continuidade de funções de várias variáveis]]
 [[Derivadas de funções de várias variáveis]]
 [[Integrais de funções de várias variáveis]]
 

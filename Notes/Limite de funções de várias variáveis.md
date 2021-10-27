@@ -66,11 +66,3 @@ $$
 \lim_{(x,y) \to (x_0, y_0)}{f(x,y) \cdot g(x,y)}=0
 $$
 > Ou seja, se $g$ é uma função limitada e o limite de $f$ vai a $0$, o limite do produto $f \cdot g$ também vai a $0$.
-
-## Continuidade
-Assim como para funções de uma variável, a continuidade é definida em termos de limites.
-Uma função $f(x,y)$ é **contínua no ponto** $(x_0, y_0)$ se as seguintes condições forem satisfeitas:
-
-1. $f$ for definida em $(x_0, y_0)$
-2. $\displaystyle\lim_{(x,y) \to (x_0, y_0)}{f(x,y)}$ existe
-3. $\displaystyle\lim_{(x,y) \to (x_0, y_0)}{f(x,y)} = f(x_0, y_0)$
