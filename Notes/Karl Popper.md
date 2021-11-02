@@ -1,5 +1,5 @@
 # Karl Popper
-Nascido em 28 de julho de 1920, em Himmelhof, um distrito de Viena, Karl Raimund Popper foi um filósofo e professor austro-britânico. Popper faleceu em 17 de setembro de 1994, na Inglaterra.
+Nascido em 28 de Julho de 1920, em Himmelhof, um distrito de Viena, Karl Raimund Popper foi um filósofo e professor austro-britânico. Popper faleceu em 17 de Setembro de 1994, na Inglaterra.
 
 ![Popper](../Attachments/FIL/Popper.jpg)
 
