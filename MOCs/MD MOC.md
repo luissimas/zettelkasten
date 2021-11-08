@@ -23,6 +23,7 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 [[Grafos orientados]]
 [[Grafos não orientados]]
 [[Classificação de grafos]]
+[[Passeio em grafos]]
 
 ---
 
