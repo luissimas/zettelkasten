@@ -24,7 +24,7 @@ Tendo essas implicações em vista, podemos derivar o seguinte:
 > Sendo $E(h,k)$ definida por:
 
 $$
-E(h,k) = f(x_0 + h, y_0 + k) - f(x_0, y_0) - h\left.\frac{\partial f}{\partial x}\right|_{(x_0, y_0)} -k\left.\frac{\partial f}{\partial y}\right|_{(x_0, y_0)}
+E(h,k) = f(x_0 + h, y_0 + k) - f(x_0, y_0) - \frac{\partial f}{\partial x}{(x_0, y_0)}h -\frac{\partial f}{\partial y}{(x_0, y_0)}k
 $$
 
 Existe ainda uma condição suficiente para a diferenciabilidade que envolve as derivadas parciais de uma função.
