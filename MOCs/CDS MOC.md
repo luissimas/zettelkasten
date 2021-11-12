@@ -1,5 +1,5 @@
 # Cálculo Diferencial e Séries
-A disciplina de cálculo diferencial e séries trata de três grandes tópicos do cálculo, cada um estudado separadamente. O referencial teórico da disciplina foi o livro [[Calculo_Thomas_12ed.pdf|Cálculo Vol.2 - 12° edição - George Thomas]]
+A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do cálculo, cada um estudado separadamente. O referencial teórico da disciplina foi o livro [[Calculo_Thomas_12ed.pdf|Cálculo Vol.2 - 12° edição - George Thomas]]
 
 ## Sequências e séries
 [[Sequências numéricas]]
@@ -15,9 +15,8 @@ A disciplina de cálculo diferencial e séries trata de três grandes tópicos d
 [[Derivadas parciais]]
 [[Diferenciabilidade de funções de várias variáveis]]
 [[Plano tangente]]
+[[Vetor gradiente]]
 [[Derivadas de funções de várias variáveis]]
-
-## Funções implícitas e funções inversas
 
 ---
 
