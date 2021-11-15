@@ -16,7 +16,8 @@ A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do
 [[Diferenciabilidade de funções de várias variáveis]]
 [[Plano tangente]]
 [[Vetor gradiente]]
-[[Derivadas de funções de várias variáveis]]
+[[Regra da cadeia em funções de várias variáveis]]
+[[Derivadas direcionais]]
 
 ---
 
