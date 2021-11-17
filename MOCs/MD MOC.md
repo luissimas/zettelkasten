@@ -28,6 +28,9 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 [[Isomorfismo em grafos]]
 [[Árvore]]
 [[Grafo bipartido]]
+[[Grafo euleriano]]
+[[Grafo hamiltoniano]]
+[[Grafo planar]]
 
 ---
 
