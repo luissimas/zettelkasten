@@ -8,7 +8,7 @@
   "spellcheck": false,
   "trashOption": "local",
   "newLinkFormat": "shortest",
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "readableLineLength": true,
   "defaultViewMode": "preview",
   "useTab": false,
