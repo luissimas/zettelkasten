@@ -18,6 +18,7 @@ A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do
 [[Vetor gradiente]]
 [[Regra da cadeia em funções de várias variáveis]]
 [[Derivadas direcionais]]
+[[Máximos e mínimos de funções de várias variáveis]]
 
 ---
 
