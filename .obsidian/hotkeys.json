@@ -73,13 +73,20 @@
       "key": "Q"
     }
   ],
-  "app:toggle-left-sidebar": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ","
+    }
+  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "E"
+      "key": "."
     }
   ],
   "app:open-settings": [
