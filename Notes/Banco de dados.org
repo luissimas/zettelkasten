@@ -1,4 +1,4 @@
-#+title: Banco de dados
+#+title:Banco de dados
 
 Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos básicos até linguagem SQL e manutenção de banco de dados.
 

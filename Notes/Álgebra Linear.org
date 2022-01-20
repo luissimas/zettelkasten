@@ -1,9 +1,6 @@
-#+title: Álgebra Linear
+#+title:Álgebra Linear
 
 * Espaços Vetoriais
-- Definição nos axiomas da operações de soma (S1-S4) e de multiplicação (M1-M4)
-- Os conjuntos $\mathbb{R}$, $\mathbb{R}^{2}$, $\mathbb{R}^3$ e $\mathbb{R}^n$ com suas definições de adição e multiplicação são exemplos de espaços vetoriais.
-
   Dado um conjunto $\mathbb{V}$ não-vazio, se em $\mathbb{V}$ estiverem definidas: uma operação de adição tal que, para todo par de elementos  $x, y \in \mathbb{V}$, associa-se um terceiro elemento $x + y \in \mathbb{V}$, ou seja:
 
   $$+ : \mathbb{V} \times \mathbb{V} \to \mathbb{V}$$
@@ -14,11 +11,19 @@
 
   O conjunto $\mathbb{V}$ é um *espaço vetorial real* em relação a essas operações se, para quaisquer $\alpha, \beta \in \mathbb{R}$ e $u, v, w \in \mathbb{V}$, as seguintes *propriedades* forem satisfeitas:
 
-  A₁) (Associatividade) $(x + y) + z = x + (y + z)$
-  A_2) (Comutatividade) $x + y = x + y$
-  A_3) (Elemento neutro) $\exists 0 \in \mathbb{V} \mid u + 0 = 0 + u = u$
-  A_4) (Elemento simétrico) $\forall u, \exists -u \mid x + (-x) = 0$
-  M₁) (Distributividade) $\alpha (u + v) = \alpha u + \alpha v$
-  M2) (Distributividade) $(\alpha + \beta)u = \alpha y + \beta u$
-  M3) (Associatividade) $(\alpha \beta)u = \alpha (\beta u)$
-  M4) (Elemento neutro) $1 u = u$
+  A_1) *(Associatividade)* $(x + y) + z = x + (y + z)$
+  A_2) *(Comutatividade)* $x + y = x + y$
+  A_3) *(Elemento neutro)* $\exists 0 \in \mathbb{V} \mid u + 0 = 0 + u = u$
+  A_4) *(Elemento simétrico)* $\forall u, \exists -u \mid x + (-x) = 0$
+  M_1) *(Distributividade)* $\alpha (u + v) = \alpha u + \alpha v$
+  M_2) *(Distributividade)* $(\alpha + \beta)u = \alpha y + \beta u$
+  M_3) *(Associatividade)* $(\alpha \beta)u = \alpha (\beta u)$
+  M_4) *(Elemento neutro)* $1 \cdot u = u$
+
+  Os conjuntos $\mathbb{R}, \mathbb{R}^{2}, \mathbb{R}^3, \dots , \mathbb{R}^n$ com suas definições tradicionais de adição e multiplicação são exemplos de espaços vetoriais.
+
+** TODO Subespaço Vetorial
+- Para ser subespaço vetorial ele deve conter o vetor nulo (Demonstrar)
+
+** Combinação Linear
+** Subespaço Gerado
