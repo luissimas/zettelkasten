@@ -19,8 +19,9 @@ $$
 \end{cases}
 $$
 pode ser representado na forma matricial por:
+
 $$
-A = 
+A =
 \begin{bmatrix}
 a_{11} & \cdots & a_{1n} \\
 a_{21} & \cdots & a_{2n} \\
@@ -29,7 +30,7 @@ a_{m1} & \cdots & a_{mn}
 \end{bmatrix}
 
 \text{ e }
-\widetilde{A} = [A|B] = 
+\widetilde{A} = [A|B] =
 \begin{bmatrix}
 a_{11} & \cdots & a_{1n} & b_1 \\
 a_{21} & \cdots & a_{2n} & b_2 \\
@@ -37,10 +38,11 @@ a_{21} & \cdots & a_{2n} & b_2 \\
 a_{m1} & \cdots & a_{mn} & b_m
 \end{bmatrix}
 $$
+
 sendo $A$ a **matriz dos coeficientes** e $\widetilde{A}$ a **matriz ampliada (completa)** do sistema.
 Também é possível representar o sistema através da equação matricial $AX=B$, sendo:
 $$
-A = 
+A =
 \begin{bmatrix}
 a_{11} & \cdots & a_{1n} \\
 a_{21} & \cdots & a_{2n} \\
@@ -56,7 +58,7 @@ x_2 \\
 x_n
 \end{bmatrix}
 , \qquad
-B = 
+B =
 \begin{bmatrix}
 b_1 \\
 b_2 \\

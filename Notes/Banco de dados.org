@@ -1,0 +1,18 @@
+#+title: Banco de dados
+
+Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos básicos até linguagem SQL e manutenção de banco de dados.
+
+* Conceitos básicos
+Um banco de dados é uma coleção de dados organizados de uma forma coerente e relacionados entre si. Usualmente bancos de dados são implementados como uma forma de manter um único repositório de dados que podem ser acessados por vários usuários por meio de consultas, transações e outros programas de aplicação.
+
+Em geral, as principais características da abordagem de banco de dados que a diferem da abordagem de processamento de arquivos são:
+
+- *Natureza auto-descritiva:* além dos dados, um banco de dados armazena também a estrutura desses dados e suas restrições, isso é feito através de /metadados/.
+- *Abstração de dados:* a ideia dos bancos de dados é criar uma abstração sobre o armazenamento dos dados no computador, permitindo um desacoplamento entre dados, sua estrutura, e as operações a serem realizadas sobre os mesmos.
+- *Suporte a múltiplas visões dos dados:* bancos de dados fornecem ferramentas para consultar apenas a parte dos dados e relacionamentos relevantes a uma determinada necessidade, derivando dados a partir dos dados armazenados e os disponibilizando para consulta.
+- *Compartilhamento de dados e processamento de transação multiusuário:* um ponto crucial da implementação de banco de dados é o controle de acesso e concorrência para garantir a integridade da base de dados mesmo com o acesso simultâneo de vários usuários.
+
+Um /SGBD (Sistema de Gerenciamento de Banco de Dados)/ é um programa (ou conjunto de programas) responsável por criar e manter um banco de dados. Através do /SGBD/ é possível realizar consultas, fazer alterações e lidar com a manutenção geral de uma base de dados.
+
+#+caption: Diagrama simplificado de um ambiente de sistema de banco de dados
+[[../Attachments/BD/bancodedados.png]]
