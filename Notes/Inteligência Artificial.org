@@ -30,6 +30,33 @@ Com um problema formulado, a solução consiste em realizar uma busca no espaço
 No geral os algoritmos de busca possuem a mesma estrutura básica, que consiste em expandir os nós a partir das ações possíveis, gerando novos nós e repetir o processo até que se atinja o nó final. Apesar disso, os algoritmos diferem na *estratégia de busca*, que determina o critério usado para selecionar o próximo nó a ser expandido na árvore de busca.
 
 *** Busca desinformada
+As estratégias de busca desinformada não possuem informação adicional sobre o problema além da definição do mesmo. Tendo isso em vista, os algoritmos nessa categoria devem testar todos os nós até encontrar o estado objetivo.
+
+[[../Attachments/IA/breadthanddepth.gif]]
+
+**** Breadth-First (Busca em Largura)
+Esse algoritmo consiste em verificar e expandir os nós da árvore de busca nível por nível, dessa forma todos os nós de um determinado nível são expandidos antes de se iniciar a expansão dos nós do próximo nível.
+
+Uma implicação interessante da busca nível a nível é que esse algoritmo sempre encontra o *caminho mais curto* (não necessariamente o caminho ótimo) para a solução.
+
+**** Depth-First (Busca em profundidade)
+A busca em profundidade consiste em expandir o nó mais interno até que o nó desse ramo não tenha mais sucessores, após isso retrocede-se ao nó mais profundo e o processo é repetido.
+
+Esse algoritmo *não garante* o caminho mais curto nem a solução ótima, mesmo se as ações tiverem o mesmo custo.
+
+Note que em sua versão mais simples, a busca em profundidade apresenta algumas limitações. Uma delas é a possibilidade de expansão indefinida em um ramo, sem que a solução seja encontrada. Pensando nisso, algumas variações da busca em profundidade foram desenvolvidas na tentativa de remediar algumas dessas limitações fundamentais:
+
+- Busca Limitada: define previamente um nível máximo para a expansão dos nós (note que caso o objetivo esteja em um nível abaixo do limite, ele não será encontrado).
+- Busca Limitada Interativa: uma versão melhorada da busca limitada na qual o limite é dinâmico e vai sendo incrementado até que a solução seja atingida.
+- Backtracking: apenas o caminho sendo explorado é armazenado, os filhos de cada nó são gerados e explorados um por vez.
+
+**** Busca de Custo Uniforme
+Esse algoritmo difere dos demais no sentido de que ele leva em conta o custo dos movimentos de um nó ao outro. A *função de custo* faz parte da definição do problema, e é utilizada por esse algoritmo para decidir qual nó expandir em seguida.
+
+O algoritmo consiste em expandir o nó inicial, manter uma lista dos nós não expandidos ordenada pelo custo dos nós, e então visitar e expandir cada nó de acordo com a ordem dessa lista. Dessa forma os nós menos custosos são sempre verificados primeiro. Quando um nó é expandido, é necessário verificar se ele já havia sido visitado antes (mantendo um alista de nós já expandidos), caso ele já tenha sido visitado, é necessário comparar o custo do caminho atual com o do caminho anterior para aquele nó, e manter apenas o caminho menos custoso. Um ponto importante é que a verificação de nó objetivo só deve ser feita no nó selecionado, e não nos nós expandidos, pois com o primeiro método há a garantia de encontrar sempre o caminho menos custoso para o nó objetivo.
+
+Note que o algoritmo de busca de custo uniforme garante sempre a *solução ótima*, ou seja, a solução de menor custo para o problema.
+
 *** Busca informada
 
 * Representação de Conhecimento e Raciocínio
