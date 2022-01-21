@@ -1,29 +1,39 @@
 #+title:Álgebra Linear
 
 * Espaços Vetoriais
-  Dado um conjunto $\mathbb{V}$ não-vazio, se em $\mathbb{V}$ estiverem definidas: uma operação de adição tal que, para todo par de elementos  $x, y \in \mathbb{V}$, associa-se um terceiro elemento $x + y \in \mathbb{V}$, ou seja:
+  Dado um conjunto $V$ não-vazio, se em $V$ estiverem definidas: uma operação de adição tal que, para todo par de elementos  $x, y \in V$, associa-se um terceiro elemento $x + y \in V$, ou seja:
 
-  $$+ : \mathbb{V} \times \mathbb{V} \to \mathbb{V}$$
+  $$+ : V \times V \to V$$
 
-  e uma operação de multiplicação por escalar tal que, para cada elemento $\alpha \in \mathbb{R}$ e para cada elemento $x \in \mathbb{V}$, associa-se um elemento $\alpha x \in \mathbb{V}$, ou seja:
+  e uma operação de multiplicação por escalar tal que, para cada elemento $\alpha \in \mathbb{R}$ e para cada elemento $x \in V$, associa-se um elemento $\alpha x \in V$, ou seja:
 
-  $$\cdot : \mathbb{R} \times \mathbb{V} \to \mathbb{V}$$
+  $$\cdot : \mathbb{R} \times V \to V$$
 
-  O conjunto $\mathbb{V}$ é um *espaço vetorial real* em relação a essas operações se, para quaisquer $\alpha, \beta \in \mathbb{R}$ e $u, v, w \in \mathbb{V}$, as seguintes *propriedades* forem satisfeitas:
+  O conjunto $V$ é um *espaço vetorial real* em relação a essas operações se, para quaisquer $\alpha, \beta \in \mathbb{R}$ e $u, v, w \in V$, as seguintes *propriedades* forem satisfeitas:
 
   A_1) *(Associatividade)* $(x + y) + z = x + (y + z)$
   A_2) *(Comutatividade)* $x + y = x + y$
-  A_3) *(Elemento neutro)* $\exists 0 \in \mathbb{V} \mid u + 0 = 0 + u = u$
+  A_3) *(Elemento neutro)* $\exists 0 \in V \mid u + 0 = 0 + u = u$
   A_4) *(Elemento simétrico)* $\forall u, \exists -u \mid x + (-x) = 0$
   M_1) *(Distributividade)* $\alpha (u + v) = \alpha u + \alpha v$
-  M_2) *(Distributividade)* $(\alpha + \beta)u = \alpha y + \beta u$
+  M_2) *(Distributividade)* $(\alpha + \beta)u = \alpha u + \beta u$
   M_3) *(Associatividade)* $(\alpha \beta)u = \alpha (\beta u)$
   M_4) *(Elemento neutro)* $1 \cdot u = u$
 
   Os conjuntos $\mathbb{R}, \mathbb{R}^{2}, \mathbb{R}^3, \dots , \mathbb{R}^n$ com suas definições tradicionais de adição e multiplicação são exemplos de espaços vetoriais.
 
-** TODO Subespaço Vetorial
-- Para ser subespaço vetorial ele deve conter o vetor nulo (Demonstrar)
+** Subespaço Vetorial
+Subespaços vetoriais são *subconjuntos* de espaços vetoriais. Cada subespaço vetorial deve estar associado a um espaço vetorial do qual ele é um subconjunto.
+
+Seja $V$ um espaço vetorial e seja $W$ um subconjunto de $V$ tal que $W \neq \emptyset$. Dizemos que $W$ é um /subespaço vetorial/ de $V$ se as seguintes condições forem satisfeitas:
+
+a) $\forall u, v \in W \to u + v \in W$
+b) $\forall \alpha \in \mathbb{R}, \forall u \in W \to \alpha u \in W$
+c) $0 \in W$
+
+Note que a condição /c)/ deriva da condição /b)/, pois ao multiplicar um elemento pelo escalar 0 deve-se poder obter o elemento nulo do conjunto $W$. Veja também que, por definição, o espaço vetorial $V$ é um subespaço vetorial dele mesmo.
+
+Sabendo disso, infere-se que todo espaço vetorial admite ao menos dois subespaços vetoriais, o conjunto formato apenas pelo vetor nulo e o próprio conjunto. Esses dois subespaços são chamados de *subespaços triviais*, enquanto todos os outros subespaços de um espaço vetorial são chamados de *subespaços próprios*.
 
 ** Combinação Linear
 ** Subespaço Gerado
