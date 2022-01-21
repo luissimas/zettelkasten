@@ -33,7 +33,7 @@ c) $0 \in W$
 
 Note que a condição /c)/ deriva da condição /b)/, pois ao multiplicar um elemento pelo escalar 0 deve-se poder obter o elemento nulo do conjunto $W$. Veja também que, por definição, o espaço vetorial $V$ é um subespaço vetorial dele mesmo.
 
-Sabendo disso, infere-se que todo espaço vetorial admite ao menos dois subespaços vetoriais, o conjunto formato apenas pelo vetor nulo e o próprio conjunto. Esses dois subespaços são chamados de *subespaços triviais*, enquanto todos os outros subespaços de um espaço vetorial são chamados de *subespaços próprios*.
+Sabendo disso, infere-se que todo espaço vetorial admite ao menos dois subespaços vetoriais, o conjunto formado apenas pelo vetor nulo e o próprio conjunto. Esses dois subespaços são chamados de *subespaços triviais*, enquanto todos os outros subespaços de um espaço vetorial são chamados de *subespaços próprios*.
 
 ** Combinação Linear
 ** Subespaço Gerado
