@@ -1,0 +1,34 @@
+#+title:Organização e Recuperação da Informação
+
+Organização e Recuperação da Informação, como o nome já diz, é a área que estuda como organizar e recuperar informações armazenadas na memória secundária de sistemas computacionais.
+
+* Processamento sequencial e ordenação externa
+A ordenação externa consiste em classificar e ordenar por algum critério os registros armazenados em um arquivo. Naturalmente, o *acesso a disco* é algo muito mais *custoso* do que o acesso a dados na memória principal, portanto o principal objetivo dos algoritmos que lidam com processamento e ordenação de arquivos é fazer o mínimo de *acessos a disco possíveis*.
+
+A primeira técnica usada para reduzir o número de acessos é o *acesso sequencial* aos registros. Quando o processamento de um arquivo é sequencial, isto é, os registros são acessados em ordem e em sequência, o tempo de acesso é otimizado, pois reduz-se o tempo gasto com o /seeking/ (movimento da cabeça de leitura do disco), já que a cabeça é posicionada apenas uma vez, e então os dados podem ser lidos com a rotação do disco, sem necessidade de um novo /seeking/.
+
+Quando dois ou mais arquivos são processados ao mesmo tempo, cada um de forma sequencial, temos o chamado *processamento cossequencial*.
+
+Nem sempre a ordenação externa é necessária, e em geral o melhor a se fazer é evitá-la, visto que é muito mais eficiente carregar todos os registros na memória principal, utilizar um algoritmo de ordenação, e então escrever os dados no arquivo. Entretanto, nem *sempre é possível carregar todos os dados na memória principal*, e é justamente nesses casos que a ordenação externa se faz necessária.
+
+Visando a eficiência, um algoritmo de ordenação externa deve sempre buscar minimizar o número de acessos a disco, isso pode ser feito com duas ações principais:
+
+- Ler cada registro o menor número de vezes possível.
+- Processar o arquivo sequencialmente, do início ao fim.
+
+** Ordenação por intercalação balanceada
+O principal método de *ordenação externa* é a ordenação por intercalação balanceada, que utiliza tanto da memória principal quanto a secundária para ordenar os dados de um arquivo.
+
+Esse algoritmo consiste em ler o arquivo sequencialmente, carregando o máximo de registros possíveis na memória, ordenando-os na memória principal e então escrevendo-os em arquivos intermediários, formando *blocos* de registros ordenados nos arquivos. Após isso, os arquivos intermediários são lidos cossequencialmente e é feito o *merge dos blocos* dos arquivos sucessivamente em mais arquivos intermediários, até que se obtenha um *único bloco ordenado* no arquivo final. Com esse método de leitura, é possível ler apenas um registro de cada bloco intermediário por vez, tornando o número de registros do arquivo inicial irrelevante para o processamento.
+
+Dado um arquivo contento $n$ registros, e uma memória principal com capacidade para até $m$ registros. A passada inicial sobre o arquivo produz $\frac{n}{m}$ blocos ordenados. Seja $P$ uma função tal que $P(n)$ é o número de passadas para a fase de intercalação dos blocos ordenados, e seja $f$ o número de arquivos intermediários utilizados em cada passada, para uma intercalação com $f$ caminhos o número de passadas é dado por
+
+$$ P(n) = \log_f \frac{n}{m}$$
+
+Considerando a primeira passada pelo arquivo para formar os primeiros blocos ordenados, o número total de passadas pelo arquivo é dado por $P(n) + 1$.
+
+* Armazenamento e organização de arquivos
+* Indexação
+* Árvores B
+* Hashing
+* Compressão
