@@ -2,6 +2,10 @@
 
 A Inteligência Artificial é o ramo da ciência da computação relacionado com a automação do comportamento inteligente, operando através da criação de modelos para a inteligência e implementando sistemas computacionais baseados nesses modelos.
 
+* TODO [0/1]
+SCHEDULED: <2022-01-25 Tue 13:00>
+- [ ] Prova
+
 * Resolução de problemas por Busca
 A resolução de problemas por busca consiste em modelar um problema usando uma representação do mundo baseada em *estados* e aplicar um *algoritmo de busca* sobre esses estados para encontrar uma solução para o problema.
 

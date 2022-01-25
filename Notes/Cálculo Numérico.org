@@ -2,6 +2,11 @@
 
 Cálculo numérico (ou análise numérica), é o ramo do cálculo que estuda algoritmos de aproximação numérica para diversos problemas da matemática.
 
+* TODO [0/3]
+DEADLINE: <2022-01-28 Fri>
+- [ ] Notas da semana 1
+- [ ] Lista da semana 1
+
 * Erros e Sistemas de Ponto Flutuante
 Em se tratando de métodos de aproximação, a existência de erros é inevitável. Portanto, são necessários métodos para entender o comportamento desses erros e estabelecer resultados confiáveis para os mesmos.
 

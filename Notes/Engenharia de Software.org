@@ -1,3 +1,53 @@
 #+title: Engenharia de Software
 
 A Engenharia de Software tem como objetivo a definição e aplicação de uma /abordagem sistemática/ para o desenvolvimento, manutenção e operação de software.
+
+* Modelos de processo de software
+Os modelos de processo de software consistem em uma padronização das etapas to processo de desenvolvimento de software, contemplando as fases de definição, desenvolvimento e manutenção do software.
+
+Ao longo da história foram desenvolvidos alguns modelos na tentativa de sistematizar os processos envolvidos no desenvolvimento de software.
+
+** Modelo cascata
+O modelo cascata é o modelo mais antigo e amplamente utilizado na engenharia de software, se baseando fortemente no ciclo da engenharia convencional, esse modelo propõe uma abordagem sistemática e *sequencial* ao desenvolvimento de software.
+
+#+caption: Diagrama representando o processo de desenvolvimento usando um modelo cascata.
+#+attr_org: :width 500
+[[../Attachments/ES/modelocascata.png]]
+
+O problema desse modelo é que geralmente os requisitos do projeto não estão bem definidos no início, e podem ser alterados durante o desenvolvimento do projeto. Isso torna a abordagem sequencial um tanto quanto *artificial* quando se trata de desenvolvimento de software, pois as etapas muitas vezes precisam ser refeitas por conta de *alterações nos requisitos*. Outro problema é o da *dependência entre tarefas* criada por essa abordagem, causando ociosidade entre os diferentes atores envolvidos no processo de desenvolvimento.
+
+** Modelos evolutivos
+Os modelos evolutivos oferecem uma abordagem *iterativa* e *incremental* para o desenvolvimento de software. Essa abordagem se adéqua ao fato dos requisitos do software mudarem constantemente.
+
+*** Prototipação
+Esse modelo de processo se baseia na criação de um *modelo de software (protótipo)* antes do início do desenvolvimento. Esse protótipo é uma ferramenta de comunicação com o cliente para identificar os requisitos mais específicos do software. A ideia do modelo é, com base nos requisitos do cliente, desenvolver um protótipo e então refinar esse protótipo iterativamente até que os requisitos estejam bem definidos, para então iniciar o desenvolvimento do produto final.
+
+*** Espiral
+Esse modelo une a natureza iterativa da *prototipação* com os aspectos sistemáticos do *modelo cascata*. A ideia é trabalhar em ciclos curtos de desenvolvimento sequencial, todos com entregas intermediárias ao cliente. Em cada momento de interação com o cliente, os requisitos são refinados e uma nova versão pode ser desenvolvida de acordo com uma visão mais clara do software.
+
+** Métodos ágeis
+Os métodos ágeis são os métodos mais recentes de desenvolvimento de software, propondo uma abordagem menos rígida e sistemática. Esses métodos priorizam entregas rápidas e flexíveis, com a separação de tarefas independentes e entregas intermediárias ao cliente.
+
+O *Manifesto Ágil* foi o marco do surgimento desses processos de desenvolvimento, e nele são enunciados os quatro pilares da metodologia ágil:
+
+- *Individuals and interactions* over processes and tools.
+- *Working software* over comprehensive documentation.
+- *Customer collaboration* over contract negotiation.
+- *Responding to change* over following a plan.
+
+Dentro da categoria de métodos ágeis existem diversos métodos mais específicos, mas em geral todos eles partilham as seguintes características:
+
+- Ciclos curtos de desenvolvimento
+- Planejamento do ciclo corrente
+- Equipes de pequeno porte
+- Testes automatizados
+- Controle de versões
+
+*** Scrum
+Dentre todos os métodos de desenvolvimento de software, o método scrum é o mais utilizado atualmente. A ideia é, após uma definição de escopo e levantamento de requisitos inicial, planejar ciclos curtos (1-2 semanas) de desenvolvimento chamadas de /sprints/. Ao final de algumas sprints, deve-se ter algum produto entregável para o cliente.
+
+#+caption: Processo de desenvolvimento em um modelo scrum.
+#+attr_org: :width 500
+[[../Attachments/ES/scrum.png]]
+
+Nesse método o processo de review é altamente valorizado, com reuniões diárias (/daily scrums/) e revisões ao final de cada sprint. Isso proporciona uma melhoria iterativa não só no software sendo desenvolvido mas também nos processos adotados para o desenvolvimento do mesmo.
