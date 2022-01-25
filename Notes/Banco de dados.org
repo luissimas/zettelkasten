@@ -2,6 +2,17 @@
 
 Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos básicos até linguagem SQL e manutenção de banco de dados.
 
+* TODO [0/8]
+DEADLINE: <2022-01-27 Thu>
+- [ ] Livro
+- [ ] Slides
+- [ ] Notes
+- [ ] Exercícios
+- [ ] Aula
+- [ ] Notes
+- [ ] Avaliação
+- [ ] Material complementar
+
 * Conceitos básicos
 Um banco de dados é uma coleção de dados organizados de uma forma coerente e relacionados entre si. Usualmente bancos de dados são implementados como uma forma de manter um único repositório de dados que podem ser acessados por vários usuários por meio de consultas, transações e outros programas de aplicação.
 
@@ -14,5 +25,61 @@ Em geral, as principais características da abordagem de banco de dados que a di
 
 Um /SGBD (Sistema de Gerenciamento de Banco de Dados)/ é um programa (ou conjunto de programas) responsável por criar e manter um banco de dados. Através do /SGBD/ é possível realizar consultas, fazer alterações e lidar com a manutenção geral de uma base de dados.
 
-#+caption: Diagrama simplificado de um ambiente de sistema de banco de dados
+#+caption: Diagrama simplificado de um ambiente de sistema de banco de dados.
+#+attr_org: :width 300
 [[../Attachments/BD/bancodedados.png]]
+
+** Modelos de dados
+Um dos objetivos fundamentais do banco de dados é oferecer um nível de *abstração sobre os dados* armazenados, permitindo que os usuários possam acessar os dados relevantes sem se preocupar com detalhes de organização e implementação. Um *modelo de dados* oferece os meios necessários para se atingir essa abstração através de uma coleção de conceitos usados para descrever a estrutura de um banco de dados. A *estrutura* de um banco de dados consiste nos tipos, relacionamentos e restrições que se aplicam aos dados armazenados. É comum que os modelos também incluam *operações básicas* para especificar ações sobre os dados.
+
+Existem muitos modelos propostos, cada um utilizando de uma classe de conceitos e atuando em diferentes níveis de abstração.
+
+*** Modelos conceituais
+Esses modelos oferecem o mais *alto nível de abstração*. Utilizando conceitos como /entidades/, /atributos/ e /relacionamentos/, esse tipo de modelo oferece uma representação geral dos dados a serem armazenados e suas relações. Um dos modelos mais utilizados nessa categoria é o *modelo entidade-relacionamento*.
+
+*** Modelos de dados representativos
+Os modelos de dados representativos ainda tem um alto nível de abstração, mas são mais descritivos e possuem mais detalhes de implementação. Geralmente utilizados nos SGBDs, esses modelos representam os dados usando *estruturas de registros*, com uma definição mais detalhada dos campos a serem armazenados. O *modelo de dados relacional* é um exemplo amplamente utilizado dessa classe de modelos.
+
+*** Modelos de dados de objeto
+Com um nível de abstração mais próximo dos modelos conceituais, esses modelos são amplamente utilizados em *bancos de dados de objeto*.
+
+*** Modelos de dados físicos
+Esses modelos descrevem os *detalhes do armazenamento* dos dados como arquivos no computador. A descrição desses modelos incluem informações como formatos de registro, ordenação, caminhos de acesso (indexação ou hashing) e outros detalhes de implementação do armazenamento dos dados.
+
+*** Modelos de dados auto-descritivo
+Nos modelos de dados auto-descritivos o armazenamento dos dados combina a descrição com os próprios valores (não há uma separação entre esses dois, como tradicionalmente é feito). Esses modelos incluem principalmente os *armazenamentos de chave-valor* e sistemas *NOSQL*.
+
+** Esquemas e instâncias
+É de extrema importância distinguir entre a /descrição/ do banco de dados e o /próprio banco de dados/. A descrição de um banco de dados é chamada de *esquema do banco de dados*, que é especificada antes da criação do banco em si, e é armazenada pelo SGBD como metadados. A representação de um esquema é geralmente feita através de um *diagrama de esquema*, que apresenta a estrutura de cada tipo de registro, geralmente contendo os itens de dados, e alguns tipos de restrições. Cada objeto no esquema é chamado de *construtor do esquema*.
+
+#+caption: Um exemplo de diagrama de esquema.
+#+attr_org: :width 400
+[[../Attachments/BD/diagramadeesquema.png]]
+
+Os dados armazenados em um banco de dados são chamados de *estado* ou *instante (snapshot)* do banco de dados. Em um estado do banco de dados, cada construtor tem o próprio /conjunto de instâncias atuais/, que é o conjunto de registros daquela entidade.
+
+Vale notar que o *estado* do banco é *alterado com frequência*, a cada inserção, remoção ou atualização de um registro, um novo estado é gerado. Em contrapartida, o *esquema* é *alterado com pouca frequência*, pois geralmente sua alteração é necessária apenas com alguma mudança de requisitos da aplicação.
+
+** Arquitetura de três esquemas
+A /arquitetura de três esquemas (arquitetura ANSI/SPARC)/ tem por objetivo separar as aplicações do usuário do banco de dados físico, criando três níveis:
+
+1. O *nível interno* diz respeito à estrutura do armazenamento físico do banco de dados, utilizando um *esquema interno* para descrever os detalhes de armazenamento e os caminhos de acesso para os dados.
+2. O *nível conceitual* tem um *esquema conceitual* que descreve a estrutura do banco de dados, ocultando os detalhes de armazenamento e fornecendo uma descrição das entidades, tipos de dados, relacionamentos, operações e restrições. Esse nível geralmente utiliza um *modelo de dados representativo* para descrever o esquema conceitual.
+3. O *nível externo* ou *de visão* inclui as visões do usuário, isto é, esquemas externos que descrevem a parte do banco de dados que um determinado grupo de usuários pode acessar.
+
+#+caption: A arquitetura de três esquemas.
+#+attr_org: :width 500
+[[../Attachments/BD/arquiteturatresesquemas.png]]
+
+Note que os três esquemas são apenas *descrições dos dados*, não os dados armazenados em si. Dessa forma, cada solicitação de um usuário em uma visão externa deve ser transformada para uma solicitação no esquema conceitual, que por sua vez deve ser transformada para uma solicitação ao esquema interno para então ser de fato processada e os dados acessados. Esses processos de transformação de requisições e resultados entre os níveis são chamados de *mapeamentos*.
+
+*** Independência de dados
+A independência de dados é a capacidade de alterar um esquema em um nível do sistema sem criar a necessidade de alteração do esquema do próximo nível superior. Em geral existem dois tipos de independência de dados:
+
+1. *Independência lógica de dados* é a capacidade de alteração do *esquema conceitual* sem a alteração dos esquemas externos ou programas de aplicação. Alterações no esquema conceitual geralmente compreendem a alteração de restrições ou a adição de campos em registros.
+2. *Independência física de dados* é a capacidade de alterar o *esquema interno* sem a necessidade de alteração do esquema conceitual. Geralmente alterações no esquema interno compreendem otimizações de estruturas de acesso para melhoras o desempenho de consultas. Tais mudanças não devem afetar o esquema conceitual dos dados.
+
+** Interfaces de banco de dados
+
+
+** Componentes de um SGBD
