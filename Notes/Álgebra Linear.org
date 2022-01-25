@@ -1,5 +1,14 @@
 #+title:Álgebra Linear
 
+* TODO [0/6]
+DEADLINE: <2022-01-28 Fri>
+- [ ] Aula
+- [ ] PDF
+- [ ] Livro
+- [ ] Notes
+- [ ] Exercícios
+- [ ] Questionário
+
 * Espaços Vetoriais
   Dado um conjunto $V$ não-vazio, se em $V$ estiverem definidas: uma operação de adição tal que, para todo par de elementos  $x, y \in V$, associa-se um terceiro elemento $x + y \in V$, ou seja:
 
@@ -35,5 +44,16 @@ Note que a condição /c)/ deriva da condição /b)/, pois ao multiplicar um ele
 
 Sabendo disso, infere-se que todo espaço vetorial admite ao menos dois subespaços vetoriais, o conjunto formado apenas pelo vetor nulo e o próprio conjunto. Esses dois subespaços são chamados de *subespaços triviais*, enquanto todos os outros subespaços de um espaço vetorial são chamados de *subespaços próprios*.
 
-** Combinação Linear
-** Subespaço Gerado
+Os subespaços vetoriais possuem propriedades interessantes que garantem duas operações: a intersecção e a soma de subespaços vetoriais.
+
+Sejam $W_1$ e $W_2$ subespaços vetoriais de um espaço vetorial $V$, a *intersecção* $W_1 \cap W_2$ destes subespaços *é também um subespaço vetorial* de $V$.
+
+Sejam $W_1$ e $W_2$ subespaços vetoriais de um espaço vetorial $V$, a *soma* destes subespaços, dada por:
+
+$$ W_1 + W_2 = \{w \in V; w = u + v, u \in W_1, v \in W_2\}$$
+
+*é também um subespaço vetorial* de $V$.
+
+* Combinação Linear
+* Subespaços gerados
+* Dependência Linear
