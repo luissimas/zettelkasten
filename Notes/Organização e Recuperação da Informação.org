@@ -2,6 +2,15 @@
 
 Organização e Recuperação da Informação, como o nome já diz, é a área que estuda como organizar e recuperar informações armazenadas na memória secundária de sistemas computacionais.
 
+* TODO [0/6]
+DEADLINE: <2022-01-28 Fri>
+- [ ] Aula 1
+- [ ] Notes
+- [ ] Aula 2
+- [ ] Notes
+- [ ] Exercícios
+- [ ] Presença
+
 * Processamento sequencial e ordenação externa
 A ordenação externa consiste em classificar e ordenar por algum critério os registros armazenados em um arquivo. Naturalmente, o *acesso a disco* é algo muito mais *custoso* do que o acesso a dados na memória principal, portanto o principal objetivo dos algoritmos que lidam com processamento e ordenação de arquivos é fazer o mínimo de *acessos a disco possíveis*.
 

@@ -2,16 +2,23 @@
 
 Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos básicos até linguagem SQL e manutenção de banco de dados.
 
-* TODO [0/8]
+* TODO [0/1]
 DEADLINE: <2022-01-27 Thu>
-- [ ] Livro
-- [ ] Slides
+- [X] Livro
+- [X] Slides
 - [ ] Notes
 - [ ] Exercícios
 - [ ] Aula
 - [ ] Notes
 - [ ] Avaliação
 - [ ] Material complementar
+
+** TODO Prova
+SCHEDULED: <2022-01-28 Fri 16:00-18:00>
+
+** Perguntas:
+- Com a arquitetura de três camadas, iniciou-se alguma confusão referente a onde implementar as regras de negócio? Porque apesar dos SGBDS oferecerem stored procedures e restrições de acesso e integridade dos dados, essas não são suficientes para implementar regras de negócio complexas. Mas então, as regras de negócio deveriam ser implementadas só no servidor de aplicação, só no SGBD ou em ambos?
+- Como funcionam os SGBDs distribuídos, como o CockroachDB?
 
 * Conceitos básicos
 Um banco de dados é uma coleção de dados organizados de uma forma coerente e relacionados entre si. Usualmente bancos de dados são implementados como uma forma de manter um único repositório de dados que podem ser acessados por vários usuários por meio de consultas, transações e outros programas de aplicação.
@@ -80,6 +87,32 @@ A independência de dados é a capacidade de alterar um esquema em um nível do 
 2. *Independência física de dados* é a capacidade de alterar o *esquema interno* sem a necessidade de alteração do esquema conceitual. Geralmente alterações no esquema interno compreendem otimizações de estruturas de acesso para melhoras o desempenho de consultas. Tais mudanças não devem afetar o esquema conceitual dos dados.
 
 ** Interfaces de banco de dados
+Os SGBDs devem oferecer interfaces para a interação dos usuários com o banco de dados, sejam eles consumidores finais, programadores ou DBAs.
 
+Um SGBD pode oferecer diversas linguagens para a interação com diferentes níveis do banco de dados. É possível que haja linguagens como: /DLL (Data Definition Language)/, /SDL (Storage Definition Language)/ , /VDL (View Definition Language)/ e /DML (Data Manipulation Language)/. Entretanto, a maioria dos SGBDs atuais não fazem distinção entre essas linguagens, muito pelo contrário: uma linguagem abrangente (como a linguagem SQL) é usada na definição do esquema conceitual, definição das visões e manipulação de dados.
 
-** Componentes de um SGBD
+É comum também que existam interfaces mais amigáveis para os usuários, geralmente através de programas externos ou até mesmo de interfaces do próprio SGBD. Essas interfaces geralmente são gráficas e apresentam menus e uma forma de visualização dos dados menos estruturada e adaptada para as necessidades do usuário.
+
+** Ambiente do sistema de banco de dados
+SGBDs são sistemas de software extremamente complexos, formados por diversos componentes. Os componentes que formam o SGBD e os diversos sistemas externos com os quais ele interage compõe o ambiente do SGBD.
+
+#+caption: Módulos componentes de um SGBD.
+#+attr_org: :width 500
+[[../Attachments/BD/modulossgbd.png]]
+
+Na figura é possível observar uma separação entre as diferentes interfaces de usuário e suas camadas intermediárias (otimizadores de consulta, pré compiladores etc) e a camada comum do banco de dados. O *processador de banco de dados* é responsável por *executar* de fato os comandos recebidos. O *gerenciador de dados* armazenados controla o acesso às informações armazenadas e geralmente é responsável pela *interação com os mecanismos de entrada e saída* do sistema operacional.
+
+Além dos componentes principais, existem ainda diversos outros *componentes utilitários* que auxiliam no gerenciamento do banco de dados. Esses utilitários fornecem ferramentas para diversas tarefas comuns, como: backup, exportação de dados para outro SGBD, reorganização do armazenamento, otimização dos caminhos de acesso, monitoração de desempenho etc.
+
+** Arquitetura cliente/servidor para SGBDs
+As arquiteturas de SGBDs têm seguido as tendências de arquitetura de sistemas de computação em geral. As *primeiras arquiteturas eram centralizadas* e consistiam em um mainframe para oferecer os serviços principais do SGBD a vários terminais conectados. Entretanto, com a melhoria na capacidade de processamento de computadores pessoais, a arquitetura cliente/servidor começou a se popularizar, chegando até aos sistemas de gerenciamento de banco de dados.
+
+A primeira mudança foi uma separação dos componentes do SGBD entre cliente e servidor. As *interfaces* com o usuário e os *programas* de aplicação foram movidos para o *lado do cliente*, enquanto as funcionalidades relacionadas ao processamento de consultas e transações permaneceram no lado do servidor. Nesse tipo de arquitetura o servidor muitas vezes é chamado de servidor de *consulta*, *transação* e até mesmo de *servidor SQL*. A comunicação entre cliente e servidor é dada através de um padrão de drivers chamado de *ODBC* (/Open Database Connectivity/), que oferece uma *API* para que os programas no cliente interajam com o SGBD. Arquiteturas de SGBD com essas características são chamadas de *arquiteturas de duas camadas*, pois os componentes do SGBD são distribuídos entre dois sistemas: cliente e servidor.
+
+A popularização da /web/ criou novas necessidades nos sistemas computacionais dessa área, dando origem à *arquitetura de três camadas*, que acrescenta uma camada intermediária entre o cliente e o servidor de banco de dados. Essa *camada intermediária* é chamada de *servidor de aplicação* (ou servidor web). Esse servidor intermediário é responsável por lidar com as diversas regras de negócio envolvidas no sistema.
+
+#+caption: Arquitetura cliente/servidor em três camadas
+#+attr_org: :width 400
+[[../Attachments/BD/arquiteturaclienteservidor.png]]
+
+Dessa forma, os programas de cliente *não interagem diretamente* com o servidor de banco de dados, e sim com o servidor de aplicação, que por sua vez se torna um cliente do servidor de banco de dados. Isso tem algumas implicações interessantes, como a melhora da segurança no sentido de que agora o servidor intermediário pode fornecer uma camada de autenticação dos usuários e validar as solicitações processadas.
