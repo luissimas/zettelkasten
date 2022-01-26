@@ -72,7 +72,7 @@ A /arquitetura de três esquemas (arquitetura ANSI/SPARC)/ tem por objetivo sepa
 
 1. O *nível interno* diz respeito à estrutura do armazenamento físico do banco de dados, utilizando um *esquema interno* para descrever os detalhes de armazenamento e os caminhos de acesso para os dados.
 2. O *nível conceitual* tem um *esquema conceitual* que descreve a estrutura do banco de dados, ocultando os detalhes de armazenamento e fornecendo uma descrição das entidades, tipos de dados, relacionamentos, operações e restrições. Esse nível geralmente utiliza um *modelo de dados representativo* para descrever o esquema conceitual.
-3. O *nível externo* ou *de visão* inclui as visões do usuário, isto é, esquemas externos que descrevem a parte do banco de dados que um determinado grupo de usuários pode acessar.
+3. O *nível externo* ou *de visão* inclui as visões do usuário, isto é, *esquemas externos* que descrevem a parte do banco de dados que um determinado grupo de usuários pode acessar.
 
 #+caption: A arquitetura de três esquemas.
 #+attr_org: :width 500
@@ -90,6 +90,8 @@ A independência de dados é a capacidade de alterar um esquema em um nível do 
 Os SGBDs devem oferecer interfaces para a interação dos usuários com o banco de dados, sejam eles consumidores finais, programadores ou DBAs.
 
 Um SGBD pode oferecer diversas linguagens para a interação com diferentes níveis do banco de dados. É possível que haja linguagens como: /DLL (Data Definition Language)/, /SDL (Storage Definition Language)/ , /VDL (View Definition Language)/ e /DML (Data Manipulation Language)/. Entretanto, a maioria dos SGBDs atuais não fazem distinção entre essas linguagens, muito pelo contrário: uma linguagem abrangente (como a linguagem SQL) é usada na definição do esquema conceitual, definição das visões e manipulação de dados.
+
+Existem dois tipos de DML. As DMLs de *alto nível* ou *não procedural* são declarativas e utilizadas para especificar operações complexas de forma concisa. As DMLs de *baixo nível* ou *procedural* são geralmente embutidas em linguagens de programação de uso geral. Esse tipo de DML recupera apenas registros individuais e os processa separadamente. Sempre que comandos DML de alto ou baixo nível são incorporados em uma linguagem de programação de uso geral, ela é chamada de *linguagem hospedeira* e a DML é chamada de *sublinguagem de dados*. Quando uma DML de alto nível é usada de maneira interativa ela é chamada de *linguagem de consulta*.
 
 É comum também que existam interfaces mais amigáveis para os usuários, geralmente através de programas externos ou até mesmo de interfaces do próprio SGBD. Essas interfaces geralmente são gráficas e apresentam menus e uma forma de visualização dos dados menos estruturada e adaptada para as necessidades do usuário.
 
