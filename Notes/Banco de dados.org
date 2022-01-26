@@ -2,12 +2,12 @@
 
 Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos básicos até linguagem SQL e manutenção de banco de dados.
 
-* TODO [0/1]
+* TODO [4/8]
 DEADLINE: <2022-01-27 Thu>
 - [X] Livro
 - [X] Slides
-- [ ] Notes
-- [ ] Exercícios
+- [X] Notes
+- [X] Exercícios
 - [ ] Aula
 - [ ] Notes
 - [ ] Avaliação
@@ -85,6 +85,8 @@ A independência de dados é a capacidade de alterar um esquema em um nível do 
 
 1. *Independência lógica de dados* é a capacidade de alteração do *esquema conceitual* sem a alteração dos esquemas externos ou programas de aplicação. Alterações no esquema conceitual geralmente compreendem a alteração de restrições ou a adição de campos em registros.
 2. *Independência física de dados* é a capacidade de alterar o *esquema interno* sem a necessidade de alteração do esquema conceitual. Geralmente alterações no esquema interno compreendem otimizações de estruturas de acesso para melhoras o desempenho de consultas. Tais mudanças não devem afetar o esquema conceitual dos dados.
+
+Note que a *independência lógica* de dados é significativamente *mais difícil* de ser alcançada do que a independência física, pois os esquemas externos dependem fortemente do esquema conceitual, dependência essa que não ocorre entre o esquema conceitual e o esquema físico.
 
 ** Interfaces de banco de dados
 Os SGBDs devem oferecer interfaces para a interação dos usuários com o banco de dados, sejam eles consumidores finais, programadores ou DBAs.
