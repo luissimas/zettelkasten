@@ -2,15 +2,6 @@
 
 Organização e Recuperação da Informação, como o nome já diz, é a área que estuda como organizar e recuperar informações armazenadas na memória secundária de sistemas computacionais.
 
-* TODO [0/6]
-DEADLINE: <2022-01-28 Fri>
-- [ ] Aula 1
-- [ ] Notes
-- [ ] Aula 2
-- [ ] Notes
-- [ ] Exercícios
-- [ ] Presença
-
 * Processamento sequencial e ordenação externa
 A ordenação externa consiste em classificar e ordenar por algum critério os registros armazenados em um arquivo. Naturalmente, o *acesso a disco* é algo muito mais *custoso* do que o acesso a dados na memória principal, portanto o principal objetivo dos algoritmos que lidam com processamento e ordenação de arquivos é fazer o mínimo de *acessos a disco possíveis*.
 
@@ -37,6 +28,23 @@ $$ P(n) = \log_f \frac{n}{m}$$
 Considerando a primeira passada pelo arquivo para formar os primeiros blocos ordenados, o número total de passadas pelo arquivo é dado por $P(n) + 1$.
 
 * Armazenamento e organização de arquivos
+Os dispositivos de armazenamento secundário são geralmente *dispositivos de blocos*, isto é, a unidade mínima de armazenamento não são bytes, e sim *grupos de bytes*.
+
+Além da formatação /física do disco/ em setores, trilhas e cilindros, existe também uma /formatação lógica/, feita através de um *sistema de arquivos*. Um sistema de arquivos divide o disco em *regiões endereçáveis* para o sistema operacional e fornece a infraestrutura básica de manipulação de arquivos em memória secundária, oferecendo operações primitivas básicas para a manipulação desses arquivos.
+
+No disco, um arquivo nada mais é do que uma *sequência de bytes* armazenados de forma contínua. Entretanto, para o sistema de arquivos um arquivo é na realidade um conjunto de *páginas de disco*. As páginas de disco são um *conjunto de setores* no disco, e são a unidade de transferência entre disco e memória principal pelo sistema operacional, ou seja, quando uma leitura ou escrita é solicitada ao sistema operacional, uma página inteira é lida ou escrita, independente do tamanho do arquivo de leitura ou da quantidade de dados a ser escrita. Além disso, o sistema operacional também fornece a abstração de *posição corrente*. A posição corrente no arquivo é uma abstração que permite especificar a partir de qual byte um arquivo deve ser lido ou escrito.
+
+#+caption: Páginas de disco.
+#+attr_org: :width 500
+[[../Attachments/ORI/paginasdisco.png]]
+
+O fato dos arquivos serem gravados ao longo de blocos de disco gera um efeito colateral: a *fragmentação interna*. A fragmentação ocorre quando um arquivo não usa seu último bloco completamente, desperdiçando o espaço do resto do bloco. Como os blocos são as unidades endereçáveis do disco, *um bloco deve conter apenas um arquivo*, portanto o espaço restante de um bloco que não está sendo completamente utilizado não pode ser reaproveitada para nenhum arquivo.
+
+Um arquivo é apenas uma *sequência de bytes* escritos no disco, e uma sequência de bytes por si só *não tem valor ou informação alguma*, pois não há *contexto* e nem *estrutura* para que os dados armazenados tenham algum significado. Portanto, além de uma forma de armazenamento e endereçamento, é necessário estabelecer um método para *impor estrutura* aos dados armazenados, organizar os arquivos. A organização de arquivos é feita em um *nível conceitual* através de dois elementos:
+
+- *Campos:* são a menor unidade lógica de armazenamento, armazenando geralmente uma *informação singular*.
+- *Registros:* são agrupamentos de campos, que definem uma informação mais complexa com vários atributos, ou uma *entidade*.
+
 * Indexação
 * Árvores B
 * Hashing

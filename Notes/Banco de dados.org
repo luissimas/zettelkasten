@@ -2,24 +2,6 @@
 
 Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos básicos até linguagem SQL e manutenção de banco de dados.
 
-* TODO [4/8]
-DEADLINE: <2022-01-27 Thu>
-- [X] Livro
-- [X] Slides
-- [X] Notes
-- [X] Exercícios
-- [ ] Aula
-- [ ] Notes
-- [ ] Avaliação
-- [ ] Material complementar
-
-** TODO Prova
-SCHEDULED: <2022-01-28 Fri 16:00-18:00>
-
-** Perguntas:
-- Com a arquitetura de três camadas, iniciou-se alguma confusão referente a onde implementar as regras de negócio? Porque apesar dos SGBDS oferecerem stored procedures e restrições de acesso e integridade dos dados, essas não são suficientes para implementar regras de negócio complexas. Mas então, as regras de negócio deveriam ser implementadas só no servidor de aplicação, só no SGBD ou em ambos?
-- Como funcionam os SGBDs distribuídos, como o CockroachDB?
-
 * Conceitos básicos
 Um banco de dados é uma coleção de dados organizados de uma forma coerente e relacionados entre si. Usualmente bancos de dados são implementados como uma forma de manter um único repositório de dados que podem ser acessados por vários usuários por meio de consultas, transações e outros programas de aplicação.
 
