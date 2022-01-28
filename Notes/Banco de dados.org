@@ -2,6 +2,9 @@
 
 Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos básicos até linguagem SQL e manutenção de banco de dados.
 
+* TODO Prova
+SCHEDULED: <2022-01-28 Fri 16:00-18:00>
+
 * Conceitos básicos
 Um banco de dados é uma coleção de dados organizados de uma forma coerente e relacionados entre si. Usualmente bancos de dados são implementados como uma forma de manter um único repositório de dados que podem ser acessados por vários usuários por meio de consultas, transações e outros programas de aplicação.
 
