@@ -3,7 +3,7 @@
 A Inteligência Artificial é o ramo da ciência da computação relacionado com a automação do comportamento inteligente, operando através da criação de modelos para a inteligência e implementando sistemas computacionais baseados nesses modelos.
 
 * TODO [0/4]
-DEADLINE: <2022-01-28 Fri>
+DEADLINE: <2022-02-01 Tue>
 - [ ] Aulas
 - [ ] Notes
 - [ ] Lista
@@ -38,7 +38,7 @@ Com um problema formulado, a solução consiste em realizar uma busca no espaço
 No geral os algoritmos de busca possuem a mesma estrutura básica, que consiste em expandir os nós a partir das ações possíveis, gerando novos nós e repetir o processo até que se atinja o nó final. Apesar disso, os algoritmos diferem na *estratégia de busca*, que determina o critério usado para selecionar o próximo nó a ser expandido na árvore de busca.
 
 *** Busca desinformada
-As estratégias de busca desinformada não possuem informação adicional sobre o problema além da definição do mesmo. Tendo isso em vista, os algoritmos nessa categoria devem testar todos os nós até encontrar o estado objetivo.
+As estratégias de busca desinformada não consideram informação adicional sobre o problema além da definição do mesmo. Tendo isso em vista, os algoritmos nessa categoria devem testar todos os nós até encontrar o estado objetivo.
 
 [[../Attachments/IA/breadthanddepth.gif]]
 
@@ -66,6 +66,31 @@ O algoritmo consiste em expandir o nó inicial, manter uma lista dos nós não e
 Note que o algoritmo de busca de custo uniforme garante sempre a *solução ótima*, ou seja, a solução de menor custo para o problema.
 
 *** Busca informada
+Ao contrário da busca desinformada, a busca informada é uma estratégia de busca que considera *informação específica sobre o problema*, que vão além da definição básica do problema. Nesse tipo de busca, as informações sobre o problema são usadas no momento de selecionar o *próximo nó* a ser expandido. Dessa forma, essa estratégia *não é exaustiva*, ou seja, há mecanismos para evitar que todos os nós devem ser testados para se encontrar o estado objetivo.
+
+As informações específicas ao problema são formuladas como *heurísticas*, que são regras simples utilizadas para avaliar rapidamente um estado. As heurísticas são expressas como funções, de forma que é possível aplicá-las a cada estado.
+
+As heurísticas permitem a aproximação de uma solução, por essa razão são utilizadas principalmente em situações nas quais um problema não possui uma solução exata, ou se essa solução existe mas é muito custosa computacionalmente.
+
+Vale destacar que as buscas com base em heurísticas são *sujeitas a falhas*, no sentido de que a busca pode não encontrar a solução ou encontrar uma solução sub-ótima.
+
+**** Busca pela melhor escolha (best-first)
+A busca pela melhor escolha utiliza as heurísticas na forma de uma *função de avaliação* $f(n)$, que aplicada a um estado retorna um valor numérico. A função de avaliação é utilizada para determinar o *quão desejável* é expandir um determinado nó.
+
+De maneira semelhante aos algoritmos de busca desinformada, esse tipo algoritmo mantém listas de nós abertos e fechados, mas armazena também para cada nó expandido o valor da função de avaliação aplicada a ele. Dessa forma, o algoritmo *expande primeiro* os nós com o *melhor valor* da função de avaliação.
+
+A *função de avaliação* pode levar em conta duas métricas:
+
+- A *função de custo* $g(n)$, que representa o custo do caminho da raiz até o nó $n$.
+- A *função heurística* $h(n)$, que representa a estimativa de custo do caminho do nó $n$ até o objetivo.
+
+  Vale destacar que o algoritmo de busca pela melhor escolha é na realidade um *modelo* que *engloba diversos outros algoritmos* de busca informada. A ideia geral do algoritmo se mantém, mas as variações de algoritmos surgem nas *diferentes definições* para a *função de avaliação*.
+
+***** Busca Gulosa (Greedy)
+Esse algoritmo utiliza como função de avaliação apenas a *função heurística*, ou seja, $f(n) = h(n)$. Dessa forma, os nós considerados mais próximos do objetivo são expandidos primeiro.
+
+***** A*
+Utiliza como função de avaliação uma soma da *função de custo* e da *função heurística*, portanto $f(n) = g(n) + h(n)$. Sendo assim, esse algoritmo considera não só a estimativa do custo do caminho do nó $n$ até o objetivo, mas também o custo do caminho percorrido até o nó.
 
 * Representação de Conhecimento e Raciocínio
 

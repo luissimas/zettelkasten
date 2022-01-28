@@ -1,14 +1,5 @@
 #+title:Álgebra Linear
 
-* TODO [2/6]
-DEADLINE: <2022-01-28 Fri>
-- [X] Aula
-- [ ] PDF
-- [ ] Livro páginas 143-159
-- [ ] Notes
-- [ ] Exercícios 4.10 - 4.21 do livro
-- [X] Questionário
-
 * Espaços Vetoriais
   Dado um conjunto $V$ não-vazio, se em $V$ estiverem definidas: uma operação de adição tal que, para todo par de elementos  $x, y \in V$, associa-se um terceiro elemento $x + y \in V$, ou seja:
 
