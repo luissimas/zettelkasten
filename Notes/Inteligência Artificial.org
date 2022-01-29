@@ -89,8 +89,22 @@ A *função de avaliação* pode levar em conta duas métricas:
 ***** Busca Gulosa (Greedy)
 Esse algoritmo utiliza como função de avaliação apenas a *função heurística*, ou seja, $f(n) = h(n)$. Dessa forma, os nós considerados mais próximos do objetivo são expandidos primeiro.
 
+Note que não há nenhuma garantia de que esse algoritmo encontra a solução ótima. Entretanto, esse algoritmo é *geralmente* muito *rápido* (pois a função heurística geralmente é de baixo custo computacional). Isso torna o algoritmo de busca gulosa desejável em situações onde o desempenho é preferível ao invés da solução ótima.
+
 ***** A*
 Utiliza como função de avaliação uma soma da *função de custo* e da *função heurística*, portanto $f(n) = g(n) + h(n)$. Sendo assim, esse algoritmo considera não só a estimativa do custo do caminho do nó $n$ até o objetivo, mas também o custo do caminho percorrido até o nó.
+
+A garantia de que esse algoritmo encontra a *solução ótima* depende da definição da *função heurística*. Se a função heurística nunca superestima o custo de alcançar um objetivo, ou seja, $h(n)$ nunca ultrapassa o custo real do caminho de $n$ até o objetivo, então o algoritmo A* encontra sempre a solução ótima.
+
+**** Busca Local
+Os algoritmos de busca local diferem bastante dos outros enunciados até o momento. Essa classe de algoritmos levam em conta *apenas o estado corrente* e se movem apenas para os estados vizinhos deste, *sem levar em conta os caminhos para os estados*. Dessa forma, esse tipo de algoritmo *não mantém* uma lista de *nós abertos e fechados*, sendo necessário armazenar *apenas o estado atual* para então expandi-lo e avaliar os estados possíveis a partir deste.
+
+Esses algoritmos geralmente são *eficientes em termos de memória*, pois não é necessário manter todo o espaço de estados armazenado através de listas de nós. Entretanto, podem muitas vezes levar a *soluções sub-ótimas* ou não levar a solução alguma.
+
+Geralmente os algoritmos de busca local atuam bem em problemas de otimização, nos quais o objetivo é encontrar o *melhor estado* de acordo com uma *função objetivo*.
+
+***** Hill-climbing
+O algoritmo hill-climbing é um exemplo claro de algoritmo de busca local. Ele consiste em *expandir um nó* e *avaliar seus descendentes* através de alguma função, que geralmente envolve alguma heurística do problema. Em seguida, o nó com a *melhor avaliação* entre os descendentes é *selecionado* para continuar a busca, e o processo se repete até que o nó selecionado *não gere descendentes com uma avaliação melhor*.
 
 * Representação de Conhecimento e Raciocínio
 
