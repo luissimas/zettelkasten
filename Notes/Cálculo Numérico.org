@@ -51,6 +51,90 @@ onde $s$ é o sinal, $d_1 \dots d_d$ é a /mantissa/, com $d_1 \neq 0$ e $e_m\le
 Os sistemas de ponto flutuante possuem problemas inerentes de precisão que se tornam mais claros ainda na aplicação de operações sobre os números. É possível que o produto de dois números não exista no SPF, que as propriedades básicas das operações entre números reais não sejam satisfeitas, entre outros problemas que resultam do uso de apenas um subconjunto dos reais para representação numérica.
 
 * Resolução de sistemas lineares
+Um sistema de equações lineares é um conjunto de $n$ equações em $k$ variáveis, geralmente escrito na seguinte forma:
+
+\begin{cases}
+    a_{11}x_1 + \cdots + a_{1k}x_k = b_1 \\
+    a_{21}x_1 + \cdots + a_{2k}x_k = b_2 \\
+    \quad \vdots \quad + \ddots + \quad \vdots \quad = \space \vdots \\
+    a_{n1}x_1 + \cdots + a_{nk}x_k = b_n \\
+\end{cases}
+
+ou na forma matricial
+
+\begin{gather}
+
+  \begin{bmatrix}
+  a_{11} & \cdots & a_{1k} \\
+  a_{21} & \cdots & a_{2k} \\
+  \vdots & \ddots & \vdots \\
+  a_{n1} & \cdots & a_{nk}
+  \end{bmatrix}
+  \cdot
+  \begin{bmatrix} x_1 \\ x_2 \\ \vdots \\ x_k\end{bmatrix}
+  =
+  \begin{bmatrix} b_1 \\ b_2 \\ \vdots \\ b_k\end{bmatrix}
+  \text{, ou} \quad Ax = b
+
+\end{gather}
+
+Uma solução para o sistema linear é um *vetor* de números $(x_1, x_2, \dots, x_n)$ tais que a equação acima seja satisfeita. Existem diversos métodos para encontrar a solução de sistemas lineares, porém algumas delas podem rapidamente se tornar *muito custosas computacionalmente* quando aplicadas a sistemas lineares com um grande número de equações.
+
+A ideia dos *métodos numéricos* para a resolução de sistemas de equações lineares é encontrar *métodos eficientes* para a resolução desses sistemas. Esses métodos se dividem em duas grandes categorias: os /métodos diretos/ e os /métodos iterativos/.
+
+** Métodos diretos
+Os métodos diretos para a resolução de sistemas lineares oferecem a *solução exata* (exceto quando há erros de arredondamento introduzidos pela máquina) com um *número finito de operações*. Entretanto, esses métodos podem se tornar inviáveis dependendo da estrutura ou dimensão do sistema.
+
+Esses métodos se baseiam na seguinte propriedade de manipulação de sistemas lineares:
+
+A solução de um sistema de equações lineares $Ax = b$ *não se altera* se aplicarmos as seguintes operações nas linhas de $A$:
+
+1. Multiplicar uma equação por uma constante não nula;
+2. Somar uma equação a um múltiplo de outra;
+3. Trocar a ordem das equações
+
+Essas operações podem ser aplicadas para transformar um sistema original $Ax = b$ em um *sistema equivalente* que possua a mesma solução, mas tenha uma resolução mais fácil.
+
+*** Método da eliminação de Gauss
+Esse método consiste em aplicar transformações no sistema até que se atinja uma *forma triangular*, ou seja
+
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1k} \\
+0 & a_{22} & \cdots & a_{2k} \\
+\vdots & \ddots & \vdots \\
+0 & 0 & \cdots & a_{nk}
+\end{bmatrix}
+
+A partir do momento em que se chega ao sistema triangular, a resolução consiste apenas em aplicar substituição reversa nesse sistema.
+
+O número total de operações $k$ para esse método é dado pela seguinte equação:
+
+$$
+k = \frac{2}{3}n^3 + \frac{3}{2}n ^2 - \frac{7}{6}n
+$$
+
+em que $n$ é o número de equações.
+
+Uma preocupação com esse método é a propagação dos erros de arredondamento da máquina nas operações entre as linhas. Uma maneira de reduzir esse problema é usar o chamado *pivoteamento*, que consiste em, através da troca de linhas, fazer com que o pivô (elemento da diagonal que será usado para na eliminação) tenha o maior valor em módulo possível dentre os demais elementos da coluna.
+
+*** Fatoração LU
+O método da fatoração (ou decomposição) LU consiste em, dado um sistema linear na forma $Ax = b$, *decompor a matriz dos coeficientes* $A$ em um *produto de duas matrizes* $L$ e $U$, em que $L$ (/Lower/) é uma *matriz triangular inferior* com diagonal unitária e $U$ (/Upper/) é uma *matriz triangular superior*.
+
+O custo computacional desse método é idêntico ao do método da eliminação de Gauss, porém com o método da fatoração é possível *reutilizar as operações de escalonamento* feitas na matriz dos coeficientes para *resolver outros sistemas* com a *mesma matriz de coeficientes* e *matrizes* $b$ *diferentes*.
+
+Tomando $A = LU$, o sistema $Ax = b$ pode ser reescrito na forma $LUx = b$, que pode ser reescrito no seguinte sistema:
+
+\begin{cases}
+  Ly = b\\
+  Ux = y
+\end{cases}
+
+Note que cada equação do sistema é também um *sistema*, dessa forma pode-se resolver o primeiro sistema para encontrar a solução $y$, e depois o segundo sistema, obtendo a solução $x$ do sistema original.
+
+A matriz $U$ é a *matriz resultante* do processo de *eliminação de Gauss*, enquanto a matriz $L$ é composta pelos *fatores de multiplicação* usados para zerar cada elemento no processo.
+
+Note que o fato da matriz $L$ ser composta pelas operações inversas utilizadas no escalonamento garante que a operação é reversível, portanto os elementos da matriz $B$ não se alteram de posição mesmo que as linhas de $A$ sejam alteradas em $U$ pelo processo de escalonamento.
+
 * Resolução de sistemas não lineares
 * Aproximação de funções
 * Integração numérica de funções
