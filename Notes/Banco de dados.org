@@ -102,3 +102,33 @@ A popularização da /web/ criou novas necessidades nos sistemas computacionais 
 [[../Attachments/BD/arquiteturaclienteservidor.png]]
 
 Dessa forma, os programas de cliente *não interagem diretamente* com o servidor de banco de dados, e sim com o servidor de aplicação, que por sua vez se torna um cliente do servidor de banco de dados. Isso tem algumas implicações interessantes, como a melhora da segurança no sentido de que agora o servidor intermediário pode fornecer uma camada de autenticação dos usuários e validar as solicitações processadas.
+
+* Modelagem conceitual de dados
+O desenvolvimento de uma aplicação de banco de dados é uma tarefa que envolve diversas etapas, desde o *levantamento de requisitos* até a implementação das operações disponíveis sobre os dados. Nesse sentido, o desenvolvimento de uma aplicação de banco de dados está muito ligado ao desenvolvimento de software em geral, empregando técnicas que muitas vezes são do campo da engenharia de software.
+
+#+caption: As principais fases do projeto de banco de dados
+#+attr_org: :width 500
+[[file:~/vault/Attachments/BD/fasesprojetodebancodedados.png]]
+
+O levantamento de requisitos tem como objetivo entender e estruturas as necessidades dos usuários do sistema, resultando em *requisitos de dados* e *requisitos funcionais*, que especificam as entidades envolvidas no sistema e as operações (transações) que serão aplicadas a essas entidades.
+
+Após o levantamento de requisitos, inicia-se a criação de um *esquema conceitual* para o banco de dados. O esquema conceitual usa de um *modelo de dados de alto nível* para *representar os requisitos* e incluir detalhes de tipos de entidade, relacionamentos e restrições.
+
+Feito o projeto conceitual, a próxima etapa é a *implementação* do banco de dados usando algum SGBD. Dessa forma o esquema conceitual é transformado em um modelo de dados de implementação específica do SGBD.
+
+** Modelo ER (Entidade Relacionamento)
+O modelo ER descreve os dados com três componentes principais: /entidades/, /atributos/ e /relacionamentos/.
+
+Uma *entidade* é uma coisa ou objeto (físico ou conceitual) com uma *existência independente*. Um *tipo de entidade* define, através de um *esquema*, uma estrutura para um conjunto de entidades, enquanto o *conjunto de entidades* se refere à coleção de todas as entidades de um determinado tipo armazenadas no banco.
+
+Cada entidade possui *atributos*, que são propriedades específicas que a descrevem. Pela natureza da complexidade de descrição de entidades, existem diferentes tipos de atributos, possibilitando um alto nível de expressividade nos modelos ER.
+
+*Atributos simples* (ou atômicos), são atributos que descrevem uma característica indivisível de uma entidade. Em contrapartida, os *atributos compostos* podem ser subdivididos em partes menores (atributos simples) e independentes. Os atributos que possuem apenas um valor por entidade são chamados de *atributos de valor único*. Em alguns casos é possível que um atributo represente um conjunto de valores para uma mesma entidade, nesse caso ele é chamado de *atributo multivalorado*. Há casos em que é possível obter atributos de uma entidade com base em outros atributos ou relacionamentos, como, por exemplo, dois atributos =data_nascimento= e =idade= de uma entidade. Nesse caso, o atributo =idade= pode ser obtido através do atributo =data_nascimento=, portanto é chamado de *atributo derivável*, enquanto =data_nascimento= é chamado de *atributo armazenado*. Dessa forma, é possível derivar atributos deriváveis de atributos armazenados de uma mesma entidade ou de outras entidades relacionadas.
+
+Vale destacar que cada atributo simples de um tipo de entidade deve estar associado a um *conjunto de valores*, que define possíveis valores daquele atributo. Esses conjuntos de valores podem ser especificados através de tipos de dados primitivos ou até mesmo através de restrições de valores com base nesses tipos (valores mínimos e máximos, caracteres permitidos etc).
+
+Entidade normalmente precisam ser identificadas de alguma forma, para isso existem os *atributos-chave*, que são atributos cujos valores são distintos para cada entidade individual no conjunto de entidades. Como o valor do *atributo-chave é único para cada entidade*, é possível identificar cada entidade de maneira exclusiva através do valor desse atributo. Note que uma entidade pode possuir mais de um atributo-chave, ou até mesmo um conjunto de atributos que componham um atributo-chave através da composição de atributos.
+
+#+caption: Uma representação de carros através de um diagrama ER.
+#+attr_org: :width 500
+[[file:~/vault/Attachments/BD/dercarroexemplo.png]]
