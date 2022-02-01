@@ -51,3 +51,27 @@ Dentre todos os métodos de desenvolvimento de software, o método scrum é o ma
 [[../Attachments/ES/scrum.png]]
 
 Nesse método o processo de review é altamente valorizado, com reuniões diárias (/daily scrums/) e revisões ao final de cada sprint. Isso proporciona uma melhoria iterativa não só no software sendo desenvolvido mas também nos processos adotados para o desenvolvimento do mesmo.
+
+* Especificação de Requisitos
+Os requisitos de software descrevem as *funcionalidades* e, consequentemente, *definem o escopo* de um sistema de software. Dessa forma, é fundamental para as demais etapas do processo de desenvolvimento do software que os requisitos sejam coerentes e bem definidos.
+
+#+begin_quote
+The requirements for a system are the descriptions of what the system should do - the services that it provides and the constraints on its operation.
+#+end_quote
+
+A /engenharia de requisitos/ é uma área da engenharia de software que consiste em identificar e especificar os requisitos de um projeto de software.
+
+** Tipos de requisitos
+Existem diversos tipos de requisitos, e eles podem ser classificados de acordo com o contexto e ponto de vista do qual são observados.
+
+Do ponto de vista do nível de detalhamento:
+
+- Os requisitos em *nível de usuário* são declarações sobre as funções que o sistema deve fornecer e as restrições sob as quais ele deve operar. Esses requisitos são declarados em *alto nível*, sem detalhamentos técnicos, mas sim com as funcionalidades disponíveis para o usuário final. Esses requisitos são voltados para os *usuários finais* e pessoas envolvidas na gerência do desenvolvimento do projeto.
+- Os requisitos em *nível de sistema* consistem em um documento estruturado como *descrições detalhadas* das funcionalidades do software. Geralmente esse tipo de requisito é escrito como um contrato entre o cliente e o fornecedor de software. Esse tipo de requisito é mais voltado para os *desenvolvedores do software*, que necessitam de um maior detalhamento das funcionalidades requeridas para estruturar e planejar o desenvolvimento.
+
+Do ponto de vista das funcionalidades:
+
+- Os *requisitos funcionais* descrevem a funcionalidade ou os serviços do sistema, geralmente na forma de declarações das funções e como o sistema deve se comportar em situações específicas.
+- Os *requisitos do domínio* são requisitos que são próprios do domínio da aplicação e que refletem características específicas desse domínio. Eles podem ser tanto novos requisitos funcionais, restrições sobre requisitos existentes ou detalhamentos sobre funcionalidades específicas.
+- Os *requisitos do sistema* são relacionados a infraestrutura de execução do sistema. Geralmente definem as tecnologias e plataformas nas quais o sistema será executado.
+- Os *requisitos não-funcionais* são requisitos que expressam qualidades e restrições sobre as funcionalidades do sistema. Geralmente esses requisitos definem restrições de tempo, segurança e qualidade de funcionamento do software.
