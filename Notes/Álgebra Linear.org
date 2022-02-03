@@ -54,12 +54,18 @@ $$u = \alpha_1 u_1 + \alpha_2 + u_2 + \dots + \alpha_n u_n = \sum_{i=1}^{n} a_i 
 
 é um elemento de $V$ e é chamado de *combinação linear* de $u_1, u_2, \dots, u_n$. Os escalares $a_i$ são chamados de *coeficientes* da combinação linear.
 
-** Subespaço gerado
+** Subespaço Gerado
 Seja $V$ um espaço vetorial e $S = \{u_1, u_2, \dots, u_n\}$ um subconjunto de $V$. O subconjunto de $V$ formado por *todas as combinações lineares* de elementos de $S$, ou seja:
 
 $$[S] = \{a_1 u_1 + a_2 u_2 + \dots + a_n u_n \mid a_i \in \mathbb{R}, \forall i\}$$
 
 é chamado de *espaço vetorial gerado* por $S$. Os vetores $u_1, u_2, \dots, u_n$ são chamados *geradores* de $[S]$. Note que $[S]$ é um subespaço vetorial de $V$.
+
+Para mostrar que um conjunto $S = \{u_1, u_2, \dots, u_n\}$ de vetores gera um subespaço $V$, é necessário mostrar que, para qualquer $v \in V$, a equação
+
+$a_1u_1 + a_2u_2 + \dots + a_nu_n = v$
+
+tem *solução única*.
 
 ** Dependência Linear
 Seja $V$ um espaço vetorial e $u_1, u_2, \dots, u_n \in V$. O conjunto $\{u_1, u_2, \dots, u_n\}$ é dito *linearmente independente (L.I.)* se e somente se a equação
@@ -77,3 +83,13 @@ Para verificar se um conjunto de vetores é *L.I.* ou *L.D.* devemos, sempre, re
 O teorema enunciado a seguir relaciona a *dependência* com *combinação* linear:
 
 O conjunto $\{u_1, u_2, \dots, u_n\}$ é *linearmente dependente (L.D.)* se e somente se um dos vetores $u_i$ for *combinação linear* dos outros.
+
+** Base de um Espaço Vetorial
+Seja $V$ um espaço vetorial e $B = \{u_1, u_2, \dots, u_n\}$ um subconjunto de $V$. Dizemos que $B$ é uma *base* de $V$ se:
+
+1. $\{u_1, u_2, \dots, u_n\}$ são *linearmente independentes*,
+2. $\{u_1, u_2, \dots, u_n\}$ *geram* $V$
+
+Como implicação da definição de dependência linear e subespaço gerado, tem-se o seguinte teorema:
+
+Se $B=\{u_1, u_2, \dots, u_n\}$ é uma base de um espaço vetorial $V$, então todo e qualquer vetor $v$ de $V$ pode ser escrito de *maneira única* como combinação linear dos vetores de $B$.

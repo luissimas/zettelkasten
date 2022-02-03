@@ -40,10 +40,27 @@ No disco, um arquivo nada mais é do que uma *sequência de bytes* armazenados d
 
 O fato dos arquivos serem gravados ao longo de blocos de disco gera um efeito colateral: a *fragmentação interna*. A fragmentação ocorre quando um arquivo não usa seu último bloco completamente, desperdiçando o espaço do resto do bloco. Como os blocos são as unidades endereçáveis do disco, *um bloco deve conter apenas um arquivo*, portanto o espaço restante de um bloco que não está sendo completamente utilizado não pode ser reaproveitada para nenhum arquivo.
 
-Um arquivo é apenas uma *sequência de bytes* escritos no disco, e uma sequência de bytes por si só *não tem valor ou informação alguma*, pois não há *contexto* e nem *estrutura* para que os dados armazenados tenham algum significado. Portanto, além de uma forma de armazenamento e endereçamento, é necessário estabelecer um método para *impor estrutura* aos dados armazenados, organizar os arquivos. A organização de arquivos é feita em um *nível conceitual* através de dois elementos:
+Um arquivo é apenas uma *sequência de bytes* escritos no disco, e uma sequência de bytes por si só *não tem valor ou informação alguma*, pois não há *contexto* e nem *estrutura* para que os dados armazenados tenham algum significado. Portanto, além de uma forma de armazenamento e endereçamento, é necessário estabelecer um método para *impor estrutura* aos dados armazenados, organizar os arquivos. A organização de arquivos é feita em um *nível conceitual* através de campos e registros.
 
-- *Campos:* são a menor unidade lógica de armazenamento, armazenando geralmente uma *informação singular*.
-- *Registros:* são agrupamentos de campos, que definem uma informação mais complexa com vários atributos, ou uma *entidade*.
+** Campos
+Os campos são a menor unidade lógica de armazenamento, geralmente utilizados para armazenar um *dado singular*. Cada campo ocupa um tamanho no arquivo final, e esse tamanho pode ser *fixo* ou *variável*.
+
+Campos de *tamanho fixo* têm seu tamanho definido previamente, independente do dado a ser armazenado. Esse tipo de campo torna a *busca simples*, pois sabendo previamente o tamanho de todos os campos é fácil encontrar a posição deles nos arquivos. Entretanto, esse método pode gerar um grande *desperdício de armazenamento*, pois o espaço alocado nem sempre é usado por completo. Esse problema se agrava ainda mais quando os dados a serem armazenados têm uma alta variação de tamanho.
+
+Para campos de *tamanho variável* existem algumas alternativas de implementação: O primeiro método de implementação consiste em *armazenar o tamanho* ocupado por cada campo *antes do campo* em si. Dessa forma, pode-se ler o tamanho do primeiro campo e então saber qual a posição do segundo, e assim sucessivamente. É possível também *separar os campos por delimitadores*, caracteres especiais que não fazem parte dos dados representados. Esses separadores são *inseridos ao final de cada campo*. Dessa forma, é possível saber onde um campo se inicia e termina com base nos delimitadores ao seu redor. Outra alternativa é o uso de *tags*, criando uma expressão de chave-valor no campo. Nessa forma de implementação uma *tag* é colocada *antes do campo*, *definindo a semântica* para o dado. Esse método geralmente é utilizado em conjunto com outros, como os delimitadores. Em geral, os campos de tamanho variável são mais *eficientes em termos de armazenamento*, porém *aumentam a complexidade das buscas* no arquivo.
+
+** Registros
+Os registros são agrupamentos de campos, que definem uma informação mais complexa com vários atributos, ou uma *entidade*. Da mesma forma que é necessário organizar os campos dentro de registros, é necessário organizar os registros dentro de arquivos. Existem várias maneiras de organizar os registros em um arquivo, sendo algumas delas análogas à organização de campos, mas com algumas peculiaridades.
+
+A primeira alternativa é manter registros de *tamanho fixo*, isso pode ser atingido mantendo campos de tamanho fixo ou variável. Se os campos de um registro possuem tamanho fixo, então esse registro obrigatoriamente tem tamanho fixo. Entretanto, se um registro tem tamanho fixo, isso não implica nem em um número fixo de campos e nem em um tamanho fixo para esses campos.
+
+É possível também manter registros de *tamanho variável* com um *número fixo de campos*. Isso cria a necessidade de utilização de algum método de separação dos campos, como delimitadores. Nesse tipo de implementação o tamanho do registro em bytes varia, mas como seu número de campos é sempre o mesmo, é possível distinguir os registros através dos campos.
+
+Outra alternativa é utilizar um *indicador de tamanho* para os registros. Dessa forma, no início de cada registro há um indicador que fornece o tamanho do registro. Note que nessa implementação é necessário que os campos sejam separados internamente por delimitadores.
+
+Existe ainda uma forma de manter registros de tamanho variável sem a necessidade de indicadores. Esse método consiste em manter um *índice de endereçamento* em um arquivo secundário, que armazena o endereço do primeiro byte de cada registro no arquivo principal. Dessa forma, é possível acessar cada registro utilizando os endereços e calcular seu tamanho a partir do próximo endereço. Note que essa implementação introduz a preocupação de manter consistência entre os dois arquivos, quaisquer modificações no arquivo principal devem ser refletidas no arquivo de índice.
+
+É possível ainda *separar os registros com delimitadores*, de maneira análoga à separação de campos. Note que para combinar os delimitadores de campos e de registros esses delimitadores devem ser caracteres diferentes.
 
 * Indexação
 * Árvores B
