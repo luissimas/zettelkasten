@@ -135,6 +135,129 @@ A matriz $U$ é a *matriz resultante* do processo de *eliminação de Gauss*, en
 
 Note que o fato da matriz $L$ ser composta pelas operações inversas utilizadas no escalonamento garante que a operação é reversível, portanto os elementos da matriz $B$ não se alteram de posição mesmo que as linhas de $A$ sejam alteradas em $U$ pelo processo de escalonamento.
 
+** Métodos iterativos
+Os métodos iterativos consistem na aplicação de sucessivas operações em um dado valor inicial para se obter uma *solução aproximada* para um sistema linear.
+
+Em alguns casos esse tipo de método não é capaz de encontrar uma solução, isso ocorre quando o método não converge para o valor da solução. Sendo assim, a aplicação desse tipo de método deve sempre estar acompanhada de uma *análise de convergência* para o dado problema. Apesar disso, em algumas situações os métodos iterativos são preferíveis aos métodos diretos, principalmente quando o sistema linear é de *grande porte*, sistemas para os quais uma solução por um método direto representa um grande custo computacional.
+
+*** Método do ponto fixo
+O método do ponto fixo se baseia na ideia de que há pontos (chamados de pontos fixos) de funções que, quando aplicados à função resultam neles mesmos.
+
+A partir de uma equação da forma $g(x) = 0$, é possível reescrevê-la na forma $x = f(x)$. Dessa forma, é possível criar uma *sequência recursiva* na forma:
+
+$$x_{n} = f(x_{n-1})$$
+
+Sendo que cada $x_n$ é uma nova *aproximação do ponto fixo*. Dessa forma, se a função $f$ é uma função para a qual o método do ponto fixo converge, então a sequência $(x_n)$ *converge para o ponto fixo* da função, ou seja, o ponto $x$ tal que $f(x) = 0$.
+
+Note que é necessário assumir um valor inicial para $x_0$, esse valor é uma aproximação inicial, que será refinado através das sucessivas iterações de aplicação do método.
+
+Veja que é necessário verificar se a função $f$ é uma função para a qual o método converge, isso pode ser verificado através do seguinte critério:
+
+Seja $x=f(x)$ uma equação escrita na forma de ponto fixo, com $f(x)$ e sua derivada contínua no intervalo $[a, b]$, o qual contém uma ou mais raízes desta equação. Se $|f'(x)| < 1$ para todo $x \in (a,b)$, então a sequência $x_n = f(x_{n-1})$ converge para uma raiz $\epsilon \in (a,b)$ da equação original.
+
+Definido o método do ponto fixo, vamos agora ver como é possível aplicá-lo à resolução de sistemas lineares. Consideramos um sistema de equações lineares de solução única, com $n$ equações e variáveis:
+
+\begin{cases}
+    a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n = b_1 \\
+    a_{21}x_1 + a_{22}x_2 +\cdots + a_{2n}x_n = b_2 \\
+    \quad \vdots \quad + \quad \vdots \quad + \ddots + \quad \vdots \quad = \quad \vdots \\
+    a_{n1}x_1 + a_{n2}x_2 + \cdots + a_{nn}x_n = b_n \\
+\end{cases}
+
+Na forma matricial:
+
+\begin{gather}
+
+AX = B \text{, onde}
+A =
+\begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1k} \\
+a_{21} & a_{22} & \cdots & a_{2k} \\
+\vdots & \vdots &\ddots & \vdots \\
+a_{n1} & a_{n2} & \cdots & a_{nk}
+\end{bmatrix}
+\quad
+X =
+\begin{bmatrix}
+x_1\\
+x_2\\
+\vdots\\
+x_n\\
+\end{bmatrix}
+B =
+\begin{bmatrix}
+b_1\\
+b_2\\
+\vdots\\
+b_n\\
+\end{bmatrix}
+
+\end{gather}
+
+A convergência dos métodos iterativos depende do sistema linear considerado. Existem algumas *condições de convergência* que podem ser expressas em termos de normas vetoriais ou matriciais. Para os dois métodos apresentados a seguir, uma *condição suficiente para a convergência* é que a matriz $A$ seja *diagonalmente dominante*, isto é, se para cada linha da matriz o valor absoluto do elemento diagonal da linha é maior que a soma dos valores absolutos dos outros elementos da linha.
+
+**** Método de Jacobi
+O método de Jacobi consiste em reescrever a equação matricial $AX = B$ em uma forma de ponto fixo $X = F(X)$. Para isso pode-se isolar os termos diagonais da matriz no sistema, chegando a um método iterativo cuja equação de recorrência é:
+
+$$X^{(n)} = P + QX^{x-1}$$
+
+onde $P = D^{-1}B$, $Q= I - D^{-1}A$ e $D$ é a matriz diagonal:
+
+\begin{gather}
+
+D=
+\begin{bmatrix}
+a_{11} & 0 & \cdots & 0 \\
+0 & a_{22} & \cdots & 0 \\
+\vdots & \vdots &\ddots & \vdots \\
+0 & 0 & \cdots & a_{nk}
+\end{bmatrix}
+
+\end{gather}
+
+Dessa forma, basta calcular os termos $P$ e $Q$ uma única vez e depois disso aplicar os valores de $X^{(n-1)}$ na equação de recorrência para obter os valores de $X^{(n)}$. Veja que é necessário iniciar com um valor para $X^{(0)}$.
+
+**** Método de Gauss-Seidel
+O método de Gauss-Seidel é muito semelhante ao método de Jacobi. A diferença entre os métodos consiste no fato de que, enquanto no método de Jacobi todos os elementos de $X^{(n)}$ são computados a partir de $X^{(n-1)}$, no método de Gauss-Seidel os elementos de $X^{(n)}$ já computados são usados para aproximar os elementos restantes de $X^{(n)}$.
+
+Decompondo a matriz dos coeficientes do sistema linear $A$ numa soma da forma $A = D + L + U$ tal que:
+
+\begin{gather}
+
+D=
+\begin{bmatrix}
+a_{11} & 0 & \cdots & 0 \\
+0 & a_{22} & \cdots & 0 \\
+\vdots & \vdots &\ddots & \vdots \\
+0 & 0 & \cdots & a_{nk}
+\end{bmatrix}
+\quad
+L=
+\begin{bmatrix}
+0 & 0 & \cdots & 0 \\
+a_{21} & 0 & \cdots & 0 \\
+\vdots & \vdots &\ddots & \vdots \\
+a_{n1} & a_{n2} & \cdots & 0
+\end{bmatrix}
+\quad
+U=
+\begin{bmatrix}
+0 & a_{12} & \cdots & a_{1n} \\
+0 & 0 & \cdots & a_{2n} \\
+\vdots & \vdots &\ddots & \vdots \\
+0 & 0 & \cdots & 0
+\end{bmatrix}
+
+\end{gather}
+
+Com essa decomposição, o sistema original $AX = B$ pode ser rescrito na forma $(D+L)X = B - UX$, que pode ser convertida na seguinte equação de recorrência:
+
+$$X^{(n)} = P - QX^{(n-1)}$$
+
+onde $P=(D+L)^{-1}B$ e $Q=(D+L)^{-1}U$.
+
+Dessa forma, os termos $P$ e $Q$ também podem ser calculados uma única vez e após isso pode-se aplicar os valores de $X^{(n-1)}$ na equação de recorrência para obter os valores de $X^{(n)}$.
+
 * Resolução de sistemas não lineares
 * Aproximação de funções
 * Integração numérica de funções
