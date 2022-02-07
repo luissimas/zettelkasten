@@ -93,3 +93,59 @@ Seja $V$ um espaço vetorial e $B = \{u_1, u_2, \dots, u_n\}$ um subconjunto de 
 Como implicação da definição de dependência linear e subespaço gerado, tem-se o seguinte teorema:
 
 Se $B=\{u_1, u_2, \dots, u_n\}$ é uma base de um espaço vetorial $V$, então todo e qualquer vetor $v$ de $V$ pode ser escrito de *maneira única* como combinação linear dos vetores de $B$.
+
+Sendo $B$ uma base de $V$, como qualquer vetor pode ser escrito de maneira única como combinação linear dos vetores de $B$, então os *escalares únicos* $a_1, a_2, \dots, a_n$ determinam um único vetor $v$. Por conta disso, os escalares $a_1, a_2, \dots, a_n$ são chamados de *coordenadas* ou *componentes* do vetor $v$ em relação à base $B$. Pode-se representar o vetor $v$ em relação à base $B$ por  $$v = (a_1, a_2, \dots, a_n)$$.
+
+Note que se, dado um espaço vetorial $V$ e um conjunto não nulo de vetores $\{u_1, u_2, \dots, u_n\}$ tais que $[u_1, u_2, \dots, u_n] = V$, então o conjunto $\{u_1, u_2, \dots, u_n\}$ *contém uma base* de $V$.
+
+Um resultado importante que segue dos teoremas relacionados à base de um espaço vetorial é o de que *qualquer base* de um espaço vetorial $V$ tem o *mesmo número de elementos*.
+
+** Dimensão de um espaço vetorial
+A dimensão de um espaço vetorial $V$, denotada por $\dim V$, é o *número de vetores* de uma base de $V$. Diz-se que o espaço vetorial $V$ tem *dimensão finita* se admitir uma base com um número finito de elementos.
+
+Se $W$ é um subespaço vetorial de um espaço vetorial $V$ de dimensão $n$, então $\dim W \leq n$ e, se $\dim W = n$, então $W = V$.
+
+** Mudança de base
+Sabendo que todo espaço vetorial tem mais de uma base, a mudança de base consiste em, *dadas as coordenadas* de um vetor $v \in V$ em uma base $B$, *determinar as coordenadas* de $v$ *em uma outra base* $B'$.
+
+Sejam $B=\{u_1, u_2, \dots, u_n\}$ e $B'=\{w_1, w_2, \dots, w_n\}$ duas bases de um mesmo espaço vetorial $V$ de dimensão $n$. Dado um vetor $v \in V$, é possível escrevê-lo de duas formas:
+
+Na base $B$:
+
+$$v = x_1u_1 + x_2u_2 + \dots + x_nu_n$$
+
+ou na base $B'$:
+
+$$v = y_1w_1 + y_2w_2 + \dots + y_nw_n$$
+
+Note que as *coordenadas* $x_1, x_2, \dots, x_n$, relativas à base $B$, e as coordenadas $y_1, y_2, \dots, y_n$, relativas à base $B'$ são *únicas*.
+
+Escrevendo os vetores $w_i$ como combinação linear dos vetores $u_j$, é possível obter a equivalência dos coeficientes através da seguinte equação matricial:
+
+\begin{gather}
+
+  \begin{bmatrix}
+  x_1 \\
+  \vdots \\
+  x_n
+  \end{bmatrix}
+ =
+\begin{bmatrix}
+a_{11} & \dots & a_{1n} \\
+\vdots & \ddots & \vdots \\
+a_{n1} & \dots & a_{nn}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+  y_1 \\
+  \vdots \\
+  y_n
+\end{bmatrix}
+
+\end{gather}
+
+Denotando $[a_{i_j}]_{n \times n} = A$, temos:
+
+$$[v]_B = A \cdot [v]_{B'}$$
+
+A matriz $A$ é chamada de *matriz de mudança da base* $B$ para a base $B'$.
