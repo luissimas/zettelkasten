@@ -149,3 +149,12 @@ Denotando $[a_{i_j}]_{n \times n} = A$, temos:
 $$[v]_B = A \cdot [v]_{B'}$$
 
 A matriz $A$ é chamada de *matriz de mudança da base* $B$ para a base $B'$.
+
+* Transformações Lineares
+Sejam $V$ e $W$ espaços vetoriais reais, uma *transformação linear* (ou aplicação linear) é uma função $T: V \to W$ tal que, para quaisquer $u, v \in V$ e $\alpha \in \mathbb{R}$, as seguintes condições forem satisfeitas:
+
+a) $T(u+v) = T(u) = T(v)$
+b) $T(\alpha v) = \alpha T(v)$
+c) $T(0) = 0$
+
+Quando uma transformação linear $T$ associa elementos de um mesmo conjunto $V$, ou seja, $T: V \to V$, ela é chamada de *operador linear* sobre $V$.
