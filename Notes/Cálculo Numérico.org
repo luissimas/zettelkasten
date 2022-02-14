@@ -258,7 +258,42 @@ onde $P=(D+L)^{-1}B$ e $Q=(D+L)^{-1}U$.
 
 Dessa forma, os termos $P$ e $Q$ também podem ser calculados uma única vez e após isso pode-se aplicar os valores de $X^{(n-1)}$ na equação de recorrência para obter os valores de $X^{(n)}$.
 
-* Resolução de sistemas não lineares
+* Resolução de equações não lineares
+A solução de equações não-lineares na forma $f(x) = 0$ nem sempre é simples. Quando tratamos de funções mais complexas, como polinômios de graus elevados, é praticamente impossível obter uma solução usando métodos convencionais. Por conta disso foram desenvolvidos métodos numéricos para resolver equações nessa forma.
+
+** Método da Bissecção
+O método da bissecção supõe apenas que a função $f$ seja contínua no intervalo $[a,b]$, sendo um dos métodos mais simples para determinar se existem raízes da função em um intervalo.
+
+O seguinte resultado proporciona a base para esse método:
+
+Seja $f: [a, b] \to \mathbb{R}$ uma função *contínua* tal que $f(a)f(b) < 0$, ou seja, $f$ *muda de sinal* no intervalo $[a,b]$. Então existe pelo menos um ponto $\bar{x} \in [a,b]$ tal que $f(\bar{x}) = 0$. Além disso, se $f'$ não muda de sinal em $(a,b)$, então $\bar{x}$ é a única raiz de $f$ nesse intervalo.
+
+Com base no resultado acima, desenvolveu-se o seguinte método para encontrar uma aproximação para a raiz de $f$:
+
+Consideramos o intervalo $I_0 = [a_0, b_0] = [a, b]$, onde $f$ muda de sinal, como intervalo inicial. Seja $x_M$ o *ponto médio* de $I_0$, ou seja, $x_M = \frac{(a_0 + b_0)}{2}$. Como $f(a)f(b) < 0$, sabe-se que $f(x_M)$ terá o mesmo sinal que $f(a)$ ou $f(b)$. Assim, escolhemos o *novo intervalo* $I_1 = [a_1, b_1]$ como sendo:
+
+- Se $f(x_M) = 0$ (ou menor que uma precisão dada), temos que $x_M$ é *raiz* de $f$;
+- $I_1 = [a, x_M]$ se $f(a)f(x_M) < 0$;
+- $I_1 = [x_M, b]$ se $f(x_M)f(b) < 0$;
+
+Dessa forma, a cada iteração obtemos um novo intervalo $I_i$ que *contém a raiz com metade do comprimento do intervalo anterior*. Note que, embora simples, o método da bissecção tem uma velocidade de convergência lenta. Após $n$ iterações, a aproximação obtida para a raiz da equação tem um *erro absoluto* dado por
+
+$$|x-x^*| \leq \frac{b-a}{2^{n+1}}$$
+
+** Método do Ponto Fixo
+Um *ponto fixo* de uma dada função $\varphi$ é o número $p$ que quando aplicado na função resulta nele mesmo, ou seja, $\varphi(p) = p$.
+
+A ideia do método do ponto fixo é *associar* o problema de se determinar os *pontos fixos* ao problema de se encontrar as *raízes* de uma função. Para encontrar as raízes de $f$, podemos escrever $f(x) = x - \varphi(x)$ e encontrar um ponto fixo de $\varphi$. Nesse caso, o ponto fixo de $\varphi$ será também a raiz de $f$.
+
+Note que é necessário definir algum *método para a escolha da função* $\varphi$. Em geral, os seguintes resultados são levados em conta:
+
+- Se $\varphi$ é contínua no intervalo $I = [a,b]$ e $\varphi(x) \in I$ para todo $x \in I$, então $\varphi$ *terá um ponto fixo* em $I$;
+- Se $\varphi '$ existir em $(a,b)$ e existir uma constante $\alpha$ tal que  $|\varphi '(x)| \leq \alpha < 1$ para todo $x \in (a,b)$, então o ponto fixo será *único*.
+
+Em geral, basta escolher uma função $\varphi$ que *satisfaça os dois resultados* acima.
+
+Note que resolução da equação $x = \varphi(x)$ é um processo iterativo, definindo uma sequência $(p_n)$ tal que $p_{n+1} = \varphi(p_n)$. Dessa forma, se $p_n$ *convergir* para um valor $p$, então essa será a solução para $x = \varphi(x)$.
+
 * Aproximação de funções
 * Integração numérica de funções
 * Resolução de sistemas de equações diferenciais
