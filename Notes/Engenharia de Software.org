@@ -52,7 +52,7 @@ Dentre todos os métodos de desenvolvimento de software, o método scrum é o ma
 
 Nesse método o processo de review é altamente valorizado, com reuniões diárias (/daily scrums/) e revisões ao final de cada sprint. Isso proporciona uma melhoria iterativa não só no software sendo desenvolvido mas também nos processos adotados para o desenvolvimento do mesmo.
 
-* Especificação de Requisitos
+* Especificação de requisitos
 Os requisitos de software descrevem as *funcionalidades* e, consequentemente, *definem o escopo* de um sistema de software. Dessa forma, é fundamental para as demais etapas do processo de desenvolvimento do software que os requisitos sejam coerentes e bem definidos.
 
 #+begin_quote
@@ -75,3 +75,13 @@ Do ponto de vista das funcionalidades:
 - Os *requisitos do domínio* são requisitos que são próprios do domínio da aplicação e que refletem características específicas desse domínio. Eles podem ser tanto novos requisitos funcionais, restrições sobre requisitos existentes ou detalhamentos sobre funcionalidades específicas.
 - Os *requisitos do sistema* são relacionados a infraestrutura de execução do sistema. Geralmente definem as tecnologias e plataformas nas quais o sistema será executado.
 - Os *requisitos não-funcionais* são requisitos que expressam qualidades e restrições sobre as funcionalidades do sistema. Geralmente esses requisitos definem restrições de tempo, segurança e qualidade de funcionamento do software.
+
+* Modelagem de casos de uso
+O *modelo de casos de uso (MCU)* é uma representação do sistema em termos das *funcionalidades* oferecidas ao usuário. Fundamentalmente, o modelo de casos de uso descreve os *requisitos funcionais* do sistema.
+
+Um caso de uso é a especificação de uma *sequência de interações* entre o sistema e os agentes externos (atores) sem detalhamentos da implementação das funcionalidades que proporcionam essas interações.
+
+Um MCU geralmente é composto por dois elementos:
+
+- Um *diagrama de casos de uso* (geralmente modelado em /UML/) fornece uma visão geral e de alto nível do sistema e suas funcionalidades.
+- Uma *descrição do caso de uso* especifica e detalha de maneira textual cada caso de uso do sistema.

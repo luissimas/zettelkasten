@@ -62,6 +62,29 @@ Existe ainda uma forma de manter registros de tamanho variável sem a necessidad
 
 É possível ainda *separar os registros com delimitadores*, de maneira análoga à separação de campos. Note que para combinar os delimitadores de campos e de registros esses delimitadores devem ser caracteres diferentes.
 
+** Formas de acesso
+Existem essencialmente duas maneiras de se acessar arquivos armazenados em memória secundária:
+
+- O *busca sequencial* lê o arquivo registro a registro.
+- O *acesso direto* indica a posição do arquivo a ser lida, resultando em uma operação de /seek/, movendo a cabeça do disco até o registro desejado, que então é lido diretamente.
+
+Se tratando de acesso a disco, o desempenho é medido em termos do *número de acesso a disco*. Nesse contexto, o custo dos tipos de acesso no pior caso é dado por:
+
+- *Busca sequencial*: custo linear, proporcional ao número de registros ou de páginas de disco que contém os registros do arquivo.
+- *Acesso direto*: custo constante, pois um único acesso é capaz de recuperar o registro, independentemente do tamanho do arquivo.
+
+A busca sequencial pode ser muito *ineficiente*, principalmente quando deseja-se ler apenas um registro de um arquivo grande. Entretanto, ela tem uma *implementação simples* e pode ser aplicada a diversos tipos de arquivos. Em contrapartida, o acesso direto se mostra muito eficiente principalmente nos casos onde é necessário ler apenas um registro ou um conjunto de registros armazenados na mesma página de disco.
+
+A implementação de acesso direto não é tão simples quando a de busca direta. Apesar disso, duas técnicas são comumente utilizadas quando é necessário implementar acesso direto:
+
+- O *RRN (relative record number)* é usado quando os registros são de *tamanho fixo*. A ideia é que com registros de tamanho fixo é possível *calcular a posição de início* do registro *com base na posição relativa* do registro dentro do arquivo.
+- Um *arquivo de índice* é utilizado tanto para registros de tamanho fixo quanto para os de tamanho variável. Nesse tipo de implementação é necessário manter um arquivo secundário com as posições de início de cada registro do arquivo principal.
+
+** Remoção e compactação
+Ao remover registros de um arquivo, é necessário reorganizar o aquivo para que o espaço ocupado seja efetivamente reduzido.
+
+Geralmente, primeiramente é feita uma *remoção lógica* do registro, que consiste em marcá-lo como *inválido*, sem efetivamente removê-lo do arquivo. Após a remoção lógica, ocorre a *remoção física*, que consiste em reconstruir o arquivo, eliminando os registros marcados como inválidos. Dessa forma, os registros são efetivamente removidos fisicamente do arquivo final.
+
 * Indexação
 * Árvores B
 * Hashing
