@@ -103,6 +103,10 @@ Um resultado importante que segue dos teoremas relacionados à base de um espaç
 ** Dimensão de um espaço vetorial
 A dimensão de um espaço vetorial $V$, denotada por $\dim V$, é o *número de vetores* de uma base de $V$. Diz-se que o espaço vetorial $V$ tem *dimensão finita* se admitir uma base com um número finito de elementos.
 
+O seguinte resultado é de grande auxílio para determinar a dimensão de um subespaço:
+
+As linhas não nulas $L_1, L_2, \dots, L_n$ de uma matriz na forma *escalonada* são sempre *LI*. Dessa forma, dado um subespaço e um conjunto de vetores, para verificar a dimensão do subespaço basta verificar quais vetores são LI na matriz escalonada.
+
 Se $W$ é um subespaço vetorial de um espaço vetorial $V$ de dimensão $n$, então $\dim W \leq n$ e, se $\dim W = n$, então $W = V$.
 
 ** Mudança de base
@@ -120,7 +124,7 @@ $$v = y_1w_1 + y_2w_2 + \dots + y_nw_n$$
 
 Note que as *coordenadas* $x_1, x_2, \dots, x_n$, relativas à base $B$, e as coordenadas $y_1, y_2, \dots, y_n$, relativas à base $B'$ são *únicas*.
 
-Escrevendo os vetores $w_i$ como combinação linear dos vetores $u_j$, é possível obter a equivalência dos coeficientes através da seguinte equação matricial:
+Escrevendo os vetores $w_i$ como *combinação linear* dos vetores $u_j$, é possível obter a equivalência dos coeficientes através da seguinte equação matricial:
 
 \begin{gather}
 
@@ -153,7 +157,7 @@ A matriz $A$ é chamada de *matriz de mudança da base* $B$ para a base $B'$.
 * Transformações Lineares
 Sejam $V$ e $W$ espaços vetoriais reais, uma *transformação linear* (ou aplicação linear) é uma função $T: V \to W$ tal que, para quaisquer $u, v \in V$ e $\alpha \in \mathbb{R}$, as seguintes condições forem satisfeitas:
 
-a) $T(u+v) = T(u) = T(v)$
+a) $T(u+v) = T(u) + T(v)$
 b) $T(\alpha v) = \alpha T(v)$
 c) $T(0) = 0$
 
