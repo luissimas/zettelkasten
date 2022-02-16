@@ -116,8 +116,8 @@ Após o levantamento de requisitos, inicia-se a criação de um *esquema conceit
 
 Feito o projeto conceitual, a próxima etapa é a *implementação* do banco de dados usando algum SGBD. Dessa forma o esquema conceitual é transformado em um modelo de dados de implementação específica do SGBD.
 
-** Modelo ER (Entidade Relacionamento)
-O modelo ER descreve os dados com três componentes principais: /entidades/, /atributos/ e /relacionamentos/.
+** Modelo Entidade-Relacionamento (ER)
+O modelo ER define o esquema conceitual do banco de dados fazendo uso de três componentes principais: /entidades/, /atributos/ e /relacionamentos/.
 
 *** Entidades
 Uma *entidade* é uma coisa ou objeto (físico ou conceitual) com uma *existência independente*. Um *tipo de entidade* define, através de um *esquema*, uma estrutura para um conjunto de entidades, enquanto o *conjunto de entidades* se refere à coleção de todas as entidades de um determinado tipo armazenadas no banco.
@@ -147,3 +147,41 @@ Cada tipo de entidade que participa de um tipo de relacionamento desempenha nele
 Os tipos de relacionamentos podem ter *restrições estruturais* que limitam o número e a forma das *combinações de entidades* que podem participar no conjunto de relacionamentos. A *razão de cardinalidade* para relacionamentos binários especifica o número *máximo de instâncias de relacionamento* em que uma entidade pode participar. As razões de cardinalidade possíveis para tipos de relacionamento binários são: =1:1=, =1:N=, =N:1= =M:N=. Outro tipo de restrição são as *restrições de participação*, especificam se a existência de uma entidade depende de ela estar relacionada a outra entidade por meio do tipo de relacionamento. Essa restrição especifica um *número mínimo* de instâncias de relacionamento em que cada entidade pode participar. Se cada entidade em um conjunto de entidades deve estar relacionada a uma outra entidade, tem-se a chamada *participação total*, ou *dependência de existência*, que define que a existência de uma entidade depende dela estar relacionada à outra. Quando nem todas as entidades de um conjunto precisam necessariamente estar relacionadas à uma outra entidade, tem-se a chamada *participação parcial*.
 
 Assim como as entidades, os relacionamentos também podem ter *atributos*. Esses atributos descrevem aspectos específicos da instância de relacionamento. Dessa forma, em certas situações é possível mover esses atributos para algum dos tipos de entidades participantes (mas esse nem sempre é o caso).
+
+** Modelo Entidade-Relacionamento Estendido (EER)
+O modelo EER estende a capacidade de representação do modelo ER tradicional, introduzindo novos conceitos de /modelos de dados semânticos/. Os conceitos introduzidos nesse modelo são, principalmente, os de *subclasse* e *superclasse*, *especialização* e *generalização*, *categoria* e *herança*.
+
+*** Subclasses e superclasses
+Subclasses (subtipos de entidade) são subagrupamentos de um tipo de entidade. Muitas vezes, um tipo de entidade pode conter diversos subtipos em seu conjunto que precisam ser distinguidos e representados explicitamente, isso pode ser feito através das *subclasses*. Analogamente, o tipo de entidade do qual uma subclasse é especificada é chamada de *superclasse* para cada uma das subclasses derivadas.
+
+Note que uma entidade-membro da subclasse representa a *mesma entidade* de algum membro da superclasse, ou seja, toda entidade de uma subclasse também é entidade da superclasse, mas adota um /papel/ específico para a subclasse.
+
+#+caption: Exemplo da representação de uma superclasse FUNCIONARIO e suas possíveis subclasses
+#+attr_org: :width 600
+[[file:~/vault/Attachments/BD/eersubclasses.png]]
+
+Vale destacar que uma subclasse deve *herdar* todos os atributos e tipos de relacionamentos da superclasse. Apesar disso, uma subclasse pode definir atributos e relacionamentos específicos além dos herdados da superclasse.
+
+*** Especialização e generalização
+A *especialização* é o processo de *derivar subclasses* de uma superclasse. A ideia é tomar alguma *característica da superclasse como base para a distinção* e definição das subclasses. Já a *generalização* é o *processo inverso* da especialização, consistindo em, dados vários tipos de entidade, generaliza-las em uma *única superclasse* da qual os tipos de entidade são *subclasses*.
+
+É possível definir *condições* nas especializações para determinar exatamente quais entidades se tornam membros de cada subclasse. Essas condições são especificadas sobre o valor de algum *atributo da superclasse*. Subclasses definidas através desse tipo de condição são chamadas de *subclasses definidas por predicado*.
+
+#+caption: Especialização da superclasse FUNCIONARIO definida pelo atributo Tipo_emprego
+#+attr_org: :width 600
+[[file:~/vault/Attachments/BD/eerespecializacaoatributo.png]]
+
+Quando não há nenhuma condição para determinar os membros de uma subclasse, diz-se que esta é *definida pelo usuário*. Dessa forma, cabe aos usuários do banco de dados determinar manualmente a subclasse no momento da inserção.
+
+É possível ainda a definição da chamada *restrição de disjunção*, que especifica que as subclasses da especialização devem ser *disjuntas*, ou seja, uma entidade pode ser membro de no máximo uma subclasse da especialização. Note que uma especialização definida por um atributo de valor único implica a restrição de disjunção.
+
+Outra restrição possível é a *restrição de completude* total ou parcial. Uma restrição de *especialização total* define que toda entidade da superclasse deve ser um membro de pelo menos uma subclasse da especialização. Já uma *especialização parcial* permite que uma entidade não pertença a qualquer uma das subclasses.
+
+*** Uniões
+Em determinados casos pode ser necessário representar uma *coleção de entidades* a partir de diferentes tipos de entidades. Nesse caso, a subclasse representa uma coleção de entidades que é o *subconjunto da união* de entidades de tipos distintos. Esse tipo de subclasse é chamada de *tipo de união* ou *categoria*.
+
+#+caption: Modelagem de duas categorias: PROPRIETARIO e VEICULO_REGISTRADO
+#+attr_org: :width 500
+[[file:~/vault/Attachments/BD/eercategoria.png]]
+
+No exemplo acima, uma entidade membro de =PROPRIETARIO= deve existir em *apenas uma* das superclasses, ou seja, um proprietário é uma pessoa *ou* um banco *ou* uma empresa.
