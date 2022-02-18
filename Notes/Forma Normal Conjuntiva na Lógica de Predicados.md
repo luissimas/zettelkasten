@@ -26,7 +26,7 @@
 > ***Forma Normal Conjuntiva (FNC)***
 > Uma fórmula $\alpha$ está na *Forma Normal Conjuntiva (FNC)* se e somente se estiver na *FNP* e sua **matriz** for uma **conjunção de disjunções** de **literais**.
 
-De maneira geral, o processo para se obter transformar uma fórmula da lógica de predicados em uma fórmula equivalente na forma normal conjuntiva se dá pelo seguinte algoritmo:
+De maneira geral, o processo para se transformar uma fórmula da lógica de predicados em uma fórmula equivalente na forma normal conjuntiva se dá pelo seguinte algoritmo:
 
 1. Eliminar as variáveis livres quantificando-as existencialmente.
 2. Eliminar os quantificadores desnecessários (que não contenham nenhuma ocorrência da variável quantificada em seu escopo).

@@ -148,6 +148,21 @@ Geralmente define-se uma taxa de mutação, que define a probabilidade de uma ca
 **** Elitismo
 O elitismo consiste em selecionar os melhores indivíduos de uma população e incluí-los na próxima geração. Note que os operadores de cruzamento e mutação nem sempre melhoram a população, portanto o processo de elitismo garante que pelo menos alguns indivíduos da próxima geração serão tão bons quanto os melhores indivíduos da geração anterior.
 
-* Representação de Conhecimento e Raciocínio
+* Representação do Conhecimento e Raciocínio
+A *representação do conhecimento* e o *raciocínio* são questões *essenciais* para a inteligência artificial simbólica. A ideia é desenvolver sistemas que *representam conhecimento* e o *utilizam para produzir resultados*. Esses sistemas são chamados de /sistemas baseados em conhecimento (SBC)/. Sistemas baseados em conhecimento devem fornecer meios tanto para adicionar conhecimentos à *base de conhecimento* quanto para obter *inferências* com base nos conhecimentos já existentes.
+
+A *base de conhecimento* consiste em um conjunto de *sentenças*. As sentenças são *declarações* que *expressam conhecimento* sobre o domínio da aplicação. Note que as sentenças devem ser representadas em uma *linguagem sistematizada* e que remova o máximo de ambiguidades, uma linguagem utilizada para esse fim é chamada de *linguagem de representação do conhecimento*.
+
+Dentre as linguagens de representação do conhecimento, a *lógica matemática* se destaca como uma representação formal amplamente usada tanto para *representar o conhecimento* quanto para *modelar o raciocínio* através da *inferência lógica*.
+
+No campo da lógica matemática existem diversas lógicas específicas, com particularidades tanto de representação quanto de inferência. Em geral, alguns *componentes e propriedades são necessários* à qualquer lógica *para representar conhecimento e raciocinar* com base no mesmo:
+
+- O conceito de *verdade* é essencial para avaliar a veracidade das sentenças e a partir disso construir o conhecimento.
+- Um *mundo possível* é um ambiente real do qual se extrai ou ao qual se aplica o conhecimento.
+- Um *modelo* é a especificação formal de um mundo possível. Um modelo *define o valor-verdade de uma sentença*. Dizemos que um modelo *satisfaz* uma sentença se essa sentença for *verdadeira* para o modelo.
+- A *consequência lógica* define as relações entre sentenças, compondo a base da inferência lógica.
+- A *inferência lógica* consiste na verificação da consequência lógica entre sentenças, permitindo verificar se uma sentença decorre de um conjunto de sentenças já conhecidas.
+- A *consistência* é uma propriedade de algoritmos de inferência que derivam apenas sentenças permitidas dentro da sintaxe e semântica da lógica.
+- A *completeza* de um algoritmo de inferência é uma propriedade que indica se o dado algoritmo é capaz de derivar qualquer sentença possível dentro da lógica em questão.
 
 * Aprendizado de Máquina
