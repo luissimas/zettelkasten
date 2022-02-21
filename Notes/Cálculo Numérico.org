@@ -294,6 +294,115 @@ Em geral, basta escolher uma função $\varphi$ que *satisfaça os dois resultad
 
 Note que resolução da equação $x = \varphi(x)$ é um processo iterativo, definindo uma sequência $(p_n)$ tal que $p_{n+1} = \varphi(p_n)$. Dessa forma, se $p_n$ *convergir* para um valor $p$, então essa será a solução para $x = \varphi(x)$.
 
+** Método de Newton-Raphson
+O método de Newton-Raphson é resultado da aplicação do /Teorema de Taylor/ com o método do ponto fixo, resultando em um método que *converge mais rápido* para a solução, porém com *mais condições de convergência*.
+
+Para este método, escreve-se a função $\varphi$ da seguinte maneira:
+
+$$\varphi(x) = x - \frac{f(x)}{f'(x)}$$
+
+Sendo assim, é gerada uma sequência $(p_n)$ na forma:
+
+$$p_{n+1} = p_n - \frac{f(p_n)}{f'(p_n)}$$
+
+Assim como no método do ponto fixo, a sequência *converge* para o valor da solução $x = \varphi(x)$.
+
+Note que é assumido que $f'(x) \neq 0$ para todos os componentes da sequência gerada. Sendo assim, a função $f$ tem que ter uma derivada contínua e esta derivada não pode se anular no intervalo de busca da solução. Além disso, por conta do Teorema de Taylor, o ponto inicial $p_0$ deve estar próximo da solução para que a convergência seja garantida.
+
+#+begin_src python :results output
+  import numpy as np
+  import math
+
+
+  def f(x):
+      return x * np.sin(x)
+
+
+  def df(x):
+      return np.sin(x) + x * np.cos(x)
+
+
+  p0 = 0.9
+
+  list = [p0]
+
+  i = 1
+  max = 8
+
+  while i <= max:
+      pn = list[i - 1]
+      pnext = pn - (f(pn) / df(pn))
+
+      list.append(pnext)
+      print("Iteração %d: %.6f" % (i, pnext))
+      # print("|p%d - p%d| = %.5f" % (i, i - 1, math.fabs(pnext - pn)))
+
+      if list[i] == list[i - 1]:
+          break
+
+      i = i + 1
+#+end_src
+
+#+RESULTS:
+: Iteração 1: 0.374973
+: Iteração 2: 0.182943
+: Iteração 3: 0.090957
+: Iteração 4: 0.045416
+: Iteração 5: 0.022700
+: Iteração 6: 0.011349
+: Iteração 7: 0.005674
+: Iteração 8: 0.002837
+
+
+*** Método da Secante
+O método da secante segue a mesma ideia do método de Newton, porém *ao invés de usar a derivada* da função cuja raiz é buscada, *usa-se uma aproximação* para ela.
+
+Com a definição de derivada, é possível aproximar $f'(p_n)$ e gerar a seguinte sequência:
+
+$$p_{n+1} = p_n - \frac{f(p_n)(p_n - p_{n-1})}{f(p_n) - f(p_{n-1})}$$
+
+#+begin_src python :results output
+  import numpy as np
+
+
+  def f(x):
+      return np.sin(7 * x) - 0.2 * x
+
+
+  p0 = 0.4
+  p1 = 0.5
+
+  list = [p0, p1]
+
+  i = 1
+
+  while list[i] != list[i - 1]:
+      pn = list[i]
+      pn1 = list[i - 1]
+
+      pnext = pn - ((f(pn) * (pn - pn1)) / (f(pn) - f(pn1)))
+
+      list.append(pnext)
+      print("Iteração %d: %.6f" % (i, pnext))
+      i = i + 1
+#+end_src
+
+#+RESULTS:
+: Iteração 1: 0.436129
+: Iteração 2: 0.436319
+: Iteração 3: 0.436317
+: Iteração 4: 0.436317
+: Iteração 5: 0.436317
+: Iteração 6: 0.436317
+: Iteração 7: 0.436317
+
+*** Método da Falsa Posição
+Com uma modificação no método da Secante é possível obter um método para encontrar raízes de funções não-lineares. Se considerarmos um intervalo $I_0 = [p_0, p1]$ e o cálculo de $p_2$ como no método da secante, ao invés de descartar o elemento $p_0$ e fazer um novo cálculo agora baseado no intervalo de extremos $p_1$ e $p_2$, analisamos o sinal da função nos três pontos:
+
+- Se $f(p_0)f(p_2) < 0$ e $f(p_1)f(p_2) > 0$, então existe uma raiz entre $p_0$ e $p_2$, e selecionamos estes valores para a próxima iteração.
+- Se $f(p_1)f(p_2) < 0$ e $f(p_0)f(p_2) > 0$, então existe uma raiz entre $p_1$ e $p_2$, e selecionamos estes valores para a próxima iteração.
+- Se ambos os produtos tiverem o mesmo sinal, então é possível escolher qualquer combinação de valores para a próxima iteração.
+
 * Aproximação de funções
 * Integração numérica de funções
 * Resolução de sistemas de equações diferenciais
