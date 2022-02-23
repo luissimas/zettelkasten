@@ -243,9 +243,10 @@ Um esquema de relação pode ter mais de uma chave, e nesse caso cada uma das ch
 *** Restrições sobre valores =NULL=
 É possível especificar se um determinado atributo admite ou não valores =NULL=. Caso seja necessário que um *atributo sempre tenha um valor válido* em todas as tuplas, esse tipo de restrição garante que o valor do atributo nunca será =NULL=.
 
-*** Restrições de integridade
+*** Restrições de integridade de entidade
 A *restrição de integridade de entidade* garante que nenhum valor de chave primária pode ser =NULL=. Como as chaves primárias são usadas para identificar tuplas em um a relação, se o valor de alguma chave for =NULL= não será possível identificá-la nem referenciá-la.
 
+*** Restrições de integridade referencial
 A *restrição de integridade referencial* é usada para garantir a consistência entre tuplas em relações distintas que se referenciam. A própria definição de *chave estrangeira* (denotada por $ChE$ ou $FK$) define também as propriedades da restrição de integridade referencial.
 
 Um conjunto de atributos $ChE$ no esquema de relação $R_1$ é uma *chave estrangeira* de $R_1$ que referencia a relação $R_2$ se ela satisfizer as seguintes condições:
