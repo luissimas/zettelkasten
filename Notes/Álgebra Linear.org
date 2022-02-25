@@ -162,3 +162,60 @@ b) $T(\alpha v) = \alpha T(v)$
 c) $T(0) = 0$
 
 Quando uma transformação linear $T$ associa elementos de um mesmo conjunto $V$, ou seja, $T: V \to V$, ela é chamada de *operador linear* sobre $V$.
+
+O seguinte teorema garante a *existência e unicidade* de uma transformação linear, esse resultado nos permite obter transformações lineares a partir dos resultados de sua aplicação em vetores que constituem uma base para um espaço vetorial.
+
+Sejam $U$ e $V$ espaços vetoriais reais, $\{u_1, u_2, \dots, u_n\}$ uma *base* de $U$ e $v_1, v_2, \dots, v_n \in V$ um conjunto de vetores. Existe uma *única transformação linear* $T: U \to V$ tal que:
+
+$$T(u_1) = v_1, T(u_2) = v_2, \dots, T(u_n) = v_n$$
+
+** Imagem de transformações lineares
+Seja $T: U \to V$ uma transformação linear. A *imagem de* $T$, denotada por $Im(T)$, é o *conjunto dos vetores* $v \in V$ tais que existe um vetor $u \in U$ que satisfaz $T(u) = v$, ou seja:
+
+$$Im(T) = \{v \in V \mid v = T(u) = v, u \in U \}$$
+
+#+attr_org: :width 600
+[[file:~/vault/Attachments/AlgLin/transformacaoimagem.png]]
+
+Note que se $T: U \to V$ é uma transformação linear, então $Im(T)$ é um *subespaço vetorial* de $V$.
+
+** Núcleo de transformações lineares
+Seja $T: U \to V$ uma transformação linear. O *núcleo* de $T$, denotado por $Ker(T)$ (ou $N(T)$), é o conjunto dos vetores $u \in U$ que *são levados ao vetor nulo de* $V$, ou seja:
+
+$$Ker(T) = \{u \in U \mid T(u) = 0 \in V\}$$
+
+#+attr_org: :width 600
+[[file:~/vault/Attachments/AlgLin/nucleotransformacao.png]]
+
+Note que se $T: U \to V$ é uma transformação linear, então $Ker(T)$ é um *subespaço vetorial* de $V$.
+
+Uma transformação linear $T: U \to V$ é *injetora* se e somente se $Ker(T) = \{0\}$.
+
+Dada uma transformação linear $T: U \to V$, se $V$ e $U$ são espaços vetoriais de dimensão finita, então $\dim V = \dim Ker(T) + \dim Im(T)$. Desse mesmo teorema segue que, se $\dim U = \dim V$, então $T$ é *injetora* se e somente se é *sobrejetora*.
+
+** Isomorfismos
+Uma transformação linear $T: U \to V$ é chamada de *isomorfismo* se for *injetora e sobrejetora*. Nesse caso, o espaços vetoriais $U$ e $V$ são chamados *isomorfos*. Todo isomorfismo $T: U \to V$ possui uma *inversa* $T^{-1}: V \to U$, que é também uma *transformação linear*.
+
+** Matriz de uma transformação linear
+Dada uma transformação linear $T: U \to V$, sendo $\dim U = n$ e $\dim V = m$. Considerando as *bases* $B=\{u_1, u_2, \dots, u_n\}$ e $B'=\{v_1, v_2, \dots, v_m\}$ como bases de $U$ e $V$, respectivamente, é possível escrever os vetores $T(u_i)$ como *combinação linear dos vetores da base* $B'$ da seguinte forma;
+
+\begin{aligned}
+  T(u_1) &= a_{11} v_1 + a_{21} v_2 + \dots + a_{m1} v_m\\
+  T(u_2) &= a_{21} v_1 + a_{22} v_2 + \dots + a_{m2} v_m\\
+  &\vdots\\
+  T(u_n) &= a_{1n} v_1 + a_{2n} v_2 + \dots + a_{mn} v_m\\
+\end{aligned}
+
+A partir dessas combinações, é possível obter uma matriz de dimensão $m \times n$, chamada *matriz associada* à transformação linear $T$
+
+\begin{gather}
+
+\left[T\right]^B_{B'} =
+  \begin{bmatrix}
+    a_{11} & a_{12} & \dots & a_{1n}\\
+    a_{21} & a_{22} & \dots & a_{2n}\\
+    \vdots & \vdots &\ddots & \vdots\\
+    a_{n1} & a_{n2} & \dots & a_{nn}\\
+  \end{bmatrix}
+
+\end{gather}
