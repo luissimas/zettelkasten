@@ -2,7 +2,7 @@
 
 Cálculo numérico (ou análise numérica), é o ramo do cálculo que estuda algoritmos de aproximação numérica para diversos problemas da matemática.
 
-* Erros e Sistemas de Ponto Flutuante
+* Erros e sistemas de ponto flutuante
 Em se tratando de métodos de aproximação, a existência de erros é inevitável. Portanto, são necessários métodos para entender o comportamento desses erros e estabelecer resultados confiáveis para os mesmos.
 
 Se em uma dada medida o valor esperado é $x$ e o valor efetivamente medido (ou aproximado) é $x_0$, então o *erro absoluto* é dado por
@@ -402,6 +402,139 @@ Com uma modificação no método da Secante é possível obter um método para e
 - Se $f(p_0)f(p_2) < 0$ e $f(p_1)f(p_2) > 0$, então existe uma raiz entre $p_0$ e $p_2$, e selecionamos estes valores para a próxima iteração.
 - Se $f(p_1)f(p_2) < 0$ e $f(p_0)f(p_2) > 0$, então existe uma raiz entre $p_1$ e $p_2$, e selecionamos estes valores para a próxima iteração.
 - Se ambos os produtos tiverem o mesmo sinal, então é possível escolher qualquer combinação de valores para a próxima iteração.
+
+* Interpolação de dados
+É comum coletar conjuntos de dados em aplicações práticas, dados esses que podem ser vistos como *pontos* desconexos. O objetivo da interpolação é, dado um conjunto de pontos, determinar uma *expressão capaz de gerar todos esses pontos*. A ideia é que, obtida uma expressão que gera todos os pontos de dados coletados, é possível fazer *inferência* sobre os dados com base no *comportamento do conjunto de dados*, que agora é *definido por uma função*.
+
+Dado um conjunto de *pontos distintos* $P = \{x_0, x_1,\dots, x_n\}$ chamados /nós da interpolação/ e uma função $f(x)$ cuja *definição é desconhecida*, mas todos os *valores* $f(x_0), f(x_1), \dots, f(x_n)$ *são conhecidos* para todo $x_1$, o problema de interpolação de $f(x)$ consiste em obter uma função $g(x)$ tal que:
+
+\begin{cases}
+  g(x_0) &= f(x_0)\\
+  g(x_1) &= f(x_1)\\
+  & \vdots\\
+  g(x_n) &= f(x_n)
+\end{cases}
+
+Ou seja, os valores da função $g$ correspondem aos valores da função $f$ *em todos os pontos* do conjunto $P$. Note que não há garantias de que as funções coincidem em todos os valores de seus intervalos, mas sim que elas coincidem nos pontos do conjunto $P$.
+
+Muitas vezes, é conveniente tomar uma *função polinomial* como função interpoladora, ou seja, como a função que deseja-se ajustar para gerar os pontos do conjunto. Essa estratégia de interpolação é chamada de *interpolação polinomial*, e consiste em encontrar um polinômio de grau menor ou igual a $n$ que interpola a função $f$.
+
+** Matriz de Vandermonde
+Tomando uma função polinomial $g(x_k) = p_n(x_k)$ tal que $p_n(x_k) = a_0 + a_1x_k^1 + \dots + a_nx_k^n$, é possível obter o seguinte *sistema linear*:
+
+\begin{cases}
+   a_0 + a_1x_0^1 + \cdots + a_nx_0^n = f(x_0)\\
+   a_0 + a_1x_1^1 + \cdots + a_nx_1^n = f(x_1)\\
+    \; \: \vdots \; + \quad \vdots \; \: + \ddots + \quad \vdots \quad = \quad \vdots \\
+   a_0 + a_1x_n^1 + \cdots + a_nx_n^n = f(x_n)
+\end{cases}
+
+Encontrando os coeficientes $a_i$, encontra-se também a função $g$.
+
+Na representação matricial desse sistema na forma $Ax = B$:
+
+\begin{gather}
+
+\begin{bmatrix}
+   1 & x_0 & \cdots & x_0^n \\
+   1 & x_1 & \cdots & x_1^n \\
+    \vdots & \vdots & \ddots & \vdots \\
+   1 & x_n & \cdots & x_n^n
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+  a_0\\
+  a_1\\
+  \vdots\\
+  a_n\\
+\end{bmatrix}
+ =
+\begin{bmatrix}
+  f(x_0)\\
+  f(x_1)\\
+  \vdots\\
+  f(x_n)\\
+\end{bmatrix}
+
+\end{gather}
+
+A matriz $A$ é uma /matriz de Vandermonde/, que *possui solução única*, ou seja, existe um único polinômio $p_n(x)$ que gera os valores dados por $f(x_1)$.
+
+Abaixo é possível verificar uma implementação simples do método de interpolação polinomial utilizando matriz de Vandermonde. O problema consiste em gerar as matrizes $A$ e $B$ do sistema linear com base nos valores de $x_i$ e $f(x_i)$ para então calcular os coeficientes $a_i$ do polinômio $p_n(x)$.
+
+#+begin_src python :results output
+  import numpy as np
+
+
+  def vandermonde(x, fx):
+      n = len(x)
+      A = np.empty((n, n))
+      B = np.empty((n))
+
+      for i in range(0, n):
+          A[i, 0] = 1
+
+          for j in range(1, n):
+              A[i, j] = A[i, j - 1] * x[i]
+
+          B[i] = fx[i]
+
+      return A, B
+
+
+  # x = [0, 1, 2, 3]
+  # fx = [1, 1, 2, 6]
+  x = [-6, 6]
+  fx = [9, 7]
+  A, B = vandermonde(x, fx)
+  x = np.linalg.solve(A, fx)
+
+  print(x)
+#+end_src
+
+#+RESULTS:
+: [ 8.         -0.16666667]
+
+** Forma de Lagrange
+A forma de Lagrange nos permite obter o polinômio que interpola a função $f$ sem passar pelo processo de resolução de um sistema linear. O método consiste em obter um *conjunto de polinômios* chamados /polinômios de Lagrange/, definidos por:
+
+$$L_k(x) = \prod_{j \neq k}{\frac{x-x_j}{x_k - x_j}}$$
+
+Esses polinômios têm a propriedade de valerem $1$ para $x_k$ e $0$ para todos os outros $x_l$. Obtidos os polinômios de Lagrange, o polinômio que interpola $f$ é definido por:
+
+$$p_n(x) = \sum_{k=0}^n{f(x_k) L_k(x)}$$
+
+Segue abaixo uma implementação da forma de Lagrange que retorna o valor de um $x$ qualquer dentro do intervalo da função $f$ dados os pontos e valores correspondentes de $f$.
+
+#+begin_src python :results output
+  import numpy as np
+
+
+  def lagrange(x, xs, fx):
+      n = len(xs) - 1 # Grau do polinômio
+      sum = 0
+
+      for k in range(0, n + 1):
+          prod = 1
+
+          for j in range(0, n + 1):
+              if j != k:
+                  prod = prod * (x - xs[j]) / (xs[k] - xs[j])
+
+          sum = sum + (prod * fx[k])
+
+      return sum
+
+
+  x = 1.5
+  xs = [-1, 0, 2]
+  fx = [4, 1, -1]
+
+  print(lagrange(x, xs, fx))
+#+end_src
+
+#+RESULTS:
+: -1.0
 
 * Aproximação de funções
 * Integração numérica de funções
