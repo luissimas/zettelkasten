@@ -108,7 +108,7 @@ O desenvolvimento de uma aplicação de banco de dados é uma tarefa que envolve
 
 #+caption: As principais fases do projeto de banco de dados
 #+attr_org: :width 500
-[[file:~/vault/Attachments/BD/fasesprojetodebancodedados.png]]
+[[file:../Attachments/BD/fasesprojetodebancodedados.png]]
 
 O levantamento de requisitos tem como objetivo entender e estruturas as necessidades dos usuários do sistema, resultando em *requisitos de dados* e *requisitos funcionais*, que especificam as entidades envolvidas no sistema e as operações (transações) que serão aplicadas a essas entidades.
 
@@ -135,7 +135,7 @@ Entidade normalmente precisam ser identificadas de alguma forma, para isso exist
 
 #+caption: Uma representação de carros através de um diagrama ER.
 #+attr_org: :width 500
-[[file:~/vault/Attachments/BD/dercarroexemplo.png]]
+[[file:../Attachments/BD/dercarroexemplo.png]]
 
 *** Relacionamentos
 As entidades de um banco de dados geralmente possuem algum tipo de relacionamento entre si. Um *tipo de relacionamento* define um conjunto de associações entre as entidades de determinados tipos. De forma semelhante à das entidades, um *conjunto de relacionamentos* é um conjunto de *instâncias de relacionamento*, nos quais entidades em particular são associadas a outras entidades.
@@ -158,7 +158,7 @@ Note que uma entidade-membro da subclasse representa a *mesma entidade* de algum
 
 #+caption: Exemplo da representação de uma superclasse FUNCIONARIO e suas possíveis subclasses
 #+attr_org: :width 600
-[[file:~/vault/Attachments/BD/eersubclasses.png]]
+[[file:../Attachments/BD/eersubclasses.png]]
 
 Vale destacar que uma subclasse deve *herdar* todos os atributos e tipos de relacionamentos da superclasse. Apesar disso, uma subclasse pode definir atributos e relacionamentos específicos além dos herdados da superclasse.
 
@@ -169,7 +169,7 @@ A *especialização* é o processo de *derivar subclasses* de uma superclasse. A
 
 #+caption: Especialização da superclasse FUNCIONARIO definida pelo atributo Tipo_emprego
 #+attr_org: :width 600
-[[file:~/vault/Attachments/BD/eerespecializacaoatributo.png]]
+[[file:../Attachments/BD/eerespecializacaoatributo.png]]
 
 Quando não há nenhuma condição para determinar os membros de uma subclasse, diz-se que esta é *definida pelo usuário*. Dessa forma, cabe aos usuários do banco de dados determinar manualmente a subclasse no momento da inserção.
 
@@ -182,7 +182,7 @@ Em determinados casos pode ser necessário representar uma *coleção de entidad
 
 #+caption: Modelagem de duas categorias: PROPRIETARIO e VEICULO_REGISTRADO
 #+attr_org: :width 500
-[[file:~/vault/Attachments/BD/eercategoria.png]]
+[[file:../Attachments/BD/eercategoria.png]]
 
 No exemplo acima, uma entidade membro de =PROPRIETARIO= deve existir em *apenas uma* das superclasses, ou seja, um proprietário é uma pessoa *ou* um banco *ou* uma empresa.
 
@@ -193,7 +193,7 @@ No modelo de dados relacional o banco de dados é representado como uma *coleç�
 
 #+caption: Um exemplo de relação
 #+attr_org: :width 800
-[[file:~/vault/Attachments/BD/relacaoaluno.png]]
+[[file:../Attachments/BD/relacaoaluno.png]]
 
 Nessa representação, cada *linha* da tabela *corresponde* a uma *tupla* na relação, e *cada relação representa uma entidade* aluno em particular. Os cabeçalhos da tabela representam os atributos da relação, indicando como interpretar os valores de cada coluna.
 

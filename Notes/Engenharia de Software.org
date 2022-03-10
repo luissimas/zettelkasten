@@ -85,3 +85,13 @@ Um MCU geralmente é composto por dois elementos:
 
 - Um *diagrama de casos de uso* (geralmente modelado em /UML/) fornece uma visão geral e de alto nível do sistema e suas funcionalidades.
 - Uma *descrição do caso de uso* especifica e detalha de maneira textual cada caso de uso do sistema.
+
+* Diagrama de sequência de sistema
+O diagrama de sequência de sistema descreve, em alto nível, os principais *eventos que ocorrem em um caso de uso*. A ideia é descrever como se dá a interação entre os atores e o sistema em cada funcionalidade especificada como caso de uso. Esse tipo de diagrama basicamente apresenta as informações detalhas na descrição textual de um caso de uso de uma forma visual.
+
+#+caption: Principais elementos de um diagrama de sequência de sistema.
+#+attr_org: :width 500
+[[file:~/dox/vault/Attachments/ES/DSS.png]]
+
+* Modelo de classes de domínio
+Um *diagrama de classes* representa a estrutura do sistema em termos de classes, explicitando as relações e interações entre as mesmas. Esse tipo de diagrama é fortemente baseado em noções de orientação a objetos, sendo possível descrever entidades, atributos e comportamentos em termos de classes e seus componentes.
