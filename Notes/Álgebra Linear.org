@@ -219,3 +219,31 @@ A partir dessas combinações, é possível obter uma matriz de dimensão $m \ti
   \end{bmatrix}
 
 \end{gather}
+
+* Autovalores e Autovetores
+Dado um espaço vetorial $V$ e um operador linear $T: V \to V$, se existirem $u \in V$, $u \neq 0$ e $\lambda \in \mathbb{R}$  tais que:
+
+$$T(u) = \lambda u$$
+
+então $\lambda$ é um *autovalor* de $T$, e $u$ é um *autovetor* de $T$ associado ao autovalor $\lambda$. Note que se $u$ é um autovetor associado a $\lambda$, então qualquer vetor paralelo a $u$ também é um autovetor associado a $\lambda$.
+
+O conjunto $V_{\lambda}$ de todos os vetores $u \in V$ tais que $T(u) = \lambda u$, $\lambda \in \mathbb{R}$, é um subespaço vetorial de $V$, e é chamado *auto-espaço* associado ao autovalor $\lambda$.
+
+** Autovalores e Autovetores de Matrizes
+Tomando uma transformação linear $T$ associada à matriz $A_{n\times n}$, é possível determinar os *autovalores da matriz* $A$ a partir da busca por um escalar $\lambda \in \mathbb{R}$ e um vetor não nulo $u$ tais que:
+
+$$A u = \lambda u$$
+
+Manipulando a equação matricial, é possível obter a equação equivalente:
+
+$$(A - \lambda I)u = 0$$
+
+Note que esta equação representa um sistema linear homogêneo. Para que esse sistema admita soluções não triviais (pois os autovetores devem ser diferentes do vetor nulo), o *determinante* da matriz dos coeficientes $A-\lambda I$ deve ser igual a $0$. Ao calcular o determinante, obtém-se um *polinômio* de grau $n$ em $\lambda$ cujas *raízes são os autovalores* da matriz. A partir disso, para obter um autovetor associado a um autovalor $\lambda$ basta substituir o valor de $\lambda$ na equação matricial do sistema linear homogêneo.
+
+O polinômio $P$ de grau $n$ em $\lambda$ obtido através do cálculo de $\det(A - \lambda I)$ é um chamado *polinômio característico* de $A$.
+
+A equação $P(\lambda) = 0$ é chamada *equação característica* de $A$.
+
+Chamamos de *multiplicidade algébrica* de um autovalor $\lambda_1$ a quantidade de vezes que ele aparece como raiz do polinômio característico $P$.
+
+Chamamos de *multiplicidade geométrica* de um autovalor $\lambda_1$ a dimensão do auto-espaço associado a ele.
