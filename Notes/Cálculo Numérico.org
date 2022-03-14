@@ -537,5 +537,103 @@ Segue abaixo uma implementação da forma de Lagrange que retorna o valor de um 
 : -1.0
 
 * Aproximação de funções
+Muitas vezes é possível obter pontos de dados através de resultados experimentais, o objetivo da aproximação de funções é relacionar duas ou mais variáveis através de uma função com base nos pontos de dados já conhecidos. Diversos métodos podem ser empregados para a aproximação de funções, alguns deles são descritos a seguir.
+
+** Método dos Mínimos Quadrados
+O Método dos Mínimos Quadrados consiste em, dado um *conjunto* de $n$ *pontos* $\{(x_0, f(x_0)), (x_1, f(x_1)), \dots, (x_{n-1}, f(x_{n-1}))\}$, *determinar uma função* $g(x)$ que *melhor se aproxime* de $f$.
+
+O problema de quadrados mínimos lineares discreto de duas variáveis consiste em, dadas duas funções $g_1(x)$ e $g_2(x)$, *determinar duas constantes* reais $a_1$ e $a_2$ tais que a função $\varphi(x) = a_1g_1(x) + a_2g_2(x)$ esteja o mais próximo possível dos pontos conhecidos. Naturalmente, para determinar o quão próximas são as aproximações é necessário definir o *erro*, que pode ser definido como $e(x_i) = \varphi(x_i) - f(x_i)$. Dessa forma, é possível transformar o problema em um problema de otimização da forma:
+
+$$\min E(a_1, a_2) = \min \sum_{i=0}^{n-1}|e(x_i)|^2 = \min \sum_{i=0}^{n-1}|\varphi(x_i) - f(x_i)|^2$$
+
+Resolvendo esse problema de otimização, obtém-se o seguinte sistema linear, que permite encontrar os valores das constantes $a_1$ e $a_2$ que minimizam o erro da estimativa para a função $f$:
+
+\begin{cases}
+\displaystyle \left(\sum_{i=0}^{n-1}g_1(x_i)^2\right)a_1 + \left(\sum_{i=0}^{n-1}g_1(x_i)g_2(x_i)\right)a_2 = \sum_{i=0}^{n-1}g_1(x_i)f(x_i)\\
+\displaystyle \left(\sum_{i=0}^{n-1}g_1(x_i)g_2(x_i)\right)a_1 + \left(\sum_{i=0}^{n-1}g_2(x_i)^2\right)a_2 = \sum_{i=0}^{n-1}g_2(x_i)f(x_i)\\
+\end{cases}
+
+Esse método pode ser facilmente implementado da seguinte forma:
+
+#+begin_src python :results output
+  import numpy as np
+
+  x = [-0.6975, -0.6762, 0.0176, 0.4512, 0.7559]
+  fx = [2.0840, 2.0330, 0.8472, 0.6773, 0.4318]
+
+
+  def g1(x):
+      return 1
+      # return np.sin(x)
+
+
+  def g2(x):
+      return np.exp(-x)
+      # return np.cos(x)
+
+
+  def a11(x):
+      n = 0
+
+      for i in range(len(x)):
+          n = n + (g1(x[i]) ** 2)
+
+      return n
+
+
+  def a12(x):
+      n = 0
+
+      for i in range(len(x)):
+          n = n + (g1(x[i]) * g2(x[i]))
+
+      return n
+
+
+  def a22(x):
+      n = 0
+
+      for i in range(len(x)):
+          n = n + (g2(x[i]) ** 2)
+
+      return n
+
+
+  def y1(x, fx):
+      n = 0
+
+      for i in range(len(x)):
+          n = n + (g1(x[i]) * fx[i])
+
+      return n
+
+
+  def y2(x, fx):
+      n = 0
+
+      for i in range(len(x)):
+          n = n + (g2(x[i]) * fx[i])
+
+      return n
+
+
+  A = [[a11(x), a12(x)], [a12(x), a22(x)]]
+  b = [y1(x, fx), y2(x, fx)]
+
+  print("A = ", A)
+  print("b = ", b)
+
+  result = np.linalg.solve(A, b)
+
+  print("a1 = ", result[0])
+  print("a2 = ", result[1])
+#+end_src
+
+#+RESULTS:
+: A =  [[5, 6.064121071226309], [6.064121071226309, 9.493189117566613]]
+: b =  [6.0733, 9.650390822685234]
+: a1 =  -0.08100654548009947
+: a2 =  1.0683053077781681
+
 * Integração numérica de funções
 * Resolução de sistemas de equações diferenciais
