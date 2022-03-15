@@ -197,3 +197,8 @@ O paradigma de aprendizado supervisionado é utilizado principalmente em problem
 Problemas comuns que utilizam aprendizado não supervisionado são problemas de *associação e visualização de dados* em um grupo. Esses algoritmos permitem, por exemplo, fornecer informações sobre quais tipos de produtos são frequentemente comprados juntos, ou quais perfis de consumidor são mais propensos a comprarem determinada categoria de produto.
 
 O termo "não supervisionado" deriva do fato de que não há algum agente externo, nem há uma saída esperada e conhecida para um determinado conjunto de dados de treinamento. A ideia desse tipo de algoritmo é explorar e derivar informações úteis sobre um conjunto de dados, não generalizar hipóteses para predições com novos dados.
+
+** Aprendizado por reforço
+O aprendizado por reforço se baseia no *feedback* positivo ou negativo ao modelo dependendo da ação escolhida pelo mesmo. A ideia é que o modelo aprenda através das próprias experiências positivas e negativas.
+
+Problemas comuns nessa área geralmente envolvem tomada de decisões, jogos, navegação, etc.
