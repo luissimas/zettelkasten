@@ -166,3 +166,34 @@ No campo da lógica matemática existem diversas lógicas específicas, com part
 - A *completeza* de um algoritmo de inferência é uma propriedade que indica se o dado algoritmo é capaz de derivar qualquer sentença possível dentro da lógica em questão.
 
 * Aprendizado de Máquina
+O aprendizado de máquina é a área da computação que estuda técnicas que permitem que sistemas computacionais "aprendam" a realizar tarefas com base em dados prévios sobre o problema, sem serem explicitamente programados para a tarefa.
+
+A grande maioria das estratégias de aprendizado de máquina realizam o chamado *aprendizado indutivo*, que se baseia no processo de *indução* para derivar conclusões genéricas sobre um conjunto particular de conhecimento e observações empíricas. A ideia básica é apresentar uma série de exemplos a um algoritmo, que fará o processo de indução para, a partir os exemplos e dados de situações específicas, obter *hipóteses* capazes de inferir conclusões sobre novos dados.
+
+Todo algoritmo de aprendizado de máquina possui algum *viés*, isto é, a tendência a privilegiar uma hipótese ou conjunto de hipóteses no processo de generalização. O viés pode ser resultado tanto da *representação* das hipóteses pelo algoritmo, que define e restringe o espaço de hipóteses possíveis, quanto da própria busca e os métodos utilizados para considerar uma hipótese melhor do que a outra. Vale destacar que o viés é essencial para restringir o espaço de hipóteses possíveis e de fato encontrar uma generalização. Sem viés não seria possível obter nenhuma generalização a partir de dados.
+
+É necessário notar a relação da variância e do viés com relação à capacidade de generalização de um algoritmo. Caso o viés seja muito fraco, há a possibilidade de *underfitting*, ou seja, o modelo gerado pelo algoritmo é tão genérico que é incapaz de fazer qualquer inferência, mesmo com os dados usados para o treinamento. O caso contrário seria o de um viés muito forte, situação na qual é possível observar o *overfitting*, ou seja, o modelo se adéqua tanto aos dados de treinamento que se especializa nos dados fornecidos para o treino, sendo incapaz de generalizar e inferir conclusões sobre novos conjuntos de dados.
+
+#+caption: Visualização de situações de underfitting e overfitting
+#+attr_org: :width 700
+[[file:~/dox/vault/Attachments/IA/overfittingunderfitting.png]]
+
+Os algoritmos de aprendizado de máquina podem ser aplicados na resolução dos mais diversos problemas. Por essa razão há uma grande *variedade de algoritmos* especializados em classes específicas de problemas. Geralmente a *classificação* dos algoritmos é dada de acordo com o *tipo de tarefa* a ser realizada.
+
+#+caption: Classificações de aprendizado de máquina
+#+attr_org: :width 700
+[[file:~/dox/vault/Attachments/IA/mltypes.png]]
+
+** Aprendizado supervisionado
+O aprendizado supervisionado é um paradigma de aprendizado aplicado principalmente em problemas de classificação e regressão. Em ambos os tipos de problemas são fornecidos conjuntos de dados de treinamento com diversos atributos de entrada e um atributo de saída. A ideia é que o algoritmo gere um modelo capaz de, dado um novo conjunto de atributos de entrada diferente daqueles utilizados para o treinamento, produza o atributo de saída esperado. O conceito de *aproximação de funções* é muito relacionado a esse paradigma de aprendizado.
+
+Problemas de *classificação* geralmente envolvem a associação de atributos de entrada a um atributo de saída discreto (geralmente uma classe ou tipo). Problemas desse tipo envolvem a identificação de fraudes, classificação de imagem, diagnósticos etc. Problemas de *regressão* partem do mesmo princípio, entretanto a ideia é associar atributos de entrada a um atributo de saída contínuo (um valor numérico). Problemas desse tipo envolvem predições de mercado financeiro, estimativa de funções etc.
+
+O termo "supervisionado" se origina do pressuposto que há algum *agente externo* que conhece a *saída esperada* para cada exemplo no conjunto de dados de treinamento, portanto é possível avaliar a capacidade de predição dos modelos gerados.
+
+** Aprendizado não supervisionado
+O paradigma de aprendizado supervisionado é utilizado principalmente em problemas de agrupamento, associação e sumarização de dados. Esses tipos de algoritmos não buscam inferir conclusões a partir de novos conjuntos de dados, mas sim *descrever*, *aprofundar* e obter informações sobre um *conjunto de dados específico*.
+
+Problemas comuns que utilizam aprendizado não supervisionado são problemas de *associação e visualização de dados* em um grupo. Esses algoritmos permitem, por exemplo, fornecer informações sobre quais tipos de produtos são frequentemente comprados juntos, ou quais perfis de consumidor são mais propensos a comprarem determinada categoria de produto.
+
+O termo "não supervisionado" deriva do fato de que não há algum agente externo, nem há uma saída esperada e conhecida para um determinado conjunto de dados de treinamento. A ideia desse tipo de algoritmo é explorar e derivar informações úteis sobre um conjunto de dados, não generalizar hipóteses para predições com novos dados.
