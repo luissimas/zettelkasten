@@ -146,5 +146,79 @@ Note que nos índices secundários pode haver *repetição* das chaves secundár
 - Associar uma *lista encadeada* das chaves primárias (ou posições dos registros no arquivo principal) a cada chave secundária. A implementação dessa lista em arquivos pode ser feita da seguinte maneira: cada registro no índice secundário armazena a chave secundária e o /RRN/ do primeiro registro associado à chave secundária na lista encadeada; cada registro da lista invertida armazena a chave primária, o /byte offset/ do registro no arquivo principal, e o /RRN/ do próximo elemento da lista encadeada. Essa estratégia torna a organização do índice secundário mais simples e eficiente, porém não garante que as chaves primárias associadas a uma mesma chave secundária estejam adjacentes no disco, potencialmente prejudicando o desempenho da busca.
 
 * Árvores B
+As árvores B são estruturas de armazenamento em memória secundária que tem por objetivo melhorar a eficiência das operações em arquivos.
+
+Árvores B são sempre *balanceadas*, afim de garantir um melhor desempenho. Note que, como a árvore é balanceada, todos os nós folha estão no mesmo nível da árvore. Cada nó tem o *tamanho de uma página*, isso garante que é necessário um único acesso a disco para carregar um nó da árvore na memória principal.
+
+Além disso, as árvores B devem, por definição, manter as seguintes propriedades:
+
+- Cada nó armazena $n$ chaves $ch_1, ch_2, \dots, ch_n$ sempre em *ordem crescente*, tal que $ch_1 \leq ch_2 \leq \dots \leq ch_n$.
+- Cada nó possui um atributo que indica se o dado nó é um nó *interno ou uma folha* da árvore.
+- Cada nó interno possui $n+1$ ponteiros para os *nós filhos*.
+- As chaves $ch_i$ separam os *intervalos de chaves* armazenados em cada subárvore. Dessa forma, um filho entre as chaves $ch_i$ e $ch_{i+1}$ armazena as chaves no intervalo $]ch_i, ch_{i+1}[$.
+- Todos os nós folha estão no *mesmo nível* da árvore.
+- Uma árvore B é definida por uma *ordem mínima* $t \geq 2$, cujo valor depende do tamanho da página de disco.
+- Todo nó, exceto a raiz, deve conter *no mínimo* $t-1$ chaves, e portanto deve ter no mínimo $t$ filhos.
+- Todo nó pode conter *no máximo* $2t-1$ chaves, e portanto pode ter no máximo $2t$ filhos.
+
+#+caption: Representação de uma árvore B
+#+attr_org: :width 500
+[[file:~/dox/vault/Attachments/ORI/BTree.png]]
+
+O número de *acessos a disco* feito pelas operações de uma árvore B é *proporcional à altura da árvore*. Dessa forma, dada uma árvore B com $n$ chaves, altura $h$ e ordem mínima $t \geq 2$, então:
+
+$$h \leq \log_t{\frac{n+1}{2}}$$
+
+** Busca
+A busca em árvores B se dá de maneira muito similar à busca em árvores binárias. A principal diferença é que, enquanto a busca em uma árvore binária consiste em tomar uma decisão binária em cada nó da árvore (pois há apenas dois filhos para se escolher), a busca em uma árvore B consiste em uma *decisão entre os* $n + 1$ *nós filhos de cada nó*.
+
+O algoritmo de busca pode ser descrito na forma de pseudocódigo como a seguir:
+
+#+begin_example
+b-tree-search(root, key)
+  i = 1
+
+  while i <= root.n and key > root.keys[i]
+    i = i + 1
+  if i <= root.n and key = root.keys[i] then
+    return (root, i)
+  if root.leaf then
+    return NIL
+  else
+    read(root.children[i])
+    return b-tree-search(root.children[i])
+#+end_example
+
+A busca de uma chave =key= em uma subárvore =root= consiste em primeiramente fazer uma *busca entre as chaves do nó atual*. Caso a chave seja encontrada o ponteiro para o nó e o índice da chave no nó são retornados. Caso a busca não encontre a chave no nó, é necessário decidir para qual filho (caso o nó não seja um nó folha, pois nesse caso a chave não está presente na árvore e a busca retorna =NIL=) a busca prosseguirá, o que pode ser feito encontrando o intervalo entre duas chaves no qual a chave a ser buscada está contida. Note que, antes de continuar a busca para o próximo nó, é necessário ler o nó do disco.
+
+O número de páginas de disco acessadas pela busca é proporcional à altura da árvore, ou seja, $O(h) = O(\log_t{n})$. Note que a busca dentro do nó tem uma complexidade $O(t)$ no caso da busca sequencial, portanto a complexidade total do algoritmo é dada por $O(th) = O(t\log_t{n})$.
+
+** Criação
+A criação de uma árvore B vazia é tão simples quanto alocar um novo nó, setar os parâmetros corretamente e escrever o nó na memória secundária.
+
+#+begin_example
+b-tree-create(tree)
+  x = alloc-node()
+  x.leaf = TRUE
+  x.n = 0
+
+  write(x)
+
+  tree.root = x
+#+end_example
+
+Note que essa operação pode ser realizada em tempo constante $O(1)$ tanto em acessos a disco quanto em complexidade do algoritmo.
+
+** Inserção
+A inserção de uma nova chave em uma árvore B é um processo complexo, que envolve não só adicionar a nova chave em um nó, mas fazer isso mantendo a árvore balanceada.
+
+A inserção não deve criar um novo nó folha, pois isso tornaria a árvore desbalanceada. Tendo isso em vista, as *chaves* são sempre *inseridas nos nós folha existentes*. Entretanto, quando um nó folha está cheio não é possível adicionar mais chaves a ele, nesse caso é necessário *dividir* o nó para então adicionar a chave em um dos nós resultantes da divisão.
+
+Dado um nó cheio (com $2t - 1$ chaves), é possível dividi-lo em sua *chave mediana* $ch_t$ em dois nós com $t-1$ chaves cada. A chave mediana é *movida para o nó pai*, identificando o ponto de divisão entre os dois novos nós. Caso o nó pai esteja também cheio, é necessário propagar a operação para o nó pai. Note que o processo de divisão pode se propagar até a raiz da árvore, o que pode tornar necessário percorrer a árvore duas vezes para uma inserção: uma primeira vez para encontrar o nó folha a inserir a chave, e uma segunda vez para dividir os nós pais até a raiz.
+
+Para garantir que todas as *inserções percorrem a árvore apenas uma vez*, é possível dividir os nós cheios durante a busca pelo nó folha no qual a chave será inserida. Dessa forma, todas as operações de divisão de nós podem assumir que o nó pai não está cheio, pois *sempre que um nó cheio é visitado* no processo de inserção *ele é dividido*.
+
+** Remoção
+
 * Hashing
 * Compressão
