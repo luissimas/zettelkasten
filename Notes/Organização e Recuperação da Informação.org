@@ -214,9 +214,96 @@ A inserção de uma nova chave em uma árvore B é um processo complexo, que env
 
 A inserção não deve criar um novo nó folha, pois isso tornaria a árvore desbalanceada. Tendo isso em vista, as *chaves* são sempre *inseridas nos nós folha existentes*. Entretanto, quando um nó folha está cheio não é possível adicionar mais chaves a ele, nesse caso é necessário *dividir* o nó para então adicionar a chave em um dos nós resultantes da divisão.
 
+Note que, para manter a árvore balanceada, uma árvore B só cresce em altura pela raiz, nunca pelas folhas. A única maneira de *aumentar a altura* de uma árvore B é *dividindo* sua *raiz* e adicionando um novo nó pai para a raiz.
+
 Dado um nó cheio (com $2t - 1$ chaves), é possível dividi-lo em sua *chave mediana* $ch_t$ em dois nós com $t-1$ chaves cada. A chave mediana é *movida para o nó pai*, identificando o ponto de divisão entre os dois novos nós. Caso o nó pai esteja também cheio, é necessário propagar a operação para o nó pai. Note que o processo de divisão pode se propagar até a raiz da árvore, o que pode tornar necessário percorrer a árvore duas vezes para uma inserção: uma primeira vez para encontrar o nó folha a inserir a chave, e uma segunda vez para dividir os nós pais até a raiz.
 
 Para garantir que todas as *inserções percorrem a árvore apenas uma vez*, é possível dividir os nós cheios durante a busca pelo nó folha no qual a chave será inserida. Dessa forma, todas as operações de divisão de nós podem assumir que o nó pai não está cheio, pois *sempre que um nó cheio é visitado* no processo de inserção *ele é dividido*.
+
+#+begin_example
+b-tree-split(parent, node, i)
+  newnode = alloc-node()
+  newnode.leaf = node.leaf
+  newnode.n = t - 1
+
+  for j = 1 to t - 1 do
+    newnode.keys[j] = node.keys[j + t]
+
+  if not node.leaf then
+    for j = 1 to t do
+      newnode.children[j] = node.children[j + t]
+
+  node.n = t - 1
+
+  for j = parent.n + 1 downto t do
+    parent.children[j + 1] = parent.children[j]
+
+  parent.children[i + 1] = newnode
+
+  for j = parent.n downto i do
+    parent.keys[j + 1] = parent.keys[j]
+
+  parent.keys[i] = node.keys[t]
+  parent.n = parent.n + 1
+
+  write(node)
+  write(newnode)
+  write(parent)
+
+#+end_example
+
+Primeiramente definimos um algoritmo para dividir um nó. São necessários três parâmetros, o nó pai do nó sendo dividido =parent=, o nó a ser dividido =node= e o índice do nó a ser dividido na lista de nós filhos do nó pai. A ideia do algoritmo é construir um novo nó =newnode= com metade das chaves de =node=, adicionar a chave mediana na lista de chaves do nó pai =parent= para ser a chave que divide os nós =node= e =newnode= na lista de filhos, e então adicionar o novo nó à lista de filhos do nó pai.
+
+Definido o procedimento de divisão de um nó, podemos definir a inserção de fato:
+
+#+begin_example
+b-tree-insert(tree, key)
+  root = T.root
+
+  if root.n = 2t - 1 then
+    newroot = alloc-node()
+    newroot.leaf = FALSE
+    newroot.n = 0
+    newroot.children[1] = root
+
+    T.root = newroot
+
+    b-tree-split(newroot, root, 1)
+    b-tree-insert-nonfull(newroot, key)
+  else
+    b-tree-insert-nonfull(root, key)
+#+end_example
+
+O algoritmo principal de inserção recebe como parâmetros a árvore =tree= e a chave =key= a ser inserida. Note que as inserções sempre começam a busca pela raiz da árvore, portanto é necessário lidar com o caso particular de a raiz da árvore estar cheia, e nesse caso ela deve ser dividida.
+
+Agora é necessário definir o algoritmo =b-tree-insert-nonfull=, que adiciona chaves em uma subárvore presumindo que o nó pai nunca está cheio.
+
+#+begin_example
+b-tree-insert-nonfull(node, key)
+  i = node.n
+
+  if node.leaf then
+    while i >= 1 and key < node.keys[i] do
+      node.keys[i + 1] = node.keys[i]
+      i = i - 1
+
+    node.keys[i + 1] = key
+    node.n = node.n + 1
+  else
+    while i >= 1 and key < node.keys[i] do
+      i = i - 1
+    i = i + 1
+    read(node.children[i])
+
+    if(node.children[i].n = 2t - 1) then
+      b-tree-split-child(node, node.children[i], i)
+        if key > node.keys[i] then
+          i = i + 1
+
+    b-tree-insert-nonfull(node.children[i], key)
+#+end_example
+
+Caso o nó atual seja uma folha, então a chave deve ser inserida nesse mesmo nó. Caso contrário, é necessário determinar qual nó filho de =node= será escolhido para continuar a busca. O nó escolhido deve então ser lido da memória secundária e então, caso ele esteja cheio, dividido. Após isso, o algoritmo continua a busca recursivamente no nó filho.
 
 ** Remoção
 
