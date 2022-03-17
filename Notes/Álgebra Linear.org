@@ -229,6 +229,10 @@ então $\lambda$ é um *autovalor* de $T$, e $u$ é um *autovetor* de $T$ associ
 
 O conjunto $V_{\lambda}$ de todos os vetores $u \in V$ tais que $T(u) = \lambda u$, $\lambda \in \mathbb{R}$, é um subespaço vetorial de $V$, e é chamado *auto-espaço* associado ao autovalor $\lambda$.
 
+Dado um espaço vetorial $V$ e um operador linear $T: V \to V$, autovetores associados a autovalores diferentes de $T$  formam um conjunto *linearmente independente*.
+
+Se o espaço vetorial $V$ for de dimensão $n$ e $T: V \to V$ for um operador linear que possui $n$ autovalores distintos, então $V$ possui uma *base* formada por $n$ *autovetores* de $T$.
+
 ** Autovalores e Autovetores de Matrizes
 Tomando uma transformação linear $T$ associada à matriz $A_{n\times n}$, é possível determinar os *autovalores da matriz* $A$ a partir da busca por um escalar $\lambda \in \mathbb{R}$ e um vetor não nulo $u$ tais que:
 
@@ -247,3 +251,57 @@ A equação $P(\lambda) = 0$ é chamada *equação característica* de $A$.
 Chamamos de *multiplicidade algébrica* de um autovalor $\lambda_1$ a quantidade de vezes que ele aparece como raiz do polinômio característico $P$.
 
 Chamamos de *multiplicidade geométrica* de um autovalor $\lambda_1$ a dimensão do auto-espaço associado a ele.
+
+*** Polinômio de matrizes
+Dado um polinômio $P$ de grau $n$ definido por:
+
+$$P(t) = a_0t^n + a_1t^{n-1} + \dots + a_{n-1} t + a_n$$
+
+Se $A$ é uma matriz quadrada real, então o polinômio
+
+$$P(A) = a_0A^n + a_1A^{n-1} + \doAs + a_{n-1} A + a_n I$$
+
+é o *polinômio da matriz* $A$.
+
+** Diagonalização
+Dado um operador linear $T: V \to V$, dizemos que $T$ é um *operador diagonalizável* se existir uma base de $V$ formada por autovetores de $T$.
+
+*** Matrizes semelhantes
+Dado um operador linear $T: V \to V$, se $B$ e $B'$ são bases de $V$ e $[T]_B^B$ e $[T]_{B'}^{B'}$ são matrizes que representam o operador nas bases $B$ e $B'$ respectivamente, então
+
+$$[T]_{B'}^{B'} = Q^{-1}[T]_B^BQ$$
+
+em que $Q = [A]_B^{B'}$ é a matriz de mudança da base $B'$ para a base $B$.
+
+Nesse caso, $[T]_B^B$ e $[T]_{B'}^{B'}$ são chamadas de *matrizes semelhantes*. Portanto, duas matrizes são semelhantes quando definem em $V$ um mesmo operador linear $T$ em duas bases diferentes, ou seja, duas matrizes $[T]_B^B$ e $[T]_{B'}^{B'}$ são semelhantes se existe uma matriz inversível $Q$ tal que:
+
+$$[T]_{B'}^{B'} = Q^{-1}[T]_B^BQ$$
+
+*** Matrizes diagonalizáveis
+Uma matriz quadrada $A_{n \times n}$ é diagonalizável se existe uma matriz inversível $Q_{n \times n}$ tal que $Q^{-1}AQ$ seja diagonal. Diz-se, neste caso, que a matriz $Q$ diagonaliza $A$. Da mesma forma, $A$ é diagonalizável se o operador associado $T_A : R^n \to R^n$ for diagonalizável.
+
+* Espaço Vetorial Euclidiano
+Dado um espaço vetorial $V$, um *produto interno* é qualquer função $f: V \times V \to \mathbb{R}$, indicada por $u \cdot v$ ou $\langle u, v \rangle$, tal que para quaisquer $u, v, w \in V$ e $\alpha \in \mathbb{R}$ os seguintes axiomas sejam verdadeiros:
+
+P_1) $u \cdot v = v \cdot u$
+P_2) $u \cdot (v + w) = u \cdot v + u \cdot w$
+P_3) $(\alpha u) \cdot v= \alpha (u \cdot v)$
+P_4) $u \cdot v = v \cdot u$
+
+Um espaço vetorial real de dimensão finita no qual está definido um produto interno é chamado de *espaço vetorial euclidiano*.
+
+Dado um vetor $u \in V$, sendo $V$ um espaço com produto interno $\langle \cdot, \cdot \rangle$, a *norma* (ou comprimento, ou módulo) de $v$, relativamente a este produto interno, é o número real não-negativo denotado por $||v||$, definido por:
+
+$$||v|| = \sqrt{\langle v, v \rangle}$$
+
+Se $||v|| = 1$, então $v$ é chamado *vetor unitário*. Dado um vetor não-nulo $v \in V$, sendo $V$ um espaço euclidiano, o vetor $u$ definido por:
+
+$$u = \frac{1}{||v||}v$$
+
+é unitário.
+
+Dados dois vetores não-nulos $u$ e $v$, o *ângulo* $\theta$ entre os vetores é dado por:
+
+$$\cos{\theta} = \frac{u \cdot v}{||u||||v||}, \quad 0 \leq \theta \leq \pi$$
+
+Dado um espaço vetorial euclidiano $V$, dois vetores $u, v \in V$ são ditos *ortogonais* (denotado por $u \perp v$) se e somente se $u \cdot v = 0$. Da mesma forma, dado um conjunto de vetores $\{u_1, \dots, u_n\} \subset V$ é *ortogonal* se dois quaisquer vetores distintos do conjunto são ortogonais, ou seja, se $u_i \cdot v_j = 0$, $i \neq j$.
