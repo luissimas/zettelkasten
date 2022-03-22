@@ -289,23 +289,27 @@ b-tree-insert-nonfull(node, key)
 
     node.keys[i + 1] = key
     node.n = node.n + 1
+
+    write(node)
   else
     while i >= 1 and key < node.keys[i] do
       i = i - 1
+
     i = i + 1
     read(node.children[i])
 
     if(node.children[i].n = 2t - 1) then
       b-tree-split-child(node, node.children[i], i)
-        if key > node.keys[i] then
-          i = i + 1
+
+      if key > node.keys[i] then
+        i = i + 1
 
     b-tree-insert-nonfull(node.children[i], key)
 #+end_example
 
 Caso o nó atual seja uma folha, então a chave deve ser inserida nesse mesmo nó. Caso contrário, é necessário determinar qual nó filho de =node= será escolhido para continuar a busca. O nó escolhido deve então ser lido da memória secundária e então, caso ele esteja cheio, dividido. Após isso, o algoritmo continua a busca recursivamente no nó filho.
 
-** Remoção
+O número de páginas de disco acessadas na operação de inserção é proporcional à altura da árvore, ou seja, $O(h) = O(\log_t{n})$. Note que a busca dentro do nó tem uma complexidade $O(t)$ no caso da busca sequencial, portanto a complexidade total do algoritmo é dada por $O(th) = O(t\log_t{n})$.
 
 * Hashing
 * Compressão
