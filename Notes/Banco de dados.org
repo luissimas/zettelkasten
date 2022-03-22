@@ -314,3 +314,29 @@ A operação de produto cartesiano da teoria de conjuntos é estendida facilment
 Dadas duas relações $R$ e $E$, o resultado da operação $R \times E$ é uma nova relação contendo todas as tuplas obtidas concatenando todas as possíveis combinações de tuplas entre as relações $R$ e $E$.
 
 Em SQL, a operação de produto cartesiano pode ser realizada através da cláusula =CROSS JOIN=, ou especificando duas tabelas em uma cláusula =FROM=.
+
+*** =JUNÇÃO=
+A operação de junção nos permite fazer consultas com base nos *relacionamentos* entre as relações. De forma geral, essa operação pode ser especificada como uma operação =PRODUTO CARTESIANO= seguida de uma operação =SELEÇÃO=.
+
+Dadas duas relações $R(A_1, A_2, \dots A_n)$ e $S(B_1, B_2, \dots, B_m)$ a operação de junção é descrita por:
+
+$R \Join_{<condition>}S$
+
+o resultado dessa operação é uma nova relação $Q(A_1, A_2, \dots, A_n, B_1, B_2, \dots, B_m)$, cujas tuplas são a combinação de todas as tuplas de $R$ e $S$ que satisfazem a *condição de junção*.
+
+A operação básica de junção também é chamada de *junção interna* (/inner joins/), pois apenas as tuplas que satisfazem a condição de junção são combinadas e selecionadas, ocasionando uma possível perda de informação, pois não há garantia de que todas as tuplas de uma ou ambas as relações serão selecionadas.
+
+Um conjunto adicional de operações de junção chamadas *junções externas* (/outer joins/) foi especificado para consultas nas quais deseja-se manter todas as tuplas de uma ou ambas as relações envolvidas na operação de junção. Em geral, são definidas três operações de junção externa:
+
+- =JUNÇÃO EXTERNA À ESQUERDA=: Mantém cada tupla na primeira relação.
+- =JUNÇÃO EXTERNA À DIREITA=: Mantém cada tupla na segunda relação.
+- =JUNÇÃO EXTERNA COMPLETA=: Mantém cada tupla em ambas as relações.
+
+Em SQL, a operação de junção interna pode ser realizada especificando condições de junção na cláusula =WHERE=. Já as operações de junção externa fazem parte do padrão SQL2, adicionadas posteriormente à linguagem.
+
+*** =DIVISÃO=
+A operação de divisão fornece uma maneira conveniente de lidar com consultas que envolvem quantificação universal. A ideia é selecionar apenas as tuplas de uma relação que aparecem em combinação com *todas* as tuplas de outra relação.
+
+Sejam $R(Z)$ e $S(X)$ duas relações tais que os atributos de $S$ são um subconjunto dos atributos de $R$, ou seja, $X \subseteq Z$. Consideramos que $Y$ seja o subconjunto de atributos de $R$ que não são atributos de $S$, ou seja, $Y = Z - X$. O resultado da divisão $R \div S$ é uma relação $T(Y)$ que inclui uma tupla $t$ somente se os atributos de $t$ aparecerem em *combinação com todas* as tuplas em $S$.
+
+Em SQL, a operação de divisão geralmente não é implementada diretamente.
