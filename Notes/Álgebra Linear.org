@@ -296,7 +296,7 @@ $$||v|| = \sqrt{\langle v, v \rangle}$$
 
 Se $||v|| = 1$, então $v$ é chamado *vetor unitário*. Dado um vetor não-nulo $v \in V$, sendo $V$ um espaço euclidiano, o vetor $u$ definido por:
 
-$$u = \frac{1}{||v||}v$$
+$$u = \frac{v}{||v||}$$
 
 é unitário.
 
@@ -304,4 +304,23 @@ Dados dois vetores não-nulos $u$ e $v$, o *ângulo* $\theta$ entre os vetores �
 
 $$\cos{\theta} = \frac{u \cdot v}{||u||||v||}, \quad 0 \leq \theta \leq \pi$$
 
-Dado um espaço vetorial euclidiano $V$, dois vetores $u, v \in V$ são ditos *ortogonais* (denotado por $u \perp v$) se e somente se $u \cdot v = 0$. Da mesma forma, dado um conjunto de vetores $\{u_1, \dots, u_n\} \subset V$ é *ortogonal* se dois quaisquer vetores distintos do conjunto são ortogonais, ou seja, se $u_i \cdot v_j = 0$, $i \neq j$.
+Dado um espaço vetorial euclidiano $V$, dois vetores $u, v \in V$ são ditos *ortogonais* (denotado por $u \perp v$) se e somente se $u \cdot v = 0$. Da mesma forma, dado um conjunto de vetores $\{u_1, \dots, u_n\} \subset V$ é *ortogonal* se dois quaisquer vetores distintos do conjunto são ortogonais, ou seja, se $u_i \cdot v_j = 0$, $i \neq j$. Um conjunto ortogonal no qual cada elemento tem norma igual a $1$ é dito um conjunto *ortonormal*.
+
+** Processo de Gram-Schmidt
+Em espaços euclidianos geralmente *bases ortogonais ou ortonormais* *simplificam os cálculos* e tornam a resolução de problemas mais simples nessas bases. O processo de Gram-Schmidt consiste em, dada uma base arbitrária de um espaço vetorial $V$, convertê-la em uma base de $V$ ortogonal ou ortonormal. Esse processo consiste em escrever os elementos da sequência como combinação linear dos elementos anteriores, tomando escalares que tornem todos os vetores da sequência ortogonais dois a dois.
+
+O processo se baseia no fato de que sempre é possível construir, a partir de uma sequência de vetores linearmente independentes $\{u_1, u_2, \dots, u_n\}$, uma sequência ortogonal $\{e_1, e_2, \dots, e_n\}$. Além disso, dada uma sequência ortogonal $\{e_1, e_2, \dots, e_n\}$, para obter-se uma sequência ortonormal $\{e^*_1, e^*_2, \dots, e^*_n\}$ basta normalizar cada vetor:
+
+$$e^*_i = \frac{e_i}{||e_i||}, \quad i = 1, 2, \dots, n$$
+
+Portanto, *todo* espaço euclidiano $n$ dimensional tem uma *base ortogonal* e uma *base ortonormal*.
+
+Dada uma sequência de vetores linearmente independentes $\{u_1, u_2, \dots, u_n\}$, para transformá-la em uma sequência ortogonal $\{e_1, e_2, \dots, e_n\}$, os elementos $e_i$ são escritos como combinação linear de seus predecessores, da seguinte forma:
+
+\begin{aligned}
+  e_1 &= u_1 \\
+  e_2 &= u_2 -\frac{u_2 \cdot e_1}{e_1 \cdot e_1}e_1 \\
+  e_3 &= u_3 -\frac{u_3 \cdot e_1}{e_1 \cdot e_1}e_1 -\frac{u_3 \cdot e_2}{e_2 \cdot e_2}e_2 \\
+  \vdots\\
+  e_i &= u_i -\frac{u_i \cdot e_1}{e_1 \cdot e_1}e_1 -\frac{u_i \cdot e_2}{e_2 \cdot e_2}e_2 - \dots -\frac{u_i \cdot e_{i-1}}{e_{i-1} \cdot e_{i-1}}e_{i-1}
+\end{aligned}
