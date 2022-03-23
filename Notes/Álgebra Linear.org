@@ -324,3 +324,10 @@ Dada uma sequência de vetores linearmente independentes $\{u_1, u_2, \dots, u_n
   \vdots\\
   e_i &= u_i -\frac{u_i \cdot e_1}{e_1 \cdot e_1}e_1 -\frac{u_i \cdot e_2}{e_2 \cdot e_2}e_2 - \dots -\frac{u_i \cdot e_{i-1}}{e_{i-1} \cdot e_{i-1}}e_{i-1}
 \end{aligned}
+
+** Complemento ortogonal
+Dado um espaço vetorial euclidiano $V$ e $W$ um subconjunto não vazio de $V$, ou seja, $W \subset V$, o subconjunto $W^{\perp}$, definido por:
+
+$$W^{\perp} = \{u \in V \mid u \cdot w = 0 \quad \forall w \in W\}$$
+
+é chamado *complemento ortogonal* de $W$. Vale notar que o complemento ortogonal de $W$ é um subespaço vetorial de $V$, mesmo que $W$ não o seja.
