@@ -175,7 +175,7 @@ Seja $T: U \to V$ uma transformação linear. A *imagem de* $T$, denotada por $I
 $$Im(T) = \{v \in V \mid v = T(u) = v, u \in U \}$$
 
 #+attr_org: :width 600
-[[file:~/vault/Attachments/AlgLin/transformacaoimagem.png]]
+[[file:../Attachments/AlgLin/transformacaoimagem.png]]
 
 Note que se $T: U \to V$ é uma transformação linear, então $Im(T)$ é um *subespaço vetorial* de $V$.
 
@@ -185,7 +185,7 @@ Seja $T: U \to V$ uma transformação linear. O *núcleo* de $T$, denotado por $
 $$Ker(T) = \{u \in U \mid T(u) = 0 \in V\}$$
 
 #+attr_org: :width 600
-[[file:~/vault/Attachments/AlgLin/nucleotransformacao.png]]
+[[file:../Attachments/AlgLin/nucleotransformacao.png]]
 
 Note que se $T: U \to V$ é uma transformação linear, então $Ker(T)$ é um *subespaço vetorial* de $V$.
 
