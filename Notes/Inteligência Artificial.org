@@ -227,13 +227,7 @@ $$Ganho(A) = H(S) - HRestante(A)$$
 
 Onde $HRestante$ corresponde a entropia restante. Dado que a escolha de um atributo $A$ que pode assumir $d$ valores distintos divide o conjunto $S$ em $d$ subconjuntos $E_1, E_2, \dots, E_d$, a entropia restante é dada por:
 
-$$\sum_{k=1}^d{\frac{p_k + n_k}{p+n}H(E_k)}$$
-
-no qual:
-
-$$p_k = \frac{n_k}{n}$$
-
-onde $n_k$ corresponde ao número de exemplos da classe $k$ e $n$ corresponde ao número total de exemplos no conjunto de dados.
+$$HRestante(A) = \sum_{k=1}^d{\frac{|E_k|}{|S|}H(E_k)}$$
 
 ** Aprendizado não supervisionado
 O paradigma de aprendizado supervisionado é utilizado principalmente em problemas de agrupamento, associação e sumarização de dados. Esses tipos de algoritmos não buscam inferir conclusões a partir de novos conjuntos de dados, mas sim *descrever*, *aprofundar* e obter informações sobre um *conjunto de dados específico*.
