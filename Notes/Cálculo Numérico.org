@@ -721,5 +721,111 @@ A implementação desse método consiste na construção e resolução deste sis
 : b:  [22.1  0.1  2.8]
 : Coeficientes:  [4.42 0.05 1.4 ]
 
-* Integração numérica de funções
+* COMMENT Integração numérica de funções
+Integrais são ferramentas essenciais para diversas aplicações, entretanto na maioria das vezes não é possível obtê-las. Tendo isso em vista, foram desenvolvidos métodos numéricos para obter estimativas de *integrais definidas* de funções em dados intervalos.
+
+A ideia que fundamenta os algoritmos de integração numérica é a de que é possível escrever uma integral definida em termos da soma de integrais de um *polinômio*. Esse resultado é chamado de *Fórmula de Newton-Cotes*, e fornece a base necessária para a aplicação de alguns dos métodos numéricos de integração.
+
+Dada uma integral definida:
+
+$$\int_{a}^{b}{f(x)}\, dx$$
+
+obtendo-se a interpolação polinomial $p$ de $f$ através de *polinômios de Lagrange* tal que:
+
+$$p_n(x) = \sum_{k=0}^n{f(x_k) L_k(x)}$$
+
+sendo
+
+$$L_k(x) = \prod_{j \neq k}{\frac{x-x_j}{x_k - x_j}}$$
+
+a integral pode ser reescrita como:
+
+$$\int_{a}^{b}{f(x)}\, dx = \sum_{k=0}^n{\left[f(x_k)\int_a^b{L_k(x)}\, dx\right]}$$
+
+Dessa forma, o problema de integração se reduz ao problema de *integrar os polinômios de Lagrange*, cuja solução é muito mais simples.
+
+A partir desses resultados desenvolveram-se dois métodos para a integração numérica de funções. A *diferença entre os métodos* reside no *grau do polinômio* obtido através da interpolação utilizado para aproximar a função.
+
+** Método dos Trapézios
+O método dos trapézios consiste em aproximar a função através de um polinômio de grau $1$ para então obter a área do gráfico da função aproximada.
+
+#+attr_org: :width 200
+[[file:~/dox/vault/Attachments/CN/metodotrapezios.png]]
+
+Dada uma função $f(x)$, é possível aproximar sua integral definida em um intervalo $[a,b]$ através da seguinte definição:
+
+$$\int_{x_0}^{x_1} \, dx \approx  h\frac{f(x_0) + f(x_1)}{2}$$
+
+com $x_0 = a$ e $x_1 = b$.
+
+Vale notar que esse método produz resultados *exatos* caso $f$ seja uma *função linear*. Caso contrário, o limitante superior para o erro da aproximação é dado pela seguinte expressão:
+
+$$|E| \leq \frac{h^3}{12} \max(|f^{(2)}(x)|, \, x \in [a, b])$$
+
+onde $h = b-a$.
+
+O método pode ser implementado em python de uma maneira relativamente simples:
+
+#+begin_src python :results output
+  import numpy as np
+
+
+  def trapezio(i, f):
+      h = i[1] - i[0]
+
+      return h * ((f(i[0]) + f(i[1])) / 2)
+
+
+  i = [0, 2]
+  f = lambda x: np.exp(x)
+
+  print(trapezio(i, f))
+#+end_src
+
+#+RESULTS:
+: 8.38905609893065
+
+** Método de Simpson
+O método de Simpsons consiste em aproximar a função por um polinômio de grau $2$ para então obter a área do gráfico da função aproximada.
+
+#+attr_org: :width 200
+[[file:~/dox/vault/Attachments/CN/metodosimpson.png]]
+
+Dada uma função $f(x)$, é possível aproximar sua integral definida em um intervalo $[a,b]$ através da seguinte definição:
+
+$$\int_{x_0}^{x_2} \, dx \approx \frac{h}{3}(f(x_0) + 4f(x_1) + f(x_2))$$
+
+com $x_0 = a$, $x_1 = \frac{a+b}{2}$, $x_2 = b$.
+
+Vale notar que esse método produz resultados *exatos* caso $f$ seja um *polinômio* de *grau* $3$. Caso contrário, o limitante superior para o erro da aproximação é dado pela seguinte expressão:
+
+$$|E| \leq \frac{h^5}{90} \max(|f^{(4)}(x)| \, x \in [a, b])$$
+
+onde $h = \frac{b-a}{2}$.
+
+O método pode ser implementado em python de uma maneira relativamente simples:
+
+#+begin_src python :results output
+  import numpy as np
+
+
+  def simpsons(i, f):
+      x0 = i[0]
+      x1 = (i[0] + i[1]) / 2
+      x2 = i[1]
+
+      h = (x2 - x0) / 2
+
+      return h / 3 * (f(x0) + 4 * f(x1) + f(x2))
+
+
+  i = [0, 1]
+  f = lambda x: np.exp(-(x ** 2))
+
+  print(simpsons(i, f))
+#+end_src
+
+#+RESULTS:
+: 0.7471804289095104
+
 * Resolução de sistemas de equações diferenciais

@@ -114,7 +114,7 @@ Os *critérios de parada* são definidos de acordo com o problema, mas geralment
 
 #+caption: Fluxo de um algoritmo evolutivo
 #+attr_org: :width 600
-[[file:~/vault/Attachments/IA/evolutionalgorithm.png]]
+[[file:../Attachments/IA/evolutionalgorithm.png]]
 
 *** População inicial
 Uma *população inicial* deve ser *diversa*, ou seja, deve conter indivíduos com características variadas, para aumentar o espaço de busca da solução e, consequentemente, as chances de encontrar a solução ótima. A população inicial pode ser composta por indivíduos conhecidos previamente para o problema, como soluções em potencial, soluções já conhecidas ou até mesmo soluções aleatórias geradas para o problema.
