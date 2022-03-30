@@ -311,5 +311,29 @@ Caso o nó atual seja uma folha, então a chave deve ser inserida nesse mesmo n�
 
 O número de páginas de disco acessadas na operação de inserção é proporcional à altura da árvore, ou seja, $O(h) = O(\log_t{n})$. Note que a busca dentro do nó tem uma complexidade $O(t)$ no caso da busca sequencial, portanto a complexidade total do algoritmo é dada por $O(th) = O(t\log_t{n})$.
 
+** Remoção
+A remoção de chaves de uma árvore B é um processo complexo, sendo necessário tratar muitos casos para garantir o balanceamento da árvore.
+
+Ao contrário da inserção, a remoção não ocorre apenas nas folhas, isto é, *qualquer chave* de *qualquer nó* pode ser removida. Além disso, é necessário garantir que uma chave não seja removida de um nó que já possui o número mínimo de chaves.
+
+Para manter a propriedade de que todo nó (exceto o nó raiz) deve *conter no mínimo* $t-1$ *chaves*, a operação de remoção deve ser estrutura de forma a garantir que, quando aplicada a um nó da árvore, este *nó sempre contém no mínimo* $t$ *chaves*. Diversos casos precisam ser tratados para garantir essa propriedade, manipulando a árvore de forma a sempre garantir que o procedimento só será aplicado recursivamente em um nó que satisfaça a propriedade de conter no mínimo $t$ chaves.
+
+Os possíveis casos para a remoção de uma chave $k$ em uma árvore B são listados a seguir:
+
+1. Se a chave $k$ está no nó $x$ e o nó $x$ é um *nó folha*, remova a chave $k$ de $x$.
+2. Se a chave $k$ está no nó $x$ e o nó $x$ é um *nó interno*, então:
+   a. Se o nó filho $y$ que precede $k$ no nó $x$ tem pelo menos $t$ chaves, encontre a chave $k'$ predecessora de $k$ na subárvore enraizada em $y$. Remova recursivamente $k'$ e substitua $k$ por $k'$ em $x$.
+   b. Simetricamente, se o nó filho $z$ que sucede $k$  no nó $x$ tem pelo menos $t$ chaves, encontre a chave $k'$ sucessora de $k$ na subárvore enraizada em $z$. Remova recursivamente $k'$ e substitua $k$ por $k'$ em $x$.
+   c. Caso contrário, se tanto $y$ quanto $z$ tiverem apenas $t-1$ chaves, concatene $k$ e todas as chaves de $z$ com o nó $y$, fazendo com que $x$ perca tanto a chave $k$ quanto o ponteiro para $z$. Agora, com $y$ contendo $2t-1$ chaves, remova o nó $z$ da memória e remova recursivamente a chave $k$ no nó $y$.
+3. Se a chave $k$ não está no nó $x$, determine em qual nó filho $x.c_i$ de $x$ a subárvore que contém $k$ está enraizada. Se $x.c_i$ contém apenas $t-1$ chaves, execute os casos $3a$ ou $3b$ conforme necessário para garantir que $x.c_i$ contenha no mínimo $t$ chaves. Então continue o procedimento recursivamente para remover $k$ de $x.c_i$.
+   a. Se $x.c_i$ tem apenas $t-1$ chaves mas há um irmão imediato com no mínimo $t$ chaves, adicione uma nova chave a $x.c_i$ movendo uma chave de $x$ para $x.c_i$, e então mova uma chave do irmão imediato de $x.c_i$ para $x$, e ajuste os ponteiros de acordo.
+   b. Se $x.c_i$ e ambos os seus irmãos imediatos tem apenas $t-1$ chaves, concatene $x.c_i$ com um de seus irmãos, movendo também a chave que separava os nós em $x$ para o nó resultante, que vai atuar como chave mediana do nó.
+
+Veja então que é possível remover qualquer chave de uma árvore B passando apenas uma vez pela árvore, sem retornar para nós superiores (com exceção dos casos $2a$ e $2b$). Note também que no *caso* $3b$ é possível que $x$ seja o *nó raiz* da árvore; nesse caso, se o nó raiz armazenar *apenas uma chave*, ele é *removido* e a *altura* da árvore é *reduzida*.
+
+Vale notar que como a *maioria das chaves* de uma árvore B estão *nas folhas*, em média as operações de remoção ocorrem com mais frequência nas folhas.
+
+O número de páginas de disco acessadas na operação de remoção é proporcional à altura da árvore, ou seja, $O(h) = O(\log_t{n})$. Note que a busca dentro do nó tem uma complexidade $O(t)$ no caso da busca sequencial, portanto a complexidade total do algoritmo é dada por $O(th) = O(t\log_t{n})$.
+
 * Hashing
 * Compressão
