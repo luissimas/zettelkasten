@@ -323,7 +323,7 @@ Os possíveis casos para a remoção de uma chave $k$ em uma árvore B são list
 1. Se a chave $k$ está no nó $x$ e o nó $x$ é um *nó folha*, remova a chave $k$ de $x$.
 2. Se a chave $k$ está no nó $x$ e o nó $x$ é um *nó interno*, então:
    a. Se o nó filho $y$ que precede $k$ no nó $x$ tem pelo menos $t$ chaves, encontre a chave $k'$ predecessora de $k$ na subárvore enraizada em $y$. Remova recursivamente $k'$ e substitua $k$ por $k'$ em $x$.
-   b. Simetricamente, se o nó filho $z$ que sucede $k$  no nó $x$ tem pelo menos $t$ chaves, encontre a chave $k'$ sucessora de $k$ na subárvore enraizada em $z$. Remova recursivamente $k'$ e substitua $k$ por $k'$ em $x$.
+   b. Simetricamente, se o nó filho $z$ que sucede $k$  no nó $x$ tem pelo menos $t$ chaves, encontre a chave $k'$ sucessora de $k$ na subárvore enraizada em $z$. Remova recursivamente $k'$ e substitua $k$   por $k'$ em $x$.
    c. Caso contrário, se tanto $y$ quanto $z$ tiverem apenas $t-1$ chaves, concatene $k$ e todas as chaves de $z$ com o nó $y$, fazendo com que $x$ perca tanto a chave $k$ quanto o ponteiro para $z$. Agora, com $y$ contendo $2t-1$ chaves, remova o nó $z$ da memória e remova recursivamente a chave $k$ no nó $y$.
 3. Se a chave $k$ não está no nó $x$, determine em qual nó filho $x.c_i$ de $x$ a subárvore que contém $k$ está enraizada. Se $x.c_i$ contém apenas $t-1$ chaves, execute os casos $3a$ ou $3b$ conforme necessário para garantir que $x.c_i$ contenha no mínimo $t$ chaves. Então continue o procedimento recursivamente para remover $k$ de $x.c_i$.
    a. Se $x.c_i$ tem apenas $t-1$ chaves mas há um irmão imediato com no mínimo $t$ chaves, adicione uma nova chave a $x.c_i$ movendo uma chave de $x$ para $x.c_i$, e então mova uma chave do irmão imediato de $x.c_i$ para $x$, e ajuste os ponteiros de acordo.
@@ -336,4 +336,52 @@ Vale notar que como a *maioria das chaves* de uma árvore B estão *nas folhas*,
 O número de páginas de disco acessadas na operação de remoção é proporcional à altura da árvore, ou seja, $O(h) = O(\log_t{n})$. Note que a busca dentro do nó tem uma complexidade $O(t)$ no caso da busca sequencial, portanto a complexidade total do algoritmo é dada por $O(th) = O(t\log_t{n})$.
 
 * Hashing
+O processo de hashing consiste em transformar uma chave em outro valor. Geralmente o hashing é utilizado na construção de *tabelas hash*, estruturas de dados chave-valor que fornecem operações em tempo constante $O(1)$.
+
+#+caption: Transformação de chaves em índices.
+#+attr_org: :width 500
+[[file:../Attachments/ORI/hashtable.png]]
+
+Uma *função hash* é uma função determinística capaz de transformar uma chave de pesquisa em um endereço na tabela hash. É essencial que essa função tenha um baixo custo computacional, e que a mesma entrada sempre produza a mesma saída.
+
+Mesmo que a função distribua chaves de maneira uniforme na tabela, a probabilidade de que duas chaves sejam associadas a um mesmo endereço (*colisão*) é alta. Em geral, a probabilidade $p$ de se inserir $n$ itens consecutivos, sem colisão, em uma tabela de tamanho $m$ é dada por:
+
+$$p=\frac{m!}{(m-n)!m^n}$$
+
+É importante evitar colisões, pois um número excessivo delas pode prejudicar significativamente o desempenho das operações na tabela. Apesar disso, *não é possível evitar* totalmente a ocorrência de *colisões*, portanto é necessário desenvolver mecanismos para tratá-las. Em geral, há duas formas usuais para o tratamento de colisões.
+
+** Encadeamento
+ O *encadeamento* consiste em manter todos os elementos mapeados para uma mesma posição em uma *lista encadeada*. Assumindo que a probabilidade de uma chave ser endereçada para qualquer uma das posições é sempre igual, o comprimento esperado de cada lista (chamado *fator de carga*) encadeada é dado por $\frac{n}{m}$,  onde $n$ é o número de registros na tabela e $m$ o tamanho da tabela. Dessa forma, as operações na tabela tem um custo médio de $O(1+\frac{n}{m})$, levando em conta que a posição da tabela é acessada em tempo constante e que é necessário percorrer os elementos da lista.
+
+#+caption: Encadeamento em uma tabela hash.
+#+attr_org: :width 500
+[[file:../Attachments/ORI/hashencadeamento.png]]
+
+** Endereçamento aberto
+O *endereçamento aberto* parte da pressuposição de que o número de chaves a ser armazenado na tabela é menor ou igual ao tamanho da tabela, ou seja, $n \leq m$. Partindo desse princípio, assume-se que é possível *armazenar todas as chaves na tabela*, sem a necessidade de outra estrutura para tratar colisões.
+
+Tendo isso em vista, nesse método a colisão é tratada com a *busca de uma nova posição* para a inserção na própria tabela. Isso exige uma modificação da função hash para receber, além da chave, um parâmetro que indica o número de "tentativas" já feitas até o momento da chamada da função. Dessa forma há a garantia que, em caso de colisão, uma nova posição será buscada.
+
+Existem três técnicas comumente utilizadas para buscar a nova posição no caso de uma colisão em tabelas que usam endereçamento aberto. Elas diferem principalmente na forma como as chaves são espalhadas na tabela, impactando no desempenho das operações.
+
+*** Teste linear
+Dada uma função hash auxiliar $h'$ que recebe como parâmetro uma chave $k$, o método de *teste linear* usa a função $h(k,i) = (h'(k) + i) \mod m$. Dessa forma, a busca pela chave (ou por um espaço vazio para sua inserção) ocorre de forma linear na tabela.
+
+Apesar de sua fácil implementação, esse tipo de abordagem introduz o problema de *agrupamento primário*, que consiste na construção de longas sequências de posições ocupadas na tabela, degradando o desempenho da busca.
+
+*** Teste quadrático
+Dada uma função hash auxiliar $h'$ que recebe como parâmetro uma chave $k$, o método de *teste quadrático* usa a função $h(h,i) = (h'(k) + c_1i+c_2i^2) \mod m$, onde $c_1$ e $c_2 \neq 0$ são constantes auxiliares. Esse método elimina o agrupamento primário, já que a posição da tabela resultante da função hash tem uma relação quadrática com o parâmetro $i$ .
+
+Apesar de prevenir o agrupamento primário, essa técnica introduz um outro problema: o *agrupamento secundário*. Esse tipo de agrupamento consiste no fato de que se a posição inicial de duas chaves com $i=0$ for igual, ela será igual para qualquer $i$.
+
+*** Duplo mapeamento
+Dadas duas funções hash auxiliares $h_1$ e $h_2$, o método de *mapeamento duplo* usa a função $h(k,i) = (h_1(k) + ih_2(k)) \mod m$. Dessa forma, a sequência de posições buscadas depende duplamente da chave $k$, resultando em um maior número de sequências possíveis.
+
+Note que é necessário que $h_2$ e o tamanho $m$ da tabela hash sejam *relativamente primos* para garantir que todas as posições da tabela sejam buscadas. Isso pode ser garantido de duas formas:
+
+1. Tomando $m$ como uma potência de $2$ e escolhendo $h_2$ de forma que $h_2(k)$ sempre seja um número ímpar.
+2. Tomando $m$ como um número primo e escolhendo $h_2$ de forma que $0 \leq h_2(k) < m$.
+
+O duplo mapeamento produz o *melhor desempenho* médio entre as técnicas de endereçamento aberto. Entretanto, sua *implementação* é significativamente mais *complexa* quando comparada a outros métodos.
+
 * Compressão
