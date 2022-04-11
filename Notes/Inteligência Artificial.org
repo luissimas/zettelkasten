@@ -229,6 +229,55 @@ Onde $HRestante$ corresponde a entropia restante. Dado que a escolha de um atrib
 
 $$HRestante(A) = \sum_{k=1}^d{\frac{|E_k|}{|S|}H(E_k)}$$
 
+*** Redes neurais
+Uma rede neural é um algoritmo de *aprendizado supervisionado* que consiste em uma rede composta por diversos nós chamados *neurônios* conectados através das diversas camadas da rede. O objetivo das redes neurais é *reconhecer padrões* entre as variáveis de entrada através de um processo que simula o funcionamento do cérebro humano.
+
+#+caption: Topologia de uma rede neural com duas camadas escondidas.
+#+attr_org: :width 800
+[[file:../Attachments/IA/neuralnetwork.gif]]
+
+Um neurônio é essencialmente uma *função* cujas entradas são as saídas dos neurônios da camada anterior (ou as entradas da rede, no caso da camada de entrada da rede). A cada neurônio é associado um vetor de *pesos*, que pondera cada valor de entrada. O processo de aprendizado de redes neurais consiste no *ajuste dos pesos* de cada neurônio de maneira iterativa.
+
+De maneira simplificada, durante o processo de treinamento a informação pode fluir nos dois sentidos da rede. No processo de *forward propagation* os dados de entrada atravessam a rede através dos neurônios, gerando uma saída. Já no processo de *backward propagation* o resultado da rede é confrontado com o resultado esperado, obtendo-se um erro com base no qual os pesos dos neurônios vão sendo ajustados na ordem contrária.
+
+#+caption: Processo de forward e backward propagation.
+#+attr_org: :width 600
+[[file:../Attachments/IA/backwardpropagation.gif]]
+
+**** Perceptron
+O perceptron foi o primeiro modelo de rede neural de fato implementada como um algoritmo. O modelo hoje compreende a forma mais simples de uma rede neural, podendo ser utilizada para classificar *padrões linearmente separáveis*, ou seja, que podem ser separados por apenas um hiperplano, em um conjunto com *classes binárias*.
+
+#+caption: Paralelo entre um neurônio e o modelo de um neurônio artificial.
+#+attr_org: :width 600
+[[file:../Attachments/IA/artificialneuronmodel.png]]
+
+A rede consiste de um único neurônio com um vetor de *pesos* $(w_1, w_2, \dots w_n)$ que pondera cada um dos atributos de entrada $(x_1, x_2, \dots, x_n)$. Veja ainda que é adicionado um /bias/ às entradas, que pode ser representado por uma entrada $x_0 = 1$ ponderada por um fator $b$.
+
+No caso do perceptron, a função linear é a *combinação linear* das entradas ponderadas pelos pesos. O resultado dessa função é chamado *potencial de ativação* do neurônio, dado por:
+
+$$z= \sum_{i=1}^{n}{w_ix_i} + b$$
+
+O potencial de ativação é então usado como entrada para uma *função de ativação*, que tem o papel de normalizar o potencial de ativação. No caso do perceptron a função de ativação mais comum é a função $\text{sign}$:
+
+$$
+\text{sign}(x) = \begin{cases}
++1 \text{ se  } x > 0\\
+-1 \text{ se  } x \leq 0\\
+\end{cases}
+$$
+
+Dessa forma, os resultados possíveis do neurônio são $-1$ ou $1$, sendo possível identificar apenas classes binárias.
+
+O processo de aprendizado se dá de forma iterativa, ajustando os pesos da rede de acordo com o erro cometido. Após aplicar um exemplo à rede, confronta-se o resultado obtido $y$ com o resultado esperado $d$ para o dado exemplo. Com base nisso os pesos na próxima iteração são dados pela seguinte expressão:
+
+$w - \eta(d-y)x$
+
+Onde $\eta$ é o *fator de aprendizado*, um parâmetro que controla o quão agressivos são os ajustes dos pesos da rede. Um fator de aprendizado alto aumenta a velocidade de convergência do algoritmo, porém aumenta as chances da convergência se dar em um ponto de mínimo local do erro, ou seja, as chances do ajuste ótimo de pesos ser encontrado diminui. Note que como as classes são dadas por $1$ ou $-1$, o ajuste só ocorre caso a classe predita seja diferente da classe verdadeira do exemplo.
+
+A fórmula de ajuste dos pesos é obtida através do *gradiente descendente*, uma técnica de otimização cujo objetivo é encontrar o *mínimo local* de uma *função derivável*. A ideia é derivar o *erro quadrático médio* da previsão gerada pelo neurônio na direção de cada um dos pesos para obter o fator de ajuste de cada peso.
+
+**** Multi-layer perceptron
+
 *** Avaliação de algoritmos de aprendizado supervisionado
 A avaliação de algoritmos de aprendizado supervisionado consiste em *testar o modelo* obtido através de um algoritmo utilizando exemplos cujo resultado esperado já é conhecido.
 
