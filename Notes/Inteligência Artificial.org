@@ -276,8 +276,6 @@ Onde $\eta$ é o *fator de aprendizado*, um parâmetro que controla o quão agre
 
 A fórmula de ajuste dos pesos é obtida através do *gradiente descendente*, uma técnica de otimização cujo objetivo é encontrar o *mínimo local* de uma *função derivável*. A ideia é derivar o *erro quadrático médio* da previsão gerada pelo neurônio na direção de cada um dos pesos para obter o fator de ajuste de cada peso.
 
-**** Multi-layer perceptron
-
 *** Avaliação de algoritmos de aprendizado supervisionado
 A avaliação de algoritmos de aprendizado supervisionado consiste em *testar o modelo* obtido através de um algoritmo utilizando exemplos cujo resultado esperado já é conhecido.
 
