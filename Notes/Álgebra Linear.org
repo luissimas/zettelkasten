@@ -357,3 +357,61 @@ Se $T$ é um operador linear simétrico, então para quaisquer vetores $u, v \in
 $$T(u) \cdot v = u \cdot T(v)$$
 
 Se um operador simétrico $T: V \to V$ é simétrico, então existe uma *base ortonormal* composta por autovetores de $T$. Dessa forma, uma matriz $Q$ com colunas dadas pelos autovetores da base ortonormal de autovetores de $T$ diagonaliza a matriz $A$ associada a $T$ ortogonalmente.
+
+* Formas lineares e bilineares
+Dado um espaço vetorial $V$, uma *forma linear* $T$ é uma transformação que associa vetores de $V$ ao conjunto dos reais, ou seja, $T: V \to \mathbb{R}$.
+
+Da mesma forma, dado um espaço vetorial $V$, uma *forma bilinear* $B$ é uma aplicação que associa dois vetores de $V$ ao conjunto dos reais, ou seja, $B: V \times V \to \mathbb{R}$. Além disso, as formas bilineares devem satisfazer as seguintes condições:
+
+1. Para todo $w \in V$, $B(u,w)$ é uma forma linear relativamente à primeira variável, ou seja:
+
+   $$B(u_1 + u_2, w) = B(u_1, w) + B(u_2, w) \quad \text{e} \quad B(\alpha u, w) = \alpha B(u, w) \quad \forwall u_1, u_2, u \in V, \alpha \in \mathbb{R}$$
+
+2. Para todo $v \in V$, $B(u,w)$ é uma forma linear relativamente à segunda variável, ou seja:
+
+   $$B(u, w_1 + w_2) = B(u, w_1) + B(u, w_2) \quad \text{e} \quad B(u, \alpha w) = \alpha B(u, w) \quad \forwall w_1, w_2, u \in V, \alpha \in \mathbb{R}$$
+
+Uma forma bilinear $B: V \times V \to \mathbb{R}$ é dita *simétrica* se para todos os vetores $u, v \in V$ tem-se:
+
+$$B(u,v) = B(v, u)$$
+
+** Matrizes de formas bilineares
+Dado um espaço vetorial $V$ com base $\mathcal{B}=\{u_1,\dots,u_n\}$ e uma *forma bilinear* $B: V \times V \to \mathbb{R}$, a matriz $[B]_{\mathcal{B}}^{\mathcal{B}}$ associada à forma bilinear $B$ é chamada *matriz da forma bilinear* $B$ na base $\mathcal{B}$. A matriz associada à forma bilinear é dada por:
+
+\begin{gather}
+
+[B]_{\mathcal{B}}^{\mathcal{B}} =
+  \begin{bmatrix}
+    B(u_1, u_1) & B(u_1, u_2) & \dots & B(u_1, u_n)\\
+    B(u_2, u_1) & B(u_2, u_2) & \dots & B(u_2, u_n)\\
+    \vdots & \vdots &\ddots & \vdots\\
+    B(u_n, u_1) & B(u_n, u_2) & \dots & B(u_n, u_n)\\
+  \end{bmatrix}
+
+\end{gather}
+
+** Formas quadráticas
+Dado um espaço vetorial $V$ e uma forma bilinear *simétrica* $B: V \times V \to R$, a função $Q: V \to \mathbb{R}$ é dita *forma quadrática* associada a $B$ se:
+
+$$Q(u) = B(u, u)$$
+
+** Diagonalização
+Dada uma forma quadrática $Q: V \to \mathbb{R}$ associada a uma forma bilinear simétrica $B: V \times V \to \mathbb{R}$, se $\dim V = n$, então existe uma base ortonormal $\mathcal{B}'$ em $V$ tal que se:
+
+\begin{gather}
+
+  [u]_{\mathcal{B}'} =
+  \begin{bmatrix}
+    a_1\\
+    a_2\\
+    \vdots\\
+    a_n
+  \end{bmatrix}
+
+\end{gather}
+
+então
+
+$$Q(u) = Q(a_1, a_2, \dots, a_n) = \lambda_1 a_1^2 + \lambda_2 a_2^2 + \dots + \lambda_n a_n^2$$
+
+Nessas condições, a forma quadrática $$\lambda_1 a_1^2 + \lambda_2 a_2^2 + \dots + \lambda_n a_n^2$$ é chamada forma canônica ou forma quadrática diagonalizada.
