@@ -390,10 +390,33 @@ Dado um espaço vetorial $V$ com base $\mathcal{B}=\{u_1,\dots,u_n\}$ e uma *for
 
 \end{gather}
 
+De forma que, dados dois vetores $u=x_1a_1 + \dots + x_na_n$ e $v=y_1a_1 + \dots + y_na_n$ , tem-se:
+
+\begin{gather}
+
+B(u,v) =
+  \begin{bmatrix}
+    x_1 & \dots & x_n
+  \end{bmatrix}
+  \cdot
+  \begin{bmatrix}
+    B(a_1, a_1) & \dots & B(a_1, a_n)\\
+    \vdots &\ddots & \vdots\\
+    B(a_n, a_1) & \dots & B(a_n, a_n)\\
+  \end{bmatrix}
+  \cdot
+  \begin{bmatrix}
+    y_1 & \dots & y_n
+  \end{bmatrix}
+
+\end{gather}
+
 ** Formas quadráticas
 Dado um espaço vetorial $V$ e uma forma bilinear *simétrica* $B: V \times V \to R$, a função $Q: V \to \mathbb{R}$ é dita *forma quadrática* associada a $B$ se:
 
 $$Q(u) = B(u, u)$$
+
+Formas quadráticas podem ser expressas na forma matricial através de uma *matriz simétrica*.
 
 ** Diagonalização
 Dada uma forma quadrática $Q: V \to \mathbb{R}$ associada a uma forma bilinear simétrica $B: V \times V \to \mathbb{R}$, se $\dim V = n$, então existe uma base ortonormal $\mathcal{B}'$ em $V$ tal que se:
