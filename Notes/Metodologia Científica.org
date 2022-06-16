@@ -1,0 +1,55 @@
+#+title:Metodologia Científica
+
+A metodologia científica busca investigar e sistematizar o *método científico*, um conjunto de regras e procedimentos que guiam processos que produzem *conhecimento científico*.
+
+O método científico visa fornecer um conjunto de *regras e processos* para fundamentar as etapas de uma pesquisa científica, visando obter conclusões e análises sólidas e confiáveis. Em geral o método científico tem como pilar algumas correntes filosóficas, como o *empirismo*, o *positivismo* e o *pragmatismo*, tendo também como principal característica a *objetividade* das análises e métodos envolvidos no processo de pesquisa.
+
+* Classificações de ciência
+Um campo do conhecimento pode receber diversas classificações de acordo com, principalmente, a natureza dos objetos de estudo e as preocupações envolvidas no processo de produção de conhecimento.
+
+** Ciências formais
+As ciências formais estudam *ideias, *independente da aplicação prática* das mesmas. Geralmente o foco das ciências formais está em processos lógicos ou matemáticos, e não em observações empíricas. Áreas como a matemática, lógica, estatística, análise de algoritmos etc são exemplos de ciências formais.
+
+** Ciências empíricas
+O foco das ciências empíricas está em *fenômenos observáveis* no mundo real. Fazendo uso da observação e de um processo analítico dos dados observados, as ciências empíricas buscam compreender e sistematizar fenômenos do universo.
+
+Esse grupo de áreas de estudo se divide em dois campos:
+
+- Ciências naturais, nas quais o foco são os fenômenos da natureza. Astronomia, física, química, biologia etc são exemplos de ciências naturais.
+- Ciências sociais, nas quais o foco é voltado ao ser humano e suas interações. Antropologia, psicologia, economia, história etc são exemplos de ciências sociais.
+
+** Ciências puras
+As ciências puras estudam *aspectos fundamentais do conhecimento*, sem preocupação com a aplicação imediata destes. Ciências puras podem ser tanto *empíricas* quanto *formais*. A lógica é um exemplo de ciência pura e forma, enquanto a cosmologia é um exemplo de ciência pura e empírica.
+
+** Ciências aplicadas
+Interessadas diretamente na *aplicação imediata* do conhecimento em processos industriais, as ciências aplicadas englobam principalmente as engenharias.
+
+** Ciências exatas
+Ciências exatas são aquelas cujos *resultados são precisos*, cujas leis são altamente preditivas e confiáveis. Matemática, física, química, computação etc são exemplos de ciências exatas.
+
+** Ciências inexatas
+As ciências inexatas são capazes de *sistematizar comportamentos gerais*, mas seus resultados e leis não são sempre previsíveis. Grande parte das ciências sociais, assim como algumas áreas da computação são exemplos de ciências inexatas.
+
+** Ciências hard
+O termo /hard/ denota ciências que usam de rigor científico e deduções com base ou não em experimentos empíricos. Em geral pesquisas nesse campo usam da lógica, matemática ou da estatística para fundamentar suas análises e conclusões.
+
+** Ciências soft
+As ciências soft se baseiam em evidências de estudos de caso. Geralmente em pesquisas nesse campo é muito difícil ou impossível realizar experimentos controlados ou análises sistemáticas que fundamentem suas análises e conclusões.
+
+** Ciências nomotéticas
+As ciências nomotéticas estudam fenômenos que se repetem, buscando derivas leis gerais para fazer previsões sobre tais fenômenos. A grande maioria das ciências é categorizada como ciência nomotética.
+
+** Ciências idiográficas
+As ciências idiográficas estudam fenômenos que não se repetem, buscando analisar a fundo causas de determinados eventos. A história é o principal exemplo de ciência idiográfica.
+
+* Métodos de pesquisa
+É possível caracterizar uma pesquisa de acordo com diversos critérios. Em geral as pesquisas são categorizadas em grupos de métodos de acordo com sua natureza, objetivos e procedimentos técnicos.
+
+* Tema e objetivo de pesquisa
+O objetivo é o *ponto central* de qualquer trabalho científico. O objetivo motiva e guia as diversas etapas do processo de pesquisa, desde a *justificativa* da importância do trabalho realizado até como conduzir o processo de *pesquisa bibliográfica* e quais *métodos* utilizar para alcançar o objetivo.
+
+O tema de pesquisa é o *assunto* ou *campo* dentro do qual o trabalho de pesquisa é conduzido. A definição de um tema geralmente parte de áreas mais abrangentes para as mais *específicas*. Dado o estado avançado de desenvolvimento das grandes áreas do conhecimento, a quantidade de artigos e pesquisas já desenvolvidas é tão grande que é impraticável realizar um trabalho de pesquisa com um tema genérico. Tendo isso em vista, se faz necessário um trabalho de definição e refinamento do escopo da pesquisa através da definição de seu tema.
+
+Em geral, o processo inicial de um trabalho de pesquisa envolve primeiro a definição de um *tema de pesquisa* específico para então, após ler e conhecer o que já foi produzido dentro daquele tema, familiarizando-se com o estado da arte e possíveis problemas não resolvidos naquela área, definir o *objetivo* da pesquisa.
+
+A definição de um objetivo de pesquisa deve ter em vista algumas propriedades básicas de qualquer objetivo que tornam a pesquisa relevante. A propriedade mais importante é que o objetivo da pesquisa deve ser *verificável* de maneira objetiva e não trivial ao final do trabalho. Se o objetivo não puder ser verificado de maneira objetiva ao final do trabalho, não é possível avaliar os resultados do trabalho conduzido. Da mesma forma, se o objetivo pode ser verificado de maneira trivial, então o trabalho de pesquisa nada mais fez do que mostrar o óbvio, sem produzir qualquer conhecimento relevante.
