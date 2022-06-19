@@ -43,7 +43,13 @@ As ciências nomotéticas estudam fenômenos que se repetem, buscando derivas le
 As ciências idiográficas estudam fenômenos que não se repetem, buscando analisar a fundo causas de determinados eventos. A história é o principal exemplo de ciência idiográfica.
 
 * Métodos de pesquisa
-É possível caracterizar uma pesquisa de acordo com diversos critérios. Em geral as pesquisas são categorizadas em grupos de métodos de acordo com sua natureza, objetivos e procedimentos técnicos.
+É possível caracterizar uma pesquisa de acordo com diversos critérios. Em geral as pesquisas são categorizadas em grupos de métodos de acordo com sua *natureza*, *objetivos* e *procedimentos técnicos*.
+
+Com relação à natureza, uma pesquisa pode ser tanto um trabalho original, que produz conhecimento novo, ou um resumo de assunto (/survey/ ou /review/), que busca organizar e sistematizar um campo de conhecimento com base nos trabalhos já produzidos.
+
+Em relação aos objetivos, uma pesquisa pode ser exploratória, descritiva ou explicativa.
+
+Quanto aos procedimentos técnicos, uma pesquisa pode ser bibliográfica, documental, experimental, de levantamento ou uma pesquisa-ação.
 
 * Tema e objetivo de pesquisa
 O objetivo é o *ponto central* de qualquer trabalho científico. O objetivo motiva e guia as diversas etapas do processo de pesquisa, desde a *justificativa* da importância do trabalho realizado até como conduzir o processo de *pesquisa bibliográfica* e quais *métodos* utilizar para alcançar o objetivo.
