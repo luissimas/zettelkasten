@@ -1,4 +1,4 @@
-#+title: Programação Paralela E Distribuída
+#+title: Programação Paralela e Distribuída
 
 A programação paralela e distribuída explora técnicas de desenvolvimento com a finalidade de *extrair ao máximo* os recursos de sistemas computacionais modernos, o que geralmente envolve utilizar *múltiplas unidades de processamento* ao mesmo tempo.
 
@@ -23,13 +23,58 @@ Quando comparado ao modelo de memória compartilhada, o modelo por passagem de m
 O modelo de paralelismo de dados consiste em executar um conjunto de *operações simultaneamente* sobre diversas *partições dos dados* a serem processados.
 
 Esse modelo de programação é particularmente eficiente quando implementado em GPUs, pois elas possuem alta capacidade de processamento de operações vetoriais.
+
 * Granularidade
 A granularidade se refere ao volume de operações executadas por cada tarefa paralelizada.
 
 - No paralelismo de granularidade *fina* ou com alto grau de acoplamento as *tarefas* paralelas são *pequenas* em termos de operações e, em geral, executam rapidamente. Em contrapartida, a *comunicação* entre tarefas é *mais frequente* e geralmente o volume de dados trafegado é reduzido.
 - No paralelismo de granularidade *grossa* ou com baixo grau de acoplamento as tarefas paralelas são relativamente *grandes*, executando um maior número de operações. Nesse caso a *comunicação* entre as tarefas é *menos frequente*, porém o volume de dados trafegado é maior.
 
-  A granularidade de paralelismo de um programa deve ser escolhida levando em conta não só a natureza do problema, mas também (se possível) a arquitetura do sistema computacional no qual ele será executado.
+A granularidade de paralelismo de um programa deve ser escolhida levando em conta não só a natureza do problema, mas também (se possível) a arquitetura do sistema computacional no qual ele será executado.
+
+* Projeto de programas paralelos
+Projetar programas paralelos geralmente envolve a *decomposição* das atividades a serem executadas e a *atribuição* dessas atividades a unidades de processamento.
+
+A decomposição das atividades pode ser feita em dois níveis:
+
+A *decomposição de domínio* (paralelização de dados) consiste em *particionar os dados* a serem processados e executar um mesmo conjunto de instruções sobre as diversas partições.
+
+#+caption: Decomposição de domínio.
+#+attr_org: :width 300
+[[file:~/dox/vault/Attachments/PPD/domain_decomp.png]]
+
+A *decomposição funcional* (paralelismo funcional) consiste em *separar as atividades* do programa em blocos funcionais que podem ser paralelizados. Nessa abordagem as diferentes tarefas executam diferentes operações sobre dados distintos ou até mesmo sobre os mesmos dados.
+
+#+caption: Decomposição funcional.
+#+attr_org: :width 300
+[[file:~/dox/vault/Attachments/PPD/functional_decomp.png]]
+
+** Estratégias de paralelização
+Problemas paralelizáveis podem ser agrupados em diversas classes, e para cada classe de problemas geralmente há um conjunto de estratégias de paralelização já conhecidas e comumente aplicadas.
+
+*** Computações naturalmente paralelas
+Essa classe engloba problemas que são naturalmente paralelizáveis. Geralmente esse tipo de problema possui características fundamentais que facilitam a aplicação de paralelismo: *independência* de dados e tarefas.
+
+A estratégia para paralelizar esses tipos de problemas geralmente envolve uma *decomposição de domínio* sobre os dados inicial e posteriormente a atribuição de cada partição dos dados a tarefas paralelas. Esse modelo é conhecido como *SPMD* (/single-program multiple-data/), e consiste em executar um mesmo conjunto de instruções sobre múltiplos conjuntos de dados.
+
+#+caption: Fluxo de processamento de computações naturalmente paralelas.
+#+attr_org: :width 300
+[[file:~/dox/vault/Attachments/PPD/naturally_paralel.png]]
+
+Nesse tipo de problema geralmente é necessário algum mecanismo de comunicação e sincronização apenas para coletar e agregar os resultados obtidos por cada tarefa, resultando em um /overhead/ de comunicação tipicamente baixo.
+
+*** Divisão e conquista
+A estratégia de divisão e conquista consiste em *particionar dinamicamente* um problema em *subproblemas menores* com a *mesma estrutura* até se obterem subproblemas simples o bastante para serem resolvidos diretamente. Essa técnica permite a exploração do paralelismo através da resolução de cada subproblema em uma tarefa paralelizável.
+
+#+caption: Subproblemas sendo atribuídos a diferentes tarefas.
+#+attr_org: :width 300
+[[file:~/dox/vault/Attachments/PPD/divide_and_conquer.jpg]]
+
+Também são necessários mecanismos de sincronização e comunicação para combinar e agregar os resultados de maneira recursiva.
+
+#+caption: Agregação dos resultados de um processamento usando divisão e conquista.
+#+attr_org: :width 300
+[[file:~/dox/vault/Attachments/PPD/divide_and_conquer_return.jpg]]
 
 * Tarefas
 ** DONE Atividade 1 :UFSCar:
@@ -40,5 +85,21 @@ Um problema interessante e que eu particularmente já tive alguma experiência c
 Como o método gera uma árvore binária, é possível paralelizá-lo de forma a processar duas (ou mais) sub-árvores em tarefas diferentes. Nesse caso é interessante também que as tarefas consigam trocar mensagens entre si, pois dessa forma se uma das tarefas chegar ao final de uma sub-árvore sem encontrar uma contradição é possível enviar uma mensagem para todas as outras informando que o processamento pode ser interrompido, pois o argumento é inválido.
 
 Ano passado implementei uma solução para esse problema usando a linguagem Elixir, ela pode ser conferida nesse [[https://github.com/luissimas/analytic_tableaux][repositório público]] no Github. Após implementar a solução de maneira sequencial cheguei a tentar utilizar as primitivas da linguagem para torná-la paralela. Minhas tentativas na época foram frustradas principalmente pelo meu conhecimento limitado de paralelismo e concorrência.
+
 ** DONE Anotações semana 1 :ufscar:
 CLOSED: [2022-11-15 Tue 18:16] SCHEDULED: <2022-11-14 Mon 16:00-17:00> DEADLINE: <2022-11-14 Mon>
+
+** TODO Anotações semana 2 :ufscar:
+SCHEDULED: <2022-11-22 Tue 08:00> DEADLINE: <2022-11-23 Wed>
+
+** DONE Atividade 2 :ufscar:
+CLOSED: [2022-11-21 Mon 11:55] DEADLINE: <2022-11-21 Mon>
+
+** TODO Atividade Smooth [1/3] :ufscar:
+DEADLINE: <2022-11-27 Sun>
+
+[[file:~/ufscar/ppd/semana2/img/smooth_paralel.c]]
+
+- [X] Paralelizar
+- [ ] Tratar bordas
+- [ ] Comentários
