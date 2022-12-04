@@ -1,0 +1,10 @@
+#+title: Projeto E Análise De Algoritmos
+
+* Tarefas
+** DONE Atividade 1 :ufscar:
+CLOSED: [2022-11-19 Sat 22:12] SCHEDULED: <2022-11-19 Sat 13:00> DEADLINE: <2022-11-20 Sun>
+
+** DONE [#A] Atividade 2 :ufscar:
+CLOSED: [2022-12-03 Sat 19:50] DEADLINE: <2022-12-04 Sun>
+
+[[file:~/ufscar/paa/Atividade 2.org]]

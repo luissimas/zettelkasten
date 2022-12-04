@@ -1,0 +1,27 @@
+#+title: Interação Humano Computador
+
+* Tarefas
+** TODO [#B] Projeto - Etapa 1 [4/5] :ufscar:
+DEADLINE: <2022-12-04 Sun>
+
+[[https://ava2.ead.ufscar.br/mod/assign/view.php?id=573000][Tarefa no AVA.]]
+
+- [X] Definir grupo no AVA.
+- [X] Descrição do projeto (objetivos, público alvo).
+- [X] Descrição dos objetivos da coleta.
+- [X] Selecionar pelo menos 2 técnicas de coleta de dados.
+- [-] Refinar roteiro e entregar
+
+** Observação direta - piloto
+Orçamento - R$1000
+
+- Primeira ação: buscar no google sites de imobiliárias.
+- Busca por localidade (imóveis mais próximos da UFSCar)
+- Ordenação por preço
+- Dado o orçamento, buscou por imóveis mobiliados (teve que acessar as fotos do imóvel para verificar mobília)
+- O site da imobiliária mostra na listagem apenas o valor do aluguel, e não o do condomínio. Isso surpreendeu o usuário ao clicar em mais detalhes dos imóveis.
+- Mesmo buscando por imóveis próximos da UFSCar, o site sugeriu imóveis considerados distantes pelo usuário. Isso o levou a buscar filtrando por bairro.
+- Utilização de filtro por número de quartos, tipo de apartamento e bairro. Muitas opções de bairros na filtragem.
+- Muitos imóveis repetidos na listagem.
+- Encontrou um imóvel.
+- Usuário citou que antes de iniciar o processo de busca pelo imóvel ele perguntaria em grupos da faculdade sobre as melhores imobiliárias ou métodos de busca por imóvel.

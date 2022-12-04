@@ -89,17 +89,20 @@ Ano passado implementei uma solução para esse problema usando a linguagem Elix
 ** DONE Anotações semana 1 :ufscar:
 CLOSED: [2022-11-15 Tue 18:16] SCHEDULED: <2022-11-14 Mon 16:00-17:00> DEADLINE: <2022-11-14 Mon>
 
-** TODO Anotações semana 2 :ufscar:
-SCHEDULED: <2022-11-22 Tue 08:00> DEADLINE: <2022-11-23 Wed>
+** DONE Anotações semana 2 :ufscar:
+CLOSED: [2022-11-26 Sat 13:36] SCHEDULED: <2022-11-22 Tue 08:00> DEADLINE: <2022-11-23 Wed>
 
 ** DONE Atividade 2 :ufscar:
 CLOSED: [2022-11-21 Mon 11:55] DEADLINE: <2022-11-21 Mon>
 
-** TODO Atividade Smooth [1/3] :ufscar:
-DEADLINE: <2022-11-27 Sun>
+** DONE Atividade Smooth [3/3] :ufscar:
+CLOSED: [2022-11-27 Sun 19:11] DEADLINE: <2022-11-27 Sun>
 
 [[file:~/ufscar/ppd/semana2/img/smooth_paralel.c]]
 
 - [X] Paralelizar
-- [ ] Tratar bordas
-- [ ] Comentários
+- [X] Tratar bordas
+- [X] Comentários
+
+** TODO [#C] Anotações semana 3 :ufscar:
+DEADLINE: <2022-12-04 Sun>
