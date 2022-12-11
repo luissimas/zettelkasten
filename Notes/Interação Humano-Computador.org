@@ -1,8 +1,8 @@
 #+title: Interação Humano Computador
 
 * Tarefas
-** TODO [#B] Projeto - Etapa 1 [4/5] :ufscar:
-DEADLINE: <2022-12-04 Sun>
+** DONE [#B] Projeto - Etapa 1 [5/5] :ufscar:
+CLOSED: [2022-12-04 Sun 15:00] DEADLINE: <2022-12-04 Sun>
 
 [[https://ava2.ead.ufscar.br/mod/assign/view.php?id=573000][Tarefa no AVA.]]
 
@@ -10,7 +10,7 @@ DEADLINE: <2022-12-04 Sun>
 - [X] Descrição do projeto (objetivos, público alvo).
 - [X] Descrição dos objetivos da coleta.
 - [X] Selecionar pelo menos 2 técnicas de coleta de dados.
-- [-] Refinar roteiro e entregar
+- [X] Refinar roteiro e entregar
 
 ** Observação direta - piloto
 Orçamento - R$1000

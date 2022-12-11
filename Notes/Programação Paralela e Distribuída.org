@@ -104,5 +104,7 @@ CLOSED: [2022-11-27 Sun 19:11] DEADLINE: <2022-11-27 Sun>
 - [X] Tratar bordas
 - [X] Comentários
 
-** TODO [#C] Anotações semana 3 :ufscar:
-DEADLINE: <2022-12-04 Sun>
+** DONE [#A] Atividade OpenMP :ufscar:
+CLOSED: [2022-12-11 Sun 12:58] DEADLINE: <2022-12-11 Sun>
+
+[[https://ava2.ead.ufscar.br/mod/assign/view.php?id=536935]]

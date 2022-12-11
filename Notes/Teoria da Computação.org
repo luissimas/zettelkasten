@@ -88,8 +88,8 @@ Uma gramática regular pode ser descrita por uma *gramática linear*. Existem al
 - Gramática Linear Unitária à Direita (GLUD): regras de produção na forma $A \to Bw$ ou $A \to w$, com $|w| \leq 1$.
 
 * Tarefas
-** TODO [#B] Anotações semana 1 :ufscar:
-DEADLINE: <2022-12-04 Sun>
+** DONE [#B] Anotações semana 1 :ufscar:
+CLOSED: [2022-12-04 Sun 14:05] DEADLINE: <2022-12-04 Sun>
 
 ** TODO [#B] Lista 1 :ufscar:
-DEADLINE: <2022-12-04 Sun>
+DEADLINE: <2022-12-18 Sun>
