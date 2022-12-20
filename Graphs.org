@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID: 745AE602-A822-4D02-93FF-AC9026050812
+:END:
+#+title: Graphs
+
+* Graphs
+A graph is an abstract data structure that is very good at modeling how different things are connected to one another. Graphs are composed of /nodes/ and /edges/, nodes represent data points, and edges are the relation between those data points.
+
+--------------
+
+created: 15/12/2020
+modified: 15/12/2020

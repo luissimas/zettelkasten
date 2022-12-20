@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID: CA7EC6B1-4D78-481B-8BC4-068B92DF23DB
+:END:
+#+title: Área de uma região plana
+
+* Área de uma região plana
+Podemos usar integrais definidas para calcular a área de uma região plana compreendida entre duas curvas.
+Supondo que \(f\) e \(g\) são duas funções contínuas no intervalo \([a,b]\), sendo \(f(x)>g(x)\). A área \(A\) entre essas duas curvas pode ser interpretada como a /integral da diferença/ entre as curvas. Ou seja:
+\[
+A = \int_a^b{\left[f(x)-g(x)\right]}\,dx
+\]
+
+--------------
+
+created: 07/12/2020
+modified: 07/12/2020
+
+[[file:calculo1v2020aula20.pdf.org][calculo1v2020aula20.pdf]]

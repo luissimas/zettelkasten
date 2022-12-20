@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID: 3DC882BB-ADCE-4164-A2E5-588FA87DA20A
+:END:
+#+title: Arq1 MOC
+
+* Arquitetura e Organização de Computadores
+Esta disciplina é uma sequência da disciplina de [[id:3533978F-E35F-4B28-8AF0-8FA8E2D618FB][LD]], nela trabalhamos os princípios da arquitetura e organização básica dos componentes de computadores. Foram abordados tópicos desde circuitos digitais até linguagens de baixo nível.
+
+[[id:47C87DEB-B16A-4292-9CD7-12AF1294C719][Fundamentos]]
+[[id:4F69AD7A-FF4D-4CFA-B869-0609004FBDB8][Computador Elementar]]
+[[id:BFECF00E-D25A-4A8D-B7A5-32C9F609C522][Assembly]]
+[[id:864097CB-FEA1-4293-AE1E-CA15475A64C1][ISA]]
+[[id:9DE660F8-D55E-42E5-87C3-E0FFEBED926A][Endereçamento]]
+[[id:9C55A340-DD1D-45E3-B067-67ECD2D844CD][CISC e RISC]]
+[[id:ADCADB57-6232-46AD-87B3-2D5642FF9862][Bits de uma arquitetura]]
+[[id:35611088-86E7-4D80-B751-BDC56E12DC0B][MIPS]]
+[[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]]
+[[id:62249BF8-BCB1-4B00-B7A7-BBBB4DB00C9A][Unidade de controle]]
+[[id:F44B70F4-817D-4DFB-B98F-ADD4093CC1C8][Pipeline]]
+[[id:7A1855ED-89CF-465B-8437-E99ED1681E94][Conflitos]]
+[[id:B78292F6-CCD1-4BB7-A03F-FB120E643933][Multiplicação e divisão]]
+[[id:188D0EBB-2312-41DA-87D5-C421448153CF][Ponto flutuante]]
+[[id:29D7535B-AEA5-408F-955F-ADAB80E42E9D][Memória cache]]
+[[id:668D9BDE-080B-47E3-86E7-F4335E115E7E][Memória virtual]]
+
+--------------
+
+created: 22/02/2021
+modified: 08/03/2021

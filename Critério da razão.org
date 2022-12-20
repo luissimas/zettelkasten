@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID: F383F004-ED83-4CB9-80F5-4421C454CC0D
+:END:
+#+title: Critério da razão
+
+* Critério da razão
+O critério da razão é muito similar ao [[file:Critério da raiz .org][ critério da raiz]], porém utiliza-se da razão entre o /n-ésimo/ termo e seu antecessor.
+
+#+begin_quote
+*/Critério da razão/*
+Dada uma sequência numérica \((a_n)\) tal que \(a_n > 0\), considera-se \(L\) tal que:
+\[
+\lim_{n\to \infty} \frac{a_{n + 1}}{a_n} = L
+\]
+pode-se afirmar o seguinte com base no valor de \(L\): 1. \(L > 1\): \(\displaystyle\sum_{n = 1}^{\infty}{a_n}\) diverge. 2. \(L < 1\): \(\displaystyle\sum_{n = 1}^{\infty}{a_n}\) converge. 3. \(L = 1\): nada se conclui.
+
+#+end_quote
+
+--------------
+
+created: 05/09/2021

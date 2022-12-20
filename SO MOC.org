@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID: 8A837909-3739-4729-8BAC-FC40F2320810
+:END:
+#+title: SO MOC
+
+* Sistemas Operacionais
+Uma sequência natural de [[file:Arq1 MOC .org][ ARQ]], essa disciplina explora os principais aspectos de sistemas operacionais e suas diferentes implementações.
+O referencial teórico do curso foi o excelente livro [[file:SistemasOperacionaisModernos.pdf .org][ Sistemas Operacionais Modernos]].
+
+** Introdução
+[[[#][Sistemas operacionais]]]
+
+** Processos e threads
+[[id:BEC134E7-5D8A-4E61-B80B-2767772A1ADE][Processos]]
+[[id:7AAA0379-E865-4EC4-BD9A-599EFC1500BB][Threads]]
+[[id:951A6178-710F-484A-A908-5DAEE0957A4A][Escalonamento de processos]]
+[[id:5887F57E-D349-4589-B910-AC8AFF46EDC4][Comunicação entre processos]]
+[[id:47BC0441-C008-423C-B00A-50B06D79D6E2][Deadlocks]]
+
+** Gerenciamento de memória
+[[[#][Gerenciamento de memória]]]
+[[id:668D9BDE-080B-47E3-86E7-F4335E115E7E][Memória virtual]]
+[[id:3FF184A5-A312-4C1D-B94F-04DAE1DBC9B9][Substituição de páginas]]
+
+** Sistema de arquivos
+[[[#][Sistema de arquivos]]]
+[[id:3F21B5C5-17BB-4C21-AE82-79FA9576E940][Implementação do sistema de arquivos]]
+
+** Gerenciamento de IO
+[[id:54452A6C-55BF-4A8E-9376-A298EE5EFEC8][Hardware de IO]]
+[[id:CBEAADEB-0CAF-4571-8AF5-0E578542CA94][Software de IO]]
+
+--------------
+
+created: 16/08/2021

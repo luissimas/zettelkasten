@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID: D9607805-FC65-4B06-A17C-2595011E5EB6
+:END:
+#+title: Latin MOC
+
+* Latin MOC
+** Partēs orātiōnis
+Os nomes se dividem nas seguintes categorias: - [[id:0125B0C4-DD33-473E-8585-0CB211AD2FA2][Substantivos (substantīva)]] - [[id:8E7935A3-F353-4F17-8037-1D821626A14E][Adjetivos (adiectīva)]] - [[file:Numerais.org][Numerais (numerālia)]] - [[id:409473EF-A95E-4F02-88C1-9A862097FFBC][Pronomes (prōnōmina)]]
+
+Nomes (substantivos, pronomes e adjetivos) são *declinados*, verbos são *conjugados* (não é a mesma coisa!).
+
+[[id:2CEBD6C2-4E5E-4544-89CC-DB552B21DB18][Verbos (verba)]]
+
+Nas orações existem também as partículas, que não se declinam: - [[file:Advérbios.org][Advérbios (adverbia)]] - [[file:Conjunções.org][Conjunções (coniūnctiōnēs)]] - [[file:Preposições.org][Preposições (praepositiōnēs)]] - [[file:Interjeições.org][Interjeições (interiectiōnēs)]]
+
+--------------
+
+created: 30/03/2021
+modified: 30/03/2021

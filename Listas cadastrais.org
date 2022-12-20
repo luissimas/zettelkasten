@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID: 85A4C258-F57D-40CA-AF36-1B08899AF34C
+:END:
+#+title: Listas cadastrais
+
+* Listas cadastrais
+Listas cadastrais são listas nas quais a inserção, retirada e acesso aos elementos ocorrem em função ao valor dos elementos, e não de sua posição na lista.
+
+--------------
+
+created: 18/05/2021

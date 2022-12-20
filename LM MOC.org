@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID: 4E7FB41D-872D-4B4A-BD36-24DA3D3B0796
+:END:
+#+title: LM MOC
+
+* Lógica Matemática
+A lógica busca formalizar matematicamente o raciocínio, eliminando ambiguidades e criando ferramentas de análise e dedução baseadas em regras bem estabelecidas. Na computação a lógica matemática tem uma especial importância, pois é capaz de modelar em uma uma estrutura dicotômica (binária), capaz de ser processada por computadores. Nessa disciplina foram introduzidos os conceitos básicos da lógica proposicional, bem como a álgebra e o cálculo proposicional. O referencial teórico foi [[file:fundamentoslogicamatematica.pdf .org][ essa apostila]].
+
+** Lógica proposicional
+Na primeira parte do curso fomos introduzidos à [[id:6931DA83-27A2-4C30-966C-E7F4627B2819][lógica proposicional]], tratando de diversos tópicos que a compõe:
+
+[[id:C1A20B1F-567F-48FA-A573-814EEE5412D3][Sintaxe da lógica proposicional]]
+[[id:3E618536-D41D-4FDE-9A36-7B06BF81B2AF][Semântica da lógica proposicional]]
+[[id:260F4D65-72B0-48BA-A9C5-0187E8283C28][Consequência e equivalência lógica]]
+[[id:933C0ECA-6590-4D6A-ABC5-0C37F330100C][Álgebra da lógica proposicional]]
+[[id:215DD1F0-B6D1-466E-8E8C-86FBD475984D][Cálculo proposicional]]
+[[id:09D8C7AD-6D5A-49A2-AB65-3032452EB2EB][Técnicas dedutivas]]
+
+** Lógica de predicados
+Nessa parte do curso estudamos a [[id:A3DD607A-E5E1-4014-A96C-7153FE08C507][lógica de predicados]], uma forma mais complexa e poderosa de representação.
+
+[[id:43FA5869-93FE-4194-826D-FA9A41D64E7E][Sintaxe da lógica de predicados]]
+[[id:051F4C5D-1ED4-41BC-92A6-CBDAB7847060][Semântica da lógica de predicados]]
+[[id:321BA6FD-C526-4D8C-9087-4C93510F874A][Consequência e equivalência lógica na lógica de predicados]]
+[[id:89DFB607-A09A-445D-97BE-71301A9DFBE1][Inferência na lógica de predicados]]
+[[id:C3ABD1A6-BE83-4152-9872-BCAF33F6D48E][Unificação e Substituição]]
+[[id:C85ACE88-0A8F-4055-8FC5-1F9E62F89B04][Forma Normal Conjuntiva na Lógica de Predicados]]
+[[id:6939DCF6-1DA4-440B-847F-C0366372DB5D][Resolução na lógica de predicados]]
+
+--------------
+
+created: 06/05/2021

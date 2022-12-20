@@ -1,0 +1,110 @@
+:PROPERTIES:
+:ID: BB43580A-A618-416F-A346-39F9D8059491
+:END:
+#+title: Implementation of storage in Verilog
+#+filetags: :Gated:
+
+* Implementation of storage in Verilog
+The different elements that allow us to storage data in digital circuits can be implemented quite easily with the use of =if-else= statements. Here we find the [[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][verilog ]] examples for the basic structures of storage.
+
+** Latches
+[[file:[#][Latches]]] can be described in a simple way using a =if= statement. Here is a example a [[Latches#Gated D Latch.org][D_latch]] module
+
+#+begin_example
+module D_latch(D, Clk, Q);
+    input D, Clk;
+    output reg Q;
+    
+    always @(D, Clk)
+        if(Clk)
+            Q = D;
+            
+endmodule
+#+end_example
+
+** Flip-flops
+For [[id:860D0638-E241-4BCC-B6A7-1FAB58F2ED36][flip-flops]] we have to use the =posedge= and =negedge= keywords, these keywords describe the desired clock edge that trigger the evaluation of the expression.
+
+#+begin_example
+module flipflop(D, Clock, Q);
+    input D, Clock;
+    output reg Q;
+    
+    always @(posedge Clock)
+        Q = D;
+
+endmodule
+#+end_example
+
+** Registers and Counters
+To describe [[id:5B18C678-59BE-4C72-8296-8A756DE6EDE9][counters ]] and [[id:6CA9DDE1-6128-4FD1-BD48-A943CA3BFD3B][registers ]] we have to use the [[id:E4BCD3C6-E616-4D65-8FDF-9431C8B5D893][non-blocking assignments]], otherwise we'll end up with a circuit that doesn't make sense.
+
+*** Registers
+Here we can see a example of a general /n-bit/ register with /asynchronous/ clear:
+
+#+begin_example
+module nbit_register(D, Clock, Resetn, Q);
+  parameter n = 16; //The desired value
+  input [n-1:0] D;
+  input Clock, Resetn;
+  output reg [n-1:0] Q;
+
+  always @(negedge Resetn, posedge Clock)
+    //Check if we should reset or just load the value
+    if(!Resetn)
+      Q <= 0;
+    else
+      Q <= D;
+
+endmodule
+#+end_example
+
+A general description for a /n-bit/ parallel-access shift register can be done like the following example:
+
+#+begin_example
+module nbit_shifter_load(R, L, w, Clock, Q);
+  parameter n = 16; //The desired value
+  input [n-1:0] R;
+  input L, w, Clock;
+  output reg [n-1:0] Q;
+  integer k;
+
+  always @(posedge Clock)
+    //Checks if we should shift or load from the input
+    if(L)
+      Q<=R;
+    else
+      //Create n flip-flops for the register
+      begin
+        for(k=0;k<n-1;k=k+1)
+          Q[k]<=Q[k+1];
+        Q[n-1]<=w;
+      end
+
+endmodule
+#+end_example
+
+*** Counters
+We can describe a generic /up/down/ counter with load capability like this:
+
+#+begin_example
+module updown_n_count(R, Clock, L, E, up_down, Q);
+  parameter n = 8; //The desired value
+  input [n-1:0] R;
+  input Clock, L, E, up_down;
+  output reg [n-1:0] Q;
+
+  always @(posedge Clock)
+    //Checks if we should count or load from the input
+    if(L)
+      Q<=R;
+    else if(E)
+      Q<=Q+(up_down ? 1:-1);
+
+endmodule
+#+end_example
+
+--------------
+
+created: 15/11/2020
+modified: 15/11/2020

@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID: 321BA6FD-C526-4D8C-9087-4C93510F874A
+:END:
+#+title: Consequência e equivalência lógica na lógica de predicados
+
+* Consequência e equivalência lógica na lógica de predicados
+Consequência e equivalência lógica são relações estabelecidas entre duas fórmulas (ou conjunto de fórmulas).
+
+#+begin_quote
+*/Consequência lógica/*
+Dado um conjunto \(S = \{ \alpha_1, \alpha_2, \dots, \alpha_n \}\) de fórmulas fechadas de uma linguagem de primeira ordem \(\lambda\), e uma fórmula fechada \(\beta\) de \(\lambda\). \(\beta\) é *consequência lógica* do conjunto \(S\) se, para *toda* interpretação \(I\) de \(\lambda\) na qual \(I\) é um modelo para \(S\), \(I\) é também um modelo para \(\beta\). Ou seja, se
+\[
+\alpha_1 \land \alpha_2 \land \dots \land \alpha_n \implies \beta
+\]
+é uma tautologia, então \(S \vDash \beta\).
+
+#+end_quote
+
+#+begin_quote
+*/Equivalência lógica/*
+Duas fórmulas \(\alpha\) e \(\beta\) são *logicamente equivalentes* se as interpretações que satisfazem \(\alpha\) são exatamente as mesmas que satisfazem \(\beta\).
+
+#+end_quote
+
+Vale destacar que as [[id:260F4D65-72B0-48BA-A9C5-0187E8283C28][consequências e equivalências]] básicas da [[id:6931DA83-27A2-4C30-966C-E7F4627B2819][lógica proposicional]] são igualmente válidas para a lógica de predicados. Além dessas, temos uma equivalência específica para os /quantificadores/ da lógica de predicados.
+
+#+begin_quote
+\[
+\begin{aligned}
+&\neg(\forall X \alpha[X]) \equiv (\exists X \neg \alpha[X])\\\\
+&\neg(\exists X \alpha[X]) \equiv (\forall X \neg \alpha[X])
+\end{aligned}
+\]
+
+#+end_quote
+
+--------------
+
+created: 12/06/2021
+
+[[file:Regras_inferencia_equivalencia.pdf.org][Regras_inferencia_equivalencia.pdf]]

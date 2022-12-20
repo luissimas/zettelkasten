@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID: 5A9A4A54-891C-4367-8CC3-46AE1410F86F
+:END:
+#+title: Sistemas operacionais
+
+* Sistemas operacionais
+Computadores modernos são sistemas complexos, consistindo muitas vezes em vários processadores, diferentes tipos de memórias e muitos dispositivos de /IO/. É evidente que os componentes de hardware são complexos e as vezes apresentam implementações muito específicas, nesse contexto os sistemas operacionais são essenciais para fornecer abstrações e recursos que possibilitam uma utilização mais eficiente do sistema computacional.
+
+#+begin_quote
+Um sistema operacional é um programa (ou conjunto de programas) interrelacionados cuja funcionalidade é: 1. Fornecer uma *camada de abstração* para as aplicações interagirem com o hardware 2. *Gerenciar* e alocar os recursos disponíveis no sistema computacional.
+
+#+end_quote
+
+[[file:sistemaoperacional.png.org][sistemaoperacional.png]]
+
+--------------
+
+created: 23/08/2021

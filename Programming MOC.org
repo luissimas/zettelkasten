@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID: 4B8CE6B5-C7DF-4B60-AB88-E2BE2A269B85
+:END:
+#+title: Programming MOC
+
+* Programming MOC
+Need to better organize this shit.
+
+Categorizing languages by paradigm maybe (?)
+
+* Paradigms
+** Imperative
+*** Procedural
+[[id:BFECF00E-D25A-4A8D-B7A5-32C9F609C522][Assembly]]
+[[file:C.org][C]]
+### Object-oriented
+[[file:C++.org][C++]]
+[[file:Java.org][Java]]
+[[file:C#.org][C#]]
+[[file:Python.org][Python]]
+
+** Declarative
+*** Functional
+[[file:Haskell.org][Haskell]]
+[[file:OCaml.org][OCaml]]
+
+*** Database
+** Hardware
+[[id:D057D3EA-F56B-43A1-9201-F1A48F285719][Hardware description language]]
+[[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][Verilog]]
+
+* Web development
+[[id:0BFFA3F6-3C84-4910-A560-659842D5AFEA][HTTP]]
+[[id:A690C762-F529-40C2-B879-C9A280806A86][Node.js]]
+
+* Misc
+[[id:5A460AC7-AB0E-4A1A-AA57-F3E0CE56C26F][Makefiles]]
+
+--------------
+
+created: 12/12/2020
+modified: 12/12/2020

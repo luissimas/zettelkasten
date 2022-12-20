@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID: 89DFB607-A09A-445D-97BE-71301A9DFBE1
+:END:
+#+title: Inferência na lógica de predicados
+#+filetags: :Regras:Argumentos:Leis:
+
+* Inferência na lógica de predicados
+Para provar [[file:Cálculo proposicional#Argumentos.org][argumentos]] na lógica de predicados utilizamos as mesmas [[id:09D8C7AD-6D5A-49A2-AB65-3032452EB2EB][técnicas dedutivas]] da [[id:6931DA83-27A2-4C30-966C-E7F4627B2819][lógica proposicional]], nos baseando nas [[file:Cálculo proposicional#Regras de inferência.org][regras de inferência]] e [[file:Álgebra da lógica proposicional#Leis de equivalência.org][leis de equivalência]]. Devemos levar em conta também as relações de [[id:321BA6FD-C526-4D8C-9087-4C93510F874A][consequência e equivalência]] específicas à lógica de predicados.
+Além das regras já citadas, é necessário introduzir novas regras para lidar especificamente com os /quantificadores/ presentes na lógica de predicados.
+
+** Eliminação (particularização ou instanciação)
+A eliminação consiste em, a partir de uma fórmula quantificada, remover o quantificador instanciando (particularizando) a variável que está sendo quantificada.
+
+#+begin_quote
+*/Eliminação universal/*
+\[
+\forall X p(X) \therefore p(c)
+\]
+
+#+end_quote
+
+#+begin_quote
+*/Eliminação existencial/*
+\[
+\exists X p(X) \therefore p(c)
+\]
+
+#+end_quote
+
+** Introdução (generalização)
+A introdução consiste em, a partir de uma fórmula não quantificada, introduzir um quantificador generalizando o predicado.
+
+#+begin_quote
+*/Introdução universal/*
+\[
+p(c) \therefore \forall X p(X)
+\]
+
+#+end_quote
+
+#+begin_quote
+*/Introdução existencial/*
+\[
+p(c) \therefore \exists X p(X)
+\]
+
+#+end_quote
+
+--------------
+
+created: 12/06/2021
+
+[[file:Regras_inferencia_equivalencia.pdf.org][Regras_inferencia_equivalencia.pdf]]

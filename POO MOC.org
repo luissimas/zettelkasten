@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID: 64024CDE-1FC9-4AB3-9B15-6397B42C7541
+:END:
+#+title: POO MOC
+
+* Programação Orientada a Objetos
+[[id:99B6CF65-0DDA-4349-B1BC-DDE38F58B60C][Introdução a Orientação a Objetos]]
+
+Referencial teórico: [[file:cppdeitel.pdf.org][cppdeitel.pdf]]
+
+--------------
+
+created: 23/02/2021
+modified: 02/03/2021

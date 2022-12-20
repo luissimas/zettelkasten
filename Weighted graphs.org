@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID: AE9966D2-1933-4CEB-9976-41B961D8F6EF
+:END:
+#+title: Weighted graphs
+
+* Weighted graphs
+In this type of [[id:745AE602-A822-4D02-93FF-AC9026050812][graph]] each /edge/ (path between nodes) has a number associated with it, these number are called /weights/. This can be used to evaluate, for example, the cost or the time to travel between one node and another.
+
+--------------
+
+created: 04/01/2021
+modified: 04/01/2021

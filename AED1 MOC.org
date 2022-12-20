@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID: E80B3B33-F170-4E84-BF7F-350F71FC04CD
+:END:
+#+title: AED1 MOC
+
+* Algoritmos e Estruturas de Dados 1
+Essa disciplina introduz algumas estruturas de dados básicas. A disciplina usa como referencial teórico o livro [[file:estruturasdedadoscomjogos.pdf.org][Estruturas de Dados com Jogos]].
+
+[[id:283D81BC-D5FB-4BBB-9DE0-FA156F87348C][Tipos abstratos de dados]]
+[[id:BEBCD47D-8D48-481B-B342-E332BF9DB671][Pilhas]]
+[[id:89B72F0C-6DEB-475E-BBBD-E3583326F225][Filas]]
+[[id:1C05F2DE-C022-4AEF-AED6-B773806CCEAE][Listas encadeadas]]
+[[id:85A4C258-F57D-40CA-AF36-1B08899AF34C][Listas cadastrais]]
+
+--------------
+
+created: 06/05/2021
+modified: 06/05/2021

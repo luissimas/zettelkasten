@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID: 32037CD8-306B-4498-8CB2-FDF26754086F
+:END:
+#+title: Logic synthesis
+
+* Logic synthesis
+The process os logic synthesis consists in: given a logic function with a desired output, simplify the function so it can be implemented in a circuit with the desired behavior and a minimal cost.
+The are serveral ways to realize the logic synthesis, in the book we are presented to two ways: 1. Obtaining the /canonical expression/ using [[id:E23C5DC3-934A-4F55-B401-BE380770C9F3][minterms or maxterms]] and then minimizing the expression using [[id:1A9B753E-E05D-4DBA-85A0-B18D6583A7D3][Boolean algebra]]. 2. Obtaining the minimal-cost expression using [[id:0D5B2D2B-F9A8-478F-911A-F6AB160833A9][Karnaugh maps]].
+
+--------------
+
+created: 09/11/2020
+modified: 09/11/2020

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID: 65414526-D79B-4CB0-BCBB-7CD89D6B6798
+:END:
+#+title: Web Development MOC
+
+* Web Development MOC
+** Concepts
+[[file:How the web works.org][How the web works]]
+[[file:Client.org][Client]]
+[[file:Server.org][Server]]
+[[file:Databases.org][Databases]]
+
+** Front-End
+*** The Basics
+[[file:HTML.org][HTML]]
+[[file:CSS.org][CSS]]
+[[file:JavaScript.org][JavaScript]]
+
+** Back-end
+*** Languages
+[[file:PHP.org][PHP]]
+[[file:NodeJS.org][NodeJS]]
+
+--------------
+
+created: 28/11/2020
+modified: 28/11/2020

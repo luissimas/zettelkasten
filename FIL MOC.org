@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID: 74787E03-D580-4554-983F-A18AA0B0A4A8
+:END:
+#+title: FIL MOC
+
+* Filosofia da Ciência
+Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque particular na ideia de mudança e progresso na visão de dois importantes pensadores: [[id:72593630-DB6F-4039-B413-2B468DFBC66C][Karl Popper]] e [[id:2CF712F8-C429-449E-979A-E2B2C114D598][Thomas Kuhn]].
+
+#+begin_quote
+Filosofia da ciência é a reflexão filosófica sistemática sobre a natureza do conhecimento científico.
+
+#+end_quote
+
+Primeiramente fomos introduzidos aos conceitos primordiais do que se entendia como ciência, conceitos esses que foram muito discutidos e questionados por Kuhn e Popper.
+
+[[id:6F01CB8C-EDCD-4409-A71A-7DE61BC6708E][Indução]]
+[[id:0A25C6F1-3AD2-4A2A-BA1B-05BA2AC6FCE1][Indutivismo]]
+
+A primeira corrente de pensamento estudada é a concepção de ciência (ou do que deve ser a ciência) por [[id:72593630-DB6F-4039-B413-2B468DFBC66C][Karl Popper]].
+
+[[id:90A28B17-1463-47D4-BA3C-A0FEEE7E6F53][Falseabilismo]]
+
+Na segunda metade do curso fomos introduzidos à concepção de ciência segundo [[id:2CF712F8-C429-449E-979A-E2B2C114D598][Thomas Kuhn]], com uma visão mais descritiva e histórica do processo de desenvolvimento do conhecimento científico.
+
+[[id:2C1CB337-06EB-4714-82D3-9A18A223165E][Revoluções científicas]]

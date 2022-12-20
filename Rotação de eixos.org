@@ -1,0 +1,89 @@
+:PROPERTIES:
+:ID: 3A433569-F17E-4819-BCD3-F9F54E938644
+:END:
+#+title: Rotação de eixos
+
+* Rotação de eixos
+Dado um sistema \(Oxy\), com vetores diretores \(\vec{e_1}\) e \(\vec{e_2}\), podemos tomar um ângulo de rotação \(\theta\) que transforma o sistema \(Oxy\) no sistema \(Ouv\), de vetores diretores \(\vec{f_1}\) e \(\vec{f_2}\).
+
+[[file:rotacaodeeixos.png.org][rotacaodeeixos.png]]
+
+Assim, podemos definir os novos vetores como:
+
+#+begin_quote
+\[
+\begin{aligned}
+\vec{f_1} &= \cos{\theta} \vec{e_1} + \sin{\theta} \vec{e_2}\\
+\vec{f_2} &= - \sin{\theta} \vec{e_1} + \cos{\theta} \vec{e_2}
+\end{aligned}
+\]
+
+#+end_quote
+
+Dessa forma, qualquer ponto \(P\) de coordenadas \((x,y)\) no sistema \(Oxy\) terá as seguintes coordenadas no sistema \(Ouv\):
+
+#+begin_quote
+\[
+\begin{cases}
+x = x'\cos{\theta} - y'\sin{\theta}\\
+y = x'\sin{\theta} + y'\cos{\theta}\\
+\end{cases}
+\]
+
+#+end_quote
+
+Da mesma forma:
+
+#+begin_quote
+\[
+\begin{cases}
+x' = x\cos{\theta} + y\sin{\theta}\\
+y' = -x\sin{\theta} + y\cos{\theta}\\
+\end{cases}
+\]
+
+#+end_quote
+
+Na notação matricial, temos:
+
+#+begin_quote
+\[
+\begin{bmatrix}
+x\\
+y
+\end{bmatrix} =
+\begin{bmatrix}
+\cos{\theta} & -\sin{\theta}\\
+\sin{\theta} & \cos{\theta}\\
+\end{bmatrix} =
+\begin{bmatrix}
+x'\\
+y'
+\end{bmatrix}
+\]
+
+#+end_quote
+
+e
+
+#+begin_quote
+\[
+\begin{bmatrix}
+x'\\
+y'
+\end{bmatrix} =
+\begin{bmatrix}
+\cos{\theta} & \sin{\theta}\\
+-\sin{\theta} & \cos{\theta}\\
+\end{bmatrix} =
+\begin{bmatrix}
+x\\
+y
+\end{bmatrix}
+\]
+
+#+end_quote
+
+--------------
+
+created: 02/06/2021

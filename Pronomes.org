@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID: 409473EF-A95E-4F02-88C1-9A862097FFBC
+:END:
+#+title: Pronomes
+
+* Prōnōmina
+Os pronomes apontam para um [[id:0125B0C4-DD33-473E-8585-0CB211AD2FA2][substantivo]] (ou o substituem completamente), e por isso variam como os substantivos: de acordo com gênero, número e [[id:FDB8B846-094D-4333-8E40-20D8DFA16F88][caso]].
+
+--------------
+
+created: 01/04/2021
+modified: 01/04/2021

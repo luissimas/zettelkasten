@@ -1,0 +1,382 @@
+#+title:Inteligência Artificial
+
+A Inteligência Artificial é o ramo da ciência da computação relacionado com a automação do comportamento inteligente, operando através da criação de modelos para a inteligência e implementando sistemas computacionais baseados nesses modelos.
+
+* Resolução de problemas por Busca
+A resolução de problemas por busca consiste em modelar um problema usando uma representação do mundo baseada em *estados* e aplicar um *algoritmo de busca* sobre esses estados para encontrar uma solução para o problema.
+
+** Representação de problemas
+Para a resolução de problemas por busca é necessário definir o problema a ser resolvido. Essa definição é composta por dois grupos de elementos essenciais:
+- *estados* que representam o mundo
+- *ações* que provocam a alteração de um estado para outro
+
+Nesse tipo de resolução assume-se que o ambiente no qual o problema se insere é:
+- *observável*: o estado atual é conhecido.
+- *discreto*: existe apenas um número finito de ações possíveis em cada estado.
+- *conhecido*: o estado resultante de cada ação é conhecido.
+- *determinístico*: cada ação leva a apenas um estado.
+
+Para definir um problema são necessários 5 componentes:
+- *Estado inicial:* estado a partir do qual a busca se inicia.
+- *Ações (ou operadores):* possíveis ações aplicadas a cada estado.
+- *Modelo de transição:* descrição do resultado de cada ação com base no estado atual e na ação tomada.
+- *Teste final:* condições que determinam se um estado é o objetivo.
+- *Custo do caminho:* função que atribui um custo ao caminho, mede a qualidade da solução.
+
+Uma *solução* é uma sequência de ações que vai do estado inicial ao estado objetivo.
+
+** Algoritmos de busca
+Com um problema formulado, a solução consiste em realizar uma busca no espaço de estados até encontrar uma sequência de ações que atinjam o estado objetivo. O processo de busca acaba por construir uma *árvore de busca*, cuja raiz é o estado inicial, os nós são os demais estados, as ligações entre nós são as ações e a solução é o caminho da raiz até o nó final (estado objetivo).
+
+No geral os algoritmos de busca possuem a mesma estrutura básica, que consiste em expandir os nós a partir das ações possíveis, gerando novos nós e repetir o processo até que se atinja o nó final. Apesar disso, os algoritmos diferem na *estratégia de busca*, que determina o critério usado para selecionar o próximo nó a ser expandido na árvore de busca.
+
+*** Busca desinformada
+As estratégias de busca desinformada não consideram informação adicional sobre o problema além da definição do mesmo. Tendo isso em vista, os algoritmos nessa categoria devem testar todos os nós até encontrar o estado objetivo.
+
+[[../Attachments/IA/breadthanddepth.gif]]
+
+**** Breadth-First (Busca em Largura)
+Esse algoritmo consiste em verificar e expandir os nós da árvore de busca nível por nível, dessa forma todos os nós de um determinado nível são expandidos antes de se iniciar a expansão dos nós do próximo nível.
+
+Uma implicação interessante da busca nível a nível é que esse algoritmo sempre encontra o *caminho mais curto* (não necessariamente o caminho ótimo) para a solução.
+
+**** Depth-First (Busca em profundidade)
+A busca em profundidade consiste em expandir o nó mais interno até que o nó desse ramo não tenha mais sucessores, após isso retrocede-se ao nó mais profundo e o processo é repetido.
+
+Esse algoritmo *não garante* o caminho mais curto nem a solução ótima, mesmo se as ações tiverem o mesmo custo.
+
+Note que em sua versão mais simples, a busca em profundidade apresenta algumas limitações. Uma delas é a possibilidade de expansão indefinida em um ramo, sem que a solução seja encontrada. Pensando nisso, algumas variações da busca em profundidade foram desenvolvidas na tentativa de remediar algumas dessas limitações fundamentais:
+
+- Busca Limitada: define previamente um nível máximo para a expansão dos nós (note que caso o objetivo esteja em um nível abaixo do limite, ele não será encontrado).
+- Busca Limitada Interativa: uma versão melhorada da busca limitada na qual o limite é dinâmico e vai sendo incrementado até que a solução seja atingida.
+- Backtracking: apenas o caminho sendo explorado é armazenado, os filhos de cada nó são gerados e explorados um por vez.
+
+**** Busca de Custo Uniforme
+Esse algoritmo difere dos demais no sentido de que ele leva em conta o custo dos movimentos de um nó ao outro. A *função de custo* faz parte da definição do problema, e é utilizada por esse algoritmo para decidir qual nó expandir em seguida.
+
+O algoritmo consiste em expandir o nó inicial, manter uma lista dos nós não expandidos ordenada pelo custo dos nós, e então visitar e expandir cada nó de acordo com a ordem dessa lista. Dessa forma os nós menos custosos são sempre verificados primeiro. Quando um nó é expandido, é necessário verificar se ele já havia sido visitado antes (mantendo um alista de nós já expandidos), caso ele já tenha sido visitado, é necessário comparar o custo do caminho atual com o do caminho anterior para aquele nó, e manter apenas o caminho menos custoso. Um ponto importante é que a verificação de nó objetivo só deve ser feita no nó selecionado, e não nos nós expandidos, pois com o primeiro método há a garantia de encontrar sempre o caminho menos custoso para o nó objetivo.
+
+Note que o algoritmo de busca de custo uniforme garante sempre a *solução ótima*, ou seja, a solução de menor custo para o problema.
+
+*** Busca informada
+Ao contrário da busca desinformada, a busca informada é uma estratégia de busca que considera *informação específica sobre o problema*, que vão além da definição básica do problema. Nesse tipo de busca, as informações sobre o problema são usadas no momento de selecionar o *próximo nó* a ser expandido. Dessa forma, essa estratégia *não é exaustiva*, ou seja, há mecanismos para evitar que todos os nós devem ser testados para se encontrar o estado objetivo.
+
+As informações específicas ao problema são formuladas como *heurísticas*, que são regras simples utilizadas para avaliar rapidamente um estado. As heurísticas são expressas como funções, de forma que é possível aplicá-las a cada estado.
+
+As heurísticas permitem a aproximação de uma solução, por essa razão são utilizadas principalmente em situações nas quais um problema não possui uma solução exata, ou se essa solução existe mas é muito custosa computacionalmente.
+
+Vale destacar que as buscas com base em heurísticas são *sujeitas a falhas*, no sentido de que a busca pode não encontrar a solução ou encontrar uma solução sub-ótima.
+
+**** Busca pela melhor escolha (best-first)
+A busca pela melhor escolha utiliza as heurísticas na forma de uma *função de avaliação* $f(n)$, que aplicada a um estado retorna um valor numérico. A função de avaliação é utilizada para determinar o *quão desejável* é expandir um determinado nó.
+
+De maneira semelhante aos algoritmos de busca desinformada, esse tipo algoritmo mantém listas de nós abertos e fechados, mas armazena também para cada nó expandido o valor da função de avaliação aplicada a ele. Dessa forma, o algoritmo *expande primeiro* os nós com o *melhor valor* da função de avaliação.
+
+A *função de avaliação* pode levar em conta duas métricas:
+
+- A *função de custo* $g(n)$, que representa o custo do caminho da raiz até o nó $n$.
+- A *função heurística* $h(n)$, que representa a estimativa de custo do caminho do nó $n$ até o objetivo.
+
+  Vale destacar que o algoritmo de busca pela melhor escolha é na realidade um *modelo* que *engloba diversos outros algoritmos* de busca informada. A ideia geral do algoritmo se mantém, mas as variações de algoritmos surgem nas *diferentes definições* para a *função de avaliação*.
+
+***** Busca Gulosa (Greedy)
+Esse algoritmo utiliza como função de avaliação apenas a *função heurística*, ou seja, $f(n) = h(n)$. Dessa forma, os nós considerados mais próximos do objetivo são expandidos primeiro.
+
+Note que não há nenhuma garantia de que esse algoritmo encontra a solução ótima. Entretanto, esse algoritmo é *geralmente* muito *rápido* (pois a função heurística geralmente é de baixo custo computacional). Isso torna o algoritmo de busca gulosa desejável em situações onde o desempenho é preferível ao invés da solução ótima.
+
+***** A*
+Utiliza como função de avaliação uma soma da *função de custo* e da *função heurística*, portanto $f(n) = g(n) + h(n)$. Sendo assim, esse algoritmo considera não só a estimativa do custo do caminho do nó $n$ até o objetivo, mas também o custo do caminho percorrido até o nó.
+
+A garantia de que esse algoritmo encontra a *solução ótima* depende da definição da *função heurística*. Se a função heurística nunca superestima o custo de alcançar um objetivo, ou seja, $h(n)$ nunca ultrapassa o custo real do caminho de $n$ até o objetivo, então o algoritmo A* encontra sempre a solução ótima.
+
+**** Busca Local
+Os algoritmos de busca local diferem bastante dos outros enunciados até o momento. Essa classe de algoritmos levam em conta *apenas o estado corrente* e se movem apenas para os estados vizinhos deste, *sem levar em conta os caminhos para os estados*. Dessa forma, esse tipo de algoritmo *não mantém* uma lista de *nós abertos e fechados*, sendo necessário armazenar *apenas o estado atual* para então expandi-lo e avaliar os estados possíveis a partir deste.
+
+Esses algoritmos geralmente são *eficientes em termos de memória*, pois não é necessário manter todo o espaço de estados armazenado através de listas de nós. Entretanto, podem muitas vezes levar a *soluções sub-ótimas* ou não levar a solução alguma.
+
+Geralmente os algoritmos de busca local atuam bem em problemas de otimização, nos quais o objetivo é encontrar o *melhor estado* de acordo com uma *função objetivo*.
+
+***** Hill-climbing
+O algoritmo hill-climbing é um exemplo claro de algoritmo de busca local. Ele consiste em *expandir um nó* e *avaliar seus descendentes* através de alguma função, que geralmente envolve alguma heurística do problema. Em seguida, o nó com a *melhor avaliação* entre os descendentes é *selecionado* para continuar a busca, e o processo se repete até que o nó selecionado *não gere descendentes com uma avaliação melhor*.
+
+** Algoritmos evolutivos
+O algoritmos evolutivos se baseiam na teoria da *seleção natural* de /Charles Darwin/. No início há uma população de indivíduos com diferentes características. Os indivíduos com as melhores característica (mais aptos) são *selecionados* e se reproduzem, gerando uma nova população (geração) de novos indivíduos com *caraterísticas similares*. Dessa forma, a *probabilidade* dos indivíduos *mais aptos reproduzirem suas características* é maior do que a probabilidade dos indivíduos menos aptos fazerem o mesmo.
+
+Nesse tipo de algoritmo, a *solução* de um problema é *representada como um indivíduo*, e uma população consiste em um conjunto de soluções. A ideia então é aplicar uma seleção +natural+ artificial para derivar soluções cada vez melhores.
+
+Um ponto importante para esses algoritmos é a *representação dos indivíduos* e como avaliá-los através de suas características. Essa representação geralmente se baseia na ideia de /genótipos/ e /fenótipos/ da biologia. O *genótipo* é o *conjunto de características* do indivíduo (representado por alguma estrutura de dados), enquanto o *fenótipo* é a forma que o *genótipo* é *aplicado* para *solucionar o problema*. Sendo assim, o fenótipo é o resultado que a solução representada pelo genótipo consegue obter.
+
+Para medir o resultado das soluções, é necessário uma /função de aptidão/ $f: I \to \mathbb{R}$, que *associa indivíduos a um valor de aptidão*.
+
+Os algoritmos evolutivos geralmente seguem o fluxo descrito na imagem, ou seja, a partir de uma *população inicial* são feitas *seleções*, *cruzamentos* e *mutações*, gerando uma nova população, que é selecionada para então repetir o processo até que algum *critério de parada* seja atingido.
+
+Os *critérios de parada* são definidos de acordo com o problema, mas geralmente podem envolver casos como: a convergência da população para uma solução, número máximo de gerações, limite de gerações sem melhora etc.
+
+#+caption: Fluxo de um algoritmo evolutivo
+#+attr_org: :width 600
+[[file:../Attachments/IA/evolutionalgorithm.png]]
+
+*** População inicial
+Uma *população inicial* deve ser *diversa*, ou seja, deve conter indivíduos com características variadas, para aumentar o espaço de busca da solução e, consequentemente, as chances de encontrar a solução ótima. A população inicial pode ser composta por indivíduos conhecidos previamente para o problema, como soluções em potencial, soluções já conhecidas ou até mesmo soluções aleatórias geradas para o problema.
+
+*** Seleção
+Dada uma população, antes de iniciar a combinação e mutação entre os indivíduos, é necessário antes *selecionar os mais aptos* a fim de aumentar as chances de aumento de aptidão entre os novos indivíduos gerados. Dessa forma, a seleção é feita de forma que os *indivíduos mais aptos* possuem *maior probabilidade* de seleção. Diferentes métodos podem ser empregados para a seleção, sendo aqui destacados apenas os mais comuns.
+
+**** Seleção proporcional
+Esse método de seleção define que a probabilidade de seleção dos indivíduos é proporcional a sua aptidão. A probabilidade de seleção de um indivíduo $i$ de uma população de tamanho $|P|$ é igual a:
+
+$$
+p_i = \frac{f(i)}{\sum_{j=1}^{|P|}f(j)}
+$$
+
+**** Seleção determinística
+Na seleção determinística os indivíduos são sorteados aleatoriamente e comparados entre si, sendo selecionados apenas o indivíduo com a maior aptidão entre os selecionados. O processo se repete até que todos os indivíduos da população tenham sido testados, tendo sido selecionados apenas aqueles que tiveram a maior aptidão dentre os selecionados em seu turno.
+
+*** Operadores genéticos
+A *geração de novos indivíduos* é feita através da aplicação de operadores genéticos. Nesse momento é feita efetivamente uma *busca por novas soluções*, pois novas soluções são geradas a partir das soluções selecionadas. Esses operadores podem ou não utilizar *heurística* para guiar a busca por novas soluções, ou seja, guiar a aplicação dos operadores entre os indivíduos.
+
+**** Cruzamento
+No processo de cruzamento, os indivíduos selecionados são cruzados dois a dois, combinando características dos progenitores para gerar novos indivíduos, chamados de descendentes.
+
+A combinação das características dos progenitores pode ser feita de diversas maneiras: trocando características entre os progenitores, utilizando-as como base para gerar características totalmente novas nos descendentes etc.
+
+**** Mutação
+A mutação consiste em modificar parte das características de um indivíduo para gerar uma nova característica que não está relacionada a seus progenitores. Esse processo gera soluções inéditas que podem não depender das características anteriores.
+
+Geralmente define-se uma taxa de mutação, que define a probabilidade de uma característica sofrer mutação.
+
+**** Elitismo
+O elitismo consiste em selecionar os melhores indivíduos de uma população e incluí-los na próxima geração. Note que os operadores de cruzamento e mutação nem sempre melhoram a população, portanto o processo de elitismo garante que pelo menos alguns indivíduos da próxima geração serão tão bons quanto os melhores indivíduos da geração anterior.
+
+* Representação do Conhecimento e Raciocínio
+A *representação do conhecimento* e o *raciocínio* são questões *essenciais* para a inteligência artificial simbólica. A ideia é desenvolver sistemas que *representam conhecimento* e o *utilizam para produzir resultados*. Esses sistemas são chamados de /sistemas baseados em conhecimento (SBC)/. Sistemas baseados em conhecimento devem fornecer meios tanto para adicionar conhecimentos à *base de conhecimento* quanto para obter *inferências* com base nos conhecimentos já existentes.
+
+A *base de conhecimento* consiste em um conjunto de *sentenças*. As sentenças são *declarações* que *expressam conhecimento* sobre o domínio da aplicação. Note que as sentenças devem ser representadas em uma *linguagem sistematizada* e que remova o máximo de ambiguidades, uma linguagem utilizada para esse fim é chamada de *linguagem de representação do conhecimento*.
+
+Dentre as linguagens de representação do conhecimento, a *lógica matemática* se destaca como uma representação formal amplamente usada tanto para *representar o conhecimento* quanto para *modelar o raciocínio* através da *inferência lógica*.
+
+No campo da lógica matemática existem diversas lógicas específicas, com particularidades tanto de representação quanto de inferência. Em geral, alguns *componentes e propriedades são necessários* à qualquer lógica *para representar conhecimento e raciocinar* com base no mesmo:
+
+- O conceito de *verdade* é essencial para avaliar a veracidade das sentenças e a partir disso construir o conhecimento.
+- Um *mundo possível* é um ambiente real do qual se extrai ou ao qual se aplica o conhecimento.
+- Um *modelo* é a especificação formal de um mundo possível. Um modelo *define o valor-verdade de uma sentença*. Dizemos que um modelo *satisfaz* uma sentença se essa sentença for *verdadeira* para o modelo.
+- A *consequência lógica* define as relações entre sentenças, compondo a base da inferência lógica.
+- A *inferência lógica* consiste na verificação da consequência lógica entre sentenças, permitindo verificar se uma sentença decorre de um conjunto de sentenças já conhecidas.
+- A *consistência* é uma propriedade de algoritmos de inferência que derivam apenas sentenças permitidas dentro da sintaxe e semântica da lógica.
+- A *completeza* de um algoritmo de inferência é uma propriedade que indica se o dado algoritmo é capaz de derivar qualquer sentença possível dentro da lógica em questão.
+
+* Aprendizado de Máquina
+O aprendizado de máquina é a área da computação que estuda técnicas que permitem que sistemas computacionais "aprendam" a realizar tarefas com base em dados prévios sobre o problema, sem serem explicitamente programados para a tarefa.
+
+A grande maioria das estratégias de aprendizado de máquina realizam o chamado *aprendizado indutivo*, que se baseia no processo de *indução* para derivar conclusões genéricas sobre um conjunto particular de conhecimento e observações empíricas. A ideia básica é apresentar uma série de exemplos a um algoritmo, que fará o processo de indução para, a partir os exemplos e dados de situações específicas, obter *hipóteses* capazes de inferir conclusões sobre novos dados.
+
+Todo algoritmo de aprendizado de máquina possui algum *viés*, isto é, a tendência a privilegiar uma hipótese ou conjunto de hipóteses no processo de generalização. O viés pode ser resultado tanto da *representação* das hipóteses pelo algoritmo, que define e restringe o espaço de hipóteses possíveis, quanto da própria busca e os métodos utilizados para considerar uma hipótese melhor do que a outra. Vale destacar que o viés é essencial para restringir o espaço de hipóteses possíveis e de fato encontrar uma generalização. Sem viés não seria possível obter nenhuma generalização a partir de dados.
+
+É necessário notar a relação da variância e do viés com relação à capacidade de generalização de um algoritmo. Caso o viés seja muito fraco, há a possibilidade de *underfitting*, ou seja, o modelo gerado pelo algoritmo é tão genérico que é incapaz de fazer qualquer inferência, mesmo com os dados usados para o treinamento. O caso contrário seria o de um viés muito forte, situação na qual é possível observar o *overfitting*, ou seja, o modelo se adéqua tanto aos dados de treinamento que se especializa nos dados fornecidos para o treino, sendo incapaz de generalizar e inferir conclusões sobre novos conjuntos de dados .
+
+#+caption: Visualização de situações de underfitting e overfitting
+#+attr_org: :width 700
+[[file:~/dox/vault/Attachments/IA/overfittingunderfitting.png]]
+
+Os algoritmos de aprendizado de máquina podem ser aplicados na resolução dos mais diversos problemas. Por essa razão há uma grande *variedade de algoritmos* especializados em classes específicas de problemas. Geralmente a *classificação* dos algoritmos é dada de acordo com o *tipo de tarefa* a ser realizada.
+
+#+caption: Classificações de aprendizado de máquina
+#+attr_org: :width 700
+[[file:~/dox/vault/Attachments/IA/mltypes.png]]
+
+** Aprendizado supervisionado
+O aprendizado supervisionado é um paradigma de aprendizado aplicado principalmente em problemas de classificação e regressão. Em ambos os tipos de problemas são fornecidos conjuntos de dados de treinamento com diversos atributos de entrada e um atributo de saída. A ideia é que o algoritmo gere um modelo capaz de, dado um novo conjunto de atributos de entrada diferente daqueles utilizados para o treinamento, produza o atributo de saída esperado. O conceito de *aproximação de funções* é muito relacionado a esse paradigma de aprendizado.
+
+Problemas de *classificação* geralmente envolvem a associação de atributos de entrada a um atributo de saída discreto (geralmente uma classe ou *categoria*). Problemas desse tipo envolvem a identificação de fraudes, classificação de imagem, diagnósticos etc. Problemas de *regressão* partem do mesmo princípio, entretanto a ideia é associar atributos de entrada a um atributo de saída contínuo (um valor numérico). Problemas desse tipo envolvem predições de mercado financeiro, estimativa de funções etc.
+
+O termo "supervisionado" se origina do pressuposto que há algum *agente externo* que conhece a *saída esperada* para cada exemplo no conjunto de dados de treinamento, portanto é possível avaliar a capacidade de predição dos modelos gerados.
+
+*** Árvores de decisão
+Árvore de decisão é uma classe de algoritmos de aprendizado de máquina *supervisionado* aplicado em problemas de *classificação*, ou seja, problemas nos quais a partir de um conjunto de atributos deseja-se obter um novo atributo discreto (uma classe).
+
+A ideia é representar o processo de identificação da classe como uma árvore na qual cada os nós internos são atributos e os nós folhas são as possíveis classes.
+
+#+caption: Um exemplo de árvore de decisão
+#+attr_org: :width 700
+[[file:~/dox/vault/Attachments/IA/decisiontree.png]]
+
+Para gerar uma árvore de decisão é necessário *particionar* o *conjunto de treinamento* com base em um *atributo* até que os conjuntos resultantes do particionamento contenham dados de uma única classe. Para avaliar qual atributo escolher para particionar o conjunto de treinamento em cada nó da árvore, é possível utilizar algumas medidas:
+
+- *Entropia:* Medida de incerteza de uma variável randômica
+- *Ganho de informação:* redução em entropia
+
+Dessa forma, é dada prioridade ao atributo que oferece o maior ganho de informação para cada conjunto de dados. O algoritmo selecionar o atributo consiste em:
+
+1. Calcular a entropia do conjunto de dados
+2. Calcular o ganho de informação de cada atributo
+3. Selecionar o atributo com o maior ganho de informação
+
+Dado um conjunto de dados $S$ com $c$ classes, o cálculo da *entropia* do conjunto é dado por:
+
+$$H(S) = - \sum_{i=1}^c{p_i \log_2{p_i}}$$
+
+no qual:
+
+$$p_i = \frac{n_i}{n}$$
+
+onde $n_i$ corresponde ao número de exemplos da classe $i$ e $n$ corresponde ao número total de exemplos no conjunto de dados.
+
+O ganho de informação de um atributo é a redução da entropia com a escolha desse atributo. Para calcular o ganho de informação é necessário calcular a entropia de todos os subconjuntos gerados pela escolha de um atributo. Dessa forma, o ganho de informação resultante da escolha de um atributo $A$ em um conjunto de dados $S$ é dado por:
+
+$$Ganho(A) = H(S) - HRestante(A)$$
+
+Onde $HRestante$ corresponde a entropia restante. Dado que a escolha de um atributo $A$ que pode assumir $d$ valores distintos divide o conjunto $S$ em $d$ subconjuntos $E_1, E_2, \dots, E_d$, a entropia restante é dada por:
+
+$$HRestante(A) = \sum_{k=1}^d{\frac{|E_k|}{|S|}H(E_k)}$$
+
+*** Redes neurais
+Uma rede neural é um algoritmo de *aprendizado supervisionado* que consiste em uma rede composta por diversos nós chamados *neurônios* conectados através das diversas camadas da rede. O objetivo das redes neurais é *reconhecer padrões* entre as variáveis de entrada através de um processo que simula o funcionamento do cérebro humano.
+
+#+caption: Topologia de uma rede neural com duas camadas escondidas.
+#+attr_org: :width 800
+[[file:../Attachments/IA/neuralnetwork.gif]]
+
+Um neurônio é essencialmente uma *função* cujas entradas são as saídas dos neurônios da camada anterior (ou as entradas da rede, no caso da camada de entrada da rede). A cada neurônio é associado um vetor de *pesos*, que pondera cada valor de entrada. O processo de aprendizado de redes neurais consiste no *ajuste dos pesos* de cada neurônio de maneira iterativa.
+
+De maneira simplificada, durante o processo de treinamento a informação pode fluir nos dois sentidos da rede. No processo de *forward propagation* os dados de entrada atravessam a rede através dos neurônios, gerando uma saída. Já no processo de *backward propagation* o resultado da rede é confrontado com o resultado esperado, obtendo-se um erro com base no qual os pesos dos neurônios vão sendo ajustados na ordem contrária.
+
+#+caption: Processo de forward e backward propagation.
+#+attr_org: :width 600
+[[file:../Attachments/IA/backwardpropagation.gif]]
+
+**** Perceptron
+O perceptron foi o primeiro modelo de rede neural de fato implementada como um algoritmo. O modelo hoje compreende a forma mais simples de uma rede neural, podendo ser utilizada para classificar *padrões linearmente separáveis*, ou seja, que podem ser separados por apenas um hiperplano, em um conjunto com *classes binárias*.
+
+#+caption: Paralelo entre um neurônio e o modelo de um neurônio artificial.
+#+attr_org: :width 600
+[[file:../Attachments/IA/artificialneuronmodel.png]]
+
+A rede consiste de um único neurônio com um vetor de *pesos* $(w_1, w_2, \dots w_n)$ que pondera cada um dos atributos de entrada $(x_1, x_2, \dots, x_n)$. Veja ainda que é adicionado um /bias/ às entradas, que pode ser representado por uma entrada $x_0 = 1$ ponderada por um fator $b$.
+
+No caso do perceptron, a função linear é a *combinação linear* das entradas ponderadas pelos pesos. O resultado dessa função é chamado *potencial de ativação* do neurônio, dado por:
+
+$$z= \sum_{i=1}^{n}{w_ix_i} + b$$
+
+O potencial de ativação é então usado como entrada para uma *função de ativação*, que tem o papel de normalizar o potencial de ativação. No caso do perceptron a função de ativação mais comum é a função $\text{sign}$:
+
+$$
+\text{sign}(x) = \begin{cases}
++1 \text{ se  } x > 0\\
+-1 \text{ se  } x \leq 0\\
+\end{cases}
+$$
+
+Dessa forma, os resultados possíveis do neurônio são $-1$ ou $1$, sendo possível identificar apenas classes binárias.
+
+O processo de aprendizado se dá de forma iterativa, ajustando os pesos da rede de acordo com o erro cometido. Após aplicar um exemplo à rede, confronta-se o resultado obtido $y$ com o resultado esperado $d$ para o dado exemplo. Com base nisso os pesos na próxima iteração são dados pela seguinte expressão:
+
+$w - \eta(d-y)x$
+
+Onde $\eta$ é o *fator de aprendizado*, um parâmetro que controla o quão agressivos são os ajustes dos pesos da rede. Um fator de aprendizado alto aumenta a velocidade de convergência do algoritmo, porém aumenta as chances da convergência se dar em um ponto de mínimo local do erro, ou seja, as chances do ajuste ótimo de pesos ser encontrado diminui. Note que como as classes são dadas por $1$ ou $-1$, o ajuste só ocorre caso a classe predita seja diferente da classe verdadeira do exemplo.
+
+A fórmula de ajuste dos pesos é obtida através do *gradiente descendente*, uma técnica de otimização cujo objetivo é encontrar o *mínimo local* de uma *função derivável*. A ideia é derivar o *erro quadrático médio* da previsão gerada pelo neurônio na direção de cada um dos pesos para obter o fator de ajuste de cada peso.
+
+*** Avaliação de algoritmos de aprendizado supervisionado
+A avaliação de algoritmos de aprendizado supervisionado consiste em *testar o modelo* obtido através de um algoritmo utilizando exemplos cujo resultado esperado já é conhecido.
+
+O primeiro passo para a avaliação é fazer uma *amostragem* do conjunto de dados inicial, dividindo o conjunto em um conjunto de treinamento e um conjunto de teste. Dessa forma, é possível testar o modelo utilizando dados que não foram utilizados no treinamento, tornando a avaliação mais confiável. Os principais métodos de amostragem são
+
+- *Resubstituição*: o modelo é treinado e testado com o mesmo conjunto de dados.
+- *Holdout*: o conjunto de dados original é divido em uma porcentagem fixa de exemplos para treinamento e teste.
+- *Cross-validation*: o conjunto de dados com $n$ exemplos é dividido aleatoriamente em $r$ partições de tamanho $\frac{n}{r}$, sendo que uma das partições é utilizada para teste, enquanto as outras são utilizadas para treinamento. O treinamento é repetido $r$ vezes, cada vez com uma partição de teste diferente. Nesse método o erro é dado pela média dos erros de cada um dos $r$ treinamentos.
+
+Feita a amostragem dos conjuntos de treinamento e teste, é necessário avaliar o modelo gerado verificando as predições feitas para os dados do conjunto de teste. Uma ferramenta fundamental para a avaliação das predições é a *matriz de confusão*, que relaciona os resultados esperados com os resultados de fato produzidos pelo modelo quando aplicado ao conjunto de dados de teste.
+
+#+caption:  Matriz de confusão
+#+attr_org: :width 500
+[[file:../Attachments/IA/confusionmatrix.png]]
+
+Com base na matriz de confusão, é possível classificar os resultados em $4$ tipos:
+
+- *True positive (TP)*: a classe predita é positiva e a classe esperada também.
+- *False positive (FP)* (erro tipo $I$): a classe predita é positiva mas a classe esperada era negativa.
+- *True negative (TN)*: a classe predita é negativa e a classe esperada também.
+- *False negative (FN)* (erro tipo $II$): a classe predita é negativa mas a classe esperada era positiva.
+
+Vale notar que a matriz de confusão pode ser facilmente estendida para problemas nos quais há muitas classes possíveis.
+
+Com os resultados verificados na matriz de confusão, é possível derivar *métricas de avaliação* que nos permitem determinar com maior precisão a qualidade dos resultados produzidos pelo modelo.
+
+- A *acurácia* representa a frequência com a qual o classificador previu corretamente a classe: $ac = \frac{TP + TN}{Total}$
+- A *precisão* representa a proporção de acertos do modelo para uma determinada classe: $pr = \frac{TP}{TP + FP}$
+- A *revocação* (recall) representa a proporção de exemplos classificados em uma classe com relação ao total de exemplos daquela classe: $rc = \frac{TP}{TP+FN}$.
+- O *F-score* combina as medidas de precisão e revocação, obtendo um resultado mais completo que descreve o quão bom é o classificador: $F = 2\frac{pr \cdot rc}{pr + rc}$.
+
+** Aprendizado não supervisionado
+O paradigma de aprendizado supervisionado é utilizado principalmente em problemas de agrupamento, associação e sumarização de dados. Esses tipos de algoritmos não buscam inferir conclusões a partir de novos conjuntos de dados, mas sim *descrever*, *aprofundar* e obter informações sobre um *conjunto de dados específico*.
+
+Problemas comuns que utilizam aprendizado não supervisionado são problemas de *associação e visualização de dados* em um grupo. Esses algoritmos permitem, por exemplo, fornecer informações sobre quais tipos de produtos são frequentemente comprados juntos, ou quais perfis de consumidor são mais propensos a comprarem determinada categoria de produto.
+
+O termo "não supervisionado" deriva do fato de que não há algum agente externo, nem há uma saída esperada e conhecida para um determinado conjunto de dados de treinamento. A ideia desse tipo de algoritmo é explorar e derivar informações úteis sobre um conjunto de dados, não generalizar hipóteses para predições com novos dados.
+
+*** Regras de associação
+O processo de extração de regras de associação tem como objetivo extrair *associações entre atributos* do conjunto de dados com base na frequência em que diferentes valores ocorrem juntos. Através da extração das regras é possível obter padrões de comportamento úteis do conjunto de dados original. Um problema comum que envolve regras de associação é o de relacionar produtos que são comprados juntos em algum tipo de comércio a fim de oferecer combinações de produtos que tem maior probabilidade de serem comprados juntos.
+
+Dada uma base de dados composta por um conjunto de itens $A=\{a_1, a_2, \dots, a_n\}$ e um conjunto de transações $T=\{t_1, t_2, \dots, t_n\}$ em que cada transação $t_i$ consiste em um conjunto de itens tal que $t_i \subseteq A$, uma *regra de associação* é uma implicação na forma
+
+$L \implies R$
+
+em que $L$ e $R$ são conjuntos de itens que estão contidos em $A$ tal que $L \cap R = \emptyset$.
+
+Uma regra de associação tem *suporte* $s$ se em $s\%$ das transações em $T$ ocorre $L \cup R$, ou seja, o suporte representa a porcentagem de transações que apresentam ambos os componentes da regra. Já a *confiança* $c$ de uma regra é dada pela porcentagem das transações em $T$ em que se $L$ ocorre então $R$ também ocorre, ou seja: $c=suporte(L \cup R) \div suporte(L)$.
+
+Os algoritmos de extração de regras de associação geralmente seguem um processo padrão de tarefas:
+
+1. Encontrar todos os conjuntos de itens que possuem suporte maior que um *suporte mínimo* fixado.
+2. Utilizar todos os conjuntos de itens para gerar as regras de associação que possuem confiança maior do que uma *confiança mínima* fixada.
+
+As métricas de confiança e suporte, apesar de essenciais, não são suficientes para determinar com certeza a utilidade da regra extraída. Tendo isso em vista, duas outras métricas são utilizadas para avaliar as regras obtidas pelos algoritmos:
+
+O *lift* representa a noção estatística de independência entre duas variáveis aleatórias. Aplicado a uma regra de associação, o lift indica o quão *correlacionados* estão os componentes da regra.
+
+$Lift(A \implies B) = \frac{confianca(A \implies B)}{suporte(B)} = \frac{suporte(A \cup B)}{suporte(A) \cdot suporte(B)}$
+
+A *convicção* representa o quão convincente é a regra, também podendo ser interpretada como a *frequência de erro* da regra.
+$$Conv(A \implies B) = \frac{1-suporte(B)}{1-confianca(A \implies B)}$$
+
+**** Apriori
+O algoritmo Apriori utiliza de um processo iterativo para encontrar todos os conjuntos de *itens frequentes* contidos em uma base de dados e, a partir desses conjuntos, *gerar regras* de associação com base em parâmetros de suporte e confiança mínimos.
+
+De maneira geral, cada iteração $k$ do algoritmo executa três fazes:
+
+1. A *geração de candidatos* de tamanho $k$, onde são utilizados os conjuntos frequentes de tamanho $k-1$ para gerar conjuntos candidatos (não necessariamente frequentes) de tamanho $k$ através da combinação dos itens dos conjuntos.
+2. A *poda de candidatos*, onde são descartados os candidatos gerados que possuem um subconjunto de itens de tamanho $k-1$ não frequente.
+3. O *cálculo do suporte*, fase na qual o banco de dados com as transações é percorrido para calcular o valor do suporte para cada um dos candidatos, eliminando os candidatos com suporte inferior ao suporte mínimo fixado.
+
+Quando não for mais possível gerar novos candidatos o processo se encerra, resultando em um conjunto de vários conjuntos de itens frequentes, partir do qual é possível extrair as regras de associação. Para cada conjunto $I$ de tamanho $k$ resultante, geram-se todos os subconjuntos $a$ de $I$ para gerar regras na forma $a \implies (I-a)$.
+
+*** Agrupamento
+A tarefa de agrupamento (/clustering/) consiste em, dado um conjunto de dados, *agrupar* pontos de dados mais *similares* entre si em /clusters/ (grupos). Os pontos fundamentais em tarefas de agrupamento consistem principalmente na definição de uma *medida de similaridade*, na definição de um *número ideal de grupos* e também na *validação e interpretação* de um resultado de agrupamento.
+
+#+caption: Aplicação de clustering em um conjunto de dados com dois atributos
+#+attr_org: :width 600
+[[file:../Attachments/IA/clustering.png]]
+
+As *medidas de similaridade* consistem em medidas objetivas para determinar o quão próximo (ou distante) um objeto está do outro no contexto do agrupamento. Diversas medidas podem ser adotadas, sendo que a escolha de adoção de uma medida é dada com base nas características do conjunto de dados.
+
+Uma medida amplamente utilizada para conjuntos de dados com atributos contínuos é a *distância*, calculada através da distância euclidiana entre dois pontos de dados em um espaço cujas dimensões são dadas pelos atributos do conjunto de dados. Vale notar que a similaridade entre dois pontos é inversamente proporcional a distância entre eles.
+
+O *número ideal de grupos* não é algo determinístico, ou seja, para um mesmo conjunto de dados é possível que existam diversos números de grupos possíveis. Dessa forma, geralmente são empregados processos empíricos para determinar qual o número ideal de grupos para um conjunto de dados e problema específicos.
+
+Em geral existem duas categorias de agrupamento:
+
+- O *agrupamento hierárquico* divide os dados em grupos *aninhados*, representados por uma estrutura de árvore chamada dendrograma.
+- O *agrupamento particional* divide os dados em grupos sem sobreposição (partições), criando agrupamentos de forma que um ponto de dado pertence a somente um grupo.
+
+O agrupamento particional é o tipo mais popular de algoritmo de agrupamento, sendo particularmente eficiente para conjuntos de dados grandes. Entretanto, vale notar que esse tipo de particionamento exige que o número de grupos seja definido previamente. A ideia dos algoritmos de agrupamento particional é encontrar e ajustar *centros* de grupos que possam caracterizar características relevantes no conjunto de dados.
+
+O algoritmo *k-means* é o mais simples e conhecido algoritmo de agrupamento que utiliza o erro quadrático como critério de agrupamento. A ideia é gerar um conjunto inicial de *centroides* e então iniciar um processo iterativo que consiste na associação entre pontos de dados e centroides de forma a minimizar a distância entre cada ponto de dado e seu centroide; a atualização dos centroides calculando a média dos pontos de dados associados a eles. O processo é repetido até que algum critério de parada (geralmente que nenhuma mudança nos centroides ocorra entre duas iterações) seja atingido.
+
+#+caption: Funcionamento do algoritmo K-means
+#+attr_org: :width 500
+[[file:../Attachments/IA/kmeans.gif]]
+
+** Aprendizado por reforço
+O aprendizado por reforço se baseia no *feedback* positivo ou negativo ao modelo dependendo da ação escolhida pelo mesmo. A ideia é que o modelo aprenda através das próprias experiências positivas e negativas.
+
+Problemas comuns nessa área geralmente envolvem tomada de decisões, jogos, navegação, etc.

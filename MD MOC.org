@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID: 7FAA7D1F-8519-49A5-B8DE-CE2B9B3F2474
+:END:
+#+title: MD MOC
+
+* Matemática Discreta
+A matemática discreta tem como objeto de estudo as estruturas matemáticas discretas, isto é, estruturas que não apresentam continuidade (como o conjunto dos números inteiros). Durante a disciplina foram utilizados diversos materiais, dentre eles uma [[file:EstruturasDiscretas_HelenaCaseli.pdf .org][ apostila da professora]] e uma [[file:ElementosDiscretos_GomideStolfi.pdf .org][ apostila da unicamp]].
+
+[[id:D59212F8-7822-45C5-A37A-88C3198645A3][Conjuntos]]
+[[id:F7624B42-4E85-4CD2-9261-46D467F421E1][Operações em conjuntos]]
+
+[[id:C0EE07DB-6190-41B1-94D7-426EFFE7C2F7][Demonstração de teoremas]]
+
+[[id:9A9729FB-2119-409D-A00D-CFE57CADD80A][Relações]]
+[[id:DB4C568D-C7A7-4605-A6F7-CBEF0274ECC9][Propriedades das autorrelações]]
+[[id:8C042572-E1C0-4E8E-89B9-868346D3E64C][Relações de equivalência]]
+[[id:A305B610-5DDE-4B80-A19B-84812E344F68][Relações de ordem]]
+
+[[id:3B00F6D3-3F35-473F-9469-A5A3CF67A3C5][Funções]]
+
+[[id:179C58B3-0C8A-46B4-A7C9-943F21E9067C][Somatórios e produtórios]]
+
+[[id:1E7510F3-6EA9-405E-B976-9BE35F94A90E][Teoria dos Números]]
+[[id:D3F57400-F927-486B-B084-04216ADF0135][Aritmética modular]]
+
+** Teoria dos grafos
+[[id:C3D5CF02-7C9A-470B-AE4B-C49C7EF7E6CA][Grafos]]
+[[id:C0555EE1-2632-4AC7-9144-790C3A04412D][Grafos orientados]]
+[[id:0AEC3218-E628-402A-9689-C1438FEAED83][Grafos não orientados]]
+[[id:B50F1F5B-C4E0-4891-BC66-684A656398A1][Classificação de grafos]]
+[[id:98FCF570-211E-4A57-AF79-A4588C0C4E76][Passeio em grafos]]
+[[id:737E198C-6B87-426E-8F13-089921BC5565][Conectividade em grafos]]
+[[id:593955CB-EF89-48DC-A04B-20F4E3B98DC5][Isomorfismo em grafos]]
+[[id:DE95C1EB-6F0D-45E5-ADEA-AED5A7333E5D][Árvore]]
+[[id:E56540BE-496E-47E1-B677-1FF45DDA88B7][Grafo bipartido]]
+[[id:2D8D8FFE-66B8-4034-A661-C9547BE7929E][Grafo euleriano]]
+[[id:CA2EDD2F-2DC9-46F8-8020-23BB200DC732][Grafo hamiltoniano]]
+[[id:C51045F5-90F9-4DFE-A80B-AED454CAA29E][Grafo planar]]
+
+--------------
+
+created: 16/08/2021

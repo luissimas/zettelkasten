@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID: 67137671-CE97-43C0-8756-71106F63F53B
+:END:
+#+title: Valor médio de uma função
+
+* Valor médio de uma função
+Para determinar o valor médio de uma função contínua em um intervalo \([a,b]\), podemos aplicar a seguinte fórmula:
+\[
+  \overline{f}=\frac{\displaystyle\int_a^b{f(x)}\,dx}{b-a}
+\]
+
+--------------
+
+created: 07/12/2020
+modified: 07/12/2020
+
+[[file:calculo1v2020aula20.pdf.org][calculo1v2020aula20.pdf]]
