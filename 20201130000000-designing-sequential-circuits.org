@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID: 71C7F6FF-9547-4182-AD7C-678C21FADB13
+:END:
+#+title: Designing sequential circuits
+
+In order to design [[id:B1E8FF6D-8A21-4A9C-AE1B-6D1DDB84BD6F][sequential circuits]], it's very important to follow a set of steps that ensure the design of the most efficient circuit possible.
+
+1. Functional description and understand the behavior of the circuit.
+2. Create a [[id:FCE93CD2-8D92-4CDF-9332-64A590D91EFA][diagram and a table]] that represents the desired behavior of the circuit. Here we also have to choose which type of flip-flops and which model (/Mealy/ or /Moore/) will be used.
+3. Synthesize the /state table/ and find the minimal-cost function using [[id:0D5B2D2B-F9A8-478F-911A-F6AB160833A9][Karnaugh maps]] or other [[id:32037CD8-306B-4498-8CB2-FDF26754086F][Logic synthesis]] technique.
+4. Draw the logic diagram of the circuit.
+5. Elaborate a *timing diagram* for the circuit to test if the circuit behaves as it should
+
+https://www.youtube.com/watch?v=G86AFmpM0B4

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID: 21AE386F-3C92-4233-B672-06C5A03F6210
+:END:
+#+title: Encoders and decoders
+
+* Decoders
+Decoders are circuits that have inputs valuated to assert only one of the multiple outputs at a time. Usually decoders have a enable input, that enables or disables the decodification of the signal.
+
+#+attr_org: :width 300
+[[file:attachments/decoder.png]]
+
+* Encoders
+Encoders perform the opposite function of decoders, they encode data in a more compact form.
+
+#+attr_org: :width 300
+[[file:attachments/encoder.png]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID: 08B94D05-8F82-4C76-8EB9-D24E8A777F79
+:END:
+#+title: Representation of numbers in Verilog
+
+Numbers can be represented as constants in [[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][Verilog]], the format is:
+
+$$
+\text{<size in bits>'<identifier><digits>}
+$$
+
+The identifier can represent a binary (b), octal (o), hexadecimal (h) or d (decimal).

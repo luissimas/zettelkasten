@@ -1,16 +1,18 @@
 :PROPERTIES:
 :ID: 3533978F-E35F-4B28-8AF0-8FA8E2D618FB
 :END:
-#+title: LD MOC
+#+title: Lógica Digital
+#+filetags: :MOC:
 
 * Lógica Digital
-Lógica Digital é a disciplica que introduz a base para qualquer conceito relacionado a circuitos digitais. O curso todo foi baseado no livro que se encontra nas referências dessa nota. As notas estão organizadas de acordo com os capítulos e seções do livro.
+Lógica Digital é a disciplina que introduz a base para qualquer conceito relacionado a circuitos digitais. O curso todo foi baseado no livro [[file:attachments/Fundamentals_of_Digital_Logic.pdf][Fundamentals of Digital Logic]]. As notas estão organizadas de acordo com os capítulos e seções do livro.
 
 ** Chapter 1
 This chapter introduces the process of designing digital circuits, as well as the [[id:63384077-A1B3-4E87-BA0B-D3721C8C0102][digital representation of information]].
 
 ** Chapter 2
-This chapter is where things really start, it introduces the fundamental concepts to design digital circuits:\\
+This chapter is where things really start, it introduces the fundamental concepts to design digital circuits:
+
 [[id:2FAE20B7-7F7A-42E4-B379-A0A3CFA967F6][Logic functions]]
 [[id:1A9B753E-E05D-4DBA-85A0-B18D6583A7D3][Boolean algebra]]
 [[id:32037CD8-306B-4498-8CB2-FDF26754086F][Logic synthesis]]
@@ -18,6 +20,7 @@ This chapter is where things really start, it introduces the fundamental concept
 
 ** Chapter 3 (sections 3.1 to 3.5)
 This chapter presents the topics involving arithmetic circuits and operations:
+
 [[id:4D663191-E9A5-4704-B79C-A8FA087E7FD1][Positional number representation]]
 [[id:3541D72A-41DB-4950-93A1-4814EDB16F7D][Arithmetic logic circuits]]
 [[id:D482F0DF-3203-4A84-BFED-94344BC062E2][Arithmetic circuits in Verilog]]
@@ -25,12 +28,15 @@ This chapter presents the topics involving arithmetic circuits and operations:
 
 ** Chapter 4
 This chapter presents some interesting combinational circuits:
+
 [[id:7DF44724-50A7-4711-B3E8-85B228EB3BAE][Multiplexers]]
 [[id:21AE386F-3C92-4233-B672-06C5A03F6210][Encoders and decoders]]
 
 ** Chapter 5
 Here we were introduced to circuits that can store information, these circuits are called [[id:B1E8FF6D-8A21-4A9C-AE1B-6D1DDB84BD6F][sequential circuits]]. We also were introduced to the different elements that are used to store information:
+
 [[id:4F33C7AD-E863-404D-B011-EB7793459A48][Latches]]
+[[id:a6be1dd8-a863-484f-bc34-6334be627728][Propagation delay]]
 [[id:860D0638-E241-4BCC-B6A7-1FAB58F2ED36][Flip-Flops]]
 [[id:6CA9DDE1-6128-4FD1-BD48-A943CA3BFD3B][Registers]]
 [[id:5B18C678-59BE-4C72-8296-8A756DE6EDE9][Counters]]
@@ -51,8 +57,3 @@ In the final chapter covered by the course, we are presented to some more aspect
 [[id:95E22236-D77F-4B59-AB0C-97A3C3A229ED][Bus structure]]
 
 --------------
-
-created: 06/11/2020
-modified: 14/12/2020
-
-[[file:Fundamentals_of_Digital_Logic.pdf.org][Fundamentals_of_Digital_Logic.pdf]]

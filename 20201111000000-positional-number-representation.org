@@ -3,12 +3,11 @@
 :END:
 #+title: Positional number representation
 
-* Positional number representation
-We can represent negative numbers using the binary system in a number of ways. In this note I'll focus on 2's complement, where the most-significant bit (MSB) denotes the sign of the number, because it's the most pratical way to represent when dealing with digital circuits.
+We can represent negative numbers using the binary system in a number of ways. In this note I'll focus on 2's complement, where the most-significant bit (MSB) denotes the sign of the number, because it's the most practical way to represent when dealing with digital circuits.
 To find the 2's complement of a binary number we take the following action while examining the bits from right to left: 1. Copy all bits that are 0 and the first that is 1; 2. Complement (invert) the rest of the bits.
 
 For example, 10110100 in 2's complement is written as 01001100. In the following table we have the representation of all four-bit numbers in different representations.
-\[
+
 \begin{array}{|c|c|c|c|}
 \hline
 &\textbf{Sign and magnitude}&\textbf{1's complement}&\textbf{2's complement}\\
@@ -46,9 +45,3 @@ For example, 10110100 in 2's complement is written as 01001100. In the following
 1111&-7&-0&-1\\
 \hline
 \end{array}
-\]
-
---------------
-
-created: 11/11/2020
-modified: 11/11/2020

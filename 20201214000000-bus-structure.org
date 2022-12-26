@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID: 95E22236-D77F-4B59-AB0C-97A3C3A229ED
+:END:
+#+title: Bus structure
+
+Usually more complex digital circuits have a /datapath circuit/, which is used store and manipulate data, and a /control circuit/ (usually implemented via [[id:192A60C8-C700-4145-8A73-367BC1599EEE][finite state machines]]), that controls the operation of the data path circuit. A bus is a structure that can interconnect multiple parts of a circuit using the same set of wires. Bus structures create a common path to transfer data from multiple sources to multiple destinations, for that reason it's necessary to ensure that only one source is active at a time, to prevent interference.
+
+* Tri-state drivers
+Tri-state drivers are simple buffers that can propagate the sign of the input to the output, without performing any logic operation. The idea here is that these drivers recieve a /enable/ signal, that allows us to disable the connection when needed. When the connection is disabled, the output enters in a /high impedance state/, that is denoted by the letter \(Z\) (or \(z\)).
+
+#+attr_org: :width 400
+[[file:attachments/tristatedriver.png]]
+
+This type of connection allows us to control which connections will be active in the bus. A circuit using a bus that implements this tri-state drivers idea can look like that:
+
+#+attr_org: :width 400
+[[file:attachments/tristatedrivercircuit.png]]
+
+* Multiplexers
+We can also control the connections on the bus using [[id:7DF44724-50A7-4711-B3E8-85B228EB3BAE][multiplexers]] to select which source of data will be active.
+
+#+attr_org: :width 400
+[[file:attachments/multiplexerbus.png]]
