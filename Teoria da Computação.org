@@ -42,7 +42,7 @@ A Hierarquia de Chomsky é uma classificação de gramáticas formais descrita p
 
 #+caption: Hierarquia de Chomsky.
 #+attr_org: :width 300
-[[file:~/dox/vault/Attachments/TC/Hierarquia de Chomsky.png]]
+[[file:attachments/Hierarquia de Chomsky.png]]
 
 *** Gramática com Estrutura de Frase (Tipo 0)
 Uma gramática $G=(V, T, P, S)$ é dita do tipo 0 se todas as regras de produção $\alpha \to \beta$ são da forma:

@@ -31,6 +31,9 @@
 [[file:MOCs/ORI MOC.org][MOCs/ORI MOC]]
 [[file:MOCs/BD MOC.org][MOCs/BD MOC]]
 
+** 5° Semestre
+[[id:34633935-cf83-42e7-8927-ede9f7bc29e2][Programação Paralela e Distribuída]]
+
 --------------
 
 created: 03/11/2020

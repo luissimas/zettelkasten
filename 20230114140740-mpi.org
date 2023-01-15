@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7bc12118-c016-4226-aab7-9dc31f81a7e3
+:END:
+#+title: MPI
+
+/Message Passing Interface/ (MPI) é uma *especificação* para a passagem de mensagem em arquiteturas de computação paralela distribuída. A especificação define a sintaxe e semântica de funções de bibliotecas para gerenciar aspectos de *criação, comunicação e sincronização de tarefas* em um ambiente de computação distribuída. Existem diversas implementações da MPI para as linguagens C, C++ e Fortran.
