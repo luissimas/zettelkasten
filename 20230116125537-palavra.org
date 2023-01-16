@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2e1e038b-f30b-48bb-8d43-0fdae3f0afba
+:END:
+#+title: Palavra
+
+Uma palavra é uma *sequência finita* de [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolos]] de um [[id:f0b275dd-92af-443b-a769-f0e4d97ca737][alfabeto]] justapostos. $abcb$ e $a$ são exemplos de palavras sobre o alfabeto $\{a,b,c\}$.
+
+Um conceito particular é o da *palavra vazia*, denotada por $\epsilon$. A palavra $\epsilon$ é palavra sobre qualquer alfabeto, e não contém nenhum caractere.
+
+Dado um alfabeto $\Sigma$, o conjunto $\Sigma^*$ é o conjunto de todas as palavras sobre $\Sigma$. Da mesma forma, o conjunto $\Sigma^+$ é o conjunto de todas as palavras sobre $\Sigma$ exceto a palavra vazia, ou seja, $\Sigma^+ = \Sigma^* - \{\epsilon\}$.

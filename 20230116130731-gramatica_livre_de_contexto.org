@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f3201cb6-bd61-4f5e-9c71-f4e0bc974d11
+:END:
+#+title: Gramática Livre de Contexto
+
+Uma [[id:856567a0-553e-43d8-ae90-66061ad93262][gramática]] $G=(V, T, P, S)$ é dita do tipo 2 se todas as regras de produção $\alpha \to \beta$ são da forma:
+
+$$
+\alpha \in V \quad \text{e} \quad \beta \in (V \cup T)^*
+$$
+
+ou seja, a cadeia $\alpha$ é um [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolo]] não terminal da gramática e a cadeia $\beta$ é um símbolo terminal ou não terminal.

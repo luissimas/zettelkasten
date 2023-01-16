@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       70808c19-0237-4a2e-8a09-d003667c1278
+:END:
+#+title: Linguagem formal
+
+Uma linguagem formal é um conjunto de [[id:2e1e038b-f30b-48bb-8d43-0fdae3f0afba][palavras]] sobre um [[id:f0b275dd-92af-443b-a769-f0e4d97ca737][alfabeto]]. Sendo assim, exemplos de linguagens formais sobre o alfabeto $\Sigma = \{a,b\}$ são: $\{\}$, $\{\epsilon\}$, $\{a, b , aa, bb, aaa, bbb, ...\}$ etc.

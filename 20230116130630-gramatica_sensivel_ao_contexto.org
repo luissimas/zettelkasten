@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b23f88fe-4b09-4672-a4b6-74d8d3827d74
+:END:
+#+title: Gramática Sensível ao Contexto
+
+Uma [[id:856567a0-553e-43d8-ae90-66061ad93262][gramática]] $G=(V, T, P, S)$ é dita do tipo 1 se todas as regras de produção $\alpha \to \beta$ são da forma:
+
+$$
+\alpha \in (V \cup T)^+ \quad \text{e} \quad \beta \in (V \cup T)^* \quad \text{com} \quad |\alpha| \leq |\beta| \quad \text{(exceto quando } \beta = \epsilon \text{)}
+$$
+
+ou seja, as cadeias $\alpha$ e $\beta$ são formadas por [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolos]] terminais ou não terminais definidos na gramática, e a cadeia $\alpha$ sempre tem comprimento menor que a cadeia $\beta$, exceto quando $\beta$ for vazia.

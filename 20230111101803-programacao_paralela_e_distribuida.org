@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       34633935-cf83-42e7-8927-ede9f7bc29e2
 :END:
-#+title: Programação Paralela e Distribuída
+#+title:Programação Paralela e Distribuída
 #+filetags: :MOC:
 
 A programação paralela e distribuída explora técnicas de desenvolvimento com a finalidade de *extrair ao máximo* os recursos de sistemas computacionais modernos, o que geralmente envolve utilizar *múltiplas unidades de processamento* ao mesmo tempo.
