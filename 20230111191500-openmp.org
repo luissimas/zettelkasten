@@ -244,8 +244,8 @@ int calc(int start, int finish) {
   if (finish - start <= MIN_BLOCK) {
     int sum = 0;
 
-    printf("Bloco pequeno o bastante ([%d, %d])! Calculando...\n", start,
-           finish);
+    printf("Thread %d: Bloco pequeno o bastante ([%d, %d])! Calculando...\n",
+           omp_get_thread_num(), start, finish);
 
     for (int i = start; i < finish; i++)
       sum++;
@@ -255,7 +255,8 @@ int calc(int start, int finish) {
   int sum1, sum2;
   int diff = finish - start;
 
-  printf("Dividindo [%d, %d]\n", start, finish);
+  printf("Thread %d: Dividindo [%d, %d]\n", omp_get_thread_num(), start,
+         finish);
 
 // A variável de retorno deve ser compartilhada para que o valor seja acessível
 // por outras threads. Caso contrário, o valor de retorno é salvo em uma nova
@@ -283,21 +284,21 @@ printf("Soma: %d\n", sum);
 
 #+RESULTS:
 #+begin_example
-Dividindo [0, 256]
-Dividindo [0, 128]
-Dividindo [128, 256]
-Dividindo [128, 192]
-Dividindo [192, 256]
-Dividindo [0, 64]
-Dividindo [64, 128]
-Bloco pequeno o bastante ([64, 96])! Calculando...
-Bloco pequeno o bastante ([96, 128])! Calculando...
-Bloco pequeno o bastante ([128, 160])! Calculando...
-Bloco pequeno o bastante ([160, 192])! Calculando...
-Bloco pequeno o bastante ([192, 224])! Calculando...
-Bloco pequeno o bastante ([224, 256])! Calculando...
-Bloco pequeno o bastante ([0, 32])! Calculando...
-Bloco pequeno o bastante ([32, 64])! Calculando...
+Thread 4: Dividindo [0, 256]
+Thread 7: Dividindo [0, 128]
+Thread 0: Dividindo [128, 256]
+Thread 3: Dividindo [128, 192]
+Thread 2: Dividindo [192, 256]
+Thread 5: Bloco pequeno o bastante ([192, 224])! Calculando...
+Thread 6: Bloco pequeno o bastante ([224, 256])! Calculando...
+Thread 1: Dividindo [0, 64]
+Thread 2: Dividindo [64, 128]
+Thread 2: Bloco pequeno o bastante ([96, 128])! Calculando...
+Thread 2: Bloco pequeno o bastante ([64, 96])! Calculando...
+Thread 3: Bloco pequeno o bastante ([160, 192])! Calculando...
+Thread 2: Bloco pequeno o bastante ([128, 160])! Calculando...
+Thread 3: Bloco pequeno o bastante ([0, 32])! Calculando...
+Thread 2: Bloco pequeno o bastante ([32, 64])! Calculando...
 Soma: 256
 #+end_example
 
