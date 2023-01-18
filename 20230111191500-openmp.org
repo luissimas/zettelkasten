@@ -236,6 +236,71 @@ printf("Soma: %d\n", sum);
 * Criação de tarefas sob demanda
 Em OpenMP, tasks são tarefas que podem ser criadas dinamicamente para serem executadas por alguma thread do time de threads da região paralela atual. Tasks podem ser criadas através da diretiva ~task~, e é possível aguardar a execução das tasks com a diretiva ~taskwait~.
 
+#+begin_src C :includes '(<stdio.h> <omp.h>) :flags -fopenmp :results output verbatim
+#define NUM 256
+#define MIN_BLOCK 32
+
+int calc(int start, int finish) {
+  if (finish - start <= MIN_BLOCK) {
+    int sum = 0;
+
+    printf("Bloco pequeno o bastante ([%d, %d])! Calculando...\n", start,
+           finish);
+
+    for (int i = start; i < finish; i++)
+      sum++;
+
+    return sum;
+  }
+  int sum1, sum2;
+  int diff = finish - start;
+
+  printf("Dividindo [%d, %d]\n", start, finish);
+
+// A variável de retorno deve ser compartilhada para que o valor seja acessível
+// por outras threads. Caso contrário, o valor de retorno é salvo em uma nova
+// variável restrita à thread que executou a task.
+#pragma omp task shared(sum1)
+  sum1 = calc(start, start + diff / 2);
+
+#pragma omp task shared(sum2)
+  sum2 = calc(finish - diff / 2, finish);
+
+#pragma omp taskwait
+  return sum1 + sum2;
+}
+
+int sum;
+
+#pragma omp parallel
+{
+#pragma omp single
+  sum = calc(0, NUM);
+}
+
+printf("Soma: %d\n", sum);
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Dividindo [0, 256]
+Dividindo [0, 128]
+Dividindo [128, 256]
+Dividindo [128, 192]
+Dividindo [192, 256]
+Dividindo [0, 64]
+Dividindo [64, 128]
+Bloco pequeno o bastante ([64, 96])! Calculando...
+Bloco pequeno o bastante ([96, 128])! Calculando...
+Bloco pequeno o bastante ([128, 160])! Calculando...
+Bloco pequeno o bastante ([160, 192])! Calculando...
+Bloco pequeno o bastante ([192, 224])! Calculando...
+Bloco pequeno o bastante ([224, 256])! Calculando...
+Bloco pequeno o bastante ([0, 32])! Calculando...
+Bloco pequeno o bastante ([32, 64])! Calculando...
+Soma: 256
+#+end_example
+
 * Controlando o acesso à variáveis
 Em OpenMP é possível controlar o acesso e visibilidade de variáveis através da definição de *variáveis privadas* e de mecanismos de exclusão mútua.
 
