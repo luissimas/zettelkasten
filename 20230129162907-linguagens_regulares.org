@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4d2791ad-0f96-44e3-8f2d-0779fcc26049
+:END:
+#+title:Linguagens regulares
+
+Linguagens regulares são [[id:70808c19-0237-4a2e-8a09-d003667c1278][linguagens formais]] geradas por [[id:304e4812-6121-4b07-b0a3-6ef140afa799][gramáticas regulares]].

@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       429f8235-01d0-426b-b829-20ecfd949645
+:END:
+#+title: Notação Big Omega
+
+A notação $\Omega$ é uma notação notação derivada da [[id:20ecb870-62df-41a4-b342-115f6368166e][análise assintótica]] e utilizada na análise de complexidade de algoritmos. Essa notação descreve o *limitante inferior* da complexidade de um determinado algoritmo.
+
+Dado um algoritmo cujo número de instruções executadas em função do tamanho da entrada é dado por $f(n)$, dizer que tal algoritmo tem complexidade $\Omega(g(n))$ é o mesmo que dizer que existem duas constantes positivas $c$ e $n_0$ tais que $f(n) \geq cg(n) \quad \forall n \geq n_0$, ou seja, se multiplicarmos a função $g(n)$ por um escalar $c$, a partir de um determinado ponto $n_0$ ela limita inferiormente $f(n)$.
+
+#+BEGIN_SRC python :results output file :file big-omega-example.png :output-dir attachments/ :exports results
+import sys
+import matplotlib.pyplot as plt
+import numpy as np
+from intersect import intersection
+
+x = np.linspace(0, 5, 1000)
+y1 = np.exp(x) - 10
+y2 = np.exp(x) / 2
+n_0, y_0 = intersection(x, y1, x, y2)
+
+plt.xlabel("n")
+plt.ylabel("Complexidade")
+
+plt.xticks([])
+plt.yticks([])
+
+plt.plot(x, y1, label=r"$f(n)$")
+plt.plot(x, y2, label=r"$cg(n)$")
+plt.plot(n_0, y_0, "or", label=r"$n_0$")
+
+plt.legend()
+plt.savefig(sys.stdout.buffer)
+#+END_SRC
+
+#+caption: Gráfico exemplificando a notação $\Omega$
+#+attr_org: :width 500
+#+attr_latex: :width 250 :placement [H]
+#+RESULTS:
+[[file:attachments/big-omega-example.png]]

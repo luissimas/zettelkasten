@@ -12,3 +12,4 @@ A teoria da computação é uma área de intersecção entre matemática e compu
 [[id:70808c19-0237-4a2e-8a09-d003667c1278][Linguagem formal]]
 [[id:856567a0-553e-43d8-ae90-66061ad93262][Gramática]]
 [[id:ec1b6263-ac3c-4392-a383-76acacea4375][Hierarquia de Chomsky]]
+[[id:4d2791ad-0f96-44e3-8f2d-0779fcc26049][Linguagens regulares]]

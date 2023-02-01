@@ -34,3 +34,4 @@
 ** 5° Semestre
 [[id:34633935-cf83-42e7-8927-ede9f7bc29e2][Programação Paralela e Distribuída]]
 [[id:18cc4b65-1d54-405d-8fe2-9fa1b7657820][Teoria da Computação]]
+[[id:3727e543-aa79-4bb7-b283-ee7365e000ce][Projeto e Análise de Algoritmos]]
