@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       db859797-620a-4d41-83e0-3640b1dfbf7e
+:END:
+#+title: Teorema Mestre
+
+O Teorema mestre é uma ferramenta da [[id:20ecb870-62df-41a4-b342-115f6368166e][análise de algoritmos]]  que nos permite analisar a complexidade de algoritmos que usam [[id:80e35d86-8bcb-4c0f-92e6-039151f66789][dividir para conquistar]] através de suas fórmulas de recorrência.
+
+O Teorema mestre enuncia que, dada uma recorrência na forma:
+
+$$
+T(n) = aT\left(\frac{n}{b}\right) + cn^d
+$$
+
+Então, se $n=b^k$ e para $k>1$, $a \geq 1$, $b>1$, $c>0$ e $d \geq 0$, tem-se que:
+
+1. $T(n) = O(n^d)$ se $a<b^d$
+2. $T(n) = O(n^d \log{n})$ se $a=b^d$
+3. $T(n) = O(n^{\log_b{a}})$ se $a>b^d$
