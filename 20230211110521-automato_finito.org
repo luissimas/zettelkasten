@@ -18,3 +18,5 @@ Em geral, existem três tipos de Autômatos Finitos:
 [[id:4dd82715-eeb8-44b3-a830-7d22436b5067][Autômato Finito Determinístico]]
 [[id:47c0aa03-db5a-4e2a-a46c-2354ab1b8641][Autômato Finito Não-Determinístico]]
 [[id:09462880-18ce-4fff-991a-b39c02d5c78d][Autômato Finito com Movimentos Vazios]]
+
+Em termos de [[id:20ecb870-62df-41a4-b342-115f6368166e][complexidade de algoritmos]], autômatos finitos pertencem à classe mais eficiente em termos de tempo de processamento, usualmente executando um número de operações proporcional ao tamanho da cadeia a ser reconhecida. Em geral, o tempo de processamento não depende do autômato considerado. Entretanto, é possível otimizar um autômato através da [[id:d29657d9-6f28-4c18-9750-ffd2d28c03ef][minimização de seus estados]].
