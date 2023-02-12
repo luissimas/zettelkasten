@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       71d4f8cb-e496-4bb8-8577-09cbddc4c9c7
+:END:
+#+title:Expressão Regular
+
+Toda [[id:4d2791ad-0f96-44e3-8f2d-0779fcc26049][linguagem regular]] pode ser descrita por uma expressão regular. Expressões regulares são um formalismo *denotacional* e também *gerador*, pois além de descrever uma linguagem regular, as expressões regulares fornecem a informação necessária para inferir suas regras de geração.
+
+Uma expressão regular sore um alfabeto $\Sigma$ pode ser definida indutivamente da seguinte forma:
+
+1. Base da indução:
+   a. A expressão $\varnothing$ é uma expressão regular que denota a linguagem vazia $\varnothing$.
+   b. A expressão $\epsilon$ é uma expressão regular e denota a linguagem que contém exclusivamente a palavra vazia $\{\epsilon\}$.
+   c. Para qualquer símbolo $x \in \Sigma$, $x$ é uma expressão regular e denota a linguagem que contém exclusivamente a palavra constituída pelo símbolo $x$ $\{x\}$.
+2. Passo de indução: Se $r$ e $s$ são expressões regulares e denotam as linguagens $R$ e $S$, respectivamente, então:
+   a. /União:/ a expressão $(r+s)$ denota a linguagem $R \cup S$.
+   b. /Concatenação/: a expressão $(rs)$ denota a linguagem $RS = \{uv | u \in R, v \in S\}$.
+   c. /Concatenação sucessiva/: a expressão $(r^*)$ denota a linguagem $R^*$.
+
+A precedência dos três operadores das linguagens regulares respeitam a seguinte ordem de prioridade (da maior para a menor prioridade):
+
+1. Concatenação sucessiva
+2. Concatenação
+3. União
+
+Se $r$ é uma expressão regular, a linguagem denotada por $r$ é dita /linguagem gerada por/ $r$, denotada por $L(r)$.

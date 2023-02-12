@@ -3,7 +3,7 @@
 :END:
 #+title:Gramática Regular
 
-Uma [[id:856567a0-553e-43d8-ae90-66061ad93262][gramática]] $G=(V, T, P, S)$ é dita do tipo 3 se todas as regras de produção $\alpha \to \beta$ são da forma:
+Uma [[id:856567a0-553e-43d8-ae90-66061ad93262][gramática]] $G=(V, T, P, S)$ é dita regular (ou do tipo 3) se todas as regras de produção $\alpha \to \beta$ são da forma:
 
 $$
 \alpha \in V \quad \text{e} \quad \beta \in T \cup (V \times T)
