@@ -39,4 +39,35 @@ Sendo assim, a computação de um autômato com pilha para uma palavra de entrad
 1. A palavra $w$ é *aceita*, e portanto faz parte da linguagem reconhecida por $M$ ($w \in L(M)$), se e somente se, após processar o último símbolo de $w$, o autômato assume um *estado final* ou a *pilha é vazia*, dependendo da definição utilizada.
 2. A palavra $w$ é *rejeitada*, e portanto não faz parte da linguagem reconhecida por $M$ ($w \notin L(M)$), se em algum momento do processamento de $w$ a função de transição $\delta$ for *indefinida* para o estado atual e símbolo corrente ou se, após processar o último símbolo da fita, o autômato assume um *estado não-final* ou a pilha é *não-vazia*, dependendo da definição utilizada.
 
-$L=\{ww^r \mid w \in \Sigma^*, \space w^r = reverse(w) \}$
+O seguinte autômato com pilha é capaz de reconhecer a linguagem  $L=\{ww^r \mid w \in \Sigma^*, \space w^r = reverse(w) \}$
+
+$$
+P = (\{q_0, q_1, q_f\}, \{0,1\}, \{0,1,\$\}, \delta, q_0, Z_0, \{q_f\})
+$$
+
+\begin{tikzpicture} [node distance = 3cm, on grid, auto]
+
+\node (q0) [state, initial, initial text = {}, initial] {$q_0$};
+\node (q1) [state, right = of q0] {$q_1$};
+\node (qf) [state, accepting, right = of q1] {$q_f$};
+
+\path [-stealth]
+    (q0) edge[loop above] node[align=center]{
+ 0, \$/0\$\\
+ 1, \$/1\$\\
+ 0, 0/00\\
+ 0, 1/01\\
+ 1, 0/10\\
+ 1, 1/11
+}   (q0)
+    (q0) edge node[align=center]{
+ $\epsilon$, \$/\$\\
+ $\epsilon$, 0/0\\
+ $\epsilon$,  1/1
+}   (q1)
+    (q1) edge[loop above] node[align=center]{
+ 0, 0/$\epsilon$\\
+ 1, 1/$\epsilon$\\
+}   (q1)
+    (q1) edge node[align=center]{$\epsilon$, \$/\$}   (qf)
+\end{tikzpicture}

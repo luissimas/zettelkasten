@@ -38,5 +38,3 @@ $$
 
 * Gramática livre de contexto ambígua
 Uma gramática livre de contexto é dita /ambígua/ se existe pelo menos *uma palavra* que possua *duas ou mais árvores de derivação* nessa gramática. No desenvolvimento e otimização de algoritmos de reconhecimento é desejável que a gramática usada seja não-ambígua. Entretanto, nem sempre é possível eliminar ambiguidades em uma gramática livre de contexto.
-
-* Simplificação de gramática livre de contexto
