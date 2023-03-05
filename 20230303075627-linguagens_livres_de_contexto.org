@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       b3470ad1-0869-44d9-88cf-b21227f28b24
+:END:
+#+title:Linguagens livres de contexto
+
+Linguagens livres de contexto são [[id:70808c19-0237-4a2e-8a09-d003667c1278][linguagens formais]] geradas por [[id:f3201cb6-bd61-4f5e-9c71-f4e0bc974d11][gramáticas livres de contexto]]. Essa classe de linguagem, quando comparada às [[id:4d2791ad-0f96-44e3-8f2d-0779fcc26049][linguagens regulares]], compreende um universo mais amplo, podendo representar construções como parênteses balanceados e blocos estruturados.
+
+Sendo assim, as linguagens livres de contexto são muito aplicadas em *linguagens artificiais*, principalmente linguagens de programação. Apesar de uma capacidade de representação relativamente mais ampla, segundo a [[id:ec1b6263-ac3c-4392-a383-76acacea4375][Hierarquia de Chomsky]] a classe de linguagens livres de contexto ainda é *relativamente restrita*, com uma implementação relativamente simples e de eficiência razoável.
+
+Pela Hierarquia de Chomsky, as linguagens regulares compreendem um subconjunto das linguagens livres de contexto, portanto toda linguagem regular é livre de contexto.
+
+As linguagens livres de contexto se relacionam com outros formalismos, em particular dois deles são amplamente utilizados. Toda linguagem livre de contexto satisfaz as seguintes propriedades:
+
+- Ela pode ser *gerada* por uma [[id:f3201cb6-bd61-4f5e-9c71-f4e0bc974d11][Gramática Livre de Contexto]];
+- Ela pode ser *reconhecida* por um [[id:2db9e616-3bdb-4ff0-be0d-14f54876887d][Autômato com Pilha]].
+
+Essa classe de linguagens é fechada para as operações de *união* e *concatenação*, porém não é fechada para as operações de *intersecção* e *complemento*.
