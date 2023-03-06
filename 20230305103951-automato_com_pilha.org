@@ -25,12 +25,18 @@ na qual:
 - $Z_0$ é o símbolo inicial da pilha;
 - $F$ é um subconjunto de $Q$ ($F \subseteq Q$) denominado /conjunto de estados finais/.
 
-A /configuração instantânea/ de um autômato resume o estado da execução em um determinado momento, e facilita o seu acompanhamento. A configuração instantânea de um autômato de pilha é uma tripla $(q, w, y)$ onde $q$ é o estado atual, $w$ é a parte restante da entrada e $y$ é o conteúdo da pilha.
+A /configuração instantânea/ de um autômato resume o estado da execução em um determinado momento, e facilita o seu acompanhamento. A configuração instantânea de um autômato de pilha é uma tripla $(q, w, y)$ onde $q$ é o estado atual, $w$ é a parte restante da entrada e $y$ é o conteúdo da pilha. Um movimento genérico em um autômato com pilha pode ser representado através da configuração instantânea resultante após o processamento do símbolo. Por exemplo, o seguinte movimento assume um autômato no estado $q$ processando um símbolo $a$ da entrada (sendo $w$ o restante da entrada) e $X\beta$ na pilha. Após processar o símbolo $a$, o autômato assume o estado $p$, substituindo o símbolo $X$ por $\alpha$ no topo da pilha.
 
-A computação de um autômato com pilha para uma [[id:2e1e038b-f30b-48bb-8d43-0fdae3f0afba][palavra]] de entrada $w$ consiste na sucessiva aplicação da /função de transição/ $\delta$ a cada [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolo]] de $w$ até que uma condição de parada seja atingida. Existem duas formas de decidir se um autômato com pilha aceita ou não uma entrada:
+$$
+(q,aw,X\beta) \vdash (p,w,\alpha \beta)
+$$
 
-- A aceitação por *estado final* consiste na aceitação de uma cadeia apenas se, ao terminar de ler toda a cadeia, o autômato se encontra em um estado final. Nessa forma de aceitação não importa o conteúdo da pilha ao final da leitura.
-- A aceitação por *pilha vazia* consiste na aceitação de uma cadeia apenas se, ao terminar de ler toda a cadeia, a pilha do autômato se encontra vazia. Nessa forma de aceitação não importa o estado do autômato ao final da leitura, e é inclusive possível omitir o componente $F$ (conjunto de estados finais) do autômato.
+A notação $\vdash^*$ indica uma sequência de movimentos, e pode ser utilizada para representar o processamento de uma cadeia.
+
+A computação de um autômato $P$ com pilha para uma [[id:2e1e038b-f30b-48bb-8d43-0fdae3f0afba][palavra]] de entrada $w$ consiste na sucessiva aplicação da /função de transição/ $\delta$ a cada [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolo]] de $w$ até que uma condição de parada seja atingida. Existem duas formas de decidir se um autômato com pilha aceita ou não uma entrada:
+
+- A aceitação por *estado final* consiste na aceitação de uma cadeia apenas se, ao terminar de ler toda a cadeia, o autômato se encontra em um estado final, ou seja, $L(P) = \{w \mid (q_0, w, Z_0) \vdash^* (q, \epsilon, \alpha\} \mid q \in F$. Nessa forma de aceitação não importa o conteúdo da pilha ao final da leitura.
+- A aceitação por *pilha vazia* consiste na aceitação de uma cadeia apenas se, ao terminar de ler toda a cadeia, a pilha do autômato se encontra vazia, ou seja, $L(P) = \{w \mid (q_0, w, Z_0) \vdash^* (q, \epsilon, \epsilon\}$. Nessa forma de aceitação não importa o estado do autômato ao final da leitura, e é inclusive possível omitir o componente $F$ (conjunto de estados finais) do autômato.
 
 Ambas as formas são equivalentes, e é possível converter um autômato com pilha com aceitação por estado final para um autômato com pilha com aceitação por pilha vazia e vice-versa.
 
