@@ -1,11 +1,11 @@
 :PROPERTIES:
 :ID:       e48742bd-00e8-4d60-a43e-b5326e4b48d7
 :END:
-#+title: OpenMP
+#+title:OpenMP
 
-OpenMP é uma extensão para as linguagens C, C++ e Fortran que permite a paralelização de programas utilizando o [[id:7a7071fe-2c38-4e25-adac-fe35b7f2353e][modelo de programação paralela]] de memória compartilhada através da inserção de diretivas ([[https://en.wikipedia.org/wiki/Directive_(programming)][pragmas]]) em um código sequencial. Utilizando os recursos da API OpenMP, é possível reduzir significativamente as dificuldades de implementação introduzidas por APIs de mais baixo nível, como a pthreads.
+OpenMP é uma extensão para as linguagens C, C++ e Fortran que permite a paralelização de programas utilizando o [[id:7a7071fe-2c38-4e25-adac-fe35b7f2353e][modelo de programação paralela]] de memória compartilhada através da inserção de diretivas ([[https://en.wikipedia.org/wiki/Directive_(programming)][pragmas]]) em um código sequencial. Utilizando os recursos da API OpenMP, é possível reduzir significativamente as dificuldades de implementação introduzidas por APIs de mais baixo nível, como a biblioteca /pthreads/.
 
-As diretivas introduzidas no código são interpretadas pelo compilador (que deve fornecer suporte à OpenMP), e então são utilizadas para gerar código paralelo que utiliza APIs de mais baixo nível, como a pthreads. É possível controlar o processo de compilação através de parâmetros disponíveis através de variáveis de ambiente.
+As diretivas introduzidas no código são interpretadas pelo compilador (que deve fornecer suporte à OpenMP), e então são utilizadas para gerar código paralelo que utiliza APIs de mais baixo nível (geralmente a biblioteca pthreads). É possível controlar o processo de compilação através de parâmetros disponíveis através de variáveis de ambiente.
 
 * Regiões paralelas
 Em OpenMP, uma *região paralela* é um bloco de código que será executado por um *time de threads*. Uma região paralela pode ser definida através da diretiva ~#pragma omp parallel~, que cria um time de threads para executar o bloco logo abaixo da diretiva.

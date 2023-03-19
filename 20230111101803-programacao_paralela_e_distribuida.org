@@ -15,3 +15,4 @@ Para explorar múltiplas unidades de processamento, é necessário empregar téc
 [[id:bd1562aa-5a81-4046-9cad-e8d647b879ea][Projeto de programas paralelos]]
 [[id:e48742bd-00e8-4d60-a43e-b5326e4b48d7][OpenMP]]
 [[id:ba968b37-a693-4616-8058-90b90ae49e71][Processamento vetorial]]
+[[id:7bc12118-c016-4226-aab7-9dc31f81a7e3][MPI]]
