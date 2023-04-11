@@ -17,7 +17,7 @@ na qual:
 - $q_0$ é um elemento de $Q$ ($q_0 \in Q$) denominado /estado inicial/;
 - $F$ é um subconjunto de $Q$ ($F \subseteq Q$) denominado /conjunto de estados finais/.
 
-A computação de um autômato finito para uma [[id:2e1e038b-f30b-48bb-8d43-0fdae3f0afba][palavra]] de entrada $w$ consiste na sucessiva aplicação da /função de transição/ $\delta$ a cada [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolo]] de $w$ até que todos os símbolos sejam processados ou enquanto a função de transição for definida para o estado atual e símbolo processado. O processamento, de uma palavra $w$ por um autômato finito $M$ tem dois resultados possíveis:
+A computação de um autômato finito para uma [[id:2e1e038b-f30b-48bb-8d43-0fdae3f0afba][palavra]] de entrada $w$ consiste na sucessiva aplicação da /função de transição/ $\delta$ a cada [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolo]] de $w$ até que todos os símbolos sejam processados ou enquanto a função de transição for definida para o estado atual e símbolo processado. O processamento de uma palavra $w$ por um autômato finito $M$ tem dois resultados possíveis:
 
 1. A palavra $w$ é *aceita*, e portanto faz parte da linguagem reconhecida por $M$ ($w \in L(M)$), se e somente se, após processar o último símbolo de $w$, o autômato assume um *estado final*.
 2. A palavra $w$ é *rejeitada*, e portanto não faz parte da linguagem reconhecida por $M$ ($w \notin L(M)$), se em algum momento do processamento de $w$ a função de transição $\delta$ for *indefinida* para o estado atual e símbolo corrente ou se, após processar o último símbolo da fita, o autômato assume um *estado não-final*.
