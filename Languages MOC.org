@@ -21,9 +21,4 @@ Estou usando o livro /Lingua Latina per se Illustrata/, ele utiliza o método na
 ** Esperanto
 A ideia do esperanto me pareceu muito interessante, então agora no final de fevereiro de 2021 decidi começar a aprender.
 
-[[[#][Esperanto]]]
-
---------------
-
-created: 14/11/2020
-modified: 21/02/2021
+[[id:1e1d06bf-db09-426d-91c9-8e8de482972a][Esperanto]]

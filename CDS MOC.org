@@ -4,7 +4,7 @@
 #+title: CDS MOC
 
 * Cálculo Diferencial e Séries
-A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do cálculo, cada um estudado separadamente. O referencial teórico da disciplina foi o livro [[file:Calculo_Thomas_12ed.pdf.org][Cálculo Vol.2 - 12° edição - George Thomas]]
+A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do cálculo, cada um estudado separadamente. O referencial teórico da disciplina foi o livro [[file:attachments/Calculo_Thomas_12ed.pdf][Cálculo Vol.2 - 12° edição - George Thomas]]
 
 ** Sequências e séries
 [[id:94eb68f2-d3ce-47a3-8a4f-ca0d74c0c9b1][Sequências numéricas]]
@@ -14,7 +14,7 @@ A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do
 [[id:6d713a15-0233-474b-90d3-8c57ed7b8052][Séries de Taylor]]
 
 ** Funções de várias variáveis
-[[[#][Funções de várias variáveis]]]
+[[id:f48013c5-d5cc-48bb-80ea-82f62b61942c][Funções de várias variáveis]]
 [[id:a82a23c6-cb32-461b-8d04-c4d8da3759ea][Limite de funções de várias variáveis]]
 [[id:b23e6840-0f5d-4a59-b2f8-e4eb060a4ff6][Continuidade de funções de várias variáveis]]
 [[id:27736047-e758-4f7d-a35e-1d42d523edbf][Derivadas parciais]]
@@ -26,5 +26,3 @@ A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do
 [[id:7f1ef1d1-0378-4008-9546-132c4d09b9b5][Máximos e mínimos de funções de várias variáveis]]
 
 --------------
-
-created: 16/08/2021

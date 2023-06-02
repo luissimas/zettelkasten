@@ -11,8 +11,4 @@ Um sistema operacional é um programa (ou conjunto de programas) interrelacionad
 
 #+end_quote
 
-[[file:sistemaoperacional.png.org][sistemaoperacional.png]]
-
---------------
-
-created: 23/08/2021
+[[file:attachments/sistemaoperacional.png]]

@@ -8,7 +8,7 @@ Uma sequência natural de [[file:Arq1 MOC .org][ ARQ]], essa disciplina explora 
 O referencial teórico do curso foi o excelente livro [[file:SistemasOperacionaisModernos.pdf .org][ Sistemas Operacionais Modernos]].
 
 ** Introdução
-[[[#][Sistemas operacionais]]]
+[[id:5a9a4a54-891c-4367-8cc3-46ae1410f86f][Sistemas operacionais]]
 
 ** Processos e threads
 [[id:bec134e7-5d8a-4e61-b80b-2767772a1ade][Processos]]
@@ -18,12 +18,12 @@ O referencial teórico do curso foi o excelente livro [[file:SistemasOperacionai
 [[id:47bc0441-c008-423c-b00a-50b06d79d6e2][Deadlocks]]
 
 ** Gerenciamento de memória
-[[[#][Gerenciamento de memória]]]
+[[id:3e1f7805-17c8-4bf2-95d0-c69eae605f37][Gerenciamento de Memória]]
 [[id:668d9bde-080b-47e3-86e7-f4335e115e7e][Memória virtual]]
 [[id:3ff184a5-a312-4c1d-b94f-04dae1dbc9b9][Substituição de páginas]]
 
 ** Sistema de arquivos
-[[[#][Sistema de arquivos]]]
+[[id:6b50f554-e754-48b2-881c-dd7feae9bb43][Sistema de arquivos]]
 [[id:3f21b5c5-17bb-4c21-ae82-79fa9576e940][Implementação do sistema de arquivos]]
 
 ** Gerenciamento de IO
