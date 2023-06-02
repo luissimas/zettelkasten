@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID: 4B8CE6B5-C7DF-4B60-AB88-E2BE2A269B85
 :END:
-#+title: Programming MOC
+#+title:Programming MOC
 
 * Programming MOC
 Need to better organize this shit.

@@ -1,9 +1,8 @@
 :PROPERTIES:
-:ID: F193D06D-A147-4C36-B2E9-80E7E575023E
+:ID: f193d06d-a147-4c36-b2e9-80e7e575023e
 :END:
 #+title: Books MOC
 
-* Books MOC
 Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiência muito interessante. Apreciar as texturas e construções criadas, cada adjetivo e advérbio colocados com o singular propósito de enriquecer a narrativa.
 
 *** 2020
@@ -27,8 +26,3 @@ Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiê
 | Reading | Moby Dick                       | Herman Melville  | English (Original)   | 469   |
 | To read | The Crying of Lot 49            | Thomas Pynchon   | English (Original)   | ???   |
 | To read | Mason & Dixon                   | Thomas Pynchon   | Português            | ???   |
-
---------------
-
-created: 07/11/2020
-modified: 04/03/2021
