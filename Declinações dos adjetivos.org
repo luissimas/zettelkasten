@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 0BD7AC48-6B30-4827-A970-DA79959EE538
+:ID: 0bd7ac48-6b30-4827-a970-da79959ee538
 :END:
 #+title: Declinações dos adjetivos
 
 * Dēclīnātiōnēs adiectīvōrum
-Existem ao todo 3 declinações para os substantivos, a maneira mais fácil de identificá-las é através do [[id:FDB8B846-094D-4333-8E40-20D8DFA16F88][caso]] genitivo, que sempre é diferente para cada declinação.
+Existem ao todo 3 declinações para os substantivos, a maneira mais fácil de identificá-las é através do [[id:fdb8b846-094d-4333-8e40-20d8dfa16f88][caso]] genitivo, que sempre é diferente para cada declinação.
 
 Dēclīnātiōnēs adiectīvum sunt tria:
 

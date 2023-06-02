@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: CA7EC6B1-4D78-481B-8BC4-068B92DF23DB
+:ID: ca7ec6b1-4d78-481b-8bc4-068b92df23db
 :END:
 #+title: Área de uma região plana
 

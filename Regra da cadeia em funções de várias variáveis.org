@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 2BCCCA7B-5699-4EC0-AE08-E3F2D516D596
+:ID: 2bccca7b-5699-4ec0-ae08-e3f2d516d596
 :END:
 #+title: Regra da cadeia em funções de várias variáveis
 

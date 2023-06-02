@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 6931DA83-27A2-4C30-966C-E7F4627B2819
+:ID: 6931da83-27a2-4c30-966c-e7f4627b2819
 :END:
 #+title: Lógica proposicional
 
@@ -17,7 +17,7 @@ Uma proposição pode ser classificada em um dos dois tipos:
 - Atômica (fórmula atômica): formada por uma e somente uma proposição, não possui nenhum conectivo lógico.
 - Composta (fórmula composta): formada por duas ou mais proposições atômicas ligadas por conectivos lógicos.
 
-Como qualquer outra linguagem, a lógica proposicional é composta por [[id:C1A20B1F-567F-48FA-A573-814EEE5412D3][sintaxe]] e [[id:3E618536-D41D-4FDE-9A36-7B06BF81B2AF][semântica]].
+Como qualquer outra linguagem, a lógica proposicional é composta por [[id:c1a20b1f-567f-48fa-a573-814eee5412d3][sintaxe]] e [[id:3e618536-d41d-4fde-9a36-7b06bf81b2af][semântica]].
 
 --------------
 

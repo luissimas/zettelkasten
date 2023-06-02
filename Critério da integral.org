@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: F25859BF-25FB-4AFE-8AAF-580400F4CAD3
+:ID: f25859bf-25fb-4afe-8aaf-580400f4cad3
 :END:
 #+title: Critério da integral
 

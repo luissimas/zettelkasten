@@ -1,17 +1,17 @@
 :PROPERTIES:
-:ID: 8E7935A3-F353-4F17-8037-1D821626A14E
+:ID: 8e7935a3-f353-4f17-8037-1d821626a14e
 :END:
 #+title: Adjetivos
 
 * Adiectīva
-Assim como no português, em latim os adjetivos são nomes que exprimem qualidades aos substantivos. Os adjetivos declinam de acordo com o gênero, número e caso, ou seja: um adjetivo pode assumir qualquer um dos três gêneros, pois deve sempre estar em concordância com o [[id:0125B0C4-DD33-473E-8585-0CB211AD2FA2][substantivo]] ao qual está atribuindo a determinada qualidade. Essa característica de concordância se extende para número e caso, portanto: um adjetivo *sempre concorda com seu substantivo em gênero, número e [[id:FDB8B846-094D-4333-8E40-20D8DFA16F88][caso]]*.
+Assim como no português, em latim os adjetivos são nomes que exprimem qualidades aos substantivos. Os adjetivos declinam de acordo com o gênero, número e caso, ou seja: um adjetivo pode assumir qualquer um dos três gêneros, pois deve sempre estar em concordância com o [[id:0125b0c4-dd33-473e-8585-0cb211ad2fa2][substantivo]] ao qual está atribuindo a determinada qualidade. Essa característica de concordância se extende para número e caso, portanto: um adjetivo *sempre concorda com seu substantivo em gênero, número e [[id:fdb8b846-094d-4333-8e40-20d8dfa16f88][caso]]*.
 
-[[id:0BD7AC48-6B30-4827-A970-DA79959EE538][Declinações dos adjetivos]]
+[[id:0bd7ac48-6b30-4827-a970-da79959ee538][Declinações dos adjetivos]]
 
 Podemos também usar os adjetivos para expressar algumas relações de comparação entre substantivos.
 
-[[id:5BC817AB-873B-4937-8822-627BC47869CF][Comparativo]]
-[[id:47E02A04-9D4C-4600-85BE-A1A4D9C082AE][Superlativo]]
+[[id:5bc817ab-873b-4937-8822-627bc47869cf][Comparativo]]
+[[id:47e02a04-9d4c-4600-85be-a1a4d9c082ae][Superlativo]]
 
 --------------
 

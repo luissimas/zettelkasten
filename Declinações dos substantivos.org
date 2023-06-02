@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 355AB973-4C2C-4020-BFCB-22957DBE4A9E
+:ID: 355ab973-4c2c-4020-bfcb-22957dbe4a9e
 :END:
 #+title: Declinações dos substantivos
 
 * Dēclīnātiōnēs substantivōrum
-Existem ao todo 5 declinações para os substantivos, a maneira mais fácil de identificá-las é através do [[id:FDB8B846-094D-4333-8E40-20D8DFA16F88][caso]] genitivo, que sempre é diferente para cada declinação.
+Existem ao todo 5 declinações para os substantivos, a maneira mais fácil de identificá-las é através do [[id:fdb8b846-094d-4333-8e40-20d8dfa16f88][caso]] genitivo, que sempre é diferente para cada declinação.
 
 Dēclīnātiōnēs nōminum sunt quīnque:
 

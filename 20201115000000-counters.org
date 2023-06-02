@@ -1,9 +1,9 @@
 :PROPERTIES:
-:ID: 5B18C678-59BE-4C72-8296-8A756DE6EDE9
+:ID: 5b18c678-59be-4c72-8296-8a756de6ede9
 :END:
 #+title: Counters
 
-Counter circuits are very useful for a series of applications. They can be implemented using the [[id:3541D72A-41DB-4950-93A1-4814EDB16F7D][adder/subtractor]] circuit or with [[id:860D0638-E241-4BCC-B6A7-1FAB58F2ED36][flip-flops]]. Since the focus here is to increment or decrement a count by 1, it's much more efficient to use the implementation with flip-flops.
+Counter circuits are very useful for a series of applications. They can be implemented using the [[id:3541d72a-41db-4950-93a1-4814edb16f7d][adder/subtractor]] circuit or with [[id:860d0638-e241-4bcc-b6a7-1fab58f2ed36][flip-flops]]. Since the focus here is to increment or decrement a count by 1, it's much more efficient to use the implementation with flip-flops.
 
 * Asynchronous Counters
 :PROPERTIES:
@@ -37,7 +37,7 @@ We can implement the ability to enable and clear the counters with the simple ad
 :PROPERTIES:
 :ID:       4884eb91-e0f6-4e7c-b443-5591198645cb
 :END:
-This type of counters allow us to start the count with an arbitrary external value. Here we implement a synchronous counter with [[id:2f5a86a8-e086-474b-8388-22a4e9ed06c4][D flip-flops]] and [[id:7DF44724-50A7-4711-B3E8-85B228EB3BAE][multiplexers]]. We also have to add the control input $Load$. When \(Load=0\) the circuit counts. When \(Load=1\) the circuit loads a new value from the inputs to the flip-flops.
+This type of counters allow us to start the count with an arbitrary external value. Here we implement a synchronous counter with [[id:2f5a86a8-e086-474b-8388-22a4e9ed06c4][D flip-flops]] and [[id:7df44724-50a7-4711-b3e8-85b228eb3bae][multiplexers]]. We also have to add the control input $Load$. When \(Load=0\) the circuit counts. When \(Load=1\) the circuit loads a new value from the inputs to the flip-flops.
 
 #+attr_org: :width 400
 [[file:attachments/parallelloadcounter.png]]

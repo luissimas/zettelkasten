@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: DB4C568D-C7A7-4605-A6F7-CBEF0274ECC9
+:ID: db4c568d-c7a7-4605-a6f7-cbef0274ecc9
 :END:
 #+title: Propriedades das autorrelações
 

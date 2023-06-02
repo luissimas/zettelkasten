@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 581EAFAF-50CA-4645-9310-C00382DEF78B
+:ID: 581eafaf-50ca-4645-9310-c00382def78b
 :END:
 #+title: Binary search
 

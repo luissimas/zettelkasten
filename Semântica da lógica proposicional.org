@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 3E618536-D41D-4FDE-9A36-7B06BF81B2AF
+:ID: 3e618536-d41d-4fde-9a36-7b06bf81b2af
 :END:
 #+title: Semântica da lógica proposicional
 
 * Semântica da lógica proposicional
-A semântica especifica como as sequências válidas da linguagem se relacionam entre si e qual o valor-verdade dessa relação. No campo da semântica são tratados não só as interpretações e classificação das fórmulas lógicas, mas também [[id:260F4D65-72B0-48BA-A9C5-0187E8283C28][as relações de consequência e equivalência]] que elas estabelecem entre si.
+A semântica especifica como as sequências válidas da linguagem se relacionam entre si e qual o valor-verdade dessa relação. No campo da semântica são tratados não só as interpretações e classificação das fórmulas lógicas, mas também [[id:260f4d65-72b0-48ba-a9c5-0187e8283c28][as relações de consequência e equivalência]] que elas estabelecem entre si.
 
 ** Interpretação (\(I\))
 Chamamos de /interpretação/ o valor-verdade associado à uma fórmula. Podemos também dizer que a /interpretação/ é uma *função* cujo contradomínio é o conjunto composto pelos elementos \(V\) e \(F\).

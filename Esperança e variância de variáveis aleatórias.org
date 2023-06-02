@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 1243F180-52E6-41B3-A99B-3D0C89ECA3FE
+:ID: 1243f180-52e6-41b3-a99b-3d0c89eca3fe
 :END:
 #+title: Esperança e variância de variáveis aleatórias
 #+filetags: :Fun:Distribui:

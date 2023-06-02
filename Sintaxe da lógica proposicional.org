@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: C1A20B1F-567F-48FA-A573-814EEE5412D3
+:ID: c1a20b1f-567f-48fa-a573-814eee5412d3
 :END:
 #+title: Sintaxe da lógica proposicional
 

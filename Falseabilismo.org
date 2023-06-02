@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 90A28B17-1463-47D4-BA3C-A0FEEE7E6F53
+:ID: 90a28b17-1463-47d4-ba3c-a0feee7e6f53
 :END:
 #+title: Falseabilismo
 
 * Falseabilismo
-[[id:72593630-DB6F-4039-B413-2B468DFBC66C][Karl Popper]] propôs como critério de demarcação da ciência o conceito de /falseabilismo/. Esse critério enuncia que *todo enunciado científico* deve poder ser submetidos à testes empíricos e possibilitar refutação.
+[[id:72593630-db6f-4039-b413-2b468dfbc66c][Karl Popper]] propôs como critério de demarcação da ciência o conceito de /falseabilismo/. Esse critério enuncia que *todo enunciado científico* deve poder ser submetidos à testes empíricos e possibilitar refutação.
 
 Pela natureza universal dos enunciados científicos, não é possível verificar empiricamente todos os casos sobre os quais uma determinada teoria afirma algo, entretanto, para refutar um enunciado dessa natureza, basta que se encontre um caso particular para o qual a afirmação não seja válida (um /contraexemplo/).
 Com base nisso, /Popper/ propõe como /critério de demarcação/, isto é, como critério que permite classificar um conjunto de afirmações como científicas, a possibilidade dessas afirmações serem /falseadas/.

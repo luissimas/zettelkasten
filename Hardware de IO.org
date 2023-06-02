@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 54452A6C-55BF-4A8E-9376-A298EE5EFEC8
+:ID: 54452a6c-55bf-4a8e-9376-a298ee5efec8
 :END:
 #+title: Hardware de IO
 

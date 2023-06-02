@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: CFD9B049-6A5D-4D7A-B7B8-EF7D5BA84106
+:ID: cfd9b049-6a5d-4d7a-b7b8-ef7d5ba84106
 :END:
 #+title: Convergência de séries
 
@@ -17,11 +17,11 @@ Note que a recíproca dessa condição não é válida, ou seja, existem sequên
 ** Critérios de convergência
 Além da verificação pelo termo geral, existem muitas outras formas de verificar a convergência de séries, algumas delas são enunciadas aqui.
 
-[[id:C443B709-290E-4EA7-A3DB-772E44598730][Critério da comparação]]
-[[id:F25859BF-25FB-4AFE-8AAF-580400F4CAD3][Critério da integral]]
-[[id:3DC5B7CC-654A-4A8B-941D-537DD2830DFA][Critério da raiz]]
-[[id:F383F004-ED83-4CB9-80F5-4421C454CC0D][Critério da razão]]
-[[id:E178D131-CCD8-498B-8B7E-792245A24557][Critério de Leibniz]]
+[[id:c443b709-290e-4ea7-a3db-772e44598730][Critério da comparação]]
+[[id:f25859bf-25fb-4afe-8aaf-580400f4cad3][Critério da integral]]
+[[id:3dc5b7cc-654a-4a8b-941d-537dd2830dfa][Critério da raiz]]
+[[id:f383f004-ed83-4cb9-80f5-4421c454cc0d][Critério da razão]]
+[[id:e178d131-ccd8-498b-8b7e-792245a24557][Critério de Leibniz]]
 
 ** Convergência absoluta e condicional
 

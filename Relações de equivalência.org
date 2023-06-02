@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 8C042572-E1C0-4E8E-89B9-868346D3E64C
+:ID: 8c042572-e1c0-4e8e-89b9-868346d3e64c
 :END:
 #+title: Relações de equivalência
 

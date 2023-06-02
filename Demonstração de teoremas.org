@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: C0EE07DB-6190-41B1-94D7-426EFFE7C2F7
+:ID: c0ee07db-6190-41b1-94d7-426effe7c2f7
 :END:
 #+title: Demonstração de teoremas
 #+filetags: :Prova:Equival:

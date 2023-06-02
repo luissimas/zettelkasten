@@ -1,11 +1,11 @@
 :PROPERTIES:
-:ID: 89DFB607-A09A-445D-97BE-71301A9DFBE1
+:ID: 89dfb607-a09a-445d-97be-71301a9dfbe1
 :END:
 #+title: Inferência na lógica de predicados
 #+filetags: :Regras:Argumentos:Leis:
 
 * Inferência na lógica de predicados
-Para provar [[file:Cálculo proposicional#Argumentos.org][argumentos]] na lógica de predicados utilizamos as mesmas [[id:09D8C7AD-6D5A-49A2-AB65-3032452EB2EB][técnicas dedutivas]] da [[id:6931DA83-27A2-4C30-966C-E7F4627B2819][lógica proposicional]], nos baseando nas [[file:Cálculo proposicional#Regras de inferência.org][regras de inferência]] e [[file:Álgebra da lógica proposicional#Leis de equivalência.org][leis de equivalência]]. Devemos levar em conta também as relações de [[id:321BA6FD-C526-4D8C-9087-4C93510F874A][consequência e equivalência]] específicas à lógica de predicados.
+Para provar [[file:Cálculo proposicional#Argumentos.org][argumentos]] na lógica de predicados utilizamos as mesmas [[id:09d8c7ad-6d5a-49a2-ab65-3032452eb2eb][técnicas dedutivas]] da [[id:6931da83-27a2-4c30-966c-e7f4627b2819][lógica proposicional]], nos baseando nas [[file:Cálculo proposicional#Regras de inferência.org][regras de inferência]] e [[file:Álgebra da lógica proposicional#Leis de equivalência.org][leis de equivalência]]. Devemos levar em conta também as relações de [[id:321ba6fd-c526-4d8c-9087-4c93510f874a][consequência e equivalência]] específicas à lógica de predicados.
 Além das regras já citadas, é necessário introduzir novas regras para lidar especificamente com os /quantificadores/ presentes na lógica de predicados.
 
 ** Eliminação (particularização ou instanciação)

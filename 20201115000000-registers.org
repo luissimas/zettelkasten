@@ -1,9 +1,9 @@
 :PROPERTIES:
-:ID: 6CA9DDE1-6128-4FD1-BD48-A943CA3BFD3B
+:ID: 6ca9dde1-6128-4fd1-bd48-a943ca3bfd3b
 :END:
 #+title: Registers
 
-While [[id:860D0638-E241-4BCC-B6A7-1FAB58F2ED36][flip-flops]] store only one bit of information, registers are able to store multiple bits of information. How? Well, registers are basically a set of flip-flops arranged in a way that allows the storage of multiple bits of information.
+While [[id:860d0638-e241-4bcc-b6a7-1fab58f2ed36][flip-flops]] store only one bit of information, registers are able to store multiple bits of information. How? Well, registers are basically a set of flip-flops arranged in a way that allows the storage of multiple bits of information.
 
 * Shift Register
 This type of register has the ability to shift its contents. This is possible by transferring the state of each flip-flop to the next. This implementation is not very useful because we don't have control of the shifting process.

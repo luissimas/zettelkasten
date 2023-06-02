@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 64F3C4F0-1222-4ED9-A0C2-62AE0E70A96B
+:ID: 64f3c4f0-1222-4ed9-a0c2-62ae0e70a96b
 :END:
 #+title: Parábola
 
@@ -48,7 +48,7 @@ Analisando a equação, pode-se perceber que \(px \geq 0\), dessa forma seus sin
 [[file:concavidadecasos2.png.org][concavidadecasos2.png]]
 
 ** Translação de eixos
-Usando a [[id:2E2EF3BD-7ABD-4078-BA2F-35E645374EB3][translação de eixos]] é possível manipular o vértice da parábola para obter as equações reduzidas mesmo que o vértice \(V\) da parábola não seja o ponto \((0,0)\) do plano cartesiano.
+Usando a [[id:2e2ef3bd-7abd-4078-ba2f-35e645374eb3][translação de eixos]] é possível manipular o vértice da parábola para obter as equações reduzidas mesmo que o vértice \(V\) da parábola não seja o ponto \((0,0)\) do plano cartesiano.
 
 [[file:parabolatranslacaodeeixos.png.org][parabolatranslacaodeeixos.png]]
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 67137671-CE97-43C0-8756-71106F63F53B
+:ID: 67137671-ce97-43c0-8756-71106f63f53b
 :END:
 #+title: Valor médio de uma função
 

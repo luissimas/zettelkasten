@@ -1,9 +1,9 @@
 :PROPERTIES:
-:ID: D482F0DF-3203-4A84-BFED-94344BC062E2
+:ID: d482f0df-3203-4a84-bfed-94344bc062e2
 :END:
 #+title: Arithmetic circuits in Verilog
 
-Is possible to implement [[id:3541D72A-41DB-4950-93A1-4814EDB16F7D][arithmetic circuits]] in [[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][Verilog]] in a number of ways. One way is by creating a full adder module that adds individual bits and outputs the result and the carries and then defining a higher-level module that uses /n/ instances of the full-adder. This is shown in the example:
+Is possible to implement [[id:3541d72a-41db-4950-93a1-4814edb16f7d][arithmetic circuits]] in [[id:73012c9b-f3c0-4379-ba84-831aa20e8f1b][Verilog]] in a number of ways. One way is by creating a full adder module that adds individual bits and outputs the result and the carries and then defining a higher-level module that uses /n/ instances of the full-adder. This is shown in the example:
 
 #+begin_src verilog
 module adder4(carryin, X, Y, S, carryout)

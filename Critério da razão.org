@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: F383F004-ED83-4CB9-80F5-4421C454CC0D
+:ID: f383f004-ed83-4cb9-80f5-4421c454cc0d
 :END:
 #+title: Critério da razão
 

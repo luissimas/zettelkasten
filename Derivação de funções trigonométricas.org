@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 9C245E7B-C9F2-46C5-A3C5-A31EB8A397D6
+:ID: 9c245e7b-c9f2-46c5-a3c5-a31eb8a397d6
 :END:
 #+title: Derivação de funções trigonométricas
 

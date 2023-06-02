@@ -1,9 +1,9 @@
 :PROPERTIES:
-:ID: 73012C9B-F3C0-4379-BA84-831AA20E8F1B
+:ID: 73012c9b-f3c0-4379-ba84-831aa20e8f1b
 :END:
 #+title: Verilog
 
-Verilog is a [[id:D057D3EA-F56B-43A1-9201-F1A48F285719][hardware description language]] that provides a very good design portability.
+Verilog is a [[id:d057d3ea-f56b-43a1-9201-f1a48f285719][hardware description language]] that provides a very good design portability.
 In Verilog we can describe a circuit in a number of ways, the main three are: *functional*, *structural* and *behavioral*.
 
 * Structural

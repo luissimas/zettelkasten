@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: BC27E980-7A36-41A9-8FF1-A08766B8DEC9
+:ID: bc27e980-7a36-41a9-8ff1-a08766b8dec9
 :END:
 #+title: Séries de potências
 
 * Séries de potências
-Uma série de potências é uma [[id:B411E2E8-8C8C-4DC7-B297-6CC142E14411][série]] do tipo
+Uma série de potências é uma [[id:b411e2e8-8c8c-4dc7-b297-6cc142e14411][série]] do tipo
 \[
  \sum_{n=0}^{\infty}{c_n(x-x_0)^n}
 \]
@@ -17,7 +17,7 @@ Nesse caso, dizemos que essa série foi /desenvolvida em torno de/ \(x_0\). Cham
 Note que séries de potências necessariamente são convergentes em *invervalos simétricos* em torno de \(x_0\).
 
 ** Determinando o raio de converência
-As séries de potência possuem um formato atrativo para a aplicação do [[id:F383F004-ED83-4CB9-80F5-4421C454CC0D][critério da razão]]. Do uso desse critério derivou-se um teorema que permite determinar facilmente o *raio de convergência* de uma série de potências.
+As séries de potência possuem um formato atrativo para a aplicação do [[id:f383f004-ed83-4cb9-80f5-4421c454cc0d][critério da razão]]. Do uso desse critério derivou-se um teorema que permite determinar facilmente o *raio de convergência* de uma série de potências.
 Dada uma série de potências \(\displaystyle\sum_{n=0}^{\infty}{c_n(x-x_0)^n}\), com \(\displaystyle c_n \neq 0\). Se \(\displaystyle \lim_{n\to\infty} \frac{|c_{n+1}|}{|c_n|} = L\). Então o *raio de convergência* \(R\) é dado por \(\displaystyle R=\frac{1}{L}\). Note que aqui adota-se como convenção que \(\displaystyle \frac{1}{\infty} = 0\) e \(\displaystyle \frac{1}{0} = \infty\).
 
 ** Integração e derivação termo a termo

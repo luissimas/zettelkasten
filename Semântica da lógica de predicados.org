@@ -1,11 +1,11 @@
 :PROPERTIES:
-:ID: 051F4C5D-1ED4-41BC-92A6-CBDAB7847060
+:ID: 051f4c5d-1ed4-41bc-92a6-cbdab7847060
 :END:
 #+title: Semântica da lógica de predicados
 #+filetags: :Interpreta:
 
 * Semântica da lógica de predicados
-A semântica especifica como as sequências válidas se relacionam entre si e qual o valor-verdade dessas relações. No campo da semântica são tratados não só as interpretações e classificação das fórmulas lógicas, mas também [[id:321BA6FD-C526-4D8C-9087-4C93510F874A][as relações de consequência e equivalência]] que elas estabelecem entre si.
+A semântica especifica como as sequências válidas se relacionam entre si e qual o valor-verdade dessas relações. No campo da semântica são tratados não só as interpretações e classificação das fórmulas lógicas, mas também [[id:321ba6fd-c526-4d8c-9087-4c93510f874a][as relações de consequência e equivalência]] que elas estabelecem entre si.
 
 ** Interpretação (\(I\))
 Na lógica de predicados uma interpretação \(I\) de uma fórmula \(\alpha\) é composta dos seguintes elementos: - Um conjunto não vazio \(D\), chamado de *domínio* da interpretação, no qual as variáveis assumem valores. - Uma *atribuição* a cada: - Símbolo constante de \(\alpha\), de um elemento de \(D\) - Símbolo funcional n-ário de \(\alpha\), de uma função de \(D^n \rightarrow D\) - Símbolo de predicado n-ário de \(\alpha\), de uma função de \(D^n \rightarrow \{V,F\}\)

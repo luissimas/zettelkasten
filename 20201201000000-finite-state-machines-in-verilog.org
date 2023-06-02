@@ -1,9 +1,9 @@
 :PROPERTIES:
-:ID: DE1FBFBF-A8B8-4FF8-933E-05E57E291903
+:ID: de1fbfbf-a8b8-4ff8-933e-05e57e291903
 :END:
 #+title: Finite state machines in Verilog
 
-It's possible to implement [[id:192A60C8-C700-4145-8A73-367BC1599EEE][finite state machines]] in [[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][Verilog]] using the both behavioral or structural specification. Using the first one is (as always) more intuitive, but in this case can require more structures and specification. It's important to mention that when using the second, we have to do all the minimization and extraction of the logic functions in advance.
+It's possible to implement [[id:192a60c8-c700-4145-8a73-367bc1599eee][finite state machines]] in [[id:73012c9b-f3c0-4379-ba84-831aa20e8f1b][Verilog]] using the both behavioral or structural specification. Using the first one is (as always) more intuitive, but in this case can require more structures and specification. It's important to mention that when using the second, we have to do all the minimization and extraction of the logic functions in advance.
 
 Here we have a simple way of describing a /FSM/ using the /behavioral/ specification:
 

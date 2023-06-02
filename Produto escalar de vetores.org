@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 6496BA25-E961-43EE-A958-A8BA6E48CD71
+:ID: 6496ba25-e961-43ee-a958-a8ba6e48cd71
 :END:
 #+title: Produto escalar de vetores
 
@@ -33,7 +33,7 @@ De maneira análoga à definição algébrica, temos as seguintes propriedades:
 \]
 
 Note que essa definição *não depende das coordenadas* dos vetores, *apenas de seu módulo*.
-A partir disso é possível inferir uma condição para que dois vetores sejam [[id:A14B3637-07CF-4F69-8925-3735C8E08BF6][orgotonais]]:
+A partir disso é possível inferir uma condição para que dois vetores sejam [[id:a14b3637-07cf-4f69-8925-3735c8e08bf6][orgotonais]]:
 > Dois vetores \(\vec{u}\) e \(\vec{v}\) são ortogonais se, e somente se, \(\vec{u}\cdot \vec{v}=0\)
 
 ** Cálculo do ângulo de dois vetores

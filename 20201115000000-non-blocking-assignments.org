@@ -1,9 +1,9 @@
 :PROPERTIES:
-:ID: E4BCD3C6-E616-4D65-8FDF-9431C8B5D893
+:ID: e4bcd3c6-e616-4d65-8fdf-9431c8b5d893
 :END:
 #+title: Non-blocking assignments
 
-In [[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][Verilog]] we have two type of assignments:
+In [[id:73012c9b-f3c0-4379-ba84-831aa20e8f1b][Verilog]] we have two type of assignments:
 
 - Blocking assignments: ===
 - Non-blocking assignments: =<==

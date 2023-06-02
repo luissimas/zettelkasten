@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: B97848AA-AF27-4736-AE47-C6A975720DCC
+:ID: b97848aa-af27-4736-ae47-c6a975720dcc
 :END:
 #+title: Esboço de gráficos
 

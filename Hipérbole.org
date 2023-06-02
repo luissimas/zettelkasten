@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 87867684-A9DB-4DDC-BD8D-30E1AD69CB1E
+:ID: 87867684-a9db-4ddc-bd8d-30e1ad69cb1e
 :END:
 #+title: Hipérbole
 
@@ -95,7 +95,7 @@ m = \pm \frac{a}{b}
 #+end_quote
 
 ** Translação de eixos
-Usando a [[id:2E2EF3BD-7ABD-4078-BA2F-35E645374EB3][translação de eixos]] é possível manipular o centro da hipérbole para obter as equações reduzidas mesmo que o centro \(C\) da hipérbole não seja o ponto \((0,0)\) do plano cartesiano.
+Usando a [[id:2e2ef3bd-7abd-4078-ba2f-35e645374eb3][translação de eixos]] é possível manipular o centro da hipérbole para obter as equações reduzidas mesmo que o centro \(C\) da hipérbole não seja o ponto \((0,0)\) do plano cartesiano.
 
 [[file:hiperboletranslacaodeeixos.png.org][hiperboletranslacaodeeixos.png]]
 

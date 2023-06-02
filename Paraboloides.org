@@ -1,11 +1,11 @@
 :PROPERTIES:
-:ID: 0ED5B01B-5338-4CF8-A5B3-FD065667B1FA
+:ID: 0ed5b01b-5338-4cf8-a5b3-fd065667b1fa
 :END:
 #+title: Paraboloides
 
 * Paraboloides
 ** Paraboloide elíptico
-Dada a [[id:64F3C4F0-1222-4ED9-A0C2-62AE0E70A96B][parábola]] no plano \(yz\) de equações \(\displaystyle z = \frac{y^2}{b^2}\), \(x = 0\).
+Dada a [[id:64f3c4f0-1222-4ed9-a0c2-62ae0e70a96b][parábola]] no plano \(yz\) de equações \(\displaystyle z = \frac{y^2}{b^2}\), \(x = 0\).
 
 [[file:parabolaparaboloide.png.org][parabolaparaboloide.png]]
 

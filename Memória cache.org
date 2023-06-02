@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 29D7535B-AEA5-408F-955F-ADAB80E42E9D
+:ID: 29d7535b-aea5-408f-955f-adab80e42e9d
 :END:
 #+title: Memória cache
 

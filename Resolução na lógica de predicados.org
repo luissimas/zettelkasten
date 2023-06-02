@@ -1,11 +1,11 @@
 :PROPERTIES:
-:ID: 6939DCF6-1DA4-440B-847F-C0366372DB5D
+:ID: 6939dcf6-1da4-440b-847f-c0366372db5d
 :END:
 #+title: Resolução na lógica de predicados
 #+filetags: :Infer:
 
 * Resolução na lógica de predicados
-A resolução na lógica de predicados é feita de forma muito parecida com a [[file:Técnicas dedutivas#Inferência por resolução.org][resolução na lógica proposicional]]. Devemos primeiro colocar a fórmula na [[id:C85ACE88-0A8F-4055-8FC5-1F9E62F89B04][forma normal conjuntiva (FNC)]], e depois fazer os /resolventes/. É importante destacar que na hora de fazer os resolventes entre as cláusulas devemos aplicar uma [[id:C3ABD1A6-BE83-4152-9872-BCAF33F6D48E][substituição]] \(\theta\) que unifique os dois literais complementares que se deseja eliminar.
+A resolução na lógica de predicados é feita de forma muito parecida com a [[file:Técnicas dedutivas#Inferência por resolução.org][resolução na lógica proposicional]]. Devemos primeiro colocar a fórmula na [[id:c85ace88-0a8f-4055-8fc5-1f9e62f89b04][forma normal conjuntiva (FNC)]], e depois fazer os /resolventes/. É importante destacar que na hora de fazer os resolventes entre as cláusulas devemos aplicar uma [[id:c3abd1a6-be83-4152-9872-bcaf33f6d48e][substituição]] \(\theta\) que unifique os dois literais complementares que se deseja eliminar.
 
 --------------
 

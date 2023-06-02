@@ -1,9 +1,9 @@
 :PROPERTIES:
-:ID: 860D0638-E241-4BCC-B6A7-1FAB58F2ED36
+:ID: 860d0638-e241-4bcc-b6a7-1fab58f2ed36
 :END:
 #+title: Flip-Flops
 
-Flip-flops have a behavior very similar to [[id:4F33C7AD-E863-404D-B011-EB7793459A48][latches]], but they differ in the sense that in flip-flops, the stored signal can change only once during one clock cycle. Not only that, but the output state can change only on the /edge/ of the clock signal.
+Flip-flops have a behavior very similar to [[id:4f33c7ad-e863-404d-b011-eb7793459a48][latches]], but they differ in the sense that in flip-flops, the stored signal can change only once during one clock cycle. Not only that, but the output state can change only on the /edge/ of the clock signal.
 If the flip-flop allows state changes only when the clock signal goes from \(0\) to \(1\), we say that it is a /positive-edge-triggered/ flip-flop. If it allows state changes only when the clock signal goes from \(1\) to \(0\), we say that it is a /negative-edge-triggered/ flip-flop.
 
 * Master-Slave D Flip-Flop

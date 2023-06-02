@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 988BC0DA-FDA8-442C-9245-D4EF092C7999
+:ID: 988bc0da-fda8-442c-9245-d4ef092c7999
 :END:
 #+title: GA MOC
 
@@ -9,55 +9,55 @@ A Geometria Analítica é o estudo da geometria por meio de coordenadas e de pri
 ** Unidade 1
 Na primeira unidade do curso fomos apresentados aos princípios algébricos que formam a base da geometria analítica.
 
-[[id:7D5F5D08-3552-4342-BD93-2519C25FAA70][Sistemas de equações lineares]]
-[[id:BB2F9C6E-F26D-486C-9556-50839B5A3846][Métodos de escalonamento]]
-[[id:F7356A6E-F944-4784-B078-B9290B18443C][Posto de matriz]]
-[[id:9F87067E-4F83-4265-BF55-43EB09F971A0][Resolução de sistemas lineares por escalonamento]]
-[[id:F598D030-DE4A-494A-92A0-D1D194D6CDB5][Inversão de matrizes por escalonamento e matrizes elementares]]
+[[id:7d5f5d08-3552-4342-bd93-2519c25faa70][Sistemas de equações lineares]]
+[[id:bb2f9c6e-f26d-486c-9556-50839b5a3846][Métodos de escalonamento]]
+[[id:f7356a6e-f944-4784-b078-b9290b18443c][Posto de matriz]]
+[[id:9f87067e-4f83-4265-bf55-43eb09f971a0][Resolução de sistemas lineares por escalonamento]]
+[[id:f598d030-de4a-494a-92a0-d1d194d6cdb5][Inversão de matrizes por escalonamento e matrizes elementares]]
 
 Referencial Teórico: [[file:Matrizes_e_sitemas_lineares.pdf.org][Matrizes_e_sitemas_lineares.pdf]]
 
 ** Unidade 2
 Nessa unidade o foco são os vetores.
 
-[[id:4090FB4D-4B9F-40AF-B335-7E88A513FE5B][Determinantes]]
+[[id:4090fb4d-4b9f-40af-b335-7e88a513fe5b][Determinantes]]
 
-[[id:A14B3637-07CF-4F69-8925-3735C8E08BF6][Tratamento geométrico de vetores]]
-[[id:E87B6D14-0282-42CC-B258-A344074B3F77][Tratamento algébrico de vetores]]
-[[id:6496BA25-E961-43EE-A958-A8BA6E48CD71][Produto escalar de vetores]]
-[[id:209D2B46-65A2-491A-8AFC-1D2B665024AC][Produto vetorial]]
-[[id:3D2EF035-0B4C-440F-B103-60AF81A90EB3][Produto misto]]
+[[id:a14b3637-07cf-4f69-8925-3735c8e08bf6][Tratamento geométrico de vetores]]
+[[id:e87b6d14-0282-42cc-b258-a344074b3f77][Tratamento algébrico de vetores]]
+[[id:6496ba25-e961-43ee-a958-a8ba6e48cd71][Produto escalar de vetores]]
+[[id:209d2b46-65a2-491a-8afc-1d2b665024ac][Produto vetorial]]
+[[id:3d2ef035-0b4c-440f-b103-60af81a90eb3][Produto misto]]
 
 Dessa unidade em diante o referencial teórico foi o seguinte: [[file:Geometria_Analitica_Winterle.pdf.org][Geometria_Analitica_Winterle.pdf]]
 
 ** Unidade 3
 Nessa unidade expandimos os conceitos básicos de geometria analítica tomando como base os conhecimentos de vetores.
 
-[[id:4881AC83-53F9-4679-8316-0624AB2A3438][A reta]]
-[[id:AE1577A5-7FBD-456C-93AC-A134BFEBCA15][O plano]]
-[[id:E06514F2-5B13-42F7-8A06-A0A81EAD4CA2][Distâncias]]
+[[id:4881ac83-53f9-4679-8316-0624ab2a3438][A reta]]
+[[id:ae1577a5-7fbd-456c-93ac-a134bfebca15][O plano]]
+[[id:e06514f2-5b13-42f7-8a06-a0a81ead4ca2][Distâncias]]
 
 ** Unidade 4
 Nessa unidade foram introduzidas as curvas cônicas e suas diversas variantes.
 
-[[id:3A433569-F17E-4819-BCD3-F9F54E938644][Rotação de eixos]]
-[[id:2E2EF3BD-7ABD-4078-BA2F-35E645374EB3][Translação de eixos]]
+[[id:3a433569-f17e-4819-bcd3-f9f54e938644][Rotação de eixos]]
+[[id:2e2ef3bd-7abd-4078-ba2f-35e645374eb3][Translação de eixos]]
 
-[[id:A358B3AE-D15D-4173-A579-0F8E48DD2EAC][Cônicas]]
-[[id:64F3C4F0-1222-4ED9-A0C2-62AE0E70A96B][Parábola]]
-[[id:6804C23A-8CF1-4243-8800-7AEBABD2BE6D][Elipse]]
-[[id:87867684-A9DB-4DDC-BD8D-30E1AD69CB1E][Hipérbole]]
+[[id:a358b3ae-d15d-4173-a579-0f8e48dd2eac][Cônicas]]
+[[id:64f3c4f0-1222-4ed9-a0c2-62ae0e70a96b][Parábola]]
+[[id:6804c23a-8cf1-4243-8800-7aebabd2be6d][Elipse]]
+[[id:87867684-a9db-4ddc-bd8d-30e1ad69cb1e][Hipérbole]]
 
 ** Unidade 5
 Nessa unidade expandimos os conceitos e cônicas para o sistema tridimensional.
 
-[[id:727EAE4A-F6E4-4064-BBFC-F3468625C079][Superfícies quádricas]]
-[[id:EE63A9D1-469A-4A85-8FF3-F3B814E64403][Superfícies de revolução]]
-[[id:A8B2D70A-C716-41CA-BBA2-208BCA207C7D][Elipsoides]]
-[[id:F34E2672-7701-4C18-BC3D-D15931B5C079][Hiperboloides]]
-[[id:0ED5B01B-5338-4CF8-A5B3-FD065667B1FA][Paraboloides]]
-[[id:19BC544D-7B04-4FAB-98C5-98978E814B1C][Superfícies cônicas]]
-[[id:742DBF11-DEE1-4623-9D39-F7169F72723B][Superfícies cilíndricas]]
+[[id:727eae4a-f6e4-4064-bbfc-f3468625c079][Superfícies quádricas]]
+[[id:ee63a9d1-469a-4a85-8ff3-f3b814e64403][Superfícies de revolução]]
+[[id:a8b2d70a-c716-41ca-bba2-208bca207c7d][Elipsoides]]
+[[id:f34e2672-7701-4c18-bc3d-d15931b5c079][Hiperboloides]]
+[[id:0ed5b01b-5338-4cf8-a5b3-fd065667b1fa][Paraboloides]]
+[[id:19bc544d-7b04-4fab-98c5-98978e814b1c][Superfícies cônicas]]
+[[id:742dbf11-dee1-4623-9d39-f7169f72723b][Superfícies cilíndricas]]
 
 --------------
 

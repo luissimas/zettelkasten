@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 727EAE4A-F6E4-4064-BBFC-F3468625C079
+:ID: 727eae4a-f6e4-4064-bbfc-f3468625c079
 :END:
 #+title: Superfícies quádricas
 #+filetags: :M:
@@ -15,8 +15,8 @@ ax^2 + by^2 + cz^2 + 2dxy + 2exz + 2fyz + mx + ny + pz + q = 0
 #+end_quote
 
 Essa equação é chamada de /equação geral/ das quádricas. Pelo fato de existirem dez parâmetros na equação, podemos concluir que bastam nove pontos para determinar uma superfície quádrica.
-Dados nove pontos no espaço, basta substituir as coordenadas de cada ponto na equação geral, obtendo-se assim um [[id:7D5F5D08-3552-4342-BD93-2519C25FAA70][sistema de equação linear]], que pode ser [[id:9F87067E-4F83-4265-BF55-43EB09F971A0][resolvido]] utilizando o método de [[file:Métodos de escalonamento#Método de Gauss-Jordan.org][Gauss-Jordan]]. Note que a solução desse sistema terá um parâmetro livre, basta então fixar um valor para esse parâmetro para então determinar uma equação geral da cônica determinada pelos nove pontos.
-Vale destacar que se uma superfície quádrica for cortada pelos /planos coordenados/ ou por planos paralelos a eles, a curva resultante da intersecção será uma [[id:A358B3AE-D15D-4173-A579-0F8E48DD2EAC][cônica]]. Essa intersecção é chamada de /traço da superfície no plano/.
+Dados nove pontos no espaço, basta substituir as coordenadas de cada ponto na equação geral, obtendo-se assim um [[id:7d5f5d08-3552-4342-bd93-2519c25faa70][sistema de equação linear]], que pode ser [[id:9f87067e-4f83-4265-bf55-43eb09f971a0][resolvido]] utilizando o método de [[file:Métodos de escalonamento#Método de Gauss-Jordan.org][Gauss-Jordan]]. Note que a solução desse sistema terá um parâmetro livre, basta então fixar um valor para esse parâmetro para então determinar uma equação geral da cônica determinada pelos nove pontos.
+Vale destacar que se uma superfície quádrica for cortada pelos /planos coordenados/ ou por planos paralelos a eles, a curva resultante da intersecção será uma [[id:a358b3ae-d15d-4173-a579-0f8e48dd2eac][cônica]]. Essa intersecção é chamada de /traço da superfície no plano/.
 
 --------------
 

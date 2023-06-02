@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 68511F23-2D53-499A-A706-0BCAF8C6F332
+:ID: 68511f23-2d53-499a-a706-0bcaf8c6f332
 :END:
 #+title: Estimação de parâmetros
 
@@ -15,7 +15,7 @@ Dado um espaço de probabilidade \((\Omega, \mathcal{F}, P)\) associado a um exp
 
 #+end_quote
 
-Dentro dessa área temos dois tipos de estimação, a [[id:6EA3EFDB-EC2D-4FE9-B8F3-2D12FD260DFF][estimação pontual]] e a [[id:B4A6CA85-0D05-48A2-ACB8-A44A1D1BB643][estimação intervalar]].
+Dentro dessa área temos dois tipos de estimação, a [[id:6ea3efdb-ec2d-4fe9-b8f3-2d12fd260dff][estimação pontual]] e a [[id:b4a6ca85-0d05-48a2-acb8-a44a1d1bb643][estimação intervalar]].
 
 --------------
 

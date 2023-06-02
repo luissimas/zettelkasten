@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 284844C0-C018-4D95-8CA0-A54932B8D4EA
+:ID: 284844c0-c018-4d95-8ca0-a54932b8d4ea
 :END:
 #+title: Teste de hipóteses
 
@@ -51,7 +51,7 @@ A mesma definição vale para as hipóteses alternativas /unilaterais/ \(H_1 : \
 
 ** Procedimento geral de um teste de hipóteses
 1. Fixe a hipótese nula \(H_0\) e a hipóteses alternativa \(H_1\).
-2. Use a teoria estatística para determinar a [[id:B6E78CF6-3DE3-4E47-AD83-C184602C48F4][estatística]] apropriada para o teste.
+2. Use a teoria estatística para determinar a [[id:b6e78cf6-3de3-4e47-ad83-c184602c48f4][estatística]] apropriada para o teste.
 3. Escolha um nível de significância \(\alpha \in ]0,1[\) (probabilidade de erro do tipo \(I\)) e utilize este valor para construir a região crítica do teste com base na estatística de teste determinada.
 4. Use as observações da amostra coletada para calcular o valor da estatística de teste.
 5. Se o valor da estatística de teste calculado com a amostra observada pertencer à região crítica, rejeite a hipótese nula \(H_0\); caso contrário, não rejeite a hipótese nula \(H_0\).

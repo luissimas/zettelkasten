@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 8B09A649-2F4C-40E8-A0E2-CC3E648F54ED
+:ID: 8b09a649-2f4c-40e8-a0e2-cc3e648f54ed
 :END:
 #+title: Funções trigonométricas
 
@@ -42,7 +42,7 @@ Além da relações básicas, temos também as funções trigonométricas invers
 \csc{\alpha} = \frac{1}{\sin{\alpha}}\qquad(a\not=n\pi,\forall n \in\mathbb{Z})
 \]
 
-Existem ainda as seguintes relações, muito úteis principalmente para o cálculo de [[id:76306C91-2CDC-44BD-9F6C-698A77F7F093][integrais]]:
+Existem ainda as seguintes relações, muito úteis principalmente para o cálculo de [[id:76306c91-2cdc-44bd-9f6c-698a77f7f093][integrais]]:
 \[
 \begin{array}{|c|c|}
 \hline

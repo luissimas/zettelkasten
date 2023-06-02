@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 63384077-A1B3-4E87-BA0B-D3721C8C0102
+:ID: 63384077-a1b3-4e87-ba0b-d3721c8c0102
 :END:
 #+title: Digital representation of information
 

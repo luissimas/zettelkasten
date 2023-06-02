@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 47C87DEB-B16A-4292-9CD7-12AF1294C719
+:ID: 47c87deb-b16a-4292-9cd7-12af1294c719
 :END:
 #+title: Fundamentos
 #+filetags: :Arquitetura:

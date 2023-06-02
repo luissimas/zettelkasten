@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 09D8C7AD-6D5A-49A2-AB65-3032452EB2EB
+:ID: 09d8c7ad-6d5a-49a2-ab65-3032452eb2eb
 :END:
 #+title: Técnicas dedutivas
 #+filetags: :Forma:Formas:Argumentos:Classifica:Regras:Leis:

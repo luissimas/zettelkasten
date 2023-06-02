@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: E87A5FAD-8974-4A38-8619-BE697D19F477
+:ID: e87a5fad-8974-4a38-8619-be697d19f477
 :END:
 #+title: Divide and conquer
 
 * Divide and conquer
-Divide and conquer is a general [[id:A858B445-1961-4C2A-AC4F-F468A6F16951][recursive]] technique to solve more complex problems with algorithms. Since it's a recursive technique, the first step when solving a problem using /divide and conquer/ is always determining the base cases of the problem. After that we can divide the problem in small steps until we reach the base case.
+Divide and conquer is a general [[id:a858b445-1961-4c2a-ac4f-f468a6f16951][recursive]] technique to solve more complex problems with algorithms. Since it's a recursive technique, the first step when solving a problem using /divide and conquer/ is always determining the base cases of the problem. After that we can divide the problem in small steps until we reach the base case.
 
 #+begin_quote
 When you're solving a problem involving array by recursion, usually the base case is either an empty array or an array with one element.

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 8A83A108-D6EE-4CC2-8C85-7FAC3AF9659B
+:ID: 8a83a108-d6ee-4cc2-8c85-7fac3af9659b
 :END:
 #+title: Integração por partes
 #+filetags: :Regras:

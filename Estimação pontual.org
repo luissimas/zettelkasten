@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 6EA3EFDB-EC2D-4FE9-B8F3-2D12FD260DFF
+:ID: 6ea3efdb-ec2d-4fe9-b8f3-2d12fd260dff
 :END:
 #+title: Estimação pontual
 #+filetags: :Derivadas:Distribui:
@@ -8,14 +8,14 @@
 
 #+begin_quote
 */Estimador pontual e estimativa pontual/*
-Dado um espaço de probabilidade \((\Omega, \mathcal{F}, P)\) associado a um experimento aleatório. Seja \((X_1, X_2, \dots, X_n)\) uma amostra aleatória da variável aleatória \(X : \Omega \rightarrow \mathbb{R}\) com função de distribuição (ou densidade) de probabilidade \(p(x|\theta)\) (ou \(f(x|\theta)\)), em que \(\theta\) é um parâmetro desconhecido. Qualquer [[id:B6E78CF6-3DE3-4E47-AD83-C184602C48F4][estatística]] \(\hat{\theta} := T(X_1, \dots, X_n)\) que assume valores em \(\Theta\) é um *estimador* para \(\theta\). Quando \((x_1, \dots, x_n)\) é uma *observação* da amostra \((X_1, X_2, \dots, X_n)\), dizemos que \(\hat{\theta} := T(X_1,\dots,X_n)\) é uma *estimativa* para \(\theta\).
+Dado um espaço de probabilidade \((\Omega, \mathcal{F}, P)\) associado a um experimento aleatório. Seja \((X_1, X_2, \dots, X_n)\) uma amostra aleatória da variável aleatória \(X : \Omega \rightarrow \mathbb{R}\) com função de distribuição (ou densidade) de probabilidade \(p(x|\theta)\) (ou \(f(x|\theta)\)), em que \(\theta\) é um parâmetro desconhecido. Qualquer [[id:b6e78cf6-3de3-4e47-ad83-c184602c48f4][estatística]] \(\hat{\theta} := T(X_1, \dots, X_n)\) que assume valores em \(\Theta\) é um *estimador* para \(\theta\). Quando \((x_1, \dots, x_n)\) é uma *observação* da amostra \((X_1, X_2, \dots, X_n)\), dizemos que \(\hat{\theta} := T(X_1,\dots,X_n)\) é uma *estimativa* para \(\theta\).
 
 #+end_quote
 
-Note que, enquanto um *estimador é uma função* da amostra ([[id:B6E78CF6-3DE3-4E47-AD83-C184602C48F4][estatística]]), uma *estimativa é um valor* (produzido ao aplicar uma amostra a um estimador).
+Note que, enquanto um *estimador é uma função* da amostra ([[id:b6e78cf6-3de3-4e47-ad83-c184602c48f4][estatística]]), uma *estimativa é um valor* (produzido ao aplicar uma amostra a um estimador).
 
 ** Comparação de estimadores
-Veja que apenas encontrar um estimador e com ele produzir estimativas não basta, tendo em vista que podem existir diversas [[id:B6E78CF6-3DE3-4E47-AD83-C184602C48F4][estatísticas]] que produzem valores no espaço paramétrico \(\Theta\). Portanto, é necessário também saber avaliar e *comparar* estimadores. De maneira geral, um estimador é melhor do que o outro se ele produz estimativas mais próximas do parâmetro \(\theta\) que se deseja estimar. Mas como o parâmetro \(\theta\) é desconhecido, essa noção de proximidade deve se dar a partir da [[file:Estatísticas e suas distribuições#Distribuições amostrais.org][distribuição amostral]] de \(\hat{\theta}\).
+Veja que apenas encontrar um estimador e com ele produzir estimativas não basta, tendo em vista que podem existir diversas [[id:b6e78cf6-3de3-4e47-ad83-c184602c48f4][estatísticas]] que produzem valores no espaço paramétrico \(\Theta\). Portanto, é necessário também saber avaliar e *comparar* estimadores. De maneira geral, um estimador é melhor do que o outro se ele produz estimativas mais próximas do parâmetro \(\theta\) que se deseja estimar. Mas como o parâmetro \(\theta\) é desconhecido, essa noção de proximidade deve se dar a partir da [[file:Estatísticas e suas distribuições#Distribuições amostrais.org][distribuição amostral]] de \(\hat{\theta}\).
 
 A seguir definimos duas propriedades importantíssimas dos estimadores:
 
@@ -73,7 +73,7 @@ no caso em que \(X\) é uma variável aleatória contínua. - Suponha que o argu
 
 #+end_quote
 
-Veja que se a ideia é encontrar o argumento que maximiza a função de verossimilhança, podemos [[file:Velocidade instantânea e derivadas#Derivadas.org][derivar]] essa função e então encontrar seu ponto de máximo. Note que derivar funções pode se tornar algo complicado, entretanto sabemos que é simples [[id:7E638AC0-9432-4976-A390-6737E9DF0143][derivar funções logarítmicas]]. Portanto, podemos manipular a função de máxima verossimilhança para facilitar a sua derivação:
+Veja que se a ideia é encontrar o argumento que maximiza a função de verossimilhança, podemos [[file:Velocidade instantânea e derivadas#Derivadas.org][derivar]] essa função e então encontrar seu ponto de máximo. Note que derivar funções pode se tornar algo complicado, entretanto sabemos que é simples [[id:7e638ac0-9432-4976-a390-6737e9df0143][derivar funções logarítmicas]]. Portanto, podemos manipular a função de máxima verossimilhança para facilitar a sua derivação:
 
 #+begin_quote
 */Função log-verossimilhança/*

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: C85ACE88-0A8F-4055-8FC5-1F9E62F89B04
+:ID: c85ace88-0a8f-4055-8fc5-1f9e62f89b04
 :END:
 #+title: Forma Normal Conjuntiva na Lógica de Predicados
 
@@ -30,7 +30,7 @@ O processo de /skolemização/ consiste em eliminar os quantificadores existenci
 
 #+begin_quote
 */Forma Normal Prenex (FNP)/*
-Uma fórmula \(\alpha\) da [[id:A3DD607A-E5E1-4014-A96C-7153FE08C507][lógica de predicados]] está na /Forma Normal Prenex (FNP)/ se e somente se \(\alpha\) estiver na forma
+Uma fórmula \(\alpha\) da [[id:a3dd607a-e5e1-4014-a96c-7153fe08c507][lógica de predicados]] está na /Forma Normal Prenex (FNP)/ se e somente se \(\alpha\) estiver na forma
 \[
 (Q_1X_1)(Q_2X_2)\dots(Q_nX_n)(M)
 \]

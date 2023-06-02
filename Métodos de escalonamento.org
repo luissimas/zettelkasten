@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: BB2F9C6E-F26D-486C-9556-50839B5A3846
+:ID: bb2f9c6e-f26d-486c-9556-50839b5a3846
 :END:
 #+title: Métodos de escalonamento
 

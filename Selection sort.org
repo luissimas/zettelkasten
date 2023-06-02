@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 192B088B-6E0E-4FB1-8B68-FFC8F5379276
+:ID: 192b088b-6e0e-4fb1-8b68-ffc8f5379276
 :END:
 #+title: Selection sort
 

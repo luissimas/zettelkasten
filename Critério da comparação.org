@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: C443B709-290E-4EA7-A3DB-772E44598730
+:ID: c443b709-290e-4ea7-a3db-772e44598730
 :END:
 #+title: Critério da comparação
 

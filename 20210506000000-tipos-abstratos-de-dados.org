@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 283D81BC-D5FB-4BBB-9DE0-FA156F87348C
+:ID: 283d81bc-d5fb-4bbb-9de0-fa156f87348c
 :END:
 #+title: Tipos abstratos de dados
 

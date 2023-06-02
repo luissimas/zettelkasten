@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: CA2EDD2F-2DC9-46F8-8020-23BB200DC732
+:ID: ca2edd2f-2dc9-46f8-8020-23bb200dc732
 :END:
 #+title: Grafo hamiltoniano
 

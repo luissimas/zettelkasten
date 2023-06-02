@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: E23C5DC3-934A-4F55-B401-BE380770C9F3
+:ID: e23c5dc3-934a-4f55-b401-be380770c9f3
 :END:
 #+title: Minterms and maxterms
 

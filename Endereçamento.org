@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 9DE660F8-D55E-42E5-87C3-E0FFEBED926A
+:ID: 9de660f8-d55e-42e5-87c3-e0ffebed926a
 :END:
 #+title: Endereçamento
 #+filetags: :Deslocamento:Indireto:

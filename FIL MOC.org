@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 74787E03-D580-4554-983F-A18AA0B0A4A8
+:ID: 74787e03-d580-4554-983f-a18aa0b0a4a8
 :END:
 #+title: FIL MOC
 
 * Filosofia da Ciência
-Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque particular na ideia de mudança e progresso na visão de dois importantes pensadores: [[id:72593630-DB6F-4039-B413-2B468DFBC66C][Karl Popper]] e [[id:2CF712F8-C429-449E-979A-E2B2C114D598][Thomas Kuhn]].
+Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque particular na ideia de mudança e progresso na visão de dois importantes pensadores: [[id:72593630-db6f-4039-b413-2b468dfbc66c][Karl Popper]] e [[id:2cf712f8-c429-449e-979a-e2b2c114d598][Thomas Kuhn]].
 
 #+begin_quote
 Filosofia da ciência é a reflexão filosófica sistemática sobre a natureza do conhecimento científico.
@@ -13,13 +13,13 @@ Filosofia da ciência é a reflexão filosófica sistemática sobre a natureza d
 
 Primeiramente fomos introduzidos aos conceitos primordiais do que se entendia como ciência, conceitos esses que foram muito discutidos e questionados por Kuhn e Popper.
 
-[[id:6F01CB8C-EDCD-4409-A71A-7DE61BC6708E][Indução]]
-[[id:0A25C6F1-3AD2-4A2A-BA1B-05BA2AC6FCE1][Indutivismo]]
+[[id:6f01cb8c-edcd-4409-a71a-7de61bc6708e][Indução]]
+[[id:0a25c6f1-3ad2-4a2a-ba1b-05ba2ac6fce1][Indutivismo]]
 
-A primeira corrente de pensamento estudada é a concepção de ciência (ou do que deve ser a ciência) por [[id:72593630-DB6F-4039-B413-2B468DFBC66C][Karl Popper]].
+A primeira corrente de pensamento estudada é a concepção de ciência (ou do que deve ser a ciência) por [[id:72593630-db6f-4039-b413-2b468dfbc66c][Karl Popper]].
 
-[[id:90A28B17-1463-47D4-BA3C-A0FEEE7E6F53][Falseabilismo]]
+[[id:90a28b17-1463-47d4-ba3c-a0feee7e6f53][Falseabilismo]]
 
-Na segunda metade do curso fomos introduzidos à concepção de ciência segundo [[id:2CF712F8-C429-449E-979A-E2B2C114D598][Thomas Kuhn]], com uma visão mais descritiva e histórica do processo de desenvolvimento do conhecimento científico.
+Na segunda metade do curso fomos introduzidos à concepção de ciência segundo [[id:2cf712f8-c429-449e-979a-e2b2c114d598][Thomas Kuhn]], com uma visão mais descritiva e histórica do processo de desenvolvimento do conhecimento científico.
 
-[[id:2C1CB337-06EB-4714-82D3-9A18A223165E][Revoluções científicas]]
+[[id:2c1cb337-06eb-4714-82d3-9a18a223165e][Revoluções científicas]]

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: D59212F8-7822-45C5-A37A-88C3198645A3
+:ID: d59212f8-7822-45c5-a37a-88c3198645a3
 :END:
 #+title: Conjuntos
 #+filetags: :A:

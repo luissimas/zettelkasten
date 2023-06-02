@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 16B09044-FA0D-4AE3-B74C-516387BFB667
+:ID: 16b09044-fa0d-4ae3-b74c-516387bfb667
 :END:
 #+title: CDS MOC
 
@@ -7,23 +7,23 @@
 A disciplina de cálculo diferencial e séries trata de dois grandes tópicos do cálculo, cada um estudado separadamente. O referencial teórico da disciplina foi o livro [[file:Calculo_Thomas_12ed.pdf.org][Cálculo Vol.2 - 12° edição - George Thomas]]
 
 ** Sequências e séries
-[[id:94EB68F2-D3CE-47A3-8A4F-CA0D74C0C9B1][Sequências numéricas]]
-[[id:B411E2E8-8C8C-4DC7-B297-6CC142E14411][Séries numéricas]]
-[[id:CFD9B049-6A5D-4D7A-B7B8-EF7D5BA84106][Convergência de séries]]
-[[id:BC27E980-7A36-41A9-8FF1-A08766B8DEC9][Séries de potências]]
-[[id:6D713A15-0233-474B-90D3-8C57ED7B8052][Séries de Taylor]]
+[[id:94eb68f2-d3ce-47a3-8a4f-ca0d74c0c9b1][Sequências numéricas]]
+[[id:b411e2e8-8c8c-4dc7-b297-6cc142e14411][Séries numéricas]]
+[[id:cfd9b049-6a5d-4d7a-b7b8-ef7d5ba84106][Convergência de séries]]
+[[id:bc27e980-7a36-41a9-8ff1-a08766b8dec9][Séries de potências]]
+[[id:6d713a15-0233-474b-90d3-8c57ed7b8052][Séries de Taylor]]
 
 ** Funções de várias variáveis
 [[[#][Funções de várias variáveis]]]
-[[id:A82A23C6-CB32-461B-8D04-C4D8DA3759EA][Limite de funções de várias variáveis]]
-[[id:B23E6840-0F5D-4A59-B2F8-E4EB060A4FF6][Continuidade de funções de várias variáveis]]
-[[id:27736047-E758-4F7D-A35E-1D42D523EDBF][Derivadas parciais]]
-[[id:FE3F13DB-35D8-48BE-B52B-4EE06C662E21][Diferenciabilidade de funções de várias variáveis]]
-[[id:593DF00A-9425-450E-A203-B86F8B911FFD][Plano tangente]]
-[[id:56AE2F7B-945D-4D80-8340-84C0D0240F75][Vetor gradiente]]
-[[id:2BCCCA7B-5699-4EC0-AE08-E3F2D516D596][Regra da cadeia em funções de várias variáveis]]
-[[id:3BD813DB-80EF-4BFC-8870-32767494E4CA][Derivadas direcionais]]
-[[id:7F1EF1D1-0378-4008-9546-132C4D09B9B5][Máximos e mínimos de funções de várias variáveis]]
+[[id:a82a23c6-cb32-461b-8d04-c4d8da3759ea][Limite de funções de várias variáveis]]
+[[id:b23e6840-0f5d-4a59-b2f8-e4eb060a4ff6][Continuidade de funções de várias variáveis]]
+[[id:27736047-e758-4f7d-a35e-1d42d523edbf][Derivadas parciais]]
+[[id:fe3f13db-35d8-48be-b52b-4ee06c662e21][Diferenciabilidade de funções de várias variáveis]]
+[[id:593df00a-9425-450e-a203-b86f8b911ffd][Plano tangente]]
+[[id:56ae2f7b-945d-4d80-8340-84c0d0240f75][Vetor gradiente]]
+[[id:2bccca7b-5699-4ec0-ae08-e3f2d516d596][Regra da cadeia em funções de várias variáveis]]
+[[id:3bd813db-80ef-4bfc-8870-32767494e4ca][Derivadas direcionais]]
+[[id:7f1ef1d1-0378-4008-9546-132c4d09b9b5][Máximos e mínimos de funções de várias variáveis]]
 
 --------------
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: F598D030-DE4A-494A-92A0-D1D194D6CDB5
+:ID: f598d030-de4a-494a-92a0-d1d194d6cdb5
 :END:
 #+title: Inversão de matrizes por escalonamento e matrizes elementares
 #+filetags: :M:

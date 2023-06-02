@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 409473EF-A95E-4F02-88C1-9A862097FFBC
+:ID: 409473ef-a95e-4f02-88c1-9a862097ffbc
 :END:
 #+title: Pronomes
 
 * Prōnōmina
-Os pronomes apontam para um [[id:0125B0C4-DD33-473E-8585-0CB211AD2FA2][substantivo]] (ou o substituem completamente), e por isso variam como os substantivos: de acordo com gênero, número e [[id:FDB8B846-094D-4333-8E40-20D8DFA16F88][caso]].
+Os pronomes apontam para um [[id:0125b0c4-dd33-473e-8585-0cb211ad2fa2][substantivo]] (ou o substituem completamente), e por isso variam como os substantivos: de acordo com gênero, número e [[id:fdb8b846-094d-4333-8e40-20d8dfa16f88][caso]].
 
 --------------
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 3BCADD92-BB57-4F44-B405-55FD67F09CA6
+:ID: 3bcadd92-bb57-4f44-b405-55fd67f09ca6
 :END:
 #+title: Volume de um sólido de revolução
 

@@ -1,11 +1,11 @@
 :PROPERTIES:
-:ID: 093C7B66-D2D1-4083-9820-24EB4BFEF5EF
+:ID: 093c7b66-d2d1-4083-9820-24eb4bfef5ef
 :END:
 #+title: Probabilidade
 
 * Probabilidade
 A probabilidade é uma ferramenta da [[file:Estatística.org][estatística]], com ela é possível estudar experimentos que repetidos sob as *mesmas condições* produzem resultados *diferentes*.
-Considerando um [[id:F7B70E43-3F9F-41CF-9D56-39F74C6E1C64][evento aleatório]] \(\mathcal{E}\) com espaço amostral \(\Omega\) e espaço de eventos \(\mathcal{F}\), ou seja, um *espaço de probabilidade* \((\Omega,\mathcal{F},P)\) a probabilidade de ocorrência de um evento \(E\) é uma função \(P:\mathcal{F} \rightarrow[0,1]\)
+Considerando um [[id:f7b70e43-3f9f-41cf-9d56-39f74c6e1c64][evento aleatório]] \(\mathcal{E}\) com espaço amostral \(\Omega\) e espaço de eventos \(\mathcal{F}\), ou seja, um *espaço de probabilidade* \((\Omega,\mathcal{F},P)\) a probabilidade de ocorrência de um evento \(E\) é uma função \(P:\mathcal{F} \rightarrow[0,1]\)
 \[
 P(E)=\frac{|E|}{|\Omega|}
 \]

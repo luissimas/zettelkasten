@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 179C58B3-0C8A-46B4-A7C9-943F21E9067C
+:ID: 179c58b3-0c8a-46b4-a7c9-943f21e9067c
 :END:
 #+title: Somatórios e produtórios
 

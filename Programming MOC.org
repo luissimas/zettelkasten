@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 4B8CE6B5-C7DF-4B60-AB88-E2BE2A269B85
+:ID: 4b8ce6b5-c7df-4b60-ab88-e2be2a269b85
 :END:
 #+title:Programming MOC
 
@@ -11,7 +11,7 @@ Categorizing languages by paradigm maybe (?)
 * Paradigms
 ** Imperative
 *** Procedural
-[[id:BFECF00E-D25A-4A8D-B7A5-32C9F609C522][Assembly]]
+[[id:bfecf00e-d25a-4a8d-b7a5-32c9f609c522][Assembly]]
 [[file:C.org][C]]
 ### Object-oriented
 [[file:C++.org][C++]]
@@ -26,15 +26,15 @@ Categorizing languages by paradigm maybe (?)
 
 *** Database
 ** Hardware
-[[id:D057D3EA-F56B-43A1-9201-F1A48F285719][Hardware description language]]
-[[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][Verilog]]
+[[id:d057d3ea-f56b-43a1-9201-f1a48f285719][Hardware description language]]
+[[id:73012c9b-f3c0-4379-ba84-831aa20e8f1b][Verilog]]
 
 * Web development
-[[id:0BFFA3F6-3C84-4910-A560-659842D5AFEA][HTTP]]
-[[id:A690C762-F529-40C2-B879-C9A280806A86][Node.js]]
+[[id:0bffa3f6-3c84-4910-a560-659842d5afea][HTTP]]
+[[id:a690c762-f529-40c2-b879-c9a280806a86][Node.js]]
 
 * Misc
-[[id:5A460AC7-AB0E-4A1A-AA57-F3E0CE56C26F][Makefiles]]
+[[id:5a460ac7-ab0e-4a1a-aa57-f3e0ce56c26f][Makefiles]]
 
 --------------
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 3BD813DB-80EF-4BFC-8870-32767494E4CA
+:ID: 3bd813db-80ef-4bfc-8870-32767494e4ca
 :END:
 #+title: Derivadas direcionais
 

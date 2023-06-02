@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 27736047-E758-4F7D-A35E-1D42D523EDBF
+:ID: 27736047-e758-4f7d-a35e-1d42d523edbf
 :END:
 #+title: Derivadas parciais
 

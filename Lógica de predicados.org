@@ -1,13 +1,13 @@
 :PROPERTIES:
-:ID: A3DD607A-E5E1-4014-A96C-7153FE08C507
+:ID: a3dd607a-e5e1-4014-a96c-7153fe08c507
 :END:
 #+title: Lógica de predicados
 
 * Lógica de predicados
-A lógica de predicados é uma generalização da [[id:6931DA83-27A2-4C30-966C-E7F4627B2819][lógica proposicional]], e compreende uma forma bem mais abrangente e complexa de representação do conhecimento. De maneira geral, a lógica de predicados nos permite representar de uma forma muito mais precisa o conhecimento do mundo real, fornecendo ferramentas para mapear não só fatos individuais, mas também as relações entre esses fatos.
-Justamente pelo fato da lógica de predicados extender a [[id:6931DA83-27A2-4C30-966C-E7F4627B2819][lógica proposicional]], todos os conhecimentos da segunda se aplicam para a primeira, porém iremos introduzir novos conceitos aplicados somente à lógica de predicados.
+A lógica de predicados é uma generalização da [[id:6931da83-27a2-4c30-966c-e7f4627b2819][lógica proposicional]], e compreende uma forma bem mais abrangente e complexa de representação do conhecimento. De maneira geral, a lógica de predicados nos permite representar de uma forma muito mais precisa o conhecimento do mundo real, fornecendo ferramentas para mapear não só fatos individuais, mas também as relações entre esses fatos.
+Justamente pelo fato da lógica de predicados extender a [[id:6931da83-27a2-4c30-966c-e7f4627b2819][lógica proposicional]], todos os conhecimentos da segunda se aplicam para a primeira, porém iremos introduzir novos conceitos aplicados somente à lógica de predicados.
 
-Como qualquer outra linguagem, a lógica de predicados é composta por [[id:43FA5869-93FE-4194-826D-FA9A41D64E7E][sintaxe]] e [[id:051F4C5D-1ED4-41BC-92A6-CBDAB7847060][semântica]].
+Como qualquer outra linguagem, a lógica de predicados é composta por [[id:43fa5869-93fe-4194-826d-fa9a41d64e7e][sintaxe]] e [[id:051f4c5d-1ed4-41bc-92a6-cbdab7847060][semântica]].
 
 --------------
 

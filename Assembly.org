@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: BFECF00E-D25A-4A8D-B7A5-32C9F609C522
+:ID: bfecf00e-d25a-4a8d-b7a5-32c9f609c522
 :END:
 #+title: Assembly
 

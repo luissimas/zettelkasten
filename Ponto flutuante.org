@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 188D0EBB-2312-41DA-87D5-C421448153CF
+:ID: 188d0ebb-2312-41da-87d5-c421448153cf
 :END:
 #+title: Ponto flutuante
 
@@ -52,7 +52,7 @@ Para realizar as operações de adição e subtração com números \(FP\) é ne
 [[file:implementacaoadicaofloatingpoint.png.org][implementacaoadicaofloatingpoint.png]]
 
 ** Implementação em MIPS
-Na arquitetura [[id:35611088-86E7-4D80-B751-BDC56E12DC0B][MIPS]] utiliza-se um *coprocessador* dedicado chamado /Coprocessor 1/ ou /Floating Point Unit (FPU)/ para realizar as operações relacionadas a números /FP/. São reservados \(32\) registradores /FP/: \(\text{\$f0}, \text{\$f1}, \dots, \text{\$f31}\). Vale lembrar que como todos os registradores MIPS são de \(32\) /bits/, é necessário o uso de dois registradores em conjunto para armazenas os números de precisão dupla.
+Na arquitetura [[id:35611088-86e7-4d80-b751-bdc56e12dc0b][MIPS]] utiliza-se um *coprocessador* dedicado chamado /Coprocessor 1/ ou /Floating Point Unit (FPU)/ para realizar as operações relacionadas a números /FP/. São reservados \(32\) registradores /FP/: \(\text{\$f0}, \text{\$f1}, \dots, \text{\$f31}\). Vale lembrar que como todos os registradores MIPS são de \(32\) /bits/, é necessário o uso de dois registradores em conjunto para armazenas os números de precisão dupla.
 
 --------------
 

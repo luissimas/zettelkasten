@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 215DD1F0-B6D1-466E-8E8C-86FBD475984D
+:ID: 215dd1f0-b6d1-466e-8e8c-86fbd475984d
 :END:
 #+title: Cálculo proposicional
 #+filetags: :Interpreta:Consequ:Classifica:Regras:Leis:
@@ -44,7 +44,7 @@ Esse método consiste na construção da tabela-verdade e análise das [[file:Se
 Para verificar a validade de um argumento \(\alpha_1, \alpha_2, \alpha_3, \dots, \alpha_{n-1} \vdash \alpha_n\) utilizando o método semântico, basta fazer a tabela-verdade com todas as fórmulas presentes e verificar se \(\left(\alpha_1 \land \alpha_2 \land \alpha_3 \land \dots \land \alpha_{n-1} \right) \implies \alpha_n\) é uma [[file:Semântica da lógica proposicional#Classificação de fórmulas.org][tautologia]].
 
 *** Método sintático
-Esse método representa a *essência do cálculo proposicional*. Para verificar a validade de um argumento utilizando o método sintático, deve-se desenvolver uma [[id:09D8C7AD-6D5A-49A2-AB65-3032452EB2EB][prova (ou dedução)]] para o dado argumento com base nas [[file:Cálculo proposicional#Regras de inferência.org][regras de inferência]] e [[file:Álgebra da lógica proposicional#Leis de equivalência.org][leis de equivalência]].
+Esse método representa a *essência do cálculo proposicional*. Para verificar a validade de um argumento utilizando o método sintático, deve-se desenvolver uma [[id:09d8c7ad-6d5a-49a2-ab65-3032452eb2eb][prova (ou dedução)]] para o dado argumento com base nas [[file:Cálculo proposicional#Regras de inferência.org][regras de inferência]] e [[file:Álgebra da lógica proposicional#Leis de equivalência.org][leis de equivalência]].
 
 ** Regras de inferência
 As regras de inferência são argumentos lógicos notáveis já conhecidos que podem ser utilizados para verificar a validade de argumentos mais complexos.

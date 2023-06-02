@@ -1,12 +1,12 @@
 :PROPERTIES:
-:ID: BB43580A-A618-416F-A346-39F9D8059491
+:ID: bb43580a-a618-416f-a346-39f9d8059491
 :END:
 #+title: Implementation of storage in Verilog
 
-The different elements that allow us to storage data in digital circuits can be implemented quite easily with the use of =if-else= statements. Here we find the [[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][verilog ]] examples for the basic structures of storage.
+The different elements that allow us to storage data in digital circuits can be implemented quite easily with the use of =if-else= statements. Here we find the [[id:73012c9b-f3c0-4379-ba84-831aa20e8f1b][verilog ]] examples for the basic structures of storage.
 
 * Latches
-[[id:4F33C7AD-E863-404D-B011-EB7793459A48][Latches]] can be described in a simple way using a =if= statement. Here is a example a [[id:d075714a-a86f-4dcc-878d-9c5d2cdf9413][gated D latch]] module
+[[id:4f33c7ad-e863-404d-b011-eb7793459a48][Latches]] can be described in a simple way using a =if= statement. Here is a example a [[id:d075714a-a86f-4dcc-878d-9c5d2cdf9413][gated D latch]] module
 
 #+begin_src verilog
 module D_latch(D, Clk, Q);
@@ -20,7 +20,7 @@ endmodule
 #+end_src
 
 * Flip-flops
-For [[id:860D0638-E241-4BCC-B6A7-1FAB58F2ED36][flip-flops]] we have to use the =posedge= and =negedge= keywords, these keywords describe the desired clock edge that trigger the evaluation of the expression.
+For [[id:860d0638-e241-4bcc-b6a7-1fab58f2ed36][flip-flops]] we have to use the =posedge= and =negedge= keywords, these keywords describe the desired clock edge that trigger the evaluation of the expression.
 
 #+begin_src verilog
 module flipflop(D, Clock, Q);
@@ -33,7 +33,7 @@ endmodule
 #+end_src
 
 * Registers and Counters
-To describe [[id:5B18C678-59BE-4C72-8296-8A756DE6EDE9][counters ]] and [[id:6CA9DDE1-6128-4FD1-BD48-A943CA3BFD3B][registers ]] we have to use the [[id:E4BCD3C6-E616-4D65-8FDF-9431C8B5D893][non-blocking assignments]], otherwise we'll end up with a circuit that doesn't make sense.
+To describe [[id:5b18c678-59be-4c72-8296-8a756de6ede9][counters ]] and [[id:6ca9dde1-6128-4fd1-bd48-a943ca3bfd3b][registers ]] we have to use the [[id:e4bcd3c6-e616-4d65-8fdf-9431c8b5d893][non-blocking assignments]], otherwise we'll end up with a circuit that doesn't make sense.
 
 ** Registers
 Here we can see a example of a general /n-bit/ register with /asynchronous/ clear:

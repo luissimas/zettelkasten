@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: A8B2D70A-C716-41CA-BBA2-208BCA207C7D
+:ID: a8b2d70a-c716-41ca-bba2-208bca207c7d
 :END:
 #+title: Elipsoides
 
 * Elipsoides
-Dada uma [[id:6804C23A-8CF1-4243-8800-7AEBABD2BE6D][elipse]], ao girarmos ela em torno de um dos eixos coordenados, obtemos a seguinte superfície:
+Dada uma [[id:6804c23a-8cf1-4243-8800-7aebabd2be6d][elipse]], ao girarmos ela em torno de um dos eixos coordenados, obtemos a seguinte superfície:
 
 [[file:elipsoide.png.org][elipsoide.png]]
 
@@ -18,7 +18,7 @@ Cuja equação mais geral é dada por:
 #+end_quote
 
 ** Translação de eixos
-Se o centro do elipsoide é o ponto \((h,k,l)\), e seus eixos forem paralelos aos eixos coordenados, podemos obter a equação da superfície através de uma [[id:2E2EF3BD-7ABD-4078-BA2F-35E645374EB3][translação de eixos]]. Nesse caso a equação assume a forma:
+Se o centro do elipsoide é o ponto \((h,k,l)\), e seus eixos forem paralelos aos eixos coordenados, podemos obter a equação da superfície através de uma [[id:2e2ef3bd-7abd-4078-ba2f-35e645374eb3][translação de eixos]]. Nesse caso a equação assume a forma:
 
 #+begin_quote
 \[

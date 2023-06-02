@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: B78292F6-CCD1-4BB7-A03F-FB120E643933
+:ID: b78292f6-ccd1-4bb7-a03f-fb120e643933
 :END:
 #+title: Multiplicação e divisão
 #+filetags: :Multiplica:
@@ -17,7 +17,7 @@ Uma possível implementação desse algoritmo é a seguinte:
 
 [[file:multiplicationimplementation.png.org][multiplicationimplementation.png]]
 
-Note que tanto o shifter do multiplicando quanto o registrador que armazena o resultado (produto) e também a [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] devem ter o dobro dos /bits/ dos operandos originais.
+Note que tanto o shifter do multiplicando quanto o registrador que armazena o resultado (produto) e também a [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] devem ter o dobro dos /bits/ dos operandos originais.
 Apesar do primeiro algoritmo apresentar uma solução válida para o problema, é possível perceber um uso desnecessário de alguns recursos de hardware. Metade dos bits do multiplicando de \(64\) /bits/ são sempre iguais a zero (em razão do deslocamento para a esquerda), não influenciando em nada no resultado final.
 Tendo isso em vista desenvolveu-se uma segunda implementação.
 
@@ -27,7 +27,7 @@ Ao invés de efetuar o deslocamento para a esquerda no multiplicando, essa imple
 
 [[file:multiplicationimplementation2.png.org][multiplicationimplementation2.png]]
 
-Note que é necessário escrever a saída da ula na parte mais "alta" do registrador do produto, dessa forma nenhum dado será perdido com o deslocamento para a direita. Uma das principais vantagens dessa otimização é permitir utilizar uma [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] de \(32\) /bits/, que possui um desempenho superior à uma de \(64\) /bits/.
+Note que é necessário escrever a saída da ula na parte mais "alta" do registrador do produto, dessa forma nenhum dado será perdido com o deslocamento para a direita. Uma das principais vantagens dessa otimização é permitir utilizar uma [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] de \(32\) /bits/, que possui um desempenho superior à uma de \(64\) /bits/.
 Mesmo com as melhoras do segundo algoritmo, ainda há desperdício de armazenamento no registrador do produto, veja que no início os \(32\) /bits/ da direita não são utilizados, e vão sendo preenchidos ao longo da execução.
 Para contornar isso desenvolveu-se uma terceira implementação.
 
@@ -37,7 +37,7 @@ Ao invés de utilizar um registrador dedicado para o multiplicador, nessa implem
 
 [[file:multiplicationimplementation3.png.org][multiplicationimplementation3.png]]
 
-É importante destacar que como o produto de dois números de \(32\) /bits/ é um número de \(64\) /bits/, na arquitetura [[id:35611088-86E7-4D80-B751-BDC56E12DC0B][MIPS]] o resultado dessa operação é armazenado em *dois registradores* de \(32\) /bits/, os registradores =$HI= e =$LO=.
+É importante destacar que como o produto de dois números de \(32\) /bits/ é um número de \(64\) /bits/, na arquitetura [[id:35611088-86e7-4d80-b751-bdc56e12dc0b][MIPS]] o resultado dessa operação é armazenado em *dois registradores* de \(32\) /bits/, os registradores =$HI= e =$LO=.
 
 ** Divisão
 A divisão se assemelha à multiplicação, porém introduz alguns novos desafios. A divisão é executada através de subtrações e comparações sucessivas.
@@ -54,7 +54,7 @@ Ao realizar otimizações semelhantes às da [[file:Multiplicação e divisão#M
 [[file:divisionimplementation2.png.org][divisionimplementation2.png]]
 
 Note que a única diferença dessa implementação para a de multiplicação é a unidade de controle, isso permite que seja utilizado *o mesmo hardware para ambas as operações*.
-É importante destacar que como a divisão produz dois resultados (resto e quociente), na arquitetura [[id:35611088-86E7-4D80-B751-BDC56E12DC0B][MIPS]] o resultado dessa operação é armazenado em *dois registradores* de \(32\) /bits/, os registradores =$HI= contendo o resto da divisão e =$LO= contendo o quociente.
+É importante destacar que como a divisão produz dois resultados (resto e quociente), na arquitetura [[id:35611088-86e7-4d80-b751-bdc56e12dc0b][MIPS]] o resultado dessa operação é armazenado em *dois registradores* de \(32\) /bits/, os registradores =$HI= contendo o resto da divisão e =$LO= contendo o quociente.
 
 --------------
 

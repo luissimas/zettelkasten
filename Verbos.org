@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 2CEBD6C2-4E5E-4544-89CC-DB552B21DB18
+:ID: 2cebd6c2-4e5e-4544-89cc-db552b21db18
 :END:
 #+title: Verbos
 
@@ -8,7 +8,7 @@ Verbos expressam ação ou estado, e suas variações são chamadas de /conjuga�
 
 Os verbos também podem apresentar uma forma nominal, ou seja, funcionam como um nome (mais especificamente um adjetivo) na oração.
 
-[[id:9687416A-352B-4614-AE94-65C7B84B9CEB][Particípio (participium)]]
+[[id:9687416a-352b-4614-ae94-65c7b84b9ceb][Particípio (participium)]]
 
 --------------
 

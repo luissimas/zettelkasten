@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: F7624B42-4E85-4CD2-9261-46D467F421E1
+:ID: f7624b42-4e85-4cd2-9261-46d467f421e1
 :END:
 #+title: Operações em conjuntos
 

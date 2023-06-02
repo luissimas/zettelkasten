@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 2C1CB337-06EB-4714-82D3-9A18A223165E
+:ID: 2c1cb337-06eb-4714-82d3-9a18a223165e
 :END:
 #+title: Revoluções científicas
 
 * Revoluções científicas
-[[id:2CF712F8-C429-449E-979A-E2B2C114D598][Thomas Kuhn]] desenvolveu o conceito de /revoluções científicas/ para descrever a forma como a ciência opera e se desenvolve. Vale notar que, ao contrário do que ocorre com o [[id:90A28B17-1463-47D4-BA3C-A0FEEE7E6F53][Falseabilismo]] de [[id:72593630-DB6F-4039-B413-2B468DFBC66C][Karl Popper]], a abordagem de Kuhn é muito mais *descritiva* do prescritiva, e se baseia muito mais em investigações históricas do que na lógica pura.
+[[id:2cf712f8-c429-449e-979a-e2b2c114d598][Thomas Kuhn]] desenvolveu o conceito de /revoluções científicas/ para descrever a forma como a ciência opera e se desenvolve. Vale notar que, ao contrário do que ocorre com o [[id:90a28b17-1463-47d4-ba3c-a0feee7e6f53][Falseabilismo]] de [[id:72593630-db6f-4039-b413-2b468dfbc66c][Karl Popper]], a abordagem de Kuhn é muito mais *descritiva* do prescritiva, e se baseia muito mais em investigações históricas do que na lógica pura.
 
 Kuhn introduz com sua teoria a noção de /paradigmas/ segundo os quais uma ciência opera em um determinado período, bem como o conceito de /revoluções científicas/ processos pelos quais se dá a troca de paradigmas em uma área do conhecimento. Segundo Kuhn, a ciência se divide em períodos de ciência normal e ciência revolucionária. A transição entre esses períodos forma um ciclo que, para Kuhn, é o motor do desenvolvimento da ciência.
 

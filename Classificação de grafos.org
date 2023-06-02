@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: B50F1F5B-C4E0-4891-BC66-684A656398A1
+:ID: b50f1f5b-c4e0-4891-bc66-684a656398a1
 :END:
 #+title: Classificação de grafos
 

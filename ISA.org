@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 864097CB-FEA1-4293-AE1E-CA15475A64C1
+:ID: 864097cb-fea1-4293-ae1e-ca15475a64c1
 :END:
 #+title: ISA
 #+filetags: :Tipos:
@@ -28,7 +28,7 @@ T = topo da pilha
 A, B, C = registrador ou posição de memória
 
 ** Tipos de instruções
-Dada as diferentes formas de [[id:9DE660F8-D55E-42E5-87C3-E0FFEBED926A][endereçamento]], surgem também diferentes tipos de instruções.
+Dada as diferentes formas de [[id:9de660f8-d55e-42e5-87c3-e0ffebed926a][endereçamento]], surgem também diferentes tipos de instruções.
 
 | Tipo                   | Operadores                                                        |
 |------------------------+-------------------------------------------------------------------|
@@ -43,7 +43,7 @@ Dada as diferentes formas de [[id:9DE660F8-D55E-42E5-87C3-E0FFEBED926A][endereç
 A maioria dessas instruções são autoexplicativas, e podemos ter um entendimento intuitivo de como elas - pelo menos em um nível elevado de abstração - funcionam.
 
 *** Control Flow
-As instruções de controle de fluxo são particularmente interessantes pois manipulam o [[id:4F69AD7A-FF4D-4CFA-B869-0609004FBDB8][PC (Program Counter)]], dessa forma é possível alterar o fluxo das instruções, criar laços de repetição e outras estruturas de controle interessantes.
+As instruções de controle de fluxo são particularmente interessantes pois manipulam o [[id:4f69ad7a-ff4d-4cfa-b869-0609004fbdb8][PC (Program Counter)]], dessa forma é possível alterar o fluxo das instruções, criar laços de repetição e outras estruturas de controle interessantes.
 Por padrão da maioria das ISAs após a execução de uma instrução o /PC/ é incrementado para buscar a próxima instrução, isso pode ser chamado de: - /Branch/ quando for condicional - /Jump/ quando não for condicional
 
 Existem 4 tipos de instruções de controle de fluxo:

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 43FA5869-93FE-4194-826D-FA9A41D64E7E
+:ID: 43fa5869-93fe-4194-826d-fa9a41d64e7e
 :END:
 #+title: Sintaxe da lógica de predicados
 #+filetags: :Alfabeto:

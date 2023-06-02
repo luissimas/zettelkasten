@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 933C0ECA-6590-4D6A-ABC5-0C37F330100C
+:ID: 933c0eca-6590-4d6a-abc5-0c37f330100c
 :END:
 #+title: Álgebra da lógica proposicional
 #+filetags: :Conectivos:Equival:

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: F44B70F4-817D-4DFB-B98F-ADD4093CC1C8
+:ID: f44b70f4-817d-4dfb-b98f-add4093cc1c8
 :END:
 #+title: Pipeline
 #+filetags: :RISC:Datapath:
@@ -13,19 +13,19 @@ As arquiteturas [[file:CISC e RISC#RISC.org][RISC]] são propícias para a organ
 Para a implementação de pipeline divide-se a execução total de uma instrução nos seguintes passos:
 
 - IF (Instruction fetch): Busca da instrução na memória e incrementa do PC + 4
-- ID (Instruction decode): Envio do /opcode/ à [[id:62249BF8-BCB1-4B00-B7A7-BBBB4DB00C9A][unidade de controle]] e leitura do valor dos registradores determinados na instrução (quando houver).
+- ID (Instruction decode): Envio do /opcode/ à [[id:62249bf8-bcb1-4b00-b7a7-bbbb4db00c9a][unidade de controle]] e leitura do valor dos registradores determinados na instrução (quando houver).
 - EX (Execution): A execução da instrução varia de acordo com o tipo de instrução (nesse momento a unidade de controle já determinou de qual tipo é a instrução):
-  - Se instrução load ou store: [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] calcula o endereço de memória a ser acessado.
-  - Se instrução R-type: [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] executa a operação com os registradores lidos no estágio ID.
-  - Se instrução branch: [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] efetua o teste de condição de salto entre os registradores lidos no estágio ID.
+  - Se instrução load ou store: [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] calcula o endereço de memória a ser acessado.
+  - Se instrução R-type: [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] executa a operação com os registradores lidos no estágio ID.
+  - Se instrução branch: [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] efetua o teste de condição de salto entre os registradores lidos no estágio ID.
   - Se instrução jump: O PC é substituído pelo endereço do desvio.
 - MEM (Memory access): Etapa de acesso à memória, diferentes instruções têm diferentes propósitos de acesso à memória:
   - Se instrução load: Um dado é lido da memória e armazenado em um registrador temporário.
   - Se instrução store: O dado é escrito na memória.
-  - Se instrução R-type: Armazena o resultado da [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] em um registrador temporário.
+  - Se instrução R-type: Armazena o resultado da [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] em um registrador temporário.
 - WB (Write back): Armazena no arquivo de registradores os resultados obtidos em estágios anteriores, esses resultados podem ser:
   - Dado lido da memória por uma instrução load.
-  - Resultado da [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] em instruções R-type.
+  - Resultado da [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] em instruções R-type.
 
 ** Registradores de pipeline
 O pipeline requer /registradores intermediários/ para que os dados de cada instrução possam avançar junto com a execução da mesma sem serem sobrescritos pelos dados da instrução que vem sendo executada logo atrás. Esses registradores tem o propósito de atuar na transição das etapas, e são ao todo 4:

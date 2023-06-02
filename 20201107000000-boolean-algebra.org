@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 1A9B753E-E05D-4DBA-85A0-B18D6583A7D3
+:ID: 1a9b753e-e05d-4dba-85a0-b18d6583a7d3
 :END:
 #+title: Boolean algebra
 

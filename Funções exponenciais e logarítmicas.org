@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: DE772356-4FB8-43CC-B16A-12524ADAFFCA
+:ID: de772356-4fb8-43cc-b16a-12524adaffca
 :END:
 #+title: Funções exponenciais e logarítmicas
 

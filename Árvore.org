@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: DE95C1EB-6F0D-45E5-ADEA-AED5A7333E5D
+:ID: de95c1eb-6f0d-45e5-adea-aed5a7333e5d
 :END:
 #+title: Árvore
 
 * Árvore
-Árvores são um tipo específico de [[id:C3D5CF02-7C9A-470B-AE4B-C49C7EF7E6CA][grafo]], sendo utilizadas para modelar uma classe muito grande de problemas computacionais.
+Árvores são um tipo específico de [[id:c3d5cf02-7c9a-470b-ae4b-c49c7ef7e6ca][grafo]], sendo utilizadas para modelar uma classe muito grande de problemas computacionais.
 
 Uma /árvore/ é um grafo /conexo acíclico/. Note que um grafo com um vértice e nenhuma aresta é, por definição, uma árvore.
 

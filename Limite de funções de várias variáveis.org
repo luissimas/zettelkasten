@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: A82A23C6-CB32-461B-8D04-C4D8DA3759EA
+:ID: a82a23c6-cb32-461b-8d04-c4d8da3759ea
 :END:
 #+title: Limite de funções de várias variáveis
 

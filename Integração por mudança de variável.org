@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 79EAD5F7-898D-413C-B7D2-9737FB9AFD62
+:ID: 79ead5f7-898d-413c-b7d2-9737fb9afd62
 :END:
 #+title: Integração por mudança de variável
 #+filetags: :Deriva:

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: ADCADB57-6232-46AD-87B3-2D5642FF9862
+:ID: adcadb57-6232-46ad-87b3-2d5642ff9862
 :END:
 #+title: Bits de uma arquitetura
 

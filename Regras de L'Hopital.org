@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 8AC3439C-4AA8-446A-B7C2-D52AE5A226CF
+:ID: 8ac3439c-4aa8-446a-b7c2-d52ae5a226cf
 :END:
 #+title: Regras de L'Hopital
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 88FD74FF-A130-4133-B53A-C70C2F386722
+:ID: 88fd74ff-a130-4133-b53a-c70c2f386722
 :END:
 #+title: CDI MOC
 
@@ -8,38 +8,38 @@ Cálculo é o ramo da matemática que estuda a taxa de variação de grandezas, 
 
 ** Unidade 2
 Nessa unidade foram introduzidos os conceitos de limites e derivadas.
-[[id:97DB385C-115E-4BC0-9F0C-ECFE2BA5BB8D][Velocidade instantânea e derivadas]]
-[[id:4FC7AA95-B595-41E7-BDC8-1B9ACFB4A8D4][Retas tangentes e regras de derivação]]
-[[id:81F84CF6-9669-478A-A010-4D7341D9A7EC][Derivação em cadeia e implícita]]
-[[id:BCDEE4BB-EB24-4B93-AC1E-DB1C086674B5][Introdução intuitiva de limites]]
-[[id:9EB250E8-579F-448F-BEC8-CF2CD575CB19][Limites laterais]]
-[[id:B97848AA-AF27-4736-AE47-C6A975720DCC][Esboço de gráficos]]
-[[id:434D2AB1-B952-4FB4-932B-F3CDDAD4A84E][Máximos e mínimos]]
+[[id:97db385c-115e-4bc0-9f0c-ecfe2ba5bb8d][Velocidade instantânea e derivadas]]
+[[id:4fc7aa95-b595-41e7-bdc8-1b9acfb4a8d4][Retas tangentes e regras de derivação]]
+[[id:81f84cf6-9669-478a-a010-4d7341d9a7ec][Derivação em cadeia e implícita]]
+[[id:bcdee4bb-eb24-4b93-ac1e-db1c086674b5][Introdução intuitiva de limites]]
+[[id:9eb250e8-579f-448f-bec8-cf2cd575cb19][Limites laterais]]
+[[id:b97848aa-af27-4736-ae47-c6a975720dcc][Esboço de gráficos]]
+[[id:434d2ab1-b952-4fb4-932b-f3cddad4a84e][Máximos e mínimos]]
 
 ** Unidade 3
 Aqui os conceitos de derivadas foram ampliados, foram introduzidas novas regras de derivação e aplicações práticas das derivadas.
-[[id:DE772356-4FB8-43CC-B16A-12524ADAFFCA][Funções exponenciais e logarítmicas]]
-[[id:7E638AC0-9432-4976-A390-6737E9DF0143][Derivação de funções exponenciais e logarítmicas]]
-[[id:8B09A649-2F4C-40E8-A0E2-CC3E648F54ED][Funções trigonométricas]]
-[[id:9C245E7B-C9F2-46C5-A3C5-A31EB8A397D6][Derivação de funções trigonométricas]]
-[[id:8AC3439C-4AA8-446A-B7C2-D52AE5A226CF][Regras de L'Hopital]]
-[[id:4A90A756-45B4-4D29-B3B8-50DE6E958DC9][Taxas relacionadas]]
+[[id:de772356-4fb8-43cc-b16a-12524adaffca][Funções exponenciais e logarítmicas]]
+[[id:7e638ac0-9432-4976-a390-6737e9df0143][Derivação de funções exponenciais e logarítmicas]]
+[[id:8b09a649-2f4c-40e8-a0e2-cc3e648f54ed][Funções trigonométricas]]
+[[id:9c245e7b-c9f2-46c5-a3c5-a31eb8a397d6][Derivação de funções trigonométricas]]
+[[id:8ac3439c-4aa8-446a-b7c2-d52ae5a226cf][Regras de L'Hopital]]
+[[id:4a90a756-45b4-4d29-b3b8-50de6e958dc9][Taxas relacionadas]]
 
 ** Unidade 4
 Nessa unidade demos início ao estudo de integrais, desde as integrais indefinidas até as integrais definidas e o teorema fundamental do cálculo. Ao longo do caminho foram coletadas diversas integrais imediatas.
-[[id:76306C91-2CDC-44BD-9F6C-698A77F7F093][Integrais indefinidas]]
-[[id:79EAD5F7-898D-413C-B7D2-9737FB9AFD62][Integração por mudança de variável]]
-[[id:8A83A108-D6EE-4CC2-8C85-7FAC3AF9659B][Integração por partes]]
-[[id:4945BD65-2137-42DB-886A-D1DE54A46002][Integrais definidas]]
-[[id:9A201DA1-FE16-454F-BB7C-D6048ABE0E9C][Ampliando técnicas de integração]]
+[[id:76306c91-2cdc-44bd-9f6c-698a77f7f093][Integrais indefinidas]]
+[[id:79ead5f7-898d-413c-b7d2-9737fb9afd62][Integração por mudança de variável]]
+[[id:8a83a108-d6ee-4cc2-8c85-7fac3af9659b][Integração por partes]]
+[[id:4945bd65-2137-42db-886a-d1de54a46002][Integrais definidas]]
+[[id:9a201da1-fe16-454f-bb7c-d6048abe0e9c][Ampliando técnicas de integração]]
 
 ** Unidade 5
 Na última unidade do curso trabalhamos as aplicações da integral para diversos fins, todos eles listados abaixo:
-[[id:CA7EC6B1-4D78-481B-8BC4-068B92DF23DB][Área de uma região plana]]
-[[id:67137671-CE97-43C0-8756-71106F63F53B][Valor médio de uma função]]
-[[id:5C9711CC-542B-4260-87C3-10254E3BA684][Volume de um sólido por fatiamento]]
-[[id:3BCADD92-BB57-4F44-B405-55FD67F09CA6][Volume de um sólido de revolução]]
-[[id:29E7FC68-D608-4320-A1FF-1769A96361F7][Comprimento de uma curva]]
+[[id:ca7ec6b1-4d78-481b-8bc4-068b92df23db][Área de uma região plana]]
+[[id:67137671-ce97-43c0-8756-71106f63f53b][Valor médio de uma função]]
+[[id:5c9711cc-542b-4260-87c3-10254e3ba684][Volume de um sólido por fatiamento]]
+[[id:3bcadd92-bb57-4f44-b405-55fd67f09ca6][Volume de um sólido de revolução]]
+[[id:29e7fc68-d608-4320-a1ff-1769a96361f7][Comprimento de uma curva]]
 
 --------------
 

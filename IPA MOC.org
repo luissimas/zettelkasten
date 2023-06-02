@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 0D78366A-F6A7-4422-B4D7-919323CCD826
+:ID: 0d78366a-f6a7-4422-b4d7-919323ccd826
 :END:
 #+title: IPA MOC
 
@@ -7,43 +7,43 @@
 Essa disciplina introduz a base do pensamento computacional e algorítmico. Os dois livros nos quais a disciplina se baseia estão referenciados no final dessa nota. Por enquanto estou decidindo seguir mais com o /Grokking Algorithms/, gostei bastante da proposta e da forma como ele se estrutura. Apesar disso, as notas compilam conteúdo tanto das aulas quanto de ambos os livros, quando necessário.
 
 ** Classes
-[[id:DA82A778-3A96-4CE6-919F-850F6D942D55][Notes/Backtracking]]
+[[id:da82a778-3a96-4ce6-919f-850f6d942d55][Notes/Backtracking]]
 
 ** Book
 O livro-base da disciplina é o [[file:GrokkingAlgorithms.pdf.org][Grooking Algorithms]], um livro com várias ilustrações que busca mostrar de forma intuitiva os conceitos de algoritmos.
 ### Chapter 1
 This chapter introduces the basics of algorithms and how to measure the runtime of an algorithm.
-[[id:581EAFAF-50CA-4645-9310-C00382DEF78B][Binary search]]
-[[id:AC5E75AC-4872-46C2-8942-DB1390A522FE][Big O notation]]
+[[id:581eafaf-50ca-4645-9310-c00382def78b][Binary search]]
+[[id:ac5e75ac-4872-46c2-8942-db1390a522fe][Big O notation]]
 
 *** Chapter 2
 Here we are introduced to the first two basic data structures. We also are presented to our first and more basic sorting algorithm.
-[[id:6DB789D2-D84C-44D5-ADDC-0FFE19376404][Arrays and linked lists]]
-[[id:192B088B-6E0E-4FB1-8B68-FFC8F5379276][Selection sort]]
+[[id:6db789d2-d84c-44d5-addc-0ffe19376404][Arrays and linked lists]]
+[[id:192b088b-6e0e-4fb1-8b68-ffc8f5379276][Selection sort]]
 
 *** Chapter 3
 This chapter focus only on the topic of recursion, from its core concept to call stacks and so on.
-[[id:A858B445-1961-4C2A-AC4F-F468A6F16951][Recursion]]
+[[id:a858b445-1961-4c2a-ac4f-f468a6f16951][Recursion]]
 
 *** Chapter 4
 This chapter focus on using recursion to solve more complex problems and introduces the quicksort algorithm.
-[[id:E87A5FAD-8974-4A38-8619-BE697D19F477][Notes/Divide and conquer]]
-[[id:7FD05974-6AB4-4F27-8456-0B0A35733D60][Notes/Quicksort]]
+[[id:e87a5fad-8974-4a38-8619-be697d19f477][Notes/Divide and conquer]]
+[[id:7fd05974-6ab4-4f27-8456-0b0a35733d60][Notes/Quicksort]]
 
 *** Chapter 5
 Here we are presented to hash tables and its uses.
-[[id:6E0F1887-767B-416F-A00A-50633F4C55E3][Hash tables]]
-[[id:D5473F8C-BEBE-4A88-9142-76CAA2DD0055][Hash function]]
+[[id:6e0f1887-767b-416f-a00a-50633f4c55e3][Hash tables]]
+[[id:d5473f8c-bebe-4a88-9142-76caa2dd0055][Hash function]]
 
 *** Chapter 6
 This chapter presents the concept of graphs and some algorithms to work with them.
-[[id:745AE602-A822-4D02-93FF-AC9026050812][Graphs]]
-[[id:EABC6191-96BF-45ED-AD6A-F5394C7399E3][Breadth-first search]]
+[[id:745ae602-a822-4d02-93ff-ac9026050812][Graphs]]
+[[id:eabc6191-96bf-45ed-ad6a-f5394c7399e3][Breadth-first search]]
 
 *** Chapter 7
 Still in the context of graphs we are presented to new concepts and ways to work with them.
-[[id:AE9966D2-1933-4CEB-9976-41B961D8F6EF][Weighted graphs]]
-[[id:1D3EB2F7-388C-4FF4-B9A3-F6835F32D17D][Dijkstra's algorithm]]
+[[id:ae9966d2-1933-4ceb-9976-41b961d8f6ef][Weighted graphs]]
+[[id:1d3eb2f7-388c-4ff4-b9a3-f6835f32d17d][Dijkstra's algorithm]]
 
 --------------
 

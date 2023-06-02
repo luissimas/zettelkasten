@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: A305B610-5DDE-4B80-A19B-84812E344F68
+:ID: a305b610-5dde-4b80-a19b-84812e344f68
 :END:
 #+title: Relações de ordem
 

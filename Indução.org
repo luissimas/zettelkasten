@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 6F01CB8C-EDCD-4409-A71A-7DE61BC6708E
+:ID: 6f01cb8c-edcd-4409-a71a-7de61bc6708e
 :END:
 #+title: Indução
 

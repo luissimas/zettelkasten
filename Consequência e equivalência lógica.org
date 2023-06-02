@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 260F4D65-72B0-48BA-A9C5-0187E8283C28
+:ID: 260f4d65-72b0-48ba-a9c5-0187e8283c28
 :END:
 #+title: Consequência e equivalência lógica
 
@@ -7,7 +7,7 @@
 Consequência e equivalência lógica são relações estabelecidas entre duas fórmulas (ou conjunto de fórmulas).
 
 ** Consequência lógica
-A ideia de consequência lógica serve de base para a ideia de [[id:215DD1F0-B6D1-466E-8E8C-86FBD475984D][prova ou dedução]], ou seja, entender se uma conclusão pode ser obtida a partir de um conjunto de proposições (fórmulas) chamadas /premissas/.
+A ideia de consequência lógica serve de base para a ideia de [[id:215dd1f0-b6d1-466e-8e8c-86fbd475984d][prova ou dedução]], ou seja, entender se uma conclusão pode ser obtida a partir de um conjunto de proposições (fórmulas) chamadas /premissas/.
 
 #+begin_quote
 Uma fórmula \(\beta\) é *consequência lógica* de outra fórmula \(\alpha\) (\(\alpha\) implica logicamente \(\beta\)) se *toda* interpretação que *satisfaz* \(\alpha\) *também satisfaz* \(\beta\). A consequência lógica é representada por \(\alpha \vDash \beta\). Caso não haja consequência lógica entre duas fórmulas escreve-se \(\alpha \nvDash \beta\).
@@ -22,7 +22,7 @@ Uma fórmula \(\alpha\) é *consequência lógica* de um conjunto de fórmulas \
 #+end_quote
 
 ** Equivalência lógica
-O conceito de equivalência lógica se relaciona com a ideia de igualdade e (em alguns casos) simplificação de fórmulas, e é muito utilizado na definição de propriedades e axiomas fundamentais da [[id:933C0ECA-6590-4D6A-ABC5-0C37F330100C][álgebra proposicional]].
+O conceito de equivalência lógica se relaciona com a ideia de igualdade e (em alguns casos) simplificação de fórmulas, e é muito utilizado na definição de propriedades e axiomas fundamentais da [[id:933c0eca-6590-4d6a-abc5-0c37f330100c][álgebra proposicional]].
 
 #+begin_quote
 Duas fórmulas \(\alpha\) e \(\beta\) são *logicamente equivalentes* se as interpretações que satisfazem \(\alpha\) são *exatamente as mesmas* que satisfazem \(\beta\). Em outras palavras, a equivalência lógica entre \(\alpha\) e \(\beta\) ocorre se e somente se \(\alpha \vDash \beta\) e \(\beta \vDash \alpha\). A equivalência lógica é representada por \(\alpha \equiv \beta\).

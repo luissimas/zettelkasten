@@ -6,7 +6,7 @@
 Em geral, a programação paralela pode ser imaginada e implementada usando 3 modelos distintos (mas não mutualmente exclusivos):
 
 * Memória compartilhada
-A programação em memória compartilhada utiliza [[id:7AAA0379-E865-4EC4-BD9A-599EFC1500BB][threads]] que *compartilham* o espaço de memória de um mesmo processo. Esse modelo de programação é típico em sistemas /multi-core/, nos quais a memória é fisicamente compartilhada entre diversos cores.
+A programação em memória compartilhada utiliza [[id:7aaa0379-e865-4ec4-bd9a-599efc1500bb][threads]] que *compartilham* o espaço de memória de um mesmo processo. Esse modelo de programação é típico em sistemas /multi-core/, nos quais a memória é fisicamente compartilhada entre diversos cores.
 
 No modelo de memória compartilhada o *estado* a ser manipulado pode ser (e geralmente é) *compartilhado* entre as diversas tarefas. Apesar de fornecer maior liberdade na manipulação dos dados, esse aspecto introduz a preocupação de um gerenciamento dos dados de maneira que uma tarefa não altere dados manipulados por outra.
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 76306C91-2CDC-44BD-9F6C-698A77F7F093
+:ID: 76306c91-2cdc-44bd-9f6c-698a77f7f093
 :END:
 #+title: Integrais indefinidas
 #+filetags: :Regras:T:
@@ -26,7 +26,7 @@ Existem algumas propriedades para manipular expressões envolvendo integrais, de
 \]
 
 * Técnicas de integração
-Os dois métodos usado para o cálculo de integrais indefinidas são a [[id:79EAD5F7-898D-413C-B7D2-9737FB9AFD62][integração por mudança de variável]] e a [[id:8A83A108-D6EE-4CC2-8C85-7FAC3AF9659B][integração por partes]].
+Os dois métodos usado para o cálculo de integrais indefinidas são a [[id:79ead5f7-898d-413c-b7d2-9737fb9afd62][integração por mudança de variável]] e a [[id:8a83a108-d6ee-4cc2-8c85-7fac3af9659b][integração por partes]].
 Vale lembrar que nenhuma dessas técnicas resolvem todos os problemas envolvendo integrais, mas pelo menos nos ajudam em boa parte deles.
 
 * Integrais imediatas

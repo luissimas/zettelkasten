@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 3DC5B7CC-654A-4A8B-941D-537DD2830DFA
+:ID: 3dc5b7cc-654a-4a8b-941d-537dd2830dfa
 :END:
 #+title: Critério da raiz
 

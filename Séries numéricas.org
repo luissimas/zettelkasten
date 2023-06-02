@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: B411E2E8-8C8C-4DC7-B297-6CC142E14411
+:ID: b411e2e8-8c8c-4dc7-b297-6cc142e14411
 :END:
 #+title: Séries numéricas
 

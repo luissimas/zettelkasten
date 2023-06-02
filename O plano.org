@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: AE1577A5-7FBD-456C-93AC-A134BFEBCA15
+:ID: ae1577a5-7fbd-456c-93ac-a134bfebca15
 :END:
 #+title: O plano
 #+filetags: :Equa:
@@ -38,7 +38,7 @@ Um caso específico é quando um plano \(\pi\) intercepta os eixos coordenados n
 
 Essa equação é equivalente à /equação geral/ para esses planos, porém pode ser mais conveniente encontrá-la em determinados contextos.
 
-Uma outra forma de obter a equação geral de um plano é através do [[id:3D2EF035-0B4C-440F-B103-60AF81A90EB3][produto misto]]. Seja \(A(x_0,y_0,z_0)\) um ponto pertencente a um plano \(\pi\) e \(\vec{u}=(a_1,b_1,c_1)\) e \(\vec{u}=(a_1,b_1,c_1)\) dois vetores paralelos a \(\pi\), e não paralelos entre si. Sendo \(P(x,y,z)\) um ponto qualquer do plano \(\pi\), \(\overrightarrow{AP}\), \(\vec{u}\) e \(\vec{v}\) são coplanares, portanto o produto misto deles é nulo, ou seja:
+Uma outra forma de obter a equação geral de um plano é através do [[id:3d2ef035-0b4c-440f-b103-60af81a90eb3][produto misto]]. Seja \(A(x_0,y_0,z_0)\) um ponto pertencente a um plano \(\pi\) e \(\vec{u}=(a_1,b_1,c_1)\) e \(\vec{u}=(a_1,b_1,c_1)\) dois vetores paralelos a \(\pi\), e não paralelos entre si. Sendo \(P(x,y,z)\) um ponto qualquer do plano \(\pi\), \(\overrightarrow{AP}\), \(\vec{u}\) e \(\vec{v}\) são coplanares, portanto o produto misto deles é nulo, ou seja:
 
 #+begin_quote
 \[
@@ -154,7 +154,7 @@ Uma reta \(r\) está contida no plano \(\pi\) se qualquer uma das duas condiçõ
 A interseção entre dois planos é definida por uma reta \(r\) que contém os pontos em comum entre os dois planos. Existem dois procedimentos para encontrar a intersecção entre dois planos:
 
 1. Como \(r\) está contida nos dois planos, as coodernadas de qualquer ponto \((x,y,z) \in r\) devem satisfazer, simultâneamente, as equações de ambos os planos. Sendo assim podemos definir \(r\) como um sistema de duas equações: as equações dos planos.
-2. Podemos definir um ponto \(A\) que esteja contido em ambos os planos e um vetor \(\vec{v}\) que seja simultaneamente ortogonal aos vetores normais dos dois planos, ou seja, \(\vec{v}\) é definido pelo [[id:209D2B46-65A2-491A-8AFC-1D2B665024AC][produto vetorial]] entre os vetores normais dos dois planos. A partir disso podemos [[file:A reta#Equação vetorial.org][definir a reta através de um ponto e um vetor]].
+2. Podemos definir um ponto \(A\) que esteja contido em ambos os planos e um vetor \(\vec{v}\) que seja simultaneamente ortogonal aos vetores normais dos dois planos, ou seja, \(\vec{v}\) é definido pelo [[id:209d2b46-65a2-491a-8afc-1d2b665024ac][produto vetorial]] entre os vetores normais dos dois planos. A partir disso podemos [[file:A reta#Equação vetorial.org][definir a reta através de um ponto e um vetor]].
 
 [[file:intersecaodoisplanos.png.org][intersecaodoisplanos.png]]
 

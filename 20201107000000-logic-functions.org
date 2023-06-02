@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 2FAE20B7-7F7A-42E4-B379-A0A3CFA967F6
+:ID: 2fae20b7-7f7a-42e4-b379-a0a3cfa967f6
 :END:
 #+title: Logic functions
 

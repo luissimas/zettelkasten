@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 32037CD8-306B-4498-8CB2-FDF26754086F
+:ID: 32037cd8-306b-4498-8cb2-fdf26754086f
 :END:
 #+title: Logic synthesis
 
@@ -7,5 +7,5 @@ The process os logic synthesis consists in: given a logic function with a desire
 
 The are serveral ways to realize the logic synthesis, in the book we are presented to two ways:
 
- 1. Obtaining the /canonical expression/ using [[id:E23C5DC3-934A-4F55-B401-BE380770C9F3][minterms or maxterms]] and then minimizing the expression using [[id:1A9B753E-E05D-4DBA-85A0-B18D6583A7D3][Boolean algebra]].
- 2. Obtaining the minimal-cost expression using [[id:0D5B2D2B-F9A8-478F-911A-F6AB160833A9][Karnaugh maps]].
+ 1. Obtaining the /canonical expression/ using [[id:e23c5dc3-934a-4f55-b401-be380770c9f3][minterms or maxterms]] and then minimizing the expression using [[id:1a9b753e-e05d-4dba-85a0-b18d6583a7d3][Boolean algebra]].
+ 2. Obtaining the minimal-cost expression using [[id:0d5b2d2b-f9a8-478f-911a-f6ab160833a9][Karnaugh maps]].

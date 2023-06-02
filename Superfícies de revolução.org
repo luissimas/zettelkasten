@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: EE63A9D1-469A-4A85-8FF3-F3B814E64403
+:ID: ee63a9d1-469a-4a85-8ff3-f3b814e64403
 :END:
 #+title: Superfícies de revolução
 

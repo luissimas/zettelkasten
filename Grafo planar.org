@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: C51045F5-90F9-4DFE-A80B-AED454CAA29E
+:ID: c51045f5-90f9-4dfe-a80b-aed454caa29e
 :END:
 #+title: Grafo planar
 

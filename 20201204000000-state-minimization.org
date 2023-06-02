@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: 6566FDCF-A1C1-46EC-8E54-E859E9961ECD
+:ID: 6566fdcf-a1c1-46ec-8e54-e859e9961ecd
 :END:
 #+title: State minimization
 
 Sometimes when designing more complex /finite state machines/ with various /states/, it's very likely that the initial design will not be as efficient as possible. This usually means that we end up using more states than is actually required, which leads to the use of more flip-flops than is necessary.
-To solve this problem we can apply the /partitioning minimization procedure/ to the states of the machine. This procedure consists in grouping the states in /partitions/. A /partition/ consists of one or more equivalent states. We start by dividing the partitions considering the circuit output for each state. Then we divide even more, this time considering the next state for each state in the partitions. Considering following [[id:FCE93CD2-8D92-4CDF-9332-64A590D91EFA][state table]]:
+To solve this problem we can apply the /partitioning minimization procedure/ to the states of the machine. This procedure consists in grouping the states in /partitions/. A /partition/ consists of one or more equivalent states. We start by dividing the partitions considering the circuit output for each state. Then we divide even more, this time considering the next state for each state in the partitions. Considering following [[id:fce93cd2-8d92-4cdf-9332-64a590d91efa][state table]]:
 
 #+attr_org: :width 400
 [[file:attachments/stateminimizationtableexample.png]]

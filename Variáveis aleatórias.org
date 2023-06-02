@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: B0C1C090-A31E-436D-81BD-4A541FCE4804
+:ID: b0c1c090-a31e-436d-81bd-4a541fce4804
 :END:
 #+title: Variáveis aleatórias
 
@@ -11,7 +11,7 @@ Apesar do nome, as variáveis aleatórias na realidade são funções que associ
 
 Por exemplo, a expressão \(X^{-1}(\{0\})\), é lida como: imagem inversa do conjunto unitário \(0\).
 
-De maneira geral, existem dois tipos de variáveis aleatórias, as [[id:460C2C8B-08FC-4830-8475-D3D500B38B4F][discretas]] e as [[id:8493FE1A-2570-4A22-924C-3314BC2BFFA2][contínuas]]. Para ambos os tipos de variáveis é possível calcular o valor médio que determinada variável aleatória pode assumir, esse valor médio é chamado de [[id:1243F180-52E6-41B3-A99B-3D0C89ECA3FE][esperança da variável aleatória]].
+De maneira geral, existem dois tipos de variáveis aleatórias, as [[id:460c2c8b-08fc-4830-8475-d3d500b38b4f][discretas]] e as [[id:8493fe1a-2570-4a22-924c-3314bc2bffa2][contínuas]]. Para ambos os tipos de variáveis é possível calcular o valor médio que determinada variável aleatória pode assumir, esse valor médio é chamado de [[id:1243f180-52e6-41b3-a99b-3d0c89eca3fe][esperança da variável aleatória]].
 
 --------------
 

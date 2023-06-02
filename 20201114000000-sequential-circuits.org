@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: B1E8FF6D-8A21-4A9C-AE1B-6D1DDB84BD6F
+:ID: b1e8ff6d-8a21-4a9c-ae1b-6d1ddb84bd6f
 :END:
 #+title: Sequential circuits
 
@@ -13,4 +13,4 @@ There are two approaches when designing sequential circuits:
 - *Moore type*: circuits whose outputs depend *only on the state* of the circuit are called of /Moore type/
 - *Mealy type*: circuits whose outputs depend *on both the state and the primary inputs* are called /Mealy type/
 
-These circuits /can/ be represented in a more abstract way by [[id:192A60C8-C700-4145-8A73-367BC1599EEE][finite state machines]].
+These circuits /can/ be represented in a more abstract way by [[id:192a60c8-c700-4145-8a73-367bc1599eee][finite state machines]].

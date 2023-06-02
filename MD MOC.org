@@ -1,41 +1,41 @@
 :PROPERTIES:
-:ID: 7FAA7D1F-8519-49A5-B8DE-CE2B9B3F2474
+:ID: 7faa7d1f-8519-49a5-b8de-ce2b9b3f2474
 :END:
 #+title: MD MOC
 
 * Matemática Discreta
 A matemática discreta tem como objeto de estudo as estruturas matemáticas discretas, isto é, estruturas que não apresentam continuidade (como o conjunto dos números inteiros). Durante a disciplina foram utilizados diversos materiais, dentre eles uma [[file:EstruturasDiscretas_HelenaCaseli.pdf .org][ apostila da professora]] e uma [[file:ElementosDiscretos_GomideStolfi.pdf .org][ apostila da unicamp]].
 
-[[id:D59212F8-7822-45C5-A37A-88C3198645A3][Conjuntos]]
-[[id:F7624B42-4E85-4CD2-9261-46D467F421E1][Operações em conjuntos]]
+[[id:d59212f8-7822-45c5-a37a-88c3198645a3][Conjuntos]]
+[[id:f7624b42-4e85-4cd2-9261-46d467f421e1][Operações em conjuntos]]
 
-[[id:C0EE07DB-6190-41B1-94D7-426EFFE7C2F7][Demonstração de teoremas]]
+[[id:c0ee07db-6190-41b1-94d7-426effe7c2f7][Demonstração de teoremas]]
 
-[[id:9A9729FB-2119-409D-A00D-CFE57CADD80A][Relações]]
-[[id:DB4C568D-C7A7-4605-A6F7-CBEF0274ECC9][Propriedades das autorrelações]]
-[[id:8C042572-E1C0-4E8E-89B9-868346D3E64C][Relações de equivalência]]
-[[id:A305B610-5DDE-4B80-A19B-84812E344F68][Relações de ordem]]
+[[id:9a9729fb-2119-409d-a00d-cfe57cadd80a][Relações]]
+[[id:db4c568d-c7a7-4605-a6f7-cbef0274ecc9][Propriedades das autorrelações]]
+[[id:8c042572-e1c0-4e8e-89b9-868346d3e64c][Relações de equivalência]]
+[[id:a305b610-5dde-4b80-a19b-84812e344f68][Relações de ordem]]
 
-[[id:3B00F6D3-3F35-473F-9469-A5A3CF67A3C5][Funções]]
+[[id:3b00f6d3-3f35-473f-9469-a5a3cf67a3c5][Funções]]
 
-[[id:179C58B3-0C8A-46B4-A7C9-943F21E9067C][Somatórios e produtórios]]
+[[id:179c58b3-0c8a-46b4-a7c9-943f21e9067c][Somatórios e produtórios]]
 
-[[id:1E7510F3-6EA9-405E-B976-9BE35F94A90E][Teoria dos Números]]
-[[id:D3F57400-F927-486B-B084-04216ADF0135][Aritmética modular]]
+[[id:1e7510f3-6ea9-405e-b976-9be35f94a90e][Teoria dos Números]]
+[[id:d3f57400-f927-486b-b084-04216adf0135][Aritmética modular]]
 
 ** Teoria dos grafos
-[[id:C3D5CF02-7C9A-470B-AE4B-C49C7EF7E6CA][Grafos]]
-[[id:C0555EE1-2632-4AC7-9144-790C3A04412D][Grafos orientados]]
-[[id:0AEC3218-E628-402A-9689-C1438FEAED83][Grafos não orientados]]
-[[id:B50F1F5B-C4E0-4891-BC66-684A656398A1][Classificação de grafos]]
-[[id:98FCF570-211E-4A57-AF79-A4588C0C4E76][Passeio em grafos]]
-[[id:737E198C-6B87-426E-8F13-089921BC5565][Conectividade em grafos]]
-[[id:593955CB-EF89-48DC-A04B-20F4E3B98DC5][Isomorfismo em grafos]]
-[[id:DE95C1EB-6F0D-45E5-ADEA-AED5A7333E5D][Árvore]]
-[[id:E56540BE-496E-47E1-B677-1FF45DDA88B7][Grafo bipartido]]
-[[id:2D8D8FFE-66B8-4034-A661-C9547BE7929E][Grafo euleriano]]
-[[id:CA2EDD2F-2DC9-46F8-8020-23BB200DC732][Grafo hamiltoniano]]
-[[id:C51045F5-90F9-4DFE-A80B-AED454CAA29E][Grafo planar]]
+[[id:c3d5cf02-7c9a-470b-ae4b-c49c7ef7e6ca][Grafos]]
+[[id:c0555ee1-2632-4ac7-9144-790c3a04412d][Grafos orientados]]
+[[id:0aec3218-e628-402a-9689-c1438feaed83][Grafos não orientados]]
+[[id:b50f1f5b-c4e0-4891-bc66-684a656398a1][Classificação de grafos]]
+[[id:98fcf570-211e-4a57-af79-a4588c0c4e76][Passeio em grafos]]
+[[id:737e198c-6b87-426e-8f13-089921bc5565][Conectividade em grafos]]
+[[id:593955cb-ef89-48dc-a04b-20f4e3b98dc5][Isomorfismo em grafos]]
+[[id:de95c1eb-6f0d-45e5-adea-aed5a7333e5d][Árvore]]
+[[id:e56540be-496e-47e1-b677-1ff45dda88b7][Grafo bipartido]]
+[[id:2d8d8ffe-66b8-4034-a661-c9547be7929e][Grafo euleriano]]
+[[id:ca2edd2f-2dc9-46f8-8020-23bb200dc732][Grafo hamiltoniano]]
+[[id:c51045f5-90f9-4dfe-a80b-aed454caa29e][Grafo planar]]
 
 --------------
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: B23E6840-0F5D-4A59-B2F8-E4EB060A4FF6
+:ID: b23e6840-0f5d-4a59-b2f8-e4eb060a4ff6
 :END:
 #+title: Continuidade de funções de várias variáveis
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 4F33C7AD-E863-404D-B011-EB7793459A48
+:ID: 4f33c7ad-e863-404d-b011-eb7793459a48
 :END:
 #+title: Latches
 
@@ -38,4 +38,4 @@ One key factor to consider is that in real applications, there is a propagation 
 #+attr_org: :width 400
 [[file:attachments/propagationdelay.png]]
 
-This created the need for a type of circuit that can sync the /Clk/ changes in a way that allows the input signals to always be stable for the change. These circuits are called [[id:860D0638-E241-4BCC-B6A7-1FAB58F2ED36][Flip-Flops]].
+This created the need for a type of circuit that can sync the /Clk/ changes in a way that allows the input signals to always be stable for the change. These circuits are called [[id:860d0638-e241-4bcc-b6a7-1fab58f2ed36][Flip-Flops]].

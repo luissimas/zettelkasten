@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: F48013C5-D5CC-48BB-80EA-82F62B61942C
+:ID: f48013c5-d5cc-48bb-80ea-82f62b61942c
 :END:
 #+title: Funções de várias variáveis
 

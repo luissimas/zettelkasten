@@ -1,11 +1,11 @@
 :PROPERTIES:
-:ID: 7A1855ED-89CF-465B-8437-E99ED1681E94
+:ID: 7a1855ed-89cf-465b-8437-e99ed1681e94
 :END:
 #+title: Conflitos
 #+filetags: :R-Type:Registradores:
 
 * Conflitos
-Apesar da implementação [[id:F44B70F4-817D-4DFB-B98F-ADD4093CC1C8][pipeline]] proporcionar um aumento significativo de desempenho ela também introduz possíveis conflitos (/hazards/) na execução das instruções. Os /hazards/ podem reduzir significativamente o ganho de desempenho alcançado pela implementação pipeline, porém existem soluções eficientes que visam minimizar a perda de desempenho.
+Apesar da implementação [[id:f44b70f4-817d-4dfb-b98f-add4093cc1c8][pipeline]] proporcionar um aumento significativo de desempenho ela também introduz possíveis conflitos (/hazards/) na execução das instruções. Os /hazards/ podem reduzir significativamente o ganho de desempenho alcançado pela implementação pipeline, porém existem soluções eficientes que visam minimizar a perda de desempenho.
 Existem 3 tipos de /hazards/:
 
 - Hazards estruturais: conflitos de unidades funcionais.
@@ -17,8 +17,8 @@ A solução mais imediata para resolver /hazard/ é a utilização de paradas na
 ** Hazards estruturais
 Os /hazards/ estruturais são conflitos causados pelo *uso simultâneo* de um mesmo recurso de hardware (unidade funcional). Esse tipo de conflito é mais frequente em arquiteturas onde não há distinção entre as memórias de instrução e dados, pois nesse caso toda instrução que faz acesso á memória (Load/Store) irá entrar em conflito com o estágio de busca de outras instruções.
 No caso das implementações com uma única memória para dados e instruções é necessário o uso de diversas /stalls/ para evitar os /hazards/, o que resulta em uma perda significativa de desempenho. Nesse caso a solução mais eficiente é utilizar memórias separadas para dados e instruções, evitando assim grande parte desses /hazards/ sem perda alguma de desempenho.
-A arquitetura [[id:35611088-86E7-4D80-B751-BDC56E12DC0B][MIPS]], por exemplo, foi desenvolvida tendo em vista a implementação pipeline, por essa razão há a separação entre memória de dados e instruções.
-Outro conflito pode ocorrer com o uso da [[id:8BB1266E-7D32-4B40-ADCB-3062CF5F8146][ULA]] quando estão sendo executadas instruções de salto. Para evitar esse conflito sem o uso de /stalls/ implementa-se uma unidade de soma dedicada ao incremento do /PC/.
+A arquitetura [[id:35611088-86e7-4d80-b751-bdc56e12dc0b][MIPS]], por exemplo, foi desenvolvida tendo em vista a implementação pipeline, por essa razão há a separação entre memória de dados e instruções.
+Outro conflito pode ocorrer com o uso da [[id:8bb1266e-7d32-4b40-adcb-3062cf5f8146][ULA]] quando estão sendo executadas instruções de salto. Para evitar esse conflito sem o uso de /stalls/ implementa-se uma unidade de soma dedicada ao incremento do /PC/.
 
 [[file:implementacaohazardestrutural.png.org][implementacaohazardestrutural.png]]
 

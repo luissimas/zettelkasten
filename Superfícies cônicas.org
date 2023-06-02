@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 19BC544D-7B04-4FAB-98C5-98978E814B1C
+:ID: 19bc544d-7b04-4fab-98c5-98978e814b1c
 :END:
 #+title: Superfícies cônicas
 

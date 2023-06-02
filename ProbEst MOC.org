@@ -1,18 +1,18 @@
 :PROPERTIES:
-:ID: 765292C6-C9D3-4A83-B7EA-A6C33CDDFA90
+:ID: 765292c6-c9d3-4a83-b7ea-a6c33cddfa90
 :END:
 #+title: ProbEst MOC
 
 * Probabilidade e Estatística
 Probabilidade é o estudo matemático na quantificação da aleatoriedade de eventos. A Estatística é a ciência da coleta e análise de dados. Nesse curso tivemos uma introdução à essas duas áreas da matemática.
 
-[[id:16A2124F-D49E-49E2-A741-5CEC8ED9E8E8][Modelos matemáticos]]
-[[id:F7B70E43-3F9F-41CF-9D56-39F74C6E1C64][Espaço amostral e eventos]]
-[[id:D10BC494-1B96-42CB-98E6-A3255C44CC8C][Contagem]]
-[[id:093C7B66-D2D1-4083-9820-24EB4BFEF5EF][Probabilidade]]
-[[id:B0C1C090-A31E-436D-81BD-4A541FCE4804][Variáveis aleatórias]]
-[[id:4FE88B18-7A39-47E5-B8AA-6010026E83C0][Análise descritiva e exploratória de dados]]
-[[id:0786CAE3-E48B-429C-9459-398590B702A1][Inferência estatística]]
+[[id:16a2124f-d49e-49e2-a741-5cec8ed9e8e8][Modelos matemáticos]]
+[[id:f7b70e43-3f9f-41cf-9d56-39f74c6e1c64][Espaço amostral e eventos]]
+[[id:d10bc494-1b96-42cb-98e6-a3255c44cc8c][Contagem]]
+[[id:093c7b66-d2d1-4083-9820-24eb4bfef5ef][Probabilidade]]
+[[id:b0c1c090-a31e-436d-81bd-4a541fce4804][Variáveis aleatórias]]
+[[id:4fe88b18-7a39-47e5-b8aa-6010026e83c0][Análise descritiva e exploratória de dados]]
+[[id:0786cae3-e48b-429c-9459-398590b702a1][Inferência estatística]]
 [[file:Regressão Linear.org][Regressão Linear]]
 [[file:ANOVA.org][ANOVA]]
 

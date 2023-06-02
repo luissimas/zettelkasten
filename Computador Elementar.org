@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 4F69AD7A-FF4D-4CFA-B869-0609004FBDB8
+:ID: 4f69ad7a-ff4d-4cfa-b869-0609004fbdb8
 :END:
 #+title: Computador Elementar
 

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 5A9A4A54-891C-4367-8CC3-46AE1410F86F
+:ID: 5a9a4a54-891c-4367-8cc3-46ae1410f86f
 :END:
 #+title: Sistemas operacionais
 

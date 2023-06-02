@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 3E1F7805-17C8-4BF2-95D0-C69EAE605F37
+:ID: 3e1f7805-17c8-4bf2-95d0-c69eae605f37
 :END:
 #+title: Gerenciamento de Memória
 

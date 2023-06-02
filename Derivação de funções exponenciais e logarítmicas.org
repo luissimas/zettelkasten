@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 7E638AC0-9432-4976-A390-6737E9DF0143
+:ID: 7e638ac0-9432-4976-a390-6737e9df0143
 :END:
 #+title: Derivação de funções exponenciais e logarítmicas
 

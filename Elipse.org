@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 6804C23A-8CF1-4243-8800-7AEBABD2BE6D
+:ID: 6804c23a-8cf1-4243-8800-7aebabd2be6d
 :END:
 #+title: Elipse
 
@@ -72,7 +72,7 @@ Como em toda elipse tem-se \(a > b\), para saber se a elipse tem seu eixo maior 
 - Se \(a^2\) for denominador de \(y^2\), então o eixo maior está sobre o eixo \(y\)
 
 ** Translação de eixos
-Usando a [[id:2E2EF3BD-7ABD-4078-BA2F-35E645374EB3][translação de eixos]] é possível manipular o centro da elipse para obter as equações reduzidas mesmo que o centro \(C\) da elipse não seja o ponto \((0,0)\) do plano cartesiano.
+Usando a [[id:2e2ef3bd-7abd-4078-ba2f-35e645374eb3][translação de eixos]] é possível manipular o centro da elipse para obter as equações reduzidas mesmo que o centro \(C\) da elipse não seja o ponto \((0,0)\) do plano cartesiano.
 
 [[file:elipsetranslacaodeeixos.png.org][elipsetranslacaodeeixos.png]]
 

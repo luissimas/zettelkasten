@@ -1,11 +1,11 @@
 :PROPERTIES:
-:ID: 6E0F1887-767B-416F-A00A-50633F4C55E3
+:ID: 6e0f1887-767b-416f-a00a-50633f4c55e3
 :END:
 #+title: Hash tables
 #+filetags: :Arrays:
 
 * Hash tables
-A hash table is a data structure that allows us to search, insert and delete data all in \(\text{O}(1)\) (constant time). That can be acomplished by combining an [[file:Arrays and linked lists#Arrays.org][arrays]] and a mapping function (aka [[id:D5473F8C-BEBE-4A88-9142-76CAA2DD0055][hash function]]), those are the two components of a hash table.
+A hash table is a data structure that allows us to search, insert and delete data all in \(\text{O}(1)\) (constant time). That can be acomplished by combining an [[file:Arrays and linked lists#Arrays.org][arrays]] and a mapping function (aka [[id:d5473f8c-bebe-4a88-9142-76caa2dd0055][hash function]]), those are the two components of a hash table.
 Hash tables associate a /key/ with a /value/. When we want to insert data, we give the /key/ and the respective /value/ to the hash function, then it converts the /key/ into a index, and stores the /value/ in this index of the array. WHen we want to search or delete data, we simply inform the /key/, the hash function converts that /key/ into a index and either return or delete the value stored in the array on that specific index.
 This is what allows the hash table to perform any operation in /constant time/. It's important to notice that the speed and efficiency of the hash table depends mainly on the hash function, so it's very important to use a good one for that task.
 

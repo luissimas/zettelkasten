@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: F7B70E43-3F9F-41CF-9D56-39F74C6E1C64
+:ID: f7b70e43-3f9f-41cf-9d56-39f74c6e1c64
 :END:
 #+title: Espaço amostral e eventos
 

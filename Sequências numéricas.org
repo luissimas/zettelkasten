@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 94EB68F2-D3CE-47A3-8A4F-CA0D74C0C9B1
+:ID: 94eb68f2-d3ce-47a3-8a4f-ca0d74c0c9b1
 :END:
 #+title: Sequências numéricas
 

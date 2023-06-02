@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 0A25C6F1-3AD2-4A2A-BA1B-05BA2AC6FCE1
+:ID: 0a25c6f1-3ad2-4a2a-ba1b-05ba2ac6fce1
 :END:
 #+title: Indutivismo
 #+filetags: :Argumentos:
@@ -20,7 +20,7 @@ Existem algumas condições para que um raciocínio seja legítimo na visão ind
 
 Uma vez derivada uma teoria ou lei a partir da indução, há ainda o processo de /dedução/, que consiste em explicar e prever fenômenos. O *raciocínio dedutivo* se baseia na ideia básica de [[file:Cálculo proposicional#Argumentos .org][ argumento lógico]], no qual se todas as premissas são verdadeiras, então a conclusão também deve ser verdadeira.
 O indutivismo *ingênuo* considera que a experiência é capaz de garantir a veracidade das premissas, ou seja, das leis e teorias científicas. Com base nisso podemos então extrair dessas premissas novas previsões e explicações para eventos através da dedução.
-É possível perceber que, apesar de ser um método objetivo e livre de preconceitos ou análises subjetivas, o indutivismo tem uma fundação questionável principalmente no que toca à derivação de teorias através da generalização de observações empíricas. É justamente essa fundação questionável a razão do indutivismo ter sido duramente criticado tanto por [[id:72593630-DB6F-4039-B413-2B468DFBC66C][Karl Popper]] quanto por [[id:2CF712F8-C429-449E-979A-E2B2C114D598][Thomas Kuhn]].
+É possível perceber que, apesar de ser um método objetivo e livre de preconceitos ou análises subjetivas, o indutivismo tem uma fundação questionável principalmente no que toca à derivação de teorias através da generalização de observações empíricas. É justamente essa fundação questionável a razão do indutivismo ter sido duramente criticado tanto por [[id:72593630-db6f-4039-b413-2b468dfbc66c][Karl Popper]] quanto por [[id:2cf712f8-c429-449e-979a-e2b2c114d598][Thomas Kuhn]].
 
 --------------
 

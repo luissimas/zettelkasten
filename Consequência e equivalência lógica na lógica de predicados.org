@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 321BA6FD-C526-4D8C-9087-4C93510F874A
+:ID: 321ba6fd-c526-4d8c-9087-4c93510f874a
 :END:
 #+title: Consequência e equivalência lógica na lógica de predicados
 
@@ -22,7 +22,7 @@ Duas fórmulas \(\alpha\) e \(\beta\) são *logicamente equivalentes* se as inte
 
 #+end_quote
 
-Vale destacar que as [[id:260F4D65-72B0-48BA-A9C5-0187E8283C28][consequências e equivalências]] básicas da [[id:6931DA83-27A2-4C30-966C-E7F4627B2819][lógica proposicional]] são igualmente válidas para a lógica de predicados. Além dessas, temos uma equivalência específica para os /quantificadores/ da lógica de predicados.
+Vale destacar que as [[id:260f4d65-72b0-48ba-a9c5-0187e8283c28][consequências e equivalências]] básicas da [[id:6931da83-27a2-4c30-966c-e7f4627b2819][lógica proposicional]] são igualmente válidas para a lógica de predicados. Além dessas, temos uma equivalência específica para os /quantificadores/ da lógica de predicados.
 
 #+begin_quote
 \[

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 7F1EF1D1-0378-4008-9546-132C4D09B9B5
+:ID: 7f1ef1d1-0378-4008-9546-132c4d09b9b5
 :END:
 #+title: Máximos e mínimos de funções de várias variáveis
 

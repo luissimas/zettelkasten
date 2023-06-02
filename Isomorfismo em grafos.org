@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 593955CB-EF89-48DC-A04B-20F4E3B98DC5
+:ID: 593955cb-ef89-48dc-a04b-20f4e3b98dc5
 :END:
 #+title: Isomorfismo em grafos
 

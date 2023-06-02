@@ -1,10 +1,10 @@
 :PROPERTIES:
-:ID: D5473F8C-BEBE-4A88-9142-76CAA2DD0055
+:ID: d5473f8c-bebe-4a88-9142-76caa2dd0055
 :END:
 #+title: Hash function
 
 * Hash function
-A hash function is the core of any [[id:6E0F1887-767B-416F-A00A-50633F4C55E3][hash table]].
+A hash function is the core of any [[id:6e0f1887-767b-416f-a00a-50633f4c55e3][hash table]].
 In a simple way, a hash function is a function that converts any type of data into an numer (actually an index), there are many implementations of hash functions, none are perfect, but some are better than others. The idea is that we use memory as efficiently as possible while avoiding as much collisions as possible.
 
 --------------

@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 3533978F-E35F-4B28-8AF0-8FA8E2D618FB
+:ID: 3533978f-e35f-4b28-8af0-8fa8e2d618fb
 :END:
 #+title: Lógica Digital
 #+filetags: :MOC:
@@ -8,52 +8,52 @@
 Lógica Digital é a disciplina que introduz a base para qualquer conceito relacionado a circuitos digitais. O curso todo foi baseado no livro [[file:attachments/Fundamentals_of_Digital_Logic.pdf][Fundamentals of Digital Logic]]. As notas estão organizadas de acordo com os capítulos e seções do livro.
 
 ** Chapter 1
-This chapter introduces the process of designing digital circuits, as well as the [[id:63384077-A1B3-4E87-BA0B-D3721C8C0102][digital representation of information]].
+This chapter introduces the process of designing digital circuits, as well as the [[id:63384077-a1b3-4e87-ba0b-d3721c8c0102][digital representation of information]].
 
 ** Chapter 2
 This chapter is where things really start, it introduces the fundamental concepts to design digital circuits:
 
-[[id:2FAE20B7-7F7A-42E4-B379-A0A3CFA967F6][Logic functions]]
-[[id:1A9B753E-E05D-4DBA-85A0-B18D6583A7D3][Boolean algebra]]
-[[id:32037CD8-306B-4498-8CB2-FDF26754086F][Logic synthesis]]
-[[id:73012C9B-F3C0-4379-BA84-831AA20E8F1B][Introduction to Verilog]]
+[[id:2fae20b7-7f7a-42e4-b379-a0a3cfa967f6][Logic functions]]
+[[id:1a9b753e-e05d-4dba-85a0-b18d6583a7d3][Boolean algebra]]
+[[id:32037cd8-306b-4498-8cb2-fdf26754086f][Logic synthesis]]
+[[id:73012c9b-f3c0-4379-ba84-831aa20e8f1b][Introduction to Verilog]]
 
 ** Chapter 3 (sections 3.1 to 3.5)
 This chapter presents the topics involving arithmetic circuits and operations:
 
-[[id:4D663191-E9A5-4704-B79C-A8FA087E7FD1][Positional number representation]]
-[[id:3541D72A-41DB-4950-93A1-4814EDB16F7D][Arithmetic logic circuits]]
-[[id:D482F0DF-3203-4A84-BFED-94344BC062E2][Arithmetic circuits in Verilog]]
-[[id:08B94D05-8F82-4C76-8EB9-D24E8A777F79][Representation of numbers in Verilog]]
+[[id:4d663191-e9a5-4704-b79c-a8fa087e7fd1][Positional number representation]]
+[[id:3541d72a-41db-4950-93a1-4814edb16f7d][Arithmetic logic circuits]]
+[[id:d482f0df-3203-4a84-bfed-94344bc062e2][Arithmetic circuits in Verilog]]
+[[id:08b94d05-8f82-4c76-8eb9-d24e8a777f79][Representation of numbers in Verilog]]
 
 ** Chapter 4
 This chapter presents some interesting combinational circuits:
 
-[[id:7DF44724-50A7-4711-B3E8-85B228EB3BAE][Multiplexers]]
-[[id:21AE386F-3C92-4233-B672-06C5A03F6210][Encoders and decoders]]
+[[id:7df44724-50a7-4711-b3e8-85b228eb3bae][Multiplexers]]
+[[id:21ae386f-3c92-4233-b672-06c5a03f6210][Encoders and decoders]]
 
 ** Chapter 5
-Here we were introduced to circuits that can store information, these circuits are called [[id:B1E8FF6D-8A21-4A9C-AE1B-6D1DDB84BD6F][sequential circuits]]. We also were introduced to the different elements that are used to store information:
+Here we were introduced to circuits that can store information, these circuits are called [[id:b1e8ff6d-8a21-4a9c-ae1b-6d1ddb84bd6f][sequential circuits]]. We also were introduced to the different elements that are used to store information:
 
-[[id:4F33C7AD-E863-404D-B011-EB7793459A48][Latches]]
+[[id:4f33c7ad-e863-404d-b011-eb7793459a48][Latches]]
 [[id:a6be1dd8-a863-484f-bc34-6334be627728][Propagation delay]]
-[[id:860D0638-E241-4BCC-B6A7-1FAB58F2ED36][Flip-Flops]]
-[[id:6CA9DDE1-6128-4FD1-BD48-A943CA3BFD3B][Registers]]
-[[id:5B18C678-59BE-4C72-8296-8A756DE6EDE9][Counters]]
-[[id:BB43580A-A618-416F-A346-39F9D8059491][Implementation of storage in Verilog]]
-[[id:E4BCD3C6-E616-4D65-8FDF-9431C8B5D893][Non-blocking assignments]]
-[[id:15CBFE06-523B-4B50-B140-D2094528D890][Timing analysis]]
+[[id:860d0638-e241-4bcc-b6a7-1fab58f2ed36][Flip-Flops]]
+[[id:6ca9dde1-6128-4fd1-bd48-a943ca3bfd3b][Registers]]
+[[id:5b18c678-59be-4c72-8296-8a756de6ede9][Counters]]
+[[id:bb43580a-a618-416f-a346-39f9d8059491][Implementation of storage in Verilog]]
+[[id:e4bcd3c6-e616-4d65-8fdf-9431c8b5d893][Non-blocking assignments]]
+[[id:15cbfe06-523b-4b50-b140-d2094528d890][Timing analysis]]
 
 ** Chapter 6
-In this chapter we continue to explore the [[id:B1E8FF6D-8A21-4A9C-AE1B-6D1DDB84BD6F][sequential circuits]], learning more formal ways of describing those circuits and new design techniques.
-[[id:192A60C8-C700-4145-8A73-367BC1599EEE][Finite state machines]]
-[[id:FCE93CD2-8D92-4CDF-9332-64A590D91EFA][State diagram and table]]
-[[id:71C7F6FF-9547-4182-AD7C-678C21FADB13][Designing sequential circuits]]
-[[id:DE1FBFBF-A8B8-4FF8-933E-05E57E291903][Finite state machines in Verilog]]
-[[id:6566FDCF-A1C1-46EC-8E54-E859E9961ECD][State minimization]]
+In this chapter we continue to explore the [[id:b1e8ff6d-8a21-4a9c-ae1b-6d1ddb84bd6f][sequential circuits]], learning more formal ways of describing those circuits and new design techniques.
+[[id:192a60c8-c700-4145-8a73-367bc1599eee][Finite state machines]]
+[[id:fce93cd2-8d92-4cdf-9332-64a590d91efa][State diagram and table]]
+[[id:71c7f6ff-9547-4182-ad7c-678c21fadb13][Designing sequential circuits]]
+[[id:de1fbfbf-a8b8-4ff8-933e-05e57e291903][Finite state machines in Verilog]]
+[[id:6566fdcf-a1c1-46ec-8e54-e859e9961ecd][State minimization]]
 
 ** Chapter 7
 In the final chapter covered by the course, we are presented to some more aspects of digital systems.
-[[id:95E22236-D77F-4B59-AB0C-97A3C3A229ED][Bus structure]]
+[[id:95e22236-d77f-4b59-ab0c-97a3c3a229ed][Bus structure]]
 
 --------------

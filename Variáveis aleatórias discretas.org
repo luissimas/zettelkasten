@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: 460C2C8B-08FC-4830-8475-D3D500B38B4F
+:ID: 460c2c8b-08fc-4830-8475-d3d500b38b4f
 :END:
 #+title: Variáveis aleatórias discretas
 #+filetags: :Combina:

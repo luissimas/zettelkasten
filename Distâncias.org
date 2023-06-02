@@ -1,5 +1,5 @@
 :PROPERTIES:
-:ID: E06514F2-5B13-42F7-8A06-A0A81EAD4CA2
+:ID: e06514f2-5b13-42f7-8a06-a0a81ead4ca2
 :END:
 #+title: Distâncias
 #+filetags: :M:Proje:Interpreta:
