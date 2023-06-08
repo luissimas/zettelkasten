@@ -29,3 +29,5 @@ Em geral, existem 5 tipos básicos de imagens digitais:
 5. *3D*: $f[n,m,l] \in \{0,1,2,\dots,255\}$. Imagens 3D são indexadas em 3 dimensões, sendo bastante utilizadas em aplicações médicas e tendo um alto custo computacional de processamento.
 
 [[id:da872781-8072-4db3-b840-db247e60386f][Histogramas]] são um método comum de visualizar a distribuição dos níveis de cinza de uma imagem, servindo de base para diversas manipulações, como a [[id:cca1b6fa-5233-4e4a-aa5d-019969603b7b][Segmentação de Imagens]].
+
+O estudo de sinais e sistemas fornece a base teórica para o processamento de imagens. Um dos conceitos mais fundamentais para o processamento de imagens são os [[id:761d6b11-813c-4f4a-8dea-fa54fb7939ee][Sistemas lineares e invariantes no tempo/espaço]].
