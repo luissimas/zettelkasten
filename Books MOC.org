@@ -8,8 +8,8 @@ Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiê
 *** 2020
 | Status | Title              | Author       | Language           | Pages |
 |--------+--------------------+--------------+--------------------+-------|
-| Done   | Fahrenheit 451     | Ray Bradbury | Português          | 177   |
-| Done   | The Secret History | Donna Tartt  | English (Original) | 575   |
+| Done   | Fahrenheit 451     | Ray Bradbury | Português          |   177 |
+| Done   | The Secret History | Donna Tartt  | English (Original) |   575 |
 
 *** 2021
 | Status  | Title                           | Author           | Language             | Pages |
@@ -28,9 +28,8 @@ Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiê
 | To read | Mason & Dixon                   | Thomas Pynchon   | Português            |   ??? |
 
 *** 2023
-
-| Status  | Title         | Author      | Started          | Finished         | Elapsed time      |
-|---------+---------------+-------------+------------------+------------------+-------------------|
-| Done    | Atomic Habits | James Clear | <2023-05-25 Thu> | <2023-06-08 Thu> | 14                |
-| Reading | Deep Work     | Cal Newport | <2023-06-09 Fri> |                  | <-2023-07-25 Tue> |
-#+TBLFM: $7=$6-$5
+| Status  | Title         | Author      | Started          | Finished         | Elapsed time |
+|---------+---------------+-------------+------------------+------------------+--------------|
+| Done    | Atomic Habits | James Clear | <2023-05-25 Thu> | <2023-06-08 Thu> |           14 |
+| Reading | Deep Work     | Cal Newport | <2023-06-09 Fri> | <2023-06-09 Fri> |            0 |
+#+TBLFM: $6=$5-$4
