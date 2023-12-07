@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       57753666-0a85-4c5e-a1ee-5e27dc4c9584
+:END:
+#+title: 2023-08-09
+
+Testando
+* Uma ideia
+Ok, vamo ver o que rola de fazer isso aqui. Cara, realmente muito interessante poder ter um journal no org-roam.
+* Journal setup
+A ideia de ter um journal no zettelkasten é realmente muito boa, assim sinto que consigo ter uma forma extremamente conveniente de anotar as coisas e ainda assim é bastante integrada com o resto da base de conhecimento, sendo possível ter uma visão temporal e também baseada em conceitos. Acho que essa forma de organizar as coisas simula bastante o pensamento humano.
+
+* Morning entry
+** Day plan
+*** DONE HSS Planning
+CLOSED: [2023-08-09 Wed 11:15] SCHEDULED: <2023-08-09 Wed 09:00-10:30>
+*** DONE Setup journaling and day planner
+CLOSED: [2023-08-09 Wed 19:22] SCHEDULED: <2023-08-09 Wed 14:00-15:00>
+[[https://youtu.be/3-sLBaJAtew][System crafter's video on org-roam journaling]]
+*** DONE Buy mate
+CLOSED: [2023-10-07 Sat 10:57] SCHEDULED: <2023-08-09 Wed>
+*** DONE Go to the barber
+CLOSED: [2023-08-09 Wed 16:19] SCHEDULED: <2023-08-09 Wed 13:00-14:00>
+** How should I feel by the end of the day?
+I should feel accomplished because I put in the effort for improving my systems and habits, so I'm now more capable to pursue my habits and passions. I should also feel proud of myself for I have not succumbed to my bad habits.
+
+* Evening entry
+I have started to setup org-roam daily notes, and I plan on expanding the setup tomorrow to allow for better capture templates. I think I was a bit too motivated in the mourning, so I think I'll set up my habits later in the week.
+
+I can already tell that's quite nice to have a journaling session at the end of the day, I feel like I can have some sort of clousure. I'll also try to plan the next day.

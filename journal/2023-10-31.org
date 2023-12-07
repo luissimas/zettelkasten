@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d15581c1-84fa-4974-be55-630a6d717b89
+:END:
+#+title: 2023-10-31
+
+* Morning entry
+** DONE Get a domain name
+CLOSED: [2023-10-31 Tue 08:23]
+** DONE Setup server certificate
+CLOSED: [2023-10-31 Tue 08:23]

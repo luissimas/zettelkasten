@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       2130f2f8-1649-48cf-881c-5fa98dd974e4
+:END:
+#+title: 2023-10-03
+* Plan for today
+** DONE Fix SMS bugs
+CLOSED: [2023-10-03 Tue 18:49]
+** DONE Read one section of phoenix guide
+CLOSED: [2023-10-03 Tue 18:49]

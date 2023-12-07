@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a8f4eefb-3cd0-4795-834e-639621595a2b
+:END:
+#+title: 2023-11-01
+
+* Morning entry
+** DONE Atividade PLP
+CLOSED: [2023-11-01 Wed 08:38]
+** TODO Planning HSS

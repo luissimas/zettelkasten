@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       40904c6b-eeea-4a67-9eff-49b164e32627
+:END:
+#+title: 2023-08-30
+* Plan for today
+** DONE Deliver internship report
+CLOSED: [2023-08-30 Wed 10:08]

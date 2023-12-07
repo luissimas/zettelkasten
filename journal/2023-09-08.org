@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       2be13b05-d197-4617-8194-e6ed60e21ff5
+:END:
+#+title: 2023-09-08
+* Plan for today
+** DONE Finish Learning Go chapter
+CLOSED: [2023-09-08 Fri 21:56]
+** CANCELLED Improve todo-htmx project
+CLOSED: [2023-09-09 Sat 06:25]
+- [ ] Setup migrations
+- [ ] Setup live reload with [[https://github.com/cosmtrek/air][air]]
+- [ ] Improve docker-compose
+- [ ] Setup github actions deploy

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b88f5cd0-02a0-40ff-b4f7-fde57af4344a
+:END:
+#+title: 2023-10-19
+
+* Morning entry
+** Plan
+*** DONE Configure eat
+CLOSED: [2023-10-19 Thu 17:34]
+- [X] Basic setup
+- [X] Make popup

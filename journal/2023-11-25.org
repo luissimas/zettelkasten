@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       05427c3b-2f57-46ea-abb5-f29b1a77bb84
+:END:
+#+title: 2023-11-25
+
+* Night entry
+** DONE Elixir Chat App [100%]
+CLOSED: [2023-11-26 Sun 15:34]
+- [X] Authentication
+  - [X] Simple lib or Ueberauth?
+- [X] Redirect to room after auth
+- [X] Save token to cookies
+- [X] Logout

@@ -830,3 +830,12 @@ TodoServer.entries(pid, ~D[2018-12-19])
 :   %{date: ~D[2018-12-19], id: 1, title: "Dentist"},
 :   %{date: ~D[2018-12-19], id: 3, title: "Movies"}
 : ]
+* Chapter 7: Building a concurrent system
+* Chapter 8: Fault-tolerance basis
+In a distribute system we don't try to make sure that nothing fails, we make sure that if something fails it doesn't take down the entire system. As such, we need mechanisms of detecting and acting on failures, so our system can try to recover from them.
+
+In the BEAM processes are completely isolated, so when a process crashes it doesn't propagate the failure to other processes neither corrupts shared state. This means that we're covered from the error isolation standpoint, but we must develop have mechanisms that allow the system to detect and recover from failures.
+
+In Elixir, a runtime error has a type, which can be =:error= =:exit= or =:throw= and a value, which is an arbitrary term. If a runtime error isn't handled, the process terminates.
+
+We can *link* processes together so they are notified of each other's termination. Linking two processes is always bidirectional. By default, when one of the linked processes is terminated, the other process also terminates. We can override this default behavior by /trapping exits/ on a process, making the process receive a message about the termination of a linked process. It is also possible to make unidirectional links using monitors.

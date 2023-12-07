@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       82270ef9-8031-4251-b54c-32f6c7aca22f
+:END:
+#+title: 2023-10-05
+* Plan for today
+** DONE Complete Phoenix's Context guide
+CLOSED: [2023-10-05 Thu 07:17]

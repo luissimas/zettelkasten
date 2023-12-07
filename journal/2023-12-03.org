@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a9f73e49-3878-4251-b542-45213cf974c0
+:END:
+#+title: 2023-12-03
+
+* TODO ARQ 2 Relatórios [3/6]
+- [X] Semana 2
+- [X] Semana 3
+- [ ] Semana 4
+- [X] Semana 5
+- [ ] Semana 6

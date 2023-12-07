@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c529bdc5-0e3e-4636-89c3-de21544c7c4d
+:END:
+#+title: 2023-10-25
+
+* Morning entry
+** Plan for today
+*** DONE One chapter of OTP Guide
+CLOSED: [2023-10-25 Wed 09:17]
+https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html
+*** DONE HSS multihoming
+CLOSED: [2023-10-25 Wed 18:15]
+*** DONE HSS Interfaces configuráveis por peer
+CLOSED: [2023-10-25 Wed 18:15]

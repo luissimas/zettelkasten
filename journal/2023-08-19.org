@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       202fc7e8-713a-4c78-9d68-8b6e8082d7ef
+:END:
+#+title: 2023-08-19
+* Plan for today
+
+** DONE Atividade PDI
+CLOSED: [2023-08-19 Sat 10:47]
+** DONE Planejar entregas UFSCar
+CLOSED: [2023-08-19 Sat 10:47]
+** DONE IRC Client/Server in Go
+CLOSED: [2023-09-06 Wed 08:41]
+** DONE Rotina de compartilhamento [16%]
+CLOSED: [2023-09-06 Wed 08:41]
+- [X] Escrever o texto da apresentação durante a aula
+- [ ] Fazer a apresentação
+- [ ] Planejar metodologia
+- [ ] Deploy das APIs
+- [ ] VM para rodar o client de teste
+- [ ] Fazer os testes de carga

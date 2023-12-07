@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7adbdfbd-48f2-4e40-a0d6-67a6d6196527
+:END:
+#+title: 2023-10-27
+
+* Morning entry
+** Plan for today
+*** DONE Aula ARQ2
+CLOSED: [2023-10-27 Fri 11:26]
+*** DONE Aula ES2
+CLOSED: [2023-10-28 Sat 15:01]

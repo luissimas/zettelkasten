@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       df927c77-5801-4fcb-b96f-dafbfd191cc1
+:END:
+#+title: 2023-10-09
+
+* Morning entry
+** Plan for today
+*** DONE Track finances
+CLOSED: [2023-10-09 Mon 05:48]
+*** DONE Go to the gym
+CLOSED: [2023-10-09 Mon 09:31]
+*** DONE Start Github gist clone in Elixir
+CLOSED: [2023-10-09 Mon 11:52]
+*** DONE Correção no dashboard SMS
+CLOSED: [2023-10-09 Mon 11:53]
+*** DONE Investigar erro número internacional SMS
+CLOSED: [2023-10-10 Tue 06:28]

@@ -31,7 +31,7 @@ Vale lembrar que nenhuma dessas técnicas resolvem todos os problemas envolvendo
 
 * Integrais imediatas
 Usando as [[file:Retas tangentes e regras de derivação#Regras de derivação.org][regras de derivação]] e as [[file:Integrais indefinidas#Técnicas de integração.org][técnicas de integração]], podemos definir algumas integrais indefinidas cujo cálculo é imediato:
-\[
+
 \begin{array}{|c|c|}
 \hline
 \displaystyle\int{x^\alpha}\,dx=\frac{x^{\alpha+1}}{\alpha+1}+C, (\alpha \not=-1) &\displaystyle \int{\frac{1}{x}}\,dx=\ln{|x|}+C \\
@@ -55,7 +55,6 @@ Usando as [[file:Retas tangentes e regras de derivação#Regras de derivação.o
 \displaystyle\int{\frac{1}{\sqrt{a^2-x^2}}}\,dx=\arcsin{\frac{x}{a}} +C &\displaystyle\int{\frac{1}{\sqrt{x^2+\lambda}}}\,dx=\ln{|x+\sqrt{x^2+\lambda}|} +C\\
 \hline
 \end{array}
-\]
 
 --------------
 

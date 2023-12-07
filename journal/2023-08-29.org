@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5c3d32f9-a0fa-493b-8ef6-33c4dad62e8c
+:END:
+#+title: 2023-08-29
+
+* Today's plan
+** DONE Exercism Go Track
+CLOSED: [2023-08-29 Tue 14:49]
+** DONE Compilers presentation
+CLOSED: [2023-08-29 Tue 14:49] SCHEDULED: <2023-08-29 Tue 08:00-12:00>
+** DONE HTMX Go Todo App
+CLOSED: [2023-09-06 Wed 08:41]

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b0884420-1dd1-4073-86e4-3b8658d46672
+:END:
+#+title: 2023-10-10
+
+* Morning entry
+** Plan for today
+*** DONE Atividade 1 PLP
+CLOSED: [2023-10-10 Tue 10:49] DEADLINE: <2023-10-10 Tue>
+*** DONE Atividade 2 PLP
+CLOSED: [2023-10-10 Tue 10:50]

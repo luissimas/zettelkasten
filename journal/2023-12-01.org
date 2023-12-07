@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2e16d808-f2dc-46e1-89a1-45b4db2a2881
+:END:
+#+title: 2023-12-01
+
+* Cost of testing
+1. Time to write
+2. Time to read
+3. Time to maintain
+4. Time to run
+
+O Limoni me falou sobre uma abordagem de "honeycomb testing" como alternativa à tradicional pirâmide de teste.
+
+https://www.youtube.com/watch?v=p3M1Y2Oi_Yk

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       9f34539b-b6e5-4467-8dbd-a4b76e922c31
+:END:
+#+title: 2023-12-07
+
+* TODO ES2 [3/4]
+- [X] Slides
+- [X] Teste da demo
+- [X] Reset do repositório
+- [ ] Ensaio
+* TODO ARQ2 [0/2]
+- [ ] Lista
+- [ ] Revisar slides
+* TODO HSS Load test [2/4]
+- [X] Seeds
+- [X] Scripts
+- [ ] Atualizar máquinas GCP
+- [ ] Rodar smoke test
+* Elixir Jobs
+Hoje estava vendo uma discussão do pessoal no Telegram sobre o mercado de Elixir. Aparentemente todo mundo em todos os níveis estão com dificuldade de encontrar emprego na linguagem. A questão é que em geral é muito mais seguro para as empresas adotarem uma stack mais popular porque é mais fácil encontrar mão de obra barata e qualificada.
+
+Cara, então por que não fazer um produto em Elixir? Tenho ferramentas pra fazer algo bem legal, e não tenho nada a perder.

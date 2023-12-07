@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       2a4c43c9-22ca-4762-a689-50f1031697fa
+:END:
+#+title: 2023-08-15
+* Plan for today
+** DONE Terminar API em Go [100%]
+CLOSED: [2023-08-15 Tue 07:59] SCHEDULED: <2023-08-15 Tue>
+- [X] Carregar arquivo de configuração
+- [X] Criar conexão com o banco
+- [X] Modelar entidades
+- [X] Repositories
+- [X] Interface HTTP
+** DONE Fazer os testes pra API da rotina de compartilhamento
+CLOSED: [2023-10-07 Sat 10:57] SCHEDULED: <2023-08-15 Tue>
+** DONE Reunião com o Salva
+CLOSED: [2023-08-15 Tue 14:44]
+*** Férias
+*** Como fazer os testes de carga pra rotina de compartilhamento?
+*** Quando testar E2E? Parece que os testes E2E tem mais valor que os unitários, mas ao mesmo tempo são mais caros de executar.
+*** Otimização prematura e complexidade de software
+* ORMS
+Tenho começado a questionar ORMs. Muitos dos problemas do projeto do HSS foram relacionados à nossa falta de familiaridade com o ecossistema, e principalmente com o SQLAlchemy. Em geral acho que os ORMs foram criados num contexto em que a arquitetura MVC prevalescia, então fazia sentido manter essa responsabilidade de persistência nos próprios modelos. Entretanto, vejo que hoje temos padrões de arquitetura um pouco mais desacoplados para persistência - como o padrão /Repository/ - e parece que por vezes na criação dos repositories o uso do ORM não agrega muito valor conceitualmente, mas sim no sentido de facilitar a interface com o banco. Sendo assim, sinto que tendo a usar o ORM muito mais como um query builder do que como um ORM em si. Sendo esse caso, será que não faz mais sentido utilizar um query builder diretamente e evitar a abstração e custo de performance trazida pelos ORMs?
+
+A comunidade de Go parece não ser tão familiar com ORMs quanto outras comunidades como as de Node.js ou Python. Acredito que o principal motivo seja o background do pessoal que programa em Go ser mais voltado a serviços pequenos e de alta performance. Dei uma pesquisada sobre o [[https://github.com/go-gorm/gorm][GORM]] e achei algumas coisas bastante interessantes. Existe um ecossistema de ferramentas alternativas para a interação com o banco de dados. Alguns sugerem a combinação de duas ferramentas: [[https://github.com/volatiletech/sqlboiler][sqlboiler]] e [[https://github.com/rubenv/sql-migrate][sql-migrate]]. A ideia é definir o schema do banco apenas através de migrações (muitas vezes usando ORMs temos duas definições do schema: as migrações e os modelos em si) e então gerar um query builder com base nesse schema. Essa parece ser uma abordagem bastante interessante e um meio termo entre a abstração dos ORMs e utilizar SQL diretamente.
+
+Existem dois tipos de ORM: code-first e schema-first. Code-first utilizam o código para gerar o schema do banco, já os schema-first usam o schema para gerar o código. Pode-se dizer que o GORM e SQLAlchemy são ORMs code-first, enquanto o SQLBoiler e Prisma são schema-first.

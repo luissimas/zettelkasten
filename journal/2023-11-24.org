@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e2741eb3-1c51-4eab-8fc6-724edcafee8b
+:END:
+#+title: 2023-11-24
+
+* Morning entry
+** DONE PLP AA5
+CLOSED: [2023-11-24 Fri 10:41]
+** DONE Bromelia update peers
+CLOSED: [2023-11-24 Fri 17:58]

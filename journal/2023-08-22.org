@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       326c1491-35bb-45c9-97b8-9854bb27c508
+:END:
+#+title: 2023-08-22
+* Today's plan
+** DONE Exercism Go Track
+CLOSED: [2023-08-22 Tue 07:12] SCHEDULED: <2023-08-22 Tue>

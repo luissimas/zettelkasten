@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       efbd173c-c93f-4f79-a04d-a3653858e218
+:END:
+#+title: 2023-11-13
+
+* Morning entry
+** DONE Work on the IRC server
+CLOSED: [2023-11-13 Mon 13:21]
+** DONE Finish HSS unit tests
+CLOSED: [2023-11-13 Mon 13:21]

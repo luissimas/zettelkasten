@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       22952621-074e-4fa2-8c22-121cf736549b
+:END:
+#+title: 2023-08-25
+* Plan for today
+** DONE Rotina de compartilhamento [4/4]
+CLOSED: [2023-08-25 Fri 17:44]
+- [X] Terminar slides
+- [X] Round 2 dos testes
+- [X] Snippets
+- [X] Apresentar
+** DONE Exercism Go track
+CLOSED: [2023-08-25 Fri 07:20]
+* Considerações sobre a semana
+Essa semana tá sendo bastante corrida e tenho tido que dedicar bastante tempo não só para o trabalho mas também para a rotina de compartilhamento. Apesar disso sinto que evoluí bastante, consegui fazer o deploy de 4 APIs numa VM do Cloud Run e configurar o Ngnix para expor as APIs. Além disso, também tive contato com o CloudSQL para prover um banco de dados para as APIs.
+
+Sinto que estou num caminho bem bom, tomando mais responsabilidades e tendo experiências cada vez mais interessantes. Ontem o Salva me convidou para fazer uma demonstração do HSS para o gerente de projeto da Trópico, e acho que isso é um bom sinal de que realmente estou conseguindo tomar mais responsabilidades.
+
+Os planos pro futuro são continuar proativo em âmbito de trabalho e aproveitar esse quickstart no GCP e meus créditos de free tier para pegar o máximo de badges que eu conseguir.

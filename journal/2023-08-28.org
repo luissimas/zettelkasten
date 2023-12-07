@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       9f0b7b47-cfef-4ddb-ab44-462e6684479e
+:END:
+#+title: 2023-08-28
+
+* Today's plan
+** DONE Go Exercism track
+CLOSED: [2023-08-28 Mon 07:45]
+** CANCELLED HSS Demo
+CLOSED: [2023-08-28 Mon 16:21] SCHEDULED: <2023-08-28 Mon 15:00-15:45>
+** DONE Internship report
+CLOSED: [2023-08-29 Tue 06:24] SCHEDULED: <2023-08-28 Mon 14:00-15:00>
+** DONE Tasks HSS [3/3]
+CLOSED: [2023-08-28 Mon 17:30]
+- [X] Endpoint desregistro IMPI
+- [X] Endpoint desregistro IMPU
+- [X] Testar AMQP E2E

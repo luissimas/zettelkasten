@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       7238ac7a-1cf8-43a3-a5cf-555d6333defc
+:END:
+#+title: 2023-08-31
+* Today's plan
+** DONE HSS Tasks
+CLOSED: [2023-08-31 Thu 16:05]
+- [X] Service profile PPR triggers
+- [X] IMPI PPR triggers
+- [X] IMPU PPR triggers
+- [X] Charging Info PPR triggers
+- [X] E2E tests
+** DONE Todo HTMX
+CLOSED: [2023-09-06 Wed 08:41]
+- [ ] Improve UI
+- [ ] Refactor templates
+- [ ] Refactor handlers
+- [X] Update todo text
+- [ ] Publish repository
+* Onetimesecret idea
+- Landing page: form with content, passphrase and expiration time fields
+- Secret page: ask for the passphrase; if it's correct then decrypt the content and display to the user
+
+Check this repository: https://gitlab.com/totakoko/onetimesecret
+
+** Encryption flow
+We receive: =plaintextData= and =passphrase=
+
+1. Generate an unique =id= for the secret
+2. Generate =derivedKey= with =bcrypt(passphrase, SERVER_SECRET)=
+3. Generate a random =aesKey= for the AES encryption
+4. Encrypt the =plaintextData= using the =aesKey=
+5. Encrypt the =aesKey= using the =derivedKey= and authenticated encryption ([[https://pkg.go.dev/crypto/cipher#AEAD][AEAD]])
+6. Store the encrypted =aesKey= and the encrypted =plaintextData= on the server under the key =id=
+
+** Decryption flow
+We receive: =id= and =passphrase=
+
+1. Get the encrypted data using =id=
+2. Generate =derivedKey= with =bcrypt(passphrase, SERVER_SECRET)=
+3. Decrypt the encrypted =aesKey= and verify the authentication. If the authentication fails, return an error saying that the passphrase is incorrect
+4. Decrypt the content using the encrypted =aesKey= and return it to the user, deleting the stored encrypted data

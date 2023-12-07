@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2ff95bb5-44d5-45af-abfa-c40955602373
+:END:
+#+title: 2023-09-05
+
+* Plan for today
+** DONE Improve todo-htmx project
+CLOSED: [2023-09-05 Tue 08:07]
+- [X] Follow these guidelines: https://github.com/golang-standards/project-layout
+- [X] Load configuration from environment variables: https://github.com/spf13/viper#working-with-environment-variables
+- [ ] Setup migrations
+- [ ] Improve docker-compose
+- [ ] Setup live reload with [[https://github.com/cosmtrek/air][air]]
+- [ ] Setup github actions deploy

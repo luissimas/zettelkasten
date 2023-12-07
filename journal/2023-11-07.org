@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       3e3ae200-ff52-48b1-8ad0-7f5c6de0eba7
+:END:
+#+title: 2023-11-07
+
+* Morning entry
+** DONE Aula PLP
+CLOSED: [2023-11-07 Tue 14:54]
+** DONE HSS Migrations setup
+CLOSED: [2023-11-07 Tue 14:54]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ec7f0271-09c9-49d2-ad18-c5ce0e8cd9cd
+:END:
+#+title: 2023-11-21
+
+* Morning entry
+** DONE Work on the chat server
+CLOSED: [2023-11-21 Tue 12:48]

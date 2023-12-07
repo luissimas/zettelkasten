@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       765216c6-f84c-4fe1-85a0-b311fe2327f1
+:END:
+#+title: 2023-10-23
+
+* Morning entry
+Depois de muito tempo li alguns capítulos do livro /Pragmatic Programmers/. É impressionante como a leitura "lubrifica" o cérebro de alguma forma. Sinto que é um esforço ativo porém de baixa intensidade bastante interessante para ser feito de manhã. Além disso, tenho sentido que estou consumindo muito conteúdo de baixa qualidade no YouTube apenas para me sentir produtivo enquanto desenvolvo outras atividades. A partir de hoje quero parar de consumir tais conteúdos com tanta frequência e me tornar mais presente, conseguindo direcionar melhor meu foco. A expectativa é ter mais energia mental para realmente fazer coisas que irão me trazer mais benefícios como desenvolver aplicações ou consumir cursos de maior qualidade, como os do /Pragmatic Programmers/.
+
+** Plan for today
+*** DONE Cancel REMAR prep
+CLOSED: [2023-10-23 Mon 11:31]
+*** DONE One chapter of OTP Guide
+CLOSED: [2023-10-23 Mon 09:11]
+https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-projects.html
+
+O módulo =:gen_tcp= é bastante interessante e me pareceu simples de usar. Achei bacana que nos próximos capítulos do guia vamos parsear as mensagens. Talvez até seja uma oportunidade legal de fazer um servidor IRC em Elixir.
+
+https://celeo.github.io/2021/06/18/Implementing-an-IRC-server-from-scratch-part-1/
+
+Também tem o protohackers, uns desafios de networking que parecem ser bem legais.
+
+https://protohackers.com/
+* Making CLIs
+Toda vez que tenho alterar a CLI de seeds no projeto do HSS é uma experiência bem bacana. Não sei se é a facilidade da lib =argparse= da stdlib do Python, a satisfação de fazer algo que vai ser usado imediatamente pra melhorar a experiência de desenvolvimento do projeto ou ambos, mas sempre fico satisfeito ao fazer algo nesse sentido.

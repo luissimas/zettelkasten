@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       b41ce056-4a9e-4ab0-995f-e8dbf8dbcfa0
+:END:
+#+title: 2023-08-24
+
+* Plan for today
+** DONE Exercism Go Track
+CLOSED: [2023-08-24 Thu 21:23]
+** DONE Rotina de compartilhamento [75%]
+CLOSED: [2023-09-06 Wed 08:41]
+- [X] Fazer os slides da apresentação
+- [X] Planejar metodologia
+- [X] Dockerfile + compose
+- [X] Testes de carga locais
+- [X] Deploy das APIs
+- [X] Testes de carga nas VMs
+- [ ] Snippets para a demo
+- [ ] Terminar slides

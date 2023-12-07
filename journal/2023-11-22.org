@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       75b167d1-84d7-4958-b14c-d6f9541c88b2
+:END:
+#+title: 2023-11-22
+
+* Morning entry
+** DONE Work on the chat server
+CLOSED: [2023-11-22 Wed 09:52]
+** DONE SMS RabbitMQ reconnection
+CLOSED: [2023-11-22 Wed 11:56]
+** DONE HSS SPT Registration Type 1:n CRUD
+CLOSED: [2023-11-22 Wed 17:27]

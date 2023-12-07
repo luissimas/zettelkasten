@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a8042af5-5702-4da3-8363-9b8ab9931bd1
+:END:
+#+title: 2023-11-17
+
+* Morning entry
+** DONE Resume on website
+CLOSED: [2023-11-17 Fri 12:15]
+** DONE Work on chat server
+CLOSED: [2023-11-17 Fri 14:46]

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       9d12d021-c44b-4ec3-93b9-11e0eb2e311b
+:END:
+#+title: 2023-09-01
+
+* Plan for today
+** DONE Todo HTMX
+CLOSED: [2023-09-06 Wed 08:42]
+https://www.youtube.com/watch?v=Pr8z9XxyrJc&t=1230s&pp=ugMICgJwdBABGAHKBQ5odG14IHRvZG8gbGlzdA%3D%3D
+https://www.youtube.com/watch?v=F9H6vYelYyU&list=WL&index=2
+
+- [X] Improve UI
+- [ ] Refactor templates (using fragment templates)
+- [ ] Refactor handlers
+- [X] Update todo text
+- [ ] Publish repository
+- [ ] Toggle dark theme
+** DONE Tropico HSS tasks
+CLOSED: [2023-09-01 Fri 19:48]
+** DONE Tropico HSS demo [2/2]
+CLOSED: [2023-09-01 Fri 19:47]
+- [X] Test demo
+- [X] Present
