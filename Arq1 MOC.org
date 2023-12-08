@@ -3,7 +3,6 @@
 :END:
 #+title: Arq1 MOC
 
-* Arquitetura e Organização de Computadores
 Esta disciplina é uma sequência da disciplina de [[id:3533978f-e35f-4b28-8af0-8fa8e2d618fb][LD]], nela trabalhamos os princípios da arquitetura e organização básica dos componentes de computadores. Foram abordados tópicos desde circuitos digitais até linguagens de baixo nível.
 
 [[id:47c87deb-b16a-4292-9cd7-12af1294c719][Fundamentos]]

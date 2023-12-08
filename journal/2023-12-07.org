@@ -3,19 +3,21 @@
 :END:
 #+title: 2023-12-07
 
-* TODO ES2 [3/4]
+* DONE ES2 [4/4]
+CLOSED: [2023-12-07 Thu 20:47]
 - [X] Slides
 - [X] Teste da demo
 - [X] Reset do repositório
-- [ ] Ensaio
+- [X] Ensaio
 * TODO ARQ2 [0/2]
 - [ ] Lista
 - [ ] Revisar slides
-* TODO HSS Load test [2/4]
+* DONE HSS Load test [4/4]
+CLOSED: [2023-12-07 Thu 19:05]
 - [X] Seeds
 - [X] Scripts
-- [ ] Atualizar máquinas GCP
-- [ ] Rodar smoke test
+- [X] Atualizar máquinas GCP
+- [X] Rodar smoke test
 * Elixir Jobs
 Hoje estava vendo uma discussão do pessoal no Telegram sobre o mercado de Elixir. Aparentemente todo mundo em todos os níveis estão com dificuldade de encontrar emprego na linguagem. A questão é que em geral é muito mais seguro para as empresas adotarem uma stack mais popular porque é mais fácil encontrar mão de obra barata e qualificada.
 

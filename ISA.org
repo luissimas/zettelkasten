@@ -6,7 +6,8 @@
 
 * ISA (Instruction Set Architecture)
 A arquitetura do conjunto de instruções define, além de todo o conjunto de instruções disponíveis, a forma como essas instruções podem ser usadas, bem como a disposição de outros elementos da arquitetura, como endereçamentos dos registradores e quais são os registradores disponíveis.
-## Instruções
+
+** Instruções
 As instruções são representadas por uma sequência de bits, que é dividida em campos representando os elementos da instrução. Geralmente uma instrução é composta pelo código da operação a ser realizada e as referências (endereços dos registradores) dos operandos.
 Existem alguns tipos básicos de instruções: - Processamento de dados: instruções aritméticas e lógicas - Armazenamento de dados: instruções de memória - Movimentação de dados: instruções de entrada e saída - Controle: instruções de teste e de desvio do fluxo de dados
 
@@ -47,7 +48,8 @@ As instruções de controle de fluxo são particularmente interessantes pois man
 Por padrão da maioria das ISAs após a execução de uma instrução o /PC/ é incrementado para buscar a próxima instrução, isso pode ser chamado de: - /Branch/ quando for condicional - /Jump/ quando não for condicional
 
 Existem 4 tipos de instruções de controle de fluxo:
-#### Conditional Branches (Desvios condicionais)
+
+**** Conditional Branches (Desvios condicionais)
 Um dos operandos é o endereço da próxima instrução a ser executada. Caso a condição seja satisfeita o /PC/ é atualizado com o endereço especificado no operando, caso contrário ele é incrementado normalmente.
 
 **** Jumps (Desvios)
