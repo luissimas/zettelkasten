@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       cfbb7c15-6fa2-4dd1-9113-2a28ac288af5
-:END:
-#+title: 2023-11-08
-
-* Morning entry
-** DONE Exercism Go track
-CLOSED: [2023-11-08 Wed 08:47]

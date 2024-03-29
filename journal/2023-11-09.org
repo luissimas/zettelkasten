@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       db3b2555-e6d1-494a-8a7c-fd4f8ed926da
-:END:
-#+title: 2023-11-09
-
-* Morning entry
-** DONE Workout
-CLOSED: [2023-11-09 Thu 09:22]

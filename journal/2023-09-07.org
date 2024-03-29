@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       50f9aefe-73f3-4dcb-8a4f-b2693e8bcde2
-:END:
-#+title: 2023-09-07
-
-* Plan for today
-** DONE Improve tmux setup
-CLOSED: [2023-09-08 Fri 10:24]
-https://www.youtube.com/watch?v=DzNmUNvnB04
