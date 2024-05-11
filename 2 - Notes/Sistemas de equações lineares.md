@@ -1,4 +1,7 @@
-# Sistemas de equações lineares
+---
+created-at: 2021-02-22
+tags:
+---
 Sistemas lineares são caracterizados por conterem equações nas quais as variáveis são multiplicadas apenas por constantes e apresentam a seguinte forma:
 $$
 \begin{cases}
@@ -8,7 +11,7 @@ $$
 $$
 A solução de um sistema linear deve satisfazer todas as equações do sistema, portanto as equações devem ser **resolvidas simultaneamente**. Essa solução pode assumir diferentes formas, pode ser um número, um conjunto ou até mesmo não existir uma solução que satisfaça o sistema.
 
-## Forma matricial
+# Forma matricial
 É possível representar os sistemas lineares como matrizes, isso facilita sua representação e solução. De forma genérica, um determinado sistema dado por:
 $$
 \begin{cases}
@@ -66,8 +69,3 @@ b_2 \\
 b_m
 \end{bmatrix}
 $$
-
----
-
-created: 22/02/2021
-modified: 22/02/2021

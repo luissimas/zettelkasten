@@ -1,8 +1,11 @@
-# Análise descritiva e exploratória de dados
+---
+created-at: 2021-04-09
+tags:
+---
 A análise descritiva e exploratória de dados trata das formas de **analisar um conjunto de dados**.
 Quando realizamos um estudo estatístico e uma coleta de dados devemos ter sempre em mente qual o objetivo daquele estudo e quais caraterísticas são levadas em consideração no estudo.
 
-## População e amostra
+# População e amostra
 É importante definir e saber distinguir bem esses dois termos, pois ele compõe a base da coleta e análise de dados.
 
 - População é o conjunto de todos os elementos (indivíduos ou objetos) com **pelo menos uma característica em comum** para os quais queremos obter conclusões.
@@ -15,7 +18,7 @@ Na maioria das vezes é inviável realizar uma pesquisa em toda a *população*,
 
 Ao trabalhar *com amostras de dados* é importante questionar se aquela amostra é de de fato confiável para o estudo, ou seja, se a amostra é **representativa da população**. Uma amostra é dita ser **confiável** ou **representativa** para uma dada população quando os indivíduos ou objetos da amostra possuem característica semelhantes a da população. A partir de uma amostra confiável e representativa é possível desempenhar análises que podem posteriormente produzir conclusões aplicáveis a toda população da qual retiramos a amostra.
 
-## Amostragem
+# Amostragem
 Amostragem é o procedimento de **coleta** de uma **amostra** de dados de uma determinada população. Existem diferentes formas de se coletar amostras de dados, é importante notar que a **forma de coletar** uma amostra **impacta diretamente** a sua **confiabilidade**. Damos a essas formas de coleta de amostras o nome de *planos de amostragem*. Em geral existem dois principais planos de amostragem:
 
 - **Plano probabilístico**: mecanismos aleatórios de sorteio, a **probabilidade de selecionar** qualquer elemento da população para compor a amostra é sempre **igual para todos os elementos.**
@@ -29,23 +32,17 @@ Quando a *amostragem* é conduzida por um plano **probabilístico** há mais gar
 - **Amostragem Estratificada (A.E.):** A população é subdividida em pequenos grupos chamados estratos, nesse caso a característica de interesse é **homogênea** dentro de cada estrato. Assim sorteiam-se alguns indivíduos de cada estrato para compor a amostra.
 
 
-## Tipos de variáveis
+# Tipos de variáveis
 As variáveis são as características que serão consideradas no estudo, e se dividem em dois grupos:
 
-### Variáveis qualitativas
+## Variáveis qualitativas
 São as variáveis que identificam um atributo, classe ou qualidade do indivíduo ou objeto em observação. Se dividem em dois tipos:
 
 - **Nominais:** são variáveis que **não** apresentam ordem aparente nas suas possíveis categorias.
 - **Ordinais:** são variáveis que **apresentam** ordem aparente nas suas possíveis categorias.
 
-### Variáveis quantitativas
+## Variáveis quantitativas
 São as variáveis que quantificam (identificam uma medida numérica) de algum atributo do indivíduo ou objeto em observação. Se dividem em dois tipos:
 
 - **Discretas:** são variáveis que podem apenas assumir apenas um valor **finito** ou **infinito enumerável**.
 - **Contínuas:** são variáveis que podem assumir qualquer valor em um **subconjunto não enumerável** dos números reais.
-
-
----
-
-created: 09/04/2021
-modified: 09/04/2021

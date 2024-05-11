@@ -1,7 +1,10 @@
-# Arithmetic circuits in Verilog
+---
+created-at: 2020-11-12
+tags:
+---
 Is possible to implement [[Arithmetic logic circuits|arithmetic circuits]] in [[Verilog]] in a number of ways. One way is by creating a fulladder module that adds individual bits and outputs the result and the carrys and then defining a higher-level module that uses *n* instances of the full-adder. This is shown in the examples:
 
-## Hierarchical implementation
+# Hierarchical implementation
 ```verilog
 module adder4(carryin, X, Y, S, carryout)
 	input carryin;
@@ -28,7 +31,7 @@ module fulladd(Cin, x, y, s, Cout);
 endmodule
 ```
 
-## General implementation
+# General implementation
 Using a more functional description and a *parameter n* we can describe a general implementation that can add *n* bits (in this case 32).
 ```verilog
 module addern (carryin, X, Y, S, carryout);
@@ -53,8 +56,3 @@ module addern (carryin, X, Y, S, carryout);
 endmodule
 Figure 3.24
 ```
-
----
-
-created: 12/11/2020
-modified: 12/11/2020

@@ -1,4 +1,7 @@
-# Elipse
+---
+created-at: 2021-05-27
+tags:
+---
 > Elipse é o conjunto de todos os pontos de um plano cuja **soma das distâncias** a dois pontos fixos desse plano é constante.
 
 Dados dois pontos distintos $F_1$ e $F_2$, tal que a distância $d(F_1, F_2) = 2c$, e um número real positivo $a$ com $2a > 2c$. Um ponto $P$ pertence à elipse se, e somente se:
@@ -8,7 +11,7 @@ Dados dois pontos distintos $F_1$ e $F_2$, tal que a distância $d(F_1, F_2) = 2
 
 ![[elipse.png]]
 
-## Elementos
+# Elementos
 
 ![[elementoselipse.png]]
 
@@ -33,7 +36,7 @@ Outro elemento importante é *excentricidade* da elipse, pois esse elemento indi
   e = \frac{c}{a} \qquad (0 < e < 1)
 >$$
 
-## Equações reduzidas
+# Equações reduzidas
 Dada uma elipse de centro $C(0,0)$, levamos em conta dois casos distintos:
 
 - O *eixo maior* está sobre o eixo dos $x$:
@@ -54,13 +57,13 @@ Dado um ponto $P(x,y)$ de uma elipse de focos $F_1(0, -c)$ e $F_2(0,c)$. Procede
   \frac{x^2}{b^2} + \frac{y^2}{a^2} = 1
 >$$
 
-### Observação
+## Observação
 Como em toda elipse tem-se $a > b$, para saber se a elipse tem seu eixo maior sobre o eixo $x$ ou $y$ basta *observar onde está o maior denominador* $a^2$ na sua equação reduzida, ou seja:
 
 - Se $a^2$ for denominador de $x^2$, então o eixo maior está sobre o eixo $x$
 - Se $a^2$ for denominador de $y^2$, então o eixo maior está sobre o eixo $y$
 
-## Translação de eixos
+# Translação de eixos
 Usando a [[Translação de eixos|translação de eixos]] é possível manipular o centro da elipse para obter as equações reduzidas mesmo que o centro $C$ da elipse não seja o ponto $(0,0)$ do plano cartesiano.
 
 ![[elipsetranslacaodeeixos.png]]
@@ -79,7 +82,7 @@ Dada uma elipse de centro $C=(h,k) \neq (0,0)$, temos dois casos possíveis para
   \frac{(x - h)^2}{b^2} + \frac{(y - k)^2}{a^2} = 1
 >$$
 
-## Equação geral
+# Equação geral
 Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduzida*, obtemos uma *equação geral* da elipse, que tem a forma:
 
 >$$
@@ -87,7 +90,7 @@ Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduz
 >$$
 > com $a$ e $b$ de sinais iguais.
 
-## Equações paramétricas
+# Equações paramétricas
 Dada uma elipse de equação $\displaystyle \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, podemos traçar uma circunferência de centro $O$ e raio igual ao semieixo maior da elipse e com base nessa circunferência obter as *equações reduzidas* da elipse.
 
 ![[elipseequacoesparametricas.png]]
@@ -131,8 +134,3 @@ Vale destacar que quando o centro da elipse for $C(h,k)$, os dois casos possíve
 \end{cases}
 \qquad 0 \leq \theta \leq 2\pi
 >$$
-
-
----
-
-created: 27/05/2021

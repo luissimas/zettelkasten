@@ -1,9 +1,12 @@
-# Dēclīnātiōnēs adiectīvōrum
+---
+created-at: 2021-03-31
+tags:
+---
 Existem ao todo 3 declinações para os substantivos, a maneira mais fácil de identificá-las é através do [[Casos do latim|caso]] genitivo, que sempre é diferente para cada declinação.
 
 Dēclīnātiōnēs adiectīvum sunt tria:
 
-## [1/2] Dēclīnātiō **prīma** et **secunda**
+# [1/2] Dēclīnātiō **prīma** et **secunda**
 Genitīvus: singulāris -ī/īus -ae/īus -ī/īus
 
 Singulāris
@@ -27,7 +30,7 @@ Plūrālis
 | **abl.** | -īs   | -īs   | -īs    |
 
 
-## [3] Dēclīnātiō **tertia**
+# [3] Dēclīnātiō **tertia**
 Genitīvus plūrālis: -ium/um.
 
 Singulāris
@@ -49,8 +52,3 @@ Plūrālis
 | **gen.** | -ium/um    | -ium/um |
 | **dat.** | -ibus      | -ibus   |
 | **abl.** | -ibus      | -ibus   |
-
----
-
-created: 31/03/2021
-modified: 31/03/2021

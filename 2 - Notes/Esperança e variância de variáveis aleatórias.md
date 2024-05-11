@@ -1,9 +1,12 @@
-# Esperança e Variância de variáveis aleatórias
+---
+created-at: 2021-04-01
+tags:
+---
 A esperança nada mais é do que o **valor médio esperado** de uma variável aleatória. Ao executar um experimento aleatório muitas vezes é possível constatar que os valores de uma determinada variável aleatória tendem a um valor específico. Esse *valor médio esperado* é calculado fazendo uma *média* dos valores que a variável aleatória pode assumir, sendo que cada valor é *ponderado* pela sua probabilidade de ocorrência.
 Esse valor esperado é um conceito fundamental em probabilidade, pois fornece informação a respeito do comportamento médio do experimento aleatório em questão.
 
 
-## Esperança de variáveis aleatórias discretas
+# Esperança de variáveis aleatórias discretas
 Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória discreta com conjunto imagem $Im(X)$ e [[Variáveis aleatórias discretas#Distribuição das probabilidades de uma variável aleatória discreta|função de distribuição de probabilidade]] $pX$. O valor médio esperado ou *esperança* de $X$ é dada por:
 
 >$$
@@ -31,7 +34,7 @@ Para as variáveis aleatórias mais comuns temos expressões que podem nos dizer
   E(X) = \frac{1-\theta}{\theta}
 >$$
 
-## Esperança de variáveis aleatórias contínuas
+# Esperança de variáveis aleatórias contínuas
 Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$ e [[Variáveis aleatórias contínuas#Função densidade de probabilidade|função densidade de probabilidade]] $f_X$. O valor médio esperado ou *esperança* de $X$ é dada por:
 
 >$$
@@ -60,7 +63,7 @@ Para as variáveis aleatórias mais comuns temos expressões que podem nos dizer
 >$$
 
 
-## Variância
+# Variância
 Dado um experimento aleatório com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma variável aleatória com conjunto imagem $Im(X)$. Se $E(X)$ existe, então a **variância** e o **desvio padrão** de $X$ são definidos por:
 >$$
 \begin{aligned}
@@ -103,8 +106,3 @@ Para as variávies aleatórias mais comuns temos expressões que podem nos dizer
 >$$
   Var(X) = \mu
 >$$
-
----
-
-created: 01/04/2021
-modified: 01/04/2021

@@ -1,4 +1,7 @@
-# Integração por partes
+---
+created-at: 2020-11-10
+tags:
+---
 A integração por partes é equivalente a uma [[Retas tangentes e regras de derivação#Regras de derivação|regra do produto]] inversa.  A ideia é que aplicando a integração por partes, nós transformamos uma integral em outra, dessa vez mais fácil de ser calculada.
 Supondo que $u(x)$ e $v(x)$ são funções deriváveis em um intervalo $I\subset\mathbb{R}$, temos que:
 $$
@@ -10,7 +13,7 @@ $$
 $$
 Portanto, ao nos depararmos com uma integral da forma $\displaystyle\int{f(x)g(x)}\,dx$, devemos substituir uma das funções por $u$ e outra pelo diferencial $dv$ e então aplicar a fórmula. Mas como saber qual a substituição correta?
 
-## LIATE
+# LIATE
 LIATE é um anagrama que descreve a ordem na qual devemos substituir as funções para aplicar corretamente a integração por partes.
 $$
 \begin{array}{|c|c|c|c|c|}
@@ -25,10 +28,3 @@ $$
 A ideia é sempre substituir:
 - como função $u$:  a função mais a esquerda no anagrama;
 - como diferencial $dv$: a função mais a direita no anagrama;
-
----
-
-created: 10/11/2020
-modified: 10/11/2020
-
-[[calculo1v2020aula16.pdf]]

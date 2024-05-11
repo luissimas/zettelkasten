@@ -1,4 +1,7 @@
-# Estimação intervalar
+---
+created-at: 2021-06-08
+tags:
+---
 Quando fazemos [[Estimação pontual|estimativas pontuais]], não há como julgar qual a magnitude do possível erro da estimativa, apenas sabemos que o valor verdadeiro do parâmetro está próximo da estimativa. Assim, a estimação intervalar nos fornece meios de determinar não só uma estimativa, mas um *intervalo de confiança*, ou seja, um intervalo de valores plausíveis para o parâmetro (o que **não** significa que o parâmetro está com certeza nesse intervalo).
 Os intervalos de confiança são obtidos a partir da [[Estatísticas e suas distribuições#Distribuições amostrais|distribuição amostral]] dos [[Estimação pontual|estimadores pontuais]]. Não há como determinar com certeza se o intervalo de confiança contém o parâmetro populacional (pois ele é desconhecido), porém esse intervalo é construído com base em um alto nível de confiança fixado de que ele contém o parâmetro.
 
@@ -11,7 +14,7 @@ Os intervalos de confiança são obtidos a partir da [[Estatísticas e suas dist
 
 Note que, para obter um intervalo de confiança, é necessário obter um estimador e sua distribuição. É natural então que bons estimadores produzam bons intervalos, e de fato produzem. Portanto, buscaremos sempre utilizar os [[Estimação pontual#Estimadores de máxima verossimilhança|estimadores de máxima verossimilhança]] para construir bons intervalos de confiança.
 
-## Intervalos de confiança para a proporção populacional
+# Intervalos de confiança para a proporção populacional
 Seja $p \in ]0,1[$ a proporção (desconhecida) de indivíduos ou objetos de uma certa população $\mathcal{P}$ que são portadores de uma determinada característica $X$. Dada uma amostra $(X_1, X_2, \dots, X_n)$ da variável aleatória $X$, obtida a partir dessa população, o estimador de máxima verossimilhança de $p$ é a proporção amostral
 
 $$
@@ -46,7 +49,7 @@ O segundo é um intervalo mais preciso, porém depende de um $n$ suficientemente
   \left[\hat{p} - z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}};\quad \hat{p} + z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]
 >$$
 
-## Intervalos de confiança para a média de populações normais
+# Intervalos de confiança para a média de populações normais
 Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, e $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $X \sim Normal(\mu, \sigma^2)$, $\mu \in \mathbb{R}$ e $\sigma^2 > 0$. Quando $\mu$ é **desconhecido** e $\sigma^2 = \sigma_0^2$ é **conhecido**, o estimador de máxima verossimilhança para $\mu$ é $\bar{X}$ e
 
 $$
@@ -85,7 +88,7 @@ $$
   \left[ \bar{X} - t \frac{S}{\sqrt{n}};\quad \bar{X} + t \frac{S}{\sqrt{n}}\right]
 $$
 
-## Intervalos de confiança para a variância de populações normais
+# Intervalos de confiança para a variância de populações normais
 Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, e $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $X \sim Normal(\mu, \sigma^2)$, $\mu \in \mathbb{R}$ e $\sigma^2 > 0$ são parâmetros desconhecidos. Para construir um intervalo de confiança para $\sigma^2$, utilizamos a *variância amostral* $S^2$ como estimador e introduzimos uma outra distribuição, a *qui-quadrado*.
 Consideramos o seguinte fato:
 
@@ -129,8 +132,3 @@ Portanto, um intervalo com nível de confiança $\gamma$ para $\sigma^2$ é
 $$
   \left[ \frac{(n-1)S^2}{q_2} ;\quad \frac{(n-1)S^2}{q_1} \right]
 $$
-
-
----
-
-created: 08/06/2021

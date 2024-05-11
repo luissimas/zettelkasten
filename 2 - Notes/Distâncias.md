@@ -1,12 +1,14 @@
-# Distâncias
-
-## Distância entre pontos
+---
+created-at: 2021-04-14
+tags:
+---
+# Distância entre pontos
 Dados os pontos $P_1(x_1,y_1,z_1)$ e $P_2(x_2,y_2,z_2)$, a distância $d$ entre eles é $|\overrightarrow{P_1P_2}|$, ou seja:
 >$$
   d(P_1,P_2) = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}
 >$$
 
-## Distância de um ponto a uma reta
+# Distância de um ponto a uma reta
 Dado um ponto $P$ no espaço e uma reta $r_1$, para encontrar a distância do ponto à reta podemos usar a altura do [[Produto vetorial#Módulo|paralelogramo]]:
 
 ![[distanciapontoreta.png]]
@@ -17,7 +19,7 @@ Tomando o vetor diretor da reta $\vec{v}$ temos que:
   d(P,r) = \frac{|\vec{v} \times \overrightarrow{AP}|}{|\vec{v}|}
 >$$
 
-## Distância de ponto a plano
+# Distância de ponto a plano
 Dado um ponto $P_0(x_0,y_0,z_0)$ e um plano $\pi:ax+by+cz+d=0$, para calcular a distância $d(P_0,\pi)$ tomamos um ponto qualquer $A(x_1,y_1,z_1) \in \pi$ e um vetor $\vec{n} = (a,b,c)$ normal a $\pi$.
 
 ![[distanciapontoplano.png]]
@@ -28,7 +30,7 @@ Podemos perceber que a distância é o módulo da [[Produto escalar de vetores#P
   d(P_0,\pi) = \frac{|ax_0+by_0+cz_0+d|}{\sqrt{a^2+b^2+c^2}}
 >$$
 
-## Distância entre duas retas
+# Distância entre duas retas
 Dadas as retas $r_1$ e $r_2$, o cálculo da distância depende da relação que elas estabelecem entre si:
 
 1. Se $r_1$ e $r_2$ são **concorrentes**, então $d(r_1,r_2) = 0$, pois elas possuem um ponto em comum.
@@ -46,8 +48,3 @@ Usando a [[Produto misto#Interpretação geométrica|definição de volume]] che
 >$$
   d=d(r_1,r_2)= \frac{|(\vec{v_1},\vec{v_2},\overrightarrow{A_1A_2})|}{|\vec{v_1}\times \vec{v_2}|}
 >$$
-
----
-
-created: 14/04/2021
-modified: 14/04/2021

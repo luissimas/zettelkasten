@@ -1,4 +1,7 @@
-# Limites laterais
+---
+created-at: 2020-10-30
+tags:
+---
 Em certos casos devemos analisar os limites laterais de uma função, pois não há um limite definido, os limites dependem do "lado" dos valores de $x$, por exemplo:
 
 $$
@@ -24,10 +27,3 @@ Portanto se, com ambos os limites definidos em $f(x)$, podemos afirmar que se
 $$\lim_{x\to x_0^+}f(x) \not= \lim_{x\to x_0^-}f(x)=a$$
 
 então não existe $\lim_{x\to x_0}f(x)=a$.
-
----
-
-created: 30/10/2020
-modified: 06/11/2020
-
-[[calculo1v2020aula05.pdf]]

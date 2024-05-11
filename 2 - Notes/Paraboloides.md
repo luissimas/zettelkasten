@@ -1,6 +1,8 @@
-# Paraboloides
-
-## Paraboloide elíptico
+---
+created-at: 2021-06-07
+tags:
+---
+# Paraboloide elíptico
 Dada a [[Parábola|parábola]] no plano $yz$ de equações $\displaystyle z = \frac{y^2}{b^2}$, $x = 0$.
 
 ![[parabolaparaboloide.png]]
@@ -26,7 +28,7 @@ A equação de um paraboloide elíptico depende de qual eixo coordenado a paráb
   x = \frac{x^2}{b^2} + \frac{z^2}{c^2}
 >$$
 
-## Paraboloide hiperbólico
+# Paraboloide hiperbólico
 Existem três casos para as equações de um *paraboloide hiperbólico*:
 
 - Ao longo do eixo $Oz$:
@@ -45,7 +47,3 @@ Existem três casos para as equações de um *paraboloide hiperbólico*:
 >$$
 
 ![[paraboloidehiperbolico.png]]
-
----
-
-created: 07/06/2021

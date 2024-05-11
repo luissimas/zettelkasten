@@ -1,4 +1,7 @@
-# Critério da razão
+---
+created-at: 2021-09-05
+tags:
+---
 O critério da razão é muito similar ao [[Critério da raiz | critério da raiz]], porém utiliza-se da razão entre o *n-ésimo* termo e seu antecessor.
 
 > ***Critério da razão***
@@ -10,7 +13,3 @@ O critério da razão é muito similar ao [[Critério da raiz | critério da rai
 > 1. $L > 1$: $\displaystyle\sum_{n = 1}^{\infty}{a_n}$ diverge.
 > 2. $L < 1$: $\displaystyle\sum_{n = 1}^{\infty}{a_n}$ converge.
 > 3. $L = 1$: nada se conclui.
-
----
-
-created: 05/09/2021

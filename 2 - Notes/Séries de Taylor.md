@@ -1,4 +1,3 @@
-# Séries de Taylor
 As séries de Taylor são uma importante ferramenta que nos permite encontrar as séries relacionadas à funções.
 
 Se uma função $f$ pode ser escrita como uma série de potências, ou seja:

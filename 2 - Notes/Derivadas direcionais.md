@@ -1,4 +1,7 @@
-# Derivadas direcionais
+---
+created-at: 2021-11-15
+tags:
+---
 As derivadas direcionais nos permitem calcular a taxa de variação de uma função de várias variáveis na direção de um vetor arbitrário.
 
 Dada uma função $f$, um ponto $(x_0, y_0)$ do domínio de $f$ e um vetor **unitário** $\vec{u} = (a,b)$, a taxa média de variação de $f$ na direção $\vec{u} = (a,b)$ entre os pontos $(x_0, y_0)$ e $(x_0 + at, y_0 + bt)$ é dada por:
@@ -22,7 +25,3 @@ $$
 $$
 
 Esse resultado facilita o cálculo das derivadas direcionais, mas ele é válido apenas se $f$ for **diferenciável** no ponto em que se deseja calcular a derivada.
-
----
-
-created: 15/11/2021

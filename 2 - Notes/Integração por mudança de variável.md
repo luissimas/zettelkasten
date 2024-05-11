@@ -1,4 +1,7 @@
-# Integração por mudança de variável
+---
+created-at: 2020-11-10
+tags:
+---
 A mudança de variável é uma técnica equivalente a uma [[Derivação em cadeia e implícita#Derivação em cadeia|regra da cadeia]] inversa. Supondo que $F(x)$ e $G(x)$ são, respectivamente, primitivas de $f(x)$ e $g(x)$ temos que:
 $$
 \int{f(G(x))\cdot g(x)}\,dx=F(G(x))+C
@@ -7,11 +10,3 @@ Portanto, quando temos uma integral na forma $\displaystyle\int{f(g(x))\cdot g'(
 $$
 \int{f(g(x))\cdot g'(x)}\,dx=\int{f(u)\,du}=F(u)+C=F(g(x))+C
 $$
-
-
----
-
-created: 10/11/2020
-modified: 10/11/2020
-
-[[calculo1v2020aula15.pdf]]

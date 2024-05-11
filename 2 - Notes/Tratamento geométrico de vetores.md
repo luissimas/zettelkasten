@@ -1,4 +1,7 @@
-# Tratamento geométrico de vetores
+---
+created-at: 2021-03-08
+tags:
+---
 As grandezas vetoriais (aceleração, velocidade, força etc), diferentemente das grandezas escalares (comprimento, área, volume etc), não são definidas apenas por um número real. Para definir uma grandeza vetorial precisamos de três componentes: módulo (comprimento ou intensidade), direção e sentido.
 Um vetor nada mais é do que um segmento orientado representando módulo, direção e sentido. Há algumas propriedades básicas importantes que definem relações entre vetores:
 - Dois vetores $\vec{u}$ e $\vec{v}$ são paralelos, ou seja, $\vec{u}//\vec{v}$, se os seus representantes tiverem a mesma direção. 
@@ -13,12 +16,12 @@ Um vetor nada mais é do que um segmento orientado representando módulo, direç
 
 - Dois ou mais vetores são *coplanares* se existir algum plano no qual esses vetores estão representados. Vale destacar que *dois vetores quaisquer são sempre coplanares*, pois é sempre possível conter dois de seus representantes em um plano.
 
-## Adição de vetores
+# Adição de vetores
 Considerando os vetores $\vec{u}=\overrightarrow{AB}$ e $\vec{v}=\overrightarrow{BC}$, podemos obter a sua soma posicionando o ínicio do segmento do segundo vetor sobre a extremidade do primeiro vetor. Assim, o vetor que representa sua soma é o vetor que vai da extremidade $A$ até a extremidade $C$.
 
 ![[sumvectors.png]]
 
-## Multiplicação de números reais por vetores
+# Multiplicação de números reais por vetores
 Dado um vetor $\vec{v}\neq\vec{0}$ e um número real $a\neq0$, o produto desses elementos é dado por $a\vec{v}$. Sobre o vetor resultante podemos dizer que:
 - $|a\vec{v}| = |a|\cdot|\vec{v}|$ 
 - $a\vec{v} // \vec{v}$ 
@@ -27,8 +30,3 @@ Dado um vetor $\vec{v}\neq\vec{0}$ e um número real $a\neq0$, o produto desses 
 - $a\vec{v} = \vec{0}$ se $a=0$
 
 ![[multvectors.png]]
-
----
-
-created: 08/03/2021
-modified: 08/03/2021

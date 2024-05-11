@@ -1,4 +1,7 @@
-# Verba
+---
+created-at: 2021-04-01
+tags:
+---
 Verbos expressam ação ou estado, e suas variações são chamadas de *conjugações*. Verbos são conjugados de acordo com:
 - Pessoa (1, 2, 3)
 - Número (singular e plural)
@@ -9,8 +12,3 @@ Verbos expressam ação ou estado, e suas variações são chamadas de *conjuga�
 Os verbos também podem apresentar uma forma nominal, ou seja, funcionam como um nome (mais especificamente um adjetivo) na oração.
 
 [[Particípio|Particípio (participium)]]
-
----
-
-created: 01/04/2021
-modified: 01/04/2021

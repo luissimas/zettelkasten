@@ -1,4 +1,7 @@
-# Convergência de séries
+---
+created-at: 2021-08-28
+tags:
+---
 Uma forma imediata de verificar se uma [[Séries numéricas | série]] diverge ou converge é verificar se seu termo geral $a_n$ converge a $0$.
 
 > ***Critério do termo geral***
@@ -6,7 +9,7 @@ Uma forma imediata de verificar se uma [[Séries numéricas | série]] diverge o
 
 Note que a recíproca dessa condição não é válida, ou seja, existem sequências convergem a $0$ cuja soma não é convergente.
 
-## Critérios de convergência
+# Critérios de convergência
 Além da verificação pelo termo geral, existem muitas outras formas de verificar a convergência de séries, algumas delas são enunciadas aqui.
 
 [[Critério da comparação]]
@@ -15,7 +18,7 @@ Além da verificação pelo termo geral, existem muitas outras formas de verific
 [[Critério da razão]]
 [[Critério de Leibniz]]
 
-## Convergência absoluta e condicional
+# Convergência absoluta e condicional
 > ***Convergência absoluta***
 > Uma série $\displaystyle\sum_{n = 1}^{\infty}{a_n}$ é *absolutamente convergente* se a série correspondente de valores absolutos $\displaystyle\sum_{n = 1}^{\infty}{|a_n|}$ converge.
 
@@ -28,7 +31,3 @@ Os conceitos de convergência absoluta e convergência condicional nos permitem,
 > Se $\displaystyle\sum_{n = 1}^{\infty}{|a_n|}$ converge, então $\displaystyle\sum_{n = 1}^{\infty}{a_n}$ converge.
 
 É importante ressaltar que a recíproca desse teste **não** é válida, ou seja, é possível que uma série convergente não seja absolutamente convergente (a série harmônica alternada é um exemplo desse fenômeno).
-
----
-
-created: 28/08/2021

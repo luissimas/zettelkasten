@@ -1,4 +1,7 @@
-# Minterms and Maxterms 
+---
+created-at: 2020-11-09
+tags:
+---
 We can obtain the canonical expression for a given function applying minterms or maxterms.
 
 $$
@@ -55,8 +58,3 @@ f(x_1,x_2)=\bar{x}_1+x_1x_2\\
 f(x_1,x_2)=\bar{x}_1+x_2\\
 \end{array}
 $$
-
----
-
-created: 09/11/2020
-modified: 09/11/2020

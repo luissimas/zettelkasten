@@ -1,4 +1,7 @@
-# Hipérbole
+---
+created-at: 2021-05-18
+tags:
+---
 > Hipérbole é o conjunto de todos os pontos de um plano cuja **diferença das distâncias**, em valor absoluto, a dois pontos fixos desse plano é constante.
 
 Dados dois pontos distintos $F_1$ e $F_2$ tal que a distância $d(F_1, F_2) = 2c$, e um número real positivo $a$ de modo que $2a < 2c$. Um ponto $P$ pertence à hipérbole se, e somente se:
@@ -9,7 +12,7 @@ Dados dois pontos distintos $F_1$ e $F_2$ tal que a distância $d(F_1, F_2) = 2c
 
 ![[hiperbole.png]]
 
-## Elementos
+# Elementos
 Dados dois pontos quaisquer $F_1$ e $F_2$, tal que $d(F_1,F_2) = 2c$. Chamando de $C$ o ponto médio do segmento $F_1F_2$, pode-se traçar uma circunferência de centro $C$ e raio $c$.
 
 ![[elementoshiperbole.png]]
@@ -36,7 +39,7 @@ Outro elemento importante é a *excentricidade* da hipérbole, definida por:
 
 A *excentricidade* se relaciona diretamente com a *abertura* da hipérbole (denotada pelo ângulo $\theta$ na figura), quanto maior a *excentricidade*, maior a *abertura* da hipérbole. Quando $a = b$, as assíntotas se tornam perpendiculares ($\theta = 90°$). Nesse caso a hipérbole é chamada de *hipérbole equilátera*.
 
-## Equações reduzidas
+# Equações reduzidas
 Dada uma hipérbole de centro $C(0,0)$, existem dois casos distintos:
 
 - O *eixo real* está sobre o eixo dos $x$:
@@ -59,7 +62,7 @@ Dado um ponto $P(x,y)$ de uma hipérbole de focos $F_1(0,-c)$  e $F_1(0,c)$. Des
   \frac{y^2}{a^2} - \frac{x^2}{b^2} = 1
 >$$
 
-### Observações
+## Observações
 As assíntotas $r$ e $s$ são retas que passam pelo centro da hipérbole, portanto suas equações são do tipo $y = mx$, sendo $m$ a *declividade*. A *declividade* é determinada através de uma relação entre $a$ e $b$, que depende da forma da equação:
 
 - O *eixo real* está sobre o eixo dos $x$:
@@ -74,7 +77,7 @@ As assíntotas $r$ e $s$ são retas que passam pelo centro da hipérbole, portan
   m = \pm \frac{a}{b}
 >$$
 
-## Translação de eixos
+# Translação de eixos
 Usando a [[Translação de eixos|translação de eixos]] é possível manipular o centro da hipérbole para obter as equações reduzidas mesmo que o centro $C$ da hipérbole não seja o ponto $(0,0)$ do plano cartesiano.
 
 ![[hiperboletranslacaodeeixos.png]]
@@ -93,7 +96,7 @@ Dada uma hipérbole de centro $C(h,k) \neq (0,0)$, temos dois casos possíveis p
   \frac{\left(y-k\right)^2}{a^2} - \frac{\left(x-h\right)^2}{b^2} = 1
 >$$
 
-## Equação geral
+# Equação geral
 Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduzida*, obtemos uma *equação geral* da hipérbole, que tem a forma:
 
 >$$
@@ -101,7 +104,7 @@ Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduz
 >$$
 > com $a$ e $b$ de sinais contrários.
 
-## Equações paramétricas
+# Equações paramétricas
 Dado um ponto $P(x,y)$ qualquer da hipérbole, temos dois casos para suas equações paramétricas:
 
 - O *eixo real* é paralelo ao eixo dos $x$:
@@ -141,7 +144,3 @@ Quando o centro da hipérbole for $C(h,k)$, aplicando a translação de eixos, a
   y = k + a\sec{\theta}
 \end{cases}
 >$$
-
----
-
-created: 18/05/2021

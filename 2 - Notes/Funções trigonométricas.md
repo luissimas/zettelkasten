@@ -1,4 +1,7 @@
-# Revisão
+---
+created-at: 2020-11-03
+tags:
+---
 É fundamental relembrar as principais propriedades e relações trigonométricas. Em um triângulo retângulo temos as seguintes relações:
 $$
 \cos{\theta} = \frac{cateto \ adjacente}{hipotenusa}
@@ -72,15 +75,7 @@ $$
 \end{array}
 $$
 
-# Limite fundamental
 Como base para calcular as derivadas das funções trigonométricas tomamos o *primeiro limite fundamental.*
 $$
 \lim_{x\to0}\frac{\sin{x}}{x}=1
 $$
-
----
-
-created: 03/11/2020
-modified: 08/11/2020
-
-[[calculo1v2020aula11.pdf]]

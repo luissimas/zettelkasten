@@ -1,4 +1,7 @@
-# Antiderivadas
+---
+created-at: 2020-11-04
+tags:
+---
 Para calcular as integrais fazemos o processo inverso das derivadas. Sendo $f(x)$ e $F(x)$ definidas em um intervalo $I\subset\mathbb{R}$, temos que $F(x)$ é uma primitiva de $f(x)$ se $F'(x)=f(x)$ para cada $x\in I$.
 Sabendo que a derivada de uma constante é sempre $0$, podemos somar qualquer constante a $F(x)$ e ela ainda será primitiva de $f(x)$, daí o termo *integral indefinida*.
 Portanto, sendo $F(x)$ uma primitiva de $f(x)$ no intervalo $I$,  denotamos a integral de $f(x)$ usando a notação de *Leibniz*:
@@ -7,7 +10,6 @@ $$
 $$
 Onde $C$ representa uma constante genérica tal que $C\in\mathbb{R}$.
 
-# Propriedades
 Existem algumas propriedades para manipular expressões envolvendo integrais, definidas também a partir das regras de derivação:
 $$
 \int{k\cdot f(x)}\,dx=k\cdot F(x)+C
@@ -19,11 +21,9 @@ $$
 \int{f(ax)}\,dx=\frac{1}{a}F(ax)+C
 $$
 
-# Técnicas de integração
 Os dois métodos usado para o cálculo de integrais indefinidas são a [[Integração por mudança de variável|integração por mudança de variável]] e a [[Integração por partes|integração por partes]].
 Vale lembrar que nenhuma dessas técnicas resolvem todos os problemas envolvendo integrais, mas pelo menos nos ajudam em boa parte deles.
 
-# Integrais imediatas
 Usando as [[Retas tangentes e regras de derivação#Regras de derivação|regras de derivação]] e as [[Integrais indefinidas#Técnicas de integração|técnicas de integração]], podemos definir algumas integrais indefinidas cujo cálculo é imediato:
 $$
 \begin{array}{|c|c|}
@@ -50,11 +50,3 @@ $$
 \hline
 \end{array}
 $$
-
----
-
-created: 04/11/2020
-modified: 10/11/2020
-
-[[calculo1v2020aula15.pdf]]
-[[calculo1v2020aula16.pdf]]

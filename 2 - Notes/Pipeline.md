@@ -1,9 +1,12 @@
-# Pipeline
+---
+created-at: 2021-04-12
+tags:
+---
 É uma técnica de implementação [[Unidade de controle#Datapath multiciclo|multiciclo]] que permite um melhor aproveitamento de cada unidade funcional do processador. Ao invés de executar as instruções completas sequencialmente, o pipeline permite executar múltiplas tarefas simultaneamente usando **recursos diferentes.**
 O pipelining não melhora a *latência* de uma única instrução, mas sim de um conjunto de instruções executadas.
 As arquiteturas [[CISC e RISC#RISC|RISC]] são propícias para a organização em *pipelining*, isso se deve à sua simplicidade de formato de instrução e à predominância de operandos do tipo registrador.
 
-## Estágios de instrução
+# Estágios de instrução
 Para a implementação de pipeline divide-se a execução total de uma instrução nos seguintes passos:
 
 - IF (Instruction fetch): Busca da instrução na memória e incrementa do PC + 4
@@ -21,7 +24,7 @@ Para a implementação de pipeline divide-se a execução total de uma instruç�
   - Dado lido da memória por uma instrução load.
   - Resultado da [[ULA]] em instruções R-type.
 
-## Registradores de pipeline
+# Registradores de pipeline
 O pipeline requer *registradores intermediários* para que os dados de cada instrução possam avançar junto com a execução da mesma sem serem sobrescritos pelos dados da instrução que vem sendo executada logo atrás. Esses registradores tem o propósito de atuar na transição das etapas, e são ao todo 4:
 
 1. IF/ID
@@ -32,10 +35,3 @@ O pipeline requer *registradores intermediários* para que os dados de cada inst
 Esses registradores armazenam também os sinais de controle fornecidos pela unidade de controle, para que seja possível ativar corretamente as unidades corretas em cada etapa sem interferência das outras instruções.
 
 ![[sinaisdecontrolepipeline.png]]
-
----
-
-created: 12/04/2021
-modified: 12/04/2021
-
-[[pipeline.pdf]]

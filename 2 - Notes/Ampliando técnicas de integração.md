@@ -1,7 +1,10 @@
-# Ampliando técnicas de integração
+---
+created-at: 2020-11-25
+tags:
+---
 Calcular integrais não é uma tarefa intuitiva, há vezes em que nos deparamos com expressões dentro de integrais cuja solução não é imediata. Ao longo do tempo foram desenvolvidas diversas técnicas para manipular essas expressões e transformá-las em integrais mais simples de serem calculadas.
 
-## Completamento de quadrados
+# Completamento de quadrados
 Quando temos no denominador um polinômio de grau dois, podemos aplicar esta técnica, que consiste em encontrar um quadrado-perfeito equivalente ao polinômio.
 Geralmente utilizamos essa técnica para resolver integrais no seguinte formato:
 $$
@@ -17,7 +20,7 @@ a\left[\left(x^2+2x\cdot\frac{\frac{b}{a}}{2}+\left(\frac{b}{a}\right)^2\right)-
 $$
 Note que no final é necessário compensar o valor de $\left(\frac{b}{a}\right)^2$ para que no final tenhamos o mesmo valor de $c$.
 
-## Substituições trigonométricas
+# Substituições trigonométricas
 Podemos usar essa técnica para resolver integrais envolvendo expressões $\sqrt{a^2-x^2}$, $\sqrt{a^2+x^2}$, e $\sqrt{x^2-a^2}$. A ideia é utilizar as relações trigonométricas para transformar as expressões em funções trigonométricas, fundamentalmente mais simples de serem integradas. Para fazer isso, é necessário identificar qual substituição devemos aplicar e então substituir tanto a expressão quando o $dx$. As principais substituições são:
 $$
 \begin{aligned}
@@ -26,10 +29,3 @@ $$
   \sqrt{a^2+x^2}& = a\sec{\theta} \qquad x = a\tan{\theta} \qquad dx = a\sec^2{\theta}d\theta\\
 \end{aligned}
 $$
-
----
-
-created: 25/11/2020
-modified: 25/11/2020
-
-[[calculo1v2020aula18.pdf]]

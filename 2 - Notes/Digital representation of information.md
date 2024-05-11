@@ -1,4 +1,7 @@
-# Digital representation of information
+---
+created-at: 2020-11-07
+tags:
+---
 In logic circuits information is represented as eletronic signals that represent the voltage level in a circuit. This signals are usually denoted as $0$ and $1$. Binary numbers can be converted to decimal using the following formula:
 $$
 V(B)=b_{n-1}\times2^{n-1}+b_{n-2}\times2^{n-2}...b_1\times2^1+b_0\times2^0
@@ -22,9 +25,3 @@ $$
 (857)_{10}=(1101011001)_2
 $$
 In [[LD MOC#Chapter 3 sections 3 1 to 3 5|Chapter 3]] we return to this subject when discussing the representation of negative numbers.
-
-
----
-
-created: 07/11/2020
-modified: 07/11/2020

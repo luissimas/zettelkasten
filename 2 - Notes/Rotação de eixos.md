@@ -1,4 +1,7 @@
-# Rotação de eixos
+---
+created-at: 2021-06-02
+tags:
+---
 Dado um sistema $Oxy$, com vetores diretores $\vec{e_1}$ e $\vec{e_2}$, podemos tomar um ângulo de rotação $\theta$ que transforma o sistema $Oxy$ no sistema $Ouv$, de vetores diretores $\vec{f_1}$ e $\vec{f_2}$.
 
 ![[rotacaodeeixos.png]]
@@ -63,7 +66,3 @@ e
   y
 \end{bmatrix}
 >$$
-
----
-
-created: 02/06/2021

@@ -1,4 +1,7 @@
-# Revisão
+---
+created-at: 2020-11-03
+tags:
+---
 É importante lembrar os conceitos básicos de potências e logarítmos, suas propriedades e relações. Sendo $a$ e $b$ um número real positivo, temos que:
 
 $$
@@ -43,7 +46,6 @@ $$
 \log_ax=\frac{\log_bx}{\log_ba}\text{ se } b>0 \text{, }b\not=1
 $$ 
 
-# Função exponencial
 Sendo $a$ um número real, positivo e com $a\not =1$, define-se a função exponencial de base $a$ por:
 
 $$f(x)=a^x$$
@@ -54,7 +56,6 @@ $$\lim_{x\to x_0}a^x = a^{x_0}, \text{ para cada } x_0\in\mathbb{R}$$
 
 também é possível afirmar que,se $a>1$, a função $f(x)=a^x$ é crescente, com $\lim_{x\to+\infty}a^x=+\infty$, e se $0<a<1$ a função é decrescente, com $\lim_{x\to+\infty}a^x=0$
 
-# Função logarítmica
 Sendo $a$ um número real, positivo e com $a\not =1$, define-se a função logarítmica de base $a$ por:
 
 $$f(x)=\log_ax$$
@@ -65,7 +66,6 @@ $$\lim_{x\to x_0}a^x = a^{x_0}, \text{ para cada } x_0\in\mathbb{R}$$
 
 também é possível afirmar que,se $a>0$, a função $f(x)=\log_ax$ é crescente, com $\lim_{x\to+\infty}a^x=+\infty$, e se $0<a<1$ a função é decrescente, com $\lim_{x\to+\infty}a^x=-\infty$
 
-# Número *e*
 O número $e\approx2,71828$ é muito importante para cálculos envolvendo funções exponenciais e logarítmicas, ele é definido como sendo o limite
 
 $$e=\lim_{n\to+\infty}\Big(1+\frac{1}{n}\Big)^n$$
@@ -76,10 +76,3 @@ $$\lim_{x\to\pm\infty}\Big(1+\frac{1}{x}\Big)^x=e\\
 \lim_{x\to0}(1+x)^{\frac{1}{x}}=e$$
 
 Temos também que $1^{\pm\infty}$ é um símbolo de indeterminação.
-
----
-
-created: 03/11/2020
-modified: 06/11/2020
-
-[[calculo1v2020aula09.pdf]]

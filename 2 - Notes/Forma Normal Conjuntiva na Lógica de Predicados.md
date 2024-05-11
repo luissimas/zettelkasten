@@ -1,5 +1,7 @@
-# Forma Normal Conjuntiva na Lógica de Predicados
-
+---
+created-at: 2021-06-20
+tags:
+---
 > ***Literal***
 > Um literal é um átomo (literal positivo) ou a negação de um átomo (literal negativo). Os literais $L$ e $\neg L$ são chamados de **complementares**.
 
@@ -36,7 +38,3 @@ De maneira geral, o processo para se transformar uma fórmula da lógica de pred
 6. Eliminar os quantificadores existenciais através da *skolemização*.
 7. Obter a *forma normal Prenex* movendo os quantificadores universais para a frente da fórmula.
 8. Colocar a matriz da *FNP* na forma conjuntiva.
-
----
-
-created: 20/06/2021

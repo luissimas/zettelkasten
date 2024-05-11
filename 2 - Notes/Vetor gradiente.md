@@ -1,4 +1,7 @@
-# Vetor gradiente
+---
+created-at: 2021-11-12
+tags:
+---
 Dada uma função $f$ que admite derivadas parciais em $(x_0, y_0)$, o vetor
 
 $$
@@ -12,7 +15,3 @@ Dada uma função $f$ diferenciável em $(x_0, y_0)$, $\nabla f(x_0, y_0)$ é pe
 $$
   \nabla f(x_0, y_0) \cdot \left[(x,y) - (x_0, y_0)\right] = 0
 $$
-
----
-
-created: 12/11/2021

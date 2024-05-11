@@ -1,4 +1,7 @@
-# Superfícies cônicas
+---
+created-at: 2021-06-07
+tags:
+---
 Dada uma reta $g$ no plano $yz$ de equações $z=my$, $x=0$. A rotação dessa reta em torno do eixo $Oz$ resulta em uma *superfície cônica circular*.
 
 ![[superficiesconicas.png]]
@@ -19,7 +22,3 @@ A equação de uma *superfície cônica circular* depende de qual eixo coordenad
 >$$
   x^2 = \frac{y^2}{b^2} + \frac{z^2}{c^2}
 >$$
-
----
-
-created: 07/06/2021

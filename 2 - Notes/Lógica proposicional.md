@@ -1,4 +1,7 @@
-# Lógica proposicional
+---
+created-at: 2021-05-08
+tags:
+---
 A lógica proposicional tem o objetivo mapear o conhecimento em uma linguagem sem ambiguidades processável matematicamente.
 Existem dois princípios fundamentais na lógica proposicional:
 
@@ -13,7 +16,3 @@ Uma proposição pode ser classificada em um dos dois tipos:
 - Composta (fórmula composta): formada por duas ou mais proposições atômicas ligadas por conectivos lógicos.
 
 Como qualquer outra linguagem, a lógica proposicional é composta por [[Sintaxe da lógica proposicional|sintaxe]] e [[Semântica da lógica proposicional|semântica]].
-
----
-
-created: 08/05/2021

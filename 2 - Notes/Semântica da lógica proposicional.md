@@ -1,7 +1,10 @@
-# Semântica da lógica proposicional
+---
+created-at: 2021-05-15
+tags:
+---
 A semântica especifica como as sequências válidas da linguagem se relacionam entre si e qual o valor-verdade dessa relação. No campo da semântica são tratados não só as interpretações e classificação das fórmulas lógicas, mas também [[Consequência e equivalência lógica|as relações de consequência e equivalência]] que elas estabelecem entre si.
 
-## Interpretação ($I$)
+# Interpretação ($I$)
 Chamamos de *interpretação* o valor-verdade associado à uma fórmula. Podemos também dizer que a *interpretação* é uma **função** cujo contradomínio é o conjunto composto pelos elementos $V$ e $F$.
 Cada um dos operadores lógicos possui uma interpretação específica
 
@@ -18,10 +21,10 @@ Cada um dos operadores lógicos possui uma interpretação específica
 | $F$ | $V$ |   $V$    |   $F$    |     $F$     |    $V$     |      $V$       |    $F$     |
 | $F$ | $F$ |   $V$    |   $V$    |     $F$     |    $F$     |      $V$       |    $V$     |
 
-## Tabela-verdade
+# Tabela-verdade
 O número de linhas de uma tabela-verdade para uma determinada expressão é igual a $2^n$, em que $n$ é o número total de átomos na expressão. É importante também sempre organizar as colunas da tabela-verdade na ordem de precedência dos operadores da expressão.
 
-## Classificação de fórmulas
+# Classificação de fórmulas
 Fórmulas podem ter diversas classificações de acordo com seus valores-verdade em uma ou mais interpretações:
 
 - **Verdadeira**: uma fórmula $\alpha$ é **verdadeira** na interpretação $I$ se tem valor-verdade $V$ na interpretação $I$.
@@ -31,7 +34,3 @@ Fórmulas podem ter diversas classificações de acordo com seus valores-verdade
 - **Tautologia**: uma fórmula $\alpha$ é *tautologia* se for **verdadeira** em **todas** as interpretações possíveis.
 - **Contradição** (insatisfazível ou inconsistente): uma fórmula $\alpha$ é contradição se for **falsa** em **todas** as interpretações possíveis.
 - **Contingente**: uma fórmula que não é nem tautologia nem contradição é chamada de contingente (ou contingência).
-
----
-
-created: 15/05/2021

@@ -1,4 +1,7 @@
-# Cônicas
+---
+created-at: 2021-05-18
+tags:
+---
 Sejam duas retas $e$ e $g$ concorrente em um ponto $O$ e não perpendiculares. Se mantermos a reta $e$ fixa e girarmos $g$ $360^{\circ}$ em torno de $e$ mantendo constante o ângulo entre as retas, obteremos uma *superfície cônica* circular infinita formada por duas folhas separadas pelo vértice $O$.
 
 ![[conica.png]]
@@ -25,7 +28,7 @@ Note que se os planos secantes passarem pelo vértice $O$, serão obtidas as cha
 
 ![[tiposconicasdegeneradas.png]]
 
-## Equação geral
+# Equação geral
 De maneira geral, uma **cônica** pode ser expressa por uma *equação geral* no seguinte formato:
 
 >$$
@@ -48,7 +51,7 @@ $$
 
 Em seguida, pode-se [[Resolução de sistemas lineares por escalonamento|resolver]] o sistema utilizando [[Métodos de escalonamento#Método de Gauss-Jordan|Gauss-Jordan]]. A solução desse sistema terá um dos parâmetros livres, então basta fixar um valor para esse parâmetro para obter-se uma equação geral da cônica determinada pelos cinco pontos.
 
-## Equação reduzida
+# Equação reduzida
 Dada a equação geral de uma cônica, podemos aplicar [[Rotação de eixos|rotação]] e [[Translação de eixos|translação]] de eixos no sistema cartesiano com o objetivo de simplificar essa equação.
 Primeiro aplica-se a [[Rotação de eixos|rotação]] com o objetivo de eliminar o termo misto $xy$. Após a rotação, a equação geral se transforma numa equação da seguinte forma:
 
@@ -85,7 +88,7 @@ A partir disso podemos obter os outros elementos usando as seguintes relações 
 
 Após a rotação de eixos, aplica-se, se necessária, uma [[Translação de eixos|translação]] de eixos **completando os quadrados** da expressão, com o objetivo de eliminar os termos lineares. Após esse processo, obtém-se uma equação reduzida da cônica que possibilitará a sua identificação.
 
-## Invariantes
+# Invariantes
 Existem alguns elementos associados às cônicas que não se alteram independente de rotações ou translações, portanto eles nos permitem identificar características das cônicas com base apenas nos valores dos seus parâmetros.
 Dada uma cônica de equação geral:
 
@@ -129,7 +132,3 @@ A partir dos valores de $\Delta$ e $\det{(M)}$ é possível **classificar** qual
 > Se $\Delta = 0$, então a cônica é uma [[Parábola|parábola]] ou suas degenerações, sendo:
 > - uma **parábola**, se $\Delta = 0$ e $\det{(M)} \neq 0$
 > - uma **única reta** ou **duas retas paralelas**, se $\Delta = 0$ e $\det{(M)} = 0$
-
----
-
-created: 18/05/2021

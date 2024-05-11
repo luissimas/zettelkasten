@@ -1,6 +1,7 @@
-# Unificação e Substituição
-
-
+---
+created-at: 2021-06-16
+tags:
+---
 > ***Substituição***
 > Uma substituição na lógica de predicados é um conjunto
 >$$
@@ -35,7 +36,3 @@ Existem dois tipos especiais de substituições:
 > 2. Se existe uma variável $x$ e um termo $t$ em $D_k$ tal que $x$ não ocorre em $t$, então fazemos $\theta_{k+1} = \theta_k{t/x}$, $k=k+1$ e retornamos ao passo $1$. Caso contrário, terminamos, e $S$ não é unificável.
 
 De maneira geral, a unificação consiste em, dado um conjunto de expressões, unificá-lo em um conjunto unitário (com apenas uma expressão). Esse processo se dá através de sucessivas composições de substituições.
-
----
-
-created: 16/06/2021

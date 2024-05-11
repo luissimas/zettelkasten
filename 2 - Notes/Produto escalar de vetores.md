@@ -1,4 +1,7 @@
-# Produto escalar de vetores
+---
+created-at: 2021-03-15
+tags:
+---
 Dados dois vetores $\vec{u}=x_1 \vec{i}+y_1 \vec{j}+z_1 \vec{k}$ e $\vec{v}=x_2 \vec{i}+y_2 \vec{j}+z_2 \vec{k}$, o produto escalar $\vec{u}\cdot \vec{v}$ é dado por:
 > $$ \vec{u}\cdot \vec{v}=x_1x_2+y_1y_2+z_1z_2 $$
 
@@ -13,7 +16,7 @@ $$
 \end{align}  
 $$
 
-## Definição geométrica
+# Definição geométrica
 Usando a lei dos cossenos e as definições anteriores, é possível chegar na seguinte definição:
 $$
   \vec{u}\cdot \vec{v}=|\vec{u}||\vec{v}|\cos{\theta},\quad 0^{\circ}\leq\theta\leq180^{\circ}
@@ -31,11 +34,11 @@ Note que essa definição **não depende das coordenadas** dos vetores, **apenas
 A partir disso é possível inferir uma condição para que dois vetores sejam [[Tratamento geométrico de vetores|orgotonais]]:
 > Dois vetores $\vec{u}$ e $\vec{v}$ são ortogonais se, e somente se, $\vec{u}\cdot \vec{v}=0$
 
-## Cálculo do ângulo de dois vetores
+# Cálculo do ângulo de dois vetores
 Dados os vetores $\vec{u}$ e $\vec{v}$, o ângulo $\theta$ formado por esses dois vetores é dado por:
 >$$\cos{\theta}=\frac{\vec{u}\cdot \vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
 
-## Ângulos diretores e cossenos diretores
+# Ângulos diretores e cossenos diretores
 Seja o vetor $\vec{v}=x \vec{i}+y \vec{j}+z \vec{k}$, os *ângulos diretores* de $\vec{v}$ são os ângulos $\alpha$, $\beta$, $\gamma$ que $\vec{v}$ forma com os vetores $\vec{i}$, $\vec{j}$ e $\vec{k}$ respectivamente. Da mesma forma, os *cossenos diretores* de $\vec{v}$ são os cossenos desses ângulos diretores, ou seja, $\cos{\alpha}$, $\cos{\beta}$ e $\cos{\gamma}$.
 
 ![[angulosdiretores.png]]
@@ -53,7 +56,7 @@ $$
   \cos^2{\alpha}+\cos^2{\beta}+\cos^2{\gamma}=1
 $$
 
-## Projeção de um vetor sobre outro
+# Projeção de um vetor sobre outro
 Sejam os vetores $\vec{u}$ e $\vec{v}$, e $\theta$ o ângulo entre eles, se decompormos um dos vetores, por exemplo $\vec{v}=\vec{v_1}+\vec{v_2}$, sendo $\vec{v_1}//\vec{u}$ e $\vec{v_2}\perp \vec{u}$. Quando isso ocorre o vetor $\vec{v_1}$ é chamado de *projeção ortogonal de $\vec{v}$ sobre $\vec{u}$*, e indicado por: 
 $$
 \begin{align}
@@ -63,8 +66,3 @@ $$
 $$
 
 ![[projecaovetores.png]]
-
----
-
-created: 15/03/2021
-modified: 15/03/2021

@@ -1,4 +1,7 @@
-# Positional number representation
+---
+created-at: 2020-11-11
+tags:
+---
 We can represent negative numbers using the binary system in a number of ways. In this note I'll focus on 2's complement, where the most-significant bit (MSB) denotes the sign of the number, because it's the most pratical way to represent when dealing with digital circuits.
 To find the 2's complement of a binary number we take the following action while examining the bits from right to left:
 1. Copy all bits that are 0 and the first that is 1;
@@ -44,8 +47,3 @@ $$
 \hline
 \end{array}
 $$
-
----
-
-created: 11/11/2020
-modified: 11/11/2020

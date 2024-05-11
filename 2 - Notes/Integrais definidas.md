@@ -1,4 +1,7 @@
-# Integrais definidas
+---
+created-at: 2020-11-15
+tags:
+---
 As integrais definidas são usadas para calcular a área sob o gráfico de uma função $f$ em um **intervalo definido**.\
 Imagine uma situação na qual desejamos calcular a área sob o gráfico de uma curva. Uma forma intuitiva de obter aproximações da área dessa curva é dividir o espaço sob a curva em vários retângulos como na figura:
 
@@ -15,7 +18,7 @@ Então, temos:
 \int_a^b{f(x)}\,dx=\text{área (com sinal) sob o gráfico de f no intervalo } [a,b]
 >$$
 
-## Propriedades
+# Propriedades
 Podemos assumir algumas propriedades das integrais definidas:
 $$
 \begin{aligned}
@@ -39,7 +42,7 @@ $$
 \int_a^b{f(x)}\,dx=f(c)\cdot(b-a)
 $$
 
-## Teorema fundamental do cálculo
+# Teorema fundamental do cálculo
 A expressão que define as integrais definidas é capaz de sintetizar de forma muito eficiente (e elegante) o que de fato a integral definida representa, porém não é viável aplicá-la para resolução de problemas. Com o propósito de fornecer um meio para calcular as integrais definidas, surge então o *Teorema fundamental do cálculo*.
 De forma geral, esse teorema serve para conectar a definição de integral definida com o cálculo das [[Integrais indefinidas#Antiderivadas|funções primitivas]], nos permitindo utilizar as técnicas de integração no cálculo de áreas sob o gráfico de funções.
 
@@ -58,10 +61,3 @@ De forma geral, esse teorema serve para conectar a definição de integral defin
 >$$
 \text{se }\quad \int{f(x)}\,dx=F(x)+C\quad\text{então}\quad \int_a^b{f(x)}\,dx=F(b)-F(a)
 >$$
-
----
-
-created: 15/11/2020
-modified: 16/11/2020
-
-[[calculo1v2020aula17.pdf]]

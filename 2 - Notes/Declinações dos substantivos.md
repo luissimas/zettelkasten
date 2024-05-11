@@ -1,9 +1,12 @@
-# Dēclīnātiōnēs substantivōrum
+---
+created-at: 2021-03-30
+tags:
+---
 Existem ao todo 5 declinações para os substantivos, a maneira mais fácil de identificá-las é através do [[Casos do latim|caso]] genitivo, que sempre é diferente para cada declinação.
 
 Dēclīnātiōnēs nōminum sunt quīnque:
 
-## [1] Dēclīnātiō **prīma**
+# [1] Dēclīnātiō **prīma**
 Genitīvus: sing. -ae, plūr. -ārum.
 
 |          | sing. | plūr. |
@@ -14,7 +17,7 @@ Genitīvus: sing. -ae, plūr. -ārum.
 | **dat.** |  -ae  |  -īs  |
 | **abl.** |  -ā   |  -īs  |
 
-## [2] Dēclīnātiō **secunda**
+# [2] Dēclīnātiō **secunda**
 Genitīvus: sing. -ī, plūr. -ōrum
 
 1. Nōmina masculīna (et paucissima fēminīna)
@@ -38,7 +41,7 @@ Genitīvus: sing. -ī, plūr. -ōrum
 | **dat.** | -ō    | -īs   |
 | **abl.** | -ō    | -īs   |
 
-## [3] Dēclīnātiō **tertia**
+# [3] Dēclīnātiō **tertia**
 Genitīvus: sing. -is, plūr. -um/ium.
 
 1. Nōmina masculīna et fēminīna
@@ -64,7 +67,7 @@ Genitīvus: sing. -is, plūr. -um/ium.
 
 
 
-## [4] Dēclīnātiō **quārta**
+# [4] Dēclīnātiō **quārta**
 Genitīvus: sing. -ūs, plūr. -uum.
 
 |          | sing. | plūr.   |
@@ -75,7 +78,7 @@ Genitīvus: sing. -ūs, plūr. -uum.
 | **dat.** | -uī/ū | -ibus   |
 | **abl.** | -ū    | -ibus   |
 
-## [5] Dēclīnātiō **quīnta**
+# [5] Dēclīnātiō **quīnta**
 Genitīvus: sing. -ēī/eī, plūr. -ērum.
 
 |          | sing. | plūr.   |
@@ -85,8 +88,3 @@ Genitīvus: sing. -ēī/eī, plūr. -ērum.
 | **gen.** | -ēī/eī| -ērum   |
 | **dat.** | -ēī/eī| -ēbus   |
 | **abl.** | -ē    | -ēbus   |
-
----
-
-created: 30/03/2021
-modified: 31/03/2021

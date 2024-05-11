@@ -1,4 +1,3 @@
-# Limite de funções de várias variáveis
 O conceito de limite aplicado para funções de várias variáveis é muito similar ao conceito de limite para funções de uma variável, porém com a introdução de novas variáveis são introduzidas também novas dificuldades e uma complexidade adicional na manipulação desses conceitos.
 Seja $f: A \subset \mathbb{R}^2 \to \mathbb{R}$ uma função, $(x_0, y_0)$ um ponto de acumulação de $A$ e $L \in \mathbb{R}$, temos
 $$
@@ -34,7 +33,7 @@ Podemos utilizar curvas paramétricas para usar o conceito de limites de funçõ
 > - $\gamma (t) = (x(t), y(t))$, sendo $x$ e $y$ contínuas em $t_0$
 > Se todas as hipóteses forem satisfeitas, então $\lim_{t \to t_0}{f(\gamma (t))}=L$
 
-## Teorema do confronto
+# Teorema do confronto
 O teorema do confronto nos permite, sabendo da existência e do valor do limite de duas funções, concluir sobre o limite de uma terceira função.
 
 > Dadas duas funções $f(x,y)$, $g(x,y)$ e $h(x,y)$ tais que:

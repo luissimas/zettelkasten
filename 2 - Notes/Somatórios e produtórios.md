@@ -1,4 +1,3 @@
-# Somatórios e produtórios
 Somatórios e produtórios são estruturas matemáticas muito úteis para descrever valores resultantes de uma iteração sobre um determinado número de parcelas. Pelas suas similaridades, o foco aqui será nos somatórios, porém note que as propriedades de somatórios podem ser facilmente adaptadas para produtórios.
 Um somatório é uma notação utilizada para indicar uma **soma** cujas parcelas obedecem a um padrão. A forma geral de um somatório é:
 
@@ -16,28 +15,28 @@ Existem diversas propriedades importantes dos somatórios, as principais são en
 - Decomposição do domínio: se $\{K_1, K_2\}$ é uma partição de $K$, então: $\displaystyle \sum_{k \in K}{f(x)} = \sum_{k \in K_1}{f(x)} + \sum_{k \in K_2}{f(x)}$
 - Trocando o domínio: se $p$ é uma função bijetora de $K$ para um conjunto $J \subseteq \mathbb{Z}$, então: $\sum_{k \in K}{f(p(k))} = \sum_{j \in J}{f(j)}$
 
-## Somatório de uma constante
+# Somatório de uma constante
 Dada uma constante $c$, isto é, $c$ não depende do índice do somatório, temos que:
 
 $$
 \sum_{i=1}^{n}{c} = nc
 $$
 
-## Somatório do índice
+# Somatório do índice
 Dado um somatório de índice $k$, temos:
 
 $$
 \sum_{k=1}^{n}{k} = \frac{n(n+1)}{2}
 $$
 
-## Somatório telescópico
+# Somatório telescópico
 Dado um somatório de índice $k$, com $X_k$ indicando o *k-ésimo* elemento, temos:
 
 $$
 \sum_{k=1}^{n}{(X_{k+1} - X_k)} = X_{n+1} - X_1
 $$
 
-## Somatório dos quadrados dos índices
+# Somatório dos quadrados dos índices
 Dado um somatório de índice $k$, temos:
 
 $$

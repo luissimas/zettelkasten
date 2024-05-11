@@ -1,4 +1,7 @@
-# Diferenciabilidade de funções de várias variáveis
+---
+created-at: 2021-10-31
+tags:
+---
 A definição da diferenciabilidade das funções de várias variáveis parte do mesmo princípio de *razão incremental* usado da definição para funções de uma variável, porém são necessários alguns ajustes.
 
 > Dada uma função $f: A \to \mathbb{R}$, sendo $A$ um conjunto aberto tal que $A \subseteq \mathbb{R}^2$, e um ponto $(x_0, y_0) \in A$. Dizemos que $f$ é **diferenciável** em $(x_0, y_0)$ se e somente se existirem $a, b \in \mathbb{R}$ tais que
@@ -32,7 +35,3 @@ Existe ainda uma condição suficiente para a diferenciabilidade que envolve as 
 > Dada uma função $f: A \to \mathbb{R}$, sendo $A$ um conjunto aberto tal que $A \subseteq \mathbb{R}^2$. Se as **derivadas parciais** $\frac{\partial f}{\partial x}$ e $\frac{\partial f}{\partial y}$ existirem em $A$ e forem **contínuas** no ponto $(x_0, y_0)$, então $f$ é **diferenciável** neste ponto.
 
 Note que a recíproca do teorema não é verdadeira, isto é, existem funções que são diferenciáveis num ponto sem que as derivadas parciais sejam contínuas nesse ponto.
-
----
-
-created: 31/10/2021

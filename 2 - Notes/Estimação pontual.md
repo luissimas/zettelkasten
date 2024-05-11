@@ -1,10 +1,13 @@
-# Estimação pontual
+---
+created-at: 2021-06-08
+tags:
+---
 > ***Estimador pontual e estimativa pontual***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Seja $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta$ é um parâmetro desconhecido. Qualquer [[Estatísticas e suas distribuições|estatística]] $\hat{\theta} := T(X_1, \dots, X_n)$ que assume valores em $\Theta$ é um **estimador** para $\theta$. Quando $(x_1, \dots, x_n)$ é uma **observação** da amostra $(X_1, X_2, \dots, X_n)$, dizemos que $\hat{\theta} := T(X_1,\dots,X_n)$ é uma **estimativa** para $\theta$.
 
 Note que, enquanto um **estimador é uma função** da amostra ([[Estatísticas e suas distribuições|estatística]]), uma **estimativa é um valor** (produzido ao aplicar uma amostra a um estimador).
 
-## Comparação de estimadores
+# Comparação de estimadores
 Veja que apenas encontrar um estimador e com ele produzir estimativas não basta, tendo em vista que podem existir diversas [[Estatísticas e suas distribuições|estatísticas]] que produzem valores no espaço paramétrico $\Theta$. Portanto, é necessário também saber avaliar e **comparar** estimadores. De maneira geral, um estimador é melhor do que o outro se ele produz estimativas mais próximas do parâmetro $\theta$ que se deseja estimar. Mas como o parâmetro $\theta$ é desconhecido, essa noção de proximidade deve se dar a partir da [[Estatísticas e suas distribuições#Distribuições amostrais|distribuição amostral]] de $\hat{\theta}$.
 
 A seguir definimos duas propriedades importantíssimas dos estimadores:
@@ -38,7 +41,7 @@ Com essas definições, podemos então comparar dois estimadores diferentes e ve
 >$$
 > para todo $\theta \in \Theta$.
 
-## Estimadores de máxima verossimilhança
+# Estimadores de máxima verossimilhança
 Saber comparar estimadores só é útil quando já temos dois estimadores definidos e queremos saber qual deles é melhor. Mas muitas vezes é necessário obter os estimadores, e mais, obter *bons estimadores*. O *método da máxima verossimilhança* nos permite derivar bons estimadores pontuais com boas propriedades, tendo como base apenas a amostra e sua [[Estatísticas e suas distribuições#Distribuições amostrais|distribuição]].
 
 Esse método é bastante intuitivo, pois ele consiste em *tentar encontrar o valor do parâmetro que é mais plausível de ter produzido os dados que de fato observamos (amostra)*.
@@ -68,12 +71,8 @@ Veja que se a ideia é encontrar o argumento que maximiza a função de verossim
 
 Dessa forma, para encontramos o estimador de máxima verossimilhança $\hat{\theta}$, basta encontrar o argumento que maximiza a função log-verossimilhança $l(\theta|x_1,\dots,x_n)$.
 
-### Propriedades dos estimadores de máxima verossimilhança
+## Propriedades dos estimadores de máxima verossimilhança
 Os estimadores de máxima verossimilhança são muito utilizados pois eles possuem boas propriedades estatísticas, a principal delas é enunciada no teorema a seguir:
 
 > ***Princípio da invariância***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Seja $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \Theta$ é um parâmetro desconhecido. Se $\hat{\theta}$ é um estimador de máxima verossimilhança para $\theta$, então $g(\hat{\theta})$ é um estimador de máxima verossimilhança para $g(\theta)$, sempre que $g$ for uma função bijetora.
-
----
-
-created: 08/06/2021

@@ -1,4 +1,7 @@
-# Plano tangente
+---
+created-at: 2021-11-11
+tags:
+---
 Dada uma função $f(x,y)$ diferenciável em $(x_0, y_0)$, o plano definido por:
 
 $$
@@ -24,7 +27,3 @@ Da mesma forma, a *reta normal* ao gráfico de $f$ em $(x_0, y_0, f(x_0, y_0))$ 
 $$
 r: (x,y,z) = (x_0, y_0, f(x_0, y_0)) + \lambda \left(\frac{\partial f}{\partial x}{(x_0, y_0)}, \frac{\partial f}{\partial y}{(x_0, y_0)}, -1 \right) \text{, } \qquad \forall \lambda \in \mathbb{R}
 $$
-
----
-
-created: 11/11/2021

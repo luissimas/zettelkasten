@@ -1,4 +1,7 @@
-# Big O notation
+---
+created-at: 2020-11-17
+tags:
+---
 Big O notation is a way to describe how quickly the runtime of an algorithm increases as the size of the input increases. This runtime isn't measured in seconds, we use the max number of operations instead. The most common Big O runtimes are the followings (from fastest to slowest):
 
 - O($1$)
@@ -7,9 +10,3 @@ Big O notation is a way to describe how quickly the runtime of an algorithm incr
 - O($n\cdot\log{n}$)
 - O($n^2$)
 - O($n!$)
-
-
----
-
-created: 17/11/2020
-modified: 17/11/2020

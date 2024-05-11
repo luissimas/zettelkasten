@@ -1,4 +1,7 @@
-# Boolean algebra
+---
+created-at: 2020-11-07
+tags:
+---
 Boolean algebra was created by *George Boole* and is a very powerful tool to describe and design logic circuits. In Boolean algebra the elements can only assume the binary values: $0$ or $1$. 
 Boolean algebra is based on the following set of axioms:
 
@@ -29,10 +32,3 @@ $$
 &17a.\qquad x\cdot y+y\cdot z+\overline{x}\cdot z=x\cdot y+\overline{x}\cdot z &&17b.\qquad (x+y)\cdot(y+z)\cdot(\overline{x}+z)=(x+y)\cdot(\overline{x}+z) \qquad &&&\text{Consensus}\\
 \end{align}
 $$
-
-
-
----
-
-created: 07/11/2020
-modified: 09/11/2020

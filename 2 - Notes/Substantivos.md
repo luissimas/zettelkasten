@@ -1,4 +1,7 @@
-# Substantīva
+---
+created-at: 2021-03-31
+tags:
+---
 Os substantivos nomeiam seres e objetos em geral, geralmente servindo como núcleo do sujeito, do objeto direto e do objeto indireto de uma oração.
 Todos os nomes tem uma raíz (thema), que é a parte que não muda indepentende da flexão, a terminação (terminātiō), ou desinência, dos nomes é a parte que se altera de acordo com a flexão. Temos ao todo 3 fatores que flexionam os substantivos:
 - Genera (gêneros): masculīnum, fēminīnum et neutrum.
@@ -8,8 +11,3 @@ Todos os nomes tem uma raíz (thema), que é a parte que não muda indepentende 
 Os diversos padrões de desinências dos substantivos foram agrupados em um total de 5 declinações:
 
 [[Declinações dos substantivos]]
-
----
-
-created: 31/03/2021
-modified: 31/03/2021

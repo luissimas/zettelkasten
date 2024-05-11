@@ -1,4 +1,7 @@
-# Teste de hipóteses
+---
+created-at: 2021-06-07
+tags:
+---
 Os testes de hipóteses são muito usados na prática, pois nos permitem colocar à prova uma hipótese e verificar se ela é válida ou não. De maneira geral essas hipóteses são afirmações acerca do valor de algum *parâmetro populacional*.
 Trabalhamos sempre com duas hipóteses, a *hipótese nula* $H_0$ e a *hipótese alternativa* $H_1$. Caso a hipótese $H_0$ seja rejeitada, aceitamos como verdadeira a hipótese $H_1$.
 
@@ -41,14 +44,10 @@ Note que, pela natureza do teste de hipótese, a veracidade da hipótese nunca p
 >$$
 
 
-## Procedimento geral de um teste de hipóteses
+# Procedimento geral de um teste de hipóteses
 1. Fixe a hipótese nula $H_0$ e a hipóteses alternativa $H_1$.
 2. Use a teoria estatística para determinar a [[Estatísticas e suas distribuições|estatística]] apropriada para o teste.
 3. Escolha um nível de significância $\alpha \in ]0,1[$ (probabilidade de erro do tipo $I$) e utilize este valor para construir a região crítica do teste com base na estatística de teste determinada.
 4. Use as observações da amostra coletada para calcular o valor da estatística de teste.
 5. Se o valor da estatística de teste calculado com a amostra observada pertencer à região crítica, rejeite a hipótese nula $H_0$; caso contrário, não rejeite a hipótese nula $H_0$.
 6. Reporte sua decisão no contexto do problema
-
----
-
-created: 07/06/2021

@@ -1,7 +1,10 @@
-# Sintaxe da lógica proposicional
+---
+created-at: 2021-05-15
+tags:
+---
 A sintaxe da lógica proposicional especifica quais são os símbolos utilizados na linguagem e como esses símbolos se combinam para formar uma sequência válida.
 
-## Alfabeto
+# Alfabeto
 Chamamos de *alfabeto* da lógica proposicional o conjunto de símbolos a partir dos quais sequências válidas são construídas. Os símbolos que compõe esse alfabeto são:
 
 - Dois símbolos de pontuação: *(* e *)*.
@@ -9,7 +12,7 @@ Chamamos de *alfabeto* da lógica proposicional o conjunto de símbolos a partir
 - Um conjunto de *átomos*: *p, q, r, s, t etc...*
 - Cinco conectivos lógicos: $\neg$, $\land$, $\lor$, $\implies$ e $\iff$
 
-## Conectivos (operadores) lógicos
+# Conectivos (operadores) lógicos
 As proposições compostas (ou fórmulas compostas) são formadas por proposições atômicas ligadas por conectivos lógicos, na lógica proposicional existem cinco conectivos:
 
 - Negação ($\neg$): não; é falso que.
@@ -25,7 +28,3 @@ Assim como na matemática, os operadores possuem ordem de precedência. Da maior
 3. $\lor$
 4. $\implies$
 5. $\iff$ (menor precedência)
-
----
-
-created: 15/05/2021

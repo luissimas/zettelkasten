@@ -1,5 +1,8 @@
-# Métodos de escalonamento
-## Sistemas escalonados
+---
+created-at: 2021-02-23
+tags:
+---
+# Sistemas escalonados
 Sistemas chamados de escalonados possuem a seguinte forma matricial:
 $$
 \begin{bmatrix}
@@ -27,7 +30,7 @@ $$
 \end{align}
 $$
 
-## Manipulação de sistemas
+# Manipulação de sistemas
 É possível manipular sistemas sem alterar o conjunto das soluções de algumas formas:
 1. Trocar duas equações entre si
 2. Multiplicar uma equação por um número não nulo
@@ -36,7 +39,7 @@ $$
 Todas essas alterações acima não alteram o conjunto das soluções do sistema, desde que sejam aplicadas aos dois lados da equação que se deseja alterar. 
 Sabendo que os sistemas escalonados são de resolução mais simples, e também que é possível alterar a forma de um sistema sem alterar o conjunto das soluções, é intuitivo tentar manipular um sistema linear para colocá-lo em sua forma escalonada, assim resolvendo-o. É essa a ideia dos dois métodos a seguir.
 
-## Método de Eliminação de Gauss
+# Método de Eliminação de Gauss
 O *Método de Eliminação de Gauss* usa as operações básicas para manipulação de sistemas, que estão aqui descritas em notação matricial:
 > 1. Troca de linhas entre si: $L_i \longleftrightarrow L_j$
 > 2. Multiplicação de uma linha por um escalar $\lambda\neq 0$: $L_i \rightarrow \lambda L_i$
@@ -49,7 +52,7 @@ O Método para a redução de uma matriz $M$ a uma forma escalonada é o seguint
 > 3. Continue o processo considerando $c_k$ a primeira coluna de $M^{k-1}$ em que existem elementos não nulos. Se necessário troque a linha k por alguma abaixo e tome o primeiro elemento não nulo dessa linha como o novo pivô. Continue a anular os elementos da coluna $c_k$ abaixo da linha $k$ com as operações $L_i \rightarrow L_i - \frac{M_{ic_k}}{M_{kc_k}}\cdot L_k$ para $i>k$. Repita o processo até que acabem as linhas não nulas ou as colunas.
 
 
-## Método de Gauss-Jordan
+# Método de Gauss-Jordan
 O *Método de Gauss-Jordan* também tem por objetivo obter a forma escalonada de um sistema, porém ele leva a **uma única matriz mais simplicifada**, chamada de matriz na forma escalonada reduzida por linhas.
 Uma matriz é considerada na forma escalonada reduzida por linhas se:
 1. É uma matriz na forma escalonada
@@ -59,8 +62,3 @@ Uma matriz é considerada na forma escalonada reduzida por linhas se:
 Para obter a matriz escalonada reduzida por linhas a partir da matriz escalonada $E$, basta seguir os seguintes passos:
 > 1. Transformar todos os pivôs em 1, multiplicando as linhas não nulas $L_i$ pelos multiplicadores $\frac{1}{E_{ic_i}}, i \in\{1,2,\dots,r\}$
 > 2. Comece pelo último pivô e anule todos os elementos **acima** dele, prosseguindo até o segundo pivô.
-
----
-
-created: 23/02/2021
-modified: 23/02/2021

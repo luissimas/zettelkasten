@@ -1,14 +1,13 @@
-# Hardware de IO
+---
+created-at: 2021-10-26
+tags:
+---
 Em geral os dispositivos de IO se dividem em duas categorias: *dispositivos de blocos* e *dispositivos de caractere*.
 Os dispositivos de bloco armazenam as informações em blocos endereçáveis de tamanho fixo. Todas as transferências realizadas são no formato desses blocos, que podem ser acessados individualmente através de operações de busca e leitura do dispositivo. Dispositivos de armazenamento no geral, como HDs, pendrives e discos são exemplos de dispositivos de bloco.
 Os dispositivos de caractere envia e recebe um fluxo de caracteres, sem estabelecer qualquer estrutura. Nesses dispositivos não há o conceito de um acesso específico a uma informação, a comunicação é feita através de um único fluxo constante e sequencial de caracteres. Mouses, impressoras e interfaces de rede são exemplos de dispositivos de bloco.
 
-## Comunicação com dispositivos de IO
+# Comunicação com dispositivos de IO
 As unidades de IO no geral são compostas pela sua parte mecânica, e uma parte eletrônica chamada de *controlador do dispositivo*. Os controladores lidam com os detalhes em nível mais baixo de implementação do hardware e da parte mecânica do dispositivo, e oferecem uma interface mais padronizada para a interação com o dispositivo.
 A interface com os controladores é geralmente feita através de registradores nos dispositivos. O sistema operacional pode controlar o dispositivo através da escrita de dados de controle nesses registradores. É também através da leitura desses registradores que o sistema operacional consegue saber seu estado de operação e outras informações relevantes. Alguns dispositivos também contam com *buffers* nos quais armazenam e verificam seus dados antes de realizar uma transferência.
 Geralmente existem duas maneiras de interagir com os registradores e buffers dos dispositivos de IO. A primeira delas consistem em designar a cada registrador de controle um número de *porta de IO*. Todas as portas de IO dão agrupadas e protegidas afim de permitir que somente o sistema operacional tenha acesso a elas. Esse acesso é feito através de instruções específicas para operações de *IO*. Dessa forma, os espaços de endereçamento de memória e de portas de IO são totalmente separados e protegidos.
 Outra alternativa é mapear os registradores de controle do espaço da memória. Dessa forma, cada registrador de controle é associado a um endereço de memória, e o sistema deve garantir que esse endereço é protegido e não será mapeado na memória virtual de algum processo de usuário. Essa implementação tem vantagens interessantes, pois elimina a necessidade de instruções específicas para escrita e leitura nesses registradores, facilitando a escrita de drivers para esses dispositivos. Entretanto, essa alternativa pode resultar em um aumento significativo de complexidade no sistema, pois é necessário lidar com questões de barramento de memória e de utilização da cache (o uso de cache para um registrador de controle de dispositivo é um problema grave, pois impede a comunicação efetiva com o dispositivo).
-
----
-
-created: 26/10/2021

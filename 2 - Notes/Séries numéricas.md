@@ -1,4 +1,7 @@
-# Séries numéricas
+---
+created-at: 2021-08-20
+tags:
+---
 Uma *série infinita* é a soma de uma [[Sequências numéricas | sequência]] infinita de números na forma
 >$$
   \sum_{n=1}^{\infty}{a_n} = a_1 + a_2 + \dots + a_n + \dots
@@ -31,7 +34,3 @@ Como há um número infinito de termos, não é possível simplesmente realizar 
 >$$
 > Se a sequência de somas parciais da série não converge, dizemos que a série **diverge**.
 A ideia então é, a partir de uma dada sequência $(a_n)$, construir uma **segunda sequência** $(s_n)$ composta pelas somas parciais dos termos de $(a_n)$. A partir daí é necessário determinar se a sequência $(s_n)$ converge ou diverge, se ela for convergente então é possível afirmar que há uma [[Convergência de séries | série convergente]].
-
----
-
-created: 20/08/2021

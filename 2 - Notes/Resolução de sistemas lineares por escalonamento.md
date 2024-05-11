@@ -1,4 +1,7 @@
-# Resolução de sistemas lineares por escalonamento
+---
+created-at: 2021-02-24
+tags:
+---
 Aplicando os conceitos de [[Posto de matriz|posto]] para analisar [[Sistemas de equações lineares|sistemas lineares]] na forma de matrizes *l-reduzidas* podemos rapidamente indentificar características importantes do sistema. Segundo a definição do *Teorema de Rouché-Capelli*:
 > Seja um sistema linear de $m$ equações a $n$ variáveis $AX=B$, cuja matriz dos coeficientes $A$ tem um posto $p$ e cuja matriz ampliada $Ã$ tem posto $q$. Então:
 > 1. se $p \neq q$, o sistema é impossível
@@ -30,13 +33,8 @@ $$
 \end{align}
 $$
 
-## Sistemas Lineares Homogêneos
+# Sistemas Lineares Homogêneos
 Usando sistemas lineares homogêneos é possível encontrar a parte relacionada aos parâmetros da solução do sistema equivalente não-homogêneos sem ter que lidar com os termos independentes no escalonamento.
 > Um sistema linear é **homogêneo** se os termos independentes são todos nulos, ou seja, um sistema na forma $AX = 0$
 
 Nesse caso, sempre há uma solução nula $(x_1,\dots,x_n) = (0,\dots,0)$ para o sistema. Mas ainda é necessário verificar se ele possui apenas a solução nula (sistema homogêneo determinado), ou se existem outras soluções possíveis (sistema homogêneo indeterminado).
-
----
-
-created: 24/02/2021
-modified: 24/02/2021

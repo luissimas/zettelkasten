@@ -1,7 +1,10 @@
-# Determinantes
+---
+created-at: 2021-03-19
+tags:
+---
 Determinantes nos fornecem informações úteis a respeito de suas matrizes e têm diversas aplicações.
 
-## Determinantes de ordem 2
+# Determinantes de ordem 2
 O cálculo de determinantes de ordem dois é simples e serve de base para o cálculo de determinantes de ordem superior.
  Dada uma matriz $M_{2\times2}$, seu determinante é dado por:
 $$
@@ -23,7 +26,7 @@ Algumas propriedades úteis dos determinantes são:
 - Se duas linhas forem diferentes e constituídas de elementos proporcionais, o determinante é zero.
 - Se uma linha for contituída de zeros, o determinante é zero.
 
-## Determinantes de ordem superior
+# Determinantes de ordem superior
 Para calcular o determinante de ordem superior a 2 é necessário usar o *Teorema de Laplace*:
 1. Selecionar uma linha ou coluna, dando preferência àquela que tenha a maior quantidade de zeros.
 2. Somar alternando os sinais os produtos dos elementos da linha ou coluna selecionada multiplicados pelos determinantes de cada submatriz obtida eliminando todos os elementos da linha e coluna do elemento selecionado.
@@ -54,8 +57,3 @@ b
 \end{vmatrix}
 c
 $$
-
----
-
-created: 19/03/2021
-modified: 19/03/2021

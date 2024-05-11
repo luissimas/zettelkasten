@@ -1,4 +1,7 @@
-# Regras de derivação
+---
+created-at: 2020-11-03
+tags:
+---
 Sendo $u(x)$ uma função derivável temos que:
 $$
 (\sin{u})'=(\cos{u})\cdot u'
@@ -27,10 +30,3 @@ $$
 $$
 (\arctan{u})'=\frac{u'}{1+u^2}
 $$
-
----
-
-created: 03/11/2020
-modified: 06/11/2020
-
-[[calculo1v2020aula12.pdf]]

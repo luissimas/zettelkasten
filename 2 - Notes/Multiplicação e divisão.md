@@ -1,7 +1,10 @@
-# Multiplicação e divisão
+---
+created-at: 2021-05-10
+tags:
+---
 Apesar de ser possível implementar tanto a multiplicação quanto a divisão utilizando [[Arithmetic logic circuits | soma e subtração]], é necessária uma implementação em hardware dedicada para garantir o melhor desempenho possível.
 
-## Multiplicação
+# Multiplicação
 Existem diferentes implementações para a multiplicação, a primeira delas segue o seguinte algoritmo:
 
 ![[multiplicationdiagram.png]]
@@ -33,7 +36,7 @@ Ao invés de utilizar um registrador dedicado para o multiplicador, nessa implem
 
 É importante destacar que como o produto de dois números de $32$ *bits* é um número de $64$ *bits*, na arquitetura [[MIPS]] o resultado dessa operação é armazenado em **dois registradores** de $32$ *bits*, os registradores `$HI` e `$LO`.
 
-## Divisão
+# Divisão
 A divisão se assemelha à multiplicação, porém introduz alguns novos desafios. A divisão é executada através de subtrações e comparações sucessivas.
 
 ![[divisiondiagram.png]]
@@ -49,9 +52,3 @@ Ao realizar otimizações semelhantes às da [[Multiplicação e divisão#Multip
 
 Note que a única diferença dessa implementação para a de multiplicação é a unidade de controle, isso permite que seja utilizado **o mesmo hardware para ambas as operações**.
 É importante destacar que como a divisão produz dois resultados (resto e quociente), na arquitetura [[MIPS]] o resultado dessa operação é armazenado em **dois registradores** de $32$ *bits*, os registradores `$HI` contendo o resto da divisão e `$LO` contendo o quociente.
-
----
-
-created: 10/05/2021
-
-[[Multiplicação_Divisão.pdf]]

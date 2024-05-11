@@ -1,7 +1,10 @@
-# Implementation of storage in Verilog
+---
+created-at: 2020-11-15
+tags:
+---
 The different elements that allow us to storage data in digital circuits can be implemented quite easily with the use of `if-else` statements. Here we find the [[Verilog|verilog ]] examples for the basic structures of storage.
 
-## Latches
+# Latches
 [[Latches]] can be described in a simple way using a `if` statement. Here is a example a [[Latches#Gated D Latch|D_latch]] module
 
 ```verilog
@@ -16,7 +19,7 @@ module D_latch(D, Clk, Q);
 endmodule
 ```
 
-## Flip-flops
+# Flip-flops
 For [[Flip-Flops|flip-flops]] we have to use the `posedge` and `negedge` keywords, these keywords describe the desired clock edge that trigger the evaluation of the expression.
 
 ```verilog
@@ -29,10 +32,10 @@ module flipflop(D, Clock, Q);
 
 endmodule
 ```
-## Registers and Counters
+# Registers and Counters
 To describe [[Counters|counters ]] and [[Registers|registers ]] we have to use the [[Non-blocking assignments|non-blocking assignments]], otherwise we'll end up with a circuit that doesn't make sense.
 
-### Registers
+## Registers
 Here we can see a example of a general *n-bit* register with *asynchronous* clear:
 ```verilog
 module nbit_register(D, Clock, Resetn, Q);
@@ -75,7 +78,7 @@ module nbit_shifter_load(R, L, w, Clock, Q);
 endmodule
 ```
 
-### Counters
+## Counters
 We can describe a generic *up/down* counter with load capability like this:
 ```verilog
 module updown_n_count(R, Clock, L, E, up_down, Q);
@@ -93,10 +96,3 @@ module updown_n_count(R, Clock, L, E, up_down, Q);
 
 endmodule
 ```
-
-
-
----
-
-created: 15/11/2020
-modified: 15/11/2020

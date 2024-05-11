@@ -1,4 +1,7 @@
-# Non-blocking assignments
+---
+created-at: 2020-11-15
+tags:
+---
 In [[Verilog]] we have two type of assignments:
 - Blocking assignments: `=`
 - Non-blocking assignments: `<=`
@@ -37,9 +40,3 @@ endmodule
 ```
 Produces:
 ![](nonblocking.png)
-
-
----
-
-created: 15/11/2020
-modified: 15/11/2020

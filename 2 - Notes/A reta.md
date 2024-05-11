@@ -1,6 +1,8 @@
-# A reta
-
-## Equação vetorial
+---
+created-at: 2021-04-05
+tags:
+---
+# Equação vetorial
 Dado um ponto $A(x_1,y_1,z_1)$ e um vetor não nulo $\vec{v}=(a,b,c)$, só existe uma reta $r$ que passa por $A$ e tem a direção de $\vec{v}$. Um ponto $P(x,y,z)$ pertence a $r$ se, e somente se, o vetor $\overrightarrow{AP}$ é paralelo a $\vec{v}$, ou seja:
 $$
 \begin{aligned}
@@ -13,7 +15,7 @@ $$
 Qualquer uma das equações acima é denominada *equação vetorial* de $r$. Sabendo que existem infinitos vetores paralelos à reta, podemos dizer que a reta $r$ possui infinitas equações vetoriais.
 O vetor $\vec{v}$ é chamado *vetor diretor* da reta $r$, e $t$ é denominado *parâmetro*.
 
-## Equações paramétricas
+# Equações paramétricas
 Da equação vetorial da reta $r$ com vetor diretor $\vec{v}=(a,b,c)$, tomando um ponto inicial $A(x_1,y_1,z_1)$ tal que $A \in r$, pode-se obter o seguinte sistema, que descreve cada coordenada do ponto em $r$ individualmente:
 
 $$
@@ -25,7 +27,7 @@ r:
  \end{cases}
 $$
 
-## Reta definida por dois pontos
+# Reta definida por dois pontos
 Com dois pontos é possível definir uma reta. Se uma reta $r$ passa pelos pontos $A(x_1,y_1,z_1)$ e $B(x_2,y_2,z_2)$, então ela tem como vetor diretor o vetor $\vec{v} = \overrightarrow{AB}$, e podemos usar tanto o ponto $A$ quanto o ponto $B$ como pontos iniciais, então:
 
 $$
@@ -37,7 +39,7 @@ $$
   \end{cases}
 $$
 
-## Equações simétricas da reta
+# Equações simétricas da reta
 Colocando o *parâmetro* $t$ em evidência cada uma das [[A reta#Equações paramétricas|equações paramétricas]], temos a seguinte relação:
 
 $$
@@ -46,7 +48,7 @@ $$
 
 Essas equações são chamadas de *equações simétricas* da reta que passa pelo ponto $A(x_1,y_1,z_1)$ e tem a direção do vetor $\vec{v}=(a,b,c)$. Com elas é possível substituir o valor de apenas uma das coordenadas do ponto $B(x,y,z) \in r$ desejado para se obter as outras duas coordenadas, pois se o ponto pertence à reta essa igualdade é sempre verdadeira.
 
-## Equações reduzidas da reta
+# Equações reduzidas da reta
 A partir das [[A reta#Equações simétricas da reta|equações simétricas]] podemos expressar duas variáveis em função de uma terceira, resultando em um sistema desse formato:
 
 $$
@@ -59,13 +61,13 @@ $$
 
 Nesse caso, a equação está *reduzida em $x$*.
 
-## Retas paralelas aos planos coordenados
+# Retas paralelas aos planos coordenados
 Uma reta é paralela a um dos planos $xOy$, $xOz$ ou $yOz$ se os seus vetores diretores forem paralelos a tal plano. Para que isso aconteça, *uma das componentes do vetor é nula*.
 
-## Retas paralelas aos eixos coordenados
+# Retas paralelas aos eixos coordenados
 Uma reta é paralela a um dos eixos $Ox$, $Oy$ ou $Oz$ se os seus vetores diretores forem paralelos a $\vec{i}=(1,0,0)$, $\vec{j}=(0,1,0)$ ou $\vec{k}=(0,0,1)$. Para que isso aconteça, *duas das componentes do vetor são nulas*.
 
-## Ângulo de duas retas
+# Ângulo de duas retas
 Sejam $r_1$ e $r_2$ duas retas com vetores diretores $\vec{v}_1$ e $\vec{v}_2$, respectivamente. O ângulo das duas retas $r_1$ e $r_2$ é o menor ângulo entre um vetor diretor de $r_1$ e um vetor diretor de $r_2$, ou seja, é igual a:
 
 >$$
@@ -76,14 +78,14 @@ Sejam $r_1$ e $r_2$ duas retas com vetores diretores $\vec{v}_1$ e $\vec{v}_2$, 
 Veja que sempre consideramos o ângulo $\theta$ como um **ângulo agudo**.
 Note que isso deriva diretamente do [[Produto escalar de vetores#Cálculo do ângulo de dois vetores|cálculo do ângulo de dois vetores]].
 
-## Retas ortogonais
+# Retas ortogonais
 Duas retas $r_1$ e $r_2$ são ortogonais se seus vetores diretores $\vec{v}_1$ $\vec{v}_2$ [[Produto escalar de vetores#Definição geométrica|são ortogonais]], ou seja:
 
 >$$
  r_1 \perp r_2 \Leftrightarrow \vec{v}_1 \cdot \vec{v}_2 = 0
 >$$
 
-## Reta ortogonal a duas retas
+# Reta ortogonal a duas retas
 Sendo $r_1$ e $r_2$ retas não paralelas, com vetores diretores $\vec{v}_1$ $\vec{v}_2$, uma terceira reta $r$ com vetor diretor $\vec{v}$ será ortogonal as duas outras quando:
 
 >$$
@@ -92,7 +94,7 @@ Sendo $r_1$ e $r_2$ retas não paralelas, com vetores diretores $\vec{v}_1$ $\ve
 
 Ou seja, basta fazer o [[Produto vetorial|produto vetorial]] entre os vetores diretores das retas.
 
-## Intersecção de duas retas
+# Intersecção de duas retas
 Para encontrar a intersecção entre duas retas, basta igualar suas equações, assim encontra-se o ponto comum entre as duas retas, também chamado de *ponto de intersecção*.
 Sejam $r_1$ e $r_2$ duas retas com as seguintes equações paramétricas:
 
@@ -143,8 +145,3 @@ A partir disso podemos fazer a seguinte análise:
 É importante destacar que:
 - Se duas retas tem intersecção, elas são coplanares
 - Se duas retas são paralelas, elas são coplanares
-
----
-
-created: 05/04/2021
-modified: 05/04/2021

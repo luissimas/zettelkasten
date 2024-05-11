@@ -1,4 +1,7 @@
-# Séries de potências
+---
+created-at: 2021-09-06
+tags:
+---
 Uma série de potências é uma [[Séries numéricas|série]] do tipo
 $$
  \sum_{n=0}^{\infty}{c_n(x-x_0)^n}
@@ -11,11 +14,11 @@ Nesse caso, dizemos que essa série foi *desenvolvida em torno de* $x_0$. Chamam
 
 Note que séries de potências necessariamente são convergentes em **invervalos simétricos** em torno de $x_0$.
 
-## Determinando o raio de converência
+# Determinando o raio de converência
 As séries de potência possuem um formato atrativo para a aplicação do [[Critério da razão|critério da razão]]. Do uso desse critério derivou-se um teorema que permite determinar facilmente o **raio de convergência** de uma série de potências.
 Dada uma série de potências $\displaystyle\sum_{n=0}^{\infty}{c_n(x-x_0)^n}$, com $\displaystyle c_n \neq 0$. Se $\displaystyle \lim_{n\to\infty} \frac{|c_{n+1}|}{|c_n|} = L$. Então o **raio de convergência** $R$ é dado por $\displaystyle R=\frac{1}{L}$. Note que aqui adota-se como convenção que $\displaystyle \frac{1}{\infty} = 0$ e $\displaystyle \frac{1}{0} = \infty$.
 
-## Integração e derivação termo a termo
+# Integração e derivação termo a termo
 Dada uma série de potências $\displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$ com um raio de convergência $R > 0$. Seja $I$ o intervalo de convergência da série. Com base nisso, podemos relacionar a série com uma **função real** $f$ tal que:
 
 $$
@@ -40,7 +43,3 @@ $$
 3. Se $\displaystyle \displaystyle \sum_{n=0}^{\infty}{c_n(x-x_0)^n}$ for convergente em $x_0 \pm R$, ou seja, se a série for **convergente** em alguma das **extremidades** do intervalo, então $f$ é **contínua** em $x_0 \pm R$.
 
 Note então que, como consequência do item 3, após derivar ou integrar a série é necessário verificar novamente a convergência nas extremidades do intervalo.
-
----
-
-created: 06/09/2021

@@ -1,4 +1,7 @@
-# Produto misto
+---
+created-at: 2021-03-23
+tags:
+---
 Dados três vetores: $\vec{u} = x_1 \vec{i} + y_1 \vec{j} + z_1 \vec{k}$, $\vec{v} = x_2 \vec{i} + y_2 \vec{j} + z_2 \vec{k}$ e $\vec{w} = x_3 \vec{i} + y_3 \vec{j} + z_3 \vec{k}$, tomados nessa ordem, o produto misto é o **número real** $\vec{u} \cdot (\vec{v}\times\vec{w})$, também indicado por $(\vec{u}, \vec{v}, \vec{w})$, é dado por:
 
 $$
@@ -15,7 +18,7 @@ As seguintes propriedades do produto misto decorrem principalmente das proprieda
 3. $(\alpha\vec{u},\vec{v},\vec{w})=(\vec{u},\alpha\vec{v},\vec{w})=(\vec{u},\vec{v},\alpha\vec{w})=\alpha(\vec{u},\vec{v},\vec{w})$
 4. $(\vec{u},\vec{v},\vec{w})=0$ se, e somente se, os três vetores forem **coplanares**.
 
-## Interpretação geométrica
+# Interpretação geométrica
 Geometricamente, o produto misto $\vec{u}\cdot(\vec{v},\vec{w})$ é igual, em módulo, ao volume do paralelepípedo de arestas determinadas pelos vetores não coplanares $\vec{u}$, $\vec{v}$ e $\vec{w}$.
 
 ![[volumeparalelepipedoprodutomisto.png]]
@@ -33,7 +36,7 @@ $$
   V=|(\vec{u},\vec{v},\vec{w})|
 $$
 
-## Volume do tetraedro
+# Volume do tetraedro
 Considerando $A$, $B$, $C$ e $D$ pontos não coplanares, em que $\overrightarrow{AB}$, $\overrightarrow{AC}$ e $\overrightarrow{AD}$ determinam um paralelepípedo de volume definido por:
 $$
   V=|(\overrightarrow{AB}, \overrightarrow{AC}, \overrightarrow{AD})|
@@ -55,8 +58,3 @@ ou seja,
 $$
   V_t=\frac{1}{6}|(\overrightarrow{AB}, \overrightarrow{AC}, \overrightarrow{AD})|
 $$
-
----
-
-created: 23/03/2021
-modified: 23/03/2021

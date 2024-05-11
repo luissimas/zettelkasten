@@ -1,4 +1,7 @@
-# Consequência e equivalência lógica na lógica de predicados
+---
+created-at: 2021-06-12
+tags:
+---
 Consequência e equivalência lógica são relações estabelecidas entre duas fórmulas (ou conjunto de fórmulas).
 
 > ***Consequência lógica***
@@ -19,9 +22,3 @@ Vale destacar que as [[Consequência e equivalência lógica|consequências e eq
   &\neg(\exists X \alpha[X]) \equiv (\forall X \neg \alpha[X])
 \end{aligned}
 >$$
-
----
-
-created: 12/06/2021
-
-[[Regras_inferencia_equivalencia.pdf]]

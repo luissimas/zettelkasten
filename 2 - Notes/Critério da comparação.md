@@ -1,4 +1,7 @@
-# Critério da comparação
+---
+created-at: 2021-09-05
+tags:
+---
 > ***Critério da comparação***
 > Dadas duas [[Sequências numéricas | sequências numéricas]] $(a_n)$ e $(b_n)$ com $0 \leq a_n \leq b_n$, pode-se afirmar duas coisas:
 > 1. Se $\displaystyle\sum_{n=1}^{\infty}{a_n}$ for divergente, então $\displaystyle\sum_{n=1}^{\infty}{b_n}$ também diverge.
@@ -18,7 +21,3 @@ Uma inconveniência da aplicação do critério da comparação é que a sua man
 > 3. $L = \infty$: se $\displaystyle\sum_{n=1}^{\infty}{b_n}$ diverge então $\displaystyle\sum_{n=1}^{\infty}{a_n}$ diverge.
 
 Note que para o *critério da comparação no limite* não é necessário saber qual a relação de desigualdade das duas sequências, pois analisa-se apenas o limite de seu quociente. Vale destacar também que esse critério permite conclusões mais claras e precisas, pois quando existe um limite definido para o quociente das duas sequências, a informação sobre convergência deve necessariamente ser a mesma entre as séries.
-
----
-
-created: 05/09/2021

@@ -1,4 +1,7 @@
-# Dijkstra's algorithm
+---
+created-at: 2021-01-04
+tags:
+---
 This algorithm allows us to find the *shortest* path from one node to another in a directed [[Weighted graphs|weighted graph]] without *negative-weighted* edges.
 The algorithm follows these basic steps:
 1. Set $\infty$ as the cost for all nodes (except the origin node).
@@ -10,8 +13,3 @@ The algorithm follows these basic steps:
 			2. Set the `node` as the parent
 	2. Add the `node` to the list of processed nodes
 	3. Set the cheapest neighbor as the new to be analyzed
-	
----
-
-created: 04/01/2021
-modified: 04/01/2021

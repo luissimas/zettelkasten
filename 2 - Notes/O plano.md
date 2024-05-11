@@ -1,4 +1,7 @@
-# O plano
+---
+created-at: 2021-04-10
+tags:
+---
 Seja $A(x_1,y_1,z_1)$ um ponto pertencente ao plano $\pi$ e $\vec{n}=(a,b,c)$, $\vec{n} \neq \vec{0}$, um vetor **ortogonal (normal) ao plano** $pi$.
 
 ![[eqgeralplano.png]]
@@ -31,7 +34,7 @@ Uma outra forma de obter a equação geral de um plano é através do [[Produto 
 
 Assim, podemos obter uma equação geral do plano mantendo as incógnitas do ponto $P$ e desenvolvendo o produto misto.
 
-## Equação vetorial e equações paramétricas do plano
+# Equação vetorial e equações paramétricas do plano
 Seja $A(x_0,y_0,z_0)$ um ponto pertencente a um plano $\pi$ e $\vec{u}=(a_1,b_1,c_1)$ e $\vec{u}=(a_1,b_1,c_1)$ dois vetores paralelos a $\pi$, e não paralelos entre si.
 
 ![[eqvetorialplano.png]]
@@ -53,7 +56,7 @@ $$
 \qquad h,t \in \mathbb{R}
 $$
 
-## Equação vetorial de um paralelogramo
+# Equação vetorial de um paralelogramo
 Dados os pontos não colineares $A$, $B$ e $C$, os vetores $\overrightarrow{AB}$ e $\overrightarrow{AC}$ determinam o paralelogramo cuja equação vetorial é
 
 >$$
@@ -62,14 +65,14 @@ Dados os pontos não colineares $A$, $B$ e $C$, os vetores $\overrightarrow{AB}$
 
 ![[eqvetorialparalelogramo.png]]
 
-## Casos particulares da equação geral do plano
+# Casos particulares da equação geral do plano
 Caso um ou mais coeficientes da equação *geral do plano* $ax+by+cz+d=0$ seja nulo, o plano ocupará uma posição particular em relação aos eixos ou planos coordenados.
 
 1. Se $d=0$, então o plano passa pela origem.
 2. Se o coeficiente de apenas uma coordenada for nulo, então o plano é paralelo ao eixo dessa coordenada, ou seja, **o plano é paralelo ao eixo da variável ausente na equação.**
 3. Se dois coeficientes duas coordenadas forem nulos, então o plano é paralelo ao plano formado pelos eixos dessas coordenadas. Por exemplo: $\pi:z=k\therefore\pi//xOy$
 
-## Ângulo de dois planos
+# Ângulo de dois planos
 Sejam os planos $\pi_1$ e $\pi_2$ com vetores normais $\vec{n}_1$ e $\vec{n_2}$, respectivamente:
 
 ![[anguloplanos.png]]
@@ -80,7 +83,7 @@ O ângulo de dois planos $\pi_1$ e $\pi_2$ é o menor ângulo que um vetor norma
   \cos{\theta}= \frac{|\vec{n_1}\cdot \vec{n_2}|}{|\vec{n_1}||\vec{n_2}|}\quad 0\leq\theta\leq \frac{\pi}{2}
 >$$
 
-## Planos perpendiculares
+# Planos perpendiculares
 Sejam os planos $\pi_1$ e $\pi_2$ com vetores normais $\vec{n}_1$ e $\vec{n_2}$, respectivamente.
 
 ![[planosperpendiculares.png]]
@@ -91,7 +94,7 @@ Então, a **perpendicularidade dos planos** depende diretamente da **perpendicul
   \pi_1\perp\pi_2 \Leftrightarrow \vec{n_1}\perp\vec{n_2}\Leftrightarrow \vec{n_1}\cdot \vec{n_2} = 0
 >$$
 
-## Paralelismo e perpendicularismo entre reta e plano
+# Paralelismo e perpendicularismo entre reta e plano
 Seja $r$ uma reta com vetor diretor $\vec{v}$ e um plano $\pi$, sendo $\vec{n}$ um vetor normal a $\pi$.
 
 ![[parperpretaplano.png]]
@@ -106,7 +109,7 @@ Então, o paralelismo e a perpendicularidade entre um plano e uma reta depende d
   r\perp\pi\Leftrightarrow \vec{v}//\vec{n}\Leftrightarrow \vec{v}=\alpha\vec{n}
 >$$
 
-## Reta contida em um plano
+# Reta contida em um plano
 Uma reta $r$ está contida no plano $\pi$ se qualquer uma das duas condições forem verdadeiras:
 
 1. Dois pontos $A$ e $B$ de $r$ forem também de $\pi$
@@ -114,7 +117,7 @@ Uma reta $r$ está contida no plano $\pi$ se qualquer uma das duas condições f
 
 ![[retacontidanoplano.png]]
 
-## Intersecção de dois planos
+# Intersecção de dois planos
 A interseção entre dois planos é definida por uma reta $r$ que contém os pontos em comum entre os dois planos. Existem dois procedimentos para encontrar a intersecção entre dois planos:
 
 1. Como $r$ está contida nos dois planos, as coodernadas de qualquer ponto $(x,y,z) \in r$ devem satisfazer, simultâneamente, as equações de ambos os planos. Sendo assim podemos definir $r$ como um sistema de duas equações: as equações dos planos.
@@ -122,7 +125,7 @@ A interseção entre dois planos é definida por uma reta $r$ que contém os pon
 
 ![[intersecaodoisplanos.png]]
 
-## Ângulo entre reta e plano
+# Ângulo entre reta e plano
 Dada uma reta $r$ com vetor diretor $\vec{v}$ e um plano $\pi$ com vetor normal $\vec{n}$, o ângulo $\theta$ entre $r$ e $\pi$ é dado por:
 
 $$
@@ -130,10 +133,5 @@ $$
 $$
 
 
-## Intersecção de reta com plano
+# Intersecção de reta com plano
 Para determinar a intersecção de uma reta $r$ com um plano $\pi$ basta encontrar um ponto $A$ tal que $A\in r$ e $A\in\pi$ simultaneamente. Isso pode ser feito substituindo cada uma das variáveis da equação geral do plano pela uma [[A reta#Equações paramétricas|equação paramétrica da reta]] correspondente àquela coordenada. Dessa forma é possível encontrar um parâmetro $t$ que indica qual ponto da reta $r$ pertence também ao plano $\pi$.
-
----
-
-created: 10/04/2021
-modified: 10/04/2021

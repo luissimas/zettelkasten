@@ -1,4 +1,7 @@
-# Critério da integral
+---
+created-at: 2021-09-05
+tags:
+---
 O critério da integral nos permite verificar a convergência de séries manipulando os conceitos de [[Integrais definidas | integrais definidas]].
 
 > ***Integral imprópria convergente***
@@ -15,7 +18,3 @@ Note que com o *critério da integral* não é necessário encontrar uma série 
 1. A série deve ser representada por uma **função contínua**.
 2. Essa função contínua deve ser **decrescente**.
 3. Essa função deve ter uma [[Integrais indefinidas | primitiva]] calculável.
-
----
-
-created: 05/09/2021

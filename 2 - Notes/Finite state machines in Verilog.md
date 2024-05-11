@@ -1,4 +1,7 @@
-# Finite state machines in Verilog
+---
+created-at: 2020-12-01
+tags:
+---
 It's possible to implement [[Finite state machines|finite state machines]] in [[Verilog]] using the both [[Verilog#Behavioral|behavioral]] or [[Verilog#Structural|structural]] specification. Using the first one is (as always) more intuitive, but in this case can require more structures and specification. It's important to mention that when using the second, we have to do all the minimization and extraction of the logic functions in advance.
 Here we have a simple way of describing a *FSM* using the *behavioral* specification:
 ```verilog
@@ -58,8 +61,3 @@ module dff(
 	assign nq = !q;
 endmodule
 ```
-
----
-
-created: 01/12/2020
-modified: 01/12/2020

@@ -1,4 +1,7 @@
-# Estatísticas e suas distribuições
+---
+created-at: 2021-06-07
+tags:
+---
 Uma estatística é um **valor** ou conjunto de valores observáveis que resume a característica $X$ na amostra. As estatísticas serão utilizadas para realizar a inferência sobre os parâmetros desconhecidos da população.
 
 > ***Estatística***
@@ -16,7 +19,7 @@ Alguns exemplos de estatísticas:
 
 Note que todos esses exemplos são **funções** da amostra. Sendo assim, dadas amostras diferentes, as estatísticas podem assumir valores diferentes.
 
-## Distribuições conjuntas
+# Distribuições conjuntas
 As distribuições conjuntas descrevem a distribuição de um vetor composto por $n$ variáveis aleatórias.
 
 > ***Distribuição conjunta***
@@ -49,7 +52,7 @@ em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido e $p(x_1,\dots,x_n|
 > ***Amostra aleatória***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, seja $(X_1, X_2, \dots, X_n)$ uma amostra da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ com função de distribuição (ou densidade) de probabilidade $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \mathbb{R}$ é um parâmetro desconhecido. Dizemos que $(X_1, X_2, \dots, X_n)$ é uma **amostra aleatória** da variável aleatória $X$ quando $(X_1, X_2, \dots, X_n)$ é uma sequência de variáveis aleatórias independentes e com a mesma distribuição $p(x|\theta)$ (ou $f(x|\theta)$) da variável aleatória $X$.
 
-## Distribuições amostrais
+# Distribuições amostrais
 Dada uma estatística $T(X_1, \dots, X_n)$, chamamos a distribuição dessa estatística de *distribuição amostral*, ou seja, a *distribuição amostral* é a distribuição dos valores que a estatística assume para todas as possíveis amostras. Essa distribuição depende da distribuição da população, do tamanho da amostra e do método de seleção da amostra, isso faz com que seja muito difícil obter a distribuição exata das estatísticas, por essa razão trabalhamos com **distribuições aproximadas**.
 
 As seguintes relações são muito úteis, pois nos permitem relacionar a [[Esperança e variância de variáveis aleatórias|esperança e variância]] das variáveis com a esperança e variância amostrais.
@@ -64,7 +67,7 @@ As seguintes relações são muito úteis, pois nos permitem relacionar a [[Espe
 
 Com essas relações, podemos determinar a esperança e variância de diversas estatísticas a partir da esperança e variância de $X$.
 
-### Média amostral
+## Média amostral
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Se $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $E(X) = \mu$ e $Var(X) = \sigma^2$, então
 >$$
   E(\bar{X}) = \mu \qquad \text{e} \qquad Var(\bar{X}) = \frac{\sigma^2}{n}
@@ -92,7 +95,7 @@ Note que essa aproximação depende do tamanho da amostra $n$. Em geral, para $n
 
 Vale destacar que quando $(X_1, X_2, \dots, X_n)$ é uma amostra aleatória de uma variável aleatória com distribuição normal, então o *T.L.C.* é válido para qualquer $n$, ou seja, se $X$ tem distribuição normal, então $\bar{X}$ tem distribuição *exata* normal.
 
-### Proporção amostral
+## Proporção amostral
 Podemos utilizar o *T.L.C.* para aproximar também a distribuição da proporção amostral $\hat{p}$ pela [[Variáveis aleatórias contínuas#Distribuição normal|distribuição normal]]. Nesse caso temos:
 
 >$$
@@ -104,7 +107,3 @@ Portanto, para $n$ suficientemente grande, a distribuição *aproximada* de $\ha
 >$$
   \hat{p} \simeq Normal\left(p, \frac{p(1-p)}{n}\right)
 >$$
-
----
-
-created: 07/06/2021
