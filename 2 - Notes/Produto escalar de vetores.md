@@ -36,7 +36,7 @@ A partir disso é possível inferir uma condição para que dois vetores sejam [
 
 # Cálculo do ângulo de dois vetores
 Dados os vetores $\vec{u}$ e $\vec{v}$, o ângulo $\theta$ formado por esses dois vetores é dado por:
->$$\cos{\theta}=\frac{\vec{u}\cdot \vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
+$$\cos{\theta}=\frac{\vec{u}\cdot \vec{v}}{|\vec{u}|\cdot|\vec{v}|}$$
 
 # Ângulos diretores e cossenos diretores
 Seja o vetor $\vec{v}=x \vec{i}+y \vec{j}+z \vec{k}$, os *ângulos diretores* de $\vec{v}$ são os ângulos $\alpha$, $\beta$, $\gamma$ que $\vec{v}$ forma com os vetores $\vec{i}$, $\vec{j}$ e $\vec{k}$ respectivamente. Da mesma forma, os *cossenos diretores* de $\vec{v}$ são os cossenos desses ângulos diretores, ou seja, $\cos{\alpha}$, $\cos{\beta}$ e $\cos{\gamma}$.

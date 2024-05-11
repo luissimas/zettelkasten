@@ -20,9 +20,9 @@ Para provar uma conclusão que tem a forma condicional, por exemplo $p \implies 
 
 Esse método de prova é embasado no *Teorema da dedução*
 > Sejam $\delta$ e $\beta$ duas fórmulas bem-formadas (proposições válidas) e $\alpha_1,\dots, \alpha_n$ um conjunto de premissas. Então, as proposições $\alpha_1,\dots, \alpha_n$ e $\delta$ implicam logicamente $\beta$ se e somente se as proposições $\alpha_1,\dots, \alpha_n$ implicarem logicamente $\delta \implies \beta$, ou seja:
->$$
+$$
   \alpha_1, \alpha_2, \alpha_3, \dots, \alpha_n, \delta \vDash  \beta \quad \iff \quad \alpha_1, \alpha_2, \alpha_3, \dots, \alpha_n \vDash \delta \implies \beta
->$$
+$$
 
 # Prova indireta (redução ao absurdo)
 A prova indireta se baseia no princípio de que a partir de uma [[Semântica da lógica proposicional#Classificação de fórmulas|contradição]] pode-se deduzir qualquer proposição.
@@ -33,13 +33,13 @@ Para provar uma conclusão $\beta$ através de uma prova indireta, deve-se intro
 A *inferência por resolução* é um método simples e eficiente para inferir conclusões lógicas a partir de premissas. Ao contrário dos demais métodos de prova, esse não exige a aplicação direta de operações baseadas nas [[Cálculo proposicional#Regras de inferência|regras de inferência]] e [[Álgebra da lógica proposicional#Leis de equivalência|leis de equivalência]]. Ao invés disso, a inferência por resolução se baseia na manipulação de fórmulas na [[Álgebra da lógica proposicional#Formas normais|forma normal]], mais especificamente na [[Álgebra da lógica proposicional#Forma normal conjuntiva (FNC)|forma normal conjuntiva (FNC)]].
 
 >Dadas duas cláusulas $\alpha$ e $\beta$ e um literal $p$ tal que $p \in \alpha$ e $\neg p \in \beta$. Então
->$$
+$$
   \left\{ \alpha, \beta \right\} \vDash \text{resolvente}(\alpha, \beta; p)
->$$
+$$
 >Tal que
->$$
+$$
   \text{resolvente}(\alpha, \beta; p) = (\alpha - p) \cup (\beta - p)
->$$
+$$
 > Ou seja, o $\text{resolvente}$ é a cláusula obtida pela *união* de $\alpha$ e $\beta$ removendo-se o literal $p$ e seu complementar de ambas as cláusulas.
 
 O método de inferência por resolução é um método de inferência por **refutação**, ou seja, o objetivo é refutar a **conclusão** ou **todo o teorema**. Portanto, deve-se negar a conclusão (ou o teorema todo) e fazer sucessivas *regras de resolução* entre as cláusulas para eliminar os literais até chegar-se em uma cláusula vazia ($\text{nil}$ ).

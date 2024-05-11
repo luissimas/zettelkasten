@@ -29,9 +29,9 @@ A [[Técnicas dedutivas#Prova direta | prova direta]] é uma sequência de passo
 # Prova por contraposição
 A prova por contraposição se baseia no fato de que a afirmação "se $p$ então $b$" é [[Consequência e equivalência lógica#Equivalência lógica | logicamente equivalente]] a "se não $p$ então não $q$".
 
->$$
+$$
   p \implies q \equiv \lnot p \implies \lnot q
->$$
+$$
 
 A ideia desse tipo de prova é, dado um teorema na forma $p \implies q$, provar a validade de sua *contrapositiva* $\lnot p \implies \lnot q$.
 

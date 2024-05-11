@@ -12,9 +12,9 @@ Uma inconveniência da aplicação do critério da comparação é que a sua man
 
 > ***Critério da comparação no limite***
 > Dadas duas sequências numéricas $(a_n)$ e $(b_n)$ com $0 \leq a_n$ e $0 \leq b_n$, $\forall n$. Supondo $L$ tal que
->$$
+$$
 \displaystyle\lim_{n \to \infty}\frac{a_n}{b_n} = L
->$$
+$$
 > pode-se afirmar o seguinte com base no valor de $L$:
 > 1. $0<L<+\infty$: $\displaystyle\sum_{n=1}^{\infty}{a_n}$ converge $\iff$ $\displaystyle\sum_{n=1}^{\infty}{b_n}$ converge.
 > 2. $L = 0$: se $\displaystyle\sum_{n=1}^{\infty}{b_n}$ converge então $\displaystyle\sum_{n=1}^{\infty}{a_n}$ converge.

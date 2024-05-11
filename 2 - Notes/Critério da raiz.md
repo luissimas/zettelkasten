@@ -6,9 +6,9 @@ O critério da raiz nos permite determinar a convergência de uma série com bas
 
 > ***Critério da raiz***
 > Dada uma sequência numérica $(a_n)$ tal que $a_n > 0$, considera-se $L$ tal que:
->$$
+$$
   \lim_{n\to \infty}\sqrt[n]{a_n} = L
->$$
+$$
 > pode-se afirmar o seguinte com base no valor de $L$:
 > 1. $L > 1$: $\displaystyle\sum_{n = 1}^{\infty}{a_n}$ diverge.
 > 2. $L < 1$: $\displaystyle\sum_{n = 1}^{\infty}{a_n}$ converge.

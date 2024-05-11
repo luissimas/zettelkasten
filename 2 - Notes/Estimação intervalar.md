@@ -7,9 +7,9 @@ Os intervalos de confiança são obtidos a partir da [[Estatísticas e suas dist
 
 > ***Intervalo de confiança***
 > Dada uma amostra aleatória $(X_1, X_2, \dots, X_n)$ da variável aleatória $X$ que representa uma característica observável da população $\mathcal{P}$, tal que a função de distribuição (ou densidade) de probabilidade de $X$ é $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \Theta$ é um parâmetro populacional desconhecido. Se $\hat{\theta} = T(X_1,\dots,X_n)$ é um estimador de $\theta$ cuja [[Estatísticas e suas distribuições#Distribuições amostrais|distribuição amostral]] é conhecida, sempre é possível encontrar dois valores $t_1 := t_1(X_1,\dots,X_n)$ e $t_2 := t_2(X_1,\dots,X_n)$ tais que
->$$
+$$
   P(t_1 \leq \theta \leq t_2) = \gamma
->$$
+$$
 > em que $\gamma$ é o *coeficiente de confiança* do intervalo.
 
 Note que, para obter um intervalo de confiança, é necessário obter um estimador e sua distribuição. É natural então que bons estimadores produzam bons intervalos, e de fato produzem. Portanto, buscaremos sempre utilizar os [[Estimação pontual#Estimadores de máxima verossimilhança|estimadores de máxima verossimilhança]] para construir bons intervalos de confiança.
@@ -40,14 +40,14 @@ $$
 $$
 
 A partir disso, podemos construir dois intervalos de confiança. O primeiro é um intervalo conservador, geralmente utilizado para $n$ não suficientemente grande:
->$$
+$$
   \left[\hat{p} - \frac{z}{2\sqrt{n}}; \quad \hat{p} + \frac{z}{2\sqrt{n}}\right]
->$$
+$$
 
 O segundo é um intervalo mais preciso, porém depende de um $n$ suficientemente grande:
->$$
+$$
   \left[\hat{p} - z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}};\quad \hat{p} + z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\right]
->$$
+$$
 
 # Intervalos de confiança para a média de populações normais
 Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório, e $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ tal que $X \sim Normal(\mu, \sigma^2)$, $\mu \in \mathbb{R}$ e $\sigma^2 > 0$. Quando $\mu$ é **desconhecido** e $\sigma^2 = \sigma_0^2$ é **conhecido**, o estimador de máxima verossimilhança para $\mu$ é $\bar{X}$ e

@@ -7,9 +7,9 @@ tags:
 
 > ***Cláusula***
 > Uma cláusula é uma fórmula da forma
->$$
+$$
   \forall X_1 \forall X_2 \forall X_3 \dots \forall X_p(L_1 \lor L_2 \lor L_3 \lor \dots L_q)
->$$
+$$
 > Na qual cada $L_i (1 \leq i \leq q)$ é um literal e $X_1, X_2, X_3, \dots, X_p$ são todas variáveis que ocorrem nos literais $L_1, L_2, L_3, \dots, L_q$.
 > Ou seja, uma cláusula é uma *disjunção* de *literais*, com todas as variáveis sendo quantificadas **universalmente**.
 
@@ -20,9 +20,9 @@ tags:
 
 > ***Forma Normal Prenex (FNP)***
 > Uma fórmula $\alpha$ da [[Lógica de predicados|lógica de predicados]] está na *Forma Normal Prenex (FNP)* se e somente se $\alpha$ estiver na forma
->$$
+$$
   (Q_1X_1)(Q_2X_2)\dots(Q_nX_n)(M)
->$$
+$$
 > Em que cada $Q_i$, $i = 1,\dots n$ é um quantificador $\forall$ ou $\exists$, e $M$ é uma fórmula que não contém quantificadores (**matriz**).
 
 > ***Forma Normal Conjuntiva (FNC)***

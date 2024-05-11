@@ -31,9 +31,9 @@ Note que se os planos secantes passarem pelo vértice $O$, serão obtidas as cha
 # Equação geral
 De maneira geral, uma **cônica** pode ser expressa por uma *equação geral* no seguinte formato:
 
->$$
+$$
   Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
->$$
+$$
 
 Dessa forma, é possível definir uma cônica com cinco pontos no plano, ou seja, por qualquer conjunto de cinco pontos do plano sempre passa uma única curva cônica.
 
@@ -55,11 +55,11 @@ Em seguida, pode-se [[Resolução de sistemas lineares por escalonamento|resolve
 Dada a equação geral de uma cônica, podemos aplicar [[Rotação de eixos|rotação]] e [[Translação de eixos|translação]] de eixos no sistema cartesiano com o objetivo de simplificar essa equação.
 Primeiro aplica-se a [[Rotação de eixos|rotação]] com o objetivo de eliminar o termo misto $xy$. Após a rotação, a equação geral se transforma numa equação da seguinte forma:
 
->$$
+$$
   A'x'^2 + B'x'y' + C'y'^2 + D'x' + E'y' + F' = 0
->$$
+$$
 >onde:
->$$
+$$
 \begin{cases}
   A' = A\cos^2{\theta} + B\sin{\theta}\cos{\theta} + C\sin^2{\theta}\\
   B' = (C - A)\sin{2\theta} + B\cos{2\theta}\\
@@ -68,23 +68,23 @@ Primeiro aplica-se a [[Rotação de eixos|rotação]] com o objetivo de eliminar
   E' = E\cos{\theta - D\sin{\theta}}\\
   F' = F\\
 \end{cases}
->$$
+$$
 
 O objetivo aqui é eliminar o termo misto da equação geral, portanto precisamos obter um ângulo de rotação $\theta$ que possibilite $B' = 0$. Após obter $B' = 0$, devemos recalcular todos os coeficientes da equação com o ângulo de rotação adotado.
 
 Para auxiliar nos cálculos, já existem algumas relações a serem utilizadas:
->$$
+$$
   \sin{2\theta} = \frac{|B|}{H} \qquad\qquad \cos{2\theta} = \text{sign}\left( \frac{A-C}{B} \right) \frac{|A - C|}{H}
->$$
+$$
 >com
->$$
+$$
   H = \sqrt{B^2 + (A-C)^2}
->$$
+$$
 
 A partir disso podemos obter os outros elementos usando as seguintes relações fundamentais:
->$$
+$$
   \cos{2\theta} = 2 \cos^2{\theta} - 1 \qquad\qquad \sin^2{\theta} + \cos^2{\theta} = 1
->$$
+$$
 
 Após a rotação de eixos, aplica-se, se necessária, uma [[Translação de eixos|translação]] de eixos **completando os quadrados** da expressão, com o objetivo de eliminar os termos lineares. Após esse processo, obtém-se uma equação reduzida da cônica que possibilitará a sua identificação.
 
@@ -92,13 +92,13 @@ Após a rotação de eixos, aplica-se, se necessária, uma [[Translação de eix
 Existem alguns elementos associados às cônicas que não se alteram independente de rotações ou translações, portanto eles nos permitem identificar características das cônicas com base apenas nos valores dos seus parâmetros.
 Dada uma cônica de equação geral:
 
->$$
+$$
   Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
->$$
+$$
 
 Temos duas matrizes associadas à ela:
 
->$$
+$$
 Q =
 \begin{bmatrix}
   A & \frac{B}{2}\\
@@ -111,12 +111,12 @@ M =
   \frac{B}{2} & C & \frac{E}{2}\\
   \frac{D}{2} & \frac{E}{2} & F
 \end{bmatrix}
->$$
+$$
 
 E também um valor discriminante:
->$$
+$$
   \Delta = B^2 - 4AC = -\frac{1}{4}\det{(Q)}
->$$
+$$
 
 A partir dos valores de $\Delta$ e $\det{(M)}$ é possível **classificar** qualquer cônica dados apenas seus parâmetros, sem a necessidade de fazer rotações e translações para obter sua forma reduzida:
 

@@ -27,21 +27,21 @@ Note que, pela natureza do teste de hipótese, a veracidade da hipótese nunca p
 > ***Erro do tipo $I$ e do tipo $II$***
 > Dado um espaço de probabilidade $(\Omega, \mathcal{F}, P)$ associado a um experimento aleatório. Seja $(X_1, X_2, \dots, X_n)$ uma amostra aleatória da variável aleatória $X : \Omega \rightarrow \mathbb{R}$ que representa uma característica observável da população $\mathcal{P}$ de forma que sua função de distribuição (ou densidade de probabilidade) é $p(x|\theta)$ (ou $f(x|\theta)$), em que $\theta \in \Theta$ é um parâmetro populacional desconhecido. Suponha que desejamos testar a hipótese $H_0 : \theta = \theta_0$ contra a hipótese alternativa $H_1 : \theta \neq \theta_0$, em que $\theta_0 \in \Theta$ é um valor fixado e defina $R_1$ como sendo a região crítica do teste.
 > - O **erro do tipo $I$** é o erro que cometemos quando rejeitamos a hipótese nula $H_0$ quando ele é verdadeira. Indicamos por $\alpha$ a probabilidade de cometer esse erro, ou seja
->$$
+$$
   \alpha := P((X_1,\dots,X_n) \in \mathbb{R}_1|\theta = \theta_0)
->$$
+$$
 > - O **erro do tipo $II$** é o erro que cometemos quando não rejeitamos a hipótese nula $H_0$ quando ela é falsa. Indicamos por $\beta$ a probabilidade de cometer esse erro, ou seja
->$$
+$$
   \beta := P((X_1,\dots,X_n) \in \mathbb{R}_1|\theta \neq \theta_0)
->$$
+$$
 > A mesma definição vale para as hipóteses alternativas *unilaterais* $H_1 : \theta > \theta_0$ e $H_1 : \theta < \theta_0$, e para a hipótese alternativa simples $H_1 : \theta = \theta_0$. Nesses casos, a probabilidade do erro tipo $II$ é dada por
->$$
+$$
 \begin{aligned}
   &\beta := P((X_1,\dots,X_n) \in \mathbb{R}_1|\theta > \theta_0)\\
   &\beta := P((X_1,\dots,X_n) \in \mathbb{R}_1|\theta < \theta_0)\\
   &\beta := P((X_1,\dots,X_n) \in \mathbb{R}_1|\theta = \theta_0)
 \end{aligned}
->$$
+$$
 
 
 # Procedimento geral de um teste de hipóteses

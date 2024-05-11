@@ -8,10 +8,10 @@ Dado o plano cartesiano $xOy$, sendo $O$ a *origem* do sistema cartesiano, podem
 
 Dessa forma, definem-se as *fórmulas de translação* do ponto de um plano para outro:
 
->$$
+$$
   x = x' + h \qquad\text{e}\qquad y = y' + k
->$$
+$$
 >ou
->$$
+$$
   x' = x - h \qquad\text{e}\qquad y' = y - k
->$$
+$$

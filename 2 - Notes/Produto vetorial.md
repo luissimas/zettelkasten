@@ -52,7 +52,7 @@ O sentido do produto vetorial pode ser intuitivamente determinado através da *r
 A seguinte definição do módulo de um produto vetorial é obtida a partir da *identidade de Lagrange*.
 > Sendo $\theta$ o ângulo entre os vetores $\vec{u}$ e $\vec{v}$, então$$
 |\vec{u}\times \vec{v}|=|\vec{u}||\vec{v}|\sin{\theta}
->$$
+$$
 
 ![[areaparalelogramovetores.png]]
 

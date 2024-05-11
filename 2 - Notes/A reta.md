@@ -70,10 +70,10 @@ Uma reta é paralela a um dos eixos $Ox$, $Oy$ ou $Oz$ se os seus vetores direto
 # Ângulo de duas retas
 Sejam $r_1$ e $r_2$ duas retas com vetores diretores $\vec{v}_1$ e $\vec{v}_2$, respectivamente. O ângulo das duas retas $r_1$ e $r_2$ é o menor ângulo entre um vetor diretor de $r_1$ e um vetor diretor de $r_2$, ou seja, é igual a:
 
->$$
+$$
   \cos{\theta} = \frac{|\vec{v}_1 \cdot \vec{v}_2|}{|\vec{v}_1||\vec{v}_2|},
   \qquad \text{com}\quad 0 \leq \theta \leq \frac{\pi}{2}
->$$
+$$
 
 Veja que sempre consideramos o ângulo $\theta$ como um **ângulo agudo**.
 Note que isso deriva diretamente do [[Produto escalar de vetores#Cálculo do ângulo de dois vetores|cálculo do ângulo de dois vetores]].
@@ -81,16 +81,16 @@ Note que isso deriva diretamente do [[Produto escalar de vetores#Cálculo do ân
 # Retas ortogonais
 Duas retas $r_1$ e $r_2$ são ortogonais se seus vetores diretores $\vec{v}_1$ $\vec{v}_2$ [[Produto escalar de vetores#Definição geométrica|são ortogonais]], ou seja:
 
->$$
+$$
  r_1 \perp r_2 \Leftrightarrow \vec{v}_1 \cdot \vec{v}_2 = 0
->$$
+$$
 
 # Reta ortogonal a duas retas
 Sendo $r_1$ e $r_2$ retas não paralelas, com vetores diretores $\vec{v}_1$ $\vec{v}_2$, uma terceira reta $r$ com vetor diretor $\vec{v}$ será ortogonal as duas outras quando:
 
->$$
+$$
   \vec{v}=\vec{v}_1 \times \vec{v}_2
->$$
+$$
 
 Ou seja, basta fazer o [[Produto vetorial|produto vetorial]] entre os vetores diretores das retas.
 

@@ -27,14 +27,14 @@ Os *componentes* de $\vec{v}$ na base *canônica* são chamados de *abcissa* ($x
 
 # Operações com vetores
 Sejam os vetores $\vec{u}=(x_1,y_1)$ e $\vec{v}=(x_2,y_2)$, com $a\in\mathbb{R}$ temos as seguintes operações:
->$$
+$$
 \begin{align}
   \vec{u}+\vec{v}&=(x_1+x_2,y_1+y_2)\\
    \alpha \vec{u}&=(\alpha x_1,\alpha y_1)\\
    -\vec{u}&=(-x_1,-y_1)\\
    \vec{u}-\vec{v}&=(x_1-x_2,y_1-y_2)
 \end{align}
->$$
+$$
 
 # Vetor definido por dois pontos
 > Dado um vetor $\overrightarrow{AB}$ de origem no ponto $A(x_1,x_2)$ e extremidade em $B(x_2,y_2)$, podemos definir $\overrightarrow{AB}$ como$$\overrightarrow{AB}=(x_2-x_1,y_2-y_1)$$
@@ -50,18 +50,18 @@ Considerando a base canônica, um vetor tem infinitos representantes. Dentre tod
 
 # Ponto médio
 Dado um segmento de extremos $A(x_1,y_1)$ e $B(x_2,y_2)$, o ponto médio de $AB$ é dado por
->$$M\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right)$$
+$$M\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right)$$
 
 # Paralelismo de dois vetores
 Dois vetores são paralelos quando *suas componentes forem proporcionais*, ou seja: se dois vetores $\vec{u}=(x_1,y_1)$ e $\vec{v}=(x_2,y_2)$ são paralelos, existe um número real $\alpha$ tal que $\vec{u}=\alpha \vec{v}$. Esse número $\alpha$ é dado por
->$$\alpha=\frac{x_1}{x_2}=\frac{y_1}{y_2}$$
+$$\alpha=\frac{x_1}{x_2}=\frac{y_1}{y_2}$$
 
 # Módulo de um vetor
 Seja o vetor $\vec{v}=(x,y)$, pelo *teorema de Pitágoras* é possível afirmar que:
->$$|\vec{v}|=\sqrt{x^2+y^2}$$
+$$|\vec{v}|=\sqrt{x^2+y^2}$$
 
 Com base nisso, podemos inferir que a distância entre dois pontos $A(x_1,y_1)$ e $B(x_2,y_2)$, ou seja, o comprimento do vetor $\overrightarrow{AB}$ é dado por:
->$$ d(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$
+$$ d(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$
 
 # Vetor unitário
 Dado um vetor $\vec{v}$, é possível associa-lo a dois vetores unitários paralelos: $\frac{\vec{v}}{|\vec{v}|}$ e $-\frac{\vec{v}}{|\vec{v}|}$
