@@ -1,9 +1,0 @@
-{
-  "commitMessage": "backup: {{date}}",
-  "commitDateFormat": "DD/MM/YYYY_HH:mm",
-  "autoSaveInterval": 0,
-  "autoPullOnBoot": true,
-  "disablePopups": false,
-  "currentBranch": "master",
-  "remote": "origin"
-}

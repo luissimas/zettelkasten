@@ -1,0 +1,100 @@
+#+title: Engenharia de Software
+
+A Engenharia de Software tem como objetivo a definição e aplicação de uma /abordagem sistemática/ para o desenvolvimento, manutenção e operação de software.
+
+* Modelos de processo de software
+Os modelos de processo de software consistem em uma padronização das etapas to processo de desenvolvimento de software, contemplando as fases de definição, desenvolvimento e manutenção do software.
+
+Ao longo da história foram desenvolvidos alguns modelos na tentativa de sistematizar os processos envolvidos no desenvolvimento de software.
+
+** Modelo cascata
+O modelo cascata é o modelo mais antigo e amplamente utilizado na engenharia de software, se baseando fortemente no ciclo da engenharia convencional, esse modelo propõe uma abordagem sistemática e *sequencial* ao desenvolvimento de software.
+
+#+caption: Diagrama representando o processo de desenvolvimento usando um modelo cascata.
+#+attr_org: :width 500
+[[../Attachments/ES/modelocascata.png]]
+
+O problema desse modelo é que geralmente os requisitos do projeto não estão bem definidos no início, e podem ser alterados durante o desenvolvimento do projeto. Isso torna a abordagem sequencial um tanto quanto *artificial* quando se trata de desenvolvimento de software, pois as etapas muitas vezes precisam ser refeitas por conta de *alterações nos requisitos*. Outro problema é o da *dependência entre tarefas* criada por essa abordagem, causando ociosidade entre os diferentes atores envolvidos no processo de desenvolvimento.
+
+** Modelos evolutivos
+Os modelos evolutivos oferecem uma abordagem *iterativa* e *incremental* para o desenvolvimento de software. Essa abordagem se adéqua ao fato dos requisitos do software mudarem constantemente.
+
+*** Prototipação
+Esse modelo de processo se baseia na criação de um *modelo de software (protótipo)* antes do início do desenvolvimento. Esse protótipo é uma ferramenta de comunicação com o cliente para identificar os requisitos mais específicos do software. A ideia do modelo é, com base nos requisitos do cliente, desenvolver um protótipo e então refinar esse protótipo iterativamente até que os requisitos estejam bem definidos, para então iniciar o desenvolvimento do produto final.
+
+*** Espiral
+Esse modelo une a natureza iterativa da *prototipação* com os aspectos sistemáticos do *modelo cascata*. A ideia é trabalhar em ciclos curtos de desenvolvimento sequencial, todos com entregas intermediárias ao cliente. Em cada momento de interação com o cliente, os requisitos são refinados e uma nova versão pode ser desenvolvida de acordo com uma visão mais clara do software.
+
+** Métodos ágeis
+Os métodos ágeis são os métodos mais recentes de desenvolvimento de software, propondo uma abordagem menos rígida e sistemática. Esses métodos priorizam entregas rápidas e flexíveis, com a separação de tarefas independentes e entregas intermediárias ao cliente.
+
+O *Manifesto Ágil* foi o marco do surgimento desses processos de desenvolvimento, e nele são enunciados os quatro pilares da metodologia ágil:
+
+- *Individuals and interactions* over processes and tools.
+- *Working software* over comprehensive documentation.
+- *Customer collaboration* over contract negotiation.
+- *Responding to change* over following a plan.
+
+Dentro da categoria de métodos ágeis existem diversos métodos mais específicos, mas em geral todos eles partilham as seguintes características:
+
+- Ciclos curtos de desenvolvimento
+- Planejamento do ciclo corrente
+- Equipes de pequeno porte
+- Testes automatizados
+- Controle de versões
+
+*** Scrum
+Dentre todos os métodos de desenvolvimento de software, o método scrum é o mais utilizado atualmente. A ideia é, após uma definição de escopo e levantamento de requisitos inicial, planejar ciclos curtos (1-2 semanas) de desenvolvimento chamadas de /sprints/. Ao final de algumas sprints, deve-se ter algum produto entregável para o cliente.
+
+#+caption: Processo de desenvolvimento em um modelo scrum.
+#+attr_org: :width 500
+[[../Attachments/ES/scrum.png]]
+
+Nesse método o processo de review é altamente valorizado, com reuniões diárias (/daily scrums/) e revisões ao final de cada sprint. Isso proporciona uma melhoria iterativa não só no software sendo desenvolvido mas também nos processos adotados para o desenvolvimento do mesmo.
+
+* Especificação de requisitos
+Os requisitos de software descrevem as *funcionalidades* e, consequentemente, *definem o escopo* de um sistema de software. Dessa forma, é fundamental para as demais etapas do processo de desenvolvimento do software que os requisitos sejam coerentes e bem definidos.
+
+#+begin_quote
+The requirements for a system are the descriptions of what the system should do - the services that it provides and the constraints on its operation.
+#+end_quote
+
+A /engenharia de requisitos/ é uma área da engenharia de software que consiste em identificar e especificar os requisitos de um projeto de software.
+
+** Tipos de requisitos
+Existem diversos tipos de requisitos, e eles podem ser classificados de acordo com o contexto e ponto de vista do qual são observados.
+
+Do ponto de vista do nível de detalhamento:
+
+- Os requisitos em *nível de usuário* são declarações sobre as funções que o sistema deve fornecer e as restrições sob as quais ele deve operar. Esses requisitos são declarados em *alto nível*, sem detalhamentos técnicos, mas sim com as funcionalidades disponíveis para o usuário final. Esses requisitos são voltados para os *usuários finais* e pessoas envolvidas na gerência do desenvolvimento do projeto.
+- Os requisitos em *nível de sistema* consistem em um documento estruturado como *descrições detalhadas* das funcionalidades do software. Geralmente esse tipo de requisito é escrito como um contrato entre o cliente e o fornecedor de software. Esse tipo de requisito é mais voltado para os *desenvolvedores do software*, que necessitam de um maior detalhamento das funcionalidades requeridas para estruturar e planejar o desenvolvimento.
+
+Do ponto de vista das funcionalidades:
+
+- Os *requisitos funcionais* descrevem a funcionalidade ou os serviços do sistema, geralmente na forma de declarações das funções e como o sistema deve se comportar em situações específicas.
+- Os *requisitos do domínio* são requisitos que são próprios do domínio da aplicação e que refletem características específicas desse domínio. Eles podem ser tanto novos requisitos funcionais, restrições sobre requisitos existentes ou detalhamentos sobre funcionalidades específicas.
+- Os *requisitos do sistema* são relacionados a infraestrutura de execução do sistema. Geralmente definem as tecnologias e plataformas nas quais o sistema será executado.
+- Os *requisitos não-funcionais* são requisitos que expressam qualidades e restrições sobre as funcionalidades do sistema. Geralmente esses requisitos definem restrições de tempo, segurança e qualidade de funcionamento do software.
+
+* Modelagem de casos de uso
+O *modelo de casos de uso (MCU)* é uma representação do sistema em termos das *funcionalidades* oferecidas ao usuário. Fundamentalmente, o modelo de casos de uso descreve os *requisitos funcionais* do sistema.
+
+Um caso de uso é a especificação de uma *sequência de interações* entre o sistema e os agentes externos (atores) sem detalhamentos da implementação das funcionalidades que proporcionam essas interações.
+
+Um MCU geralmente é composto por dois elementos:
+
+- Um *diagrama de casos de uso* (geralmente modelado em /UML/) fornece uma visão geral e de alto nível do sistema e suas funcionalidades.
+- Uma *descrição do caso de uso* especifica e detalha de maneira textual cada caso de uso do sistema.
+
+* Diagrama de sequência de sistema
+O diagrama de sequência de sistema descreve, em alto nível, os principais *eventos que ocorrem em um caso de uso*. A ideia é descrever como se dá a interação entre os atores e o sistema em cada funcionalidade especificada como caso de uso. Esse tipo de diagrama basicamente apresenta as informações detalhas na descrição textual de um caso de uso de uma forma visual.
+
+#+caption: Principais elementos de um diagrama de sequência de sistema.
+#+attr_org: :width 500
+[[file:~/dox/vault/Attachments/ES/DSS.png]]
+
+* Modelo de classes de domínio
+Um *diagrama de classes* representa a estrutura do sistema em termos de classes, explicitando as relações e interações entre as mesmas. Esse tipo de diagrama é fortemente baseado em noções de orientação a objetos, sendo possível descrever entidades, atributos e comportamentos em termos de classes e seus componentes.
+
+* Modelagem de estados
+Os objetos de um sistema de software sempre se encontram em um determinado *estado* no contexto do sistema. A modelagem de estados consiste na identificação dos estados possíveis para um dado objeto, suas *transições* para outros estados e os *eventos* que provocam essas transições.

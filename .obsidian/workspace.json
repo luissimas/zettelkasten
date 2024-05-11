@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "1d7efd52d19c1d65",
+    "type": "split",
+    "children": [
+      {
+        "id": "4aacbb7eefb99576",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70a978302e35bbe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Notes/Note taking as a feedback tool.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0a990db1b9ba14c",
+    "type": "split",
+    "children": [
+      {
+        "id": "770ef43cd6c16a87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "caa448c9373b2730",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6245ea18b427699c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1bdc5779fcd35c8d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "38b38f8980b9bea9",
+    "type": "split",
+    "children": [
+      {
+        "id": "84eb94bd87b4c3b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a93aebdf6daff469",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2 - Notes/Note taking as a feedback tool.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "74b81451631372d0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2 - Notes/Note taking as a feedback tool.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1e2ff9db1fde01c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b3e5e38a55764ebc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2 - Notes/Note taking as a feedback tool.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "caa448c9373b2730",
+  "lastOpenFiles": [
+    "README.md",
+    "Untitled.canvas",
+    "3 - Indexes/Web Development MOC.md",
+    "3 - Indexes/UFSCar MOC.md",
+    "3 - Indexes/SO MOC.md",
+    "3 - Indexes/Programming MOC.md",
+    "3 - Indexes/ProbEst MOC.md",
+    "3 - Indexes/FIL MOC.md",
+    "3 - Indexes/GA MOC.md",
+    "3 - Indexes/CDS MOC.md",
+    "3 - Indexes/Arq1 MOC.md",
+    "3 - Indexes/AED1 MOC.md",
+    "2 - Notes/Tipos abstratos de dados.md",
+    "1 - Inbox/Teste.md",
+    "2 - Notes/A reta.md",
+    "1 - Inbox/202405111114 Teste.md",
+    "5 - Templates/Note.md",
+    "1 - Inbox/202405111118 asdfkjl.md",
+    "2 - Notes/Adjetivos.md",
+    "2 - Notes/Assembly.md",
+    "Notes/202405111105 Teste sei lá o que.md",
+    "Templates/note_template.md",
+    "2 - Notes/Untitlteste.md",
+    "1 - Inbox",
+    "2 - Notes/Untitled 1.md",
+    "2 - Notes/Untitled 2.md",
+    "2 - Notes/Untitled.md",
+    "4 - Attachments/LD/Fundamentals_of_Digital_Logic.pdf",
+    "Excalidraw",
+    "Pasted image 20240510084932.png",
+    "4 - Attachments/FIL/A Estrutura das Revoluções Científicas .pdf"
+  ]
+}

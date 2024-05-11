@@ -1,6 +1,5 @@
 [
-  "templater-obsidian",
-  "obsidian-hider",
-  "obsidian-git",
-  "sliding-panes-obsidian"
+  "obsidian-excalidraw-plugin",
+  "obsidian-minimal-settings",
+  "table-editor-obsidian"
 ]

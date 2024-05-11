@@ -1,5 +1,7 @@
 {
-  "theme": "moonstone",
-  "cssTheme": "Cidreira Coast",
-  "baseFontSize": 16
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Iosevka",
+  "showViewHeader": true,
+  "nativeMenus": false
 }

@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"b66cf970d58e6a02","type":"file","file":"2 - Notes/Diferenciabilidade de funções de várias variáveis.md","x":-660,"y":-300,"width":400,"height":400},
+		{"id":"0e305b385872c4f7","type":"file","file":"2 - Notes/Derivação em cadeia e implícita.md","x":60,"y":-420,"width":400,"height":400},
+		{"id":"bbfbece06883e4f0","type":"text","text":"Será?","x":610,"y":-360,"width":250,"height":60,"color":"4"},
+		{"id":"a59a728dea632acf","type":"file","file":"2 - Notes/Karl Popper.md","x":-980,"y":440,"width":520,"height":600},
+		{"id":"a377e13bfa64a59e","type":"file","file":"4 - Attachments/FIL/KarlPopper_ALogicaDaPesquisaCientifica.pdf","x":-100,"y":320,"width":880,"height":480},
+		{"id":"786bbed1d5ba179d","type":"file","file":"2 - Notes/Thomas Kuhn.md","x":60,"y":920,"width":681,"height":650},
+		{"id":"e65f8780212704a6","type":"file","file":"4 - Attachments/FIL/A Estrutura das Revoluções Científicas .pdf","x":-900,"y":1200,"width":560,"height":550},
+		{"id":"b9b026658b90701e","type":"file","file":"2 - Notes/Flip-Flops.md","x":-1762,"y":320,"width":562,"height":520,"color":"1"},
+		{"id":"c5d3bfe01acf1543","type":"file","file":"4 - Attachments/LD/Tflip-flops.png","x":-1582,"y":1000,"width":382,"height":400,"color":"4"}
+	],
+	"edges":[
+		{"id":"cef6e329d37d891f","fromNode":"b66cf970d58e6a02","fromSide":"right","toNode":"0e305b385872c4f7","toSide":"left"},
+		{"id":"f5b5fb84c9fb84d5","fromNode":"bbfbece06883e4f0","fromSide":"right","toNode":"0e305b385872c4f7","toSide":"bottom","color":"6","label":"implica"},
+		{"id":"e42be982f97b13a6","fromNode":"a59a728dea632acf","fromSide":"right","toNode":"a377e13bfa64a59e","toSide":"left","label":"Escreveu"},
+		{"id":"3151423428a3eec9","fromNode":"786bbed1d5ba179d","fromSide":"left","toNode":"e65f8780212704a6","toSide":"right","label":"Escreveu"},
+		{"id":"8027cd5eeb9e547b","fromNode":"786bbed1d5ba179d","fromSide":"left","toNode":"a59a728dea632acf","toSide":"right","fromEnd":"arrow","label":"Debate"},
+		{"id":"35bcf99058fca6f4","fromNode":"b9b026658b90701e","fromSide":"bottom","toNode":"c5d3bfe01acf1543","toSide":"top"}
+	]
+}

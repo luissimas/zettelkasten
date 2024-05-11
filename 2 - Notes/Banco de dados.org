@@ -1,0 +1,345 @@
+#+title:Banco de dados
+
+Disciplina dividida em várias partes com diferentes professores, cobrindo desde os conceitos teóricos básicos até linguagem SQL e manutenção de banco de dados.
+
+* Conceitos básicos
+Um banco de dados é uma coleção de dados organizados de uma forma coerente e relacionados entre si. Usualmente bancos de dados são implementados como uma forma de manter um único repositório de dados que podem ser acessados por vários usuários por meio de consultas, transações e outros programas de aplicação.
+
+Em geral, as principais características da abordagem de banco de dados que a diferem da abordagem de processamento de arquivos são:
+
+- *Natureza auto-descritiva:* além dos dados, um banco de dados armazena também a estrutura desses dados e suas restrições, isso é feito através de /metadados/.
+- *Abstração de dados:* a ideia dos bancos de dados é criar uma abstração sobre o armazenamento dos dados no computador, permitindo um desacoplamento entre dados, sua estrutura, e as operações a serem realizadas sobre os mesmos.
+- *Suporte a múltiplas visões dos dados:* bancos de dados fornecem ferramentas para consultar apenas a parte dos dados e relacionamentos relevantes a uma determinada necessidade, derivando dados a partir dos dados armazenados e os disponibilizando para consulta.
+- *Compartilhamento de dados e processamento de transação multiusuário:* um ponto crucial da implementação de banco de dados é o controle de acesso e concorrência para garantir a integridade da base de dados mesmo com o acesso simultâneo de vários usuários.
+
+Um /SGBD (Sistema de Gerenciamento de Banco de Dados)/ é um programa (ou conjunto de programas) responsável por criar e manter um banco de dados. Através do /SGBD/ é possível realizar consultas, fazer alterações e lidar com a manutenção geral de uma base de dados.
+
+#+caption: Diagrama simplificado de um ambiente de sistema de banco de dados.
+#+attr_org: :width 300
+[[../Attachments/BD/bancodedados.png]]
+
+** Modelos de dados
+Um dos objetivos fundamentais do banco de dados é oferecer um nível de *abstração sobre os dados* armazenados, permitindo que os usuários possam acessar os dados relevantes sem se preocupar com detalhes de organização e implementação. Um *modelo de dados* oferece os meios necessários para se atingir essa abstração através de uma coleção de conceitos usados para descrever a estrutura de um banco de dados. A *estrutura* de um banco de dados consiste nos tipos, relacionamentos e restrições que se aplicam aos dados armazenados. É comum que os modelos também incluam *operações básicas* para especificar ações sobre os dados.
+
+Existem muitos modelos propostos, cada um utilizando de uma classe de conceitos e atuando em diferentes níveis de abstração.
+
+*** Modelos conceituais
+Esses modelos oferecem o mais *alto nível de abstração*. Utilizando conceitos como /entidades/, /atributos/ e /relacionamentos/, esse tipo de modelo oferece uma representação geral dos dados a serem armazenados e suas relações. Um dos modelos mais utilizados nessa categoria é o *modelo entidade-relacionamento*.
+
+*** Modelos de dados representativos
+Os modelos de dados representativos ainda tem um alto nível de abstração, mas são mais descritivos e possuem mais detalhes de implementação. Geralmente utilizados nos SGBDs, esses modelos representam os dados usando *estruturas de registros*, com uma definição mais detalhada dos campos a serem armazenados. O *modelo de dados relacional* é um exemplo amplamente utilizado dessa classe de modelos.
+
+*** Modelos de dados de objeto
+Com um nível de abstração mais próximo dos modelos conceituais, esses modelos são amplamente utilizados em *bancos de dados de objeto*.
+
+*** Modelos de dados físicos
+Esses modelos descrevem os *detalhes do armazenamento* dos dados como arquivos no computador. A descrição desses modelos incluem informações como formatos de registro, ordenação, caminhos de acesso (indexação ou hashing) e outros detalhes de implementação do armazenamento dos dados.
+
+*** Modelos de dados auto-descritivo
+Nos modelos de dados auto-descritivos o armazenamento dos dados combina a descrição com os próprios valores (não há uma separação entre esses dois, como tradicionalmente é feito). Esses modelos incluem principalmente os *armazenamentos de chave-valor* e sistemas *NOSQL*.
+
+** Esquemas e instâncias
+É de extrema importância distinguir entre a /descrição/ do banco de dados e o /próprio banco de dados/. A descrição de um banco de dados é chamada de *esquema do banco de dados*, que é especificada antes da criação do banco em si, e é armazenada pelo SGBD como metadados. A representação de um esquema é geralmente feita através de um *diagrama de esquema*, que apresenta a estrutura de cada tipo de registro, geralmente contendo os itens de dados, e alguns tipos de restrições. Cada objeto no esquema é chamado de *construtor do esquema*.
+
+#+caption: Um exemplo de diagrama de esquema.
+#+attr_org: :width 400
+[[../Attachments/BD/diagramadeesquema.png]]
+
+Os dados armazenados em um banco de dados são chamados de *estado* ou *instante (snapshot)* do banco de dados. Em um estado do banco de dados, cada construtor tem o próprio /conjunto de instâncias atuais/, que é o conjunto de registros daquela entidade.
+
+Vale notar que o *estado* do banco é *alterado com frequência*, a cada inserção, remoção ou atualização de um registro, um novo estado é gerado. Em contrapartida, o *esquema* é *alterado com pouca frequência*, pois geralmente sua alteração é necessária apenas com alguma mudança de requisitos da aplicação.
+
+** Arquitetura de três esquemas
+A /arquitetura de três esquemas (arquitetura ANSI/SPARC)/ tem por objetivo separar as aplicações do usuário do banco de dados físico, criando três níveis:
+
+1. O *nível interno* diz respeito à estrutura do armazenamento físico do banco de dados, utilizando um *esquema interno* para descrever os detalhes de armazenamento e os caminhos de acesso para os dados.
+2. O *nível conceitual* tem um *esquema conceitual* que descreve a estrutura do banco de dados, ocultando os detalhes de armazenamento e fornecendo uma descrição das entidades, tipos de dados, relacionamentos, operações e restrições. Esse nível geralmente utiliza um *modelo de dados representativo* para descrever o esquema conceitual.
+3. O *nível externo* ou *de visão* inclui as visões do usuário, isto é, *esquemas externos* que descrevem a parte do banco de dados que um determinado grupo de usuários pode acessar.
+
+#+caption: A arquitetura de três esquemas.
+#+attr_org: :width 500
+[[../Attachments/BD/arquiteturatresesquemas.png]]
+
+Note que os três esquemas são apenas *descrições dos dados*, não os dados armazenados em si. Dessa forma, cada solicitação de um usuário em uma visão externa deve ser transformada para uma solicitação no esquema conceitual, que por sua vez deve ser transformada para uma solicitação ao esquema interno para então ser de fato processada e os dados acessados. Esses processos de transformação de requisições e resultados entre os níveis são chamados de *mapeamentos*.
+
+*** Independência de dados
+A independência de dados é a capacidade de alterar um esquema em um nível do sistema sem criar a necessidade de alteração do esquema do próximo nível superior. Em geral existem dois tipos de independência de dados:
+
+1. *Independência lógica de dados* é a capacidade de alteração do *esquema conceitual* sem a alteração dos esquemas externos ou programas de aplicação. Alterações no esquema conceitual geralmente compreendem a alteração de restrições ou a adição de campos em registros.
+2. *Independência física de dados* é a capacidade de alterar o *esquema interno* sem a necessidade de alteração do esquema conceitual. Geralmente alterações no esquema interno compreendem otimizações de estruturas de acesso para melhoras o desempenho de consultas. Tais mudanças não devem afetar o esquema conceitual dos dados.
+
+Note que a *independência lógica* de dados é significativamente *mais difícil* de ser alcançada do que a independência física, pois os esquemas externos dependem fortemente do esquema conceitual, dependência essa que não ocorre entre o esquema conceitual e o esquema físico.
+
+** Interfaces de banco de dados
+Os SGBDs devem oferecer interfaces para a interação dos usuários com o banco de dados, sejam eles consumidores finais, programadores ou DBAs.
+
+Um SGBD pode oferecer diversas linguagens para a interação com diferentes níveis do banco de dados. É possível que haja linguagens como: /DLL (Data Definition Language)/, /SDL (Storage Definition Language)/ , /VDL (View Definition Language)/ e /DML (Data Manipulation Language)/. Entretanto, a maioria dos SGBDs atuais não fazem distinção entre essas linguagens, muito pelo contrário: uma linguagem abrangente (como a linguagem SQL) é usada na definição do esquema conceitual, definição das visões e manipulação de dados.
+
+Existem dois tipos de DML. As DMLs de *alto nível* ou *não procedural* são declarativas e utilizadas para especificar operações complexas de forma concisa. As DMLs de *baixo nível* ou *procedural* são geralmente embutidas em linguagens de programação de uso geral. Esse tipo de DML recupera apenas registros individuais e os processa separadamente. Sempre que comandos DML de alto ou baixo nível são incorporados em uma linguagem de programação de uso geral, ela é chamada de *linguagem hospedeira* e a DML é chamada de *sublinguagem de dados*. Quando uma DML de alto nível é usada de maneira interativa ela é chamada de *linguagem de consulta*.
+
+É comum também que existam interfaces mais amigáveis para os usuários, geralmente através de programas externos ou até mesmo de interfaces do próprio SGBD. Essas interfaces geralmente são gráficas e apresentam menus e uma forma de visualização dos dados menos estruturada e adaptada para as necessidades do usuário.
+
+** Ambiente do sistema de banco de dados
+SGBDs são sistemas de software extremamente complexos, formados por diversos componentes. Os componentes que formam o SGBD e os diversos sistemas externos com os quais ele interage compõe o ambiente do SGBD.
+
+#+caption: Módulos componentes de um SGBD.
+#+attr_org: :width 500
+[[../Attachments/BD/modulossgbd.png]]
+
+Na figura é possível observar uma separação entre as diferentes interfaces de usuário e suas camadas intermediárias (otimizadores de consulta, pré compiladores etc) e a camada comum do banco de dados. O *processador de banco de dados* é responsável por *executar* de fato os comandos recebidos. O *gerenciador de dados* armazenados controla o acesso às informações armazenadas e geralmente é responsável pela *interação com os mecanismos de entrada e saída* do sistema operacional.
+
+Além dos componentes principais, existem ainda diversos outros *componentes utilitários* que auxiliam no gerenciamento do banco de dados. Esses utilitários fornecem ferramentas para diversas tarefas comuns, como: backup, exportação de dados para outro SGBD, reorganização do armazenamento, otimização dos caminhos de acesso, monitoração de desempenho etc.
+
+** Arquitetura cliente/servidor para SGBDs
+As arquiteturas de SGBDs têm seguido as tendências de arquitetura de sistemas de computação em geral. As *primeiras arquiteturas eram centralizadas* e consistiam em um mainframe para oferecer os serviços principais do SGBD a vários terminais conectados. Entretanto, com a melhoria na capacidade de processamento de computadores pessoais, a arquitetura cliente/servidor começou a se popularizar, chegando até aos sistemas de gerenciamento de banco de dados.
+
+A primeira mudança foi uma separação dos componentes do SGBD entre cliente e servidor. As *interfaces* com o usuário e os *programas* de aplicação foram movidos para o *lado do cliente*, enquanto as funcionalidades relacionadas ao processamento de consultas e transações permaneceram no lado do servidor. Nesse tipo de arquitetura o servidor muitas vezes é chamado de servidor de *consulta*, *transação* e até mesmo de *servidor SQL*. A comunicação entre cliente e servidor é dada através de um padrão de drivers chamado de *ODBC* (/Open Database Connectivity/), que oferece uma *API* para que os programas no cliente interajam com o SGBD. Arquiteturas de SGBD com essas características são chamadas de *arquiteturas de duas camadas*, pois os componentes do SGBD são distribuídos entre dois sistemas: cliente e servidor.
+
+A popularização da /web/ criou novas necessidades nos sistemas computacionais dessa área, dando origem à *arquitetura de três camadas*, que acrescenta uma camada intermediária entre o cliente e o servidor de banco de dados. Essa *camada intermediária* é chamada de *servidor de aplicação* (ou servidor web). Esse servidor intermediário é responsável por lidar com as diversas regras de negócio envolvidas no sistema.
+
+#+caption: Arquitetura cliente/servidor em três camadas
+#+attr_org: :width 400
+[[../Attachments/BD/arquiteturaclienteservidor.png]]
+
+Dessa forma, os programas de cliente *não interagem diretamente* com o servidor de banco de dados, e sim com o servidor de aplicação, que por sua vez se torna um cliente do servidor de banco de dados. Isso tem algumas implicações interessantes, como a melhora da segurança no sentido de que agora o servidor intermediário pode fornecer uma camada de autenticação dos usuários e validar as solicitações processadas.
+
+* Modelagem conceitual de dados
+O desenvolvimento de uma aplicação de banco de dados é uma tarefa que envolve diversas etapas, desde o *levantamento de requisitos* até a implementação das operações disponíveis sobre os dados. Nesse sentido, o desenvolvimento de uma aplicação de banco de dados está muito ligado ao desenvolvimento de software em geral, empregando técnicas que muitas vezes são do campo da engenharia de software.
+
+#+caption: As principais fases do projeto de banco de dados
+#+attr_org: :width 500
+[[file:../Attachments/BD/fasesprojetodebancodedados.png]]
+
+O levantamento de requisitos tem como objetivo entender e estruturas as necessidades dos usuários do sistema, resultando em *requisitos de dados* e *requisitos funcionais*, que especificam as entidades envolvidas no sistema e as operações (transações) que serão aplicadas a essas entidades.
+
+Após o levantamento de requisitos, inicia-se a criação de um *esquema conceitual* para o banco de dados. O esquema conceitual usa de um *modelo de dados de alto nível* para *representar os requisitos* e incluir detalhes de tipos de entidade, relacionamentos e restrições.
+
+Feito o projeto conceitual, a próxima etapa é a *implementação* do banco de dados usando algum SGBD. Dessa forma o esquema conceitual é transformado em um modelo de dados de implementação específica do SGBD.
+
+** Modelo Entidade-Relacionamento (ER)
+O modelo ER define o esquema conceitual do banco de dados fazendo uso de três componentes principais: /entidades/, /atributos/ e /relacionamentos/.
+
+*** Entidades
+Uma *entidade* é uma coisa ou objeto (físico ou conceitual) com uma *existência independente*. Um *tipo de entidade* define, através de um *esquema*, uma estrutura para um conjunto de entidades, enquanto o *conjunto de entidades* se refere à coleção de todas as entidades de um determinado tipo armazenadas no banco.
+
+Tipos de entidade que não possuem atributos-chave próprios são chamados *tipos de entidade fraca*. As entidades pertencentes a esses tipos são *identificadas pelos seus relacionamentos* com outras entidades. Os tipos de entidades que se relacionam e identificam um tipo de entidade fraca são chamados de *tipos de entidade de identificação* ou *proprietário*. Um tipo de entidade fraca sempre tem uma *restrição de participação total* (dependência de existência) com relação ao relacionamento que a identifica. Note que nem toda dependência de existência resulta em um tipo de entidade fraca. Um tipo de entidade fraca normalmente tem um atributo chamado de *chave parcial*, que a identifica dentre as demais entidades fracas relacionadas à mesma entidade proprietária.
+
+*** Atributos
+Cada entidade possui *atributos*, que são propriedades específicas que a descrevem. Pela natureza da complexidade de descrição de entidades, existem diferentes tipos de atributos, possibilitando um alto nível de expressividade nos modelos ER.
+
+*Atributos simples* (ou atômicos), são atributos que descrevem uma característica indivisível de uma entidade. Em contrapartida, os *atributos compostos* podem ser subdivididos em partes menores (atributos simples) e independentes. Os atributos que possuem apenas um valor por entidade são chamados de *atributos de valor único*. Em alguns casos é possível que um atributo represente um conjunto de valores para uma mesma entidade, nesse caso ele é chamado de *atributo multivalorado*. Há casos em que é possível obter atributos de uma entidade com base em outros atributos ou relacionamentos, como, por exemplo, dois atributos =data_nascimento= e =idade= de uma entidade. Nesse caso, o atributo =idade= pode ser obtido através do atributo =data_nascimento=, portanto é chamado de *atributo derivável*, enquanto =data_nascimento= é chamado de *atributo armazenado*. Dessa forma, é possível derivar atributos deriváveis de atributos armazenados de uma mesma entidade ou de outras entidades relacionadas.
+
+Vale destacar que cada atributo simples de um tipo de entidade deve estar associado a um *conjunto de valores*, que define possíveis valores daquele atributo. Esses conjuntos de valores podem ser especificados através de tipos de dados primitivos ou até mesmo através de restrições de valores com base nesses tipos (valores mínimos e máximos, caracteres permitidos etc).
+
+Entidade normalmente precisam ser identificadas de alguma forma, para isso existem os *atributos-chave*, que são atributos cujos valores são distintos para cada entidade individual no conjunto de entidades. Como o valor do *atributo-chave é único para cada entidade*, é possível identificar cada entidade de maneira exclusiva através do valor desse atributo. Note que uma entidade pode possuir mais de um atributo-chave, ou até mesmo um conjunto de atributos que componham um atributo-chave através da composição de atributos.
+
+#+caption: Uma representação de carros através de um diagrama ER.
+#+attr_org: :width 500
+[[file:../Attachments/BD/dercarroexemplo.png]]
+
+*** Relacionamentos
+As entidades de um banco de dados geralmente possuem algum tipo de relacionamento entre si. Um *tipo de relacionamento* define um conjunto de associações entre as entidades de determinados tipos. De forma semelhante à das entidades, um *conjunto de relacionamentos* é um conjunto de *instâncias de relacionamento*, nos quais entidades em particular são associadas a outras entidades.
+
+O *grau* de um tipo de relacionamento é o número dos tipos de entidades participantes daquele tipo de relacionamento. Um tipo de relacionamento de grau dois é chamado de *binário*, enquanto um de grau três é chamado de *ternário*.
+
+Cada tipo de entidade que participa de um tipo de relacionamento desempenha nele um papel em particular. O *nome do papel* especifica o papel que um tipo de entidade desempenha em um tipo de relacionamento. Em relacionamentos nos quais todos os tipos de entidades participantes são distintos geralmente não é necessário especificar o nome do papel. Entretanto, quando um *tipo de entidade participa mais de uma vez* de um relacionamento (relacionamento *recursivo* ou *autorrelacionado*), é essencial definir o nome do papel para distinguir o papel que cada entidade participante desempenha.
+
+Os tipos de relacionamentos podem ter *restrições estruturais* que limitam o número e a forma das *combinações de entidades* que podem participar no conjunto de relacionamentos. A *razão de cardinalidade* para relacionamentos binários especifica o número *máximo de instâncias de relacionamento* em que uma entidade pode participar. As razões de cardinalidade possíveis para tipos de relacionamento binários são: =1:1=, =1:N=, =N:1= =M:N=. Outro tipo de restrição são as *restrições de participação*, especificam se a existência de uma entidade depende de ela estar relacionada a outra entidade por meio do tipo de relacionamento. Essa restrição especifica um *número mínimo* de instâncias de relacionamento em que cada entidade pode participar. Se cada entidade em um conjunto de entidades deve estar relacionada a uma outra entidade, tem-se a chamada *participação total*, ou *dependência de existência*, que define que a existência de uma entidade depende dela estar relacionada à outra. Quando nem todas as entidades de um conjunto precisam necessariamente estar relacionadas à uma outra entidade, tem-se a chamada *participação parcial*.
+
+Assim como as entidades, os relacionamentos também podem ter *atributos*. Esses atributos descrevem aspectos específicos da instância de relacionamento. Dessa forma, em certas situações é possível mover esses atributos para algum dos tipos de entidades participantes (mas esse nem sempre é o caso).
+
+** Modelo Entidade-Relacionamento Estendido (EER)
+O modelo EER estende a capacidade de representação do modelo ER tradicional, introduzindo novos conceitos de /modelos de dados semânticos/. Os conceitos introduzidos nesse modelo são, principalmente, os de *subclasse* e *superclasse*, *especialização* e *generalização*, *categoria* e *herança*.
+
+*** Subclasses e superclasses
+Subclasses (subtipos de entidade) são subagrupamentos de um tipo de entidade. Muitas vezes, um tipo de entidade pode conter diversos subtipos em seu conjunto que precisam ser distinguidos e representados explicitamente, isso pode ser feito através das *subclasses*. Analogamente, o tipo de entidade do qual uma subclasse é especificada é chamada de *superclasse* para cada uma das subclasses derivadas.
+
+Note que uma entidade-membro da subclasse representa a *mesma entidade* de algum membro da superclasse, ou seja, toda entidade de uma subclasse também é entidade da superclasse, mas adota um /papel/ específico para a subclasse.
+
+#+caption: Exemplo da representação de uma superclasse FUNCIONARIO e suas possíveis subclasses
+#+attr_org: :width 600
+[[file:../Attachments/BD/eersubclasses.png]]
+
+Vale destacar que uma subclasse deve *herdar* todos os atributos e tipos de relacionamentos da superclasse. Apesar disso, uma subclasse pode definir atributos e relacionamentos específicos além dos herdados da superclasse.
+
+*** Especialização e generalização
+A *especialização* é o processo de *derivar subclasses* de uma superclasse. A ideia é tomar alguma *característica da superclasse como base para a distinção* e definição das subclasses. Já a *generalização* é o *processo inverso* da especialização, consistindo em, dados vários tipos de entidade, generaliza-las em uma *única superclasse* da qual os tipos de entidade são *subclasses*.
+
+É possível definir *condições* nas especializações para determinar exatamente quais entidades se tornam membros de cada subclasse. Essas condições são especificadas sobre o valor de algum *atributo da superclasse*. Subclasses definidas através desse tipo de condição são chamadas de *subclasses definidas por predicado*.
+
+#+caption: Especialização da superclasse FUNCIONARIO definida pelo atributo Tipo_emprego
+#+attr_org: :width 600
+[[file:../Attachments/BD/eerespecializacaoatributo.png]]
+
+Quando não há nenhuma condição para determinar os membros de uma subclasse, diz-se que esta é *definida pelo usuário*. Dessa forma, cabe aos usuários do banco de dados determinar manualmente a subclasse no momento da inserção.
+
+É possível ainda a definição da chamada *restrição de disjunção*, que especifica que as subclasses da especialização devem ser *disjuntas*, ou seja, uma entidade pode ser membro de no máximo uma subclasse da especialização. Note que uma especialização definida por um atributo de valor único implica a restrição de disjunção.
+
+Outra restrição possível é a *restrição de completude* total ou parcial. Uma restrição de *especialização total* define que toda entidade da superclasse deve ser um membro de pelo menos uma subclasse da especialização. Já uma *especialização parcial* permite que uma entidade não pertença a qualquer uma das subclasses.
+
+*** Uniões
+Em determinados casos pode ser necessário representar uma *coleção de entidades* a partir de diferentes tipos de entidades. Nesse caso, a subclasse representa uma coleção de entidades que é o *subconjunto da união* de entidades de tipos distintos. Esse tipo de subclasse é chamada de *tipo de união* ou *categoria*.
+
+#+caption: Modelagem de duas categorias: PROPRIETARIO e VEICULO_REGISTRADO
+#+attr_org: :width 500
+[[file:../Attachments/BD/eercategoria.png]]
+
+No exemplo acima, uma entidade membro de =PROPRIETARIO= deve existir em *apenas uma* das superclasses, ou seja, um proprietário é uma pessoa *ou* um banco *ou* uma empresa.
+
+* Modelo de dados relacional
+O modelo de dados relacional foi introduzido por Edgar F. Codd em 1970. Esse modelo se mostrou uma *grande revolução* na área de banco de dados tanto por sua *simplicidade* quanto por sua *base teórica* fundamentada em *relações matemáticas* e *teoria de conjuntos*.
+
+No modelo de dados relacional o banco de dados é representado como uma *coleção de relações*, na qual cada relação é conceitualmente semelhante a uma *tabela* de valores. Cada relação é formada por *tuplas*, que são equivalentes a linhas de uma tabela, e também por *atributos*, equivalentes aos cabeçalhos de uma tabela. Para cada coluna (elemento das tuplas) é necessário especificar quais tipos e estrutura de valores são válidos. Os valores possíveis para cada coluna são representados por um *domínio* de valores.
+
+#+caption: Um exemplo de relação
+#+attr_org: :width 800
+[[file:../Attachments/BD/relacaoaluno.png]]
+
+Nessa representação, cada *linha* da tabela *corresponde* a uma *tupla* na relação, e *cada relação representa uma entidade* aluno em particular. Os cabeçalhos da tabela representam os atributos da relação, indicando como interpretar os valores de cada coluna.
+
+As definições dos principais conceitos pertinentes ao modelo de dados relacional são dadas de maneira formal a seguir:
+
+- Um *domínio* $D$ é um conjunto de valores atômicos, ou seja, valores indivisíveis. Um domínio é composto por uma *definição lógica*, um *tipo de dado* e um formato para esses dados. Também é comum atribuir a um domínio um *nome*, que auxilia na interpretação dos seus valores.
+
+- Um *esquema de relação* $R$ de grau $n$, denotado por $R(A_1, A_2, \dots, A_n)$ é composto por um *nome de relação* $R$ e uma lista de atributos $A_1, A_2, \dots, A_n$. Cada atributo $A_i$ é o nome de um papel desempenhado por algum domínio $D$ no esquema de relação $R$. Nesse caso o domínio $D$ é chamado de *domínio* de $A_i$, sendo denotado por $dom(A_i)$. Um esquema de relação é usado para *descrever a estrutura* de uma relação.
+
+- Uma *relação* (ou *estado de relação*) $r$ de um esquema de relação $R(A_1, A_2, \dots, A_n)$, denotado por $r(R)$, é um conjunto de $n$ tuplas $r=\{t_1, t_2, \dots, t_n\}$ tal que cada tupla $t$ é uma *lista ordenada* de $n$ valores $t=<v_1, v_2, \dots, v_n>$, no qual cada valor $v_i$ é um *elemento* de $dom(A_i)$ ou um valor especial =NULL=. Note que o estado de relação representa as tuplas em um dado momento no banco de dados, ou seja, o estado é alterado frequentemente através de operações de inserção, atualização e remoção.
+
+Dadas essas definições, é importante fazer algumas observações:
+
+- Como uma *relação é um conjunto*, as tuplas de uma relação são *únicas* e sua *ordem* dentro da relação *não importa*.
+- Como uma *tupla é uma lista ordenada*, a *ordem dos valores* dentro de uma tupla *importa*. Entretanto, é possível definir uma relação de forma a usar um mapeamento ao invés de tuplas, resultando em valores nomeados, eliminando a necessidade de ordenação.
+- O modelo relacional é um *modelo plano*. Ou seja, cada valor em uma tupla é um valor *atômico*, não é divisível em outros componentes. Dessa forma, atributos *compostos ou multivalorados* devem ser representados em *relações separadas*, pois não são valores atômicos.
+- Valores =NULL= representam valores de atributos desconhecidos ou não aplicáveis a uma tupla.
+
+Um *esquema de banco de dados relacional* $S$ é um conjunto de esquemas de relação $S=\{R_1, R_2, \dots, R_m\}$ e um conjunto de *restrições de integridade* $RI$. Da mesma forma, um *estado de banco de dados relacional* $DB$  de $S$ é um conjunto de estados de relação $DB=\{r_1, r_2, \dots, r_m\}$ tal que cada $r_i$ é um estado de $R_i$ e tal que cada estado satisfaz as restrições de integridade especificadas em $RI$, ou seja, todos os estados são válidos.
+
+** Restrições
+Para manter a *integridade do estado* do banco de dados, geralmente são necessárias diversas *restrições* sobre os valores em um estado. Essas restrições podem ser divididas em três categorias:
+
+1. Restrições *implícitas* e inerentes ao modelo de dados relacional.
+2. Restrições *explícitas* que podem ser expressas diretamente nos esquemas através de uma /DDL/ (geralmente /SQL/).
+3. Restrições de *aplicação* (ou regras de negócios) que não podem ser expressas diretamente nos esquemas do modelo de dados, devendo ser impostas pelos programas de aplicação.
+
+As restrições implícitas seguem diretamente das definições que compõe o modelo relacional, enquanto as restrições de aplicação expressam ideias particulares ao domínio de uma aplicação específica. Sendo assim, a seguir serão descritas as possíveis *restrições explícitas* que podem ser declaradas nos esquemas do modelo de dados.
+
+*** Restrições de domínio
+As restrições de domínio especificam que, dentro de cada tupla, o valor de cada atributo $A$ deve ser um *valor indivisível do domínio* $dom(A)$. Esse tipo de restrição garante que os valores dos atributos sejam do mesmo domínio entre as tuplas.
+
+*** Restrições de chave
+Geralmente é necessário especificar *subconjuntos de atributos* cuja combinação dos valores precisa ser distinta para todas as tuplas em qualquer estado de uma relação $r(R)$. Esse subconjunto é chamado de *superchave* (denotado por $SCh$) do esquema de relação $R$. Uma superchave especifica uma *restrição de exclusividade* na qual duas tuplas distintas não podem ter o mesmo valor de superchave, ou seja: para todas as tuplas $t_i$ e $t_j$ de um estado de relação $r(R)$, tem-se que:
+
+$$t_i[SCh] \neq t_j[SCh]$$
+
+Uma *chave* (denotada por $Ch$) é um tipo de superchave específico que satisfaz duas propriedades:
+
+1. Duas tuplas distintas em qualquer estado da relação não podem ter valores idênticos para todos os atributos na chave.
+2. A chave é uma /superchave mínima/, ou seja, uma superchave da qual não é possível remover nenhum atributo e manter uma restrição de exclusividade.
+
+Os *valores de atributos de chaves* geralmente são utilizados para *identificar exclusivamente* as tuplas na relação. Note também que a propriedade de exclusividade de atributos chave deve ser mantida sempre, ou seja, mesmo com a inserção e alteração de tuplas na relação, os atributos chaves ainda devem ser exclusivos.
+
+Um esquema de relação pode ter mais de uma chave, e nesse caso cada uma das chaves é chamada de *chave candidata*. Entretanto, geralmente especifica-se uma *chave primária* (denotada por $ChP$ ou $PK$) dentre as chaves candidatas. Em um esquema de relação há apenas uma chave primária, e esta é utilizada para identificar as tuplas na relação.
+
+*** Restrições sobre valores =NULL=
+É possível especificar se um determinado atributo admite ou não valores =NULL=. Caso seja necessário que um *atributo sempre tenha um valor válido* em todas as tuplas, esse tipo de restrição garante que o valor do atributo nunca será =NULL=.
+
+*** Restrições de integridade de entidade
+A *restrição de integridade de entidade* garante que nenhum valor de chave primária pode ser =NULL=. Como as chaves primárias são usadas para identificar tuplas em um a relação, se o valor de alguma chave for =NULL= não será possível identificá-la nem referenciá-la.
+
+*** Restrições de integridade referencial
+A *restrição de integridade referencial* é usada para garantir a consistência entre tuplas em relações distintas que se referenciam. A própria definição de *chave estrangeira* (denotada por $ChE$ ou $FK$) define também as propriedades da restrição de integridade referencial.
+
+Um conjunto de atributos $ChE$ no esquema de relação $R_1$ é uma *chave estrangeira* de $R_1$ que referencia a relação $R_2$ se ela satisfizer as seguintes condições:
+
+1. Os atributos em $ChE$ têm o mesmo domínio que os atributos de chave primária $ChP$ de $R_2$.
+2. Um valor de $ChE$ em uma tupla $t_1$ do estado atual $r_1(R_1)$ ocorre como um valor de $ChP$ para alguma tupla $t_2$ no estado $r_2(R_2)$ ou é =NULL=. No primeiro caso tem-se $t_1[ChE] = t_2[ChP]$, e diz-se que a tupla $t_1$ *referencia* a tupla $t_2$.
+
+Se essas condições forem mantidas, diz-se que é mantida uma *restrição de integridade referencial* de $R_1$ para $R_2$.
+
+* Álgebra e cálculo relacional
+A álgebra relacional e o cálculo relacional são as duas *linguagens formais* para o modelo relacional. Essas linguagens fornecem a base teórica para as operações em bancos de dados relacionais.
+
+A *álgebra relacional* descreve o *conjunto básico de operações* que podem ser aplicadas a modelos de dados relacionais. As operações da álgebra relacional produzem novas relações, que podem também ser manipuladas usando operações da álgebra. Uma sequência de operações da álgebra relacional compõe uma *expressão da álgebra relacional*, cujo resultado também é uma relação. Em geral, consultas de bancos de dados relacionais são baseadas em expressões da álgebra relacional, e podem ser descritas através de uma sequência de operações básicas.
+
+O *cálculo relacional* fornece uma *linguagem declarativa* de nível mais alto que o da álgebra relacional para realizar consultas relacionais. Pela natureza declarativa, nas operações do cálculo relacional não há o conceito de ordem de operações, somente quais informações o resultado da consulta deve conter. A linguagem SQL tem suas bases teóricas no cálculo relacional, mais especificamente no /cálculo relacional de tupla/.
+
+** Operações relacionais
+As operações da álgebra relacional podem ser dividias em dois grupos:
+- Operações de *conjunto*, baseadas nas operações da teoria matemática de conjuntos. Note que, como as relações são definidas como conjuntos de tuplas, as operações da teoria dos conjuntos se aplicam a elas. Essas operações incluem =UNIÃO=, =INTERSECÇÃO=, =DIFERENÇA DE CONJUNTO= e =PRODUTO CARTESIANO=.
+- Operações *específicas* para bancos de dados relacionais. Essas operações ainda tem seus fundamentos na matemática e na lógica, entretanto foram desenvolvidas especificamente para a aplicação em consultas em bancos de dados relacionais. Essas operações incluem =SELEÇÃO=, =PROJEÇÃO= e =JUNÇÃO=.
+
+*** =SELEÇÃO=
+A operação de seleção é usada para selecionar um *subconjunto das tuplas* da relação que satisfaçam uma *condição de seleção*. Sendo assim, essa operação tem por objetivo filtrar as tuplas de uma relação com base em um predicado aplicado individualmente a cada tupla. Vale notar que esta é uma operação unária, isto é, aplicada a uma única relação.
+
+Em geral, a estrutura de uma operação contém uma condição ou predicado de seleção $condition$, e é aplicada a uma relação $R$, resultando em um subconjunto das tuplas de $R$.
+
+$$\sigma_{<condition>}(R)$$
+
+Em SQL o operador de seleção corresponde à cláusula =WHERE= de uma consulta.
+
+*** =PROJEÇÃO=
+A operação de projeção é usada para selecionar um *subconjunto dos atributos* de todas as tuplas de uma relação. Sendo assim, essa operação seleciona apenas os atributos desejados das tuplas de uma relação, fazendo uma /projeção/ da relação pelos atributos desejados. Note que esta é também uma operação unária, ou seja, aplicada a uma única relação.
+
+Em geral, a estrutura dessa operação contém uma lista de atributos desejados e é aplicada a uma relação $R$.
+
+$$\pi_{attr_1, attr_2, \dots, attr_n}(R)$$
+
+Note que, caso nenhum dos atributos desejados seja uma chave de $R$, é possível que existam tuplas duplicadas na relação resultante. Como, por definição, não é permitido que hajam tuplas duplicadas em uma relação, a operação de projeção remove as duplicatas, de forma a tornar o resultado da operação um conjunto de tuplas distintas e, portanto, uma relação válida.
+
+Em SQL o operador de projeção corresponde a cláusula =SELECT= de uma consulta.
+
+*** =RENOMEAR=
+A operação renomear permite que nomes de relações ou atributos sejam mudados, esse tipo de operação é útil especificamente na manipulação de relações com outras operações, gerando como resultado uma relação com nomes de atributos mais significativos.
+
+Em geral, a estrutura dessa operação contém o nome da nova relação (caso deseje-se renomeá-la) e o nome dos novos atributos na mesma sequência dos correspondentes atributos na relação original.
+
+$$\rho_{S(A1, A2, \dots, An)}(R)$$
+
+Em SQL é possível realizar a operação de renomear através da cláusula =AS=, permitindo a renomeação tanto de relações quanto de atributos.
+
+*** =UNIÃO=, =INTERSECÇÃO= e =DIFERENÇA=
+As operações de união, intersecção e diferença da teoria de conjuntos são aplicadas da mesma forma para relações. Essas operações são úteis quando é necessário combinar elementos de duas relações com um mesmo *tipo de tuplas*. Note que essas operações são binárias, ou seja, são aplicadas a duas relações. Duas relações são consideradas *compatíveis no tipo* se tiverem o mesmo número de atributos e se o domínio dos atributos for o mesmo.
+
+Dadas duas relações compatíveis no tipo $R$ e $E$, é possível definir as três operações:
+
+- =UNIÃO=: O resultado da operação $R \cup S$ é uma relação que inclui as tuplas presentes em $R$ ou em $S$, eliminando duplicatas.
+- =INTERSECÇÃO=: O resultado da operação $R \cap S$ é uma relação que inclui as tuplas presentes tanto em $R$ quanto em $S$.
+- =DIFERENÇA=: O resultado da operação $R - S$ é uma relação que inclui as tuplas presentes em $R$ mas não em $S$.
+
+  Em SQL, é possível utilizar essas operações através das cláusulas =UNION=, =INTERSECT= e =EXCEPT=.
+
+*** =PRODUTO CARTESIANO=
+A operação de produto cartesiano da teoria de conjuntos é estendida facilmente para lidar com relações. Note que essa operação, quando aplicada isoladamente, geralmente gera relações sem significado algum entre seus atributos. Entretanto, essa operação dá a base para outras operações da álgebra relacional, principalmente as operações de junção.
+
+Dadas duas relações $R$ e $E$, o resultado da operação $R \times E$ é uma nova relação contendo todas as tuplas obtidas concatenando todas as possíveis combinações de tuplas entre as relações $R$ e $E$.
+
+Em SQL, a operação de produto cartesiano pode ser realizada através da cláusula =CROSS JOIN=, ou especificando duas tabelas em uma cláusula =FROM=.
+
+*** =JUNÇÃO=
+A operação de junção nos permite fazer consultas com base nos *relacionamentos* entre as relações. De forma geral, essa operação pode ser especificada como uma operação =PRODUTO CARTESIANO= seguida de uma operação =SELEÇÃO=.
+
+Dadas duas relações $R(A_1, A_2, \dots A_n)$ e $S(B_1, B_2, \dots, B_m)$ a operação de junção é descrita por:
+
+$R \Join_{<condition>}S$
+
+o resultado dessa operação é uma nova relação $Q(A_1, A_2, \dots, A_n, B_1, B_2, \dots, B_m)$, cujas tuplas são a combinação de todas as tuplas de $R$ e $S$ que satisfazem a *condição de junção*.
+
+A operação básica de junção também é chamada de *junção interna* (/inner joins/), pois apenas as tuplas que satisfazem a condição de junção são combinadas e selecionadas, ocasionando uma possível perda de informação, pois não há garantia de que todas as tuplas de uma ou ambas as relações serão selecionadas.
+
+Um conjunto adicional de operações de junção chamadas *junções externas* (/outer joins/) foi especificado para consultas nas quais deseja-se manter todas as tuplas de uma ou ambas as relações envolvidas na operação de junção. Em geral, são definidas três operações de junção externa:
+
+- =JUNÇÃO EXTERNA À ESQUERDA=: Mantém cada tupla na primeira relação.
+- =JUNÇÃO EXTERNA À DIREITA=: Mantém cada tupla na segunda relação.
+- =JUNÇÃO EXTERNA COMPLETA=: Mantém cada tupla em ambas as relações.
+
+Em SQL, a operação de junção interna pode ser realizada especificando condições de junção na cláusula =WHERE=. Já as operações de junção externa fazem parte do padrão SQL2, adicionadas posteriormente à linguagem.
+
+*** =DIVISÃO=
+A operação de divisão fornece uma maneira conveniente de lidar com consultas que envolvem quantificação universal. A ideia é selecionar apenas as tuplas de uma relação que aparecem em combinação com *todas* as tuplas de outra relação.
+
+Sejam $R(Z)$ e $S(X)$ duas relações tais que os atributos de $S$ são um subconjunto dos atributos de $R$, ou seja, $X \subseteq Z$. Consideramos que $Y$ seja o subconjunto de atributos de $R$ que não são atributos de $S$, ou seja, $Y = Z - X$. O resultado da divisão $R \div S$ é uma relação $T(Y)$ que inclui uma tupla $t$ somente se os atributos de $t$ aparecerem em *combinação com todas* as tuplas em $S$.
+
+Em SQL, a operação de divisão geralmente não é implementada diretamente.
+
+* SQL
+A SQL é uma linguagem declarativa de alto nível que permite a manipulação e consulta de dados, sendo assim, a SQL é ao mesmo tempo uma /DLL (Data Definition Language)/ e uma /DML (Data Manipulation Language)/. A linguagem SQL fornece uma especificação comum, permitindo que diversos SGBDs relacionais utilizem a mesma linguagem para suas operações. A padronização da SQL foi um fator decisivo para sua popularidade.

@@ -1,24 +1,9 @@
 {
-  "obsidianCss": false,
+  "showLineNumber": false,
   "vimMode": true,
   "attachmentFolderPath": "Attachments",
-  "foldHeading": true,
-  "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "spellcheck": false,
-  "trashOption": "local",
-  "newLinkFormat": "shortest",
-  "useMarkdownLinks": true,
-  "readableLineLength": true,
-  "defaultViewMode": "preview",
-  "useTab": false,
-  "tabSize": 2,
-  "pdfExportSettings": {
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "2",
-    "downscalePercent": 100
-  },
-  "legacyEditor": false,
-  "livePreview": true
+  "showInlineTitle": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "1 - Inbox",
+  "alwaysUpdateLinks": true
 }
