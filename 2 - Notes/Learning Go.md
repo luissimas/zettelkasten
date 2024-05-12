@@ -144,13 +144,7 @@ Usar ponteiros para retornar e receber valores em funções só representa um ga
 
 Quando passamos um slice ou map para uma função, copiamos suas referências. Entretanto, como um slice é composto por um ponteiro para o array e dois campos de tamanho e capacidade que não são ponteiros, quando recebemos um slice como parâmetro conseguimos apenas alterar seus elementos, e não seu tamanho ou capacidade.
 
-```{=org}
-#+caption: Layout de memória de um slice passado como parâmetro
-```
-```{=org}
-#+attr_org: :width 500
-```
-![](attachments/slice_memory_layout.png)
+![[slice_memory_layout.png]]
 
 Por padrão devemos assumir que funções não irão modificar slices passados como parâmetro a não ser que sua documentação deixe isso explícito.
 

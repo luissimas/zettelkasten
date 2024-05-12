@@ -11,13 +11,8 @@
             "id": "70a978302e35bbe1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Inbox/Notação Big-O.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Inbox/Notação Big-O.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -137,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 - Inbox/Notação Big-O.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +140,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Inbox/Notação Big-O.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +156,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Inbox/Notação Big-O.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,42 +183,42 @@
   },
   "active": "70a978302e35bbe1",
   "lastOpenFiles": [
-    "1 - Inbox/Expressão regular.md",
-    "1 - Inbox/Alfabeto.md",
-    "1 - Inbox/Transformada de Fourier.md",
+    "3 - Indexes/Processamento digital de imagens.md",
+    "2 - Notes/Learning Go.md",
+    "4 - Attachments/slice_memory_layout.png",
+    "3 - Indexes/Teoria da computação.md",
+    "3 - Indexes/UFSCar.md",
+    "3 - Indexes/Projeto e análise de algoritmos.md",
+    "3 - Indexes/Programação paralela e distribuída.md",
+    "2 - Notes/Translação de eixos.md",
+    "2 - Notes/Tratamento geométrico de vetores.md",
+    "2 - Notes/Unificação e Substituição.md",
+    "3 - Indexes/Sistemas operacionais.md",
+    "2 - Notes/Gramática livre de contexto.md",
+    "2 - Notes/Convolução.md",
+    "2 - Notes/Counters.md",
+    "2 - Notes/Transformada de Fourier.md",
+    "2 - Notes/Notação Big-O.md",
+    "2 - Notes/Expressão regular.md",
+    "2 - Notes/Alfabeto.md",
     "1 - Inbox/Untitled 1.md",
     "1 - Inbox/Untitled.md",
     "1 - Inbox/Untitled 2.md",
-    "1 - Inbox/Teoria da computação.md",
-    "1 - Inbox/Teorema mestre.md",
-    "1 - Inbox/Software testing.md",
-    "1 - Inbox/Sistemas lineares e invariantes no tempo espaço.md",
-    "1 - Inbox/Símbolo.md",
-    "1 - Inbox/Segmentação de imagens.md",
+    "2 - Notes/Teorema mestre.md",
+    "2 - Notes/Software testing.md",
+    "2 - Notes/Sistemas lineares e invariantes no tempo espaço.md",
+    "2 - Notes/Símbolo.md",
+    "2 - Notes/Segmentação de imagens.md",
     "4 - Attachments/sematic-segmentation.jpg",
-    "1 - Inbox/Quantização.md",
-    "1 - Inbox/Projeto e análise de algoritmos.md",
-    "1 - Inbox/Projeto de programas paralelos.md",
+    "2 - Notes/Quantização.md",
     "4 - Attachments/divide_and_conquer_return.jpg",
     "4 - Attachments/divide_and_conquer.jpg",
     "4 - Attachments/naturally_paralel.png",
     "4 - Attachments/functional_decomp.png",
     "4 - Attachments/domain_decomp.png",
-    "1 - Inbox/Programação paralela e distribuída.md",
-    "1 - Inbox/Programação dinâmica.md",
-    "1 - Inbox/Processamento vetorial.md",
-    "1 - Inbox/Processamento digital de imagens.md",
-    "1 - Inbox/Amostragem.md",
-    "1 - Inbox/Passagem de mensagem.md",
-    "1 - Inbox/Paralelismo de dados.md",
-    "1 - Inbox/Palavra.md",
-    "1 - Inbox/OpenMP.md",
-    "1 - Inbox/Notação Big-O.md",
     "4 - Attachments/big-o-example.png",
-    "1 - Inbox/Notação Big Theta.md",
     "4 - Attachments/big-theta-example.png",
     "4 - Attachments/big-omega-example.png",
-    "4 - Attachments/dfa_minimization_table.png",
     "1 - Inbox/4913",
     "scripts/org-to-md.sh",
     "1 - Inbox/20231207141254-arq2_moc.org",

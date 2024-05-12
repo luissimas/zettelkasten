@@ -29,4 +29,4 @@ Em geral, existem 5 tipos básicos de imagens digitais:
 
 [[Histograma]] são um método comum de visualizar a distribuição dos níveis de cinza de uma imagem, servindo de base para diversas manipulações, como a [[Segmentação de imagens]].
 
-O estudo de sinais e sistemas fornece a base teórica para o processamento de imagens. Um dos conceitos mais fundamentais para o processamento de imagens são os [[Sistemas lineares e invariantes no tempo espaço]], que fornecem a base teórica para o processo de [[Filtragem de imagens]] utilizando [[Convolução]].
+O estudo de sinais e sistemas fornece a base teórica para o processamento de imagens. Um dos conceitos mais fundamentais para o processamento de imagens são os [[Sistemas lineares e invariantes no tempo espaço]], que fornecem a base teórica para o processo de [[Filtragem de imagens]] utilizando [[Convolução]]. A [[Transformada de Fourier]] é uma importante ferramenta nesse contexto.
