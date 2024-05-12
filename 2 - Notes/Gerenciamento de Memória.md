@@ -1,4 +1,6 @@
-#  Gerenciamento de Memória
+---
+created-at: 2021-05-24
+---
 A memória de um sistema computacional é um recurso escasso e que deve ser gerenciado da maneira correta pelo sistema operacional. Diversas estratégias são utilizadas tanto para otimizar o espaço disponível para cada processo quanto para otimizar o tempo de resposta das memórias. Os sistemas operacionais usam o conceito de [[Hierarquia de memória]] para criar abstrações que tornem possível a aplicação desse conceito em sistemas reais.
 Com múltiplos processos sendo executados ao mesmo tempo, é inviável que suas instruções referenciem endereços de memória físicos da máquina, pois isso poderia causar erros de execução e um processo poderia sobrescrever os dados de outro. A partir disso surgiu a necessidade de criar alguma abstração que permitisse que os programas referenciassem endereços lógicos, sem se preocupar com os reais endereços físicos do hardware, e que o sistema operacional se ocupasse de traduzir esses endereços para os reais endereços absolutos em hardware. Isso, além de garantir mais segurança e permitir a execução de vários processos ao mesmo tempo, também facilita o desenvolvimento de programas, pois não é necessário pensar nos endereços absolutos de cada hardware, basta apenas trabalhar no próprio contexto de endereçamento privado do programa.
 

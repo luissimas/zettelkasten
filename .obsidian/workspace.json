@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Notes/A reta.md",
+                "file": "2 - Notes/Gerenciamento de Memória.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "adjeti",
+                "query": "cache",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Notes/A reta.md",
+                "file": "2 - Notes/Gerenciamento de Memória.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Notes/A reta.md",
+                "file": "2 - Notes/Gerenciamento de Memória.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Notes/A reta.md"
+                "file": "2 - Notes/Gerenciamento de Memória.md"
               }
             }
           }
@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,41 +148,42 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "70a978302e35bbe1",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "2 - Notes/Hierarquia de memória.md",
+    "2 - Notes/Gerenciamento de Memória.md",
+    "2 - Notes/Memória cache.md",
+    "2 - Notes/Grafo bipartido.md",
+    "2 - Notes/Fundamentos.md",
+    "2 - Notes/Funções trigonométricas.md",
+    "2 - Notes/Funções exponenciais e logarítmicas.md",
+    "2 - Notes/Funções de várias variáveis.md",
+    "2 - Notes/Funções.md",
+    "2 - Notes/Forma Normal Conjuntiva na Lógica de Predicados.md",
+    "2 - Notes/Flip-Flops.md",
+    "2 - Notes/Finite state machines in Verilog.md",
+    "2 - Notes/Finite state machines.md",
+    "2 - Notes/Filas.md",
+    "2 - Notes/Estimação pontual.md",
+    "2 - Notes/Estimação intervalar.md",
+    "2 - Notes/Esboço de gráficos.md",
+    "2 - Notes/Elipsoides.md",
+    "2 - Notes/Elipse.md",
+    "2 - Notes/Falseabilismo.md",
+    "2 - Notes/Fahrenheit 451.md",
+    "2 - Notes/Estimação de parâmetros.md",
+    "2 - Notes/Estatísticas e suas distribuições.md",
+    "2 - Notes/Esperanto.md",
+    "2 - Notes/Esperança e variância de variáveis aleatórias.md",
+    "2 - Notes/Espaço amostral e eventos.md",
     "scripts/add-frontmatter.py",
     "scripts/migrate.py",
     "scripts",
-    "2 - Notes/Produto escalar de vetores.md",
-    "2 - Notes/A reta.md",
     "Untitled 1.canvas",
-    "2 - Notes/Adjetivos.md",
-    "2 - Notes/Convergência de séries.md",
-    "2 - Notes/Untitlteste.md",
-    "2 - Notes/Note taking as a feedback tool.md",
     "4913",
     "migrate.py",
-    "2 - Notes/The Secret History.md",
-    "2 - Notes/Fahrenheit 451.md",
-    "1-Notes/Fahrenheit 451.md",
     "1-Notes",
-    "README.md",
     "Untitled.canvas",
-    "3 - Indexes/Web Development MOC.md",
-    "3 - Indexes/UFSCar MOC.md",
-    "3 - Indexes/SO MOC.md",
-    "3 - Indexes/Programming MOC.md",
-    "3 - Indexes/ProbEst MOC.md",
-    "3 - Indexes/FIL MOC.md",
-    "3 - Indexes/GA MOC.md",
-    "3 - Indexes/CDS MOC.md",
-    "3 - Indexes/Arq1 MOC.md",
-    "3 - Indexes/AED1 MOC.md",
-    "2 - Notes/Tipos abstratos de dados.md",
-    "1 - Inbox/Teste.md",
-    "1 - Inbox/202405111114 Teste.md",
-    "5 - Templates/Note.md",
-    "1 - Inbox/202405111118 asdfkjl.md",
     "1 - Inbox",
     "4 - Attachments/LD/Fundamentals_of_Digital_Logic.pdf",
     "Excalidraw",

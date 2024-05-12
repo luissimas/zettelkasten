@@ -17,12 +17,6 @@ Esse princípio tem duas faces:
 - **Localidade temporal:** um programa tende a referenciar endereços que já foram referenciados recentemente.
 - **Localidade espacial:** um programa tende a referenciar um endereço **próximo** a outro referenciado recentemente.
 
-# Hierarquia de memória
-Para tirar proveito do princípio da localidade, as memórias em um computador são organizadas em uma **hierarquia**. A ideia é colocar memórias mais rápidas (e menores) mais próximas do processador e tornar seu acesso mais frequente, enquanto as memórias de maior capacidade (e mais lentas) são colocadas longe do processador e acessadas com menos frequência.
-Com essa disposição das memórias é possível otimizar o uso das memórias mais rápidas sem aumentar significativamente o custo de hardware.
-
-![[memoryhierarchy.png]]
-
 # Mapeamento da memória
 Como a memória cache é capaz de armazenar menos blocos de dados do que a memória principal, é necessário fazer um mapeamento dos blocos da memória principal nas linhas de cache, dessa forma é possível fazer uma correspondência entre blocos na memória principal e blocos na memória cache. Além disso é necessário também algum mecanismo que permita verificar qual bloco da memória principal ocupa uma linha específica da cache, para que seja possível verificar se um determinado bloco da memória principal está ou não armazenado na memória cache.
 Existem diferentes estratégias de se implementar um mapeamento dos blocos:
