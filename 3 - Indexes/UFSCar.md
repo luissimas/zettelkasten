@@ -21,3 +21,4 @@ created-at: 2020-11-03
 [[Teoria da computação]]
 [[Projeto e análise de algoritmos]]
 [[Teoria da computação]]
+[[Programação paralela e distribuída]]
