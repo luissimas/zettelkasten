@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Notes/Gerenciamento de Memória.md",
+                "file": "2 - Notes/Weighted graphs.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Notes/Gerenciamento de Memória.md",
+                "file": "2 - Notes/Weighted graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Notes/Gerenciamento de Memória.md",
+                "file": "2 - Notes/Weighted graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Notes/Gerenciamento de Memória.md"
+                "file": "2 - Notes/Weighted graphs.md"
               }
             }
           }
@@ -148,35 +148,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "70a978302e35bbe1",
   "lastOpenFiles": [
+    "2 - Notes/Volume de um sólido por fatiamento.md",
+    "2 - Notes/Volume de um sólido de revolução.md",
+    "2 - Notes/Vetor gradiente.md",
+    "2 - Notes/Verilog.md",
+    "2 - Notes/Verbos.md",
+    "2 - Notes/Velocidade instantânea e derivadas.md",
+    "2 - Notes/Variáveis aleatórias discretas.md",
+    "2 - Notes/Variáveis aleatórias contínuas.md",
+    "2 - Notes/Variáveis aleatórias.md",
+    "2 - Notes/Valor médio de uma função.md",
+    "2 - Notes/Untitled 2.md",
+    "2 - Notes/Untitled 1.md",
+    "2 - Notes/Unificação e Substituição.md",
+    "2 - Notes/Untitled.md",
+    "2 - Notes/Unidade de controle.md",
+    "2 - Notes/ULA.md",
+    "2 - Notes/Tratamento geométrico de vetores.md",
+    "2 - Notes/Tratamento algébrico de vetores.md",
+    "2 - Notes/Translação de eixos.md",
+    "2 - Notes/Tipos abstratos de dados.md",
+    "2 - Notes/Timing analysis.md",
+    "2 - Notes/Threads.md",
+    "2 - Notes/Thomas Kuhn.md",
+    "2 - Notes/The Secret History.md",
+    "2 - Notes/Teste de hipóteses.md",
+    "2 - Notes/Teoria dos Números.md",
     "2 - Notes/sedeKvC9h",
     "2 - Notes/sedRIDitg",
-    "2 - Notes/Hierarquia de memória.md",
-    "2 - Notes/Gerenciamento de Memória.md",
-    "2 - Notes/Memória cache.md",
-    "2 - Notes/Grafo bipartido.md",
-    "2 - Notes/Fundamentos.md",
-    "2 - Notes/Funções trigonométricas.md",
-    "2 - Notes/Funções exponenciais e logarítmicas.md",
-    "2 - Notes/Funções de várias variáveis.md",
-    "2 - Notes/Funções.md",
-    "2 - Notes/Forma Normal Conjuntiva na Lógica de Predicados.md",
-    "2 - Notes/Flip-Flops.md",
-    "2 - Notes/Finite state machines in Verilog.md",
-    "2 - Notes/Finite state machines.md",
-    "2 - Notes/Filas.md",
-    "2 - Notes/Estimação pontual.md",
-    "2 - Notes/Estimação intervalar.md",
-    "2 - Notes/Esboço de gráficos.md",
-    "2 - Notes/Elipsoides.md",
-    "2 - Notes/Elipse.md",
-    "2 - Notes/Falseabilismo.md",
-    "2 - Notes/Fahrenheit 451.md",
-    "2 - Notes/Estimação de parâmetros.md",
-    "2 - Notes/Estatísticas e suas distribuições.md",
-    "2 - Notes/Esperanto.md",
-    "2 - Notes/Esperança e variância de variáveis aleatórias.md",
     "scripts/add-frontmatter.py",
     "scripts/migrate.py",
     "scripts",
@@ -187,7 +188,6 @@
     "Untitled.canvas",
     "1 - Inbox",
     "4 - Attachments/LD/Fundamentals_of_Digital_Logic.pdf",
-    "Excalidraw",
     "Pasted image 20240510084932.png"
   ]
 }

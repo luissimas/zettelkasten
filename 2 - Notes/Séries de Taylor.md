@@ -18,6 +18,6 @@ $$
 \sum_{n=0}^{\infty}{\frac{f^{(n)}(x_0)}{n!}}(x-x_0)^n
 $$
 
-> Se uma função $f$ é dada por uma série de potências, então essa série é a *série de Taylor* dessa função.
+Se uma função $f$ é dada por uma série de potências, então essa série é a *série de Taylor* dessa função.
 
 Note que não são todas as funções que possuem uma série de Taylor que podem ser expressadas por essa série em um determinado intervalo. Algumas funções não coincidem com suas séries de Taylor em nenhum ponto.

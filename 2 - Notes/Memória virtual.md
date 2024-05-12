@@ -22,6 +22,6 @@ Os bits de proteção indicam as permissões de acesso àquela página virtual, 
 ## TLB (memória associativa)
 Veja que nesse processo de tradução de endereços virtuais as páginas sempre são acessadas através da memória principal, e isso pode comprometer o desempenho geral do sistema. Afim de acelerar o processo de paginação, é comum implementar em nível de hardware um mecanismo para mapear endereços virtuais para endereços físicos, eliminando a necessidade de referenciar as tabelas de página na memória principal para então mapear seu endereço. Esse mecanismo é chamado de *TLB (Translation Lookaside Buffer)*, ou *memória associativa*. Geralmente a *TLB* é implementado dentro da *MMU*, e consiste em um pequeno número de entradas que contém as informações sobre uma página virtual.
 
-    ![tlb](../Attachments/SO/tlb.png)
+![tlb](../Attachments/SO/tlb.png)
 
 Quando um endereço virtual chega na *MMU*, primeiro é verificado se a página que correspondente já está na *TLB*. Caso a página esteja presente, a tradução de endereço é feita diretamente, sem necessidade de consultar a memória principal. Caso a página não esteja presente na *TLB*, ela é trazida da tabela de páginas da memória e então armazenada na *TLB* para acelerar as consultas futuras.

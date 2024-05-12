@@ -41,7 +41,7 @@ $$
 # Produto cartesiano
 O *produto cartesiano* de dois conjuntos $A$ e $B$, denotado por $A \times B$, é o conjunto de **pares ordenados** $(a, b)$ tal que $a \in A$ e $b \in B$. Note que a ordem dos conjuntos altera o resultado do produto, pois altera a ordem dos elementos nos pares do conjunto resultante.
 
-> Dados quaisquer conjuntos $A_1, A_2, \dots, A_n$, o conjunto de todas as *n-tuplas* $(a_1, a_2, \dots, a_n)$ onde $a_1 \in A_1, a_2 \in A_2, \dots, a_n \in A_n$ é chamado de produto cartesiano de $A_1, A_2, \dots, A_n$.
+Dados quaisquer conjuntos $A_1, A_2, \dots, A_n$, o conjunto de todas as *n-tuplas* $(a_1, a_2, \dots, a_n)$ onde $a_1 \in A_1, a_2 \in A_2, \dots, a_n \in A_n$ é chamado de produto cartesiano de $A_1, A_2, \dots, A_n$.
 $$
   A_1 \times A_2 \times \dots \times A_n = \prod_{i=1}^{n}{A_i}
 $$

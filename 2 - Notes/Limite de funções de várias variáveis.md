@@ -23,45 +23,45 @@ $$
 
 Um ponto importantíssimo é o de que, assim como nas funções de uma variável os limites laterais devem ter o mesmo valor para que o limite exista, nas funções de várias variáveis, quando um limite existe em um ponto, o limite deve ser o mesmo ao longo de todos os (infinitos) caminhos pelos quais é possível de aproximar do ponto. Dessa observação se deriva um importantíssimo teorema que nos permite determinar se o limite de uma função não existe. Note que não é possível determinar com certeza que o limite de uma função de várias variáveis existe, pois isso implica em testar o limite da função por todos os infinitos caminhos pelos quais é possível se aproximar do ponto.
 
-> Se uma função $f(x,y)$ tem limites diferentes ao longo de dois caminhos diferentes no domínio de $f$ quando $(x,y)$ se aproxima de $(x_0, y_0)$, então $\displaystyle\lim_{(x,y) \to (x_0, y_0)}{f(x,y)}$ não existe.
+Se uma função $f(x,y)$ tem limites diferentes ao longo de dois caminhos diferentes no domínio de $f$ quando $(x,y)$ se aproxima de $(x_0, y_0)$, então $\displaystyle\lim_{(x,y) \to (x_0, y_0)}{f(x,y)}$ não existe.
 
 Podemos utilizar curvas paramétricas para usar o conceito de limites de funções de uma variável no auxílio do cálculo dos limites da função $f(x,y)$ por diferentes caminhos.
 
-> Dada uma função $f(x,y)$ tal que $\lim_{(x,y) \to (x_0, y_0)}{f(x,y)}=L$, e uma curva $\gamma$ tal que:
-> - $\gamma (t_0) = (x_0, y_0)$
-> - $\gamma (t) \neq \gamma (t_0)$, $\forall t \neq t_0$
-> - $\gamma (t) = (x(t), y(t))$, sendo $x$ e $y$ contínuas em $t_0$
-> Se todas as hipóteses forem satisfeitas, então $\lim_{t \to t_0}{f(\gamma (t))}=L$
+Dada uma função $f(x,y)$ tal que $\lim_{(x,y) \to (x_0, y_0)}{f(x,y)}=L$, e uma curva $\gamma$ tal que:
+- $\gamma (t_0) = (x_0, y_0)$
+- $\gamma (t) \neq \gamma (t_0)$, $\forall t \neq t_0$
+- $\gamma (t) = (x(t), y(t))$, sendo $x$ e $y$ contínuas em $t_0$
+Se todas as hipóteses forem satisfeitas, então $\lim_{t \to t_0}{f(\gamma (t))}=L$
 
 # Teorema do confronto
 O teorema do confronto nos permite, sabendo da existência e do valor do limite de duas funções, concluir sobre o limite de uma terceira função.
 
-> Dadas duas funções $f(x,y)$, $g(x,y)$ e $h(x,y)$ tais que:
+Dadas duas funções $f(x,y)$, $g(x,y)$ e $h(x,y)$ tais que:
 
 $$
 f(x,y) \leq g(x,y) \leq h(x,y)
 $$
-> se
+se
 $$
 \lim_{(x,y) \to (x_0, y_0)}{f(x,y)}=\lim_{(x,y) \to (x_0, y_0)}{h(x,y)}=L
 $$
-> então
+então
 $$
 \lim_{(x,y) \to (x_0, y_0)}{g(x,y)}=L
 $$
 
 Uma consequência direta do teorema do confronto é o seguinte teorema, que nos permite provar que o limite de uma determinada função é igual a $0$.
 
-> Dada uma função $f(x,y)$ tal que
+Dada uma função $f(x,y)$ tal que
 $$
 \lim_{(x,y) \to (x_0, y_0)}{f(x,y)}=0
 $$
-> se houver uma função $g(x,y)$ tal que:
+se houver uma função $g(x,y)$ tal que:
 $$
 |g(x,y)| \leq M\text{, } \forall (x,y) \text{ tal que } 0 < ||(x,y) - (x_0,y_0)|| < r
 $$
-> então
+então
 $$
 \lim_{(x,y) \to (x_0, y_0)}{f(x,y) \cdot g(x,y)}=0
 $$
-> Ou seja, se $g$ é uma função limitada e o limite de $f$ vai a $0$, o limite do produto $f \cdot g$ também vai a $0$.
+Ou seja, se $g$ é uma função limitada e o limite de $f$ vai a $0$, o limite do produto $f \cdot g$ também vai a $0$.

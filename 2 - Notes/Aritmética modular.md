@@ -10,11 +10,11 @@ $$
 
 A partir desse contexto, é possível definir as quatro operações aritméticas básicas em um dado conjunto $\mathbb{Z}_n$.
 
-> Dado um número inteiro positivo $n$ e $a, b \in \mathbb{Z}_n$, definem-se as operações da aritmética modular:
-> - Adição: $a \oplus b = (a + b) \mod n$
-> - Multiplicação: $a \otimes b = (a \cdot b) \mod n$
-> - Subtração: $a \ominus b = |a - b| \mod n$
-> - Divisão: $a \oslash b = a \otimes b^{-1}$
+Dado um número inteiro positivo $n$ e $a, b \in \mathbb{Z}_n$, definem-se as operações da aritmética modular:
+- Adição: $a \oplus b = (a + b) \mod n$
+- Multiplicação: $a \otimes b = (a \cdot b) \mod n$
+- Subtração: $a \ominus b = |a - b| \mod n$
+- Divisão: $a \oslash b = a \otimes b^{-1}$
 
 # Inverso
 O inverso $a^{-1}$ de um número $a \in \mathbb{Z}_n$ é um número (único) $b \in \mathbb{Z}_n$ tal que $a \otimes b = 1$. Um elemento de $\mathbb{Z}_n$ que tenha inverso é chamado de *inversível*. Os elementos inversíveis de $\mathbb{Z}_n$ são aqueles que são *relativamente primos* com $n$.

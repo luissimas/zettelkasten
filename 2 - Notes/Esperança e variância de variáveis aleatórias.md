@@ -11,24 +11,24 @@ Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Ome
 $$
  E(X) := \sum_{x \in Im(X)}{xp_X(x)}
 $$
->com
+com
 $$
  \sum_{x \in Im(X)}{|x|p_X(x)} < \infty
 $$
 
 Para as variáveis aleatórias mais comuns temos expressões que podem nos dizer rapidamente qual o valor médio esperado da variável aleatória:
 
->Se $X \sim Bernoulli(\theta)$, então:
+Se $X \sim Bernoulli(\theta)$, então:
 $$
   E(X) = \theta
 $$
 
->Se $X \sim Binomial(n, \theta)$, então:
+Se $X \sim Binomial(n, \theta)$, então:
 $$
   E(X) = n\theta
 $$
 
->Se $X \sim Geométrica(\theta)$, então:
+Se $X \sim Geométrica(\theta)$, então:
 $$
   E(X) = \frac{1-\theta}{\theta}
 $$
@@ -39,24 +39,24 @@ Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Ome
 $$
  E(X) := \int_{x \in Im(X)}{xf_X(x)}\,dx
 $$
->com
+com
 $$
  \int_{x \in Im(X)}{|x|f_X(x)}\,dx < \infty
 $$
 
 Para as variáveis aleatórias mais comuns temos expressões que podem nos dizer rapidamente qual o valor médio esperado da variável aleatória:
 
->Se $X \sim Uniforme([a,b])$, então:
+Se $X \sim Uniforme([a,b])$, então:
 $$
   E(X) = \frac{a+b}{2}
 $$
 
->Se $X \sim Exponencial(\alpha)$, então:
+Se $X \sim Exponencial(\alpha)$, então:
 $$
   E(X) = \frac{1}{\alpha}
 $$
 
->Se $X \sim Normal(\mu,\sigma^2)$, então:
+Se $X \sim Normal(\mu,\sigma^2)$, então:
 $$
   E(X) = \mu
 $$
@@ -76,32 +76,32 @@ Veja que a variância pode ser interpretada como **o valor médio da distância 
 
 Para as variávies aleatórias mais comuns temos expressões que podem nos dizer rapidamente qual a variância esperada da variável aleatória:
 
->Se $X \sim Bernoulli(\theta)$, então:
+Se $X \sim Bernoulli(\theta)$, então:
 $$
   Var(X) = \theta(1-\theta)
 $$
 
->Se $X \sim Binomial(n, \theta)$, então:
+Se $X \sim Binomial(n, \theta)$, então:
 $$
   Var(X) = n\theta(1-\theta)
 $$
 
->Se $X \sim Geométrica(\theta)$, então:
+Se $X \sim Geométrica(\theta)$, então:
 $$
   Var(X) = \frac{1-\theta}{\theta^2}
 $$
 
->Se $X \sim Uniforme([a,b])$, então:
+Se $X \sim Uniforme([a,b])$, então:
 $$
   Var(X) = \frac{1}{b-a}
 $$
 
->Se $X \sim Exponencial(\alpha)$, então:
+Se $X \sim Exponencial(\alpha)$, então:
 $$
   Var(X) = \frac{1}{\alpha^2}
 $$
 
->Se $X \sim Normal(\mu, \sigma^2)$, então:
+Se $X \sim Normal(\mu, \sigma^2)$, então:
 $$
   Var(X) = \mu
 $$

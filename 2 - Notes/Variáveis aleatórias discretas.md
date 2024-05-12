@@ -12,7 +12,8 @@ $$
 
 # Distribuição das probabilidades de uma variável aleatória discreta
 Quando trabalhamos com variáveis aleatórias, é possível representar como as probabilidades se distribuem ao longo dos possíveis valores que a variável assume. Fazemos isso através de uma **função de distribuição de probabilidade** que associa para cada valor $x\in Im(X)$ uma probabilidade $p_X(x)\in [0,1]$.
->A função de distribuição de probabilidade $p_x:\mathbb{R}\rightarrow[0,1]$ é dada por: $$
+A função de distribuição de probabilidade $p_x:\mathbb{R}\rightarrow[0,1]$ é dada por: 
+$$
 p_X(x)=
 \begin{cases}
   P(X=x),\qquad\text{ se } x\in Im(X)\\

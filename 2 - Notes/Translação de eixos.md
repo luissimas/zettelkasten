@@ -10,7 +10,7 @@ Dessa forma, definem-se as *fórmulas de translação* do ponto de um plano para
 $$
   x = x' + h \qquad\text{e}\qquad y = y' + k
 $$
->ou
+ou
 $$
   x' = x - h \qquad\text{e}\qquad y' = y - k
 $$

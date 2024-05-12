@@ -38,7 +38,7 @@ $$
 # Características
 
 ## Direção
-> O vetor $\vec{u}\times\vec{v}$ é simultaneamente ortogonal a $\vec{u}$ e $\vec{v}$. Portanto $(\vec{u}\times\vec{v})\vec{u} = 0$ e $(\vec{u}\times\vec{v})\vec{v} = 0$
+O vetor $\vec{u}\times\vec{v}$ é simultaneamente ortogonal a $\vec{u}$ e $\vec{v}$. Portanto $(\vec{u}\times\vec{v})\vec{u} = 0$ e $(\vec{u}\times\vec{v})\vec{v} = 0$
 
 ![[produtovetorialortogonal.png]]
 
@@ -49,7 +49,8 @@ O sentido do produto vetorial pode ser intuitivamente determinado através da *r
 
 ## Módulo
 A seguinte definição do módulo de um produto vetorial é obtida a partir da *identidade de Lagrange*.
-> Sendo $\theta$ o ângulo entre os vetores $\vec{u}$ e $\vec{v}$, então$$
+Sendo $\theta$ o ângulo entre os vetores $\vec{u}$ e $\vec{v}$, então
+$$
 |\vec{u}\times \vec{v}|=|\vec{u}||\vec{v}|\sin{\theta}
 $$
 

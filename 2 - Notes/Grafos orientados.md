@@ -19,8 +19,8 @@ $$
 d_G(v) = d_G^{+}(v) + d_G^{-}(v)
 $$
 
-> **Teorema 2**
-> Em qualquer grafo orientado $G = (V,A)$, a soma dos graus de entrada (ou de saída) de todos os vértices é igual ao número de arestas, ou seja:
+**Teorema 2**
+Em qualquer grafo orientado $G = (V,A)$, a soma dos graus de entrada (ou de saída) de todos os vértices é igual ao número de arestas, ou seja:
 
 $$
 \sum_{v \in V}{d_G^+(v)} = \sum_{v \in V}{d_G^-(v)} = |A|

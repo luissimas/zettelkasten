@@ -9,10 +9,10 @@ A função de densidade representa a variação das probabilidades durante o int
 Sabendo disso, podemos dizer que a **área sob a curva da função de densidade de probabilidade** em um intervalo $[a,b]$ é igual a $P(a \leq X \leq b)$. Para encontrar a área sob uma curva devemos usar [[Integrais definidas|integrais]], daí surge a seguinte definição:
 
  Dado um experimento aleatório $\mathcal{E}$ com espaço de probabilidade $(\Omega, \mathcal{F}, \mathcal{P})$, seja $X:\Omega\rightarrow\mathbb{R}$ uma variável aleatória contínua com conjunto imagem $Im(X)$. A função $f_X:\mathbb{R}\rightarrow\mathbb{R}$ é uma * **função densidade de probabilidade** (f.d.p.)* quando:
->  1. $f_X$ é *não-negativa*, ou seja: $$
+1. $f_X$ é *não-negativa*, ou seja: $$
   f_X(x) \geq 0,\qquad \forall x \in \mathbb{R}
 $$
->  2. A área total sob a curva deve ser igual a 1, ou seja: $$
+2. A área total sob a curva deve ser igual a 1, ou seja: $$
   \int_{-\infty}^{+\infty}{f_X(x)}\,dx = 1
 $$
 

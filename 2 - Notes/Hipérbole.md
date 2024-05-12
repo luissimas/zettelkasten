@@ -101,7 +101,7 @@ Eliminando os denominadores e desenvolvendo os quadrados de uma *equação reduz
 $$
   ax^2 + by^2 + cx + dy + f = 0
 $$
-> com $a$ e $b$ de sinais contrários.
+com $a$ e $b$ de sinais contrários.
 
 # Equações paramétricas
 Dado um ponto $P(x,y)$ qualquer da hipérbole, temos dois casos para suas equações paramétricas:

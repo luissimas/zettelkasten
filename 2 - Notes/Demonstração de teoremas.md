@@ -3,17 +3,17 @@ created-at: 2021-08-24
 ---
 Antes de mais nada é essencial definir alguns termos importantes quando se trata de teoremas e demonstrações.
 
-> ***Definição***
-> Uma *definição* estabelece condições específicas para que um objeto seja o que ele é, de modo completo e preciso.
+***Definição***
+Uma *definição* estabelece condições específicas para que um objeto seja o que ele é, de modo completo e preciso.
 
-> ***Conjetura***
-> Uma *conjetura* é uma afirmação para a qual ainda não existe prova, mas que provavelmente é verdadeira. Uma conjetura ainda não demonstrada é chamada de conjetura aberta.
+***Conjetura***
+Uma *conjetura* é uma afirmação para a qual ainda não existe prova, mas que provavelmente é verdadeira. Uma conjetura ainda não demonstrada é chamada de conjetura aberta.
 
-> ***Teorema***
-> Um *teorema* é uma afirmação (conjetura) **devidamente demonstrada** (provada). É possível que existam diversas provas para um mesmo teorema.
+***Teorema***
+Um *teorema* é uma afirmação (conjetura) **devidamente demonstrada** (provada). É possível que existam diversas provas para um mesmo teorema.
 
-> ***Prova***
-> Uma *prova* é uma dissertação que mostra de maneira **irrefutável** que uma dada afirmação é verdadeira.
+***Prova***
+Uma *prova* é uma dissertação que mostra de maneira **irrefutável** que uma dada afirmação é verdadeira.
 
 # Prova por refutação
 A prova por refutação consiste em refutar uma afirmação, ou seja, provar que ela é falsa. A maneira mais simples de provar que uma afirmação é falsa é apresentar um *contraexemplo* para aquela afirmação, ou seja, mostrar um único caso específico para o qual ela não seja verdadeira.
@@ -43,8 +43,8 @@ Se $A$ é um **conjunto vazio**, a afirmação $\forall x \in A Q(x)$ é sempre 
 # Indução matemática
 A prova por indução matemática consiste em provar a validade do teorema para um caso base e então generalizar essa hipótese para então provar a validade para um caso consecutivo.
 
-> ***Princípio da Indução Matemática***
-> Seja $P(n)$ uma proposição definida sobre $\mathbb{N}$. Suponha que:
-> 1. $P(0)$ é verdade (base da indução)
-> 2. Sempre que $P(k)$ é verdade para algum $k \in \mathbb{N}$, temos que $P(k+1)$ é verdade (passo indutivo)
-> Então, $P(n)$ é verdade para todo $n \in \mathbb{N}$
+***Princípio da Indução Matemática***
+Seja $P(n)$ uma proposição definida sobre $\mathbb{N}$. Suponha que:
+1. $P(0)$ é verdade (base da indução)
+2. Sempre que $P(k)$ é verdade para algum $k \in \mathbb{N}$, temos que $P(k+1)$ é verdade (passo indutivo)
+Então, $P(n)$ é verdade para todo $n \in \mathbb{N}$

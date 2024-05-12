@@ -11,8 +11,8 @@ Dois vértices $v$ e $w$ são ditos **vizinhos** em um grafo $G$ se e somente se
 
 O **grau** de um vértice $v$ em um grafo $G$ é o *número de arestas* que incidem em $v$. Geralmente denota-se o grau de um vértice $v$ como $d_G(v)$, ou simplesmente $d(v)$.
 
-> **Teorema 1**
-> Em qualquer grafo $G = (V,A)$, a soma dos graus de todos os vértices é igual ao dobro do número de arestas, ou seja:
+**Teorema 1**
+Em qualquer grafo $G = (V,A)$, a soma dos graus de todos os vértices é igual ao dobro do número de arestas, ou seja:
 
 $$
 \sum_{v \in V}{d_G(v)}= 2\cdot |A|

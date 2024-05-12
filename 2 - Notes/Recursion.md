@@ -12,4 +12,4 @@ Stack is a simple way to arrange data one on top of each other. Computers have a
 # Performance
 The main drawback from the recursive approach is that when we call a function, all its variables are stored in the stack, so for each call we have to store all the variables "again". This can become a problem when a program has a lot of recursive calls.
 
->"Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation."
+>Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation.

@@ -9,6 +9,6 @@ Dada uma superfície gerada pela revolução da parábola $\displaystyle\begin{c
 A equação dessa superfície pode ser obtida substituindo $z$ por $\sqrt{x^2 + y^2}$ na equação $z^2 = 2y$, obtendo-se $x^2 + y^2 = 2y$.
 
 Se a *geratriz* estiver contida em um dos planos coordenados e girar $360°$ em torno de um dos eixos desse plano, a equação da superfície será obtida da seguinte maneira:
-> - se a curva gira em torno do eixo dos $x$, substitui-se $y$ ou $z$ na equação da curva por $\sqrt{y^2 + z^2}$
-> - se a curva gira em torno do eixo dos $y$, substitui-se $x$ ou $z$ na equação da curva por $\sqrt{x^2 + z^2}$
-> - se a curva gira em torno do eixo dos $z$, substitui-se $x$ ou $y$ na equação da curva por $\sqrt{x^2 + y^2}$
+- se a curva gira em torno do eixo dos $x$, substitui-se $y$ ou $z$ na equação da curva por $\sqrt{y^2 + z^2}$
+- se a curva gira em torno do eixo dos $y$, substitui-se $x$ ou $z$ na equação da curva por $\sqrt{x^2 + z^2}$
+- se a curva gira em torno do eixo dos $z$, substitui-se $x$ ou $y$ na equação da curva por $\sqrt{x^2 + y^2}$

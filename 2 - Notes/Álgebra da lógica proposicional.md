@@ -4,10 +4,10 @@ created-at: 2021-05-16
 A álgebra da lógica proposicional especifica como os elementos podem ser manipulados em fórmulas. Essas manipulações permitem que sejam geradas fórmulas [[Consequência e equivalência lógica#Equivalência lógica|equivalentes]] a outras através de simplificações das expressões lógicas.
 Antes de mais nada é importante definir o conceito de **dual**, pois ele forma a base de muitas manipulações possíveis dentro da lógica proposicional.
 
-> O **dual** de uma fórmula definida em termos de símbolos atômicos $(p, q, \dots)$, símbolos de verdade $(V, F)$ e dos conectivos lógicos de conjunção $(\land)$ e disjunção $(\lor)$ é obtido substituindo-se **todas as ocorrências** de:
->- $V$ por $F$ e vice-versa
->- $\land$ por $\lor$ e vice-versa
-> *Exemplo:* o dual da proposição $(p \land q) \lor F$ é a proposição $(p \lor q) \land V$
+O **dual** de uma fórmula definida em termos de símbolos atômicos $(p, q, \dots)$, símbolos de verdade $(V, F)$ e dos conectivos lógicos de conjunção $(\land)$ e disjunção $(\lor)$ é obtido substituindo-se **todas as ocorrências** de:
+- $V$ por $F$ e vice-versa
+- $\land$ por $\lor$ e vice-versa
+ *Exemplo:* o dual da proposição $(p \land q) \lor F$ é a proposição $(p \lor q) \land V$
 
 # Leis de equivalência
 A seguir são apresentadas as mais importantes leis de equivalência, acompanhadas de sua forma dual.
@@ -33,7 +33,7 @@ A seguir são apresentadas as mais importantes leis de equivalência, acompanhad
 # Formas normais
 Usando as leis de equivalência é possível manipular as proposições e colocá-las em formatos mais desejáveis. Através das formas normais é possível padronizar as proposições compostas, tornando sua identificação comparação mais simples e objetivas.
 
-> Para toda fórmula $\beta$ da [[Lógica proposicional]] existe uma fórmula $\alpha$ tanto na *FNC* quanto na *FND* que é equivalente a $\beta$, ou seja: $\alpha \equiv \beta$.
+Para toda fórmula $\beta$ da [[Lógica proposicional]] existe uma fórmula $\alpha$ tanto na *FNC* quanto na *FND* que é equivalente a $\beta$, ou seja: $\alpha \equiv \beta$.
 
 As formas normais são compostas fundamentalmente por *literais* organizados dentro de *cláusulas* (que variam dependendo da forma normal).
 

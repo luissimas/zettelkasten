@@ -45,18 +45,18 @@ $$
 A expressão que define as integrais definidas é capaz de sintetizar de forma muito eficiente (e elegante) o que de fato a integral definida representa, porém não é viável aplicá-la para resolução de problemas. Com o propósito de fornecer um meio para calcular as integrais definidas, surge então o *Teorema fundamental do cálculo*.
 De forma geral, esse teorema serve para conectar a definição de integral definida com o cálculo das [[Integrais indefinidas#Antiderivadas|funções primitivas]], nos permitindo utilizar as técnicas de integração no cálculo de áreas sob o gráfico de funções.
 
->***Teorema fundamental do cálculo - primeira versão***
->Seja $f$ uma função contínua no intervalo $[a,b]$. Para cada $x\in[a,b]$:
+***Teorema fundamental do cálculo - primeira versão***
+Seja $f$ uma função contínua no intervalo $[a,b]$. Para cada $x\in[a,b]$:
 $$
 \varphi(x)=\int_a^x{f(t)}\,dt
 $$
->então:
+então:
 $$
 \varphi'(x)=f(x), \quad\forall x\in[a,b]
 $$
 
->***Teorema fundamental do cálculo - segunda versão***
->Sendo $f$ uma função contínua no intervalo $[a,b]$,
+***Teorema fundamental do cálculo - segunda versão***
+Sendo $f$ uma função contínua no intervalo $[a,b]$,
 $$
 \text{se }\quad \int{f(x)}\,dx=F(x)+C\quad\text{então}\quad \int_a^b{f(x)}\,dx=F(b)-F(a)
 $$

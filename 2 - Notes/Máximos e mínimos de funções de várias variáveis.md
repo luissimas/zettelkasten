@@ -47,9 +47,9 @@ $$
 
 O teorema a seguir nos fornece uma condição suficiente para um ponto crítico de $f$ ser máximo ou mínimo local de $f$.
 
-> Dada uma função $f$ de classe $C^2$, $(x_0, y_0)$ um *ponto interior* de $D_f$ e $H(x,y)$ o *hessiano* de $f$. Dado que $(x_0, y_0)$ é um ponto crítico de $f$, tem-se as seguintes conclusões:
+Dada uma função $f$ de classe $C^2$, $(x_0, y_0)$ um *ponto interior* de $D_f$ e $H(x,y)$ o *hessiano* de $f$. Dado que $(x_0, y_0)$ é um ponto crítico de $f$, tem-se as seguintes conclusões:
 
-> 1. Se $\displaystyle \frac{\partial^2f}{\partial x^2}(x_0,y_0) > 0$ e $H(x_0, y_0) > 0$, então $(x_0, y_0)$ é um ponto de **mínimo local** de $f$.
-> 2. Se $\displaystyle \frac{\partial^2f}{\partial x^2}(x_0,y_0) < 0$ e $H(x_0, y_0) > 0$, então $(x_0, y_0)$ é um ponto de **máximo local** de $f$.
-> 3. Se $H(x_0, y_0) < 0$, então $(x_0, y_0)$ não é extremante local, e sim um **ponto de sela**.
-> 4. Se $H(x_0, y_0) = 0$, nada se conclui.
+1. Se $\displaystyle \frac{\partial^2f}{\partial x^2}(x_0,y_0) > 0$ e $H(x_0, y_0) > 0$, então $(x_0, y_0)$ é um ponto de **mínimo local** de $f$.
+2. Se $\displaystyle \frac{\partial^2f}{\partial x^2}(x_0,y_0) < 0$ e $H(x_0, y_0) > 0$, então $(x_0, y_0)$ é um ponto de **máximo local** de $f$.
+3. Se $H(x_0, y_0) < 0$, então $(x_0, y_0)$ não é extremante local, e sim um **ponto de sela**.
+4. Se $H(x_0, y_0) = 0$, nada se conclui.

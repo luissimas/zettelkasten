@@ -70,7 +70,7 @@ Tomando como base a equação da parábola na *forma padrão*, se apenas desenvo
 $$
   ax^2 + cx + dy + f = 0 \qquad a \neq 0
 $$
->ou
+ou
 $$
   by^2 + cy + dx + f = 0 \qquad b \neq 0
 $$
@@ -80,21 +80,21 @@ Colocando o $x$ ou o $y$ em evidência em uma *equação geral* de uma parábola
 $$
   y = ax^2 + bx + c \qquad a \neq 0
 $$
->ou
+ou
 $$
   x = ay^2 + by + c \qquad a \neq 0
 $$
 
 # Equações paramétricas
 Considerando as equações reduzidas da parábola, podemos trocar $x$ ou $y$ por um parâmetro $t \in \mathbb{R}$, dessa forma obtemos as equações paramétricas da parábola para cada caso:
-> Caso a equação reduzida da parábola seja $x^2 = 2py$:
+Caso a equação reduzida da parábola seja $x^2 = 2py$:
 $$
 \begin{cases}
   x = t\\
   y = \frac{1}{2p}t^2
 \end{cases}
 $$
-> Caso a equação reduzida da parábola seja $y^2 = 2px$:
+Caso a equação reduzida da parábola seja $y^2 = 2px$:
 $$
 \begin{cases}
   x = \frac{1}{2p}t^2\\

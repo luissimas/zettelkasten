@@ -7,23 +7,23 @@ Sejam duas retas $e$ e $g$ concorrente em um ponto $O$ e não perpendiculares. S
 
 Nesse caso reta $g$ é a *geratriz* da superfície cônica, e a reta $e$ é o *eixo* da superfície.
 
-> *Secção cônica*, ou simplesmente *cônica*, é o conjunto de pontos que formam a intersecção de um plano $\pi$ com a superfície cônica.
+*Secção cônica*, ou simplesmente *cônica*, é o conjunto de pontos que formam a intersecção de um plano $\pi$ com a superfície cônica.
 
 Os diferentes tipos de cônicas são classificados de acordo com a forma como o plano $\pi$ intersecta a superfície cônica.
 
-> Quando uma superfície cônica é seccionada por um plano $\pi$ que **não passa** pelo vértice $O$, a cônica será:
-> - uma *[[Parábola|parábola]]*, se $\pi$ for paralelo a uma geratriz da superfície.
-> - uma *[[Elipse|elipse]]*, se $\pi$ não for paralelo a uma geratriz e intercepta apenas uma das folhas da superfície (ou uma circunferência, se $\pi$ for perpendicular ao eixo).
-> - uma *[[Hipérbole|hipérbole]]*, se $\pi$ não for paralelo a uma geratriz e interceptar as duas folhas da superfície. A *hipérbole* deve ser interpretada como uma curva só, constituída de dois ramos, um em cada folha da superfície.
+Quando uma superfície cônica é seccionada por um plano $\pi$ que **não passa** pelo vértice $O$, a cônica será:
+- uma *[[Parábola|parábola]]*, se $\pi$ for paralelo a uma geratriz da superfície.
+- uma *[[Elipse|elipse]]*, se $\pi$ não for paralelo a uma geratriz e intercepta apenas uma das folhas da superfície (ou uma circunferência, se $\pi$ for perpendicular ao eixo).
+- uma *[[Hipérbole|hipérbole]]*, se $\pi$ não for paralelo a uma geratriz e interceptar as duas folhas da superfície. A *hipérbole* deve ser interpretada como uma curva só, constituída de dois ramos, um em cada folha da superfície.
 
 ![[tiposconicas.png]]
 
 Note que se os planos secantes passarem pelo vértice $O$, serão obtidas as chamadas cônicas "degeneradas".
 
-> Quando uma superfície cônica é seccionada por um plano $\pi$ que **passa** pelo vértice $O$, a cônica será:
-> - uma *reta*, se $\pi$ for paralelo a uma geratriz da superfície.
-> - um *ponto*, se $\pi$ não for paralelo a uma geratriz e intercepta apenas uma das folhas da superfície.
-> - duas *retas*, se $\pi$ não for paralelo a uma geratriz e interceptar as duas folhas da superfície.
+Quando uma superfície cônica é seccionada por um plano $\pi$ que **passa** pelo vértice $O$, a cônica será:
+- uma *reta*, se $\pi$ for paralelo a uma geratriz da superfície.
+- um *ponto*, se $\pi$ não for paralelo a uma geratriz e intercepta apenas uma das folhas da superfície.
+- duas *retas*, se $\pi$ não for paralelo a uma geratriz e interceptar as duas folhas da superfície.
 
 ![[tiposconicasdegeneradas.png]]
 
@@ -57,7 +57,7 @@ Primeiro aplica-se a [[Rotação de eixos|rotação]] com o objetivo de eliminar
 $$
   A'x'^2 + B'x'y' + C'y'^2 + D'x' + E'y' + F' = 0
 $$
->onde:
+onde:
 $$
 \begin{cases}
   A' = A\cos^2{\theta} + B\sin{\theta}\cos{\theta} + C\sin^2{\theta}\\
@@ -119,15 +119,15 @@ $$
 
 A partir dos valores de $\Delta$ e $\det{(M)}$ é possível **classificar** qualquer cônica dados apenas seus parâmetros, sem a necessidade de fazer rotações e translações para obter sua forma reduzida:
 
-> Se $\Delta < 0$, então a cônica é uma [[Elipse|elipse]] ou suas degenerações, sendo:
-> - uma **elipse**, se $\Delta < 0$ e $\det{(M)} < 0$
-> - um **ponto**, se $\Delta < 0$ e $\det{(M)} = 0$
-> - um **conjunto vazio**, se $\Delta < 0$ e $\det{(M)} > 0$
+Se $\Delta < 0$, então a cônica é uma [[Elipse|elipse]] ou suas degenerações, sendo:
+- uma **elipse**, se $\Delta < 0$ e $\det{(M)} < 0$
+- um **ponto**, se $\Delta < 0$ e $\det{(M)} = 0$
+- um **conjunto vazio**, se $\Delta < 0$ e $\det{(M)} > 0$
 
-> Se $\Delta > 0$, então a cônica é uma [[Hipérbole|hipérbole]] ou suas degenerações, sendo:
-> - uma **hipérbole**, se $\Delta > 0$ e $\det{(M)} \neq 0$
-> - **duas retas concorrentes**, se $\Delta > 0$ e $\det{(M)} = 0$
+Se $\Delta > 0$, então a cônica é uma [[Hipérbole|hipérbole]] ou suas degenerações, sendo:
+- uma **hipérbole**, se $\Delta > 0$ e $\det{(M)} \neq 0$
+- **duas retas concorrentes**, se $\Delta > 0$ e $\det{(M)} = 0$
 
-> Se $\Delta = 0$, então a cônica é uma [[Parábola|parábola]] ou suas degenerações, sendo:
-> - uma **parábola**, se $\Delta = 0$ e $\det{(M)} \neq 0$
-> - uma **única reta** ou **duas retas paralelas**, se $\Delta = 0$ e $\det{(M)} = 0$
+Se $\Delta = 0$, então a cônica é uma [[Parábola|parábola]] ou suas degenerações, sendo:
+- uma **parábola**, se $\Delta = 0$ e $\det{(M)} \neq 0$
+- uma **única reta** ou **duas retas paralelas**, se $\Delta = 0$ e $\det{(M)} = 0$

@@ -2,10 +2,10 @@
 created-at: 2021-02-24
 ---
 Aplicando os conceitos de [[Posto de matriz|posto]] para analisar [[Sistemas de equações lineares|sistemas lineares]] na forma de matrizes *l-reduzidas* podemos rapidamente indentificar características importantes do sistema. Segundo a definição do *Teorema de Rouché-Capelli*:
-> Seja um sistema linear de $m$ equações a $n$ variáveis $AX=B$, cuja matriz dos coeficientes $A$ tem um posto $p$ e cuja matriz ampliada $Ã$ tem posto $q$. Então:
-> 1. se $p \neq q$, o sistema é impossível
-> 2. se $p = q = n$, o sistema é possível e determinado
-> 3. se $p = q < n$ , o sistema é possível e indeterminado, com grau de liberdade $n-p$
+Seja um sistema linear de $m$ equações a $n$ variáveis $AX=B$, cuja matriz dos coeficientes $A$ tem um posto $p$ e cuja matriz ampliada $Ã$ tem posto $q$. Então:
+1. se $p \neq q$, o sistema é impossível
+2. se $p = q = n$, o sistema é possível e determinado
+3. se $p = q < n$ , o sistema é possível e indeterminado, com grau de liberdade $n-p$
 
 Quando nos deparamos com um sistema indeterminado, devemos representá-lo de uma forma específica escolher as variáveis livres, colocá-las em forma de parâmetro e evidenciá-las. Por falta de uma explicação formal do material fica aqui o exemplo:
 $$
@@ -34,6 +34,7 @@ $$
 
 # Sistemas Lineares Homogêneos
 Usando sistemas lineares homogêneos é possível encontrar a parte relacionada aos parâmetros da solução do sistema equivalente não-homogêneos sem ter que lidar com os termos independentes no escalonamento.
-> Um sistema linear é **homogêneo** se os termos independentes são todos nulos, ou seja, um sistema na forma $AX = 0$
+
+Um sistema linear é **homogêneo** se os termos independentes são todos nulos, ou seja, um sistema na forma $AX = 0$
 
 Nesse caso, sempre há uma solução nula $(x_1,\dots,x_n) = (0,\dots,0)$ para o sistema. Mas ainda é necessário verificar se ele possui apenas a solução nula (sistema homogêneo determinado), ou se existem outras soluções possíveis (sistema homogêneo indeterminado).

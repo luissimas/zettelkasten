@@ -8,4 +8,5 @@ The idea of the algorithm is to first find the base cases. Since we're dealing w
 - Do the same thing recursively to the sub-arrays
 
 It's tricky to measure quicksort's efficiency, but in the average case it's $\text{O}(n\log{n})$, and in the worst case it's $\text{O}(n^2)$.
-> If you always choose a random element in the array as the pivot, quicksort will complete in $\text{O}(n\log{n})$ time in average.
+
+If you always choose a random element in the array as the pivot, quicksort will complete in $\text{O}(n\log{n})$ time in average.
