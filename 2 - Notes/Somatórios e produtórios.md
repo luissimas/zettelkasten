@@ -1,3 +1,6 @@
+---
+created-at: 2021-08-16
+---
 Somatórios e produtórios são estruturas matemáticas muito úteis para descrever valores resultantes de uma iteração sobre um determinado número de parcelas. Pelas suas similaridades, o foco aqui será nos somatórios, porém note que as propriedades de somatórios podem ser facilmente adaptadas para produtórios.
 Um somatório é uma notação utilizada para indicar uma **soma** cujas parcelas obedecem a um padrão. A forma geral de um somatório é:
 

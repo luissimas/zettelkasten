@@ -1,3 +1,6 @@
+---
+created-at: 2021-09-17
+---
 Dada uma relação $R$ em um conjunto $A$, dizemos que $R$ é uma **relação de equivalência** se $R$ é *reflexiva*, *simétrica* e *transitiva*.
 
 # Classes de equivalência

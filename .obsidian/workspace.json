@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Notes/Weighted graphs.md",
+                "file": "2 - Notes/Funções de várias variáveis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cache",
+                "query": "file:limite",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Notes/Weighted graphs.md",
+                "file": "2 - Notes/Funções de várias variáveis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Notes/Weighted graphs.md",
+                "file": "2 - Notes/Funções de várias variáveis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Notes/Weighted graphs.md"
+                "file": "2 - Notes/Funções de várias variáveis.md"
               }
             }
           }
@@ -150,32 +151,32 @@
   },
   "active": "70a978302e35bbe1",
   "lastOpenFiles": [
+    "3 - Indexes/CDS MOC.md",
+    "2 - Notes/Limite de funções de várias variáveis.md",
+    "2 - Notes/Relações de equivalência.md",
+    "3 - Indexes/MD MOC.md",
+    "2 - Notes/Relações de ordem.md",
+    "2 - Notes/Gerenciamento de Memória.md",
+    "3 - Indexes/SO MOC.md",
+    "2 - Notes/Memória virtual.md",
+    "2 - Notes/Relações.md",
+    "2 - Notes/Sequências numéricas.md",
+    "2 - Notes/Séries de Taylor.md",
+    "2 - Notes/Falseabilismo.md",
+    "2 - Notes/Karl Popper.md",
+    "2 - Notes/Propriedades das autorrelações.md",
+    "2 - Notes/Somatórios e produtórios.md",
+    "2 - Notes/Funções.md",
+    "2 - Notes/Vetor gradiente.md",
+    "2 - Notes/Funções de várias variáveis.md",
+    "2 - Notes/Substituição de páginas.md",
+    "2 - Notes/Implementação do sistema de arquivos.md",
+    "2 - Notes/Sistema de arquivos.md",
+    "2 - Notes/Weighted graphs.md",
     "2 - Notes/Volume de um sólido por fatiamento.md",
     "2 - Notes/Volume de um sólido de revolução.md",
-    "2 - Notes/Vetor gradiente.md",
     "2 - Notes/Verilog.md",
     "2 - Notes/Verbos.md",
-    "2 - Notes/Velocidade instantânea e derivadas.md",
-    "2 - Notes/Variáveis aleatórias discretas.md",
-    "2 - Notes/Variáveis aleatórias contínuas.md",
-    "2 - Notes/Variáveis aleatórias.md",
-    "2 - Notes/Valor médio de uma função.md",
-    "2 - Notes/Untitled 2.md",
-    "2 - Notes/Untitled 1.md",
-    "2 - Notes/Unificação e Substituição.md",
-    "2 - Notes/Untitled.md",
-    "2 - Notes/Unidade de controle.md",
-    "2 - Notes/ULA.md",
-    "2 - Notes/Tratamento geométrico de vetores.md",
-    "2 - Notes/Tratamento algébrico de vetores.md",
-    "2 - Notes/Translação de eixos.md",
-    "2 - Notes/Tipos abstratos de dados.md",
-    "2 - Notes/Timing analysis.md",
-    "2 - Notes/Threads.md",
-    "2 - Notes/Thomas Kuhn.md",
-    "2 - Notes/The Secret History.md",
-    "2 - Notes/Teste de hipóteses.md",
-    "2 - Notes/Teoria dos Números.md",
     "2 - Notes/sedeKvC9h",
     "2 - Notes/sedRIDitg",
     "scripts/add-frontmatter.py",

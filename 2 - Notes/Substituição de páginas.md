@@ -1,3 +1,6 @@
+---
+created-at: 2021-05-24
+---
 ## Substituição de páginas
 Em um sistema de memória virtual utilizando paginação, quando ocorre uma falta de página, é necessário buscar a página armazenada em disco e, se necessário, escolher uma página para remover da memória principal. Se a página removida foi alterada na memória principal, é necessário então reescrever essas alterações em disco, caso contrário não há essa necessidade. Nota-se que há uma complexidade grande na substituição de páginas, principalmente porque é uma operação que depende muito de acesso ao disco (uma operação custosa), então é desejável que a substituição de páginas seja feita de uma forma cuidadosa e eficiente.
 Para resolver esse problema, foram desenvolvidos diversos *algoritmos de substituição de páginas*, cada um com suas particularidades teóricas e de implementação.

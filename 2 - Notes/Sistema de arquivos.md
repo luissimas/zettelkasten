@@ -1,3 +1,6 @@
+---
+created-at: 2021-10-22
+---
 O sistema de arquivos é uma abstração do armazenamento do sistema computacional. Através dos arquivos é possível interagir com as informações armazenadas em disco de uma forma estruturada e segura.
 
 # Arquivos

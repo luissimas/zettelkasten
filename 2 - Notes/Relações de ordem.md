@@ -1,3 +1,6 @@
+---
+created-at: 2021-09-17
+---
 Dada uma relação $R$ em um conjunto $A$, dizemos que $R$ é uma **relação de ordem parcial** (denotada por $\preceq $) se $R$ é *reflexiva*, *antissimétrica* e *transitiva*. Um conjunto $A$ juntamente com uma ordem parcial $R$ é chamado de **conjunto parcialmente ordenado**, ou **conjunto ordenado**. Um *conjunto parcialmente* ordenado é denotado pelo par $(A, R)$, em que $R$ é uma relação de ordem parcial no conjunto $A$, que é chamado de *conjunto fundamental* do par ordenado.
 
 # Elementos comparáveis

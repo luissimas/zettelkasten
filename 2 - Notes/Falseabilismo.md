@@ -1,3 +1,6 @@
+---
+created-at: 2021-08-30
+---
 [[Karl Popper]] propôs como critério de demarcação da ciência o conceito de *falseabilismo*. Esse critério enuncia que **todo enunciado científico** deve poder ser submetidos à testes empíricos e possibilitar refutação.
 
 Pela natureza universal dos enunciados científicos, não é possível verificar empiricamente todos os casos sobre os quais uma determinada teoria afirma algo, entretanto, para refutar um enunciado dessa natureza, basta que se encontre um caso particular para o qual a afirmação não seja válida (um *contraexemplo*).

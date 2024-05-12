@@ -1,3 +1,6 @@
+---
+created-at: 2021-11-12
+---
 Em aplicações reais geralmente as funções relacionam o valor de mais de uma variável a algum outro valor. Em geral as funções de duas variáveis são estudadas com mais ênfase, pois a partir delas é possível generalizar os resultados para quaisquer funções de $n$ variáveis.
 
 Uma função de duas variáveis a valores reais é uma função $f: A \to \mathbb{R}$, tal que $A$ é um subconjunto de $\mathbb{R}^2$, chamado de *domínio* de $f$, e denotado por $D_f$. Uma função desse tipo **associa a cada par** $(x,y) \in A$ **um único número** $f (x, y) \in \mathbb{R}$. A imagem de $f$ é o conjunto dado por

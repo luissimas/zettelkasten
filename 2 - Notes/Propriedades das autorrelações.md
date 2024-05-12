@@ -1,3 +1,6 @@
+---
+created-at: 2021-09-17
+---
 As relações podem apresentar propriedades muito importantes para suas aplicações em problemas computacionais.
 
 # Reflexiva

@@ -1,3 +1,6 @@
+---
+created-at: 2021-08-16
+---
 *HTTP* é o principal protocolo na internet, é ele que define as regras de comunicação entre cliente e servidor.
 No *HTTP* padrão os dados são transportados em texto puro, ou seja, não há nenhuma camada que garanta a segurança dos dados enviados e recebidos. Isso se torna um grande problema principalmente quando consideramos o contexto da web, no qual os dados passam por diversos caminhos até chegar ao seu destino, pois todos os dados tanto da requisição quanto da resposta ficam visíveis para qualquer intermediário que tenha acesso a elas. Dito isso, concluímos então que o *HTTP* por si só **não é seguro!**
 
