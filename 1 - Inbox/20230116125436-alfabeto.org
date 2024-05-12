@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       f0b275dd-92af-443b-a769-f0e4d97ca737
-:END:
-#+title: Alfabeto
-
-Um alfabeto é um conjunto *finito* de [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolos]], por exemplo: $\Sigma_1 = \{a, b, c\}$, $\Sigma_2 = \{0, 1, \dots, 9\}$, $$.
