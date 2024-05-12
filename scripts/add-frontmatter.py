@@ -34,7 +34,7 @@ def migrate_files(directory):
                 created_at = f"{year}-{month}-{day}"
         frontmatter = ""
         if created_at:
-            frontmatter = f"---\ncreated-at: {created_at}\ntags:\n---\n"
+            frontmatter = f"---\ncreated-at: {created_at}\n---\n"
 
         # Remove first title and reduce all headings
         for i in range(len(note_content)):
