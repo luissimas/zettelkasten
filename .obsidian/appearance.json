@@ -3,5 +3,6 @@
   "cssTheme": "Minimal",
   "monospaceFontFamily": "Iosevka",
   "showViewHeader": true,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSize": 20
 }

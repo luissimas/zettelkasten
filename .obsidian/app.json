@@ -5,5 +5,7 @@
   "showInlineTitle": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "1 - Inbox",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "livePreview": false
 }
