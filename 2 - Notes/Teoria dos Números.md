@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-20
-tags:
 ---
 A teoria dos números se dedica ao estudo dos números inteiros e suas propriedades. Esse campo da matemática é de fato muito extenso, portanto aqui ficam enunciadas apenas algumas propriedades e conceitos básicos dos números inteiros.
 

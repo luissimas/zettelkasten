@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-22
-tags:
 ---
 O cálculo proposicional utiliza das propriedades da [[Consequência e equivalência lógica#Consequência lógica|consequência lógica]] para inferir e deduzir novos conhecimentos a partir de um conjunto de fatos conhecidos *a priori*.
 

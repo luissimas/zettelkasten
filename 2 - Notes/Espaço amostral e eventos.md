@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-09
-tags:
 ---
 Todo experimento aleatório possui um conjunto de resultados possíveis, esses resultados possíveis são na verdade os resultados indivisíveis de um experimento. Cada conjunto unitário determinado por um e somente um desses resultados possíveis é chamado de **evento elementar**. Por exemplo, no jogo da moeda os eventos elementares são: $\{\text{cara}\} \text{ e } \{\text{coroa}\}$. É importante destacar a notação de conjuntos.
 

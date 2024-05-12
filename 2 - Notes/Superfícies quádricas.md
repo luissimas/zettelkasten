@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 Uma *quádrica* é uma superfície no espaço gerada por uma equação do segundo grau na seguinte forma:
 

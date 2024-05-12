@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-05
-tags:
 ---
 O critério da integral nos permite verificar a convergência de séries manipulando os conceitos de [[Integrais definidas | integrais definidas]].
 

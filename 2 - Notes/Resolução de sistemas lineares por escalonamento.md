@@ -1,6 +1,5 @@
 ---
 created-at: 2021-02-24
-tags:
 ---
 Aplicando os conceitos de [[Posto de matriz|posto]] para analisar [[Sistemas de equações lineares|sistemas lineares]] na forma de matrizes *l-reduzidas* podemos rapidamente indentificar características importantes do sistema. Segundo a definição do *Teorema de Rouché-Capelli*:
 > Seja um sistema linear de $m$ equações a $n$ variáveis $AX=B$, cuja matriz dos coeficientes $A$ tem um posto $p$ e cuja matriz ampliada $Ã$ tem posto $q$. Então:

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-01
-tags:
 ---
 A linguagem *Assembly (Montagem)* é uma linguagem de baixo nível, muito próxima do hardware. A ideia da linguagem é fornecer um nome simbólico (e mais legível para seres humanos) para cada instrução do hardware, facilitando o desenvolvimento de programas.
 Para que um programa com instruções em Assembly possa ser de fato executado pelo computador, ele passa por um *Assembler (Montador)*, que "traduz" as instruções simbólicas e as variáveis para os devidos códigos de instruções e endereços de memória, gerando um programa executável.

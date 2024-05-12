@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-12
-tags:
 ---
 Dada uma função $f$ que admite derivadas parciais em $(x_0, y_0)$, o vetor
 

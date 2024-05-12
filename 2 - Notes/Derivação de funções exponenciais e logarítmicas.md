@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-03
-tags:
 ---
 Sendo $u(x)$ uma função derivável, e $a>0$, $a\not=0$ e $\alpha \in \mathbb{R}$ temos que:
 $$

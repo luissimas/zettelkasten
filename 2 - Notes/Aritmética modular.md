@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-20
-tags:
 ---
 A aritmética modular é o estudo as operações aritméticas básicas no contexto dos números inteiros módulo $n$.
 As operações na aritmética modulas sempre estarão definidas no contexto de um conjunto $\mathbb{Z}_n$, onde $n$ é um inteiro positivo. O conjunto $\mathbb{Z}_n$ é o conjunto de todos os números naturais de $0$ e $n-1$, ou seja:

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-22
-tags:
 ---
 Os discos de armazenamento são divididos em diferentes setores, e podem ser particionados de diversas formas. O setor 0 do disco é chamado de **MBR**, e é utilizado para inicializar o computador. No final do *MBR* está a tabela de partição, que fornece os endereços de início e fim de cada partição do sistema. Na tabela, uma das partições do disco é sempre marcada como ativa. A função do *MBR* é, através da tabela de partição, encontrar a partição ativa e ler seu primeiro bloco, chamado de **bloco de inicialização**. O bloco de inicialização é responsável por carregar o sistema operacional contido naquela partição. Há também muitas vezes um *superbloco* na partição, que armazena parâmetros sobre o sistema de arquivos daquela partição.
 

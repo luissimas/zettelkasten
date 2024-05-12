@@ -1,6 +1,5 @@
 ---
 created-at: 2021-01-04
-tags:
 ---
 This algorithm allows us to find the *shortest* path from one node to another in a directed [[Weighted graphs|weighted graph]] without *negative-weighted* edges.
 The algorithm follows these basic steps:

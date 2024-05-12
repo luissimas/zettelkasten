@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-15
-tags:
 ---
 The different elements that allow us to storage data in digital circuits can be implemented quite easily with the use of `if-else` statements. Here we find the [[Verilog|verilog ]] examples for the basic structures of storage.
 

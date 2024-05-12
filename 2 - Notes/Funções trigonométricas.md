@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-03
-tags:
 ---
 É fundamental relembrar as principais propriedades e relações trigonométricas. Em um triângulo retângulo temos as seguintes relações:
 $$

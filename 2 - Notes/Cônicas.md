@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-18
-tags:
 ---
 Sejam duas retas $e$ e $g$ concorrente em um ponto $O$ e não perpendiculares. Se mantermos a reta $e$ fixa e girarmos $g$ $360^{\circ}$ em torno de $e$ mantendo constante o ângulo entre as retas, obteremos uma *superfície cônica* circular infinita formada por duas folhas separadas pelo vértice $O$.
 

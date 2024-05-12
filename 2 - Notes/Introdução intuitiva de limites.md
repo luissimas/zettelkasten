@@ -1,6 +1,5 @@
 ---
 created-at: 2020-10-30
-tags:
 ---
 O operador $\lim_{x\to a}$ define que a variável $x$ está se aproximando infinitamente de $a$, porém seu valor nunca é de fato $a$. Para calcular limites devemos primeiramente manipular a expressão utilizando de propriedades de produtos e fatoração de polinômios para então aplicar o operador e substituir o $x$ da equação por $a$.
 

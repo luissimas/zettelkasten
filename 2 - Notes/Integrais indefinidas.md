@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-04
-tags:
 ---
 Para calcular as integrais fazemos o processo inverso das derivadas. Sendo $f(x)$ e $F(x)$ definidas em um intervalo $I\subset\mathbb{R}$, temos que $F(x)$ é uma primitiva de $f(x)$ se $F'(x)=f(x)$ para cada $x\in I$.
 Sabendo que a derivada de uma constante é sempre $0$, podemos somar qualquer constante a $F(x)$ e ela ainda será primitiva de $f(x)$, daí o termo *integral indefinida*.

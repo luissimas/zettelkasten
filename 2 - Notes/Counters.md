@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-15
-tags:
 ---
 Counter circuits are very useful for a series of aplications. They can be implemented using the [[Arithmetic logic circuits#Adder and subtractor circuit|adder/subtractor]] circuit or with [[Flip-Flops|flip-flops]]. Since the focus here is to increment or decrement a count by 1, it's much more efficient to use the implementation with flip-flops.
 

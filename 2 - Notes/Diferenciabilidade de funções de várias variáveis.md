@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-31
-tags:
 ---
 A definição da diferenciabilidade das funções de várias variáveis parte do mesmo princípio de *razão incremental* usado da definição para funções de uma variável, porém são necessários alguns ajustes.
 

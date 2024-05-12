@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-31
-tags:
 ---
 É possível calcular as *derivadas parciais* de uma função de várias variáveis fixando todas as variáveis da equação nos valores do ponto, exceto aquela com relação a qual queremos calcular a derivada. A partir do momento que fixamos uma variável, ela passa a se comportar como uma constante, ou seja, ao fixar todas as variáveis exceto uma, temos uma função de uma variável.
 Dessa forma, calcular uma derivada parcial consiste em fixar as demais variáveis da função e então calcular a derivada de uma função de apenas uma variável.

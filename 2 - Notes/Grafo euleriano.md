@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-17
-tags:
 ---
 Um grafo é um *grafo euleriano* se ele contém um *tour euleriano*.
 

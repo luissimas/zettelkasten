@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-22
-tags:
 ---
 A ULA (Unidade lógica e aritmética), é a parte do *CPU* responsável por realizar operações aritméticas e lógicas.
 Essa unidade recebe como entrada os dois operandos (no caso da arquitetura [[MIPS]] eles possuem 32 bits), e um seletor de operação a ser realizada com esses operandos. A representação numérica que deve ser levada em conta é a de complemento de 2, que simplifica as [[Arithmetic logic circuits|operações usando números com sinais]].

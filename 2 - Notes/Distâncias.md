@@ -1,6 +1,5 @@
 ---
 created-at: 2021-04-14
-tags:
 ---
 # Distância entre pontos
 Dados os pontos $P_1(x_1,y_1,z_1)$ e $P_2(x_2,y_2,z_2)$, a distância $d$ entre eles é $|\overrightarrow{P_1P_2}|$, ou seja:

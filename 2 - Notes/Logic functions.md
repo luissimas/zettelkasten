@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-07
-tags:
 ---
 Logic functions are capable of combine input signals to produce an output signal, we can combine several logic functions in a logic circuit. In this note are described the behavior of the basic functions and de XOR function.
 

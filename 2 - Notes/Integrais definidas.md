@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-15
-tags:
 ---
 As integrais definidas são usadas para calcular a área sob o gráfico de uma função $f$ em um **intervalo definido**.\
 Imagine uma situação na qual desejamos calcular a área sob o gráfico de uma curva. Uma forma intuitiva de obter aproximações da área dessa curva é dividir o espaço sob a curva em vários retângulos como na figura:

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-18
-tags:
 ---
 > Hipérbole é o conjunto de todos os pontos de um plano cuja **diferença das distâncias**, em valor absoluto, a dois pontos fixos desse plano é constante.
 

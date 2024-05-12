@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-13
-tags:
 ---
 Listas encadeadas utilizam do conceito de **alocação encadeada** de elementos ao invés de alocação sequencial.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 Uma *superfície de revolução* é a superfícies gerada por uma curva plana (chamada de *geratriz*), que gira $360°$ em torno de uma reta (chamada de *eixo*) situada no plano da curva. Nesse caso, o *traço da superfície* em um plano perpendicular ao eixo é uma circunferência, e a equação da superfície de revolução pode ser obtida a partir da equação da curva *geratriz*.
 Dada uma superfície gerada pela revolução da parábola $\displaystyle\begin{cases}z^2 = 2y\\x=0\end{cases}$ em torno do eixo dos y:

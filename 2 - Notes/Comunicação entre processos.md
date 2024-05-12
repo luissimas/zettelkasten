@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-31
-tags:
 ---
 [[Processos]] sempre precisam se comunicar, essa comunicação deve ser bem definida e estruturada de maneira a garantir que haja um bom desempenho e, principalmente, que os processos não entrem em *condições de corrida*. Condições de corrida ocorrem quando dois ou mais processos estão lendo ou escrevendo dados em um espaço de memória compartilhado e o resultado final depende de qual processo executa e quando ele executa.
 Uma maneira de evitar as condições de corrida, isto é, atingir a **exclusão mútua** no acesso a áreas de memória compartilhadas, é através da implementação do conceito de **regiões críticas**. Região crítica é o nome dado a qualquer parte do programa executado por um processos onde a memória compartilhada é acessada ou onde podem ocorrer quaisquer condições de corrida.

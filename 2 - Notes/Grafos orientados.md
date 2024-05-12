@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-26
-tags:
 ---
 Um grafo é *orientado* quando suas arestas especificam claramente o *vértice de partida* e o *vértice de chegada*.
 

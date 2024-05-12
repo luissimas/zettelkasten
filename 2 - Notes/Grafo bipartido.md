@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-17
-tags:
 ---
 Dado um grafo $G = (V, A)$, uma *bipartiçã* de $V$ é um par não ordenado de subconjuntos $V^-$ e $V^+$ tais que:
 

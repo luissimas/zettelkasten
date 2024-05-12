@@ -1,6 +1,5 @@
 ---
 created-at: 2021-04-10
-tags:
 ---
 Seja $A(x_1,y_1,z_1)$ um ponto pertencente ao plano $\pi$ e $\vec{n}=(a,b,c)$, $\vec{n} \neq \vec{0}$, um vetor **ortogonal (normal) ao plano** $pi$.
 

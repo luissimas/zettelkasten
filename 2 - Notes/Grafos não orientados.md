@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-26
-tags:
 ---
 Um grafo não orientado é um par $(V, A)$ onde:
 - $V$ é um conjunto qualquer (de vértices).

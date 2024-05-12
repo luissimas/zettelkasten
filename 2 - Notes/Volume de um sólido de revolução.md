@@ -1,6 +1,5 @@
 ---
 created-at: 2020-12-07
-tags:
 ---
 Calcular o volume de um sólido de revolução consiste em obter um plano delimitado por duas curvas e duas retas e rotacioná-lo ao redor de um eixo no centro do sólido.
 >Pois é, não tem relação nenhuma com causar uma profunda mudança nas estruturas de uma cultura ou sociedade. Depecionado? eu também fiquei.

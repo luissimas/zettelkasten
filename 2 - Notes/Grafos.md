@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-26
-tags:
 ---
 Grafo é um modelo matemático para representar uma coleção de objetos *(vértices)* que são ligados aos pares por outra coleção de objetos *(arestas)*.
 Um grafo é definido por um par $(V, A)$ onde:

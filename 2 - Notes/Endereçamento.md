@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-08
-tags:
 ---
 Em uma instrução temos, geralmente, um operador e os operandos. O endereçamento é a forma como especifica-se onde (endereço de memória) os operandos estão.
 O endereçamento é feito geralmente **byte-a-byte**, sendo que cada byte tem um endereço. Apesar disso, é comum que se sejam endereçados blocos com mais do que um byte. Esses blocos podem ser os seguintes:

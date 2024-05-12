@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-17
-tags:
 ---
 # União
 A união de dois conjuntos $A$ e $B$ é o conjunto de todos os elementos que pertencem a $A$ **ou** a $B$.

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-06
-tags:
 ---
 Uma série de potências é uma [[Séries numéricas|série]] do tipo
 $$

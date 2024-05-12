@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-17
-tags:
 ---
 Árvores são um tipo específico de [grafo](Grafos.md), sendo utilizadas para modelar uma classe muito grande de problemas computacionais.
 

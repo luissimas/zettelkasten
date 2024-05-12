@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-08
-tags:
 ---
 Não há uma definição clara do que a quantidade de bits no nome da arquitetura significa (32 ou 64bits), visto que isso pode descrever diversas partes da arquitetura como:
 - Descrever a quantidade de bits usadas para representar inteiros endereços de memória.

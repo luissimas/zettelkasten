@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-07
-tags:
 ---
 In logic circuits information is represented as eletronic signals that represent the voltage level in a circuit. This signals are usually denoted as $0$ and $1$. Binary numbers can be converted to decimal using the following formula:
 $$

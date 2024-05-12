@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-15
-tags:
 ---
 Flip-flops have a behaviour very similar to [[Latches|latches]], but they differ in the sense that in flip-flops, the stored signal can change only once during one clock cycle. Not only that, but the output state can change only on the *edge* of the clock signal. 
 If the flip-flop allows state changes only when the clock signal goes from $0$ to $1$, we say that it is a *positive-edge-triggered* flip-flop. If it allows state changes only when the clock signal goes from $1$ to $0$, we say that it is a *negative-edge-triggered* flip-flop.

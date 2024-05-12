@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 Dada uma reta $g$ no plano $yz$ de equações $z=my$, $x=0$. A rotação dessa reta em torno do eixo $Oz$ resulta em uma *superfície cônica circular*.
 

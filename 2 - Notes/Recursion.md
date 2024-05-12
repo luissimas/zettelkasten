@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-25
-tags:
 ---
 Recursion is a technique for solving problems that evolves around the idea of a function that calls itself itself until the output reaches a *base case*, then the functions start to return the values to the ones that called them. This is one of the mos elegant ways of solving problems, it can be very efficient and we can solve a lot of problems using few lines of code.
 

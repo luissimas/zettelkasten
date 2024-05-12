@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-25
-tags:
 ---
 O princípio da indução enuncia que, a partir de evidências empíricas, é possível estabelecer relação entre diferentes fatos ou eventos.
 

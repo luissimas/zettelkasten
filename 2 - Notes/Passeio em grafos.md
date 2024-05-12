@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-08
-tags:
 ---
 Para percorrer grafos, utiliza-se do conceito de *passeio*. Existem diversas variações de passeios de acordo com diferentes restrições ao trajeto a ser percorrido no grafo.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-26
-tags:
 ---
 A variável aleatória $X:\Omega\rightarrow\mathbb{R}$ é chamada de **contínua** quando seu conjunto imagem $Im(X)$ é **infinito não-enumerável**, ou seja, os possíveis valores de $X$ não podem ser descritos em forma de lista. Uma característica interessante desse tipo de variável aleatória é que não conseguimos atribuir probabilidade positiva para valores específicos, somente para intervalos de valores.
 

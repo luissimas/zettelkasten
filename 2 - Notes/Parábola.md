@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-18
-tags:
 ---
 Seja $d$ uma reta qualquer e $F$ um ponto não pertencente a $d$. Chamamos de *parábola* o conjunto de todos os pontos de um plano **equidistantes** do ponto $F$ e da reta $d$. Dessa forma, um ponto $P$ qualquer pertence à parábola se e somente se:
 $$

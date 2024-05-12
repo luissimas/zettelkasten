@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-30
-tags:
 ---
 Finite state machines are abstract models capable of describing the behavior of [[Sequential circuits|sequential circuits]]. A *finite state machine* must have the following attributes:
 - A finite set of inputs

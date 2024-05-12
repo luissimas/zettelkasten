@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-17
-tags:
 ---
 Um grafo é dito *hamiltoniano* se e somente se ele possui um *ciclo hamiltoniano*.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-03
-tags:
 ---
 [[Thomas Kuhn]] desenvolveu o conceito de *revoluções científicas* para descrever a forma como a ciência opera e se desenvolve. Vale notar que, ao contrário do que ocorre com o [[Falseabilismo]] de [[Karl Popper]], a abordagem de Kuhn é muito mais **descritiva** do prescritiva, e se baseia muito mais em investigações históricas do que na lógica pura.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-27
-tags:
 ---
 Assim como para funções de uma variável, a continuidade é definida em termos de limites.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-24
-tags:
 ---
 Threads são estruturas de execução pertencentes a um determinado [[Processos | processo]], um processo pode ter uma ou mais threads. Cada thread possui dados exclusivos, como PC e pilha, mas todas a threads de um processo compartilham o **mesmo espaço de endereçamento** de seu processo.
 As threads permitem que diferentes unidades de execução possam aproveitar dos mesmos recursos alocados em um processo, isso se torna vantajoso principalmente porque a criação de threads é muito mais barata computacionalmente do que a criação de um novo processo. Outra característica importante das threads é que, por compartilharem o espaço de endereçamento do processo, elas podem acessar os mesmos arquivos abertos e variáveis globais do processo, isso tem suas vantagens mas também introduz novos desafios relacionados à concorrência pelo uso desses recursos por diferentes threads.

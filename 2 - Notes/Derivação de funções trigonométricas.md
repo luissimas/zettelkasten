@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-03
-tags:
 ---
 Sendo $u(x)$ uma função derivável temos que:
 $$

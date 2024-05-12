@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-14
-tags:
 ---
 Sequential circuits are a class of digital circuits in which the output values depends not only on the input values but also on the past * state* of the circuit. This circuits utilize storage elements that store the values of logic signals.
 ![[sequentialcircuit.png]]

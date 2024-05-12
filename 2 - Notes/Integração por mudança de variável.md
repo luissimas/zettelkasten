@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-10
-tags:
 ---
 A mudança de variável é uma técnica equivalente a uma [[Derivação em cadeia e implícita#Derivação em cadeia|regra da cadeia]] inversa. Supondo que $F(x)$ e $G(x)$ são, respectivamente, primitivas de $f(x)$ e $g(x)$ temos que:
 $$

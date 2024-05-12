@@ -1,6 +1,5 @@
 ---
 created-at: 2021-02-22
-tags:
 ---
 Sistemas lineares são caracterizados por conterem equações nas quais as variáveis são multiplicadas apenas por constantes e apresentam a seguinte forma:
 $$

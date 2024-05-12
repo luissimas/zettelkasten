@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-26
-tags:
 ---
 O principal objetivo do software de IO é fornecer uma **interface uniforme** de interação com os dispositivos, ou seja, não importa o tipo ou os detalhes de implementação do dispositivo, o usuário deve ser capaz de interagir com ele da mesma maneira que interage com outro dispositivo, com uma implementação totalmente diferente. Um exemplo disso está presente nos sistemas *UNIX*, onde é possível interagir com os discos da mesma forma que com pendrives ou outros dispositivos, basta que eles estejam montados no sistema de arquivos.
 

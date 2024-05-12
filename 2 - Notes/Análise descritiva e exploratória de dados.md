@@ -1,6 +1,5 @@
 ---
 created-at: 2021-04-09
-tags:
 ---
 A análise descritiva e exploratória de dados trata das formas de **analisar um conjunto de dados**.
 Quando realizamos um estudo estatístico e uma coleta de dados devemos ter sempre em mente qual o objetivo daquele estudo e quais caraterísticas são levadas em consideração no estudo.

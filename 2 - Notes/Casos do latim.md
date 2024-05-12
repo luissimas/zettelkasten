@@ -1,6 +1,5 @@
 ---
 created-at: 2021-01-06
-tags:
 ---
 O latim é uma língua com um extensivo sistema de casos gramaticais. Isso significa que a função sintática que o termo da oração expressa é definida pelo seu sufixo. Cada caso é usado para expressar uma ou mais funções gramaticais (pelo menos daquelas conhecidas no português).
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-24
-tags:
 ---
 These are the two basic data structures, they differ a lot, so there are multiple uses for both of them.
 

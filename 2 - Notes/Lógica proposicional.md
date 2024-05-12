@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-08
-tags:
 ---
 A lógica proposicional tem o objetivo mapear o conhecimento em uma linguagem sem ambiguidades processável matematicamente.
 Existem dois princípios fundamentais na lógica proposicional:

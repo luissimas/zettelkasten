@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-16
-tags:
 ---
 > ***Substituição***
 > Uma substituição na lógica de predicados é um conjunto

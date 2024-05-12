@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-09
-tags:
 ---
 A conectividade em grafos nos permite modelar conexões entre vértices de um grafo através das ideias de *passeio*. A definição de conectividade varia de acordo com o tipo (orientado ou não orientado) do grafo.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-15
-tags:
 ---
 A regra da cadeia nos permite calcular derivadas de funções compostas. Para calcular a derivada de funções de várias variáveis usando esse método, é preciso compor a função a ser derivada com uma *curva* para então calcular sua derivada utilizando o [[Vetor gradiente | vetor gradiente]].
 

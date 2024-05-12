@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-15
-tags:
 ---
 A semântica especifica como as sequências válidas da linguagem se relacionam entre si e qual o valor-verdade dessa relação. No campo da semântica são tratados não só as interpretações e classificação das fórmulas lógicas, mas também [[Consequência e equivalência lógica|as relações de consequência e equivalência]] que elas estabelecem entre si.
 

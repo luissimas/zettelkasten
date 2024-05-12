@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-03
-tags:
 ---
 Os máximos e mínimos de uma função se referem, respectivamente aos maiores e menores valores que a função contínua pode assumir em um intervalo $I\subset\mathbb{R}$. Para determinar os valores de máximo e mínimo de uma função usamos a mesma noção introduzida para os máximos e mínimos locais, porém dessa vez aplicados para um intervalo $I$.
 

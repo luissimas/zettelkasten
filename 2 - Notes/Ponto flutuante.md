@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-17
-tags:
 ---
 Representar números reais em circuitos computacionais é significativamente mais complexo do que a representação de números inteiros, além disso é necessário hardware dedicado para manipular os dados nessa representação.
 Os *números de ponto flutuante (floating-point numbers)* são representados em **notação científica**, dessa forma é possível obter uma grande precisão de casas decimais sem comprometer o espaço de armazenamento.

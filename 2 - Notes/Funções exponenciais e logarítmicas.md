@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-03
-tags:
 ---
 É importante lembrar os conceitos básicos de potências e logarítmos, suas propriedades e relações. Sendo $a$ e $b$ um número real positivo, temos que:
 

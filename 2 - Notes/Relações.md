@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-17
-tags:
 ---
 Uma relação $R$ é um [[Conjuntos|conjunto]] de *tuplas* $(a_1,a_2, \dots, a_n)$ com $a_1 \in A_1$, $a_2 \in A_2$, $\dots$, $a_n \in A_n$. Note que $R$ é necessariamente um subconjunto do conjunto definido pelo produto cartesiano [[Operações em conjuntos|produto cartesiano]] $A_1 \times A_2 \times \dots \times A_n$ Essas tuplas de objetos são relacionadas através de uma **lei de associação**.
 As relações compostas por *pares* de elementos, ou seja, apenas dois elementos por tupla, são chamadas de *relações binárias.* Dessa forma, $x R y$ indica que o par ordenado $(x,y)$ satisfaz a relação $R$.

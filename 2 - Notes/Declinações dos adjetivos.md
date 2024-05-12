@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-31
-tags:
 ---
 Existem ao todo 3 declinações para os substantivos, a maneira mais fácil de identificá-las é através do [[Casos do latim|caso]] genitivo, que sempre é diferente para cada declinação.
 

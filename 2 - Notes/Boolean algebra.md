@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-07
-tags:
 ---
 Boolean algebra was created by *George Boole* and is a very powerful tool to describe and design logic circuits. In Boolean algebra the elements can only assume the binary values: $0$ or $1$. 
 Boolean algebra is based on the following set of axioms:

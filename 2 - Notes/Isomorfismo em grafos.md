@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-09
-tags:
 ---
 O isomorfismo é uma [[Relações | relação de equivalência]] em grafos que determina se dois grafos possuem a mesma estrutura. A isomorfia é um dos conceitos mais importantes na teoria dos grafos, pois permite compartilhar soluções de problemas entre gráficos distintos porém com a mesma estrutura.
 

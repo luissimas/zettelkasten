@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-05
-tags:
 ---
 > ***Critério da comparação***
 > Dadas duas [[Sequências numéricas | sequências numéricas]] $(a_n)$ e $(b_n)$ com $0 \leq a_n \leq b_n$, pode-se afirmar duas coisas:

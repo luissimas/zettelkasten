@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-27
-tags:
 ---
 O indutivismo é uma concepção de ciência que considera que todo conhecimento científico tem origem na observação e na experiência. Ele tem sua base no [[Indução | raciocínio indutivo]].
 Há alguns pressupostos no indutivismo quanto à natureza dos dados coletados empiricamente:

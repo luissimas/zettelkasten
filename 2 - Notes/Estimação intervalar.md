@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-08
-tags:
 ---
 Quando fazemos [[Estimação pontual|estimativas pontuais]], não há como julgar qual a magnitude do possível erro da estimativa, apenas sabemos que o valor verdadeiro do parâmetro está próximo da estimativa. Assim, a estimação intervalar nos fornece meios de determinar não só uma estimativa, mas um *intervalo de confiança*, ou seja, um intervalo de valores plausíveis para o parâmetro (o que **não** significa que o parâmetro está com certeza nesse intervalo).
 Os intervalos de confiança são obtidos a partir da [[Estatísticas e suas distribuições#Distribuições amostrais|distribuição amostral]] dos [[Estimação pontual|estimadores pontuais]]. Não há como determinar com certeza se o intervalo de confiança contém o parâmetro populacional (pois ele é desconhecido), porém esse intervalo é construído com base em um alto nível de confiança fixado de que ele contém o parâmetro.

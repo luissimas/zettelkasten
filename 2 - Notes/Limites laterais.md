@@ -1,6 +1,5 @@
 ---
 created-at: 2020-10-30
-tags:
 ---
 Em certos casos devemos analisar os limites laterais de uma função, pois não há um limite definido, os limites dependem do "lado" dos valores de $x$, por exemplo:
 

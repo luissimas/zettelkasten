@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-15
-tags:
 ---
 As derivadas direcionais nos permitem calcular a taxa de variação de uma função de várias variáveis na direção de um vetor arbitrário.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-12
-tags:
 ---
 Is possible to implement [[Arithmetic logic circuits|arithmetic circuits]] in [[Verilog]] in a number of ways. One way is by creating a fulladder module that adds individual bits and outputs the result and the carrys and then defining a higher-level module that uses *n* instances of the full-adder. This is shown in the examples:
 

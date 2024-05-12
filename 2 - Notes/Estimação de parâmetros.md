@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 A estimação de parâmetros consiste em estimar um parâmetro desconhecido de uma população. Um parâmetro $\theta$ de uma população é um **valor real** que resume uma certa característica $X$ (representada por uma variável aleatória) em toda a população. Como não temos acesso a população toda, é impossível determinar com certeza qual o real valor de $\theta$.
 É justamente por isso que estamos interessados em **estimar** valores (ou intervalos) para esses parâmetros, fazemos isso a partir uma amostra $(X_1, X_2, \dots, X_n)$.

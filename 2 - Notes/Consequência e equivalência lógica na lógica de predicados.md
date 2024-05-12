@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-12
-tags:
 ---
 Consequência e equivalência lógica são relações estabelecidas entre duas fórmulas (ou conjunto de fórmulas).
 

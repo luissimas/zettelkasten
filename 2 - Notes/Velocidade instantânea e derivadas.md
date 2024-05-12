@@ -1,6 +1,5 @@
 ---
 created-at: 2020-10-30
-tags:
 ---
 O conceito de velocidade instantânea é frequentemente usado para arpesentar a definição de limite, tanto por ser um exemplo simples quanto pelo fato de que a sua definição foi o que criou a necessidade de se ter um operador como o de limite. A velocidade instantânea de um objeto é definida da seguinte forma:
 

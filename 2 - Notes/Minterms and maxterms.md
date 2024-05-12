@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-09
-tags:
 ---
 We can obtain the canonical expression for a given function applying minterms or maxterms.
 

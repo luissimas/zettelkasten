@@ -1,6 +1,5 @@
 ---
 created-at: 2020-12-07
-tags:
 ---
 Para calcular o comprimento de uma curva usando integrais a ideia é: encontrar (através do teorema de pitágoras) "hipotenusas" *infinitesimais* ao longo da curva, e então somá-las para todo o intervalo. 
 ![[comprimentodecurva.png]]

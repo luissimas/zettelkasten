@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-20
-tags:
 ---
 > ***Literal***
 > Um literal é um átomo (literal positivo) ou a negação de um átomo (literal negativo). Os literais $L$ e $\neg L$ são chamados de **complementares**.

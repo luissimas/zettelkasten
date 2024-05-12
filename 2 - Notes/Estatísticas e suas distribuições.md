@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 Uma estatística é um **valor** ou conjunto de valores observáveis que resume a característica $X$ na amostra. As estatísticas serão utilizadas para realizar a inferência sobre os parâmetros desconhecidos da população.
 

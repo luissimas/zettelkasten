@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-03
-tags:
 ---
 Se uma função $f$ é contínua no intervalo fechado $[a,b]$ e tem derivada nos pontos do intervalo aberto $]a,b[$, temos que:
 

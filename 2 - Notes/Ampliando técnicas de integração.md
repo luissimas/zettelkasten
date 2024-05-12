@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-25
-tags:
 ---
 Calcular integrais não é uma tarefa intuitiva, há vezes em que nos deparamos com expressões dentro de integrais cuja solução não é imediata. Ao longo do tempo foram desenvolvidas diversas técnicas para manipular essas expressões e transformá-las em integrais mais simples de serem calculadas.
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-04-01
-tags:
 ---
 A esperança nada mais é do que o **valor médio esperado** de uma variável aleatória. Ao executar um experimento aleatório muitas vezes é possível constatar que os valores de uma determinada variável aleatória tendem a um valor específico. Esse *valor médio esperado* é calculado fazendo uma *média* dos valores que a variável aleatória pode assumir, sendo que cada valor é *ponderado* pela sua probabilidade de ocorrência.
 Esse valor esperado é um conceito fundamental em probabilidade, pois fornece informação a respeito do comportamento médio do experimento aleatório em questão.

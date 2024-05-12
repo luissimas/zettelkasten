@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-24
-tags:
 ---
 A memória cache é uma unidade de armazenamento de baixa capacidade utilizada para armazenar temporariamente cópias de blocos de dados da memória principal com o intuito de melhorar o desempenho do processador para operações de acesso à memória. Pela tecnologia com a qual é implementada, e por estar muito próxima do processador, a *memória cache*, apesar da sua pequena capacidade, é muito rápida (e muito cara).
 A função da memória cache é armazenar as *palavras* ou blocos de informações mais **comumente** e **recentemente** acessadas pelo processador. Quando o processador tenta acessar uma palavra da memória, primeiro verifica-se a existência do dado na cache. Caso a palavra buscada pelo processador esteja na cache ela é entregue diretamente ao processador, sem necessidade de acesso a outras memórias mais lentar. Caso a palavra não esteja na cache, inicia-se uma operação para trazer o bloco de memória que contém aquela palavra para a cache.

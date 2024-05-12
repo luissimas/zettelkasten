@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-16
-tags:
 ---
 > Um *conjunto* é uma coleção de objetos **não ordenada** e **sem repetição**. De maneira geral, todos os objetos de um conjunto têm alguma propriedade em comum, sendo essa a razão pela qual os elementos foram agrupados.
 

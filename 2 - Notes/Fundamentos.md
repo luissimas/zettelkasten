@@ -1,6 +1,5 @@
 ---
 created-at: 2021-02-22
-tags:
 ---
 # Sistema Computacional
 Um sistema computacional é composto por 3 componentes: Hardware, Software e Dados. Usar diferentes níveis de abstração facilita o uso e desenvolvimento de sistemas computacionais.

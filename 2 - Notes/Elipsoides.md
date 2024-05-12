@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 Dada uma [[Elipse|elipse]], ao girarmos ela em torno de um dos eixos coordenados, obtemos a seguinte superfície:
 

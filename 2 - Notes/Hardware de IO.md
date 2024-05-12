@@ -1,6 +1,5 @@
 ---
 created-at: 2021-10-26
-tags:
 ---
 Em geral os dispositivos de IO se dividem em duas categorias: *dispositivos de blocos* e *dispositivos de caractere*.
 Os dispositivos de bloco armazenam as informações em blocos endereçáveis de tamanho fixo. Todas as transferências realizadas são no formato desses blocos, que podem ser acessados individualmente através de operações de busca e leitura do dispositivo. Dispositivos de armazenamento no geral, como HDs, pendrives e discos são exemplos de dispositivos de bloco.

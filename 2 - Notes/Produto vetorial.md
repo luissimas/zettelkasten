@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-19
-tags:
 ---
 Dados um vetor: $\vec{u} = x_1 \vec{i} + y_1 \vec{j} + z_1 \vec{k}$, e um outro vetor: $\vec{v} = x_2 \vec{i} + y_2 \vec{j} + z_2 \vec{k}$, o *produto vetorial* $\vec{u} \times \vec{v}$, também representado como $\vec{u}\wedge\vec{v}$ é dado por:
 $$

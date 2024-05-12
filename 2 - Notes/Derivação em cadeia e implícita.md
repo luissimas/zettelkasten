@@ -1,6 +1,5 @@
 ---
 created-at: 2020-10-30
-tags:
 ---
 A derivação em cadeia é uma técnica que nos permite calcular a derivada de uma composição de funções, tais como $f(g(x))$. Se $y=f(u)$ e $u=g(x)$, sendo ambas deriváreis então:
 $$

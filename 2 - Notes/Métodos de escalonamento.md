@@ -1,6 +1,5 @@
 ---
 created-at: 2021-02-23
-tags:
 ---
 # Sistemas escalonados
 Sistemas chamados de escalonados possuem a seguinte forma matricial:

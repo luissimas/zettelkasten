@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-09
-tags:
 ---
 É possível expressar vetores algebricamente em função de outros vetores e números reais. Essa relação segue a seguinte definição:
 > Dados dois vetores quaisquer $\vec{v_1}$ e $\vec{v_2}$ não paralelos, para cada vetor $\vec{v}$ representado no mesmo plano de $\vec{v_1}$ e $\vec{v_2}$ existe **uma só** dupla de número reais $a_1$ e $a_2$ tal que$$\vec{v}=a_1\vec{v_1}+a_2\vec{v_2}$$

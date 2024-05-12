@@ -1,6 +1,5 @@
 ---
 created-at: 2021-04-12
-tags:
 ---
 É uma técnica de implementação [[Unidade de controle#Datapath multiciclo|multiciclo]] que permite um melhor aproveitamento de cada unidade funcional do processador. Ao invés de executar as instruções completas sequencialmente, o pipeline permite executar múltiplas tarefas simultaneamente usando **recursos diferentes.**
 O pipelining não melhora a *latência* de uma única instrução, mas sim de um conjunto de instruções executadas.

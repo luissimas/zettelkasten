@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-15
-tags:
 ---
 A sintaxe da lógica proposicional especifica quais são os símbolos utilizados na linguagem e como esses símbolos se combinam para formar uma sequência válida.
 

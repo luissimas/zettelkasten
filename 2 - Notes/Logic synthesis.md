@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-09
-tags:
 ---
 The process os logic synthesis consists in: given a logic function with a desired output, simplify the function so it can be implemented in a circuit with the desired behavior and a minimal cost.
 The are serveral ways to realize the logic synthesis, in the book we are presented to two ways:

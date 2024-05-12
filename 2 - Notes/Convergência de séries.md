@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-28
-tags:
 ---
 Uma forma imediata de verificar se uma [[Séries numéricas | série]] diverge ou converge é verificar se seu termo geral $a_n$ converge a $0$.
 

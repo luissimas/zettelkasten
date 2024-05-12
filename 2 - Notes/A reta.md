@@ -1,6 +1,5 @@
 ---
 created-at: 2021-04-05
-tags:
 ---
 # Equação vetorial
 Dado um ponto $A(x_1,y_1,z_1)$ e um vetor não nulo $\vec{v}=(a,b,c)$, só existe uma reta $r$ que passa por $A$ e tem a direção de $\vec{v}$. Um ponto $P(x,y,z)$ pertence a $r$ se, e somente se, o vetor $\overrightarrow{AP}$ é paralelo a $\vec{v}$, ou seja:

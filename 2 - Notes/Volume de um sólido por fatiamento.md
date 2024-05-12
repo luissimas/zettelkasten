@@ -1,6 +1,5 @@
 ---
 created-at: 2020-12-07
-tags:
 ---
 Para calcular o volume de um sólido por fatiamento usamos uma ideia muito similar a usada para compreender as [[Integrais definidas|integrais definidas]] (tanto que usamos essas integrais nesse contexto). Se desejamos calcular o volume de um sólido em um intervalo $[a,b]$, devemos primeiro calcular a área de uma "fatia" que representa uma das secções transversais desse sólido, como mostra a figura:
 ![[areafatiasolido.png]]

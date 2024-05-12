@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-08
-tags:
 ---
 Conforme a complexidade dos programas foi aumentando, surgiu a necessidade de desenvolvimento de arquiteturas mais complexas.
 

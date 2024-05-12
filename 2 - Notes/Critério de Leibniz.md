@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-05
-tags:
 ---
 O *critério de Leibniz* nos permite determinar a convergência de séries cujo sinal dos elementos alterna termo a termo.
 

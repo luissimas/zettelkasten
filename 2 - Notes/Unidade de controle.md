@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-29
-tags:
 ---
 Na implementação de um processador precisamos de uma unidade que controle os demais componentes, determinando quais serão ativados em quais momentos e quais funções serão utilizadas. Esse controle é feito pela *Unidade de controle* através dos **sinais de controle**.
 Essa análise, como sempre, é baseada na arquitetura [[MIPS]]. É justamente através da unidade de controle que as instruções são decodificadas para ativar cada um dos módulos em uma combinação que permita gerar os resultados desejados.

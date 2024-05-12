@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-30
-tags:
 ---
 In order to design [[Sequential circuits|sequential circuits]], it's very important to follow a set of steps that ensure the design of the most efficient circuit possible.
 1. Functional description and understand the behavior of the circuit.

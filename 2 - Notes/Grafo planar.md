@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-17
-tags:
 ---
 Um grafo $G$ é dito *planar* (ou plano) se ele pode ser desenhado numa superfície plana sem que haja **cruzamento de arestas.**
 

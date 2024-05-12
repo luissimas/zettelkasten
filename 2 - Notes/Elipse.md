@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-27
-tags:
 ---
 > Elipse é o conjunto de todos os pontos de um plano cuja **soma das distâncias** a dois pontos fixos desse plano é constante.
 

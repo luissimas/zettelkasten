@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 Os testes de hipóteses são muito usados na prática, pois nos permitem colocar à prova uma hipótese e verificar se ela é válida ou não. De maneira geral essas hipóteses são afirmações acerca do valor de algum *parâmetro populacional*.
 Trabalhamos sempre com duas hipóteses, a *hipótese nula* $H_0$ e a *hipótese alternativa* $H_1$. Caso a hipótese $H_0$ seja rejeitada, aceitamos como verdadeira a hipótese $H_1$.

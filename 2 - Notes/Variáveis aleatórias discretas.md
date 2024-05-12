@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-26
-tags:
 ---
 A variável aleatória $X:\Omega\rightarrow\mathbb{R}$ é chamada de **discreta** quando seu conjunto imagem $Im(X)$ é **finito ou infinito enumerável**, ou seja, os valores possíveis de $X$ podem ser escritos em forma de lista:
 $$

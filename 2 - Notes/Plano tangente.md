@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-11
-tags:
 ---
 Dada uma função $f(x,y)$ diferenciável em $(x_0, y_0)$, o plano definido por:
 

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-05
-tags:
 ---
 O critério da raiz nos permite determinar a convergência de uma série com base apenas em uma análise no limite da *n-ésima* raiz de seu *n-ésimo* termo.
 

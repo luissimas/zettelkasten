@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-09
-tags:
 ---
 Verilog is a [[Hardware description language|hardware description language]] that provides a very good design portability.
 In Verilog we can describe a circuit in a number of ways, the main three are: functional, structural and behavioral.

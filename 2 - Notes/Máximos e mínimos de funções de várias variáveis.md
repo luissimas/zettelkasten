@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-18
-tags:
 ---
 Dado um conjunto aberto $D$ tal que $D \subset \mathbb{R}^2$ e uma função $f: D \to \mathbb{R}$. O ponto $(x_0, y_0)$ é um ponto de *máximo absoluto* (ou máximo global) de $f$ se $f(x_0, y_0) \geq f(x,y), \quad \forall (x,y) \in D$. Da mesma forma, um ponto $(x_0,y_0)$ é um ponto de *máximo local* de $f$ se existir uma bola aberta $B$ de centro em $(x_0, y_0)$ e raio $r > 0$ tal que $f(x_0, y_0) \geq f(x,y), \quad \forall (x,y) \in B \cap D$.
 

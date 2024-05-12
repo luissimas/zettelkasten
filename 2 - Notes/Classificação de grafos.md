@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-08
-tags:
 ---
 Além das classificações fundamentais dos grafos em *orientados* e *não orientados*, existem ainda outras importantes características para categorizar esses elementos.
 

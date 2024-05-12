@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-08
-tags:
 ---
 A sintaxe da lógica de predicados especifica quais são os símbolos e elementos utilizados na linguagem e como eles podem ser combinados para formar sentenças válidas.
 

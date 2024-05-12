@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-03
-tags:
 ---
 Apesar da implementação [[Pipeline|pipeline]] proporcionar um aumento significativo de desempenho ela também introduz possíveis conflitos (*hazards*) na execução das instruções. Os *hazards* podem reduzir significativamente o ganho de desempenho alcançado pela implementação pipeline, porém existem soluções eficientes que visam minimizar a perda de desempenho.
 Existem 3 tipos de *hazards*:

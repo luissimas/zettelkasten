@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-05
-tags:
 ---
 O critério da razão é muito similar ao [[Critério da raiz | critério da raiz]], porém utiliza-se da razão entre o *n-ésimo* termo e seu antecessor.
 

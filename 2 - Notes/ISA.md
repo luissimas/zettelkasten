@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-01
-tags:
 ---
 A arquitetura do conjunto de instruções define, além de todo o conjunto de instruções disponíveis, a forma como essas instruções podem ser usadas, bem como a disposição de outros elementos da arquitetura, como endereçamentos dos registradores e quais são os registradores disponíveis.
 # Instruções

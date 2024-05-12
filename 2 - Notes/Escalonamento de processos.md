@@ -1,6 +1,5 @@
 ---
 created-at: 2021-09-01
-tags:
 ---
 O *escalonador* é o [[Processos | processo]] que gerencia a execução dos demais processos em um sistema operacional. Em ambientes de multiprogramação é comum ter diversos processos competindo pela CPU ao mesmo tempo, a tarefa do escalonador é justamente decidir quais processos serão executados em determinado momento, otimizando o uso da CPU e garantindo que todos os processos serão executados.
 De maneira geral, existem duas categorias de escalonadores:

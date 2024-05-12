@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-19
-tags:
 ---
 Determinantes nos fornecem informações úteis a respeito de suas matrizes e têm diversas aplicações.
 

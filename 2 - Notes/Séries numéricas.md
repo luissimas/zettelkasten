@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-20
-tags:
 ---
 Uma *série infinita* é a soma de uma [[Sequências numéricas | sequência]] infinita de números na forma
 $$

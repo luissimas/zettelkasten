@@ -1,6 +1,5 @@
 ---
 created-at: 2021-03-09
-tags:
 ---
 Combinatória é uma ferramenta importante para a estatística, pois ela permite contar elementos de um conjunto sem necessariamente precisar listar todos esses elementos.
 > **Princícipo da adição:** Se $A$ e $B$ são dois conjuntos **disjuntos** com $p$ e $q$ elementos, então $A\cup B$ possui $p + q$ elementos

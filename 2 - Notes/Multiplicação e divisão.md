@@ -1,6 +1,5 @@
 ---
 created-at: 2021-05-10
-tags:
 ---
 Apesar de ser possível implementar tanto a multiplicação quanto a divisão utilizando [[Arithmetic logic circuits | soma e subtração]], é necessária uma implementação em hardware dedicada para garantir o melhor desempenho possível.
 

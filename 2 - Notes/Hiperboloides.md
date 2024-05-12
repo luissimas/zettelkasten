@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-07
-tags:
 ---
 Dada a [[Hipérbole|hipérbole]] no plano $yz$ de equações $\displaystyle \frac{y^2}{b^2} - \frac{z^2}{c^2} = 1$, $x = 0$.
 

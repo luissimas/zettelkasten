@@ -1,6 +1,5 @@
 ---
 created-at: 2021-04-01
-tags:
 ---
 Verbos expressam ação ou estado, e suas variações são chamadas de *conjugações*. Verbos são conjugados de acordo com:
 - Pessoa (1, 2, 3)

@@ -1,6 +1,5 @@
 ---
 created-at: 2021-11-02
-tags:
 ---
 Thomas Samuel Kuhn, nascido em 18 de Julho de 1922, foi um filósofo e historiador da ciência norte-americano. Kuhn faleceu em 17 de Junho de 1996.
 

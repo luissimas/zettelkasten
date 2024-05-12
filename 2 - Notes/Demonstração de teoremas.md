@@ -1,6 +1,5 @@
 ---
 created-at: 2021-08-24
-tags:
 ---
 Antes de mais nada é essencial definir alguns termos importantes quando se trata de teoremas e demonstrações.
 

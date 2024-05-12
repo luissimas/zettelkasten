@@ -1,6 +1,5 @@
 ---
 created-at: 2021-06-12
-tags:
 ---
 Para provar [[Cálculo proposicional#Argumentos|argumentos]] na lógica de predicados utilizamos as mesmas [[Técnicas dedutivas|técnicas dedutivas]] da [[Lógica proposicional|lógica proposicional]], nos baseando nas [[Cálculo proposicional#Regras de inferência|regras de inferência]] e [[Álgebra da lógica proposicional#Leis de equivalência|leis de equivalência]]. Devemos levar em conta também as relações de [[Consequência e equivalência lógica na lógica de predicados|consequência e equivalência]] específicas à lógica de predicados.
 Além das regras já citadas, é necessário introduzir novas regras para lidar especificamente com os *quantificadores* presentes na lógica de predicados.

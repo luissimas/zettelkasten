@@ -1,6 +1,5 @@
 ---
 created-at: 2020-11-29
-tags:
 ---
 This is a book that i've been wanting to read for quite some time. I think my friend recommended in the beginning of high school. Well, I finally read it.
 
