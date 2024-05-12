@@ -1,4 +1,6 @@
-# Matemática Discreta
+---
+created-at: 2021-08-16
+---
 A matemática discreta tem como objeto de estudo as estruturas matemáticas discretas, isto é, estruturas que não apresentam continuidade (como o conjunto dos números inteiros). Durante a disciplina foram utilizados diversos materiais, dentre eles uma [[EstruturasDiscretas_HelenaCaseli.pdf | apostila da professora]] e uma [[ElementosDiscretos_GomideStolfi.pdf | apostila da unicamp]].
 
 [[Conjuntos]]
@@ -18,7 +20,7 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 [[Teoria dos Números]]
 [[Aritmética modular]]
 
-## Teoria dos grafos
+# Teoria dos grafos
 [[Grafos]]
 [[Grafos orientados]]
 [[Grafos não orientados]]
@@ -31,7 +33,3 @@ A matemática discreta tem como objeto de estudo as estruturas matemáticas disc
 [[Grafo euleriano]]
 [[Grafo hamiltoniano]]
 [[Grafo planar]]
-
----
-
-created: 16/08/2021

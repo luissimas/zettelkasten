@@ -1,6 +1,7 @@
-# Latin MOC
-
-## Partēs orātiōnis
+---
+created-at: 2021-03-30
+---
+# Partēs orātiōnis
 Os nomes se dividem nas seguintes categorias:
 - [[Substantivos|Substantivos (substantīva)]]
 - [[Adjetivos|Adjetivos (adiectīva)]]
@@ -16,8 +17,3 @@ Nas orações existem também as partículas, que não se declinam:
 - [[Conjunções|Conjunções (coniūnctiōnēs)]]
 - [[Preposições|Preposições (praepositiōnēs)]]
 - [[Interjeições|Interjeições (interiectiōnēs)]]
-
----
-
-created: 30/03/2021
-modified: 30/03/2021

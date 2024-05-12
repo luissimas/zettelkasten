@@ -1,4 +1,3 @@
-# Filosofia da Ciência
 Essa disciplina tem como objeto de estudo a própria ciência, com um enfoque particular na ideia de mudança e progresso na visão de dois importantes pensadores: [[Karl Popper]] e [[Thomas Kuhn]].
 
 > Filosofia da ciência é a reflexão filosófica sistemática sobre a natureza do conhecimento científico.

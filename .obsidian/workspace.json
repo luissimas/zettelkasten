@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Notes/Funções de várias variáveis.md",
+                "file": "3 - Indexes/Filosofia da ciência.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -49,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:limite",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,12 +81,74 @@
         "type": "tabs",
         "children": [
           {
+            "id": "e914d2973def2678",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "3 - Indexes/Filosofia da ciência.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6666666666666666,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "1e2ff9db1fde01c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ca03cd669534e650",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3e5e38a55764ebc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3 - Indexes/Filosofia da ciência.md"
+              }
+            }
+          },
+          {
             "id": "a93aebdf6daff469",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Notes/Funções de várias variáveis.md",
+                "file": "3 - Indexes/Filosofia da ciência.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,38 +165,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Notes/Funções de várias variáveis.md",
+                "file": "3 - Indexes/Filosofia da ciência.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "1e2ff9db1fde01c2",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "b3e5e38a55764ebc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2 - Notes/Funções de várias variáveis.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 566.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,34 +190,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "70a978302e35bbe1",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "3 - Indexes/CDS MOC.md",
-    "2 - Notes/Limite de funções de várias variáveis.md",
-    "2 - Notes/Relações de equivalência.md",
-    "3 - Indexes/MD MOC.md",
-    "2 - Notes/Relações de ordem.md",
-    "2 - Notes/Gerenciamento de Memória.md",
-    "3 - Indexes/SO MOC.md",
-    "2 - Notes/Memória virtual.md",
-    "2 - Notes/Relações.md",
-    "2 - Notes/Sequências numéricas.md",
-    "2 - Notes/Séries de Taylor.md",
-    "2 - Notes/Falseabilismo.md",
-    "2 - Notes/Karl Popper.md",
-    "2 - Notes/Propriedades das autorrelações.md",
-    "2 - Notes/Somatórios e produtórios.md",
-    "2 - Notes/Funções.md",
-    "2 - Notes/Vetor gradiente.md",
-    "2 - Notes/Funções de várias variáveis.md",
-    "2 - Notes/Substituição de páginas.md",
-    "2 - Notes/Implementação do sistema de arquivos.md",
-    "2 - Notes/Sistema de arquivos.md",
-    "2 - Notes/Weighted graphs.md",
-    "2 - Notes/Volume de um sólido por fatiamento.md",
-    "2 - Notes/Volume de um sólido de revolução.md",
-    "2 - Notes/Verilog.md",
-    "2 - Notes/Verbos.md",
+    "3 - Indexes/Latim.md",
+    "3 - Indexes/Geometria analítica.md",
+    "3 - Indexes/Filosofia da ciência.md",
+    "2 - Notes/Séries de potências.md",
+    "3 - Indexes/Calculo diferencial e séries.md",
+    "2 - Notes/Hardware description language.md",
+    "3 - Indexes/Lógica digital.md",
+    "3 - Indexes/Probabilidade e estatística.md",
+    "2 - Notes/Probabilidade.md",
+    "2 - Notes/Node.js.md",
+    "1 - Inbox/Programming language.md",
+    "2 - Notes/HTTP.md",
+    "2 - Notes/Estatística.md",
+    "2 - Notes/Estatísticas e suas distribuições.md",
+    "5 - Templates/Note.md",
+    "3 - Indexes/Books.md",
+    "3 - Indexes/UFSCar.md",
+    "3 - Indexes/Programming MOC.md",
+    "3 - Indexes/Sistemas operacionais.md",
+    "3 - Indexes/Web Development MOC.md",
+    "3 - Indexes/Algoritmos e estruturas de dados.md",
+    "3 - Indexes/Arquitetura e organização de computadores.md",
+    "3 - Indexes/Cálculo diferencial e integral.md",
+    "3 - Indexes/Introdução ao pensamento algorítmico.md",
+    "3 - Indexes/Language learning.md",
+    "3 - Indexes/Lógica matemática.md",
     "2 - Notes/sedeKvC9h",
     "2 - Notes/sedRIDitg",
     "scripts/add-frontmatter.py",

@@ -1,6 +1,3 @@
 ---
 date: "{{date}}"
-tags:
 ---
-
-# References

@@ -5,6 +5,6 @@ Nascido em 28 de Julho de 1920, em Himmelhof, um distrito de Viena, Karl Raimund
 
 ![Popper](Popper.jpg)
 
-Popper ficou conhecido principalmente por seus artigos e livros polêmicos e estimulantes, com posições fortes tanto na área política quanto (e principalmente) na [[FIL MOC | filosofia da ciência]].
+Popper ficou conhecido principalmente por seus artigos e livros polêmicos e estimulantes, com posições fortes tanto na área política quanto (e principalmente) na [[Filosofia da ciência| filosofia da ciência]].
 
 A postura de *Popper* com relação à ciência é predominantemente *prescritiva*, consistindo em uma tentativa de desenvolver um método de investigação científica coerente, objetivo e ético. O resultado de seus esforços foi o desenvolvimento do [[Falseabilismo]] como modelo ideal de método e postura científica.
