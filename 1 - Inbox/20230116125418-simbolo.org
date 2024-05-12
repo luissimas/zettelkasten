@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f8a4e91c-078f-433c-9be4-fb1f4b9d064e
+:END:
+#+title: Símbolo
+
+Um símbolo (ou caractere) é uma entidade abstrata básica não definida formalmente. Exemplos comuns de símbolos são letras do alfabeto ou dígitos.

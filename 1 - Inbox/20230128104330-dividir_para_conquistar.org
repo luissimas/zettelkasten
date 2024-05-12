@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       80e35d86-8bcb-4c0f-92e6-039151f66789
+:END:
+#+title:Dividir para Conquistar
+
+Dividir para conquistar é uma estratégia para projetar algoritmos assintoticamente eficientes. A estratégia se baseia na ideia de que, ao invés de resolver um problema diretamente, podemos dividi-lo recursivamente em subproblemas menores e de mesma estrutura até que os subproblemas sejam tão pequenos que possam ser resolvidos diretamente e então combinar os resultados para obter a solução do problema original.
+
+Sendo assim, o funcionamento da estratégia de dividir para conquistar se dá através dos seguintes passos:
+
+1. *Dividir* o problema original em subproblemas de mesma estrutura mas menor tamanho que o original.
+2. *Conquistar* os subproblemas resolvendo-os recursivamente. Caso o subproblema seja simples o bastante, ele será resolvido diretamente, caso contrário ele será dividido em mais subproblemas.
+3. *Combinar* as soluções dos subproblemas na solução do problema original.
+
+Exemplos de algoritmos que utilizam a técnica de dividir para conquistar incluem:
+
+- [[https://en.wikipedia.org/wiki/Quicksort][Quicksort]]
+- [[https://en.wikipedia.org/wiki/Merge_sort][Mergesort]]
+- [[https://en.wikipedia.org/wiki/Strassen_algorithm][Strassen]]
+- [[https://en.wikipedia.org/wiki/Karatsuba_algorithm][Karatsuba]]
+- [[https://en.wikipedia.org/wiki/Fast_Fourier_transform][FFT]]
+
+É possível analisar a complexidade de algoritmos que utilizam da estratégia de dividir para conquistar através da análise de árvores de recursão ou através da aplicação do [[id:db859797-620a-4d41-83e0-3640b1dfbf7e][Teorema Mestre]].

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Indexes/Filosofia da ciência.md",
+                "file": "1 - Inbox/Notação Big-O.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 557.5
   },
   "right": {
     "id": "38b38f8980b9bea9",
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3 - Indexes/Filosofia da ciência.md",
+                "file": "1 - Inbox/Notação Big-O.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -99,9 +99,9 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
+                  "collapse-display": false,
                   "showArrow": false,
-                  "textFadeMultiplier": 0,
+                  "textFadeMultiplier": -1.4,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
                   "collapse-forces": true,
@@ -109,7 +109,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6666666666666666,
+                  "scale": 0.4444444444444444,
                   "close": true
                 }
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Indexes/Filosofia da ciência.md"
+                "file": "1 - Inbox/Notação Big-O.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Indexes/Filosofia da ciência.md",
+                "file": "1 - Inbox/Notação Big-O.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Indexes/Filosofia da ciência.md",
+                "file": "1 - Inbox/Notação Big-O.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 566.5
+    "width": 566.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,46 +191,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "70a978302e35bbe1",
   "lastOpenFiles": [
-    "3 - Indexes/Latim.md",
-    "3 - Indexes/Geometria analítica.md",
-    "3 - Indexes/Filosofia da ciência.md",
-    "2 - Notes/Séries de potências.md",
-    "3 - Indexes/Calculo diferencial e séries.md",
-    "2 - Notes/Hardware description language.md",
-    "3 - Indexes/Lógica digital.md",
-    "3 - Indexes/Probabilidade e estatística.md",
-    "2 - Notes/Probabilidade.md",
-    "2 - Notes/Node.js.md",
-    "1 - Inbox/Programming language.md",
-    "2 - Notes/HTTP.md",
-    "2 - Notes/Estatística.md",
-    "2 - Notes/Estatísticas e suas distribuições.md",
-    "5 - Templates/Note.md",
-    "3 - Indexes/Books.md",
-    "3 - Indexes/UFSCar.md",
-    "3 - Indexes/Programming MOC.md",
-    "3 - Indexes/Sistemas operacionais.md",
-    "3 - Indexes/Web Development MOC.md",
-    "3 - Indexes/Algoritmos e estruturas de dados.md",
-    "3 - Indexes/Arquitetura e organização de computadores.md",
-    "3 - Indexes/Cálculo diferencial e integral.md",
-    "3 - Indexes/Introdução ao pensamento algorítmico.md",
-    "3 - Indexes/Language learning.md",
-    "3 - Indexes/Lógica matemática.md",
-    "2 - Notes/sedeKvC9h",
-    "2 - Notes/sedRIDitg",
-    "scripts/add-frontmatter.py",
-    "scripts/migrate.py",
-    "scripts",
+    "1 - Inbox/Expressão regular.md",
+    "1 - Inbox/Alfabeto.md",
+    "1 - Inbox/Transformada de Fourier.md",
+    "1 - Inbox/Untitled 1.md",
+    "1 - Inbox/Untitled.md",
+    "1 - Inbox/Untitled 2.md",
+    "1 - Inbox/Teoria da computação.md",
+    "1 - Inbox/Teorema mestre.md",
+    "1 - Inbox/Software testing.md",
+    "1 - Inbox/Sistemas lineares e invariantes no tempo espaço.md",
+    "1 - Inbox/Símbolo.md",
+    "1 - Inbox/Segmentação de imagens.md",
+    "4 - Attachments/sematic-segmentation.jpg",
+    "1 - Inbox/Quantização.md",
+    "1 - Inbox/Projeto e análise de algoritmos.md",
+    "1 - Inbox/Projeto de programas paralelos.md",
+    "4 - Attachments/divide_and_conquer_return.jpg",
+    "4 - Attachments/divide_and_conquer.jpg",
+    "4 - Attachments/naturally_paralel.png",
+    "4 - Attachments/functional_decomp.png",
+    "4 - Attachments/domain_decomp.png",
+    "1 - Inbox/Programação paralela e distribuída.md",
+    "1 - Inbox/Programação dinâmica.md",
+    "1 - Inbox/Processamento vetorial.md",
+    "1 - Inbox/Processamento digital de imagens.md",
+    "1 - Inbox/Amostragem.md",
+    "1 - Inbox/Passagem de mensagem.md",
+    "1 - Inbox/Paralelismo de dados.md",
+    "1 - Inbox/Palavra.md",
+    "1 - Inbox/OpenMP.md",
+    "1 - Inbox/Notação Big-O.md",
+    "4 - Attachments/big-o-example.png",
+    "1 - Inbox/Notação Big Theta.md",
+    "4 - Attachments/big-theta-example.png",
+    "4 - Attachments/big-omega-example.png",
+    "4 - Attachments/dfa_minimization_table.png",
+    "1 - Inbox/4913",
+    "scripts/org-to-md.sh",
+    "1 - Inbox/20231207141254-arq2_moc.org",
+    "1 - Inbox/20231206070045-software_test.org",
+    "1 - Inbox/20230814173346-go.org",
+    "1 - Inbox/20230730133938-transformada_de_fourier.org",
+    "1 - Inbox/20230610105147-convolucao.org",
+    "1 - Inbox/20230610105130-filtragem_de_imagens.org",
+    "1 - Inbox/20230602100555-sistemas_lineares_e_invariantes_no_tempo_espaco.org",
+    "1 - Inbox/20230525083042-segmentacao_de_imagens.org",
     "Untitled 1.canvas",
-    "4913",
-    "migrate.py",
-    "1-Notes",
-    "Untitled.canvas",
-    "1 - Inbox",
-    "4 - Attachments/LD/Fundamentals_of_Digital_Logic.pdf",
-    "Pasted image 20240510084932.png"
+    "Untitled.canvas"
   ]
 }

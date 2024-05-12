@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       f3201cb6-bd61-4f5e-9c71-f4e0bc974d11
+:END:
+#+title:Gramática Livre de Contexto
+
+Uma [[id:856567a0-553e-43d8-ae90-66061ad93262][gramática]] $G=(V, T, P, S)$ é dita do tipo 2 se todas as regras de produção $\alpha \to \beta$ são da forma:
+
+$$
+\alpha \in V \quad \text{e} \quad \beta \in (V \cup T)^*
+$$
+
+ou seja, a cadeia $\alpha$ é um *único* [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolo]] não terminal da gramática e a cadeia $\beta$ é uma *palavra* composta de símbolos terminais ou não terminais.
+
+O nome "livre de contexto" se deve ao fato de que nas regras de produção a derivação do símbolo $\alpha$ não depende (é "livre") dos símbolos que o antecedem ou sucedem (o "contexto").
+
+Pela definição de [[id:70808c19-0237-4a2e-8a09-d003667c1278][linguagem formal]], gramáticas livres de contexto geram [[id:b3470ad1-0869-44d9-88cf-b21227f28b24][linguagens livres de contexto]].
+
+* Árvore de derivação
+A derivação de palavras através de gramáticas livres de contexto pode ser representada na forma de uma [[id:de95c1eb-6f0d-45e5-adea-aed5a7333e5d][árvore]], chamada de /árvore de derivação/, na qual:
+
+- A *raiz* é o *símbolo inicial*;
+- Os *nós intermediários* são *símbolos variáveis*:
+- Os *nós folhas* são *símbolos terminais*.
+
+Por exemplo, dada a gramática livre de contexto $G=(\{S\}, \{a,b\}, P, S)$ tal que $P=\{S \to aSb | \epsilon\}$, a derivação da cadeia $aabb$ pode ser representada pela seguinte árvore de derivação:
+
+$$
+\Tree [.S
+                a
+                [.S
+                  a
+                  [.S $\epsilon$ ]
+                  b
+                ]
+                b
+            ]
+$$
+
+* Gramática livre de contexto ambígua
+Uma gramática livre de contexto é dita /ambígua/ se existe pelo menos *uma palavra* que possua *duas ou mais árvores de derivação* nessa gramática. No desenvolvimento e otimização de algoritmos de reconhecimento é desejável que a gramática usada seja não-ambígua. Entretanto, nem sempre é possível eliminar ambiguidades em uma gramática livre de contexto.

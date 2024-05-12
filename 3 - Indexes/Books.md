@@ -24,3 +24,10 @@ Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiê
 | Reading | Moby Dick                       | Herman Melville  | English (Original)   |  469  |
 | To read | The Crying of Lot 49            | Thomas Pynchon   | English (Original)   |  ???  |
 | To read | Mason & Dixon                   | Thomas Pynchon   | Português            |  ???  |
+
+## 2023
+| Status  | Title                | Started          | Finished         | Elapsed time |
+|---------+----------------------+------------------+------------------+--------------|
+| Done    | Atomic Habits        | <2023-05-25 Thu> | <2023-06-08 Thu> |           14 |
+| Done    | Deep Work            | <2023-06-09 Fri> | <2023-07-09 Fri> |           30 |
+| Reading | Pragmatic Programmer | <2023-07-12 Wed> |                  |              |

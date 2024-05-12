@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       7a7071fe-2c38-4e25-adac-fe35b7f2353e
+:END:
+#+title:Modelos de programação paralela
+
+Em geral, a programação paralela pode ser imaginada e implementada usando 3 modelos distintos (mas não mutualmente exclusivos):
+
+* Memória compartilhada
+A programação em memória compartilhada utiliza [[id:7aaa0379-e865-4ec4-bd9a-599efc1500bb][threads]] que *compartilham* o espaço de memória de um mesmo processo. Esse modelo de programação é típico em sistemas /multi-core/, nos quais a memória é fisicamente compartilhada entre diversos cores.
+
+No modelo de memória compartilhada o *estado* a ser manipulado pode ser (e geralmente é) *compartilhado* entre as diversas tarefas. Apesar de fornecer maior liberdade na manipulação dos dados, esse aspecto introduz a preocupação de um gerenciamento dos dados de maneira que uma tarefa não altere dados manipulados por outra.
+
+A manipulação de /threads/ geralmente se dá através de bibliotecas como a [[https://en.wikipedia.org/wiki/Pthreads][pthreads]] ou abstrações que a utilizam, como a [[id:e48742bd-00e8-4d60-a43e-b5326e4b48d7][OpenMP]].
+
+* Memória distribuída (passagem de mensagem)
+No modelo de memória distribuída assume-se que as diferentes tarefas a serem paralelizadas podem ser *executadas em diferentes computadores* ou seja, as *unidades de processamento não têm acesso à mesma memória*. Dessa forma, a principal ferramenta desse modelo de programação é a comunicação entre tarefas através de *passagem de mensagem*.
+
+No modelo de memória distribuída a criação, comunicação e sincronização das tarefas geralmente é feita através de protocolos de rede como o TCP. Esses aspectos podem ser tratados de maneira explícita, mas existem ferramentas como [[id:7bc12118-c016-4226-aab7-9dc31f81a7e3][MPI]] que visam abstraí-los.
+
+A *comunicação* é o aspecto que representa o maior /overhead/ em aplicações paralelas em ambientes distribuídos. Tendo isso em vista, é sempre importante ter como objetivo a *sobreposição entre comunicação e computação*, através do uso de primitivas de comunicação assíncronas e outras técnicas quando possível. Dessa forma, é possível garantir que os nós de processamento irão otimizar seu tempo realizando computações, e não aguardando em operações de comunicação.
+
+Quando comparado ao modelo de memória compartilhada, o modelo por passagem de mensagem faz menos presunções sobre o sistema computacional no qual o programa será executado, o que o torna mais *genérico*. Apesar disso, a passagem de mensagem pode se tornar um /overhead/ na comunicação entre tarefas.
+
+* Paralelismo de dados
+O modelo de paralelismo de dados consiste em executar um conjunto de *operações simultaneamente* sobre diversas *partições dos dados* a serem processados. Essas operações são chamadas de [[id:ba968b37-a693-4616-8058-90b90ae49e71][operações vetoriais]], e são implementadas diretamente em hardwares como GPUs ou unidades de processamento vetorial em CPUs.

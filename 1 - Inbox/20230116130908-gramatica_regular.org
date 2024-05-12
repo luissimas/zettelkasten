@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       304e4812-6121-4b07-b0a3-6ef140afa799
+:END:
+#+title:Gramática Regular
+
+Uma [[id:856567a0-553e-43d8-ae90-66061ad93262][gramática]] $G=(V, T, P, S)$ é dita regular (ou do tipo 3) se todas as regras de produção $\alpha \to \beta$ são da forma:
+
+$$
+\alpha \in V \quad \text{e} \quad \beta \in T \cup (V \times T)
+$$
+
+ou seja, a cadeia $\alpha$ é um [[id:f8a4e91c-078f-433c-9be4-fb1f4b9d064e][símbolo]] não terminal da gramática e a cadeia $\beta$ é um símbolo terminal ou um símbolo terminal seguido por um símbolo não terminal.
+
+Uma gramática regular pode ser descrita por uma *gramática linear*. Existem alguns tipos de gramáticas lineares classificadas de acordo com a forma de suas regras de produção. Dados $A, B \in V$ e $w \in T^*$, definem-se as seguintes gramáticas lineares:
+
+- Gramática Linear à Esquerda (GLE): regras de produção na forma $A \to wB$ ou $A \to w$.
+- Gramática Linear à Direita (GLD): regras de produção na forma $A \to Bw$ ou $A \to w$.
+- Gramática Linear Unitária à Esquerda (GLUE): regras de produção na forma $A \to wB$ ou $A \to w$, com $|w| \leq 1$.
+- Gramática Linear Unitária à Direita (GLUD): regras de produção na forma $A \to Bw$ ou $A \to w$, com $|w| \leq 1$.
+
+Pela definição de [[id:70808c19-0237-4a2e-8a09-d003667c1278][linguagem formal]], gramáticas regulares geram [[id:4d2791ad-0f96-44e3-8f2d-0779fcc26049][linguagens regulares]].

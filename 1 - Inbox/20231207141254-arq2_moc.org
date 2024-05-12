@@ -1,0 +1,67 @@
+:PROPERTIES:
+:ID:       e36115f8-7923-4ff1-b694-da5d8a8c59d9
+:END:
+#+title: ARQ2 MOC
+
+Esta disciplina é uma continuação da disciplina [[id:3dc882bb-adce-4164-a2e5-588fa87da20a][ARQ1]]. Nela tratamos aspectos mais avançados de arquiteturas de computadores modernos, incluindo o funcionamento de pipelines multiestágio, arquiteturas superescalares, multithreading e multicore.
+
+Uma arquitetura (ou [[id:864097cb-fea1-4293-ae1e-ca15475a64c1][ISA]]) descreve a interface utilizada para acessar os recursos de hardware. Isso inclui o conjunto de instruções, registradores disponíveis e demais aspectos necessários para escrever programas em [[id:bfecf00e-d25a-4a8d-b7a5-32c9f609c522][Assembly]] para a arquitetura. Já a microarquitetura consiste na implementação a nível de hardware da ISA, tratando de fatores como tamanho de barramentos, memória cache, frequência da CPU, paralelismo a nível de instrução etc.
+
+[[file:attachments/pipelineevolution.png]]
+
+* Unidade de Ponto Flutuante
+Números de ponto flutuante são representados por um bit de sinal, bits do expoente e os bits da fração (ou mantissa).
+
+- *Precisão simples - 32 bits*: /1-bit/ sinal + /8-bit/ expoente + /23-bit/ fração
+- *Precisão dupla - 64 bits*: /1-bit sinal/ + /11-bit/ expoente + /52-bit/ fração
+
+[[file:attachments/floatingpoint.png][floatingpoint.png]]
+
+No padrão IEEE 754 o expoente usa a representação polarizada (biased), na qual um /bias/ deve ser subtraído do expoente para obter-se o valor real. Isso permite a representação de expoentes positivos e negativos.
+
+O bias geralmente é igual a $(2^{k-1} -1)$, onde $k$ é o número de bits no expoente binário. Ou seja, o bias para números de 32 bits é 127 e o bias para números de 64 bits é 1023.
+
+A principal vantagem de utilizar a representação polarizada para o expoente é que isso torna possível a comparação de números de ponto flutuante com o mesmo hardware de comparação de inteiros. As demais operações aritméticas de ponto flutuante necessitam de unidades de hardware específicas e são mais lentas do que suas equivalentes para números inteiros.
+
+Pela natureza da representação dos números de ponto flutuante, é possível ocorrer overflow e underflow em alguns casos:
+
+[[file:attachments/floating_point_overflow.png]]
+* Datapath com pipelining
+- Hazard estrutural: conflitos no uso de recursos de hardware
+- Hazard de dados: dependências de dados entre as instruções
+- Hazard de controle: instruções de desvio e jumps
+** Previsão de Desvios
+A previsão de desvios é feita com base em heurísticas e estratégias como, por exemplo, armazenar se os desvios foram tomados anteriormente.
+* Arquiteturas Superescalares
+Arquiteturas superescalares são aquelas que permitem que instruções sejam executadas simultaneamente e de modo independente. A essência da abordagem superescalar é a capacidade de executar múltiplas instruções de forma independente em diferentes pipelines.
+
+O termo /paralelismo em nível de instruções/ se refere à possibilidade de executar múltiplas instruções em paralelo. Tal paralelismo depende das instruções serem independentes umas das outras.
+
+A diferença entre arquiteturas superescalares e superpipeline é que uma arquitetura superescalar executa instruções simultaneamente através de suas múltiplas unidades funcionais, enquanto o superescalar executa algumas instruções em um ciclo de clock muito mais curto.
+
+Existem cinco limitações que impedem o paralelismo a nível de instruções:
+
+- *Dependência verdadeira de dados*: a execução de uma instrução depende de dados produzidos pela primeira
+- *Dependência procedural*: a execução de uma instrução que vem logo após um desvio não podem ser executadas até que o desvio seja tomado.
+- *Conflito de recursos*: a execução de duas instruções que utilizam um mesmo recurso de hardware ao mesmo tempo
+- *Dependência de saída (WAW)*: quando duas instruções escrevem em um mesmo espaço de memória
+- *Dependência de escrever após ler (WAR ou antidependência)*: a execução de uma instrução depende de dados que vão ser sobrescritos por uma instrução subsequente
+
+  Enquanto o paralelismo em nível de instruções descreve a possibilidade das instruções serem executadas simultaneamente, o paralelismo de máquina descreve a capacidade de uma arquitetura aproveitar essa possibilidade e de fato executar as instruções em paralelo. Isso depende principalmente do número de instruções que podem ser buscadas e decodificadas ao mesmo tempo.
+
+  O processo de renomeação de registrados permite eliminar "dependências falsas", ou dependências de nome entre registradores, aumentando o paralelismo em nível de instruções. O uso de uma janela de instruções permite o desacoplamento entre a fase de decode e execução do pipeline, permitindo que o processador decodifique instruções fora de ordem a fim de melhorar o paralelismo em nível de instruções e às coloque em um buffer para serem executadas.
+
+  Os elementos chave na organização de processadores superescalares são:
+
+  - Estratégias de fetching de múltiplas instruções
+  - Lógica para determinar dependências verdadeiras de dados
+  - Mecanismos para fazer issue e executar múltiplas instruções em paralelo
+  - Mecanismos para fazer o commit das instruções em ordem
+* Arquiteturas Multithreading
+O multithreading a nível de hardware visa implementar mecanismos que reduzam o custo da troca de contexto de execução entre diversas threads. Esses mecanismos consistem em estruturas de armazenamento de contexto especializadas para esse caso de uso.
+
+Existem algumas abordagens de multithreading a nível de hardware:
+
+- *Multithreading de granularidade fina*: a troca de contexto entre threads é feita a cada ciclo. Ou seja, o processador executa uma instrução de cada thread através de uma política /round-robin/. Nesse caso geralmente é necessário mecanismos adicionais para detectar que uma thread está bloqueada e evitar buscar instruções dessa thread.
+- *Multithreading de granularidade grossa*: a troca de contexto entre threads é feita em momentos oportunos, como um /cache miss/ ou um timeout. Dessa forma, também é necessário esvaziar o pipeline quando a troca de contexto for feita. Assim temos trocas de contexto mais caras porém feitas com menos frequência.
+- *Multithreading simultâneo (SMT)*: a estratégia SMT visa explorar a capacidade dos processadores superescalares e executar instruções de múltiplas threads ao mesmo tempo. Dessa forma, são necessários mecanismos mais sofisticados de busca de instruções das várias threads e também de armazenamento de estado.

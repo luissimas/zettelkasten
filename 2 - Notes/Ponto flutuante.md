@@ -30,6 +30,8 @@ A representação do expoente é feita utilizando a chamada *representação pol
 
 É importante lembrar que o expoente está sujeito tanto a *overflow* quando a *underflow*.
 
+A principal vantagem de utilizar a representação polarizada para o expoente é que isso torna possível a comparação de números de ponto flutuante com o mesmo hardware de comparação de inteiros. As demais operações aritméticas de ponto flutuante necessitam de unidades de hardware específicas e são mais lentas do que suas equivalentes para números inteiros.
+
 Os valores extremos do expoente são reservados para a representação dos seguintes casos:
 
 ## Zero

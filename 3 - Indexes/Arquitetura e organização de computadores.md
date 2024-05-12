@@ -19,3 +19,5 @@ Esta disciplina é uma sequência da disciplina de [[Lógica digital|LD]], nela 
 [[Ponto flutuante]]
 [[Memória cache]]
 [[Memória virtual]]
+[[Arquiteturas superescalares]]
+[[Multithreading]]
