@@ -16,7 +16,7 @@ Esta disciplina é uma sequência da disciplina de [[Lógica digital|LD]], nela 
 [[Pipeline]]
 [[Conflitos]]
 [[Multiplicação e divisão]]
-[[Ponto flutuante]]
+[[Implementação de sistemas de ponto flutuante]]
 [[Memória cache]]
 [[Memória virtual]]
 [[Arquiteturas superescalares]]

@@ -5,7 +5,8 @@ Cálculo é o ramo da matemática que estuda a taxa de variação de grandezas, 
 
 # Unidade 2
 Nessa unidade foram introduzidos os conceitos de limites e derivadas.
-[[Velocidade instantânea e derivadas]]
+[[Velocidade instantânea]]
+[[Derivada]]
 [[Retas tangentes e regras de derivação]]
 [[Derivação em cadeia e implícita]]
 [[Introdução intuitiva de limites]]

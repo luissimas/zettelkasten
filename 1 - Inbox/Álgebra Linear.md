@@ -1,0 +1,467 @@
+# Espaços Vetoriais
+
+Dado um conjunto $V$ não-vazio, se em $V$ estiverem definidas: uma operação de adição tal que, para todo par de elementos $x, y \in V$, associa-se um terceiro elemento $x + y \in V$, ou seja:
+
+$$+ : V \times V \to V$$
+
+e uma operação de multiplicação por escalar tal que, para cada elemento $\alpha \in \mathbb{R}$ e para cada elemento $x \in V$, associa-se um elemento $\alpha x \in V$, ou seja:
+
+$$\cdot : \mathbb{R} \times V \to V$$
+
+O conjunto $V$ é um **espaço vetorial real** em relação a essas operações se, para quaisquer $\alpha, \beta \in \mathbb{R}$ e $u, v, w \in V$, as seguintes **propriedades** forem satisfeitas:
+
+A~1~) **(Associatividade)** $(x + y) + z = x + (y + z)$ A~2~) **(Comutatividade)** $x + y = x + y$ A~3~) **(Elemento neutro)** $\exists 0 \in V \mid u + 0 = 0 + u = u$ A~4~) **(Elemento simétrico)** $\forall u, \exists -u \mid x + (-x) = 0$ M~1~) **(Distributividade)** $\alpha (u + v) = \alpha u + \alpha v$ M~2~) **(Distributividade)** $(\alpha + \beta)u = \alpha u + \beta u$ M~3~) **(Associatividade)** $(\alpha \beta)u = \alpha (\beta u)$ M~4~) **(Elemento neutro)** $1 \cdot u = u$
+
+Os conjuntos $\mathbb{R}, \mathbb{R}^{2}, \mathbb{R}^3, \dots , \mathbb{R}^n$ com suas definições tradicionais de adição e multiplicação são exemplos de espaços vetoriais.
+
+## Subespaço Vetorial
+
+Subespaços vetoriais são **subconjuntos** de espaços vetoriais. Cada subespaço vetorial deve estar associado a um espaço vetorial do qual ele é um subconjunto.
+
+Seja $V$ um espaço vetorial e seja $W$ um subconjunto de $V$ tal que $W \neq \emptyset$. Dizemos que $W$ é um *subespaço vetorial* de $V$ se as seguintes condições forem satisfeitas:
+
+1.  $\forall u, v \in W \to u + v \in W$
+2.  $\forall \alpha \in \mathbb{R}, \forall u \in W \to \alpha u \in W$
+3.  $0 \in W$
+
+Note que a condição *c)* deriva da condição *b)*, pois ao multiplicar um elemento pelo escalar 0 deve-se poder obter o elemento nulo do conjunto $W$. Veja também que, por definição, o espaço vetorial $V$ é um subespaço vetorial dele mesmo.
+
+Sabendo disso, infere-se que todo espaço vetorial admite ao menos dois subespaços vetoriais, o conjunto formado apenas pelo vetor nulo e o próprio conjunto. Esses dois subespaços são chamados de **subespaços triviais**, enquanto todos os outros subespaços de um espaço vetorial são chamados de **subespaços próprios**.
+
+Os subespaços vetoriais possuem propriedades interessantes que garantem duas operações: a intersecção e a soma de subespaços vetoriais.
+
+Sejam $W_1$ e $W_2$ subespaços vetoriais de um espaço vetorial $V$, a **intersecção** $W_1 \cap W_2$ destes subespaços **é também um subespaço vetorial** de $V$.
+
+Sejam $W_1$ e $W_2$ subespaços vetoriais de um espaço vetorial $V$, a **soma** destes subespaços, dada por:
+
+$$ W_1 + W_2 = \{w \in V; w = u + v, u \in W_1, v \in W_2\}$$
+
+**é também um subespaço vetorial** de $V$.
+
+## Combinação Linear
+
+A combinação linear é uma característica dos espaços vetoriais que permite a obtenção de novos vetores a partir de vetores conhecidos.
+
+Seja $V$ um espaço vetorial real. Dados $n$ vetores $v_1, v_2, \dots, v_n \in V$ e $n$ números reais $\alpha_1, \alpha_2, \dots, \alpha_n \in \mathbb{R}$, o vetor
+
+$$u = \alpha_1 u_1 + \alpha_2 + u_2 + \dots + \alpha_n u_n = \sum_{i=1}^{n} a_i u_i$$
+
+é um elemento de $V$ e é chamado de **combinação linear** de $u_1, u_2, \dots, u_n$. Os escalares $a_i$ são chamados de **coeficientes** da combinação linear.
+
+## Subespaço Gerado
+
+Seja $V$ um espaço vetorial e $S = \{u_1, u_2, \dots, u_n\}$ um subconjunto de $V$. O subconjunto de $V$ formado por **todas as combinações lineares** de elementos de $S$, ou seja:
+
+$$[S] = \{a_1 u_1 + a_2 u_2 + \dots + a_n u_n \mid a_i \in \mathbb{R}, \forall i\}$$
+
+é chamado de **espaço vetorial gerado** por $S$. Os vetores $u_1, u_2, \dots, u_n$ são chamados **geradores** de $[S]$. Note que $[S]$ é um subespaço vetorial de $V$.
+
+Para mostrar que um conjunto $S = \{u_1, u_2, \dots, u_n\}$ de vetores gera um subespaço $V$, é necessário mostrar que, para qualquer $v \in V$, a equação
+
+$a_1u_1 + a_2u_2 + \dots + a_nu_n = v$
+
+tem **solução única**.
+
+## Dependência Linear
+
+Seja $V$ um espaço vetorial e $u_1, u_2, \dots, u_n \in V$. O conjunto $\{u_1, u_2, \dots, u_n\}$ é dito **linearmente independente (L.I.)** se e somente se a equação
+
+$$
+a_1 u_1, a_2 u_2, \dots, a_n u_n = 0
+$$
+
+tiver apenas a solução $a_1 = a_2 = \dots = a_n = 0$, chamada de *solução trivial*. Caso a equação seja satisfeita para algum $a_i \neq 0$, o conjunto é dito **linearmente dependente (L.D.)**.
+
+Note que o subconjunto unitário $\{0\}$ de um espaço vetorial $V$ é **L.D.**, pois para qualquer $a \in \mathbb{R}$ a equação é satisfeita. De forma análoga, um subconjunto unitário $\{v\}, v \neq 0$ de um espaço vetorial $V$ é **L.I.**, pois a equação só é satisfeita para $a=0$.
+
+Para verificar se um conjunto de vetores é **L.I.** ou **L.D.** devemos, sempre, resolver um **sistema linear homogêneo**. Nesse caso os vetores são **L.I.** se a única solução do sistema linear é a solução trivial, e os vetores são **L.D.** se o sistema admite infinitas soluções. Uma forma alternativa à resolução dos sistemas lineares é calcular os determinantes da matriz dos coeficientes. Seja $A$ a matriz dos coeficientes do sistema linear, se $\det(A) = 0$, então o sistema admite infinitas soluções, logo os vetores são **L.D.**; caso contrário, ou seja, se $\det(A) \neq 0$, então o sistema admite apenas a solução trivial, logo os vetores são **L.I.**.
+
+O teorema enunciado a seguir relaciona a **dependência** com **combinação** linear:
+
+O conjunto $\{u_1, u_2, \dots, u_n\}$ é **linearmente dependente (L.D.)** se e somente se um dos vetores $u_i$ for **combinação linear** dos outros.
+
+## Base de um Espaço Vetorial
+
+Seja $V$ um espaço vetorial e $B = \{u_1, u_2, \dots, u_n\}$ um subconjunto de $V$. Dizemos que $B$ é uma **base** de $V$ se:
+
+1.  $\{u_1, u_2, \dots, u_n\}$ são **linearmente independentes**,
+2.  $\{u_1, u_2, \dots, u_n\}$ **geram** $V$
+
+Como implicação da definição de dependência linear e subespaço gerado, tem-se o seguinte teorema:
+
+Se $B=\{u_1, u_2, \dots, u_n\}$ é uma base de um espaço vetorial $V$, então todo e qualquer vetor $v$ de $V$ pode ser escrito de **maneira única** como combinação linear dos vetores de $B$.
+
+Sendo $B$ uma base de $V$, como qualquer vetor pode ser escrito de maneira única como combinação linear dos vetores de $B$, então os **escalares únicos** $a_1, a_2, \dots, a_n$ determinam um único vetor $v$. Por conta disso, os escalares $a_1, a_2, \dots, a_n$ são chamados de **coordenadas** ou **componentes** do vetor $v$ em relação à base $B$. Pode-se representar o vetor $v$ em relação à base $B$ por $$v = (a_1, a_2, \dots, a_n)$$.
+
+Note que se, dado um espaço vetorial $V$ e um conjunto não nulo de vetores $\{u_1, u_2, \dots, u_n\}$ tais que $[u_1, u_2, \dots, u_n] = V$, então o conjunto $\{u_1, u_2, \dots, u_n\}$ **contém uma base** de $V$.
+
+Um resultado importante que segue dos teoremas relacionados à base de um espaço vetorial é o de que **qualquer base** de um espaço vetorial $V$ tem o **mesmo número de elementos**.
+
+## Dimensão de um espaço vetorial
+
+A dimensão de um espaço vetorial $V$, denotada por $\dim V$, é o **número de vetores** de uma base de $V$. Diz-se que o espaço vetorial $V$ tem **dimensão finita** se admitir uma base com um número finito de elementos.
+
+O seguinte resultado é de grande auxílio para determinar a dimensão de um subespaço:
+
+As linhas não nulas $L_1, L_2, \dots, L_n$ de uma matriz na forma **escalonada** são sempre **LI**. Dessa forma, dado um subespaço e um conjunto de vetores, para verificar a dimensão do subespaço basta verificar quais vetores são LI na matriz escalonada.
+
+Se $W$ é um subespaço vetorial de um espaço vetorial $V$ de dimensão $n$, então $\dim W \leq n$ e, se $\dim W = n$, então $W = V$.
+
+## Mudança de base
+
+Sabendo que todo espaço vetorial tem mais de uma base, a mudança de base consiste em, **dadas as coordenadas** de um vetor $v \in V$ em uma base $B$, **determinar as coordenadas** de $v$ **em uma outra base** $B'$.
+
+Sejam $B=\{u_1, u_2, \dots, u_n\}$ e $B'=\{w_1, w_2, \dots, w_n\}$ duas bases de um mesmo espaço vetorial $V$ de dimensão $n$. Dado um vetor $v \in V$, é possível escrevê-lo de duas formas:
+
+Na base $B$:
+
+$$v = x_1u_1 + x_2u_2 + \dots + x_nu_n$$
+
+ou na base $B'$:
+
+$$v = y_1w_1 + y_2w_2 + \dots + y_nw_n$$
+
+Note que as **coordenadas** $x_1, x_2, \dots, x_n$, relativas à base $B$, e as coordenadas $y_1, y_2, \dots, y_n$, relativas à base $B'$ são **únicas**.
+
+Escrevendo os vetores $w_i$ como **combinação linear** dos vetores $u_j$, é possível obter a equivalência dos coeficientes através da seguinte equação matricial:
+
+```{=latex}
+\begin{gather}
+
+  \begin{bmatrix}
+  x_1 \\
+  \vdots \\
+  x_n
+  \end{bmatrix}
+ =
+\begin{bmatrix}
+a_{11} & \dots & a_{1n} \\
+\vdots & \ddots & \vdots \\
+a_{n1} & \dots & a_{nn}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+  y_1 \\
+  \vdots \\
+  y_n
+\end{bmatrix}
+
+\end{gather}
+```
+Denotando $[a_{i_j}]_{n \times n} = A$, temos:
+
+$$[v]_B = A \cdot [v]_{B'}$$
+
+A matriz $A$ é chamada de **matriz de mudança da base** $B$ para a base $B'$.
+
+# Transformações Lineares
+
+Sejam $V$ e $W$ espaços vetoriais reais, uma **transformação linear** (ou aplicação linear) é uma função $T: V \to W$ tal que, para quaisquer $u, v \in V$ e $\alpha \in \mathbb{R}$, as seguintes condições forem satisfeitas:
+
+1.  $T(u+v) = T(u) + T(v)$
+2.  $T(\alpha v) = \alpha T(v)$
+3.  $T(0) = 0$
+
+Quando uma transformação linear $T$ associa elementos de um mesmo conjunto $V$, ou seja, $T: V \to V$, ela é chamada de **operador linear** sobre $V$.
+
+O seguinte teorema garante a **existência e unicidade** de uma transformação linear, esse resultado nos permite obter transformações lineares a partir dos resultados de sua aplicação em vetores que constituem uma base para um espaço vetorial.
+
+Sejam $U$ e $V$ espaços vetoriais reais, $\{u_1, u_2, \dots, u_n\}$ uma **base** de $U$ e $v_1, v_2, \dots, v_n \in V$ um conjunto de vetores. Existe uma **única transformação linear** $T: U \to V$ tal que:
+
+$$T(u_1) = v_1, T(u_2) = v_2, \dots, T(u_n) = v_n$$
+
+## Imagem de transformações lineares
+
+Seja $T: U \to V$ uma transformação linear. A **imagem de** $T$, denotada por $Im(T)$, é o **conjunto dos vetores** $v \in V$ tais que existe um vetor $u \in U$ que satisfaz $T(u) = v$, ou seja:
+
+$$Im(T) = \{v \in V \mid v = T(u) = v, u \in U \}$$
+
+```{=org}
+#+attr_org: :width 600
+```
+![](../Attachments/AlgLin/transformacaoimagem.png)
+
+Note que se $T: U \to V$ é uma transformação linear, então $Im(T)$ é um **subespaço vetorial** de $V$.
+
+## Núcleo de transformações lineares
+
+Seja $T: U \to V$ uma transformação linear. O **núcleo** de $T$, denotado por $Ker(T)$ (ou $N(T)$), é o conjunto dos vetores $u \in U$ que **são levados ao vetor nulo de** $V$, ou seja:
+
+$$Ker(T) = \{u \in U \mid T(u) = 0 \in V\}$$
+
+```{=org}
+#+attr_org: :width 600
+```
+![](../Attachments/AlgLin/nucleotransformacao.png)
+
+Note que se $T: U \to V$ é uma transformação linear, então $Ker(T)$ é um **subespaço vetorial** de $V$.
+
+Uma transformação linear $T: U \to V$ é **injetora** se e somente se $Ker(T) = \{0\}$.
+
+Dada uma transformação linear $T: U \to V$, se $V$ e $U$ são espaços vetoriais de dimensão finita, então $\dim V = \dim Ker(T) + \dim Im(T)$. Desse mesmo teorema segue que, se $\dim U = \dim V$, então $T$ é **injetora** se e somente se é **sobrejetora**.
+
+## Isomorfismos
+
+Uma transformação linear $T: U \to V$ é chamada de **isomorfismo** se for **injetora e sobrejetora**. Nesse caso, o espaços vetoriais $U$ e $V$ são chamados **isomorfos**. Todo isomorfismo $T: U \to V$ possui uma **inversa** $T^{-1}: V \to U$, que é também uma **transformação linear**.
+
+## Matriz de uma transformação linear
+
+Dada uma transformação linear $T: U \to V$, sendo $\dim U = n$ e $\dim V = m$. Considerando as **bases** $B=\{u_1, u_2, \dots, u_n\}$ e $B'=\{v_1, v_2, \dots, v_m\}$ como bases de $U$ e $V$, respectivamente, é possível escrever os vetores $T(u_i)$ como **combinação linear dos vetores da base** $B'$ da seguinte forma;
+
+```{=latex}
+\begin{aligned}
+  T(u_1) &= a_{11} v_1 + a_{21} v_2 + \dots + a_{m1} v_m\\
+  T(u_2) &= a_{12} v_1 + a_{22} v_2 + \dots + a_{m2} v_m\\
+  &\vdots\\
+  T(u_n) &= a_{1n} v_1 + a_{2n} v_2 + \dots + a_{mn} v_m\\
+\end{aligned}
+```
+A partir dessas combinações, é possível obter uma matriz de dimensão $m \times n$, chamada **matriz associada** à transformação linear $T$
+
+```{=latex}
+\begin{gather}
+
+\left[T\right]^B_{B'} =
+  \begin{bmatrix}
+    a_{11} & a_{12} & \dots & a_{1n}\\
+    a_{21} & a_{22} & \dots & a_{2n}\\
+    \vdots & \vdots &\ddots & \vdots\\
+    a_{m1} & a_{m2} & \dots & a_{mn}\\
+  \end{bmatrix}
+
+\end{gather}
+```
+# Autovalores e Autovetores
+
+Dado um espaço vetorial $V$ e um operador linear $T: V \to V$, se existirem $u \in V$, $u \neq 0$ e $\lambda \in \mathbb{R}$ tais que:
+
+$$T(u) = \lambda u$$
+
+então $\lambda$ é um **autovalor** de $T$, e $u$ é um **autovetor** de $T$ associado ao autovalor $\lambda$. Note que se $u$ é um autovetor associado a $\lambda$, então qualquer vetor paralelo a $u$ também é um autovetor associado a $\lambda$.
+
+O conjunto $V_{\lambda}$ de todos os vetores $u \in V$ tais que $T(u) = \lambda u$, $\lambda \in \mathbb{R}$, é um subespaço vetorial de $V$, e é chamado **auto-espaço** associado ao autovalor $\lambda$.
+
+Dado um espaço vetorial $V$ e um operador linear $T: V \to V$, autovetores associados a autovalores diferentes de $T$ formam um conjunto **linearmente independente**.
+
+Se o espaço vetorial $V$ for de dimensão $n$ e $T: V \to V$ for um operador linear que possui $n$ autovalores distintos, então $V$ possui uma **base** formada por $n$ **autovetores** de $T$.
+
+## Autovalores e Autovetores de Matrizes
+
+Tomando uma transformação linear $T$ associada à matriz $A_{n\times n}$, é possível determinar os **autovalores da matriz** $A$ a partir da busca por um escalar $\lambda \in \mathbb{R}$ e um vetor não nulo $u$ tais que:
+
+$$A u = \lambda u$$
+
+Manipulando a equação matricial, é possível obter a equação equivalente:
+
+$$(A - \lambda I)u = 0$$
+
+Note que esta equação representa um sistema linear homogêneo. Para que esse sistema admita soluções não triviais (pois os autovetores devem ser diferentes do vetor nulo), o **determinante** da matriz dos coeficientes $A-\lambda I$ deve ser igual a $0$. Ao calcular o determinante, obtém-se um **polinômio** de grau $n$ em $\lambda$ cujas **raízes são os autovalores** da matriz. A partir disso, para obter um autovetor associado a um autovalor $\lambda$ basta substituir o valor de $\lambda$ na equação matricial do sistema linear homogêneo.
+
+O polinômio $P$ de grau $n$ em $\lambda$ obtido através do cálculo de $\det(A - \lambda I)$ é um chamado **polinômio característico** de $A$.
+
+A equação $P(\lambda) = 0$ é chamada **equação característica** de $A$.
+
+Chamamos de **multiplicidade algébrica** de um autovalor $\lambda_1$ a quantidade de vezes que ele aparece como raiz do polinômio característico $P$.
+
+Chamamos de **multiplicidade geométrica** de um autovalor $\lambda_1$ a dimensão do auto-espaço associado a ele.
+
+### Polinômio de matrizes
+
+Dado um polinômio $P$ de grau $n$ definido por:
+
+$$P(t) = a_0t^n + a_1t^{n-1} + \dots + a_{n-1} t + a_n$$
+
+Se $A$ é uma matriz quadrada real, então o polinômio
+
+$$P(A) = a_0A^n + a_1A^{n-1} + \doAs + a_{n-1} A + a_n I$$
+
+é o **polinômio da matriz** $A$.
+
+## Diagonalização
+
+Dado um operador linear $T: V \to V$, dizemos que $T$ é um **operador diagonalizável** se existir uma base de $V$ formada por autovetores de $T$.
+
+### Matrizes semelhantes
+
+Dado um operador linear $T: V \to V$, se $B$ e $B'$ são bases de $V$ e $[T]_B^B$ e $[T]_{B'}^{B'}$ são matrizes que representam o operador nas bases $B$ e $B'$ respectivamente, então
+
+$$[T]_{B'}^{B'} = Q^{-1}[T]_B^BQ$$
+
+em que $Q = [A]_B^{B'}$ é a matriz de mudança da base $B'$ para a base $B$.
+
+Nesse caso, $[T]_B^B$ e $[T]_{B'}^{B'}$ são chamadas de **matrizes semelhantes**. Portanto, duas matrizes são semelhantes quando definem em $V$ um mesmo operador linear $T$ em duas bases diferentes, ou seja, duas matrizes $[T]_B^B$ e $[T]_{B'}^{B'}$ são semelhantes se existe uma matriz inversível $Q$ tal que:
+
+$$[T]_{B'}^{B'} = Q^{-1}[T]_B^BQ$$
+
+### Matrizes diagonalizáveis
+
+Uma matriz quadrada $A_{n \times n}$ é diagonalizável se existe uma matriz inversível $Q_{n \times n}$ tal que $Q^{-1}AQ$ seja diagonal. Diz-se, neste caso, que a matriz $Q$ diagonaliza $A$. Da mesma forma, $A$ é diagonalizável se o operador associado $T_A : R^n \to R^n$ for diagonalizável.
+
+# Espaço Vetorial Euclidiano
+
+Dado um espaço vetorial $V$, um **produto interno** é qualquer função $f: V \times V \to \mathbb{R}$, indicada por $u \cdot v$ ou $\langle u, v \rangle$, tal que para quaisquer $u, v, w \in V$ e $\alpha \in \mathbb{R}$ os seguintes axiomas sejam verdadeiros:
+
+P~1~) $u \cdot v = v \cdot u$ P~2~) $u \cdot (v + w) = u \cdot v + u \cdot w$ P~3~) $(\alpha u) \cdot v= \alpha (u \cdot v)$ P~4~) $u \cdot v = v \cdot u$
+
+Um espaço vetorial real de dimensão finita no qual está definido um produto interno é chamado de **espaço vetorial euclidiano**.
+
+Dado um vetor $u \in V$, sendo $V$ um espaço com produto interno $\langle \cdot, \cdot \rangle$, a **norma** (ou comprimento, ou módulo) de $v$, relativamente a este produto interno, é o número real não-negativo denotado por $||v||$, definido por:
+
+$$||v|| = \sqrt{\langle v, v \rangle}$$
+
+Se $||v|| = 1$, então $v$ é chamado **vetor unitário**. Dado um vetor não-nulo $v \in V$, sendo $V$ um espaço euclidiano, o vetor $u$ definido por:
+
+$$u = \frac{v}{||v||}$$
+
+é unitário.
+
+Dados dois vetores não-nulos $u$ e $v$, o **ângulo** $\theta$ entre os vetores é dado por:
+
+$$\cos{\theta} = \frac{u \cdot v}{||u||||v||}, \quad 0 \leq \theta \leq \pi$$
+
+Dado um espaço vetorial euclidiano $V$, dois vetores $u, v \in V$ são ditos **ortogonais** (denotado por $u \perp v$) se e somente se $u \cdot v = 0$. Da mesma forma, dado um conjunto de vetores $\{u_1, \dots, u_n\} \subset V$ é **ortogonal** se dois quaisquer vetores distintos do conjunto são ortogonais, ou seja, se $u_i \cdot v_j = 0$, $i \neq j$. Um conjunto ortogonal no qual cada elemento tem norma igual a $1$ é dito um conjunto **ortonormal**.
+
+## Processo de Gram-Schmidt
+
+Em espaços euclidianos geralmente **bases ortogonais ou ortonormais** **simplificam os cálculos** e tornam a resolução de problemas mais simples nessas bases. O processo de Gram-Schmidt consiste em, dada uma base arbitrária de um espaço vetorial $V$, convertê-la em uma base de $V$ ortogonal ou ortonormal. Esse processo consiste em escrever os elementos da sequência como combinação linear dos elementos anteriores, tomando escalares que tornem todos os vetores da sequência ortogonais dois a dois.
+
+O processo se baseia no fato de que sempre é possível construir, a partir de uma sequência de vetores linearmente independentes $\{u_1, u_2, \dots, u_n\}$, uma sequência ortogonal $\{e_1, e_2, \dots, e_n\}$. Além disso, dada uma sequência ortogonal $\{e_1, e_2, \dots, e_n\}$, para obter-se uma sequência ortonormal $\{e^*_1, e^*_2, \dots, e^*_n\}$ basta normalizar cada vetor:
+
+$$e^*_i = \frac{e_i}{||e_i||}, \quad i = 1, 2, \dots, n$$
+
+Portanto, **todo** espaço euclidiano $n$ dimensional tem uma **base ortogonal** e uma **base ortonormal**.
+
+Dada uma sequência de vetores linearmente independentes $\{u_1, u_2, \dots, u_n\}$, para transformá-la em uma sequência ortogonal $\{e_1, e_2, \dots, e_n\}$, os elementos $e_i$ são escritos como combinação linear de seus predecessores, da seguinte forma:
+
+```{=latex}
+\begin{aligned}
+  e_1 &= u_1 \\
+  e_2 &= u_2 -\frac{u_2 \cdot e_1}{e_1 \cdot e_1}e_1 \\
+  e_3 &= u_3 -\frac{u_3 \cdot e_1}{e_1 \cdot e_1}e_1 -\frac{u_3 \cdot e_2}{e_2 \cdot e_2}e_2 \\
+  \vdots\\
+  e_i &= u_i -\frac{u_i \cdot e_1}{e_1 \cdot e_1}e_1 -\frac{u_i \cdot e_2}{e_2 \cdot e_2}e_2 - \dots -\frac{u_i \cdot e_{i-1}}{e_{i-1} \cdot e_{i-1}}e_{i-1}
+\end{aligned}
+```
+## Complemento ortogonal
+
+Dado um espaço vetorial euclidiano $V$ e $W$ um subconjunto não vazio de $V$, ou seja, $W \subset V$, o subconjunto $W^{\perp}$, definido por:
+
+$$W^{\perp} = \{u \in V \mid u \cdot w = 0 \quad \forall w \in W\}$$
+
+é chamado **complemento ortogonal** de $W$. Vale notar que o complemento ortogonal de $W$ é um subespaço vetorial de $V$, mesmo que $W$ não o seja.
+
+## Operador ortogonal
+
+Dado um espaço vetorial euclidiano $V$, um operador linear $T: V \to V$ é dito **ortogonal** se preservar a norma de cada vetor $v \in V$, ou seja:
+
+$$||T(u)|| = ||u|| \quad \forall u \in V$$
+
+Se $T$ é um operador ortogonal, então a matriz $A$ da transformação $T$ é também **ortogonal**, ou seja:
+
+$$A^{-1} = A^t$$
+
+isto é, a inversa da matriz $A$ coincide com sua transposta. Note que se $A$ é ortogonal, então $\det(A) = \pm 1$. Além disso, as colunas (ou linhas) de uma matriz ortogonal são sempre vetores **ortonormais**.
+
+Todo operador linear ortogonal $T:V \to V$ **preserva** o **produto escalar** de vetores, ou seja, para quaisquer vetores $u, v \in V$ tem-se:
+
+$$T(u) \cdot T(v) = u \cdot v$$
+
+## Operador simétrico
+
+Dado um espaço vetorial euclidiano $V$, um operador linear $T:V \to V$ é dito **simétrico** (ou auto-adjunto) se a matriz $A$ associada a $T$ em uma base ortonormal $B$ é simétrica, ou seja, se:
+
+$$A = A^t$$
+
+Se $T$ é um operador linear simétrico, então para quaisquer vetores $u, v \in V$ tem-se:
+
+$$T(u) \cdot v = u \cdot T(v)$$
+
+Se um operador simétrico $T: V \to V$ é simétrico, então existe uma **base ortonormal** composta por autovetores de $T$. Dessa forma, uma matriz $Q$ com colunas dadas pelos autovetores da base ortonormal de autovetores de $T$ diagonaliza a matriz $A$ associada a $T$ ortogonalmente.
+
+# Formas lineares e bilineares
+
+Dado um espaço vetorial $V$, uma **forma linear** $T$ é uma transformação que associa vetores de $V$ ao conjunto dos reais, ou seja, $T: V \to \mathbb{R}$.
+
+Da mesma forma, dado um espaço vetorial $V$, uma **forma bilinear** $B$ é uma aplicação que associa dois vetores de $V$ ao conjunto dos reais, ou seja, $B: V \times V \to \mathbb{R}$. Além disso, as formas bilineares devem satisfazer as seguintes condições:
+
+1.  Para todo $w \in V$, $B(u,w)$ é uma forma linear relativamente à primeira variável, ou seja:
+
+    $$B(u_1 + u_2, w) = B(u_1, w) + B(u_2, w) \quad \text{e} \quad B(\alpha u, w) = \alpha B(u, w) \quad \forwall u_1, u_2, u \in V, \alpha \in \mathbb{R}$$
+
+2.  Para todo $v \in V$, $B(u,w)$ é uma forma linear relativamente à segunda variável, ou seja:
+
+    $$B(u, w_1 + w_2) = B(u, w_1) + B(u, w_2) \quad \text{e} \quad B(u, \alpha w) = \alpha B(u, w) \quad \forwall w_1, w_2, u \in V, \alpha \in \mathbb{R}$$
+
+Uma forma bilinear $B: V \times V \to \mathbb{R}$ é dita **simétrica** se para todos os vetores $u, v \in V$ tem-se:
+
+$$B(u,v) = B(v, u)$$
+
+## Matrizes de formas bilineares
+
+Dado um espaço vetorial $V$ com base $\mathcal{B}=\{u_1,\dots,u_n\}$ e uma **forma bilinear** $B: V \times V \to \mathbb{R}$, a matriz $[B]_{\mathcal{B}}^{\mathcal{B}}$ associada à forma bilinear $B$ é chamada **matriz da forma bilinear** $B$ na base $\mathcal{B}$. A matriz associada à forma bilinear é dada por:
+
+```{=latex}
+\begin{gather}
+
+[B]_{\mathcal{B}}^{\mathcal{B}} =
+  \begin{bmatrix}
+    B(u_1, u_1) & B(u_1, u_2) & \dots & B(u_1, u_n)\\
+    B(u_2, u_1) & B(u_2, u_2) & \dots & B(u_2, u_n)\\
+    \vdots & \vdots &\ddots & \vdots\\
+    B(u_n, u_1) & B(u_n, u_2) & \dots & B(u_n, u_n)\\
+  \end{bmatrix}
+
+\end{gather}
+```
+De forma que, dados dois vetores $u=x_1a_1 + \dots + x_na_n$ e $v=y_1a_1 + \dots + y_na_n$ , tem-se:
+
+```{=latex}
+\begin{gather}
+
+B(u,v) =
+  \begin{bmatrix}
+    x_1 & \dots & x_n
+  \end{bmatrix}
+  \cdot
+  \begin{bmatrix}
+    B(a_1, a_1) & \dots & B(a_1, a_n)\\
+    \vdots &\ddots & \vdots\\
+    B(a_n, a_1) & \dots & B(a_n, a_n)\\
+  \end{bmatrix}
+  \cdot
+  \begin{bmatrix}
+    y_1 & \dots & y_n
+  \end{bmatrix}
+
+\end{gather}
+```
+## Formas quadráticas
+
+Dado um espaço vetorial $V$ e uma forma bilinear **simétrica** $B: V \times V \to R$, a função $Q: V \to \mathbb{R}$ é dita **forma quadrática** associada a $B$ se:
+
+$$Q(u) = B(u, u)$$
+
+Formas quadráticas podem ser expressas na forma matricial através de uma **matriz simétrica**.
+
+## Diagonalização
+
+Dada uma forma quadrática $Q: V \to \mathbb{R}$ associada a uma forma bilinear simétrica $B: V \times V \to \mathbb{R}$, se $\dim V = n$, então existe uma base ortonormal $\mathcal{B}'$ em $V$ tal que se:
+
+```{=latex}
+\begin{gather}
+
+  [u]_{\mathcal{B}'} =
+  \begin{bmatrix}
+    a_1\\
+    a_2\\
+    \vdots\\
+    a_n
+  \end{bmatrix}
+
+\end{gather}
+```
+então
+
+$$Q(u) = Q(a_1, a_2, \dots, a_n) = \lambda_1 a_1^2 + \lambda_2 a_2^2 + \dots + \lambda_n a_n^2$$
+
+Nessas condições, a forma quadrática $$\lambda_1 a_1^2 + \lambda_2 a_2^2 + \dots + \lambda_n a_n^2$$ é chamada forma canônica ou forma quadrática diagonalizada.

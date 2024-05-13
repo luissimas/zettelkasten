@@ -11,11 +11,38 @@
             "id": "70a978302e35bbe1",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Notes/Aproximação de funções.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "21a90f32b8956d43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Notes/Sistemas de Ponto Flutuante.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "593986d57b0a122b",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,35 +208,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "70a978302e35bbe1",
+  "active": "593986d57b0a122b",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-05-10 08.56.51.excalidraw.md",
-    "2 - Notes/Learning Go.md",
+    "3 - Indexes/Cálculo Numérico.md",
+    "2 - Notes/Aproximação de funções.md",
+    "2 - Notes/Derivada.md",
+    "2 - Notes/Forma de Lagrange.md",
+    "2 - Notes/Implementação de ponto flutuante em MIPS.md",
+    "2 - Notes/Integração numérica.md",
+    "2 - Notes/Padrão IEEE 754.md",
+    "2 - Notes/Sistemas de Ponto Flutuante.md",
+    "2 - Notes/Resolução de equações não lineares.md",
+    "2 - Notes/Interpolação de dados.md",
+    "1 - Inbox/Engenharia de Software.md",
     "3 - Indexes/UFSCar.md",
-    "3 - Indexes/Processamento digital de imagens.md",
+    "2 - Notes/Método de Simpson.md",
+    "2 - Notes/Método dos Trapézios.md",
+    "2 - Notes/Método dos Mínimos Quadrados.md",
+    "2 - Notes/Método da Falsa Posição.md",
+    "2 - Notes/Matriz de Vandermonde.md",
+    "2 - Notes/Método da Secante.md",
+    "2 - Notes/Método de Newton-Raphson.md",
+    "2 - Notes/Método do Ponto Fixo.md",
+    "2 - Notes/Método da Bissecção.md",
+    "2 - Notes/Método de Gauss-Seidel.md",
+    "2 - Notes/Métodos iterativos para resolução de sistemas lineares.md",
+    "2 - Notes/Método do ponto fixo para resolução de sistemas lineares.md",
+    "2 - Notes/Método de Jacobi.md",
+    "2 - Notes/Fatoração LU.md",
+    "1 - Inbox/Projeto e Análise de Algoritmos.org",
+    "1 - Inbox/Cálculo Numérico.org",
+    "1 - Inbox/Teoria da Computação.org",
+    "1 - Inbox/Metodologia Científica.org",
+    "1 - Inbox/Álgebra Linear.org",
+    "1 - Inbox/Engenharia de Software.org",
+    "1 - Inbox/Inteligência Artificial.org",
+    "1 - Inbox/Programação Paralela e Distribuída.org",
+    "1 - Inbox/Algoritmos e Estruturas de Dados.org",
+    "1 - Inbox/Interação Humano-Computador.org",
     "4 - Attachments/slice_memory_layout.png",
-    "3 - Indexes/Teoria da computação.md",
-    "3 - Indexes/Projeto e análise de algoritmos.md",
-    "3 - Indexes/Programação paralela e distribuída.md",
-    "2 - Notes/Translação de eixos.md",
-    "2 - Notes/Tratamento geométrico de vetores.md",
-    "2 - Notes/Unificação e Substituição.md",
-    "3 - Indexes/Sistemas operacionais.md",
-    "2 - Notes/Gramática livre de contexto.md",
-    "2 - Notes/Convolução.md",
-    "2 - Notes/Counters.md",
-    "2 - Notes/Transformada de Fourier.md",
-    "2 - Notes/Notação Big-O.md",
-    "2 - Notes/Expressão regular.md",
-    "2 - Notes/Alfabeto.md",
-    "1 - Inbox/Untitled 1.md",
-    "1 - Inbox/Untitled.md",
-    "1 - Inbox/Untitled 2.md",
-    "2 - Notes/Teorema mestre.md",
-    "2 - Notes/Software testing.md",
-    "2 - Notes/Sistemas lineares e invariantes no tempo espaço.md",
-    "2 - Notes/Símbolo.md",
-    "2 - Notes/Segmentação de imagens.md",
     "4 - Attachments/sematic-segmentation.jpg",
     "4 - Attachments/divide_and_conquer_return.jpg",
     "4 - Attachments/divide_and_conquer.jpg",
@@ -219,16 +256,6 @@
     "4 - Attachments/big-o-example.png",
     "4 - Attachments/big-theta-example.png",
     "4 - Attachments/big-omega-example.png",
-    "1 - Inbox/4913",
-    "scripts/org-to-md.sh",
-    "1 - Inbox/20231207141254-arq2_moc.org",
-    "1 - Inbox/20231206070045-software_test.org",
-    "1 - Inbox/20230814173346-go.org",
-    "1 - Inbox/20230730133938-transformada_de_fourier.org",
-    "1 - Inbox/20230610105147-convolucao.org",
-    "1 - Inbox/20230610105130-filtragem_de_imagens.org",
-    "1 - Inbox/20230602100555-sistemas_lineares_e_invariantes_no_tempo_espaco.org",
-    "1 - Inbox/20230525083042-segmentacao_de_imagens.org",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

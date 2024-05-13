@@ -17,8 +17,9 @@ created-at: 2020-11-03
 [[Calculo diferencial e séries]]
 [[Filosofia da ciência]]
 
+[[Cálculo Numérico]]
+
 [[Processamento digital de imagens]]
 [[Teoria da computação]]
 [[Projeto e análise de algoritmos]]
-[[Teoria da computação]]
 [[Programação paralela e distribuída]]
