@@ -11,13 +11,8 @@
             "id": "593986d57b0a122b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Inbox/Banco de dados.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Inbox/Banco de dados.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -137,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 - Inbox/Banco de dados.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +140,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Inbox/Banco de dados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +156,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Inbox/Banco de dados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,32 +183,32 @@
   },
   "active": "593986d57b0a122b",
   "lastOpenFiles": [
-    "1 - Inbox/Álgebra Linear.md",
-    "1 - Inbox/Banco de dados.md",
-    "1 - Inbox/Organização e Recuperação da Informação.md",
-    "1 - Inbox/Inteligência Artificial.md",
-    "1 - Inbox/Engenharia de Software.md",
-    "2 - Notes/Aproximação de funções.md",
-    "3 - Indexes/Cálculo Numérico.md",
-    "2 - Notes/Derivada.md",
-    "2 - Notes/Forma de Lagrange.md",
-    "2 - Notes/Implementação de ponto flutuante em MIPS.md",
-    "2 - Notes/Integração numérica.md",
-    "2 - Notes/Padrão IEEE 754.md",
-    "2 - Notes/Sistemas de Ponto Flutuante.md",
-    "2 - Notes/Resolução de equações não lineares.md",
-    "2 - Notes/Interpolação de dados.md",
+    "3 - Indexes/Álgebra linear.md",
+    "2 - Notes/Polinômio de matrizes.md",
+    "2 - Notes/Isomorfismo de transformações lineares.md",
+    "2 - Notes/Base de um espaço vetorial.md",
+    "2 - Notes/Autovalores e autovetores.md",
     "3 - Indexes/UFSCar.md",
-    "2 - Notes/Método de Simpson.md",
-    "2 - Notes/Método dos Trapézios.md",
-    "2 - Notes/Método dos Mínimos Quadrados.md",
-    "2 - Notes/Método da Falsa Posição.md",
-    "2 - Notes/Matriz de Vandermonde.md",
-    "2 - Notes/Método da Secante.md",
-    "2 - Notes/Método de Newton-Raphson.md",
-    "2 - Notes/Método do Ponto Fixo.md",
-    "2 - Notes/Método da Bissecção.md",
-    "2 - Notes/Método de Gauss-Seidel.md",
+    "2 - Notes/Formas lineares e bilineares.md",
+    "2 - Notes/Forma quadrática diagonalizada.md",
+    "2 - Notes/Forma quadrática.md",
+    "2 - Notes/Matrizes de formas bilineares.md",
+    "2 - Notes/Espaço vetorial euclidiano.md",
+    "2 - Notes/Operador simétrico.md",
+    "2 - Notes/Operador ortogonal.md",
+    "2 - Notes/Complemento ortogonal.md",
+    "2 - Notes/Processo de Gram-Schmidt.md",
+    "2 - Notes/Diagonalização.md",
+    "2 - Notes/Matrizes semelhantes.md",
+    "2 - Notes/Matrizes diagonalizáveis.md",
+    "2 - Notes/Autovalores e Autovetores de Matrizes.md",
+    "2 - Notes/Transformação linear.md",
+    "2 - Notes/Matriz de uma transformação linear.md",
+    "2 - Notes/Núcleo de transformações lineares.md",
+    "2 - Notes/Imagem de transformações lineares.md",
+    "1 - Inbox/Banco de dados.md",
+    "2 - Notes/Espaço vetorial.md",
+    "2 - Notes/Combinação linear.md",
     "1 - Inbox/Projeto e Análise de Algoritmos.org",
     "1 - Inbox/Cálculo Numérico.org",
     "1 - Inbox/Teoria da Computação.org",
