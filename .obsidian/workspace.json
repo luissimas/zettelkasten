@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "593986d57b0a122b",
+            "id": "0d0e4096afbf1d00",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2 - Notes/Aprendizado de máquina.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2 - Notes/Aprendizado de máquina.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2 - Notes/Aprendizado de máquina.md"
+              }
             }
           },
           {
@@ -140,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2 - Notes/Aprendizado de máquina.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2 - Notes/Aprendizado de máquina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 566.5,
-    "collapsed": true
+    "width": 566.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,34 +190,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "593986d57b0a122b",
+  "active": "0d0e4096afbf1d00",
   "lastOpenFiles": [
-    "3 - Indexes/Álgebra linear.md",
-    "2 - Notes/Polinômio de matrizes.md",
-    "2 - Notes/Isomorfismo de transformações lineares.md",
-    "2 - Notes/Base de um espaço vetorial.md",
-    "2 - Notes/Autovalores e autovetores.md",
+    "3 - Indexes/Inteligência Artificial.md",
+    "3 - Indexes/Language learning.md",
+    "3 - Indexes/Latim.md",
+    "2 - Notes/Algoritmos de busca desinformada.md",
+    "2 - Notes/Breadth-first search.md",
+    "3 - Indexes/Introdução ao pensamento algorítmico.md",
     "3 - Indexes/UFSCar.md",
-    "2 - Notes/Formas lineares e bilineares.md",
-    "2 - Notes/Forma quadrática diagonalizada.md",
-    "2 - Notes/Forma quadrática.md",
-    "2 - Notes/Matrizes de formas bilineares.md",
-    "2 - Notes/Espaço vetorial euclidiano.md",
-    "2 - Notes/Operador simétrico.md",
-    "2 - Notes/Operador ortogonal.md",
-    "2 - Notes/Complemento ortogonal.md",
-    "2 - Notes/Processo de Gram-Schmidt.md",
-    "2 - Notes/Diagonalização.md",
-    "2 - Notes/Matrizes semelhantes.md",
-    "2 - Notes/Matrizes diagonalizáveis.md",
-    "2 - Notes/Autovalores e Autovetores de Matrizes.md",
-    "2 - Notes/Transformação linear.md",
-    "2 - Notes/Matriz de uma transformação linear.md",
-    "2 - Notes/Núcleo de transformações lineares.md",
-    "2 - Notes/Imagem de transformações lineares.md",
-    "1 - Inbox/Banco de dados.md",
-    "2 - Notes/Espaço vetorial.md",
-    "2 - Notes/Combinação linear.md",
+    "2 - Notes/Perceptron.md",
+    "2 - Notes/K-means.md",
+    "2 - Notes/Best-first search.md",
+    "2 - Notes/A*.md",
+    "2 - Notes/Viés.md",
+    "2 - Notes/Variância.md",
+    "2 - Notes/Underfitting e overfitting.md",
+    "2 - Notes/Resolução de problemas por Busca.md",
+    "2 - Notes/Representação do Conhecimento e Raciocínio.md",
+    "2 - Notes/Redes neurais.md",
+    "1 - Inbox/Organização e Recuperação da Informação.md",
+    "2 - Notes/Hill-climbing search.md",
+    "2 - Notes/Greedy search.md",
+    "2 - Notes/Algoritmos evolutivos.md",
+    "2 - Notes/Algoritmos de busca local.md",
+    "2 - Notes/Algoritmos de busca informada.md",
+    "2 - Notes/Aprendizado supervisionado.md",
+    "2 - Notes/Aprendizado não supervisionado.md",
+    "2 - Notes/Avaliação de algoritmos de aprendizado supervisionado.md",
     "1 - Inbox/Projeto e Análise de Algoritmos.org",
     "1 - Inbox/Cálculo Numérico.org",
     "1 - Inbox/Teoria da Computação.org",

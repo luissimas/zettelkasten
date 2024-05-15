@@ -19,6 +19,7 @@ created-at: 2020-11-03
 
 [[Cálculo Numérico]]
 [[Álgebra linear]]
+[[Inteligência Artificial]]
 
 [[Processamento digital de imagens]]
 [[Teoria da computação]]

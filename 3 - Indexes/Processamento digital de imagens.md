@@ -16,7 +16,7 @@ Ou seja, uma imagem $f(x,y)$ é uma função de duas variáveis cuja **energia �
 
 Sendo assim, fica evidente a necessidade de aplicar métodos de **discretização** para transformar as imagens **analógicas** (contínuas) em imagens **digitais** (discretas). Os métodos para essa discretização consistem na:
 
-- Discretização das coordenadas através da [[Amostragem]].
+- Discretização das coordenadas através da [[Amostragem de sinal]].
 - Discretização da intensidade do sinal através da [[Quantização]].
 
 Em geral, existem 5 tipos básicos de imagens digitais:
