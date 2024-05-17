@@ -20,6 +20,7 @@ created-at: 2020-11-03
 [[Cálculo Numérico]]
 [[Álgebra linear]]
 [[Inteligência Artificial]]
+[[Organização e recuperação da informação]]
 
 [[Processamento digital de imagens]]
 [[Teoria da computação]]

@@ -1,0 +1,9 @@
+---
+date: 2024-05-17
+---
+
+Os campos são a menor unidade lógica de armazenamento em um [[Arquivo]], geralmente utilizados para armazenar um **dado singular**. Cada campo ocupa um tamanho no arquivo final, e esse tamanho pode ser **fixo** ou **variável**.
+
+Campos de **tamanho fixo** têm seu tamanho definido previamente, independente do dado a ser armazenado. Esse tipo de campo torna a **busca simples**, pois sabendo previamente o tamanho de todos os campos é fácil encontrar a posição deles nos arquivos. Entretanto, esse método pode gerar um grande **desperdício de armazenamento**, pois o espaço alocado nem sempre é usado por completo. Esse problema se agrava ainda mais quando os dados a serem armazenados têm uma alta variação de tamanho.
+
+Para campos de **tamanho variável** existem algumas alternativas de implementação: O primeiro método de implementação consiste em **armazenar o tamanho** ocupado por cada campo **antes do campo** em si. Dessa forma, pode-se ler o tamanho do primeiro campo e então saber qual a posição do segundo, e assim sucessivamente. É possível também **separar os campos por delimitadores**, caracteres especiais que não fazem parte dos dados representados. Esses separadores são **inseridos ao final de cada campo**. Dessa forma, é possível saber onde um campo se inicia e termina com base nos delimitadores ao seu redor. Outra alternativa é o uso de **tags**, criando uma expressão de chave-valor no campo. Nessa forma de implementação uma **tag** é colocada **antes do campo**, **definindo a semântica** para o dado. Esse método geralmente é utilizado em conjunto com outros, como os delimitadores. Em geral, os campos de tamanho variável são mais **eficientes em termos de armazenamento**, porém **aumentam a complexidade das buscas** no arquivo.

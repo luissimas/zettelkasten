@@ -5,7 +5,7 @@ Essa disciplina explora os principais aspectos de sistemas operacionais e suas d
 O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisModernos.pdf | Sistemas Operacionais Modernos]].
 
 # Introdução
-[[2 - Notes/Sistemas operacionais]]
+[[Sistema operacional]]
 
 # Processos e threads
 [[Processos]]

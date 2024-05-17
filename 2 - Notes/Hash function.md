@@ -1,5 +1,5 @@
 ---
 created-at: 2020-12-08
 ---
-A hash function is the core of any [[Hash tables|hash table]].
-In a simple way, a hash function is a function that converts any type of data into an numer (actually an index), there are many implementations of hash functions, none are perfect, but some are better than others. The idea is that we use memory as efficiently as possible while avoiding as much collisions as possible.
+
+A hash function is a deterministic function capable of transforming a given key of any type in a hash value (typically used as an address for indexing). It is essential that this function is deterministic. For the purposes of implementing [[Hash tables]], it is also desirable that the hash function has a low computational cost.
