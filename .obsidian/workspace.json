@@ -13,23 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Notes/Álgebra e cálculo relacional.md",
+                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "853f7f958ac2d235",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,6 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -145,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md"
+              }
             }
           },
           {
@@ -154,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,46 +191,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "853f7f958ac2d235",
+  "active": "fa3e655859bcbb8b",
   "lastOpenFiles": [
-    "2 - Notes/Árvores B.md",
-    "2 - Notes/Índice.md",
-    "3 - Indexes/Organização e recuperação da informação.md",
-    "2 - Notes/Esquemas e instâncias em bancos de dados.md",
-    "2 - Notes/Arquitetura de três esquemas.md",
-    "2 - Notes/Álgebra e cálculo relacional.md",
-    "3 - Indexes/Banco de dados.md",
-    "2 - Notes/SQL.md",
-    "2 - Notes/Modelo de dados relacional.md",
-    "2 - Notes/Operações relacionais.md",
-    "2 - Notes/Restrições de integridade.md",
-    "2 - Notes/Conjuntos.md",
-    "2 - Notes/Relações.md",
-    "2 - Notes/Modelo Entidade-Relacionamento Estendido.md",
-    "2 - Notes/Modelo Entidade-Relacionamento.md",
-    "2 - Notes/Modelagem conceitual de dados.md",
-    "2 - Notes/SGBD.md",
-    "2 - Notes/Modelos de dados.md",
-    "2 - Notes/Interfaces de banco de dados.md",
-    "1 - Inbox/Conceitos básicos.md",
-    "1 - Inbox/Independência de dados.md",
+    "1 - Inbox/20240329T105928--deployments__devops_tech.md",
+    "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
+    "Untitled.canvas",
+    "1 - Inbox/Storage in Kubernetes.md",
+    "1 - Inbox/Kubernetes.md",
+    "1 - Inbox/20240329T105803--pods__devops_tech.md",
+    "1 - Inbox/20240329T105835--service__devops_tech.md",
+    "1 - Inbox/20240329T105849--ingress__devops_tech.md",
+    "1 - Inbox/20240329T105920--volumes__devops_tech.md",
+    "1 - Inbox/20240329T105942--statefulset__devops_tech.md",
+    "1 - Inbox/ORMs.md",
+    "1 - Inbox/Juju.md",
+    "1 - Inbox/20240329T121146--learning-go__book_tech.md",
+    "1 - Inbox/20240329T121122--elixir-in-action__book_tech.md",
+    "1 - Inbox/Structured logging.md",
+    "1 - Inbox/Intensity in life.md",
+    "1 - Inbox/Investimento passivo.md",
+    "1 - Inbox/Arte e Linguagem.md",
+    "1 - Inbox/Switching to Ubuntu.md",
+    "1 - Inbox/Openstack.md",
+    "1 - Inbox/MaaS.md",
+    "1 - Inbox/DRBD.md",
+    "1 - Inbox/Cultura e signos.md",
+    "1 - Inbox/Linux containers.md",
+    "1 - Inbox/Block device.md",
     "1 - Inbox/Building a Second Brain.md",
-    "3 - Indexes/UFSCar.md",
-    "1 - Inbox/Manutenção e organização.md",
-    "1 - Inbox/Tipos de índices.md",
-    "2 - Notes/Transformação linear.md",
+    "2 - Notes/Símbolo.md",
+    "1 - Inbox/20240502T080620--ubuntu__linux_tech_workflow.org",
+    "1 - Inbox/20240501T114035--drbd__linux_tech.org",
+    "1 - Inbox/20240501T113546--kubernetes-storage__devops_tech.org",
+    "1 - Inbox/20240419T174338--openstack__infrastructure_tech.org",
+    "1 - Inbox/20240419T172040--linux-containers__infrastructure_tech.org",
+    "1 - Inbox/20240419T171616--maas__infrastructure_tech.org",
+    "1 - Inbox/20240419T100409--juju__devops_infrastructure_tech.org",
+    "1 - Inbox/20240329T135034--arte-e-linguagem__linguistics_philosophy.org",
+    "1 - Inbox/20240329T121146--learning-go__book_tech.org",
+    "1 - Inbox/20240329T121122--elixir-in-action__book_tech.org",
     "4 - Attachments/ORI/indexes.png",
     "Pasted image 20240517084808.png",
-    "1 - Inbox/Projeto e Análise de Algoritmos.org",
-    "1 - Inbox/Cálculo Numérico.org",
-    "1 - Inbox/Teoria da Computação.org",
-    "1 - Inbox/Metodologia Científica.org",
-    "1 - Inbox/Álgebra Linear.org",
-    "1 - Inbox/Engenharia de Software.org",
-    "1 - Inbox/Inteligência Artificial.org",
-    "1 - Inbox/Programação Paralela e Distribuída.org",
-    "1 - Inbox/Algoritmos e Estruturas de Dados.org",
-    "1 - Inbox/Interação Humano-Computador.org",
     "4 - Attachments/slice_memory_layout.png",
     "4 - Attachments/sematic-segmentation.jpg",
     "4 - Attachments/divide_and_conquer_return.jpg",
@@ -243,7 +240,6 @@
     "4 - Attachments/functional_decomp.png",
     "4 - Attachments/domain_decomp.png",
     "4 - Attachments/big-o-example.png",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "Untitled 1.canvas"
   ]
 }
