@@ -21,6 +21,7 @@ created-at: 2020-11-03
 [[Álgebra linear]]
 [[Inteligência Artificial]]
 [[Organização e recuperação da informação]]
+[[Banco de dados]]
 
 [[Processamento digital de imagens]]
 [[Teoria da computação]]

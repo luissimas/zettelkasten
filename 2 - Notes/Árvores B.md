@@ -2,7 +2,7 @@
 date: 2024-05-17
 ---
 
-As [[Árvore|árvores]] B são estruturas de armazenamento em memória secundária que tem por objetivo melhorar a eficiência das operações em [[Arquivo]].
+As [[Árvore|árvores]] B são estruturas de armazenamento em memória secundária que tem por objetivo melhorar a eficiência das operações em [[Arquivo]]. As árvores B são uma forma bastante comum de implementação de [[Índice|índices]] em [[SGBD|SGBDs]]
 
 Árvores B são sempre **balanceadas**, afim de garantir um melhor desempenho. Note que, como a árvore é balanceada, todos os nós folha estão no mesmo nível da árvore. Cada nó tem o **tamanho de uma** [[Armazenamento de arquivos|página de disco]]. Isso garante que é necessário um único acesso a disco para carregar um nó da árvore na memória principal.
 

@@ -13,14 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Indexes/UFSCar.md",
+                "file": "2 - Notes/Álgebra e cálculo relacional.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
+          },
+          {
+            "id": "853f7f958ac2d235",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +95,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3 - Indexes/UFSCar.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3 - Indexes/UFSCar.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +154,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Indexes/UFSCar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Indexes/UFSCar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,36 +195,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa3e655859bcbb8b",
+  "active": "853f7f958ac2d235",
   "lastOpenFiles": [
+    "2 - Notes/Árvores B.md",
     "2 - Notes/Índice.md",
+    "3 - Indexes/Organização e recuperação da informação.md",
+    "2 - Notes/Esquemas e instâncias em bancos de dados.md",
+    "2 - Notes/Arquitetura de três esquemas.md",
+    "2 - Notes/Álgebra e cálculo relacional.md",
+    "3 - Indexes/Banco de dados.md",
+    "2 - Notes/SQL.md",
+    "2 - Notes/Modelo de dados relacional.md",
+    "2 - Notes/Operações relacionais.md",
+    "2 - Notes/Restrições de integridade.md",
+    "2 - Notes/Conjuntos.md",
+    "2 - Notes/Relações.md",
+    "2 - Notes/Modelo Entidade-Relacionamento Estendido.md",
+    "2 - Notes/Modelo Entidade-Relacionamento.md",
+    "2 - Notes/Modelagem conceitual de dados.md",
+    "2 - Notes/SGBD.md",
+    "2 - Notes/Modelos de dados.md",
+    "2 - Notes/Interfaces de banco de dados.md",
+    "1 - Inbox/Conceitos básicos.md",
+    "1 - Inbox/Independência de dados.md",
+    "1 - Inbox/Building a Second Brain.md",
+    "3 - Indexes/UFSCar.md",
     "1 - Inbox/Manutenção e organização.md",
     "1 - Inbox/Tipos de índices.md",
-    "3 - Indexes/Organização e recuperação da informação.md",
-    "3 - Indexes/UFSCar.md",
     "2 - Notes/Transformação linear.md",
-    "3 - Indexes/Álgebra linear.md",
-    "3 - Indexes/Geometria analítica.md",
-    "3 - Indexes/Teoria da computação.md",
     "4 - Attachments/ORI/indexes.png",
     "Pasted image 20240517084808.png",
-    "2 - Notes/Campos em arquivos.md",
-    "2 - Notes/Algoritmo de frequência de caracteres.md",
-    "2 - Notes/Tratamento de colisões em hash tables.md",
-    "2 - Notes/Remoção e compactação em arquivos.md",
-    "2 - Notes/Registros em arquivos.md",
-    "2 - Notes/Processamento sequencial de arquivos.md",
-    "2 - Notes/Organização de arquivos.md",
-    "2 - Notes/Ordenação por intercalação balanceada.md",
-    "2 - Notes/Ordenação externa.md",
-    "2 - Notes/Hashing extensível em arquivos.md",
-    "2 - Notes/Hashing em arquivos.md",
-    "2 - Notes/Hashing.md",
-    "2 - Notes/Formas de acesso em arquivos.md",
-    "2 - Notes/Endereçamento aberto em hash tables.md",
-    "2 - Notes/Encadeamento em hash tables.md",
-    "2 - Notes/Diretórios.md",
-    "2 - Notes/Compressão.md",
     "1 - Inbox/Projeto e Análise de Algoritmos.org",
     "1 - Inbox/Cálculo Numérico.org",
     "1 - Inbox/Teoria da Computação.org",
