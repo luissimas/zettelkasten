@@ -14,3 +14,7 @@ In short: I want my desktop environment to get out of the way and let me focus o
 With those ideas in mind, I saw that Ubuntu had a new LTS release. So I decided to make the switch. It's being a breath of fresh air to be honest. When I plug a monitor things just works, Bluetooth devices connect without any hassle, everything feels stable and polished. I don't really think about my desktop anymore, I just turn on my laptop and start working on whatever I want to accomplish that day.
 
 But I want to make very clear that I don't think that my time spend tinkering with my distro and tiling window manager was time wasted, lot at all actually. There's no such thing was "wasted time". Time just passes, what matters is what you got out of what you did during that time. And I've learned a lot over those years about how Linux desktops work and even explored a whole new paradigm with NixOS. I'm very happy about the time I've spent customizing my desktop, but I just don't care that much about it anymore, and that's OK.
+
+# Resources
+
+http://xahlee.info/linux/why_tiling_window_manager_sucks.html

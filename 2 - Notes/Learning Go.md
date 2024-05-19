@@ -2,13 +2,15 @@
 created-at: 2023-08-14
 ---
 
-Estou aprendendo Go pelo livro *Learning Go*.
+Estou aprendendo [[Go]] pelo livro *Learning Go*.
 
 Go é uma linguagem compilada e estaticamente tipada desenvolvida com o propósito de ser simples, eficiente, e fazer uso dos recursos computacionais de computadores modernos. Pode-se pensar nela como um potencial substituto para a linguagem C em algumas aplicações.
 
->If you had to label Go’s style, the best word to use is practical. It borrows concepts
+``` example
+If you had to label Go’s style, the best word to use is practical. It borrows concepts
 from many places with the overriding goal of creating a language that is simple, read‐
 able, and maintainable by large teams for many years.
+```
 
 A linguagem é feita com praticidade em mente. Um exemplo disso é o estilo único de formatação de código. Isso não só extingue quaisquer discussões sobre formatação como também simplifica o desenvolvimento do compilador da linguagem e também de ferramentas que analisam o código.
 
@@ -136,7 +138,9 @@ Em Go os parâmetros são sempre passados por valor. Entretanto, maps e slices s
 
 Ponteiros em Go funcionam de maneira bastante similar ao de C. Os operadores `&` e `*` funcionam como o esperado. Apesar disso, não é possível fazer aritmética de ponteiros. Minha primeira impressão é de que a ideia dos ponteiros em Go é fornecer ferramentas básicas de gerenciamento de memória mesmo que a linguagem tenha GC, atingindo um *trade-off* bastante interessante.
 
->Most of the time, you should use a value. They make it easier to understand how and when your data is modified. A secondary benefit is that using values reduces the amount of work that the garbage collector has to do.
+``` example
+Most of the time, you should use a value. They make it easier to understand how and when your data is modified. A secondary benefit is that using values reduces the amount of work that the garbage collector has to do.
+```
 
 Em Go o principal caso de uso para ponteiros é indicar se um parâmetro pode ou não ser modificado pela função que o recebe.
 
@@ -144,7 +148,13 @@ Usar ponteiros para retornar e receber valores em funções só representa um ga
 
 Quando passamos um slice ou map para uma função, copiamos suas referências. Entretanto, como um slice é composto por um ponteiro para o array e dois campos de tamanho e capacidade que não são ponteiros, quando recebemos um slice como parâmetro conseguimos apenas alterar seus elementos, e não seu tamanho ou capacidade.
 
-![[slice_memory_layout.png]]
+```{=org}
+#+caption: Layout de memória de um slice passado como parâmetro
+```
+```{=org}
+#+attr_org: :width 500
+```
+![](attachments/slice_memory_layout.png)
 
 Por padrão devemos assumir que funções não irão modificar slices passados como parâmetro a não ser que sua documentação deixe isso explícito.
 
@@ -179,7 +189,9 @@ func (p Person) Greet(args) string {
 
 O receiver de um método pode ser passado via valor ou ponteiro. Em geral, se deseja-se alterar o valor do *receiver* deve-se utilizar ponteiros. É comum que todos os métodos de um mesmo tipo adotem um padrão com relação a isso.
 
->Whether or not you use a value receiver for a method that doesn't modify the receiver depends on the other methods declared on the type. When a type has any pointer receiver methods, a common practice is to be consistent and use pointer receivers for all methods, even the ones that don’t modify the receiver.
+``` example
+Whether or not you use a value receiver for a method that doesn't modify the receiver depends on the other methods declared on the type. When a type has any pointer receiver methods, a common practice is to be consistent and use pointer receivers for all methods, even the ones that don’t modify the receiver.
+```
 
 Também vale notar que métodos com value receivers não conseguem lidar com a invocação de métodos em valores `nil`, pois o runtime irá desreferenciar o ponteiro para invocar o método, gerando um erro em runtime. Já quando utilizamos pointer receivers conseguimos lidar com isso verificando se o valor recebido não é `nil`.
 
@@ -219,7 +231,9 @@ func main() {
 
 Interfaces são o único tipo abstrato em Go. Elas definem um conjunto de métodos que um tipo concreto deve conter para implementar a interface. A parte mais interessante é que não há a declaração explícita de implementação de interfaces. Sendo assim, um tipo concreto implementa uma interface apenas definindo os métodos que a interface especifica, sem necessariamente declarar que está implementando tal interface. Dessa forma, é possível aliar a verificação estática com uma flexibilidade parecida com a de linguagens com *duck typing*.
 
->Interfaces Are Type-Safe Duck Typing
+``` example
+Interfaces Are Type-Safe Duck Typing
+```
 
 Interfaces vazias são implementadas por qualquer tipo. Sendo assim, elas geralmente são usadas para descrever valores que podem assumir qualquer tipo (como um `any`).
 
@@ -266,7 +280,9 @@ Apesar de serem possíveis, as asserções de tipos raramente são usadas em cen
 
 Ao invés de usar exceções, Go trata erros como valores. A convenção é que uma função que pode falhar deve sempre retornar um valor do tipo `error` como último parâmetro de retorno.
 
->Error messages should not be capitalized nor should they end with punctuation or a newline.
+``` example
+Error messages should not be capitalized nor should they end with punctuation or a newline.
+```
 
 Erros em runtime geralmente são representados por *panics*. Quando ocorre um panic, a execução da função é imediatamente interrompida e todas as funções `defer` da stack são executadas em ordem, viabilizando o teardown dos recursos, e então o programa termina com uma mensagem de erro e uma stack trace.
 

@@ -2,9 +2,9 @@
 date: 2024-05-01
 ---
 
-[[Kubernetes]] itself does not manage storage. Instead, it provides an interface for storage resources called **Persistent Volume**. With this functionality we can mount volumes into pods to ensure that data is persisted between restarts or crashes. Volumes provide a **common interface** for pods to consume storage without caring about the implementation details of the storage back-end.
+[[Kubernetes]] itself does not manage storage. Instead, it provides an interface for storage resources called [[Persistent volume]]. With this functionality we can mount volumes into pods to ensure that data is persisted between restarts or crashes. Volumes provide a **common interface** for pods to consume storage without caring about the implementation details of the storage back-end.
 
-There are many **types of storage**, from local solutions to network attached storage and cloud provider integrations. These types of volumes are usually exposed to the cluster as **different Storage Classes**. With that, we can simply create a Persistent Volume Claim (PVC) specifying the desired Storage Class to select which implementation of the storage we want to use for that volume.
+There are many **types of storage**, from local solutions to network attached storage and cloud provider integrations. These types of volumes are usually exposed to the cluster as **different Storage Classes**. With that, we can simply create a [[Persistent volume claim]] (PVC) specifying the desired Storage Class to select which implementation of the storage we want to use for that volume.
 
 # Local volumes
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
+                "file": "2 - Notes/Learning Go.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
+                "file": "2 - Notes/Learning Go.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md"
+                "file": "2 - Notes/Learning Go.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
+                "file": "2 - Notes/Learning Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
+                "file": "2 - Notes/Learning Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,33 +193,33 @@
   },
   "active": "fa3e655859bcbb8b",
   "lastOpenFiles": [
-    "1 - Inbox/20240329T105928--deployments__devops_tech.md",
-    "1 - Inbox/20240329T093529--kubernetes-nodes__devops_tech.md",
-    "Untitled.canvas",
-    "1 - Inbox/Storage in Kubernetes.md",
-    "1 - Inbox/Kubernetes.md",
-    "1 - Inbox/20240329T105803--pods__devops_tech.md",
-    "1 - Inbox/20240329T105835--service__devops_tech.md",
-    "1 - Inbox/20240329T105849--ingress__devops_tech.md",
-    "1 - Inbox/20240329T105920--volumes__devops_tech.md",
-    "1 - Inbox/20240329T105942--statefulset__devops_tech.md",
-    "1 - Inbox/ORMs.md",
-    "1 - Inbox/Juju.md",
-    "1 - Inbox/20240329T121146--learning-go__book_tech.md",
-    "1 - Inbox/20240329T121122--elixir-in-action__book_tech.md",
-    "1 - Inbox/Structured logging.md",
-    "1 - Inbox/Intensity in life.md",
-    "1 - Inbox/Investimento passivo.md",
-    "1 - Inbox/Arte e Linguagem.md",
+    "2 - Notes/Learning Go.md",
+    "2 - Notes/Learning Go.md",
+    "2 - Notes/Elixir in Action.md",
+    "2 - Notes/Switching to Ubuntu.md",
+    "2 - Notes/Structured logging.md",
+    "2 - Notes/Storage in Kubernetes.md",
+    "2 - Notes/Service.md",
+    "2 - Notes/Pod.md",
+    "2 - Notes/Openstack.md",
+    "2 - Notes/ORMs.md",
+    "2 - Notes/MaaS.md",
+    "2 - Notes/Linux containers.md",
+    "2 - Notes/Kubernetes.md",
+    "2 - Notes/Kubernetes node.md",
+    "2 - Notes/Juju.md",
+    "2 - Notes/Investimento passivo.md",
+    "2 - Notes/Intensity in life.md",
+    "2 - Notes/Deployment.md",
+    "2 - Notes/DRBD.md",
+    "2 - Notes/Cultura e signos.md",
+    "2 - Notes/Block device.md",
+    "2 - Notes/Arte e Linguagem.md",
     "1 - Inbox/Switching to Ubuntu.md",
+    "1 - Inbox/Structured logging.md",
+    "1 - Inbox/Storage in Kubernetes.md",
     "1 - Inbox/Openstack.md",
-    "1 - Inbox/MaaS.md",
-    "1 - Inbox/DRBD.md",
-    "1 - Inbox/Cultura e signos.md",
-    "1 - Inbox/Linux containers.md",
-    "1 - Inbox/Block device.md",
-    "1 - Inbox/Building a Second Brain.md",
-    "2 - Notes/Símbolo.md",
+    "Untitled.canvas",
     "1 - Inbox/20240502T080620--ubuntu__linux_tech_workflow.org",
     "1 - Inbox/20240501T114035--drbd__linux_tech.org",
     "1 - Inbox/20240501T113546--kubernetes-storage__devops_tech.org",

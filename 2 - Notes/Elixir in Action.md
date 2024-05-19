@@ -2,7 +2,7 @@
 created-at: 2023-05-06
 ---
 
-The book gives an overview of Elixir and the OTP ecosystem in the context of building concurrent and fault-tolerant systems. Besides being aimed at more experienced programmers, the book still gives an overview of the building blocks of Elixir before jumping into its application for building concurrent systems. For this reason the notes here contained begin on chapter 4, since the first three chapters focus on the syntax of the language and a broad overview of its practical applications and runtime characteristics.
+The book gives an overview of [[Elixir]] and the [[OTP]] ecosystem in the context of building concurrent and fault-tolerant systems. Besides being aimed at more experienced programmers, the book still gives an overview of the building blocks of Elixir before jumping into its application for building concurrent systems. For this reason the notes here contained begin on chapter 4, since the first three chapters focus on the syntax of the language and a broad overview of its practical applications and runtime characteristics.
 
 # Chapter 4: Data abstractions
 
@@ -12,7 +12,7 @@ In Elixir, abstract data types are implemented with stateless modules, as groups
 
 The main application example used is a to-do list system with basic CRUD operations. The idea is to define a data structure and then encapsulate all its operations on a module that combines functions to perform these operations. The functions usually receive the data structure as a first argument and return the resulting data structure after the operation, making them usable with the pipe `|>` operator.
 
-```elixir
+``` elixir
 defmodule TodoList do
   defstruct auto_id: 1, entries: %{}
 
@@ -57,7 +57,7 @@ end
 
 An example usage of the `TodoList` module:
 
-```elixir
+``` elixir
 todo_list =
   TodoList.new([
     %{date: ~D[2018-12-19], title: "Dentist"},
@@ -75,7 +75,7 @@ TodoList.entries(todo_list, ~D[2018-12-19])
 
 We can also implement an importer module that constructs a to-do list with the entries present in a file. This is an example of how we can extend de functionality of a system by using existing abstractions.
 
-```elixir
+``` elixir
 defmodule TodoList.CsvImporter do
   def import(file_path) do
     file_path
@@ -93,7 +93,7 @@ defmodule TodoList.CsvImporter do
 end
 ```
 
-```elixir
+``` elixir
 todo_list = TodoList.CsvImporter.import("attachments/todos.csv")
 ```
 
@@ -101,7 +101,7 @@ todo_list = TodoList.CsvImporter.import("attachments/todos.csv")
 
 The chapter also explores the concept of polymorphism through protocols.
 
-```elixir
+``` elixir
 defimpl Collectable, for: TodoList do
   def into(original) do
     {original, &into_callback/2}
@@ -116,7 +116,7 @@ defimpl Collectable, for: TodoList do
 end
 ```
 
-```elixir
+``` elixir
 entries = [
           %{date: ~D[2018-12-19], title: "Dentist"},
           %{date: ~D[2018-12-20], title: "Shopping"},
@@ -126,7 +126,7 @@ entries = [
 for entry <- entries, into: TodoList.new(), do: entry
 ```
 
-```elixir
+``` elixir
 entries |> TodoList.new() |> Enum.map(&IO.inspect/1)
 ```
 
@@ -140,7 +140,7 @@ In order to achieve high availability, the BEAM uses internal light-weight proce
 
 We can create server processes to handle some operations without blocking the caller process. We typically implement server processes using an infinite tail-recursive loop that waits and handles a new message, calling itself with the new state at the end. Processes can also maintain their own state. In this sense we can think of these stateful server processes as pure objects that can be interacted with via a public interface of functions that can query or update its state. In the following example we simulate a database server process that executes a fake query and then return the result to the caller process.
 
-```elixir
+``` elixir
 defmodule DatabaseServer do
   def start do
     spawn(fn ->
@@ -178,7 +178,16 @@ defmodule DatabaseServer do
 end
 ```
 
-```elixir
+:
+
+``` example
+{:module, DatabaseServer,
+ <<70, 79, 82, 49, 0, 0, 11, 100, 66, 69, 65, 77, 65, 116, 85, 56, 0, 0, 1, 85,
+   0, 0, 0, 35, 21, 69, 108, 105, 120, 105, 114, 46, 68, 97, 116, 97, 98, 97,
+   115, 101, 83, 101, 114, 118, 101, 114, 8, ...>>, {:run_query, 2}}
+```
+
+``` elixir
 server_pid = DatabaseServer.start()
 
 DatabaseServer.run_async(server_pid, 'query 1')
@@ -192,7 +201,7 @@ DatabaseServer.get_result()
 
 The following example implements a stateful server process for a calculator, showing how we can mutate and query the state of a server process.
 
-```elixir
+``` elixir
 defmodule Calculator do
   def start, do: spawn(fn -> loop(0) end)
 
@@ -249,7 +258,16 @@ defmodule Calculator do
 end
 ```
 
-```elixir
+:
+
+``` example
+{:module, Calculator,
+ <<70, 79, 82, 49, 0, 0, 13, 136, 66, 69, 65, 77, 65, 116, 85, 56, 0, 0, 1, 65,
+   0, 0, 0, 40, 17, 69, 108, 105, 120, 105, 114, 46, 67, 97, 108, 99, 117, 108,
+   97, 116, 111, 114, 8, 95, 95, 105, 110, ...>>, {:handle_message, 2}}
+```
+
+``` elixir
 pid = Calculator.start()
 
 Calculator.value(pid)
@@ -266,7 +284,7 @@ Calculator.value(pid)
 
 In the following example we explore the same concepts, but extend them by using the more complex `TodoList` data structure.
 
-```elixir
+``` elixir
 defmodule TodoList do
   defstruct auto_id: 1, entries: %{}
 
@@ -348,7 +366,7 @@ defmodule TodoServer do
 end
 ```
 
-```elixir
+``` elixir
 TodoServer.start()
 
 TodoServer.add_entry(%{date: ~D[2018-12-19], title: "Dentist"})
@@ -384,7 +402,7 @@ To better understand `GenServer`, we\'ll implement a simplified version of it. T
 
 The generic module implements these operations, but relies on a `callback_module` provided as a parameter of the `start/0` function, that provides the concrete (business logic dependent) implementation, such as the handling of the messages and the updating of the state. The server supports both synchronous and asynchronous requests, via the `call` and `cast` operations, respectively.
 
-```elixir
+``` elixir
 defmodule ServerProcess do
   def start(callback_module) do
     spawn(fn ->
@@ -422,9 +440,18 @@ defmodule ServerProcess do
 end
 ```
 
+:
+
+``` example
+{:module, ServerProcess,
+ <<70, 79, 82, 49, 0, 0, 10, 204, 66, 69, 65, 77, 65, 116, 85, 56, 0, 0, 1, 6,
+   0, 0, 0, 28, 20, 69, 108, 105, 120, 105, 114, 46, 83, 101, 114, 118, 101,
+   114, 80, 114, 111, 99, 101, 115, 115, 8, 95, ...>>, {:loop, 2}}
+```
+
 With that basic abstraction, is possible to issue requests to the server and get the results back, all while keeping internal state. Here\'s a simple `KeyValueStore` module that relies on the generic implementation of the `ServerProcess`.
 
-```elixir
+``` elixir
 defmodule KeyValueStore do
   ## Interface functions -> run in the client process
   def start do
@@ -452,7 +479,16 @@ defmodule KeyValueStore do
 end
 ```
 
-```elixir
+:
+
+``` example
+{:module, KeyValueStore,
+ <<70, 79, 82, 49, 0, 0, 9, 204, 66, 69, 65, 77, 65, 116, 85, 56, 0, 0, 1, 13,
+   0, 0, 0, 28, 20, 69, 108, 105, 120, 105, 114, 46, 75, 101, 121, 86, 97, 108,
+   117, 101, 83, 116, 111, 114, 101, 8, 95, ...>>, {:handle_call, 2}}
+```
+
+``` elixir
 pid = KeyValueStore.start()
 KeyValueStore.put(pid, :some_key, :some_value)
 KeyValueStore.get(pid, :some_key)
@@ -462,7 +498,7 @@ KeyValueStore.get(pid, :some_key)
 
 We can refactor the `TodoServer` module to make use of the new `ServerProcess` module.
 
-```elixir
+``` elixir
 defmodule TodoList do
   defstruct auto_id: 1, entries: %{}
 
@@ -529,7 +565,7 @@ defmodule TodoServer do
 end
 ```
 
-```elixir
+``` elixir
 pid = TodoServer.start()
 
 TodoServer.add_entry(pid, %{date: ~D[2018-12-19], title: "Dentist"})
@@ -544,7 +580,7 @@ TodoServer.entries(pid, ~D[2018-12-19])
 
 In total, the `GenServer` behaviour requeres seven callback functions, but we generally don\'t need to implement all of them. We can use the default implementations of all the required callback functions if we `use` the `GenServer` module.
 
-```elixir
+``` elixir
 defmodule KeyValueStore do
   use GenServer
 
@@ -584,7 +620,16 @@ defmodule KeyValueStore do
 end
 ```
 
-```elixir
+:
+
+``` example
+{:module, KeyValueStore,
+ <<70, 79, 82, 49, 0, 0, 15, 96, 66, 69, 65, 77, 65, 116, 85, 56, 0, 0, 1, 143,
+   0, 0, 0, 42, 20, 69, 108, 105, 120, 105, 114, 46, 75, 101, 121, 86, 97, 108,
+   117, 101, 83, 116, 111, 114, 101, 8, 95, ...>>, {:handle_info, 2}}
+```
+
+``` elixir
 {:ok, pid} = KeyValueStore.start()
 KeyValueStore.put(pid, :some_key, :some_value)
 KeyValueStore.get(pid, :some_key)
@@ -592,7 +637,7 @@ KeyValueStore.get(pid, :some_key)
 
 We can now refactor the `TodoServer` module to make use of the `GenServer` abstraction.
 
-```elixir
+``` elixir
 defmodule TodoList do
   defstruct auto_id: 1, entries: %{}
 
@@ -666,7 +711,7 @@ defmodule TodoServer do
 end
 ```
 
-```elixir
+``` elixir
 {:ok, pid} = TodoServer.start()
 
 TodoServer.add_entry(pid, %{date: ~D[2018-12-19], title: "Dentist"})

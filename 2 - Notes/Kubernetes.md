@@ -2,16 +2,16 @@
 date: 2024-03-28
 ---
 
-Kubernetes is a container orchestration tool.
+Kubernetes is a container orchestration system that provides tools for automating software deployment, scaling, configuration management and also provides fault tolerance capabilities.
 
 # Core concepts
 
-[[20240329T093529--kubernetes-nodes__devops_tech]]
-[[20240329T105803--pods__devops_tech]]
+[[Kubernetes node]]
+[[Pod]]
 [[20240329T105849--ingress__devops_tech]]
 [[20240329T105857--configmap__devops_tech]]
 [[20240329T105904--secret__devops_tech]]
-[[20240329T105928--deployments__devops_tech]]
+[[Deployment]]
 [[20240329T105942--statefulset__devops_tech]]
 
 # Interacting with the cluster
