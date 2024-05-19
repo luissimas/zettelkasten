@@ -1,3 +1,3 @@
 ---
-date: "{{date}}"
+created-at: "{{date}}"
 ---

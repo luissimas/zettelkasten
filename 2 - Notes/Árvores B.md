@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 As [[Árvore|árvores]] B são estruturas de armazenamento em memória secundária que tem por objetivo melhorar a eficiência das operações em [[Arquivo]]. As árvores B são uma forma bastante comum de implementação de [[Índice|índices]] em [[SGBD|SGBDs]]

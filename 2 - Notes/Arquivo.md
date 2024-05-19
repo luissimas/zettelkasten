@@ -1,5 +1,5 @@
 ---
-date: 2024-05-16
+created-at: 2024-05-16
 ---
 
 Os arquivos são a principal unidade de abstração de um [[Sistema de arquivos]]. É através deles que o usuário pode interagir com a informação armazenada em disco. Cada [[Sistema operacional]] decide como lidar com os nomes de arquivos e suas extensões. Em sistemas *UNIX*, os nomes de arquivos são *case-sensitive*, e suas extensões não tem significado algum para o sistema (porém podem ser relevantes para programas que atuam sobre esses arquivos).

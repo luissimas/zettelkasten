@@ -1,5 +1,5 @@
 ---
-date: 2024-05-02
+created-at: 2024-05-02
 ---
 
 This week I switched to [[Ubuntu]] 24.04 LTS. After years of using [[Arch Linux]] and a couple of months using [[NixOS]] -- always using a [[Tiling window manager]] such as dwm, bspwm or Hyprland -- I felt quite exhausted and frustrated with several day-to-day things that would get in the way of my workflow.

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Seja $V$ um [[Espaço vetorial]] e $S = \{u_1, u_2, \dots, u_n\}$ um subconjunto de $V$. O subconjunto de $V$ formado por **todas as** [[Combinação linear|combinações lineares]] de elementos de $S$, ou seja:

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 A avaliação de algoritmos de [[Aprendizado supervisionado]] consiste em **testar o modelo** obtido através de um algoritmo utilizando exemplos cujo resultado esperado já é conhecido.

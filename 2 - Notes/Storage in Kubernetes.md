@@ -1,5 +1,5 @@
 ---
-date: 2024-05-01
+created-at: 2024-05-01
 ---
 
 [[Kubernetes]] itself does not manage storage. Instead, it provides an interface for storage resources called [[Persistent volume]]. With this functionality we can mount volumes into pods to ensure that data is persisted between restarts or crashes. Volumes provide a **common interface** for pods to consume storage without caring about the implementation details of the storage back-end.

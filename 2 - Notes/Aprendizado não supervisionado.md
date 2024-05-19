@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 O paradigma de [[Aprendizado de máquina|aprendizado]] não supervisionado é utilizado principalmente em problemas de agrupamento, associação e sumarização de dados. Esses tipos de algoritmos não buscam inferir conclusões a partir de novos conjuntos de dados, mas sim **descrever**, **aprofundar** e obter informações sobre um **conjunto de dados específico**.

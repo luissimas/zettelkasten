@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 É comum coletar conjuntos de dados em aplicações práticas, dados esses que podem ser vistos como **pontos** desconexos. O objetivo da interpolação é, dado um conjunto de pontos, determinar uma **expressão capaz de gerar todos esses pontos**. A ideia é que, obtida uma expressão que gera todos os pontos de dados coletados, é possível fazer **inferência** sobre os dados com base no **comportamento do conjunto de dados**, que agora é **definido por uma função**.

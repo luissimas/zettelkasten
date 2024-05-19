@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 A álgebra relacional e o cálculo relacional são as duas **linguagens formais** para o modelo relacional. Essas linguagens fornecem a base teórica para as operações em bancos de dados relacionais.

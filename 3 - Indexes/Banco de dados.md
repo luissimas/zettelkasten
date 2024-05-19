@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 Um banco de dados é uma coleção de dados organizados de uma forma coerente e relacionados entre si. Usualmente bancos de dados são implementados como uma forma de manter um único repositório de dados que podem ser acessados por vários usuários por meio de consultas, transações e outros programas de aplicação.

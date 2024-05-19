@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 Um dos objetivos fundamentais do banco de dados é oferecer um nível de **abstração sobre os dados** armazenados, permitindo que os usuários possam acessar os dados relevantes sem se preocupar com detalhes de organização e implementação. Um **modelo de dados** oferece os meios necessários para se atingir essa abstração através de uma coleção de conceitos usados para descrever a estrutura de um banco de dados. A **estrutura** de um banco de dados consiste nos tipos, relacionamentos e restrições que se aplicam aos dados armazenados. É comum que os modelos também incluam **operações básicas** para especificar ações sobre os dados.

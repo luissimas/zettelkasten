@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 O algoritmos evolutivos são algoritmos de otimização utilizados principalmente no contexto de [[Inteligência Artificial]]. Esses algoritmos se baseiam na teoria da [[Seleção Natural]] de [[Charles Darwin]]. No início há uma população de indivíduos com diferentes características. Os indivíduos com as melhores característica (mais aptos) são **selecionados** e se reproduzem, gerando uma nova população (geração) de novos indivíduos com **caraterísticas similares**. Dessa forma, a [[Probabilidade]] dos indivíduos **mais aptos reproduzirem suas características** é maior do que a probabilidade dos indivíduos menos aptos fazerem o mesmo.

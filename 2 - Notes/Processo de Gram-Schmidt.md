@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Em [[Espaço vetorial euclidiano|espaços euclidianos]] geralmente **bases ortogonais ou ortonormais** **simplificam os cálculos** e tornam a resolução de problemas mais simples nessas bases. O processo de Gram-Schmidt consiste em, dada uma [[Base de um espaço vetorial]] $V$, convertê-la em uma base de $V$ ortogonal ou ortonormal. Esse processo consiste em escrever os elementos da sequência como [[Combinação linear]] dos elementos anteriores, tomando escalares que tornem todos os vetores da sequência ortogonais dois a dois.

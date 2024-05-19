@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Espaço vetorial euclidiano]] $V$ e $W$ um subconjunto não vazio de $V$, ou seja, $W \subset V$, o subconjunto $W^{\perp}$, definido por:

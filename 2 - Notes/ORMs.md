@@ -1,5 +1,5 @@
 ---
-date: 2024-03-29
+created-at: 2024-03-29
 ---
 
 Tenho começado a questionar ORMs. Trabalhei em um projeto no qual muitas dificuldades foram relacionadas à falta de familiaridade com o ecossistema, e principalmente com o SQLAlchemy. Em geral acho que os ORMs foram criados num contexto em que a arquitetura MVC prevalecia, então fazia sentido manter essa responsabilidade de persistência nos próprios modelos. 

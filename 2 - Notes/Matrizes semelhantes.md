@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Transformação linear|operador linear]] $T: V \to V$, se $B$ e $B'$ são [[Base de um espaço vetorial|bases]] de $V$ e $[T]_B^B$ e $[T]_{B'}^{B'}$ são [[Matriz de uma transformação linear|matrizes]] que representam o operador nas bases $B$ e $B'$ respectivamente, então

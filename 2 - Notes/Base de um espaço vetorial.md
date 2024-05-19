@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Seja $V$ um [[Espaço vetorial]] e $B = \{u_1, u_2, \dots, u_n\}$ um subconjunto de $V$. Dizemos que $B$ é uma **base** de $V$ se:

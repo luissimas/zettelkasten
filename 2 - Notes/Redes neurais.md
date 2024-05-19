@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Uma rede neural é um algoritmo de [[Aprendizado supervisionado]] que consiste em uma rede composta por diversos nós chamados **neurônios** conectados através das diversas camadas da rede. O objetivo das redes neurais é **reconhecer padrões** entre as variáveis de entrada através de um processo que simula o funcionamento do cérebro humano.

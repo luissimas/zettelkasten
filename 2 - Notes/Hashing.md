@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 O processo de hashing consiste em transformar uma dado (chave) em outro valor (hash). Geralmente o hashing é utilizado na construção de [[Hash tables]], estruturas de dados chave-valor que fornecem operações em tempo constante $O(1)$.

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Subespaços vetoriais são **subconjuntos** de [[Espaço vetorial|espaços vetoriais]]. Cada subespaço vetorial deve estar associado a um espaço vetorial do qual ele é um subconjunto.

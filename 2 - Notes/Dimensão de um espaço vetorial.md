@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 A dimensão de um [[Espaço vetorial]] $V$, denotada por $\dim V$, é o **número de vetores** de uma [[Base de um espaço vetorial|base]] de $V$. Diz-se que o espaço vetorial $V$ tem **dimensão finita** se admitir uma base com um número finito de elementos.

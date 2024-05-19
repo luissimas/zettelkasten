@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 As operações da [[Álgebra e cálculo relacional]] podem ser dividias em dois grupos:

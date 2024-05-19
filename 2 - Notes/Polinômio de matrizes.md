@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um polinômio $P$ de grau $n$ definido por:

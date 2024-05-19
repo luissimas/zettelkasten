@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 Tomando uma função polinomial $g(x_k) = p_n(x_k)$ tal que $p_n(x_k) = a_0 + a_1x_k^1 + \dots + a_nx_k^n$, é possível obter o seguinte **sistema linear**:

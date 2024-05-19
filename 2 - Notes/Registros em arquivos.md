@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 Os registros são agrupamentos de [[Campos em arquivos]], que definem uma informação mais complexa com vários atributos, ou uma **entidade**. Da mesma forma que é necessário organizar os campos dentro de registros, é necessário organizar os registros dentro de [[Arquivo|arquivos]]. Existem várias maneiras de organizar os registros em um arquivo, sendo algumas delas análogas à organização de campos, mas com algumas peculiaridades.

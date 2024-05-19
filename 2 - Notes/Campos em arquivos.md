@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 Os campos são a menor unidade lógica de armazenamento em um [[Arquivo]], geralmente utilizados para armazenar um **dado singular**. Cada campo ocupa um tamanho no arquivo final, e esse tamanho pode ser **fixo** ou **variável**.

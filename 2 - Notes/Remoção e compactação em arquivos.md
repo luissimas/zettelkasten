@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 Ao remover [[Registros em arquivos|registros]] de um [[Arquivo]], é necessário reorganizar o aquivo para que o espaço ocupado seja efetivamente reduzido.

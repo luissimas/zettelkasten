@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Sejam $V$ e $W$ [[Espaço vetorial|espaços vetoriais]] reais, uma **transformação linear** (ou aplicação linear) é uma função $T: V \to W$ tal que, para quaisquer $u, v \in V$ e $\alpha \in \mathbb{R}$, as seguintes condições forem satisfeitas:

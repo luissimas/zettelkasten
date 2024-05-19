@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método dos trapézios é utilizado para fazer a [[Integração numérica]] de funções. Esse método consiste em aproximar a função através de um polinômio de grau $1$ para então obter a área do gráfico da função aproximada.

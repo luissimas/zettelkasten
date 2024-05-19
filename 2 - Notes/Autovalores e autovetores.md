@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Espaço vetorial]] $V$ e um [[Transformação linear|operador linear]] $T: V \to V$, se existirem $u \in V$, $u \neq 0$ e $\lambda \in \mathbb{R}$ tais que:

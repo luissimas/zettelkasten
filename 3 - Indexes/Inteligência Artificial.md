@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 A Inteligência Artificial é o ramo da ciência da computação relacionado com a automação do comportamento inteligente, operando através da criação de modelos para a inteligência e implementando sistemas computacionais baseados nesses modelos.

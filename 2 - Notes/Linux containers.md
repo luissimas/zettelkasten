@@ -1,5 +1,5 @@
 ---
-date: 2024-04-19
+created-at: 2024-04-19
 ---
 
 Linux Containers (LXC) are a way to run native containers on [[Linux]] systems. LXC uses kernel features such as cgroups and namespaces to provide isolation from the rest of the system while sharing the same kernel and eliminating the need of virtualizing the host hardware.

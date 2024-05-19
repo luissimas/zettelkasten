@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 Um sistema de equações lineares é um conjunto de $n$ equações em $k$ variáveis, geralmente escrito na seguinte forma:

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Esse algoritmo de [[Algoritmos de busca informada]] utiliza como função de avaliação apenas a **função heurística**, ou seja, $f(n) = h(n)$. Dessa forma, os nós considerados mais próximos do objetivo são expandidos primeiro.

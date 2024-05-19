@@ -1,5 +1,5 @@
 ---
-date: 2024-05-16
+created-at: 2024-05-16
 ---
 
 O principal método de [[Ordenação externa]] é a ordenação por intercalação balanceada, que utiliza tanto da memória principal quanto a secundária para ordenar os dados de um arquivo.

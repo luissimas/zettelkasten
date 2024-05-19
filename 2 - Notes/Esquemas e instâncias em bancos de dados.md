@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 É de extrema importância distinguir entre a *descrição* do banco de dados e o *próprio banco de dados*. A descrição de um banco de dados é chamada de **esquema do banco de dados**, que é especificada antes da criação do banco em si, e é armazenada pelo SGBD como metadados. A representação de um esquema é geralmente feita através de um **diagrama de esquema**, que apresenta a estrutura de cada tipo de registro, geralmente contendo os itens de dados, e alguns tipos de restrições. Cada objeto no esquema é chamado de **construtor do esquema**.

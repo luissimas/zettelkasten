@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Espaço vetorial euclidiano]] $V$, um [[Transformação linear|operador linear]] $T:V \to V$ é dito **simétrico** (ou auto-adjunto) se a [[Matriz de uma transformação linear|matriz]] $A$ associada a $T$ em uma base ortonormal $B$ é simétrica, ou seja, se:

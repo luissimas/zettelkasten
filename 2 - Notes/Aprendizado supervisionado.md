@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 O aprendizado supervisionado é um paradigma de [[Aprendizado de máquina]] aplicado principalmente em problemas de classificação e regressão. Em ambos os tipos de problemas são fornecidos conjuntos de dados de treinamento com diversos atributos de entrada e um atributo de saída. A ideia é que o algoritmo gere um modelo capaz de, dado um novo conjunto de atributos de entrada diferente daqueles utilizados para o treinamento, produza o atributo de saída esperado. O conceito de **aproximação de funções** é muito relacionado a esse paradigma de aprendizado.

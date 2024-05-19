@@ -1,5 +1,5 @@
 ---
-date: 2024-05-16
+created-at: 2024-05-16
 ---
 
  O **acesso a disco** é algo muito mais **custoso** do que o acesso a dados na memória principal, portanto é muito importante que algoritmos que lidam com processamento e ordenação de arquivos façam o mínimo de **acessos a disco possíveis**.

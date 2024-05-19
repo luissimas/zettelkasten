@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 A resolução de problemas por busca consiste em modelar um problema usando uma representação do mundo baseada em **estados** e aplicar um [[Algoritmo de busca]] sobre esses estados para encontrar uma solução para o problema.

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método de Gauss-Seidel é um [[Métodos iterativos para resolução de sistemas lineares|método iterativo para resolução de sistemas lineares]]. Esse ḿetodo é muito semelhante ao [[Método de Jacobi]]. A diferença entre os métodos consiste no fato de que, enquanto no método de Jacobi todos os elementos de $X^{(n)}$ são computados a partir de $X^{(n-1)}$, no método de Gauss-Seidel os elementos de $X^{(n)}$ já computados são usados para aproximar os elementos restantes de $X^{(n)}$.

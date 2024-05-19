@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O Método dos Mínimos Quadrados consiste em, dado um **conjunto** de $n$ **pontos** $\{(x_0, f(x_0)), (x_1, f(x_1)), \dots, (x_{n-1}, f(x_{n-1}))\}$, **determinar uma função** $\varphi(x)$ que **melhor se aproxime** de $f$. Geralmente, escrevemos a função $\varphi$ como uma **combinação linear** de funções $g_i(x)$, tal que: $\varphi(x) = a_1g_1(x) + a_2g_2(x) + \dots + a_ig_i(x)$.

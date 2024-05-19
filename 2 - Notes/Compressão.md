@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 A compressão consiste em **reduzir o espaço de memória** utilizado por um [[Arquivo]]. A compressão é uma operação **reversível**, ou seja, geralmente apresenta dois componentes centrais: a **codificação** do arquivo para um formato comprimido e a sua posterior **decodificação** para o arquivo no formato original.

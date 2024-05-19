@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Seja $V$ um [[Espaço vetorial]] e $u_1, u_2, \dots, u_n \in V$. O conjunto $\{u_1, u_2, \dots, u_n\}$ é dito **linearmente independente (L.I.)** se e somente se a equação

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Ao contrário da [[Algoritmos de busca desinformada]], a busca informada é uma estratégia de busca que considera **informações específicas sobre o problema**, que vão além da definição básica do problema. Nesse tipo de busca, as informações sobre o problema são usadas no momento de selecionar o **próximo nó** a ser expandido. Dessa forma, essa estratégia **não é exaustiva**, ou seja, há mecanismos para evitar que todos os nós devem ser testados para se encontrar o estado objetivo.

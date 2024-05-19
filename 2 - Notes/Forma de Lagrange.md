@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 A forma de Lagrange nos permite obter o polinômio que interpola a função $f$ sem passar pelo processo de [[Resolução de sistemas lineares]]. O método consiste em obter um **conjunto de polinômios** chamados *polinômios de Lagrange*, definidos por:

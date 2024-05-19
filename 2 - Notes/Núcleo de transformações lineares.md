@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Seja $T: U \to V$ uma [[Transformação linear]]. O **núcleo** de $T$, denotado por $Ker(T)$ (ou $N(T)$), é o conjunto dos vetores $u \in U$ que **são levados ao vetor nulo de** $V$, ou seja:

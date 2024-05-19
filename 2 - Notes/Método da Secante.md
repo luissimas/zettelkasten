@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método da secante é utilizado para a [[Resolução de equações não lineares]]. Esse método segue a mesma ideia do [[Método de Newton-Raphson]], porém **ao invés de usar a** [[Derivada]] da função cuja raiz é buscada, **usa-se uma aproximação** para ela.

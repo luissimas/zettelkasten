@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 O modelo de dados relacional foi introduzido por Edgar F. Codd em 1970. Esse modelo se mostrou uma **grande revolução** na área de banco de dados tanto por sua **simplicidade** quanto por sua **base teórica** fundamentada em [[Relações]] e na teoria de [[Conjuntos]], resultando na [[Álgebra e cálculo relacional]].

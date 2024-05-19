@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 O aprendizado de máquina é a área da computação que estuda técnicas que permitem que sistemas computacionais "aprendam" a realizar tarefas com base em dados prévios sobre o problema, sem serem explicitamente programados para a tarefa.

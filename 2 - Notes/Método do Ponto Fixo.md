@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método do ponto fixo se baseia na ideia de que há pontos (chamados de pontos fixos) de funções que, quando aplicados à função resultam neles mesmos. Um **ponto fixo** de uma dada função $\varphi$ é o número $p$ que quando aplicado na função resulta nele mesmo, ou seja, $\varphi(p) = p$.

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método da fatoração LU é um [[Métodos diretos para resolução de sistemas lineares|método direto para resolução de sistemas lineares]]. Esse ḿetodo consiste em, dado um sistema linear na forma $Ax = b$, **decompor a matriz dos coeficientes** $A$ em um **produto de duas matrizes** $L$ e $U$, em que $L$ (*Lower*) é uma **matriz triangular inferior** com diagonal unitária e $U$ (*Upper*) é uma **matriz triangular superior**.

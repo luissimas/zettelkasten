@@ -1,5 +1,5 @@
 ---
-date: 2024-03-29
+created-at: 2024-03-29
 ---
 
 Reading [[Deep Work]] I came about a chapter in which [[Theodore Roosevelt]] is used as an example of focus and work with intensity. I find very interesting that all these famous polymaths have that variable in common: **intensity**. Interestingly enough, lately my training philosophy is turning much more towards consistency and intensity instead of pure volume, which seems to be the norm.

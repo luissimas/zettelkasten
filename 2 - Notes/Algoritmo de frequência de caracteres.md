@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 O algoritmo de frequência de caracteres é um dos métodos mais **simples** e intuitivos de implementar a [[Compressão]] de [[Arquivo|arquivos]]. A ideia é substituir os elementos repetidos de uma sequência de símbolos idênticos por um número indicando a frequência do símbolo.

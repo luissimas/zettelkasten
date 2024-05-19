@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método de Newton-Raphson é utilizado para a [[Resolução de equações não lineares]]. Esse método é resultado da aplicação do *Teorema de Taylor* com o [[Método do Ponto Fixo]], resultando em um método que **converge mais rápido** para a solução, porém com **mais condições de convergência**.

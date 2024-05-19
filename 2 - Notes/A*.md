@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Esse algoritmo de [[Algoritmos de busca informada]] utiliza como função de avaliação uma soma da **função de custo** e da **função heurística**, portanto $f(n) = g(n) + h(n)$. Sendo assim, esse algoritmo considera não só a estimativa do custo do caminho do nó $n$ até o objetivo, mas também o custo do caminho percorrido até o nó.

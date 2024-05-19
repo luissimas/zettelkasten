@@ -1,5 +1,5 @@
 ---
-date: 2024-05-16
+created-at: 2024-05-16
 ---
 
 Os dispositivos de armazenamento secundário são geralmente [[Block device|block devices]], isto é, a unidade mínima de armazenamento não são bytes, e sim **grupos de bytes**.

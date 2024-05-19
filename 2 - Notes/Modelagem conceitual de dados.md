@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 O desenvolvimento de uma aplicação de banco de dados é uma tarefa que envolve diversas etapas, desde o **levantamento de requisitos** até a implementação das operações disponíveis sobre os dados. Nesse sentido, o desenvolvimento de uma aplicação de banco de dados está muito ligado ao desenvolvimento de software em geral, empregando técnicas que muitas vezes são do campo da engenharia de software.

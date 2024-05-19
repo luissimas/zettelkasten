@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Espaço vetorial]] $V$, um **produto interno** é qualquer função $f: V \times V \to \mathbb{R}$, indicada por $u \cdot v$ ou $\langle u, v \rangle$, tal que para quaisquer $u, v, w \in V$ e $\alpha \in \mathbb{R}$ os seguintes axiomas sejam verdadeiros:

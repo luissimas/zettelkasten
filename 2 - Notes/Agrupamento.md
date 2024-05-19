@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 A tarefa de agrupamento (*clustering*) consiste em, dado um conjunto de dados, **agrupar** pontos de dados mais **similares** entre si em *clusters* (grupos). Os pontos fundamentais em tarefas de agrupamento consistem principalmente na definição de uma **medida de similaridade**, na definição de um **número ideal de grupos** e também na **validação e interpretação** de um resultado de agrupamento. O [[K-means]] é um exemplo clássico de algoritmo de agrupamento.

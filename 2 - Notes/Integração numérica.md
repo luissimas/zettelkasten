@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 Integrais são ferramentas essenciais para diversas aplicações, entretanto na maioria das vezes não é possível obtê-las. Tendo isso em vista, foram desenvolvidos métodos numéricos para obter estimativas de [[Integrais definidas]] de funções em dados intervalos.

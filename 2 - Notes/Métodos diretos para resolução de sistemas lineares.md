@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 Os métodos diretos para a resolução de sistemas lineares oferecem a **solução exata** (exceto quando há erros de arredondamento introduzidos pela máquina) com um **número finito de operações**. Entretanto, esses métodos podem se tornar inviáveis dependendo da estrutura ou dimensão do sistema.

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 O modelo ER define o esquema conceitual do banco de dados fazendo uso de três componentes principais: *entidades*, *atributos* e *relacionamentos*.

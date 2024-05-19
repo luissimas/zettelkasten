@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 A combinação linear é uma característica dos [[Espaço vetorial|espaços vetoriais]] que permite a obtenção de novos vetores a partir de vetores conhecidos.

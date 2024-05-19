@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 O perceptron foi o primeiro modelo de [[Redes neurais|rede neural]] de fato implementada como um algoritmo. O modelo hoje compreende a forma mais simples de uma rede neural, podendo ser utilizada para classificar **padrões linearmente separáveis**, ou seja, que podem ser separados por apenas um hiperplano, em um conjunto com **classes binárias**.

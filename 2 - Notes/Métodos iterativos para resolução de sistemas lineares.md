@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 Os métodos iterativos consistem na aplicação de sucessivas operações em um dado valor inicial para se obter uma **solução aproximada** para um sistema linear.

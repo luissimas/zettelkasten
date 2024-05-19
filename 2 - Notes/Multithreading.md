@@ -1,5 +1,5 @@
 ---
-date: 2024-05-12
+created-at: 2024-05-12
 ---
 
 O multithreading a nível de hardware visa implementar mecanismos que reduzam o custo da troca de contexto de execução entre diversas threads. Esses mecanismos consistem em estruturas de armazenamento de contexto especializadas para esse caso de uso.

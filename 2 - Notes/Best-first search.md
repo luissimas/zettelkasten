@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 A busca pela melhor escolha utiliza as heurísticas na forma de uma **função de avaliação** $f(n)$, que aplicada a um estado retorna um valor numérico. A função de avaliação é utilizada para determinar o **quão desejável** é expandir um determinado nó.

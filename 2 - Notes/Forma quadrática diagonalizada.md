@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dada uma [[Forma quadrática]] $Q: V \to \mathbb{R}$ associada a uma [[Formas lineares e bilineares|forma bilinear]] simétrica $B: V \times V \to \mathbb{R}$, se $\dim V = n$, então existe uma base ortonormal $\mathcal{B}'$ em $V$ tal que se:

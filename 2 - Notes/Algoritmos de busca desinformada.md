@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Os [[Algoritmo de busca|algoritmos de busca]] desinformada não consideram informação adicional sobre o problema além da definição do mesmo. Tendo isso em vista, os algoritmos nessa categoria devem testar todos os nós até encontrar o estado objetivo.

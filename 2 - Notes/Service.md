@@ -1,5 +1,5 @@
 ---
-date: 2024-05-19
+created-at: 2024-05-19
 ---
 
 In [[Kubernetes]], a service is a way to **expose** a set of pods as a single application to the cluster. A service can be viewed as a **static virtual IP address** that can be assigned to a set of [[Pod]]. 

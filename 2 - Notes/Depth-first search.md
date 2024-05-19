@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Esse [[Algoritmos de busca desinformada|algoritmo de busca desinformada]] consiste em expandir o nó mais interno até que o nó desse ramo não tenha mais sucessores, após isso retrocede-se ao nó mais profundo e o processo é repetido.

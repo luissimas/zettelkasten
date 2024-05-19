@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 Um *SGBD (Sistema de Gerenciamento de Banco de Dados)* é um programa (ou conjunto de programas) responsável por criar e manter um banco de dados. Através do *SGBD* é possível realizar consultas, fazer alterações e lidar com a manutenção geral de uma base de dados.

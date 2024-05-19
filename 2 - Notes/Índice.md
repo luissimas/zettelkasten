@@ -1,5 +1,5 @@
 ---
-date: 2024-05-16
+created-at: 2024-05-16
 ---
 
 Índices são estruturas auxiliares que tem por objetivo **melhorar a eficiência da busca** por [[Registros em arquivos|registros]] em um [[Arquivo]]. Índices são extensivamente usados em [[SGBD|SGBDs]].

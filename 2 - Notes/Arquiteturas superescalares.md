@@ -1,5 +1,5 @@
 ---
-date: 2024-05-12
+created-at: 2024-05-12
 ---
 
 Arquiteturas superescalares são aquelas que permitem que instruções sejam executadas simultaneamente e de modo independente. A essência da abordagem superescalar é a capacidade de executar múltiplas instruções de forma independente em diferentes pipelines.

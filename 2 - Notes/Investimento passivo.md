@@ -1,5 +1,5 @@
 ---
-date: 2024-03-29
+created-at: 2024-03-29
 ---
 
 Ultimamente tenho pensando em aplicar o [[Princípio de Pareto]] em diversas áreas da vida, e os investimentos são um cenário no qual eu acredito que ela é particularmente eficiente.

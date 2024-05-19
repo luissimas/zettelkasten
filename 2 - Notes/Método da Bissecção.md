@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método da bissecção é utilizado para a [[Resolução de equações não lineares]]. Esse método supõe apenas que a função $f$ seja contínua no intervalo $[a,b]$, sendo um dos métodos mais simples para determinar se existem raízes da função em um intervalo.

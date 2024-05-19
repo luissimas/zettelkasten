@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 A *arquitetura de três esquemas (arquitetura ANSI/SPARC)* tem por objetivo separar as aplicações do usuário do banco de dados físico, criando três níveis:

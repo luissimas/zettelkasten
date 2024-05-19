@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 Em se tratando de métodos de aproximação, a existência de erros é inevitável. Portanto, são necessários métodos para entender o comportamento desses erros e estabelecer resultados confiáveis para os mesmos.

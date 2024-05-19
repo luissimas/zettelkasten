@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Sabendo que todo [[Espaço vetorial]] tem mais de uma [[Base de um espaço vetorial|base]], a mudança de base consiste em, **dadas as coordenadas** de um vetor $v \in V$ em uma base $B$, **determinar as coordenadas** de $v$ **em uma outra base** $B'$.

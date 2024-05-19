@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dada uma [[Transformação linear]] $T: U \to V$, sendo $\dim U = n$ e $\dim V = m$. Considerando as [[Base de um espaço vetorial|bases]] $B=\{u_1, u_2, \dots, u_n\}$ e $B'=\{v_1, v_2, \dots, v_m\}$ como bases de $U$ e $V$, respectivamente, é possível escrever os vetores $T(u_i)$ como [[Combinação linear]] dos vetores da base $B'$ da seguinte forma;

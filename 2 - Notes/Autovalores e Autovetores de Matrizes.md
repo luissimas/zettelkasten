@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Tomando uma [[Transformação linear]] $T$ associada à matriz $A_{n\times n}$, é possível determinar os [[Autovalores e autovetores]] da matriz $A$ a partir da busca por um escalar $\lambda \in \mathbb{R}$ e um vetor não nulo $u$ tais que:

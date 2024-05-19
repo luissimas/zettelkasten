@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um conjunto $V$ não-vazio, se em $V$ estiverem definidas: uma operação de adição tal que, para todo par de elementos $x, y \in V$, associa-se um terceiro elemento $x + y \in V$, ou seja:

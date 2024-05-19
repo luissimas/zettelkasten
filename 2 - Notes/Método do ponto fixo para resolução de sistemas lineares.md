@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O [[Método do Ponto Fixo]] se baseia na ideia de que há pontos (chamados de pontos fixos) de funções que, quando aplicados à função resultam neles mesmos. Esse método pode ser usado na resolução de sistemas lineares. Consideramos um sistema de equações lineares de solução única, com $n$ equações e variáveis:

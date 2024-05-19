@@ -1,5 +1,5 @@
 ---
-date: 2024-05-19
+created-at: 2024-05-19
 ---
 
 Pods are the **smallest deployable unit of computing** in [[Kubernetes]]. Pods are a group of one or more containers with shared storage and network resources. 

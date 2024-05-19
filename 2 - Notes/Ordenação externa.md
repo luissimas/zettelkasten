@@ -1,5 +1,5 @@
 ---
-date: 2024-05-16
+created-at: 2024-05-16
 ---
 
 A ordenação externa consiste em classificar e ordenar por algum critério os registros armazenados em um arquivo.

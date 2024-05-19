@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 Existem essencialmente duas maneiras de se acessar [[Arquivo|arquivos]] armazenados em memória secundária:

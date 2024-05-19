@@ -1,5 +1,5 @@
 ---
-date: 2024-04-19
+created-at: 2024-04-19
 ---
 
 Juju is an orchestration engine that enables the **deployment, integration and life-cycle management** of applications in complex environments such as hybrid [[Cloud|clouds]].

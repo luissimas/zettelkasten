@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Espaço vetorial euclidiano]] $V$, um [[Transformação linear|operador linear]] $T: V \to V$ é dito **ortogonal** se preservar a norma de cada vetor $v \in V$, ou seja:

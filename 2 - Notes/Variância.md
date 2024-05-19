@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Dado um experimento aleatório com espaço de probabilidade $(\Omega, \mathcal{F}, P)$. Seja $X: \Omega \rightarrow \mathbb{R}$ uma [[Variáveis aleatórias|variável aleatória]] com conjunto imagem $Im(X)$. Se $E(X)$ existe, então a **variância** e o **desvio padrão** de $X$ são definidos por:

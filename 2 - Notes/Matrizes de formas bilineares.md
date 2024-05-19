@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Espaço vetorial]] $V$ com base $\mathcal{B}=\{u_1,\dots,u_n\}$ e uma [[Formas lineares e bilineares|forma bilinear]] $B: V \times V \to \mathbb{R}$, a [[Matriz de uma transformação linear|matriz]] $[B]_{\mathcal{B}}^{\mathcal{B}}$ associada à forma bilinear $B$ é chamada **matriz da forma bilinear** $B$ na base $\mathcal{B}$. A matriz associada à forma bilinear é dada por:

@@ -1,5 +1,5 @@
 ---
-date: 2024-05-16
+created-at: 2024-05-16
 ---
 
 Os diretórios são utilizados para organizar e controlar os [[Arquivo|arquivos]] em um [[Sistema de arquivos]], porém também são fundamentalmente arquivos. Com diretórios é possível organizar os arquivos de uma maneira hierárquica que faça sentido para o usuário, também se torna possível a criação de diretórios privados para cada usuário mantendo a separação e organização dos arquivos.

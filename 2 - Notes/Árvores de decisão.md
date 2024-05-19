@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 [[Árvore]] de decisão é uma classe de algoritmos de [[Aprendizado supervisionado]] aplicado em problemas de **classificação**, ou seja, problemas nos quais a partir de um conjunto de atributos deseja-se obter um novo atributo discreto (uma classe).

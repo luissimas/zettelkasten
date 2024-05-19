@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 O conceito de [[Hashing]] pode ser estendido para o uso em memória secundária, com aplicações no endereçamento de [[Registros em arquivos]]. Apesar de serem aplicáveis a [[Arquivo|arquivos]], as estratégias de [[Tratamento de colisões em hash tables]] para memória principal não levam em consideração as particularidades do acesso em memória secundária, tornando-se ineficientes para essa aplicação.

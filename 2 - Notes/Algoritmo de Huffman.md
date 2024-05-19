@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 O algoritmo de Huffman é um método de [[Compressão]] que, dados alguns critérios, gera compressões ótimas e eficientes. A ideia do método é utilizar uma estrutura de [[Árvore]] para codificar e decodificar os símbolos do [[Arquivo]] original, dando especial atenção a como construir a árvore de forma a obter a melhor compressão possível.

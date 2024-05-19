@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 O modelo EER estende a capacidade de representação do [[Modelo Entidade-Relacionamento]] tradicional, introduzindo novos conceitos de *modelos de dados semânticos*. Os conceitos introduzidos nesse modelo são, principalmente, os de **subclasse** e **superclasse**, **especialização** e **generalização**, **categoria** e **herança**.

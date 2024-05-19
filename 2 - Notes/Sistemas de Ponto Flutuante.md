@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 Os *sistemas de ponto flutuante (SPF)* consistem em uma maneira padronizada de representar números em uma base. Um SPF assume que o número de dígitos a serem utilizados é fixo e que os expoentes permitidos estão em um intervalo bem definido.

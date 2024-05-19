@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Os algoritmos de busca local diferem bastante dos outros [[Algoritmos de busca informada]]. Essa classe de algoritmos levam em conta **apenas o estado corrente** e se movem apenas para os estados vizinhos deste, **sem levar em conta os caminhos para os estados**. Dessa forma, esse tipo de algoritmo **não mantém** uma lista de **nós abertos e fechados**, sendo necessário armazenar **apenas o estado atual** para então expandi-lo e avaliar os estados possíveis a partir deste.

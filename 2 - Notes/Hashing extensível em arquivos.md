@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 A fim de contornar a restrição do espaço de endereçamento estático criado pelo [[Hashing em arquivos]], o **hashing dinâmico** apresenta alternativas para que o espaço de endereçamento se torne dinâmico, ao mesmo tempo mantendo a consistências e eficiência das operações.

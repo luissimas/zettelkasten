@@ -1,5 +1,5 @@
 ---
-date: 2024-03-29
+created-at: 2024-03-29
 ---
 
 Structured logging is the practice of logging in a structured, parsable format as opposed to an string with no well-defined structure. This is great because it makes it easier to filter and search the logs for relevant information.

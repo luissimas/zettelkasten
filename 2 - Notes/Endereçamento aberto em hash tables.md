@@ -1,5 +1,5 @@
 ---
-date: 2024-05-17
+created-at: 2024-05-17
 ---
 
 O endereçamento aberto em [[Hash tables]] é uma técnica de [[Tratamento de colisões em hash tables]] que parte da pressuposição de que o número de chaves a ser armazenado na tabela é menor ou igual ao tamanho da tabela, ou seja, $n \leq m$. Partindo desse princípio, assume-se que é possível **armazenar todas as chaves na tabela**, sem a necessidade de outra estrutura para tratar colisões.

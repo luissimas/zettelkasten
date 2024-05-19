@@ -1,5 +1,5 @@
 ---
-date: 2024-05-18
+created-at: 2024-05-18
 ---
 
 Para manter a **integridade do estado** do banco de dados, geralmente são necessárias diversas **restrições** sobre os valores em um estado. Essas restrições podem ser divididas em três categorias:

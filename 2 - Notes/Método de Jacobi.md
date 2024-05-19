@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método de Jacobi é um [[Métodos iterativos para resolução de sistemas lineares|método iterativo para resolução de sistemas lineares]]. Esse método consiste em reescrever a equação matricial $AX = B$ em uma forma de [[Método do ponto fixo para resolução de sistemas lineares|ponto fixo]] $X = F(X)$. Para isso pode-se isolar os termos diagonais da matriz no sistema, chegando a um método iterativo cuja equação de recorrência é:

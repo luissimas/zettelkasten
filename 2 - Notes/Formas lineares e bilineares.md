@@ -1,5 +1,5 @@
 ---
-date: 2024-05-14
+created-at: 2024-05-14
 ---
 
 Dado um [[Espaço vetorial]] $V$, uma **forma linear** $T$ é uma [[Transformação linear]] que associa vetores de $V$ ao conjunto dos reais, ou seja, $T: V \to \mathbb{R}$.

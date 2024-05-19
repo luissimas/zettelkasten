@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 A **representação do conhecimento** e o **raciocínio** são questões **essenciais** para a [[Inteligência Artificial]] simbólica. A ideia é desenvolver sistemas que **representam conhecimento** e o **utilizam para produzir resultados**. Esses sistemas são chamados de *sistemas baseados em conhecimento (SBC)*. Sistemas baseados em conhecimento devem fornecer meios tanto para adicionar conhecimentos à **base de conhecimento** quanto para obter **inferências** com base nos conhecimentos já existentes.

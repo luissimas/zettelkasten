@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 O processo de extração de regras de associação tem como objetivo extrair **associações entre atributos** do conjunto de dados com base na frequência em que diferentes valores ocorrem juntos. Através da extração das regras é possível obter padrões de comportamento úteis do conjunto de dados original. Um problema comum que envolve regras de associação é o de relacionar produtos que são comprados juntos em algum tipo de comércio a fim de oferecer combinações de produtos que tem maior probabilidade de serem comprados juntos.

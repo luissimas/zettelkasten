@@ -1,5 +1,5 @@
 ---
-date: 2024-05-13
+created-at: 2024-05-13
 ---
 
 O método da eliminação de Gauss é um [[Métodos diretos para resolução de sistemas lineares|método direto para resolução de sistemas lineares]]. Esse método consiste em aplicar transformações no sistema até que se atinja uma **forma triangular**, ou seja

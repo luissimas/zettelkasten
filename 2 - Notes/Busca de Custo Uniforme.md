@@ -1,5 +1,5 @@
 ---
-date: 2024-05-15
+created-at: 2024-05-15
 ---
 
 Esse algoritmo difere dos demais [[Algoritmos de busca desinformada|algoritmos de busca]] no sentido de que ele leva em conta o custo dos movimentos de um nó ao outro. A **função de custo** faz parte da definição do problema, e é utilizada por esse algoritmo para decidir qual nó expandir em seguida.
