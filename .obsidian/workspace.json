@@ -11,14 +11,12 @@
             "id": "fa3e655859bcbb8b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
-                "viewState": {
-                  "x": 60,
-                  "y": -274.5,
-                  "zoom": -0.4787879840288638
-                }
+                "file": "5 - Templates/Note.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -88,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "5 - Templates/Note.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas"
+                "file": "5 - Templates/Note.md"
               }
             }
           },
@@ -150,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "5 - Templates/Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "5 - Templates/Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +191,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "fa3e655859bcbb8b",
   "lastOpenFiles": [
     "6 - Canvases/Trabalho SD.canvas",
     "6 - Canvases",
