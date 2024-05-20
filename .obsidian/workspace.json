@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Trabalho SD.canvas",
+                "file": "6 - Canvases/Trabalho SD.canvas",
                 "viewState": {
                   "x": 60,
                   "y": -274.5,
@@ -88,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Trabalho SD.canvas",
+                "file": "6 - Canvases/Trabalho SD.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trabalho SD.canvas"
+                "file": "6 - Canvases/Trabalho SD.canvas"
               }
             }
           },
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trabalho SD.canvas",
+                "file": "6 - Canvases/Trabalho SD.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trabalho SD.canvas",
+                "file": "6 - Canvases/Trabalho SD.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,18 +193,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa3e655859bcbb8b",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "1 - Inbox/Untitled.md",
-    "Trabalho SD.canvas",
-    "1 - Inbox/Untitled 1.md",
+    "6 - Canvases/Trabalho SD.canvas",
+    "6 - Canvases",
+    "Excalidraw/Drawing 2024-05-10 08.56.51.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-10 09.02.35.excalidraw.md",
     "Untitled.canvas",
+    "1 - Inbox/Untitled.md",
+    "1 - Inbox/Untitled 1.md",
     "3 - Indexes/UFSCar.md",
     "scripts/org-to-md.sh",
     "scripts/add-frontmatter.py",
     "scripts",
-    "Excalidraw/Drawing 2024-05-10 09.02.35.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-10 08.56.51.excalidraw.md",
     "Excalidraw",
     "5 - Templates/Note.md",
     "5 - Templates",
@@ -222,7 +223,6 @@
     "4 - Attachments/SO/SistemasOperacionaisModernos.pdf",
     "4 - Attachments/SO",
     "4 - Attachments/Prob/introducao_inferencia.pdf",
-    "4 - Attachments/Prob/apostilar.pdf",
     "3 - Indexes/Álgebra linear.md",
     "3 - Indexes/Teoria da computação.md",
     "3 - Indexes/Sistemas operacionais.md",
