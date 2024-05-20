@@ -1,8 +1,5 @@
 ---
-id: Deployment
-aliases: []
-tags: []
-created-at: "2024-05-19"
+created-at: 2024-05-19
 ---
 
 In [[Kubernetes]], deployments are blueprints that describe the desired state for an **stateless** application inside the cluster. 
