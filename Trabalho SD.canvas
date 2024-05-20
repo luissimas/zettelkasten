@@ -12,19 +12,17 @@
 		{"id":"29e2e85a59b43da6","type":"text","text":"Sincronização áudio/vídeo","x":560,"y":140,"width":380,"height":60,"color":"4"},
 		{"id":"0ecae7c68ab014d1","type":"text","text":"Suporte a múltiplas salas","x":1040,"y":0,"width":380,"height":60,"color":"5"},
 		{"id":"d71687dbfbd9368c","type":"text","text":"Envio de mensagens via pubsub","x":-1100,"y":-60,"width":380,"height":60,"color":"1"},
-		{"id":"b866ca7744208abb","x":-865,"y":-1109,"width":505,"height":649,"type":"text","text":"Legenda"},
-		{"id":"1dd8c7c6b13fb239","x":-832,"y":-1020,"width":440,"height":80,"color":"1","type":"text","text":"Fundamental, precisamos fazer juntos"},
-		{"id":"d606be961f5ec832","type":"text","text":"Funcionalidade básica, compõe a maior parte da avaliação","x":-832,"y":-889,"width":440,"height":80,"color":"2"},
-		{"id":"2b32ec032f2b2b65","type":"text","text":"Fundamental, precisamos fazer juntos","x":-832,"y":-740,"width":440,"height":80,"color":"4"},
-		{"id":"4f00864dc6f66095","type":"text","text":"Firula","x":-832,"y":-580,"width":440,"height":80,"color":"5"}
+		{"id":"b866ca7744208abb","type":"text","text":"Legenda","x":-1300,"y":-969,"width":505,"height":649},
+		{"id":"1dd8c7c6b13fb239","type":"text","text":"Fundamental, precisamos fazer juntos","x":-1267,"y":-880,"width":440,"height":80,"color":"1"},
+		{"id":"d606be961f5ec832","type":"text","text":"Funcionalidade básica, compõe a maior parte da avaliação","x":-1267,"y":-749,"width":440,"height":80,"color":"2"},
+		{"id":"2b32ec032f2b2b65","type":"text","text":"Funcionalidades extras bem legais, mas não essenciais","x":-1267,"y":-600,"width":440,"height":80,"color":"4"},
+		{"id":"4f00864dc6f66095","type":"text","text":"Firula","x":-1267,"y":-440,"width":440,"height":80,"color":"5"}
 	],
 	"edges":[
 		{"id":"566d9f4d9ede4f7b","fromNode":"d71687dbfbd9368c","fromSide":"right","toNode":"fd70221af5981c38","toSide":"left"},
 		{"id":"a371c34c0e6c2188","fromNode":"fd70221af5981c38","fromSide":"right","toNode":"c8cd071cf4c34c1a","toSide":"left"},
 		{"id":"b6b2a5e60e38b128","fromNode":"fd70221af5981c38","fromSide":"right","toNode":"feb2de0b352ba497","toSide":"left"},
 		{"id":"ad8423c9345bd0bf","fromNode":"fd70221af5981c38","fromSide":"right","toNode":"5fbbf58c01df9ac8","toSide":"left"},
-		{"id":"dc6c908f04b34433","fromNode":"d71687dbfbd9368c","fromSide":"right","toNode":"1a13d0b333bc28cc","toSide":"left"},
-		{"id":"28a9536f33bed3ec","fromNode":"d71687dbfbd9368c","fromSide":"right","toNode":"f9c6fe859ab0264d","toSide":"left"},
 		{"id":"1ad1fba3a8c1ca32","fromNode":"1a13d0b333bc28cc","fromSide":"right","toNode":"4ec33c5acaf08989","toSide":"left"},
 		{"id":"644cce2af6909439","fromNode":"f9c6fe859ab0264d","fromSide":"right","toNode":"38a44c11cbe1d211","toSide":"left"},
 		{"id":"551e30f6136a85bc","fromNode":"4ec33c5acaf08989","fromSide":"right","toNode":"d577ce0345adc046","toSide":"left"},
@@ -37,6 +35,8 @@
 		{"id":"aa6677548bf73dca","fromNode":"38a44c11cbe1d211","fromSide":"right","toNode":"29e2e85a59b43da6","toSide":"left"},
 		{"id":"26bcb50857dc992e","fromNode":"feb2de0b352ba497","fromSide":"right","toNode":"d577ce0345adc046","toSide":"left"},
 		{"id":"3f24c641020c853c","fromNode":"29e2e85a59b43da6","fromSide":"right","toNode":"0ecae7c68ab014d1","toSide":"left"},
-		{"id":"35d391c06e7b306f","fromNode":"d577ce0345adc046","fromSide":"right","toNode":"0ecae7c68ab014d1","toSide":"left"}
+		{"id":"35d391c06e7b306f","fromNode":"d577ce0345adc046","fromSide":"right","toNode":"0ecae7c68ab014d1","toSide":"left"},
+		{"id":"28a9536f33bed3ec","fromNode":"d71687dbfbd9368c","fromSide":"right","toNode":"f9c6fe859ab0264d","toSide":"left"},
+		{"id":"dc6c908f04b34433","fromNode":"d71687dbfbd9368c","fromSide":"right","toNode":"1a13d0b333bc28cc","toSide":"left"}
 	]
 }
