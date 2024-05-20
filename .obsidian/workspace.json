@@ -11,8 +11,15 @@
             "id": "fa3e655859bcbb8b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Trabalho SD.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
             }
           }
         ]
@@ -81,6 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Trabalho SD.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -131,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Trabalho SD.canvas"
+              }
             }
           },
           {
@@ -140,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Trabalho SD.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Trabalho SD.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,10 +195,14 @@
   },
   "active": "fa3e655859bcbb8b",
   "lastOpenFiles": [
+    "1 - Inbox/Untitled.md",
+    "Trabalho SD.canvas",
+    "1 - Inbox/Untitled 1.md",
+    "Untitled.canvas",
+    "3 - Indexes/UFSCar.md",
     "scripts/org-to-md.sh",
     "scripts/add-frontmatter.py",
     "scripts",
-    "Untitled.canvas",
     "Excalidraw/Drawing 2024-05-10 09.02.35.excalidraw.md",
     "Excalidraw/Drawing 2024-05-10 08.56.51.excalidraw.md",
     "Excalidraw",
@@ -207,9 +223,7 @@
     "4 - Attachments/SO",
     "4 - Attachments/Prob/introducao_inferencia.pdf",
     "4 - Attachments/Prob/apostilar.pdf",
-    "4 - Attachments/Prob",
     "3 - Indexes/Álgebra linear.md",
-    "3 - Indexes/UFSCar.md",
     "3 - Indexes/Teoria da computação.md",
     "3 - Indexes/Sistemas operacionais.md",
     "3 - Indexes/Projeto e análise de algoritmos.md",
@@ -227,9 +241,6 @@
     "3 - Indexes/Geometria analítica.md",
     "3 - Indexes/Filosofia da ciência.md",
     "3 - Indexes/Cálculo diferencial e integral.md",
-    "3 - Indexes/Cálculo Numérico.md",
-    "3 - Indexes/Calculo diferencial e séries.md",
-    "3 - Indexes/Books.md",
-    "Untitled 1.canvas"
+    "3 - Indexes/Cálculo Numérico.md"
   ]
 }

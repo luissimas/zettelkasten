@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"d71687dbfbd9368c","x":-720,"y":-120,"width":380,"height":60,"type":"text","text":"Envio de mensagens via pubsub"},
+		{"id":"fd70221af5981c38","type":"text","text":"Estrutura da interface","x":-320,"y":-260,"width":380,"height":60},
+		{"id":"0ecae7c68ab014d1","type":"text","text":"Suporte a múltiplas salas","x":-190,"y":-30,"width":380,"height":60},
+		{"id":"feb2de0b352ba497","type":"text","text":"Interface para o chat","x":-680,"y":100,"width":380,"height":60}
+	],
+	"edges":[]
+}
