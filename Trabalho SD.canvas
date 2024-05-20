@@ -1,17 +1,22 @@
 {
 	"nodes":[
-		{"id":"fd70221af5981c38","type":"text","text":"Estrutura básica da interface","x":-530,"y":-300,"width":380,"height":60},
-		{"id":"c8cd071cf4c34c1a","type":"text","text":"Exibir vídeo","x":-40,"y":-300,"width":380,"height":60},
-		{"id":"5fbbf58c01df9ac8","type":"text","text":"Reproduzir áudio","x":-40,"y":-160,"width":380,"height":60},
-		{"id":"feb2de0b352ba497","type":"text","text":"Exibir o chat","x":-40,"y":-440,"width":380,"height":60},
-		{"id":"d71687dbfbd9368c","type":"text","text":"Envio de mensagens via pubsub","x":-1120,"y":-60,"width":380,"height":60},
-		{"id":"1a13d0b333bc28cc","type":"text","text":"Captura de vídeo","x":-530,"y":140,"width":380,"height":60},
-		{"id":"f9c6fe859ab0264d","type":"text","text":"Captura de áudio","x":-530,"y":360,"width":380,"height":60},
-		{"id":"4ec33c5acaf08989","type":"text","text":"Envio de vídeo","x":-40,"y":140,"width":380,"height":60},
-		{"id":"38a44c11cbe1d211","type":"text","text":"Envio de áudio","x":-40,"y":360,"width":380,"height":60},
-		{"id":"0ecae7c68ab014d1","type":"text","text":"Suporte a múltiplas salas","x":1040,"y":110,"width":380,"height":50},
-		{"id":"d577ce0345adc046","type":"text","text":"Controle da chamada (sair, desativar áudio/vídeo)","x":560,"y":-175,"width":380,"height":90},
-		{"id":"29e2e85a59b43da6","type":"text","text":"Sincronização áudio/vídeo","x":560,"y":140,"width":380,"height":60}
+		{"id":"fd70221af5981c38","type":"text","text":"Estrutura básica da interface","x":-530,"y":-300,"width":380,"height":60,"color":"2"},
+		{"id":"c8cd071cf4c34c1a","type":"text","text":"Exibir vídeo","x":-40,"y":-300,"width":380,"height":60,"color":"2"},
+		{"id":"5fbbf58c01df9ac8","type":"text","text":"Reproduzir áudio","x":-40,"y":-160,"width":380,"height":60,"color":"2"},
+		{"id":"feb2de0b352ba497","type":"text","text":"Exibir o chat","x":-40,"y":-440,"width":380,"height":60,"color":"2"},
+		{"id":"1a13d0b333bc28cc","type":"text","text":"Captura de vídeo","x":-530,"y":140,"width":380,"height":60,"color":"2"},
+		{"id":"f9c6fe859ab0264d","type":"text","text":"Captura de áudio","x":-530,"y":360,"width":380,"height":60,"color":"2"},
+		{"id":"4ec33c5acaf08989","type":"text","text":"Envio de vídeo","x":-40,"y":140,"width":380,"height":60,"color":"2"},
+		{"id":"38a44c11cbe1d211","type":"text","text":"Envio de áudio","x":-40,"y":360,"width":380,"height":60,"color":"2"},
+		{"id":"d577ce0345adc046","type":"text","text":"Controle da chamada (sair, desativar áudio/vídeo)","x":560,"y":-175,"width":380,"height":90,"color":"4"},
+		{"id":"29e2e85a59b43da6","type":"text","text":"Sincronização áudio/vídeo","x":560,"y":140,"width":380,"height":60,"color":"4"},
+		{"id":"0ecae7c68ab014d1","type":"text","text":"Suporte a múltiplas salas","x":1040,"y":0,"width":380,"height":60,"color":"5"},
+		{"id":"d71687dbfbd9368c","type":"text","text":"Envio de mensagens via pubsub","x":-1100,"y":-60,"width":380,"height":60,"color":"1"},
+		{"id":"b866ca7744208abb","x":-865,"y":-1109,"width":505,"height":649,"type":"text","text":"Legenda"},
+		{"id":"1dd8c7c6b13fb239","x":-832,"y":-1020,"width":440,"height":80,"color":"1","type":"text","text":"Fundamental, precisamos fazer juntos"},
+		{"id":"d606be961f5ec832","type":"text","text":"Funcionalidade básica, compõe a maior parte da avaliação","x":-832,"y":-889,"width":440,"height":80,"color":"2"},
+		{"id":"2b32ec032f2b2b65","type":"text","text":"Fundamental, precisamos fazer juntos","x":-832,"y":-740,"width":440,"height":80,"color":"4"},
+		{"id":"4f00864dc6f66095","type":"text","text":"Firula","x":-832,"y":-580,"width":440,"height":80,"color":"5"}
 	],
 	"edges":[
 		{"id":"566d9f4d9ede4f7b","fromNode":"d71687dbfbd9368c","fromSide":"right","toNode":"fd70221af5981c38","toSide":"left"},
@@ -29,6 +34,9 @@
 		{"id":"9733dd0e69e8ef5c","fromNode":"c8cd071cf4c34c1a","fromSide":"right","toNode":"29e2e85a59b43da6","toSide":"left"},
 		{"id":"f3c7623ba3df382e","fromNode":"5fbbf58c01df9ac8","fromSide":"right","toNode":"29e2e85a59b43da6","toSide":"left"},
 		{"id":"def3929195f9e1d9","fromNode":"4ec33c5acaf08989","fromSide":"right","toNode":"29e2e85a59b43da6","toSide":"left"},
-		{"id":"aa6677548bf73dca","fromNode":"38a44c11cbe1d211","fromSide":"right","toNode":"29e2e85a59b43da6","toSide":"left"}
+		{"id":"aa6677548bf73dca","fromNode":"38a44c11cbe1d211","fromSide":"right","toNode":"29e2e85a59b43da6","toSide":"left"},
+		{"id":"26bcb50857dc992e","fromNode":"feb2de0b352ba497","fromSide":"right","toNode":"d577ce0345adc046","toSide":"left"},
+		{"id":"3f24c641020c853c","fromNode":"29e2e85a59b43da6","fromSide":"right","toNode":"0ecae7c68ab014d1","toSide":"left"},
+		{"id":"35d391c06e7b306f","fromNode":"d577ce0345adc046","fromSide":"right","toNode":"0ecae7c68ab014d1","toSide":"left"}
 	]
 }
