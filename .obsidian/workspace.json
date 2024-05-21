@@ -11,14 +11,12 @@
             "id": "fa3e655859bcbb8b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
-                "viewState": {
-                  "x": 60,
-                  "y": -274.5,
-                  "zoom": -0.4787879840288638
-                }
+                "file": "2 - Notes/Kubernetes.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -88,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "2 - Notes/Kubernetes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas"
+                "file": "2 - Notes/Kubernetes.md"
               }
             }
           },
@@ -150,14 +148,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "2 - Notes/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -167,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "2 - Notes/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 566.5,
-    "collapsed": true
+    "width": 566.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,10 +190,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "fa3e655859bcbb8b",
   "lastOpenFiles": [
-    "5 - Templates/Note.md",
+    "2 - Notes/Reta.md",
+    "2 - Notes/Kubernetes.md",
+    "2 - Notes/Storage in Kubernetes.md",
+    "2 - Notes/Juju.md",
+    "2 - Notes/Deployment.md",
     "6 - Canvases/Trabalho SD.canvas",
+    "5 - Templates/Note.md",
     "6 - Canvases",
     "Excalidraw/Drawing 2024-05-10 08.56.51.excalidraw.md",
     "Excalidraw/Drawing 2024-05-10 09.02.35.excalidraw.md",
@@ -237,10 +239,6 @@
     "3 - Indexes/Latim.md",
     "3 - Indexes/Language learning.md",
     "3 - Indexes/Introdução ao pensamento algorítmico.md",
-    "3 - Indexes/Inteligência Artificial.md",
-    "3 - Indexes/Geometria analítica.md",
-    "3 - Indexes/Filosofia da ciência.md",
-    "3 - Indexes/Cálculo diferencial e integral.md",
-    "3 - Indexes/Cálculo Numérico.md"
+    "3 - Indexes/Inteligência Artificial.md"
   ]
 }

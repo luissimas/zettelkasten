@@ -120,7 +120,7 @@ Uma reta $r$ está contida no plano $\pi$ se qualquer uma das duas condições f
 A interseção entre dois planos é definida por uma reta $r$ que contém os pontos em comum entre os dois planos. Existem dois procedimentos para encontrar a intersecção entre dois planos:
 
 1. Como $r$ está contida nos dois planos, as coodernadas de qualquer ponto $(x,y,z) \in r$ devem satisfazer, simultâneamente, as equações de ambos os planos. Sendo assim podemos definir $r$ como um sistema de duas equações: as equações dos planos.
-2. Podemos definir um ponto $A$ que esteja contido em ambos os planos e um vetor $\vec{v}$ que seja simultaneamente ortogonal aos vetores normais dos dois planos, ou seja, $\vec{v}$ é definido pelo [[Produto vetorial|produto vetorial]] entre os vetores normais dos dois planos. A partir disso podemos [[A reta#Equação vetorial|definir a reta através de um ponto e um vetor]].
+2. Podemos definir um ponto $A$ que esteja contido em ambos os planos e um vetor $\vec{v}$ que seja simultaneamente ortogonal aos vetores normais dos dois planos, ou seja, $\vec{v}$ é definido pelo [[Produto vetorial|produto vetorial]] entre os vetores normais dos dois planos. A partir disso podemos [[Reta#Equação vetorial|definir a reta através de um ponto e um vetor]].
 
 ![[intersecaodoisplanos.png]]
 
@@ -133,4 +133,4 @@ $$
 
 
 # Intersecção de reta com plano
-Para determinar a intersecção de uma reta $r$ com um plano $\pi$ basta encontrar um ponto $A$ tal que $A\in r$ e $A\in\pi$ simultaneamente. Isso pode ser feito substituindo cada uma das variáveis da equação geral do plano pela uma [[A reta#Equações paramétricas|equação paramétrica da reta]] correspondente àquela coordenada. Dessa forma é possível encontrar um parâmetro $t$ que indica qual ponto da reta $r$ pertence também ao plano $\pi$.
+Para determinar a intersecção de uma reta $r$ com um plano $\pi$ basta encontrar um ponto $A$ tal que $A\in r$ e $A\in\pi$ simultaneamente. Isso pode ser feito substituindo cada uma das variáveis da equação geral do plano pela uma [[Reta#Equações paramétricas|equação paramétrica da reta]] correspondente àquela coordenada. Dessa forma é possível encontrar um parâmetro $t$ que indica qual ponto da reta $r$ pertence também ao plano $\pi$.

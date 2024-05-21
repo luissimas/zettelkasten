@@ -8,11 +8,7 @@ Kubernetes is a container orchestration system that provides tools for automatin
 
 [[Kubernetes node]]
 [[Pod]]
-[[20240329T105849--ingress__devops_tech]]
-[[20240329T105857--configmap__devops_tech]]
-[[20240329T105904--secret__devops_tech]]
 [[Deployment]]
-[[20240329T105942--statefulset__devops_tech]]
 
 # Interacting with the cluster
 

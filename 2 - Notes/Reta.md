@@ -39,7 +39,7 @@ $$
 $$
 
 # Equações simétricas da reta
-Colocando o *parâmetro* $t$ em evidência cada uma das [[A reta#Equações paramétricas|equações paramétricas]], temos a seguinte relação:
+Colocando o *parâmetro* $t$ em evidência cada uma das [[Reta#Equações paramétricas|equações paramétricas]], temos a seguinte relação:
 
 $$
   t = \frac{x-x_1}{a} = \frac{y-y_1}{b} = \frac{z-z_1}{c}
@@ -48,7 +48,7 @@ $$
 Essas equações são chamadas de *equações simétricas* da reta que passa pelo ponto $A(x_1,y_1,z_1)$ e tem a direção do vetor $\vec{v}=(a,b,c)$. Com elas é possível substituir o valor de apenas uma das coordenadas do ponto $B(x,y,z) \in r$ desejado para se obter as outras duas coordenadas, pois se o ponto pertence à reta essa igualdade é sempre verdadeira.
 
 # Equações reduzidas da reta
-A partir das [[A reta#Equações simétricas da reta|equações simétricas]] podemos expressar duas variáveis em função de uma terceira, resultando em um sistema desse formato:
+A partir das [[Reta#Equações simétricas da reta|equações simétricas]] podemos expressar duas variáveis em função de uma terceira, resultando em um sistema desse formato:
 
 $$
   r:

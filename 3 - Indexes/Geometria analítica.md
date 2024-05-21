@@ -30,7 +30,7 @@ Dessa unidade em diante o referencial teórico foi o seguinte: [[Geometria_Anali
 # Unidade 3
 Nessa unidade expandimos os conceitos básicos de geometria analítica tomando como base os conhecimentos de vetores.
 
-[[A reta]]
+[[Reta]]
 [[O plano]]
 [[Distâncias]]
 
