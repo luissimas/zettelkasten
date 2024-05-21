@@ -154,7 +154,7 @@ Quando passamos um slice ou map para uma função, copiamos suas referências. E
 ```{=org}
 #+attr_org: :width 500
 ```
-![](attachments/slice_memory_layout.png)
+![](slice_memory_layout.png)
 
 Por padrão devemos assumir que funções não irão modificar slices passados como parâmetro a não ser que sua documentação deixe isso explícito.
 

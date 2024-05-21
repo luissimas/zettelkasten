@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4aacbb7eefb99576",
+        "id": "4cd06018fd3fdc6d",
         "type": "tabs",
         "children": [
           {
-            "id": "fa3e655859bcbb8b",
+            "id": "7416165052e8206c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Notes/Kubernetes.md",
+                "file": "2 - Journal/2024-05-21.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2 - Notes/Kubernetes.md",
+                "file": "2 - Journal/2024-05-21.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Notes/Kubernetes.md"
+                "file": "2 - Journal/2024-05-21.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Notes/Kubernetes.md",
+                "file": "2 - Journal/2024-05-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Notes/Kubernetes.md",
+                "file": "2 - Journal/2024-05-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,15 +190,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa3e655859bcbb8b",
+  "active": "7416165052e8206c",
   "lastOpenFiles": [
-    "2 - Notes/Reta.md",
+    "2 - Journal/2024-05-21.md",
+    "2 - Journal/2024-05-21",
+    "5 - Templates/Journal.md",
+    "5 - Templates/Note.md",
+    "README.md",
+    "Non existent note.md",
+    "2 - Journal",
+    "2024-05-21.md",
     "2 - Notes/Kubernetes.md",
+    "2 - Notes/Reta.md",
     "2 - Notes/Storage in Kubernetes.md",
     "2 - Notes/Juju.md",
     "2 - Notes/Deployment.md",
     "6 - Canvases/Trabalho SD.canvas",
-    "5 - Templates/Note.md",
     "6 - Canvases",
     "Excalidraw/Drawing 2024-05-10 08.56.51.excalidraw.md",
     "Excalidraw/Drawing 2024-05-10 09.02.35.excalidraw.md",
@@ -223,8 +230,6 @@
     "4 - Attachments/dfa_minimization_table.png",
     "4 - Attachments/TC",
     "4 - Attachments/SO/SistemasOperacionaisModernos.pdf",
-    "4 - Attachments/SO",
-    "4 - Attachments/Prob/introducao_inferencia.pdf",
     "3 - Indexes/Álgebra linear.md",
     "3 - Indexes/Teoria da computação.md",
     "3 - Indexes/Sistemas operacionais.md",
@@ -233,12 +238,6 @@
     "3 - Indexes/Processamento digital de imagens.md",
     "3 - Indexes/Probabilidade e estatística.md",
     "3 - Indexes/Organização e recuperação da informação.md",
-    "3 - Indexes/Matemática discreta.md",
-    "3 - Indexes/Lógica matemática.md",
-    "3 - Indexes/Lógica digital.md",
-    "3 - Indexes/Latim.md",
-    "3 - Indexes/Language learning.md",
-    "3 - Indexes/Introdução ao pensamento algorítmico.md",
-    "3 - Indexes/Inteligência Artificial.md"
+    "3 - Indexes/Matemática discreta.md"
   ]
 }
