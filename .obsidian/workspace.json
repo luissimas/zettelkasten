@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 357.5
   },
   "right": {
     "id": "38b38f8980b9bea9",
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 566.5
+    "width": 566.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +193,11 @@
   },
   "active": "7416165052e8206c",
   "lastOpenFiles": [
+    "2 - Journal/2024-05-20.md",
     "2 - Journal/2024-05-21.md",
+    "2 - Notes/Kubernetes.md",
+    "2 - Notes/Juju.md",
+    "2 - Notes/MaaS.md",
     "2 - Journal/2024-05-21",
     "5 - Templates/Journal.md",
     "5 - Templates/Note.md",
@@ -200,10 +205,8 @@
     "Non existent note.md",
     "2 - Journal",
     "2024-05-21.md",
-    "2 - Notes/Kubernetes.md",
     "2 - Notes/Reta.md",
     "2 - Notes/Storage in Kubernetes.md",
-    "2 - Notes/Juju.md",
     "2 - Notes/Deployment.md",
     "6 - Canvases/Trabalho SD.canvas",
     "6 - Canvases",
@@ -237,7 +240,6 @@
     "3 - Indexes/Programação paralela e distribuída.md",
     "3 - Indexes/Processamento digital de imagens.md",
     "3 - Indexes/Probabilidade e estatística.md",
-    "3 - Indexes/Organização e recuperação da informação.md",
-    "3 - Indexes/Matemática discreta.md"
+    "3 - Indexes/Organização e recuperação da informação.md"
   ]
 }
