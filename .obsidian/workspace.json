@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Journal/2024-05-21.md",
+                "file": "2 - Journal/2024-05-24.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2 - Journal/2024-05-21.md",
+                "file": "2 - Journal/2024-05-24.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Journal/2024-05-21.md"
+                "file": "2 - Journal/2024-05-24.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Journal/2024-05-21.md",
+                "file": "2 - Journal/2024-05-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Journal/2024-05-21.md",
+                "file": "2 - Journal/2024-05-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,6 +193,9 @@
   },
   "active": "7416165052e8206c",
   "lastOpenFiles": [
+    "2 - Journal/2024-05-22.md",
+    "2 - Journal/2024-05-24.md",
+    "2 - Journal/2024-05-21.md",
     "teste/sei la.md",
     "teste",
     "1 - Inbox/teste.md",
@@ -201,7 +204,6 @@
     "2 - Notes/Kubernetes.md",
     "2 - Notes/doideira.md",
     "2 - Journal/2024-05-20.md",
-    "2 - Journal/2024-05-21.md",
     "2 - Notes/Juju.md",
     "2 - Notes/MaaS.md",
     "2 - Journal/2024-05-21",
@@ -238,8 +240,6 @@
     "4 - Attachments/divide_and_conquer.jpg",
     "4 - Attachments/dfa_minimization_table.png",
     "4 - Attachments/TC",
-    "3 - Indexes/Álgebra linear.md",
-    "3 - Indexes/Teoria da computação.md",
-    "3 - Indexes/Sistemas operacionais.md"
+    "3 - Indexes/Álgebra linear.md"
   ]
 }
