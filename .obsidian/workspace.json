@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "2 - Notes/Agrupamento.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "2 - Notes/Agrupamento.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Journal/2024-05-24.md"
+                "file": "2 - Notes/Agrupamento.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "2 - Notes/Agrupamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "2 - Notes/Agrupamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,9 +193,16 @@
   },
   "active": "7416165052e8206c",
   "lastOpenFiles": [
-    "2 - Journal/2024-05-22.md",
+    "2 - Notes/Alfabeto.md",
+    "2 - Notes/Agrupamento.md",
+    "2 - Notes/Adjetivos.md",
+    "2 - Notes/A*.md",
     "2 - Journal/2024-05-24.md",
+    "2 - Journal/2024-05-22.md",
     "2 - Journal/2024-05-21.md",
+    "1 - Inbox/Building a Second Brain.md",
+    "2 - Notes/Algoritmo de Huffman.md",
+    "2 - Notes/Álgebra da lógica proposicional.md",
     "teste/sei la.md",
     "teste",
     "1 - Inbox/teste.md",
@@ -215,15 +222,9 @@
     "2024-05-21.md",
     "2 - Notes/Reta.md",
     "2 - Notes/Storage in Kubernetes.md",
-    "2 - Notes/Deployment.md",
     "6 - Canvases/Trabalho SD.canvas",
     "6 - Canvases",
-    "Excalidraw/Drawing 2024-05-10 08.56.51.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-10 09.02.35.excalidraw.md",
     "Untitled.canvas",
-    "1 - Inbox/Untitled.md",
-    "1 - Inbox/Untitled 1.md",
-    "3 - Indexes/UFSCar.md",
     "scripts/org-to-md.sh",
     "scripts/add-frontmatter.py",
     "scripts",
@@ -239,7 +240,6 @@
     "4 - Attachments/divide_and_conquer_return.jpg",
     "4 - Attachments/divide_and_conquer.jpg",
     "4 - Attachments/dfa_minimization_table.png",
-    "4 - Attachments/TC",
-    "3 - Indexes/Álgebra linear.md"
+    "4 - Attachments/TC"
   ]
 }
