@@ -11,12 +11,16 @@
 		{"id":"d577ce0345adc046","type":"text","text":"Controle da chamada (sair, desativar áudio/vídeo)","x":560,"y":-175,"width":380,"height":90,"color":"4"},
 		{"id":"29e2e85a59b43da6","type":"text","text":"Sincronização áudio/vídeo","x":560,"y":140,"width":380,"height":60,"color":"4"},
 		{"id":"0ecae7c68ab014d1","type":"text","text":"Suporte a múltiplas salas","x":1040,"y":0,"width":380,"height":60,"color":"5"},
-		{"id":"d71687dbfbd9368c","type":"text","text":"Envio de mensagens via pubsub","x":-1100,"y":-60,"width":380,"height":60,"color":"1"},
+		{"id":"d71687dbfbd9368c","type":"text","text":"✅ Envio de mensagens via pubsub","x":-1100,"y":-60,"width":380,"height":60,"color":"1"},
 		{"id":"b866ca7744208abb","type":"text","text":"Legenda","x":-1300,"y":-969,"width":505,"height":649},
 		{"id":"1dd8c7c6b13fb239","type":"text","text":"Fundamental, precisamos fazer juntos","x":-1267,"y":-880,"width":440,"height":80,"color":"1"},
 		{"id":"d606be961f5ec832","type":"text","text":"Funcionalidade básica, compõe a maior parte da avaliação","x":-1267,"y":-749,"width":440,"height":80,"color":"2"},
 		{"id":"2b32ec032f2b2b65","type":"text","text":"Funcionalidades extras bem legais, mas não essenciais","x":-1267,"y":-600,"width":440,"height":80,"color":"4"},
-		{"id":"4f00864dc6f66095","type":"text","text":"Firula","x":-1267,"y":-440,"width":440,"height":80,"color":"5"}
+		{"id":"4f00864dc6f66095","type":"text","text":"Firula","x":-1267,"y":-440,"width":440,"height":80,"color":"5"},
+		{"id":"cab8a5f8fe7622fb","x":-245,"y":140,"width":95,"height":60,"type":"text","text":"Luís"},
+		{"id":"128ba6412866803e","x":-270,"y":360,"width":120,"height":60,"type":"text","text":"Victor"},
+		{"id":"b090887fa33d4171","x":-261,"y":-320,"width":119,"height":50,"type":"text","text":"Carol"},
+		{"id":"be59cfca493b7442","x":-261,"y":-270,"width":119,"height":50,"type":"text","text":"Leticia"}
 	],
 	"edges":[
 		{"id":"566d9f4d9ede4f7b","fromNode":"d71687dbfbd9368c","fromSide":"right","toNode":"fd70221af5981c38","toSide":"left"},
