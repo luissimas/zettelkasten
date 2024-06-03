@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d149b0a6589be8c0",
+        "id": "17c8fe8d40ddcf7b",
         "type": "tabs",
         "children": [
           {
-            "id": "c3ebf68d0e859cfe",
+            "id": "950067372053c896",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
-                "viewState": {
-                  "x": 60,
-                  "y": -274.5,
-                  "zoom": -0.3838738203068434
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -72,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.51103591918945,
-    "collapsed": true
+    "width": 267.51103591918945
   },
   "right": {
     "id": "38b38f8980b9bea9",
@@ -89,7 +81,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "3 - Indexes/Software development.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -141,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas"
+                "file": "3 - Indexes/Software development.md"
               }
             }
           },
@@ -151,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "3 - Indexes/Software development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
+                "file": "3 - Indexes/Software development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,8 +186,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c3ebf68d0e859cfe",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "2 - Notes/Elixir.md",
+    "1 - Inbox/Elixir.md~",
+    "2 - Notes/Elixir in Action.md",
+    "3 - Indexes/Software development.md",
+    "3 - Indexes/Sistemas operacionais.md",
+    "3 - Indexes/Projeto e análise de algoritmos.md",
+    "1 - Inbox/Zettelkasten exporter.md",
+    "1 - Inbox/Building a Second Brain.md",
+    "2 - Notes/Personal development environments.md",
+    "2 - Notes/Tailscale.md",
+    "2 - Notes/Python.md",
+    "2 - Notes/Go.md",
+    "2 - Notes/ORMs.md~",
+    "2 - Notes/Learning Go.md~",
+    "1 - Inbox/Python.md~",
+    "1 - Inbox/4913",
+    "2 - Notes/Juju.md~",
+    "1 - Inbox/Zettelkasten exporter.md~",
+    "1 - Inbox/Go.md~",
     "6 - Canvases/Trabalho SD.canvas",
     "README.md",
     "2 - Notes/Agrupamento.md",
@@ -205,7 +216,6 @@
     "2 - Journal/2024-05-24.md",
     "2 - Journal/2024-05-22.md",
     "2 - Journal/2024-05-21.md",
-    "1 - Inbox/Building a Second Brain.md",
     "2 - Notes/Algoritmo de Huffman.md",
     "2 - Notes/Álgebra da lógica proposicional.md",
     "teste/sei la.md",
@@ -213,25 +223,8 @@
     "1 - Inbox/teste.md",
     "teste.md",
     "2024-05-22.md",
-    "2 - Notes/Kubernetes.md",
-    "2 - Notes/doideira.md",
-    "2 - Journal/2024-05-20.md",
-    "2 - Notes/Juju.md",
-    "2 - Notes/MaaS.md",
     "2 - Journal/2024-05-21",
-    "5 - Templates/Journal.md",
-    "5 - Templates/Note.md",
-    "Non existent note.md",
-    "2 - Journal",
-    "2024-05-21.md",
-    "2 - Notes/Reta.md",
-    "6 - Canvases",
     "Untitled.canvas",
-    "scripts/org-to-md.sh",
-    "scripts/add-frontmatter.py",
-    "scripts",
-    "Excalidraw",
-    "5 - Templates",
     "4 - Attachments/slice_memory_layout.png",
     "4 - Attachments/sematic-segmentation.jpg",
     "4 - Attachments/naturally_paralel.png",
@@ -241,7 +234,6 @@
     "4 - Attachments/domain_decomp.png",
     "4 - Attachments/divide_and_conquer_return.jpg",
     "4 - Attachments/divide_and_conquer.jpg",
-    "4 - Attachments/dfa_minimization_table.png",
-    "4 - Attachments/TC"
+    "4 - Attachments/dfa_minimization_table.png"
   ]
 }

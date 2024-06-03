@@ -1,6 +1,7 @@
 ---
 created-at: 2021-08-16
 ---
+
 Essa disciplina explora os principais aspectos de sistemas operacionais e suas diferentes implementações.
 O referencial teórico do curso foi o excelente livro [[SistemasOperacionaisModernos.pdf | Sistemas Operacionais Modernos]].
 
