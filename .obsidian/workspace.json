@@ -11,8 +11,13 @@
             "id": "950067372053c896",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2 - Journal/2024-05-24.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -81,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3 - Indexes/Software development.md",
+                "file": "2 - Journal/2024-05-24.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -133,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Indexes/Software development.md"
+                "file": "2 - Journal/2024-05-24.md"
               }
             }
           },
@@ -143,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Indexes/Software development.md",
+                "file": "2 - Journal/2024-05-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Indexes/Software development.md",
+                "file": "2 - Journal/2024-05-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,16 +191,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "950067372053c896",
   "lastOpenFiles": [
+    "1 - Inbox/Zettelkasten exporter.md",
+    "1 - Inbox/Building a Second Brain.md",
+    "3 - Indexes/Software development.md",
     "2 - Notes/Elixir.md",
     "1 - Inbox/Elixir.md~",
     "2 - Notes/Elixir in Action.md",
-    "3 - Indexes/Software development.md",
     "3 - Indexes/Sistemas operacionais.md",
     "3 - Indexes/Projeto e análise de algoritmos.md",
-    "1 - Inbox/Zettelkasten exporter.md",
-    "1 - Inbox/Building a Second Brain.md",
     "2 - Notes/Personal development environments.md",
     "2 - Notes/Tailscale.md",
     "2 - Notes/Python.md",
