@@ -9,7 +9,7 @@ Things I learned so far:
 - Prometheus has a great [documentation on writing exporters](https://prometheus.io/docs/instrumenting/writing_exporters/)
 - Parse markdown with [goldmark](https://github.com/yuin/goldmark)
 - Better test assertions with [testify](https://pkg.go.dev/github.com/stretchr/testify@v1.9.0)
-- Using the `fs.FS` interface instead of directly reading system files with `os` improves testability
+- Using the `fs.FS` interface instead of directly reading system files with `os` improves testability. Got that one from [[Learn Go with tests|learn Go with tests]]
 
 # References
 
