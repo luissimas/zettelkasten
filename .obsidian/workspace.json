@@ -13,14 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "1 - Inbox/Zettelkasten exporter.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e6f74de65c827917",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "a5377d15c7d08793",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Inbox/InfluxDB.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "1 - Inbox/InfluxDB.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Journal/2024-05-24.md"
+                "file": "1 - Inbox/InfluxDB.md"
               }
             }
           },
@@ -148,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "1 - Inbox/InfluxDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Journal/2024-05-24.md",
+                "file": "1 - Inbox/InfluxDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,9 +215,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "950067372053c896",
+  "active": "a5377d15c7d08793",
   "lastOpenFiles": [
+    "1 - Inbox/InfluxDB.md~",
+    "6 - Canvases/Trabalho SD.canvas",
     "1 - Inbox/Zettelkasten exporter.md",
+    "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
+    "1 - Inbox/Learn Go with tests.md",
+    "1 - Inbox/Frontend.md",
+    "2 - Journal/2024-05-24.md",
     "1 - Inbox/Building a Second Brain.md",
     "3 - Indexes/Software development.md",
     "2 - Notes/Elixir.md",
@@ -212,22 +242,17 @@
     "2 - Notes/Juju.md~",
     "1 - Inbox/Zettelkasten exporter.md~",
     "1 - Inbox/Go.md~",
-    "6 - Canvases/Trabalho SD.canvas",
     "README.md",
     "2 - Notes/Agrupamento.md",
     "2 - Notes/Alfabeto.md",
     "2 - Notes/Adjetivos.md",
     "2 - Notes/A*.md",
-    "2 - Journal/2024-05-24.md",
     "2 - Journal/2024-05-22.md",
     "2 - Journal/2024-05-21.md",
     "2 - Notes/Algoritmo de Huffman.md",
     "2 - Notes/Álgebra da lógica proposicional.md",
     "teste/sei la.md",
     "teste",
-    "1 - Inbox/teste.md",
-    "teste.md",
-    "2024-05-22.md",
     "2 - Journal/2024-05-21",
     "Untitled.canvas",
     "4 - Attachments/slice_memory_layout.png",
