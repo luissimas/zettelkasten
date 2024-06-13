@@ -2,7 +2,7 @@
 created-at: "2024-06-10"
 ---
 
-InfluxDB is a time series database.
+InfluxDB is a time series database. I've started using it on my [[Zettelkasten exporter]] project.
 
 Key concepts:
 
