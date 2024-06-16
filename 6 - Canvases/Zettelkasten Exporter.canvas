@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"fe3ed17a8e5e2f2c","type":"text","text":"Create [[InfluxDB]] client","x":248,"y":-520,"width":250,"height":50,"color":"4"},
+		{"id":"e52fac40363537c6","type":"file","file":"1 - Inbox/Zettelkasten exporter.md","x":620,"y":-800,"width":940,"height":600},
+		{"id":"cbc263a4515ba294","type":"text","text":"Read config","x":284,"y":-620,"width":180,"height":60,"color":"4"},
+		{"id":"c8e3862c65d58cf9","type":"text","text":"Start","x":301,"y":-720,"width":145,"height":60,"color":"4"},
+		{"id":"8903ac4b49a13da0","type":"text","text":"Collect metrics","x":248,"y":-100,"width":250,"height":60,"color":"4"},
+		{"id":"fa4b23b15832be7c","type":"text","text":"Fill historical data","x":-2,"y":-320,"width":250,"height":60,"color":"4"},
+		{"id":"cbbda0255c86e4e6","type":"text","text":"Pull repository","x":248,"y":-200,"width":250,"height":60,"color":"4"},
+		{"id":"c9923c82c0090933","type":"text","text":"Wait `Config.CollectionInterval`","x":204,"y":0,"width":336,"height":65,"color":"4"}
+	],
+	"edges":[
+		{"id":"09c4384ac934e5f2","fromNode":"c8e3862c65d58cf9","fromSide":"bottom","toNode":"cbc263a4515ba294","toSide":"top"},
+		{"id":"a91f7f6d23854db9","fromNode":"cbc263a4515ba294","fromSide":"bottom","toNode":"fe3ed17a8e5e2f2c","toSide":"top"},
+		{"id":"ff302293725c23b3","fromNode":"fa4b23b15832be7c","fromSide":"bottom","toNode":"cbbda0255c86e4e6","toSide":"left"},
+		{"id":"b1d618da5a10f0ec","fromNode":"cbbda0255c86e4e6","fromSide":"bottom","toNode":"8903ac4b49a13da0","toSide":"top"},
+		{"id":"4165b58244f0286c","fromNode":"8903ac4b49a13da0","fromSide":"bottom","toNode":"c9923c82c0090933","toSide":"top"},
+		{"id":"48f188ef1ccf5ec8","fromNode":"c9923c82c0090933","fromSide":"right","toNode":"cbbda0255c86e4e6","toSide":"right"},
+		{"id":"18ff2c5f7fb16e39","fromNode":"fe3ed17a8e5e2f2c","fromSide":"bottom","toNode":"cbbda0255c86e4e6","toSide":"top"},
+		{"id":"ab3523c7044166f2","fromNode":"fe3ed17a8e5e2f2c","fromSide":"bottom","toNode":"fa4b23b15832be7c","toSide":"top","label":"if measurement is empty"}
+	]
+}

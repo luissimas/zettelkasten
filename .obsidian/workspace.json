@@ -34,12 +34,14 @@
             "id": "a5377d15c7d08793",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "1 - Inbox/InfluxDB.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
+                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
+                "viewState": {
+                  "x": 745.0101757637458,
+                  "y": -328.2049518325236,
+                  "zoom": -1.1102230246251565e-16
+                }
               }
             }
           }
@@ -110,7 +112,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Inbox/InfluxDB.md",
+                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -162,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Inbox/InfluxDB.md"
+                "file": "6 - Canvases/Zettelkasten Exporter.canvas"
               }
             }
           },
@@ -172,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Inbox/InfluxDB.md",
+                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Inbox/InfluxDB.md",
+                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,8 +219,10 @@
   },
   "active": "a5377d15c7d08793",
   "lastOpenFiles": [
-    "1 - Inbox/InfluxDB.md~",
+    "6 - Canvases/Zettelkasten Exporter.canvas",
     "6 - Canvases/Trabalho SD.canvas",
+    "1 - Inbox/InfluxDB.md",
+    "1 - Inbox/InfluxDB.md~",
     "1 - Inbox/Zettelkasten exporter.md",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
     "1 - Inbox/Learn Go with tests.md",
@@ -251,9 +255,7 @@
     "2 - Journal/2024-05-21.md",
     "2 - Notes/Algoritmo de Huffman.md",
     "2 - Notes/Álgebra da lógica proposicional.md",
-    "teste/sei la.md",
     "teste",
-    "2 - Journal/2024-05-21",
     "Untitled.canvas",
     "4 - Attachments/slice_memory_layout.png",
     "4 - Attachments/sematic-segmentation.jpg",
