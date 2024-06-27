@@ -34,14 +34,12 @@
             "id": "a5377d15c7d08793",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
-                "viewState": {
-                  "x": 754.1387768379645,
-                  "y": -350.11382634424234,
-                  "zoom": -1.1102230246251565e-16
-                }
+                "file": "1 - Inbox/Prometheus.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -112,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
+                "file": "1 - Inbox/Prometheus.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -164,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Canvases/Zettelkasten Exporter.canvas"
+                "file": "1 - Inbox/Prometheus.md"
               }
             }
           },
@@ -174,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
+                "file": "1 - Inbox/Prometheus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Canvases/Zettelkasten Exporter.canvas",
+                "file": "1 - Inbox/Prometheus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,16 +217,24 @@
   },
   "active": "a5377d15c7d08793",
   "lastOpenFiles": [
+    "1 - Inbox/Prometheus.md",
+    "1 - Inbox/Observability.md",
+    "1 - Inbox/Ledger exporter.md",
+    "2 - Notes/Structured logging.md",
+    "1 - Inbox/Zettelkasten exporter.md",
+    "2 - Notes/Frontend.md",
+    "1 - Inbox/Building a Second Brain.md",
+    "2 - Notes/Mind maps.md",
+    "2 - Notes/goreleaser.md",
+    "2 - Notes/GitHub Actions.md",
+    "2 - Notes/Learn Go with tests.md",
+    "2 - Notes/InfluxDB.md",
+    "2 - Notes/Software testing.md",
     "6 - Canvases/Zettelkasten Exporter.canvas",
     "6 - Canvases/Trabalho SD.canvas",
-    "1 - Inbox/InfluxDB.md",
     "1 - Inbox/InfluxDB.md~",
-    "1 - Inbox/Zettelkasten exporter.md",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
-    "1 - Inbox/Learn Go with tests.md",
-    "1 - Inbox/Frontend.md",
     "2 - Journal/2024-05-24.md",
-    "1 - Inbox/Building a Second Brain.md",
     "3 - Indexes/Software development.md",
     "2 - Notes/Elixir.md",
     "1 - Inbox/Elixir.md~",
@@ -248,13 +254,6 @@
     "1 - Inbox/Go.md~",
     "README.md",
     "2 - Notes/Agrupamento.md",
-    "2 - Notes/Alfabeto.md",
-    "2 - Notes/Adjetivos.md",
-    "2 - Notes/A*.md",
-    "2 - Journal/2024-05-22.md",
-    "2 - Journal/2024-05-21.md",
-    "2 - Notes/Algoritmo de Huffman.md",
-    "2 - Notes/Álgebra da lógica proposicional.md",
     "teste",
     "Untitled.canvas",
     "4 - Attachments/slice_memory_layout.png",

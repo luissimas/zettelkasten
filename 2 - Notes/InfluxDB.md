@@ -11,7 +11,9 @@ Key concepts:
 | Measurement | Table               |
 | Bucket      | Database            |
 
-- A bucket can have a **retention period** to determine for how long to persist the measurements
+A bucket can have a **retention period** to determine for how long to persist the measurements. InfluxDB support a handful of different query languages. There's an SQL-like language called InfluxQL and a functional-like language called Flux, which looks a lot like [[Elixir]], and that's great.
+
+Overall it's been a good tool for storing time series data with a good support for long term storage.
 
 # References
 
