@@ -4,49 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "17c8fe8d40ddcf7b",
+        "id": "5903ee7170ea799c",
         "type": "tabs",
         "children": [
           {
-            "id": "950067372053c896",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "6 - Canvases/Trabalho SD.canvas",
-                "viewState": {
-                  "x": 201.8545756315781,
-                  "y": 20.262754559122676,
-                  "zoom": -1.3807313772415235
-                }
-              }
-            }
-          },
-          {
-            "id": "ea97d0a7722407b7",
+            "id": "7c0ed03ad3cc9dda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Inbox/Talos Linux.md",
+                "file": "2 - Notes/Loki.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "e6f74de65c827917",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Inbox/Talos Linux.md",
+                "file": "2 - Notes/Loki.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -164,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Inbox/Talos Linux.md"
+                "file": "2 - Notes/Loki.md"
               }
             }
           },
@@ -174,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Inbox/Talos Linux.md",
+                "file": "2 - Notes/Loki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Inbox/Talos Linux.md",
+                "file": "2 - Notes/Loki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,19 +191,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ea97d0a7722407b7",
+  "active": "7c0ed03ad3cc9dda",
   "lastOpenFiles": [
-    "1 - Inbox/Kubernetes Operators.md",
-    "6 - Canvases/Trabalho SD.canvas",
-    "1 - Inbox/Talos Linux.md",
-    "6 - Canvases/Zettelkasten Exporter.canvas",
-    "1 - Inbox/Zettelkasten exporter.md",
-    "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
-    "1 - Inbox/Building a Second Brain.md",
-    "1 - Inbox/Prometheus.md",
-    "1 - Inbox/Observability.md",
     "1 - Inbox/Ledger exporter.md",
+    "1 - Inbox/OpenLCA.md",
+    "1 - Inbox/Zettelkasten exporter.md",
+    "1 - Inbox/Talos Linux.md",
+    "1 - Inbox/Kubernetes Operators.md",
+    "2 - Notes/Promtail.md",
+    "2 - Notes/Prometheus.md",
+    "2 - Notes/Observability.md",
+    "2 - Notes/Loki.md",
+    "4 - Attachments/Pasted image 20240630111018.png",
+    "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
+    "6 - Canvases/Trabalho SD.canvas",
     "2 - Notes/Structured logging.md",
+    "6 - Canvases/Zettelkasten Exporter.canvas",
+    "1 - Inbox/Building a Second Brain.md",
     "2 - Notes/Frontend.md",
     "2 - Notes/Mind maps.md",
     "2 - Notes/goreleaser.md",
@@ -246,8 +224,6 @@
     "3 - Indexes/Sistemas operacionais.md",
     "3 - Indexes/Projeto e análise de algoritmos.md",
     "2 - Notes/Personal development environments.md",
-    "2 - Notes/Tailscale.md",
-    "2 - Notes/Python.md",
     "2 - Notes/ORMs.md~",
     "2 - Notes/Learning Go.md~",
     "1 - Inbox/Python.md~",
@@ -265,7 +241,6 @@
     "4 - Attachments/functional_decomp.png",
     "4 - Attachments/domain_decomp.png",
     "4 - Attachments/divide_and_conquer_return.jpg",
-    "4 - Attachments/divide_and_conquer.jpg",
-    "4 - Attachments/dfa_minimization_table.png"
+    "4 - Attachments/divide_and_conquer.jpg"
   ]
 }

@@ -6,6 +6,6 @@ Structured logging is the practice of logging in a structured, parsable format a
 
 There are several formats to log, but people mostly use JSON or [logfmt](https://brandur.org/logfmt). I tend to favor logfmt as it is easier for humans to read and as easy to parse as JSON.
 
-Tools such as [Logstash](https://www.elastic.co/logstash) and [Loki](https://grafana.com/oss/loki/) allow us to parse, filter and visualize structured logs.
+Tools such as [Logstash](https://www.elastic.co/logstash) and [[Loki]] allow us to parse, filter and visualize structured logs.
 
 I see no reason to not use structured logging instead of traditional logging in an application.
