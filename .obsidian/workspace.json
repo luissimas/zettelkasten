@@ -86,7 +86,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2 - Notes/Loki.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Notes/Loki.md"
+                "file": "1 - Inbox/Git.md"
               }
             }
           },
@@ -148,7 +147,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Notes/Loki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Notes/Loki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +188,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c0ed03ad3cc9dda",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "1 - Inbox/Git.md~",
+    "1 - Inbox/Git.md",
+    "2 - Notes/Loki.md",
     "1 - Inbox/Ledger exporter.md",
     "1 - Inbox/OpenLCA.md",
     "1 - Inbox/Zettelkasten exporter.md",
@@ -201,7 +201,6 @@
     "2 - Notes/Promtail.md",
     "2 - Notes/Prometheus.md",
     "2 - Notes/Observability.md",
-    "2 - Notes/Loki.md",
     "4 - Attachments/Pasted image 20240630111018.png",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
     "6 - Canvases/Trabalho SD.canvas",
@@ -222,8 +221,6 @@
     "1 - Inbox/Elixir.md~",
     "2 - Notes/Elixir in Action.md",
     "3 - Indexes/Sistemas operacionais.md",
-    "3 - Indexes/Projeto e análise de algoritmos.md",
-    "2 - Notes/Personal development environments.md",
     "2 - Notes/ORMs.md~",
     "2 - Notes/Learning Go.md~",
     "1 - Inbox/Python.md~",
