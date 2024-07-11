@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "7531e56ccfbdd4ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Inbox/Kubernetes Operators.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Inbox/Holismo.md",
+                "file": "1 - Inbox/Kubernetes Operators.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Inbox/Holismo.md"
+                "file": "1 - Inbox/Kubernetes Operators.md"
               }
             }
           },
@@ -148,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Inbox/Holismo.md",
+                "file": "1 - Inbox/Kubernetes Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Inbox/Holismo.md",
+                "file": "1 - Inbox/Kubernetes Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,15 +205,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c0ed03ad3cc9dda",
+  "active": "7531e56ccfbdd4ed",
   "lastOpenFiles": [
-    "1 - Inbox/Holismo.md~",
+    "1 - Inbox/Kubernetes Operators.md~",
+    "1 - Inbox/Holismo.md",
+    "2 - Notes/CLIs in Python.md",
+    "1 - Inbox/LiveView.md",
+    "2 - Notes/Loki.md",
+    "2 - Notes/Arte e Linguagem.md",
+    "1 - Inbox/Kubernetes Operators.md",
     "1 - Inbox/Git.md",
     "1 - Inbox/Building a Second Brain.md",
+    "1 - Inbox/CLIs in Python.md~",
+    "1 - Inbox/Typer.md",
+    "1 - Inbox/Typer.md~",
+    "1 - Inbox/4913",
+    "Untitled",
+    "1 - Inbox/Holismo.md~",
     "6 - Canvases/Zettelkasten Exporter.canvas",
     "6 - Canvases/Trabalho SD.canvas",
-    "1 - Inbox/Kubernetes Operators.md",
-    "2 - Notes/Loki.md",
     "1 - Inbox/Git.md~",
     "1 - Inbox/Ledger exporter.md",
     "1 - Inbox/OpenLCA.md",
@@ -219,19 +243,9 @@
     "2 - Notes/InfluxDB.md",
     "2 - Notes/Software testing.md",
     "1 - Inbox/InfluxDB.md~",
-    "2 - Journal/2024-05-24.md",
-    "3 - Indexes/Software development.md",
-    "2 - Notes/Elixir.md",
     "1 - Inbox/Elixir.md~",
-    "2 - Notes/Elixir in Action.md",
-    "3 - Indexes/Sistemas operacionais.md",
     "2 - Notes/ORMs.md~",
     "2 - Notes/Learning Go.md~",
-    "1 - Inbox/Python.md~",
-    "1 - Inbox/4913",
-    "2 - Notes/Juju.md~",
-    "1 - Inbox/Zettelkasten exporter.md~",
-    "1 - Inbox/Go.md~",
     "Untitled.canvas",
     "4 - Attachments/slice_memory_layout.png",
     "4 - Attachments/sematic-segmentation.jpg",
