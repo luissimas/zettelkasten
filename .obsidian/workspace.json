@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Journal/2024-07-14.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d495575f7de7b187",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Inbox/Holismo.md",
+                "file": "Journal/2024-07-14.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -99,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2 - Journal/2024-07-14.md",
+                "file": "Journal/2024-07-14.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Journal/2024-07-14.md"
+                "file": "Journal/2024-07-14.md"
               }
             }
           },
@@ -161,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Journal/2024-07-14.md",
+                "file": "Journal/2024-07-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Journal/2024-07-14.md",
+                "file": "Journal/2024-07-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,56 +191,56 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ffb9ce8e8a0a57d",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "2 - Journal/2024-07-14.md",
-    "2 - Notes/MinIO.md",
-    "1 - Inbox/Holismo.md",
-    "1 - Inbox/Git.md",
-    "1 - Inbox/Building a Second Brain.md",
-    "1 - Inbox/Ledger exporter.md",
-    "1 - Inbox/OpenLCA.md",
-    "2 - Notes/LiveView module.md",
-    "2 - Notes/Postgres for everything.md",
-    "1 - Inbox/Postgres for everything.md~",
-    "1 - Inbox/4913",
-    "2 - Notes/Simplicity.md",
-    "2 - Notes/Talos Linux.md",
-    "2 - Notes/Kubernetes Operators.md",
-    "2 - Notes/Boglehead.md",
-    "1 - Inbox/Boglehead.md~",
-    "1 - Inbox/Simplicity.md~",
-    "2 - Notes/Investimento passivo.md~",
-    "2 - Journal/2024-07-14.md~",
-    "4 - Attachments/architecture-diagram.svg",
-    "1 - Inbox/Holismo.md~",
-    "2 - Notes/Extended mind.md",
-    "3 - Indexes/Books.md",
-    "2 - Notes/Fahrenheit 451.md",
-    "2 - Notes/The Secret History.md",
-    "2 - Notes/Zettelkasten exporter.md",
-    "4 - Attachments/Pasted image 20240715071605.png",
-    "1 - Inbox/Zettelkasten exporter.md~",
-    "2 - Notes/GitHub Actions.md~",
-    "3 - Indexes/Homelab.md",
-    "6 - Canvases/Drawing 2024-07-14 17.59.33.excalidraw.md",
-    "3 - Indexes/Homelab.md~",
-    "Homelab timeline.md",
-    "Homelab.canvas",
-    "6 - Canvases/Trabalho SD.canvas",
-    "6 - Canvases/Zettelkasten Exporter.canvas",
-    "4 - Attachments/Pasted image 20240714161205.png",
-    "2 - Notes/Elixir.md",
-    "2 - Journal/2024-05-24.md",
-    "1 - Inbox/Web scraping.md",
-    "1 - Inbox/Untitled.md",
-    "2 - Notes/CLIs in Python.md",
-    "4 - Attachments/Pasted image 20240630111018.png",
-    "4 - Attachments/slice_memory_layout.png",
-    "4 - Attachments/sematic-segmentation.jpg",
-    "4 - Attachments/naturally_paralel.png",
-    "4 - Attachments/histogramequalization.png",
-    "4 - Attachments/histogram.png",
-    "4 - Attachments/functional_decomp.png"
+    "Inbox/Building a Second Brain.md",
+    "Canvases/Zettelkasten Exporter.canvas",
+    "Canvases/Trabalho SD.canvas",
+    "Journal/2024-07-14.md",
+    "Attachments/SO/regiaocritica.png",
+    "Attachments/SO/estadosprocessos.png",
+    "Attachments/SO/esquemaarquivos.png",
+    "Attachments/SO/tabeladiretorio.png",
+    "Attachments/SO/algoritmossubstituicao.png",
+    "Attachments/SO/camadassoftwareio.png",
+    "Attachments/SO/threadsnucleo.png",
+    "Attachments/SO/sistemaoperacional.png",
+    "Attachments/SO/estruturasarquivos.png",
+    "Attachments/SO/sistemadiretorios.png",
+    "Attachments/FIL/concepcaocienficia.pdf",
+    "Attachments/Prob/introducao_inferencia.pdf",
+    "Canvases",
+    "Templates/Note.md",
+    "Templates",
+    "Attachments/TC",
+    "Attachments/SO/SistemasOperacionaisModernos.pdf",
+    "Attachments/SO",
+    "Attachments/Prob/apostilar.pdf",
+    "Attachments/Prob",
+    "Attachments/PPD",
+    "Indexes/Álgebra linear.md",
+    "Indexes/UFSCar.md",
+    "Indexes/Teoria da computação.md",
+    "Indexes/Software development.md",
+    "Indexes/Sistemas operacionais.md",
+    "Indexes/Projeto e análise de algoritmos.md",
+    "Indexes/Programação paralela e distribuída.md",
+    "Indexes/Processamento digital de imagens.md",
+    "Indexes/Probabilidade e estatística.md",
+    "Indexes/Organização e recuperação da informação.md",
+    "Indexes/Matemática discreta.md",
+    "Indexes/Lógica matemática.md",
+    "Indexes/Lógica digital.md",
+    "Indexes/Latim.md",
+    "Indexes/Language learning.md",
+    "Indexes/Introdução ao pensamento algorítmico.md",
+    "Indexes/Inteligência Artificial.md",
+    "Indexes/Homelab.md",
+    "Indexes/Geometria analítica.md",
+    "Indexes/Filosofia da ciência.md",
+    "Indexes/Cálculo diferencial e integral.md",
+    "Indexes/Cálculo Numérico.md",
+    "Indexes/Calculo diferencial e séries.md",
+    "Homelab.canvas"
   ]
 }
