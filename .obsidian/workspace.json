@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "93c3685b8d270fca",
+        "id": "e96dc773f97f784a",
         "type": "tabs",
         "children": [
           {
-            "id": "0a8a7e33e41e47ba",
+            "id": "0ffb9ce8e8a0a57d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Indexes/Homelab.md",
+                "file": "2 - Notes/MinIO.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "991bd4dfd1d4cd37",
+            "id": "d495575f7de7b187",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 - Indexes/Homelab.md",
+                "file": "1 - Inbox/Postgres for everything.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3 - Indexes/Homelab.md",
+                "file": "1 - Inbox/Postgres for everything.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 - Indexes/Homelab.md"
+                "file": "1 - Inbox/Postgres for everything.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 - Indexes/Homelab.md",
+                "file": "1 - Inbox/Postgres for everything.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 - Indexes/Homelab.md",
+                "file": "1 - Inbox/Postgres for everything.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,56 +205,56 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "d495575f7de7b187",
   "lastOpenFiles": [
-    "3 - Indexes/Homelab.md~",
+    "1 - Inbox/Simplicity.md~",
+    "1 - Inbox/Boglehead.md~",
+    "1 - Inbox/Boglehead.md",
+    "2 - Notes/Investimento passivo.md~",
+    "1 - Inbox/Simplicity.md",
     "2 - Journal/2024-07-14.md~",
+    "1 - Inbox/OpenLCA.md",
+    "1 - Inbox/Building a Second Brain.md",
+    "1 - Inbox/Kubernetes Operators.md",
+    "1 - Inbox/Ledger exporter.md",
+    "2 - Notes/MinIO.md",
+    "4 - Attachments/architecture-diagram.svg",
+    "1 - Inbox/Holismo.md",
+    "1 - Inbox/Holismo.md~",
+    "2 - Notes/Extended mind.md",
+    "3 - Indexes/Books.md",
+    "2 - Notes/Fahrenheit 451.md",
+    "2 - Notes/The Secret History.md",
+    "2 - Journal/2024-07-14.md",
+    "2 - Notes/Zettelkasten exporter.md",
+    "4 - Attachments/Pasted image 20240715071605.png",
+    "1 - Inbox/Zettelkasten exporter.md~",
+    "2 - Notes/GitHub Actions.md~",
+    "3 - Indexes/Homelab.md",
+    "6 - Canvases/Drawing 2024-07-14 17.59.33.excalidraw.md",
+    "3 - Indexes/Homelab.md~",
     "1 - Inbox/Homelab.md~",
     "3 - Indexes/Organização e recuperação da informação.md~",
     "2 - Notes/Organização de arquivos.md~",
-    "1 - Inbox/4913",
     "Homelab timeline.md",
-    "3 - Indexes/Homelab.md",
     "Homelab.canvas",
     "6 - Canvases/Trabalho SD.canvas",
     "6 - Canvases/Zettelkasten Exporter.canvas",
     "4 - Attachments/Pasted image 20240714161205.png",
     "2 - Notes/Elixir.md",
-    "2 - Journal/4913",
     "2 - Journal/2024-05-24.md",
-    "2 - Journal/2024-07-14.md",
     "1 - Inbox/Web scraping.md",
     "1 - Inbox/Untitled.md",
-    "1 - Inbox/Holismo.md",
-    "1 - Inbox/Building a Second Brain.md",
     "2 - Notes/CLIs in Python.md",
-    "1 - Inbox/Kubernetes Operators.md",
     "1 - Inbox/LiveView.md",
-    "1 - Inbox/MinIO.md",
     "1 - Inbox/Git.md",
     "1 - Inbox/Lazygit.md",
-    "1 - Inbox/Zettelkasten exporter.md",
-    "1 - Inbox/OpenLCA.md",
-    "1 - Inbox/Postgres for everything.md",
-    "1 - Inbox/Ledger exporter.md",
-    "1 - Inbox/MinIO.md~",
-    "1 - Inbox/MinIO",
-    "1 - Inbox/MiniIO.md~",
-    "1 - Inbox/MiniIO.md",
-    "1 - Inbox/Kubernetes Operators.md~",
-    "2 - Notes/Loki.md",
-    "2 - Notes/Arte e Linguagem.md",
-    "1 - Inbox/Typer.md",
-    "1 - Inbox/Talos Linux.md",
-    "2 - Notes/Promtail.md",
     "4 - Attachments/Pasted image 20240630111018.png",
     "4 - Attachments/slice_memory_layout.png",
     "4 - Attachments/sematic-segmentation.jpg",
     "4 - Attachments/naturally_paralel.png",
     "4 - Attachments/histogramequalization.png",
     "4 - Attachments/histogram.png",
-    "4 - Attachments/functional_decomp.png",
-    "4 - Attachments/domain_decomp.png",
-    "4 - Attachments/divide_and_conquer_return.jpg"
+    "4 - Attachments/functional_decomp.png"
   ]
 }

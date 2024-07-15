@@ -1,5 +1,5 @@
 ---
-created-at: "2024-07-05"
+created-at: 2024-07-05
 ---
 
 Holismo é a ideia de que sistemas possuem propriedades como um todo que não são observadas em suas partes individuais. O holismo é um paradigma de pensamento e, portanto, é interdisciplinar e pode ser observado de muitas formas em diferentes áreas do conhecimento.

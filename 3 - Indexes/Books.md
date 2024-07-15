@@ -33,9 +33,11 @@ Ultimamente tenho tentado criar mais o hábito de ler. É realmente uma experiê
 | Done   | Deep Work            |
 | Done   | Pragmatic Programmer | 
 
+## 2024
 
 [[Atomic Habits]]
 [[Deep Work]]
 [[Pragmatic Programmer]]
-[[Learning Go|Learning Go]]
-[[Elixir in Action|Elixir in Action]]
+[[Learning Go]]
+[[Elixir in Action]]
+[[Building a Second Brain]]

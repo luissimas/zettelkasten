@@ -2,7 +2,13 @@
 created-at: "2024-06-03"
 ---
 
-I've been working on a project called *zettelkasten-exporter*. The idea is to create a service that can receive a pointer to a Zettelkasten (either a directory path or a git URL) to collect and expose metrics about it on a [[Prometheus]] scrape endpoint. I'm writing it in [[Go]], since the language is an excellent fit for small HTTP services and I was feeling like write it.
+This is a project that I've created with the goal of visualizing metrics from my zettelkasten in my [[Grafana]] instance deployed in my [[Homelab]]. It was the first service that I've written that was deployed to a [[Kubernetes]] cluster.
+
+![[Pasted image 20240715071605.png]]
+
+I've written it in [[Go]], since the language is an excellent fit for small services and I was feeling like writing it.
+
+The initial idea was to expose the metrics on a [[Prometheus]] scrape endpoint, but I learned that the pull model was not a good fit for registering historical data. With that in mind, I've migrated to [[InfluxDB]] for the initial release.
 
 Things I learned so far:
 
@@ -12,6 +18,8 @@ Things I learned so far:
 - Using the `fs.FS` interface instead of directly reading system files with `os` improves testability. Got that one from [[Learn Go with tests|learn Go with tests]]
 - [[Prometheus]] is really not the best tool for this job, I've switched to [[InfluxDB]]
 - The [flux](https://docs.influxdata.com/flux/v0/) query language looks a lot like [[Elixir]]'s pipe syntax, and it's quite good at creating pipelines for transforming data
+- [[goreleaser]] is a great tool for creating GitHub releases
+- Working with GitHub's container registry is quite easy with [[GitHub Actions]]
 
 # References
 
