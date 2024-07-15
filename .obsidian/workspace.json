@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2024-07-14.md",
+                "file": "Notes/Parkinson's law.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Journal/2024-07-14.md",
+                "file": "Notes/Parkinson's law.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -125,8 +125,17 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "52b34993e5427197",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ca03cd669534e650",
@@ -138,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/2024-07-14.md"
+                "file": "Notes/Parkinson's law.md"
               }
             }
           },
@@ -148,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2024-07-14.md",
+                "file": "Notes/Parkinson's law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2024-07-14.md",
+                "file": "Notes/Parkinson's law.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,12 +200,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "0ffb9ce8e8a0a57d",
   "lastOpenFiles": [
+    "Inbox/Managing multiple interests.md",
+    "Notes/Intensity in life.md",
+    "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
+    "2 - Journal/2024-07-14.md",
+    "Notes/Parkinson's law.md",
+    "Inbox/Managing multiple interests.md~",
+    "Inbox/Parkinson's law.md~",
+    "Notes/Intensity in life.md~",
+    "Attachments/Pasted image 20240715092347.png",
+    "Canvases/Interests.canvas",
+    "Inbox/Drawing 2024-07-15 08.45.01.excalidraw.md",
+    "Journal/2024-07-14.md",
+    "Journal/2024-07-14.md~",
+    "2 - Journal/2024-07-14.md~",
+    "2 - Journal",
+    "Indexes/Homelab.md",
+    "Notes/Mind maps.md",
     "Inbox/Building a Second Brain.md",
+    "Inbox/Holismo.md",
+    "Inbox/Git.md",
+    "Inbox/Ledger exporter.md",
+    "Inbox/OpenLCA.md",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",
-    "Journal/2024-07-14.md",
     "Attachments/SO/regiaocritica.png",
     "Attachments/SO/estadosprocessos.png",
     "Attachments/SO/esquemaarquivos.png",
@@ -206,18 +235,11 @@
     "Attachments/SO/threadsnucleo.png",
     "Attachments/SO/sistemaoperacional.png",
     "Attachments/SO/estruturasarquivos.png",
-    "Attachments/SO/sistemadiretorios.png",
     "Attachments/FIL/concepcaocienficia.pdf",
     "Attachments/Prob/introducao_inferencia.pdf",
     "Canvases",
     "Templates/Note.md",
     "Templates",
-    "Attachments/TC",
-    "Attachments/SO/SistemasOperacionaisModernos.pdf",
-    "Attachments/SO",
-    "Attachments/Prob/apostilar.pdf",
-    "Attachments/Prob",
-    "Attachments/PPD",
     "Indexes/Álgebra linear.md",
     "Indexes/UFSCar.md",
     "Indexes/Teoria da computação.md",
@@ -229,18 +251,6 @@
     "Indexes/Probabilidade e estatística.md",
     "Indexes/Organização e recuperação da informação.md",
     "Indexes/Matemática discreta.md",
-    "Indexes/Lógica matemática.md",
-    "Indexes/Lógica digital.md",
-    "Indexes/Latim.md",
-    "Indexes/Language learning.md",
-    "Indexes/Introdução ao pensamento algorítmico.md",
-    "Indexes/Inteligência Artificial.md",
-    "Indexes/Homelab.md",
-    "Indexes/Geometria analítica.md",
-    "Indexes/Filosofia da ciência.md",
-    "Indexes/Cálculo diferencial e integral.md",
-    "Indexes/Cálculo Numérico.md",
-    "Indexes/Calculo diferencial e séries.md",
     "Homelab.canvas"
   ]
 }
