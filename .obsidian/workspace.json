@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "fa906933f38e5475",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Shift-left testing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Parkinson's law.md",
+                "file": "Notes/Shift-left testing.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -147,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Parkinson's law.md"
+                "file": "Notes/Shift-left testing.md"
               }
             }
           },
@@ -157,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Parkinson's law.md",
+                "file": "Notes/Shift-left testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Parkinson's law.md",
+                "file": "Notes/Shift-left testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,13 +214,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ffb9ce8e8a0a57d",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Notes/Parkinson's law.md",
+    "Notes/Shift-left testing.md",
     "Inbox/Managing multiple interests.md",
     "Notes/Intensity in life.md",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
     "2 - Journal/2024-07-14.md",
-    "Notes/Parkinson's law.md",
     "Inbox/Managing multiple interests.md~",
     "Inbox/Parkinson's law.md~",
     "Notes/Intensity in life.md~",
@@ -250,7 +265,6 @@
     "Indexes/Processamento digital de imagens.md",
     "Indexes/Probabilidade e estatística.md",
     "Indexes/Organização e recuperação da informação.md",
-    "Indexes/Matemática discreta.md",
     "Homelab.canvas"
   ]
 }
