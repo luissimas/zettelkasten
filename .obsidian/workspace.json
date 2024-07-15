@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Notes/MinIO.md",
+                "file": "2 - Journal/2024-07-14.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Inbox/Postgres for everything.md",
+                "file": "1 - Inbox/Holismo.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1 - Inbox/Postgres for everything.md",
+                "file": "2 - Journal/2024-07-14.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Inbox/Postgres for everything.md"
+                "file": "2 - Journal/2024-07-14.md"
               }
             }
           },
@@ -162,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Inbox/Postgres for everything.md",
+                "file": "2 - Journal/2024-07-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 - Inbox/Postgres for everything.md",
+                "file": "2 - Journal/2024-07-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,27 +204,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d495575f7de7b187",
+  "active": "0ffb9ce8e8a0a57d",
   "lastOpenFiles": [
-    "1 - Inbox/Simplicity.md~",
-    "1 - Inbox/Boglehead.md~",
-    "1 - Inbox/Boglehead.md",
-    "2 - Notes/Investimento passivo.md~",
-    "1 - Inbox/Simplicity.md",
-    "2 - Journal/2024-07-14.md~",
-    "1 - Inbox/OpenLCA.md",
-    "1 - Inbox/Building a Second Brain.md",
-    "1 - Inbox/Kubernetes Operators.md",
-    "1 - Inbox/Ledger exporter.md",
+    "2 - Journal/2024-07-14.md",
     "2 - Notes/MinIO.md",
-    "4 - Attachments/architecture-diagram.svg",
     "1 - Inbox/Holismo.md",
+    "1 - Inbox/Git.md",
+    "1 - Inbox/Building a Second Brain.md",
+    "1 - Inbox/Ledger exporter.md",
+    "1 - Inbox/OpenLCA.md",
+    "2 - Notes/LiveView module.md",
+    "2 - Notes/Postgres for everything.md",
+    "1 - Inbox/Postgres for everything.md~",
+    "1 - Inbox/4913",
+    "2 - Notes/Simplicity.md",
+    "2 - Notes/Talos Linux.md",
+    "2 - Notes/Kubernetes Operators.md",
+    "2 - Notes/Boglehead.md",
+    "1 - Inbox/Boglehead.md~",
+    "1 - Inbox/Simplicity.md~",
+    "2 - Notes/Investimento passivo.md~",
+    "2 - Journal/2024-07-14.md~",
+    "4 - Attachments/architecture-diagram.svg",
     "1 - Inbox/Holismo.md~",
     "2 - Notes/Extended mind.md",
     "3 - Indexes/Books.md",
     "2 - Notes/Fahrenheit 451.md",
     "2 - Notes/The Secret History.md",
-    "2 - Journal/2024-07-14.md",
     "2 - Notes/Zettelkasten exporter.md",
     "4 - Attachments/Pasted image 20240715071605.png",
     "1 - Inbox/Zettelkasten exporter.md~",
@@ -233,9 +238,6 @@
     "3 - Indexes/Homelab.md",
     "6 - Canvases/Drawing 2024-07-14 17.59.33.excalidraw.md",
     "3 - Indexes/Homelab.md~",
-    "1 - Inbox/Homelab.md~",
-    "3 - Indexes/Organização e recuperação da informação.md~",
-    "2 - Notes/Organização de arquivos.md~",
     "Homelab timeline.md",
     "Homelab.canvas",
     "6 - Canvases/Trabalho SD.canvas",
@@ -246,9 +248,6 @@
     "1 - Inbox/Web scraping.md",
     "1 - Inbox/Untitled.md",
     "2 - Notes/CLIs in Python.md",
-    "1 - Inbox/LiveView.md",
-    "1 - Inbox/Git.md",
-    "1 - Inbox/Lazygit.md",
     "4 - Attachments/Pasted image 20240630111018.png",
     "4 - Attachments/slice_memory_layout.png",
     "4 - Attachments/sematic-segmentation.jpg",

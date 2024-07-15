@@ -2,7 +2,7 @@
 created-at: 2024-07-08
 ---
 
-To create a LiveView, instead of using the `Phoenix.LiveView` module directly such as:
+To create a [[LiveView]], instead of using the `Phoenix.LiveView` module directly such as:
 
 ```elixir
 defmodule MyAppWeb.ChatLive do
@@ -19,7 +19,7 @@ defmodule MyAppWeb.ChatLive do
 end
 ```
 
-We should use the generated web module for the application with the `:live_view` parameter. This will inject the application layout and other Phoenix helpers.
+We should use the generated web module for the application with the `:live_view` parameter. This will inject the application layout and other [[Phoenix]] helpers.
 
 ```elixir
 defmodule MyAppWeb.ChatLive do
