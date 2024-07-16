@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Shift-left testing.md",
+                "file": "Journal/2024-07-16.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Shift-left testing.md",
+                "file": "Journal/2024-07-16.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Shift-left testing.md"
+                "file": "Journal/2024-07-16.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Shift-left testing.md",
+                "file": "Journal/2024-07-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Shift-left testing.md",
+                "file": "Journal/2024-07-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,11 +214,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "fa906933f38e5475",
   "lastOpenFiles": [
+    "Inbox/Fedora.md~",
+    "Journal/2024-07-15.md",
+    "Journal/2024-07-14.md",
+    "Journal/2024-07-16.md",
+    "Inbox/Fedora.md",
+    "Journal/2024-07-16.md~",
+    "Inbox/Managing multiple interests.md",
     "Notes/Parkinson's law.md",
     "Notes/Shift-left testing.md",
-    "Inbox/Managing multiple interests.md",
     "Notes/Intensity in life.md",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
     "2 - Journal/2024-07-14.md",
@@ -228,7 +234,6 @@
     "Attachments/Pasted image 20240715092347.png",
     "Canvases/Interests.canvas",
     "Inbox/Drawing 2024-07-15 08.45.01.excalidraw.md",
-    "Journal/2024-07-14.md",
     "Journal/2024-07-14.md~",
     "2 - Journal/2024-07-14.md~",
     "2 - Journal",
@@ -252,19 +257,13 @@
     "Attachments/SO/estruturasarquivos.png",
     "Attachments/FIL/concepcaocienficia.pdf",
     "Attachments/Prob/introducao_inferencia.pdf",
-    "Canvases",
     "Templates/Note.md",
-    "Templates",
     "Indexes/Álgebra linear.md",
     "Indexes/UFSCar.md",
     "Indexes/Teoria da computação.md",
     "Indexes/Software development.md",
     "Indexes/Sistemas operacionais.md",
     "Indexes/Projeto e análise de algoritmos.md",
-    "Indexes/Programação paralela e distribuída.md",
-    "Indexes/Processamento digital de imagens.md",
-    "Indexes/Probabilidade e estatística.md",
-    "Indexes/Organização e recuperação da informação.md",
     "Homelab.canvas"
   ]
 }
