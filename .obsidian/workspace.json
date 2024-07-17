@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Parkinson's law.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -24,17 +24,18 @@
             "id": "fa906933f38e5475",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Journal/2024-07-16.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
+                "file": "Canvases/Interests.canvas",
+                "viewState": {
+                  "x": -1316.0938694735896,
+                  "y": -368.1976511939488,
+                  "zoom": -0.9999999999999999
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Journal/2024-07-16.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/2024-07-16.md"
+                "file": "Inbox/Managing multiple interests.md"
               }
             }
           },
@@ -171,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2024-07-16.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2024-07-16.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,25 +215,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa906933f38e5475",
+  "active": "0ffb9ce8e8a0a57d",
   "lastOpenFiles": [
+    "Inbox/Managing multiple interests.md~",
+    "Canvases/Interests.canvas",
+    "Inbox/Managing multiple interests.md",
+    "Notes/Shiny object syndrome.md",
+    "Notes/Shiny object syndrome.md~",
+    "Attachments/Pasted image 20240717074029.png",
+    "Attachments/Pasted image 20240717074001.png",
+    "Attachments/Pasted image 20240717073950.png",
+    "Notes/Parkinson's law.md",
+    "Indexes/Language learning.md",
+    "Journal/2024-07-16.md",
     "Inbox/Fedora.md~",
     "Journal/2024-07-15.md",
     "Journal/2024-07-14.md",
-    "Journal/2024-07-16.md",
     "Inbox/Fedora.md",
     "Journal/2024-07-16.md~",
-    "Inbox/Managing multiple interests.md",
-    "Notes/Parkinson's law.md",
     "Notes/Shift-left testing.md",
     "Notes/Intensity in life.md",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
     "2 - Journal/2024-07-14.md",
-    "Inbox/Managing multiple interests.md~",
     "Inbox/Parkinson's law.md~",
     "Notes/Intensity in life.md~",
     "Attachments/Pasted image 20240715092347.png",
-    "Canvases/Interests.canvas",
     "Inbox/Drawing 2024-07-15 08.45.01.excalidraw.md",
     "Journal/2024-07-14.md~",
     "2 - Journal/2024-07-14.md~",
@@ -252,18 +259,12 @@
     "Attachments/SO/tabeladiretorio.png",
     "Attachments/SO/algoritmossubstituicao.png",
     "Attachments/SO/camadassoftwareio.png",
-    "Attachments/SO/threadsnucleo.png",
-    "Attachments/SO/sistemaoperacional.png",
-    "Attachments/SO/estruturasarquivos.png",
     "Attachments/FIL/concepcaocienficia.pdf",
-    "Attachments/Prob/introducao_inferencia.pdf",
     "Templates/Note.md",
     "Indexes/Álgebra linear.md",
     "Indexes/UFSCar.md",
     "Indexes/Teoria da computação.md",
     "Indexes/Software development.md",
-    "Indexes/Sistemas operacionais.md",
-    "Indexes/Projeto e análise de algoritmos.md",
     "Homelab.canvas"
   ]
 }

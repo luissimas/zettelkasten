@@ -4,7 +4,7 @@
   "attachmentFolderPath": "Attachments",
   "showInlineTitle": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "1 - Inbox",
+  "newFileFolderPath": "Inbox",
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
   "livePreview": false
