@@ -5,10 +5,10 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"3 - Indexes\"  ",
+      "query": "path:\"Indexes\"  ",
       "color": {
         "a": 1,
         "rgb": 4618440
@@ -25,6 +25,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2885538512560049,
-  "close": true
+  "scale": 0.1923692341706699,
+  "close": false
 }

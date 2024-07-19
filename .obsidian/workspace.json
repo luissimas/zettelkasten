@@ -24,15 +24,8 @@
             "id": "fa906933f38e5475",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvases/Interests.canvas",
-                "viewState": {
-                  "x": -1340.4347563558472,
-                  "y": 71.75891525065117,
-                  "zoom": -1
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -102,7 +95,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Canvases/Interests.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -162,9 +154,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Canvases/Interests.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -173,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvases/Interests.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +179,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvases/Interests.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,13 +206,13 @@
   },
   "active": "fa906933f38e5475",
   "lastOpenFiles": [
-    "Inbox/Fullstack.md",
     "Inbox/Fullstack.md~",
+    "Canvases/Interests.canvas",
+    "Inbox/Fullstack.md",
     "Inbox/Brio.md~",
     "Inbox/Brio.md",
     "Inbox/Nothing changes if nothing changes.md~",
     "Inbox/Nothing changes if nothing changes.md",
-    "Canvases/Interests.canvas",
     "Inbox/Building a Second Brain.md",
     "Inbox/Fedora.md",
     "Inbox/Git.md",
