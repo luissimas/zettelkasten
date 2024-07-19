@@ -11,7 +11,6 @@
 		{"id":"7ecc8c3e38126f9c","type":"text","text":"Blogging","x":-425,"y":28,"width":250,"height":60},
 		{"id":"b7f9e3808cf888a0","type":"text","text":"Computer science","x":-827,"y":-236,"width":295,"height":60,"color":"5"},
 		{"id":"62b651c0bc6a290e","type":"text","text":"Git","x":-315,"y":300,"width":250,"height":60},
-		{"id":"f277e69e434a3e28","type":"text","text":"Fullstack applications","x":-840,"y":300,"width":330,"height":60,"color":"5"},
 		{"id":"99e20aa058059ad6","type":"text","text":"Phoenix LiveView","x":-565,"y":536,"width":335,"height":60,"color":"5"},
 		{"id":"9f1ef4e02da1d1dc","type":"text","text":"Go","x":-1483,"y":536,"width":250,"height":60},
 		{"id":"b2869994618d391a","type":"text","text":"Backend services","x":-1285,"y":300,"width":285,"height":60},
@@ -23,7 +22,8 @@
 		{"id":"4200694b71833dbf","type":"text","text":"Powerlifting","x":-105,"y":-127,"width":250,"height":60},
 		{"id":"536de7938f9f903a","type":"text","text":"Bodybuilding","x":239,"y":-127,"width":250,"height":60,"color":"5"},
 		{"id":"75833dd0c923d7ec","type":"text","text":"Weight training","x":60,"y":-296,"width":250,"height":60,"color":"5"},
-		{"id":"6a52a57015489017","type":"text","text":"Running","x":360,"y":-296,"width":250,"height":60,"color":"5"}
+		{"id":"6a52a57015489017","type":"text","text":"Running","x":360,"y":-296,"width":250,"height":60,"color":"5"},
+		{"id":"51795b666c25f59e","x":-839,"y":300,"width":319,"height":60,"color":"5","type":"text","text":"Fullstack development"}
 	],
 	"edges":[
 		{"id":"3433d0c4ce262529","fromNode":"b580c5e09ff9c3ee","fromSide":"bottom","toNode":"6a52a57015489017","toSide":"top"},
@@ -33,9 +33,6 @@
 		{"id":"26ab0d2c59845974","fromNode":"9bd3f4b0967ef139","fromSide":"bottom","toNode":"b7f9e3808cf888a0","toSide":"top"},
 		{"id":"bfed3c251c09c9bf","fromNode":"b7f9e3808cf888a0","fromSide":"bottom","toNode":"934e7be91692a18f","toSide":"top"},
 		{"id":"b32585b68c9603fa","fromNode":"b7f9e3808cf888a0","fromSide":"bottom","toNode":"563441c92c648036","toSide":"top"},
-		{"id":"92351881f22735a7","fromNode":"563441c92c648036","fromSide":"bottom","toNode":"f277e69e434a3e28","toSide":"top"},
-		{"id":"8aab056d39bd251b","fromNode":"f277e69e434a3e28","fromSide":"bottom","toNode":"841ce67ff4e1a78a","toSide":"top"},
-		{"id":"1170f5555f3058f7","fromNode":"f277e69e434a3e28","fromSide":"bottom","toNode":"99e20aa058059ad6","toSide":"top"},
 		{"id":"08a5c959d543fc00","fromNode":"9bd3f4b0967ef139","fromSide":"bottom","toNode":"2297a2ac38e81065","toSide":"top"},
 		{"id":"75d167a1818b508d","fromNode":"563441c92c648036","fromSide":"bottom","toNode":"62b651c0bc6a290e","toSide":"top"},
 		{"id":"baf633d00d4c4780","fromNode":"2297a2ac38e81065","fromSide":"bottom","toNode":"c4fc95fd33b9b363","toSide":"top"},
@@ -46,6 +43,9 @@
 		{"id":"bbb363ddc9a046d5","fromNode":"10a1c63b3d7f0e43","fromSide":"bottom","toNode":"bf5b1e919017b3f3","toSide":"top"},
 		{"id":"fde6541656585a74","fromNode":"75833dd0c923d7ec","fromSide":"bottom","toNode":"536de7938f9f903a","toSide":"top"},
 		{"id":"e68d235acf450704","fromNode":"75833dd0c923d7ec","fromSide":"bottom","toNode":"4200694b71833dbf","toSide":"top"},
-		{"id":"3c1caa0d3ffa4a23","fromNode":"b7f9e3808cf888a0","fromSide":"bottom","toNode":"7ecc8c3e38126f9c","toSide":"top"}
+		{"id":"3c1caa0d3ffa4a23","fromNode":"b7f9e3808cf888a0","fromSide":"bottom","toNode":"7ecc8c3e38126f9c","toSide":"top"},
+		{"id":"c62cec181a299b4e","fromNode":"563441c92c648036","fromSide":"bottom","toNode":"51795b666c25f59e","toSide":"top"},
+		{"id":"e2ed50263150616a","fromNode":"51795b666c25f59e","fromSide":"bottom","toNode":"841ce67ff4e1a78a","toSide":"top"},
+		{"id":"1b36cd2fda664461","fromNode":"51795b666c25f59e","fromSide":"bottom","toNode":"99e20aa058059ad6","toSide":"top"}
 	]
 }
