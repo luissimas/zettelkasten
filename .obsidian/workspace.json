@@ -24,18 +24,17 @@
             "id": "fa906933f38e5475",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvases/Interests.canvas",
-                "viewState": {
-                  "x": -1316.0938694735896,
-                  "y": -368.1976511939488,
-                  "zoom": -0.9999999999999999
-                }
+                "file": "Inbox/Managing multiple interests.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,25 +214,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ffb9ce8e8a0a57d",
+  "active": "fa906933f38e5475",
   "lastOpenFiles": [
-    "Journal/2024-07-17.md~",
-    "Journal/2024-07-17.md",
     "Inbox/Managing multiple interests.md~",
-    "Canvases/Interests.canvas",
+    "Inbox/Building a Second Brain.md",
+    "Inbox/Git.md",
+    "Inbox/OpenLCA.md",
     "Inbox/Managing multiple interests.md",
+    "Inbox/Ledger exporter.md",
+    "Inbox/Holismo.md",
+    "Inbox/Fedora.md",
+    "Canvases/Interests.canvas",
     "Notes/Shiny object syndrome.md",
+    "Journal/2024-07-14.md",
+    "Journal/2024-07-18.md",
+    "Journal/2024-07-15.md",
+    "Journal/2024-07-16.md",
+    "Journal/2024-07-17.md",
+    "Journal/2024-07-17.md~",
     "Notes/Shiny object syndrome.md~",
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
     "Notes/Parkinson's law.md",
     "Indexes/Language learning.md",
-    "Journal/2024-07-16.md",
     "Inbox/Fedora.md~",
-    "Journal/2024-07-15.md",
-    "Journal/2024-07-14.md",
-    "Inbox/Fedora.md",
     "Journal/2024-07-16.md~",
     "Notes/Shift-left testing.md",
     "Notes/Intensity in life.md",
@@ -248,11 +253,6 @@
     "2 - Journal",
     "Indexes/Homelab.md",
     "Notes/Mind maps.md",
-    "Inbox/Building a Second Brain.md",
-    "Inbox/Holismo.md",
-    "Inbox/Git.md",
-    "Inbox/Ledger exporter.md",
-    "Inbox/OpenLCA.md",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",
     "Attachments/SO/regiaocritica.png",
@@ -261,11 +261,9 @@
     "Attachments/SO/tabeladiretorio.png",
     "Attachments/SO/algoritmossubstituicao.png",
     "Attachments/SO/camadassoftwareio.png",
-    "Attachments/FIL/concepcaocienficia.pdf",
     "Templates/Note.md",
     "Indexes/Álgebra linear.md",
     "Indexes/UFSCar.md",
-    "Indexes/Teoria da computação.md",
     "Homelab.canvas"
   ]
 }
