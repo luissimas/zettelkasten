@@ -24,12 +24,14 @@
             "id": "fa906933f38e5475",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Inbox/Managing multiple interests.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
+                "file": "Canvases/Interests.canvas",
+                "viewState": {
+                  "x": -1340.4347563558472,
+                  "y": 71.75891525065117,
+                  "zoom": -1
+                }
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Managing multiple interests.md",
+                "file": "Canvases/Interests.canvas",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -161,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Managing multiple interests.md"
+                "file": "Canvases/Interests.canvas"
               }
             }
           },
@@ -171,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Managing multiple interests.md",
+                "file": "Canvases/Interests.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Managing multiple interests.md",
+                "file": "Canvases/Interests.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,15 +218,23 @@
   },
   "active": "fa906933f38e5475",
   "lastOpenFiles": [
-    "Inbox/Managing multiple interests.md~",
-    "Inbox/Building a Second Brain.md",
-    "Inbox/Git.md",
-    "Inbox/OpenLCA.md",
-    "Inbox/Managing multiple interests.md",
-    "Inbox/Ledger exporter.md",
-    "Inbox/Holismo.md",
-    "Inbox/Fedora.md",
+    "Inbox/Fullstack.md",
+    "Inbox/Fullstack.md~",
+    "Inbox/Brio.md~",
+    "Inbox/Brio.md",
+    "Inbox/Nothing changes if nothing changes.md~",
+    "Inbox/Nothing changes if nothing changes.md",
     "Canvases/Interests.canvas",
+    "Inbox/Building a Second Brain.md",
+    "Inbox/Fedora.md",
+    "Inbox/Git.md",
+    "Inbox/Holismo.md",
+    "Inbox/Ledger exporter.md",
+    "Inbox/Managing multiple interests.md",
+    "Inbox/OpenLCA.md",
+    "Tiago Forte - Building a Second Brain _ A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential-Atria Books (2022).epub",
+    "Journal/2024-07-18.md~",
+    "Inbox/Managing multiple interests.md~",
     "Notes/Shiny object syndrome.md",
     "Journal/2024-07-14.md",
     "Journal/2024-07-18.md",
@@ -244,13 +254,8 @@
     "Notes/Intensity in life.md",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
     "2 - Journal/2024-07-14.md",
-    "Inbox/Parkinson's law.md~",
-    "Notes/Intensity in life.md~",
     "Attachments/Pasted image 20240715092347.png",
     "Inbox/Drawing 2024-07-15 08.45.01.excalidraw.md",
-    "Journal/2024-07-14.md~",
-    "2 - Journal/2024-07-14.md~",
-    "2 - Journal",
     "Indexes/Homelab.md",
     "Notes/Mind maps.md",
     "Canvases/Zettelkasten Exporter.canvas",
@@ -261,9 +266,6 @@
     "Attachments/SO/tabeladiretorio.png",
     "Attachments/SO/algoritmossubstituicao.png",
     "Attachments/SO/camadassoftwareio.png",
-    "Templates/Note.md",
-    "Indexes/Álgebra linear.md",
-    "Indexes/UFSCar.md",
     "Homelab.canvas"
   ]
 }
