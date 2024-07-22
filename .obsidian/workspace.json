@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Fedora.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Fedora.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Fedora.md"
+                "file": "Inbox/Managing multiple interests.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Fedora.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Fedora.md",
+                "file": "Inbox/Managing multiple interests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,8 +215,9 @@
   },
   "active": "dd46072e1e133b8b",
   "lastOpenFiles": [
-    "Inbox/Git.md",
+    "Inbox/Managing multiple interests.md~",
     "Inbox/Fedora.md",
+    "Inbox/Git.md",
     "Inbox/Holismo.md",
     "Inbox/Managing multiple interests.md",
     "Inbox/OpenLCA.md",
@@ -239,7 +240,6 @@
     "Inbox/Nothing changes if nothing changes.md~",
     "Tiago Forte - Building a Second Brain _ A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential-Atria Books (2022).epub",
     "Journal/2024-07-18.md~",
-    "Inbox/Managing multiple interests.md~",
     "Notes/Shiny object syndrome.md",
     "Journal/2024-07-18.md",
     "Journal/2024-07-15.md",
@@ -254,7 +254,6 @@
     "Indexes/Language learning.md",
     "Notes/Shift-left testing.md",
     "Notes/Intensity in life.md",
-    "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
     "Attachments/Pasted image 20240715092347.png",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",

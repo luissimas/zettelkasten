@@ -8,7 +8,7 @@ I have a lot of interests, and I feel like [[Shiny object syndrome|I never finis
 
 The idea is to identify my main areas of interest and prioritize them. Then, I'll choose a single project relevant for one area and focus on it for at least 3 months. The other areas will get a baseline effort just for maintenance. After these 3 months I can either change my focus to another area or choose another project in the same area. This will ensure that I get at least a couple of months of true focus on something before moving on to something else.
 
-The function that relates the time that you put into something and the rewards you get back is not linear. This is why it is important to focus on less things at a time instead of spreading your efforts into multiple smaller endeavors.
+> The function that relates the time that you put into something and the rewards you get back is not linear. This is why it is important to focus on less things at a time instead of spreading your efforts into multiple smaller endeavors.
 
 Things to keep in mind:
 
@@ -44,7 +44,7 @@ https://github.com/Richardsl/heatmap-calendar-obsidian
 # Short term goals
 
 1. Create a fitness habit: I should consistently exercise in the gym and do some cardio. The end goal is to have a baseline of everyday activities, but I need to slowly build up to that.
-2. Learn to build products with [[Phoenix]]: I should work on a side project using Phoenix to learn how to build fullstack applications. The end goal is to develop the skills to build full solutions from scratch. I'll start focusing on design principles and how to build a [[Frontend]], since it's my weak point. This will be my main focus.
+2. Learn to build products with [[Phoenix]]: I should work on a side project using Phoenix to learn how to build [[Fullstack]] applications. The end goal is to develop the skills to build full solutions from scratch. I'll start focusing on design principles and how to build a [[Frontend]], since it's my weak point. This will be my main focus.
 
 # Merge interests
 
