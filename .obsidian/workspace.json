@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Taskwarrior.md",
+                "file": "Notes/Fullstack.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,14 +21,20 @@
             }
           },
           {
-            "id": "fa906933f38e5475",
+            "id": "dd46072e1e133b8b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Fedora.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Taskwarrior.md",
+                "file": "Inbox/Fedora.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -154,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Taskwarrior.md"
+                "file": "Inbox/Fedora.md"
               }
             }
           },
@@ -164,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Taskwarrior.md",
+                "file": "Inbox/Fedora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Taskwarrior.md",
+                "file": "Inbox/Fedora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,26 +213,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "dd46072e1e133b8b",
   "lastOpenFiles": [
-    "Journal/2024-07-14.md",
-    "Inbox/Taskwarrior.md~",
-    "Notes/Taskwarrior.md",
-    "Inbox/Fullstack.md",
-    "Inbox/Managing multiple interests.md",
-    "Inbox/Holismo.md",
     "Inbox/Git.md",
     "Inbox/Fedora.md",
+    "Inbox/Holismo.md",
+    "Inbox/Managing multiple interests.md",
+    "Inbox/OpenLCA.md",
+    "Inbox/Ledger exporter.md",
+    "Notes/Fullstack.md",
+    "Indexes/Software development.md",
+    "Notes/Web design.md",
+    "Notes/Frontend.md",
+    "Untitled",
+    "Notes/Taskwarrior.md",
+    "Journal/2024-07-14.md",
+    "Inbox/Taskwarrior.md~",
     "Canvases/Interests.canvas",
     "Indexes/Books.md",
     "Notes/Building a Second Brain.md",
-    "Inbox/Ledger exporter.md",
     "Notes/Nothing changes if nothing changes.md",
     "Notes/Brio.md",
     "Inbox/Fullstack.md~",
     "Inbox/Brio.md~",
     "Inbox/Nothing changes if nothing changes.md~",
-    "Inbox/OpenLCA.md",
     "Tiago Forte - Building a Second Brain _ A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential-Atria Books (2022).epub",
     "Journal/2024-07-18.md~",
     "Inbox/Managing multiple interests.md~",
@@ -242,13 +252,10 @@
     "Attachments/Pasted image 20240717073950.png",
     "Notes/Parkinson's law.md",
     "Indexes/Language learning.md",
-    "Inbox/Fedora.md~",
     "Notes/Shift-left testing.md",
     "Notes/Intensity in life.md",
     "Excalidraw/Drawing 2024-06-08 14.35.27.excalidraw.md",
-    "2 - Journal/2024-07-14.md",
     "Attachments/Pasted image 20240715092347.png",
-    "Inbox/Drawing 2024-07-15 08.45.01.excalidraw.md",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",
     "Attachments/SO/regiaocritica.png",

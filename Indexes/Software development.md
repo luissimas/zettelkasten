@@ -9,3 +9,5 @@ created-at: 2024-06-03
 [[Learning Go]]
 [[Elixir]]
 [[Elixir in Action]]
+[[Fullstack]]
+[[Web design]]

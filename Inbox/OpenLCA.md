@@ -13,7 +13,3 @@ Alguns projetos similares:
  - https://www.carbonfootprint.com/calculator.aspx
  - https://www.transparencia.org.br/
 
-Tentar combater a alienação da qual somos todos vítimas.
-
-# References
-
