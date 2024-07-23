@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c593393fef61ac78","x":-480,"y":-90,"width":250,"height":60,"type":"text","text":"User"},
+		{"id":"50887b7b4557862b","x":-20,"y":-90,"width":250,"height":60,"type":"text","text":"Recipe"},
+		{"id":"c642ce9a24086bea","x":480,"y":-90,"width":250,"height":60,"type":"text","text":"Ingredient"}
+	],
+	"edges":[
+		{"id":"1c25b9ed2cb85652","fromNode":"c593393fef61ac78","fromSide":"right","toNode":"50887b7b4557862b","toSide":"left","label":"has many"},
+		{"id":"d43ea14481d986a2","fromNode":"50887b7b4557862b","fromSide":"right","toNode":"c642ce9a24086bea","toSide":"left","label":"ingredient"}
+	]
+}
