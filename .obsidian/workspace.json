@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Fullstack.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dd46072e1e133b8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Managing multiple interests.md",
+                "file": "Notes/Systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Managing multiple interests.md",
+                "file": "Notes/Systems.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -160,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Managing multiple interests.md"
+                "file": "Notes/Systems.md"
               }
             }
           },
@@ -170,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Managing multiple interests.md",
+                "file": "Notes/Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Managing multiple interests.md",
+                "file": "Notes/Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,47 +199,47 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dd46072e1e133b8b",
+  "active": "0ffb9ce8e8a0a57d",
   "lastOpenFiles": [
+    "Canvases/Interests.canvas",
+    "Notes/Systems.md",
+    "Templates/Note.md",
+    "Notes/Managing multiple interests.md",
+    "Indexes/Fitness.md",
+    "Notes/Merge interests.md",
+    "Notes/Time management.md",
+    "Notes/Intensity in life.md",
+    "Indexes/Computer science.md",
+    "Notes/Kubernetes.md",
+    "Indexes/Software development.md",
+    "Indexes/UFSCar.md",
+    "Inbox/Untitled.md",
+    "Indexes/Language learning.md",
+    "Notes/Parkinson's law.md",
+    "Notes/Fullstack.md",
     "Inbox/Managing multiple interests.md~",
     "Inbox/Fedora.md",
     "Inbox/Git.md",
     "Inbox/Holismo.md",
-    "Inbox/Managing multiple interests.md",
     "Inbox/OpenLCA.md",
     "Inbox/Ledger exporter.md",
-    "Notes/Fullstack.md",
-    "Indexes/Software development.md",
     "Notes/Web design.md",
     "Notes/Frontend.md",
     "Untitled",
     "Notes/Taskwarrior.md",
     "Journal/2024-07-14.md",
     "Inbox/Taskwarrior.md~",
-    "Canvases/Interests.canvas",
     "Indexes/Books.md",
-    "Notes/Building a Second Brain.md",
-    "Notes/Nothing changes if nothing changes.md",
-    "Notes/Brio.md",
     "Inbox/Fullstack.md~",
     "Inbox/Brio.md~",
     "Inbox/Nothing changes if nothing changes.md~",
     "Tiago Forte - Building a Second Brain _ A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential-Atria Books (2022).epub",
     "Journal/2024-07-18.md~",
-    "Notes/Shiny object syndrome.md",
-    "Journal/2024-07-18.md",
-    "Journal/2024-07-15.md",
-    "Journal/2024-07-16.md",
-    "Journal/2024-07-17.md",
     "Journal/2024-07-17.md~",
     "Notes/Shiny object syndrome.md~",
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
-    "Notes/Parkinson's law.md",
-    "Indexes/Language learning.md",
-    "Notes/Shift-left testing.md",
-    "Notes/Intensity in life.md",
     "Attachments/Pasted image 20240715092347.png",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",
