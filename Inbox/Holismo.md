@@ -12,7 +12,7 @@ Quando um sistema apresenta propriedades que vão além daquelas observadas em s
 
 Apesar de sempre ter ouvido falar desse termo na forma de "abordagem holística" ou coisa do tipo, nunca procurei mais a fundo sobre a ideia. Sempre associei a ideia a algo como "prático" ou "pragmático", mas agora vejo que na verdade isso tem um sentido completamente diferente. Me vejo como uma pessoa generalista, que gosta de aprender sobre diversos tópicos diferentes e fazer conexões entre eles. Talvez o que eu esteja buscando com essa abordagem generalista seja extrair propriedades emergentes de sistemas criados através da conexão entre áreas distintas do conhecimento.
 
-Talvez [[Software testing|testes]] de integração ou mesmo E2E sejam uma abordagem mais holística sobre o teste de software do que testes unitários com componentes totalmente isolados. O comportamento de um sistema computacional não é necessariamente dado pela soma dos comportamentos de suas partes, principalmente quando efeitos colaterais estão envolvidos.
+Talvez [[Software testing|testes]] de integração ou mesmo E2E sejam uma abordagem mais holística sobre o teste de software do que testes unitários com componentes totalmente isolados. O comportamento de um sistema computacional não é necessariamente dado somente pela soma dos comportamentos de suas partes, principalmente quando efeitos colaterais estão envolvidos.
 
 # Resource list
 

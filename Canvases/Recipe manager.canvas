@@ -1,11 +1,15 @@
 {
 	"nodes":[
-		{"id":"c593393fef61ac78","x":-480,"y":-90,"width":250,"height":60,"type":"text","text":"User"},
-		{"id":"50887b7b4557862b","x":-20,"y":-90,"width":250,"height":60,"type":"text","text":"Recipe"},
-		{"id":"c642ce9a24086bea","x":480,"y":-90,"width":250,"height":60,"type":"text","text":"Ingredient"}
+		{"id":"c593393fef61ac78","type":"text","text":"User","x":-480,"y":-90,"width":250,"height":60},
+		{"id":"50887b7b4557862b","type":"text","text":"Recipe","x":-20,"y":-90,"width":250,"height":60},
+		{"id":"c642ce9a24086bea","type":"text","text":"Ingredient","x":480,"y":-90,"width":250,"height":60},
+		{"id":"e0aa5c718f396694","x":-21,"y":-334,"width":250,"height":60,"type":"text","text":"Tag"},
+		{"id":"a32f9e3ca03f72f3","x":480,"y":-334,"width":250,"height":60,"type":"text","text":"Property"}
 	],
 	"edges":[
 		{"id":"1c25b9ed2cb85652","fromNode":"c593393fef61ac78","fromSide":"right","toNode":"50887b7b4557862b","toSide":"left","label":"has many"},
-		{"id":"d43ea14481d986a2","fromNode":"50887b7b4557862b","fromSide":"right","toNode":"c642ce9a24086bea","toSide":"left","label":"ingredient"}
+		{"id":"d43ea14481d986a2","fromNode":"50887b7b4557862b","fromSide":"right","toNode":"c642ce9a24086bea","toSide":"left","label":"has many"},
+		{"id":"b834109ecddb9dba","fromNode":"50887b7b4557862b","fromSide":"top","toNode":"e0aa5c718f396694","toSide":"bottom","label":"has many"},
+		{"id":"aeb5db86910478a5","fromNode":"c642ce9a24086bea","fromSide":"top","toNode":"a32f9e3ca03f72f3","toSide":"bottom","label":"has many"}
 	]
 }

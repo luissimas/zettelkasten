@@ -11,14 +11,12 @@
             "id": "0ffb9ce8e8a0a57d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvases/Recipe manager.canvas",
-                "viewState": {
-                  "x": 91,
-                  "y": 71,
-                  "zoom": 0
-                }
+                "file": "Inbox/Fedora.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -88,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Canvases/Recipe manager.canvas",
+                "file": "Inbox/Fedora.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Canvases/Recipe manager.canvas"
+                "file": "Inbox/Fedora.md"
               }
             }
           },
@@ -158,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvases/Recipe manager.canvas",
+                "file": "Inbox/Fedora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Canvases/Recipe manager.canvas",
+                "file": "Inbox/Fedora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,14 +201,26 @@
   },
   "active": "0ffb9ce8e8a0a57d",
   "lastOpenFiles": [
-    "Inbox/Recipe manager.md~",
-    "Canvases/Interests.canvas",
-    "Canvases/Recipe manager.canvas",
+    "Inbox/Git.md",
     "Inbox/Recipe manager.md",
+    "Notes/Frontend.md",
+    "Inbox/Holismo.md",
+    "Inbox/OpenLCA.md",
+    "Canvases/Interests.canvas",
+    "Inbox/Fedora.md",
+    "Journal/2024-07-14.md",
+    "Journal/2024-07-15.md",
+    "Journal/2024-07-16.md",
+    "Journal/2024-07-17.md",
+    "Journal/2024-07-18.md",
+    "Journal/2024-07-19.md",
+    "Indexes/Homelab.md",
+    "Indexes/Fitness.md",
+    "Canvases/Recipe manager.canvas",
+    "Inbox/Recipe manager.md~",
     "Notes/Managing multiple interests.md",
     "Notes/Systems.md",
     "Templates/Note.md",
-    "Indexes/Fitness.md",
     "Notes/Merge interests.md",
     "Notes/Time management.md",
     "Notes/Intensity in life.md",
@@ -220,19 +230,8 @@
     "Indexes/UFSCar.md",
     "Inbox/Untitled.md",
     "Indexes/Language learning.md",
-    "Notes/Parkinson's law.md",
-    "Notes/Fullstack.md",
     "Inbox/Managing multiple interests.md~",
-    "Inbox/Fedora.md",
-    "Inbox/Git.md",
-    "Inbox/Holismo.md",
-    "Inbox/OpenLCA.md",
-    "Inbox/Ledger exporter.md",
-    "Notes/Web design.md",
-    "Notes/Frontend.md",
     "Untitled",
-    "Notes/Taskwarrior.md",
-    "Journal/2024-07-14.md",
     "Inbox/Taskwarrior.md~",
     "Inbox/Fullstack.md~",
     "Inbox/Brio.md~",
@@ -240,7 +239,6 @@
     "Tiago Forte - Building a Second Brain _ A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential-Atria Books (2022).epub",
     "Journal/2024-07-18.md~",
     "Journal/2024-07-17.md~",
-    "Notes/Shiny object syndrome.md~",
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
