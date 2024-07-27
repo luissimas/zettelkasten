@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Recipe manager.md",
+                "file": "Notes/Pika backup.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Recipe manager.md",
+                "file": "Notes/Pika backup.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Recipe manager.md"
+                "file": "Notes/Pika backup.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Recipe manager.md",
+                "file": "Notes/Pika backup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Recipe manager.md",
+                "file": "Notes/Pika backup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,13 +199,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ffb9ce8e8a0a57d",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Pika backup.md~",
+    "Inbox/Recipe manager.md",
     "Notes/OpenLCA.md",
     "Notes/Holismo.md",
     "Inbox/Git.md",
     "Notes/Fedora.md",
-    "Inbox/Recipe manager.md",
     "Notes/Frontend.md",
     "Canvases/Interests.canvas",
     "Journal/2024-07-14.md",
@@ -229,7 +230,6 @@
     "Indexes/Software development.md",
     "Indexes/UFSCar.md",
     "Inbox/Untitled.md",
-    "Indexes/Language learning.md",
     "Inbox/Managing multiple interests.md~",
     "Untitled",
     "Inbox/Taskwarrior.md~",
