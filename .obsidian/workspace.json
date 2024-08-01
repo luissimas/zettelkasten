@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Pika backup.md",
+                "file": "Inbox/Conway's game of life.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Pika backup.md",
+                "file": "Inbox/Conway's game of life.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Pika backup.md"
+                "file": "Inbox/Conway's game of life.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Pika backup.md",
+                "file": "Inbox/Conway's game of life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Pika backup.md",
+                "file": "Inbox/Conway's game of life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,6 +201,7 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Notes/Pika backup.md",
     "Inbox/Pika backup.md~",
     "Inbox/Recipe manager.md",
     "Notes/OpenLCA.md",
@@ -238,7 +239,6 @@
     "Inbox/Nothing changes if nothing changes.md~",
     "Tiago Forte - Building a Second Brain _ A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential-Atria Books (2022).epub",
     "Journal/2024-07-18.md~",
-    "Journal/2024-07-17.md~",
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
