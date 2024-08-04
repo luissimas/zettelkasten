@@ -2,7 +2,7 @@
 created-at: 2024-08-04
 ---
 
-The concept of _ownership_ is unique to [[Rust]]. It enables Rust to make memory safety guarantees without the need for a garbage colector. That means that we can get strong safety guarantees without any runtime overhead.
+The concept of _ownership_ is unique to [[Rust]]. It enables Rust to make memory safety guarantees without the need for a [[Garbage colector]]. That means that we can get strong safety guarantees without any runtime overhead. Additionally, Rust also provides [[Borrowing]] mechanisms that allow the creation of references to values without transferring ownership.
 
 > All data stored on the stack must have a known, fixed size. Data with an unknown size at compile time or a size that might change must be stored on the heap instead.
 
@@ -63,3 +63,7 @@ fn makes_copy(integer: i32) {
     println!("{integer}")
 }
 ```
+
+# References
+
+https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html

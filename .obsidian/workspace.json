@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Rust.md",
+                "file": "Notes/Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Rust.md",
+                "file": "Notes/Rust.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Rust.md"
+                "file": "Notes/Rust.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Rust.md",
+                "file": "Notes/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Rust.md",
+                "file": "Notes/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 566.5,
-    "collapsed": true
+    "width": 566.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,10 +200,14 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Notes/Inbox/Zero knowledge proof.md~",
-    "Notes/Immutability by default.md",
-    "Inbox/Rust.md",
     "Notes/Ownership.md",
+    "Notes/Ownership.md~",
+    "Notes/Borrowing.md",
+    "Notes/Rust.md",
+    "Inbox/Rust.md~",
+    "Notes/Immutability by default.md",
+    "Inbox/Borrowing.md~",
+    "Notes/Inbox/Zero knowledge proof.md~",
     "Attachments/trpl04-03.svg",
     "Inbox/Recipe manager.md",
     "Attachments/trpl04-02.svg",
@@ -233,15 +236,10 @@
     "Notes/Managing multiple interests.md",
     "Notes/Systems.md",
     "Templates/Note.md",
-    "Notes/Merge interests.md",
     "Inbox/Managing multiple interests.md~",
     "Untitled",
     "Inbox/Taskwarrior.md~",
     "Inbox/Fullstack.md~",
-    "Inbox/Brio.md~",
-    "Inbox/Nothing changes if nothing changes.md~",
-    "Tiago Forte - Building a Second Brain _ A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential-Atria Books (2022).epub",
-    "Journal/2024-07-18.md~",
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
