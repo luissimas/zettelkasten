@@ -5,26 +5,18 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [
-    {
-      "query": "path:\"Indexes\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 4618440
-      }
-    }
-  ],
+  "collapse-color-groups": false,
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.9,
+  "textFadeMultiplier": -1,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.397435897435897,
-  "repelStrength": 10,
-  "linkStrength": 0.458333333333333,
-  "linkDistance": 250,
-  "scale": 0.19236923417066976,
+  "centerStrength": 0.550097847358121,
+  "repelStrength": 10.2504892367906,
+  "linkStrength": 0.86320939334638,
+  "linkDistance": 171,
+  "scale": 0.8280644950118985,
   "close": true
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Conway's game of life.md",
+                "file": "Inbox/Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Conway's game of life.md",
+                "file": "Inbox/Rust.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Conway's game of life.md"
+                "file": "Inbox/Rust.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Conway's game of life.md",
+                "file": "Inbox/Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Conway's game of life.md",
+                "file": "Inbox/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,13 +199,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "0ffb9ce8e8a0a57d",
   "lastOpenFiles": [
+    "Notes/Immutability by default.md",
+    "Inbox/Rust.md",
+    "Notes/Ownership.md",
+    "Attachments/trpl04-03.svg",
+    "Inbox/Recipe manager.md",
+    "Attachments/trpl04-02.svg",
+    "Notes/Mathematics for Self-Study.md",
+    "Notes/Software testing.md",
+    "Notes/Holismo.md",
+    "Attachments/Prob/tabeladistribuicaonormal.png",
+    "Inbox/Conway's game of life.md",
     "Notes/Pika backup.md",
     "Inbox/Pika backup.md~",
-    "Inbox/Recipe manager.md",
     "Notes/OpenLCA.md",
-    "Notes/Holismo.md",
     "Inbox/Git.md",
     "Notes/Fedora.md",
     "Notes/Frontend.md",
@@ -225,12 +234,6 @@
     "Templates/Note.md",
     "Notes/Merge interests.md",
     "Notes/Time management.md",
-    "Notes/Intensity in life.md",
-    "Indexes/Computer science.md",
-    "Notes/Kubernetes.md",
-    "Indexes/Software development.md",
-    "Indexes/UFSCar.md",
-    "Inbox/Untitled.md",
     "Inbox/Managing multiple interests.md~",
     "Untitled",
     "Inbox/Taskwarrior.md~",
@@ -248,9 +251,6 @@
     "Attachments/SO/regiaocritica.png",
     "Attachments/SO/estadosprocessos.png",
     "Attachments/SO/esquemaarquivos.png",
-    "Attachments/SO/tabeladiretorio.png",
-    "Attachments/SO/algoritmossubstituicao.png",
-    "Attachments/SO/camadassoftwareio.png",
     "Homelab.canvas"
   ]
 }
