@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Conway's game of life.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Conway's game of life.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Rust.md"
+                "file": "Notes/Conway's game of life.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Conway's game of life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Conway's game of life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 566.5
+    "width": 566.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +199,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ffb9ce8e8a0a57d",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Conway's game of life.md~",
+    "Notes/Algebraic data types.md",
+    "Notes/Conway's game of life.md",
+    "Notes/Alternate screen.md",
+    "Inbox/Alternate screen.md~",
+    "Inbox/Recipe manager.md",
+    "Indexes/Processamento digital de imagens.md",
+    "Notes/Filtragem de imagens.md",
+    "Notes/Convolução.md",
     "Notes/Rust.md",
     "Notes/Ownership.md",
     "Notes/Ownership.md~",
@@ -209,13 +219,11 @@
     "Inbox/Borrowing.md~",
     "Notes/Inbox/Zero knowledge proof.md~",
     "Attachments/trpl04-03.svg",
-    "Inbox/Recipe manager.md",
     "Attachments/trpl04-02.svg",
     "Notes/Mathematics for Self-Study.md",
     "Notes/Software testing.md",
     "Notes/Holismo.md",
     "Attachments/Prob/tabeladistribuicaonormal.png",
-    "Inbox/Conway's game of life.md",
     "Notes/Pika backup.md",
     "Inbox/Pika backup.md~",
     "Notes/OpenLCA.md",
@@ -229,17 +237,10 @@
     "Journal/2024-07-17.md",
     "Journal/2024-07-18.md",
     "Journal/2024-07-19.md",
-    "Indexes/Homelab.md",
-    "Indexes/Fitness.md",
     "Canvases/Recipe manager.canvas",
     "Inbox/Recipe manager.md~",
-    "Notes/Managing multiple interests.md",
-    "Notes/Systems.md",
-    "Templates/Note.md",
     "Inbox/Managing multiple interests.md~",
     "Untitled",
-    "Inbox/Taskwarrior.md~",
-    "Inbox/Fullstack.md~",
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
