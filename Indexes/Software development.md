@@ -11,3 +11,4 @@ created-at: 2024-06-03
 [[Elixir in Action]]
 [[Fullstack]]
 [[Web design]]
+[[Rust]]
