@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Conway's game of life.md",
+                "file": "Notes/Access control.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Conway's game of life.md",
+                "file": "Notes/Access control.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Conway's game of life.md"
+                "file": "Notes/Access control.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Conway's game of life.md",
+                "file": "Notes/Access control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Conway's game of life.md",
+                "file": "Notes/Access control.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,9 +201,12 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Notes/Conway's game of life.md",
+    "Notes/Access control.md",
+    "Access control.md~",
+    "Access control.md",
     "Inbox/Conway's game of life.md~",
     "Notes/Algebraic data types.md",
-    "Notes/Conway's game of life.md",
     "Notes/Alternate screen.md",
     "Inbox/Alternate screen.md~",
     "Inbox/Recipe manager.md",
@@ -236,11 +239,9 @@
     "Journal/2024-07-16.md",
     "Journal/2024-07-17.md",
     "Journal/2024-07-18.md",
-    "Journal/2024-07-19.md",
     "Canvases/Recipe manager.canvas",
     "Inbox/Recipe manager.md~",
     "Inbox/Managing multiple interests.md~",
-    "Untitled",
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
