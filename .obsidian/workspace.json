@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Rust error handling.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Rust error handling.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Rust.md"
+                "file": "Notes/Rust error handling.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Rust error handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Rust.md",
+                "file": "Notes/Rust error handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,10 +201,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e914d2973def2678",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Notes/Go.md",
     "Notes/Rust.md",
+    "Notes/Rust error handling.md",
+    "Notes/Go.md",
     "Notes/Elixir.md",
     "Indexes/Software development.md",
     "Notes/Access control.md",
@@ -240,7 +241,6 @@
     "Notes/Frontend.md",
     "Canvases/Interests.canvas",
     "Journal/2024-07-14.md",
-    "Journal/2024-07-15.md",
     "Canvases/Recipe manager.canvas",
     "Inbox/Recipe manager.md~",
     "Inbox/Managing multiple interests.md~",
