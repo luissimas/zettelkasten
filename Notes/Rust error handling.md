@@ -22,7 +22,7 @@ fn main() {
 }
 ```
 
-The `?` operator can be used to propagate errors early to the caller, much like the `if err != nil return err` pattern in [[Go]]. This operator can be used on the `Result` and `Option` types (or any type that implements the `FromResidual` [[Rust traits|trait]]).
+The `?` operator can be used to propagate errors early to the caller, much like the `if err != nil return err` pattern in [[Go]]. This operator can be used on the `Result` and `Option` types (or any type that implements the `FromResidual` [[Traits|trait]]).
 
 ```rust
 fn read_username_from_file() -> Result<String, io::Error> {
@@ -33,7 +33,7 @@ fn read_username_from_file() -> Result<String, io::Error> {
 }
 ```
 
-Additionally, the `main` function can also return a `Result` (any type that implements the `std::process::Termination` [[Rust traits|trait]] to be more precise). In that case, the program exists with a return code of 0 or non 1 depending of the result value.
+Additionally, the `main` function can also return a `Result` (any type that implements the `std::process::Termination` [[Traits|trait]] to be more precise). In that case, the program exists with a return code of 0 or non 1 depending of the result value.
 
 ```rust
 use std::error::Error;
