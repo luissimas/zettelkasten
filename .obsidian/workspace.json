@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 907.5
+    "width": 907.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,12 +203,14 @@
   },
   "active": "0ffb9ce8e8a0a57d",
   "lastOpenFiles": [
-    "Inbox/Rust standard library.md",
+    "Notes/Shiny object syndrome.md",
+    "Notes/Rust standard library.md",
+    "Notes/Simplicity.md",
+    "Notes/Rust.md",
+    "Inbox/Generics.md",
     "Inbox/Traits.md~",
     "Inbox/Traits.md",
     "Notes/Rust.md~",
-    "Notes/Rust.md",
-    "Inbox/Generics.md",
     "Notes/Rust error handling.md",
     "Notes/Go.md",
     "Notes/Elixir.md",
@@ -239,8 +242,6 @@
     "Attachments/Prob/tabeladistribuicaonormal.png",
     "Notes/Pika backup.md",
     "Inbox/Pika backup.md~",
-    "Notes/OpenLCA.md",
-    "Inbox/Git.md",
     "Canvases/Interests.canvas",
     "Canvases/Recipe manager.canvas",
     "Attachments/Pasted image 20240717074029.png",
