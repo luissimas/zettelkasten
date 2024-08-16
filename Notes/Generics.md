@@ -19,19 +19,3 @@ enum Result<T, E> {
     Err(E),
 }
 ```
-
-In the following example, we define a function `largest` that has a generic type `T`. Since we do a comparison operation on the value of type `T`, Rust forces us to specify more about the type. In this case, `T` cannot be of any type, it has to be a type that implements the `std::cmp::PartialOrd` [[Traits|trait]].
-
-```rust
-fn largest<T: std::cmp::PartialOrd>(list: &[T]) -> &T {
-    let mut largest = &list[0];
-
-    for number in list {
-        if number > largest {
-            largest = number;
-        }
-    }
-
-    return largest;
-}
-```
