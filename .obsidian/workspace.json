@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Tests in Rust.md",
+                "file": "Notes/Tests in Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Tests in Rust.md",
+                "file": "Notes/Tests in Rust.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Tests in Rust.md"
+                "file": "Notes/Tests in Rust.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Tests in Rust.md",
+                "file": "Notes/Tests in Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Tests in Rust.md",
+                "file": "Notes/Tests in Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,15 +201,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ffb9ce8e8a0a57d",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Inbox/Tests in Rust.md~",
     "Inbox/Cargo.md",
+    "Inbox/Software businesses.md",
+    "Inbox/TTA.md",
+    "Notes/Tests in Rust.md",
+    "Inbox/Tests in Rust.md~",
     "Notes/Static lifetime.md",
     "Notes/Lifetimes.md",
     "Inbox/Recipe manager.md",
-    "Inbox/Software businesses.md",
-    "Inbox/TTA.md",
     "a.py~",
     "a.py",
     "Inbox/TTA.md~",
@@ -238,7 +239,6 @@
     "Inbox/Conway's game of life.md~",
     "Notes/Algebraic data types.md",
     "Notes/Alternate screen.md",
-    "Inbox/Alternate screen.md~",
     "Attachments/trpl04-03.svg",
     "Attachments/trpl04-02.svg",
     "Attachments/Prob/tabeladistribuicaonormal.png",
