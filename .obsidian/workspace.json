@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Goals.md",
+                "file": "Notes/Managing multiple interests.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Goals.md",
+                "file": "Notes/Managing multiple interests.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Goals.md"
+                "file": "Notes/Managing multiple interests.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Goals.md",
+                "file": "Notes/Managing multiple interests.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Goals.md",
+                "file": "Notes/Managing multiple interests.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,22 +203,30 @@
   },
   "active": "eab45a739c0e6aba",
   "lastOpenFiles": [
+    "Inbox/Communicating effectively.md",
+    "Notes/Managing multiple interests.md",
+    "Inbox/Zettelkasten CLI.md",
+    "Inbox/Type-driven design.md",
+    "Inbox/Recipe manager.md",
+    "Inbox/Quartz.md",
+    "Inbox/Publishing my Zettelkasten.md",
+    "Inbox/Pacemaker.md",
+    "Inbox/It's not about time, it's about energy.md",
+    "Inbox/How to learn.md",
+    "Notes/Goals.md",
+    "Inbox/Quartz.md~",
     "Inbox/Zettelkasten CLI.md~",
     "Notes/Zettelkasten CLI.md",
-    "Inbox/Zettelkasten CLI.md",
-    "Notes/Goals.md",
     "Notes/Zettelkasten CLI.md~",
     "Inbox/Cargo.md",
     "Canvases/Interests.canvas",
     "Notes/Goals.md~",
     "Notes/4913",
     "Notes/Managing multiple interests.md~",
-    "Inbox/It's not about time, it's about energy.md",
     "Notes/Closures.md",
     "Notes/Software businesses.md",
     "Notes/Iterators.md",
     "Inbox/Iterators.md~",
-    "Inbox/Type-driven design.md",
     "Inbox/Closures.md~",
     "Indexes/Software development.md",
     "Inbox/Software businesses.md~",
@@ -230,16 +238,8 @@
     "Notes/Generics.md",
     "Notes/Trait bounds.md",
     "Notes/Traits.md",
-    "Inbox/Tests in Rust.md~",
     "Notes/Static lifetime.md",
     "Notes/Lifetimes.md",
-    "Inbox/Recipe manager.md",
-    "a.py~",
-    "Notes/Borrowing.md",
-    "Notes/Ownership.md",
-    "Notes/Blanket implementations.md",
-    "Notes/Shiny object syndrome.md",
-    "Notes/Rust standard library.md",
     "Attachments/trpl04-03.svg",
     "Attachments/trpl04-02.svg",
     "Attachments/Prob/tabeladistribuicaonormal.png",

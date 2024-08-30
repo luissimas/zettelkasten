@@ -33,3 +33,9 @@ The [[Interests.canvas|Interests canvas]] is a better way to visualize the diffe
 
 https://www.youtube.com/watch?v=B_KqZ61GEb0
 https://www.youtube.com/watch?v=RQ24JDuyLNs
+
+# Review later
+
+https://youtu.be/-65ZLEuqTzk
+https://youtu.be/sxKu2a8glEE
+https://youtu.be/zS2yF1dUYfs
