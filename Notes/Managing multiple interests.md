@@ -29,11 +29,6 @@ Those are my main areas of pursuit, ranked from most to least important.
 
 The [[Interests.canvas|Interests canvas]] is a better way to visualize the different pursuits and their ramifications.
 
-# Short term goals
-
-1. Create a fitness habit: I should consistently exercise in the gym and do some cardio. The end goal is to have a baseline of everyday activities, but I need to slowly build up to that.
-2. Learn to build products with [[Phoenix]]: I should work on a side project using Phoenix to learn how to build [[Fullstack]] applications. The end goal is to develop the skills to build full solutions from scratch. I'll start focusing on design principles and how to build a [[Frontend]], since it's my weak point. This will be my main focus.
-
 # References
 
 https://www.youtube.com/watch?v=B_KqZ61GEb0
