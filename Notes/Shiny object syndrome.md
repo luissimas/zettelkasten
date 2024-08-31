@@ -1,5 +1,6 @@
 ---
 created-at: 2024-07-17
+tags: post
 ---
 
 Shiny object syndrome is the condition in which a person **constantly starts new pursuits** because they look fun and interesting, disregarding their current goals and ongoing activities. I personally suffered and suffer a lot from this condition, but acceptance is the first step towards improvement.

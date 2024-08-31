@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-GB",
     baseUrl: "luissimas.github.io/zettelkasten",
-    ignorePatterns: ["Templates", "Canvases", "Journal", "README.md", ".scripts", ".obsidian", ".trash"],
+    ignorePatterns: ["Inbox", "Templates", "Canvases", "Journal", "README.md", ".scripts", ".obsidian", ".trash"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -55,13 +55,14 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      Plugin.HardLineBreaks(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          light: "vitesse-light",
+          dark: "vitesse-dark",
         },
         keepBackground: false,
       }),

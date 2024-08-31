@@ -12,3 +12,5 @@ Planned features:
 - Add tags and arbitrary attributes to notes
 - Enforce my preferred formatting
 - Manage git operations and publishing with [[Quartz]]
+- Show orphaned notes
+- Show orphaned attachments
