@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Luís's Zettelkasten 🪴",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "en-GB",
+    baseUrl: "luissimas.github.io/zettelkasten",
+    ignorePatterns: ["Templates", "Canvases", "Journal", "README.md", ".scripts", ".obsidian", ".trash"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
