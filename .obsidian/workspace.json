@@ -11,8 +11,13 @@
             "id": "eab45a739c0e6aba",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Homelab SSL certificates.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/Homelab SSL certificates.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -141,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notes/Homelab SSL certificates.md"
+              }
             }
           },
           {
@@ -150,6 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Homelab SSL certificates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Homelab SSL certificates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,17 +203,23 @@
   },
   "active": "eab45a739c0e6aba",
   "lastOpenFiles": [
+    "Notes/Homelab SSL certificates.md~",
+    "Attachments/jellyfin.jpeg",
+    "Attachments/homepage.jpeg",
+    "Attachments/grafana.jpeg",
+    "Attachments/duckdns.png",
+    "Homelab SSL certificates.md~",
+    "Notes/Homelab SSL certificates.md",
+    "Notes/Shiny object syndrome.md~",
     "README.md~",
     "Inbox/Quartz.md~",
     "index.md~",
-    "Notes/Shiny object syndrome.md~",
     "Notes/Kubernetes.md~",
     "Inbox/Zettelkasten CLI.md~",
     "index.md",
     "deploy.yml",
     "scripts/org-to-md.sh",
     "scripts/add-frontmatter.py",
-    "scripts",
     "Inbox/Quartz.md",
     "Notes/Managing multiple interests.md",
     "Inbox/Communicating effectively.md",
@@ -216,7 +232,6 @@
     "Inbox/How to learn.md",
     "Notes/Goals.md",
     "Notes/Zettelkasten CLI.md",
-    "Notes/Zettelkasten CLI.md~",
     "Inbox/Cargo.md",
     "Canvases/Interests.canvas",
     "Notes/Closures.md",
@@ -229,7 +244,6 @@
     "Notes/Tests in Rust.md",
     "Notes/Generics.md",
     "Notes/Trait bounds.md",
-    "Notes/Traits.md",
     "Attachments/trpl04-03.svg",
     "Attachments/trpl04-02.svg",
     "Attachments/Prob/tabeladistribuicaonormal.png",
@@ -237,12 +251,8 @@
     "Attachments/Pasted image 20240717074029.png",
     "Attachments/Pasted image 20240717074001.png",
     "Attachments/Pasted image 20240717073950.png",
-    "Attachments/Pasted image 20240715092347.png",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",
-    "Attachments/SO/regiaocritica.png",
-    "Attachments/SO/estadosprocessos.png",
-    "Attachments/SO/esquemaarquivos.png",
     "Homelab.canvas"
   ]
 }

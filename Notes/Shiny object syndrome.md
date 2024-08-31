@@ -26,3 +26,4 @@ The most important thing to overcome this condition is to accept that we **canno
 # References
 
 https://en.wikipedia.org/wiki/Shiny_object_syndrome
+https://www.skool.com/synthesizers/techniques-to-overcome-shiny-object-syndrome

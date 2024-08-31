@@ -24,6 +24,7 @@ const leftComponents: QuartzComponent[] = [
   Component.DesktopOnly(Component.RecentNotes({
     title: "Recent posts",
     limit: 5,
+    showTags: false,
     linkToMore: "tags/post" as SimpleSlug,
     filter: (data: QuartzPluginData) => !!data.frontmatter?.tags?.includes("post"),
   })),
