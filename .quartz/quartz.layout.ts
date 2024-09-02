@@ -23,14 +23,14 @@ const leftComponents: QuartzComponent[] = [
   Component.Darkmode(),
   Component.DesktopOnly(Component.RecentNotes({
     title: "Recent posts",
-    limit: 5,
+    limit: 3,
     showTags: false,
     linkToMore: "tags/post" as SimpleSlug,
     filter: (data: QuartzPluginData) => !!data.frontmatter?.tags?.includes("post"),
   })),
   Component.DesktopOnly(Component.RecentNotes({
     title: "Recent notes",
-    limit: 5,
+    limit: 3,
     linkToMore: "Notes/" as SimpleSlug,
   })),
 ]
