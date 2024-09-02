@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Homelab SSL certificates.md",
+                "file": "Notes/Quartz.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "369309caa5039d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pacemaker.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Homelab SSL certificates.md",
+                "file": "Notes/Pacemaker.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Homelab SSL certificates.md"
+                "file": "Notes/Pacemaker.md"
               }
             }
           },
@@ -158,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Homelab SSL certificates.md",
+                "file": "Notes/Pacemaker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Homelab SSL certificates.md",
+                "file": "Notes/Pacemaker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,12 +211,35 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eab45a739c0e6aba",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240902071355.png",
+    "Notes/Corosync.md",
+    "Notes/Pacemaker.md",
+    "Inbox/Corosync.md~",
+    "Inbox/Pacemaker.md~",
+    "Inbox/Type-driven design.md",
+    "Inbox/Upgrading my PC.md",
+    "Inbox/Recipe manager.md",
+    "Inbox/It's not about time, it's about energy.md",
+    "Inbox/How to learn.md",
+    "Inbox/Cargo.md",
+    "Inbox/Zettelkasten CLI.md",
+    "Notes/Publishing my Zettelkasten.md",
+    "Inbox/Zettelkasten.md",
+    "Inbox/Zettelkasten.md~",
+    "Notes/Quartz.md",
+    "Inbox/Quartz.md~",
+    "Notes/Holismo.md",
+    "Notes/Openstack.md",
+    "Inbox/Communicating effectively.md",
+    "Inbox/Upgrading my PC.md~",
+    "Notes/Homelab SSL certificates.md",
+    "Notes/Traits.md~",
     "index.md~",
     "README.md~",
     "Notes/Resume.md~",
@@ -212,38 +249,15 @@
     "Attachments/homepage.jpeg",
     "Attachments/grafana.jpeg",
     "Attachments/duckdns.png",
-    "Homelab SSL certificates.md~",
-    "Notes/Homelab SSL certificates.md",
-    "Notes/Shiny object syndrome.md~",
-    "Inbox/Quartz.md~",
-    "Notes/Kubernetes.md~",
-    "Inbox/Zettelkasten CLI.md~",
     "index.md",
-    "deploy.yml",
-    "scripts/org-to-md.sh",
-    "Inbox/Quartz.md",
     "Notes/Managing multiple interests.md",
-    "Inbox/Communicating effectively.md",
-    "Inbox/Zettelkasten CLI.md",
-    "Inbox/Type-driven design.md",
-    "Inbox/Recipe manager.md",
-    "Inbox/Publishing my Zettelkasten.md",
-    "Inbox/Pacemaker.md",
-    "Inbox/It's not about time, it's about energy.md",
-    "Inbox/How to learn.md",
     "Notes/Goals.md",
     "Notes/Zettelkasten CLI.md",
-    "Inbox/Cargo.md",
     "Canvases/Interests.canvas",
     "Notes/Closures.md",
     "Notes/Software businesses.md",
     "Notes/Iterators.md",
     "Indexes/Software development.md",
-    "Inbox/TTA.md",
-    "Notes/Avoiding fear.md",
-    "Notes/Rust.md",
-    "Notes/Tests in Rust.md",
-    "Notes/Generics.md",
     "Attachments/trpl04-03.svg",
     "Attachments/trpl04-02.svg",
     "Attachments/Prob/tabeladistribuicaonormal.png",
