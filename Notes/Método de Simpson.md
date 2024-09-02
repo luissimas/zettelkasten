@@ -1,4 +1,6 @@
-## Método de Simpson
+---
+created-at: "2024-07-16"
+---
 
 O método de Simpsons é usado para fazer a [[Integração numérica]] de funções. Esse método consiste em aproximar a função por um polinômio de grau $2$ para então obter a área do gráfico da função aproximada.
 
@@ -69,4 +71,3 @@ f = lambda x: np.cos(4 * x)
 
 print(simpsons(i, f, 92))
 ```
-

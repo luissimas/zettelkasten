@@ -1,3 +1,7 @@
+---
+created-at: "2024-08-13"
+---
+
 Like [[Go]], [[Rust]] favor errors as values in the case of recoverable errors and panics in the case of unrecoverable errors. Unlike Go, Rust has a rich type system with [[Algebraic data types]], which opens up the possibilities for error handling via a `Result<T, E>` type.
 
 We can use [[Pattern matching]] to extract either the value or the error from a `Result` type. Several methods such as `ok`, `expect` and `unwrap` are defined on this type so we can more idiomatically handle the errors.

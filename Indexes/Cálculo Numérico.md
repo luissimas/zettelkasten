@@ -1,3 +1,7 @@
+---
+created-at: "2024-07-16"
+---
+
 Cálculo numérico (ou análise numérica), é o ramo do cálculo que estuda algoritmos de aproximação numérica para diversos problemas da matemática.
 
 [[Erros em métodos de aproximação]]

@@ -1,3 +1,7 @@
+---
+created-at: "2024-07-16"
+---
+
 A álgebra linear surgiu do estudo de sistemas de equações lineares e suas representações em estruturas como vetores e matrizes.
 
 [[Espaço vetorial]]
