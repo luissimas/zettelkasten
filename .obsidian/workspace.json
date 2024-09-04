@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indexes/UFSCar.md",
+                "file": "Notes/Tests in Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -101,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Indexes/UFSCar.md",
+                "file": "Notes/Tests in Rust.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indexes/UFSCar.md"
+                "file": "Notes/Tests in Rust.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indexes/UFSCar.md",
+                "file": "Notes/Tests in Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indexes/UFSCar.md",
+                "file": "Notes/Tests in Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,6 +217,11 @@
   },
   "active": "369309caa5039d31",
   "lastOpenFiles": [
+    "Notes/Cargo.md",
+    "Notes/Rust standard library.md",
+    "Notes/Rust.md",
+    "Inbox/Upgrading my PC.md",
+    "Indexes/UFSCar.md",
     "Indexes/Álgebra linear.md~",
     "Indexes/Teoria da computação.md",
     "Indexes/Software development.md",
@@ -239,10 +244,6 @@
     "Indexes/Filosofia da ciência.md",
     "Indexes/Computer science.md",
     "Indexes/Cálculo Numérico.md",
-    "Indexes/Calculo diferencial e séries.md",
-    "Indexes/Cálculo diferencial e integral.md",
-    "Indexes/Books.md",
-    "Indexes/Banco de dados.md",
     "Notes/Derivadas parciais.md~",
     "Indexes/Filosofia da ciência.md~",
     "Indexes/Cálculo Numérico.md~",
@@ -253,7 +254,6 @@
     "Inbox/Communicating effectively.md~",
     "Notes/Cultura e signos.md~",
     "Attachments/Pasted image 20240902071355.png",
-    "Inbox/Corosync.md~",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
     "Attachments/grafana.jpeg",
