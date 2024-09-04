@@ -1,5 +1,4 @@
 ---
-title: About
 created-at: 2024-08-31
 ---
 
