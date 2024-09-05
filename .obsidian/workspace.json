@@ -32,9 +32,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "3ef5a38df3fbbc5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/CloudNativePG.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Piraeus Operator.md",
+                "file": "Inbox/CloudNativePG.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Piraeus Operator.md"
+                "file": "Inbox/CloudNativePG.md"
               }
             }
           },
@@ -172,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Piraeus Operator.md",
+                "file": "Inbox/CloudNativePG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Piraeus Operator.md",
+                "file": "Inbox/CloudNativePG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,18 +228,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "3ef5a38df3fbbc5a",
   "lastOpenFiles": [
+    "Inbox/eBPF.md~",
+    "Inbox/eBPF.md",
+    "eBPF.md~",
+    "eBPF.md",
+    "Inbox/Atlas Operator.md~",
+    "Inbox/CloudNativePG.md~",
+    "Inbox/Atlas Operator.md",
+    "Inbox/CloudNativePG.md",
+    "Inbox/Communicating effectively.md",
+    "Inbox/How to learn.md",
+    "Inbox/It's not about time, it's about energy.md",
+    "Inbox/Recipe manager.md",
+    "Inbox/Zettelkasten CLI.md",
+    "Inbox/Upgrading my PC.md",
+    "Inbox/Type-driven design.md",
+    "Notes/Piraeus Operator.md",
     "Inbox/Piraeus Operator.md~",
     "Notes/Kubernetes Operator.md",
-    "Notes/Piraeus Operator.md",
-    "Inbox/How to learn.md",
     "Notes/Quartz.md",
     "Notes/Tests in Rust.md",
     "Notes/Cargo.md",
     "Notes/Rust standard library.md",
     "Notes/Rust.md",
-    "Inbox/Upgrading my PC.md",
     "Indexes/UFSCar.md",
     "Indexes/Álgebra linear.md~",
     "Indexes/Teoria da computação.md",
@@ -235,24 +261,11 @@
     "Indexes/Projeto e análise de algoritmos.md",
     "Indexes/Programação paralela e distribuída.md",
     "Indexes/Probabilidade e estatística.md",
-    "Indexes/Processamento digital de imagens.md",
-    "Indexes/Organização e recuperação da informação.md",
-    "Indexes/Matemática discreta.md",
-    "Indexes/Lógica matemática.md",
-    "Indexes/Lógica digital.md",
-    "Indexes/Latim.md",
-    "Indexes/Language learning.md",
-    "Indexes/Introdução ao pensamento algorítmico.md",
-    "Indexes/Inteligência Artificial.md",
     "Notes/Derivadas parciais.md~",
     "Indexes/Filosofia da ciência.md~",
     "Indexes/Cálculo Numérico.md~",
     "Notes/Derivada.md~",
     "Notes/Método de Simpson.md~",
-    "Notes/Rust error handling.md~",
-    "Inbox/How to learn.md~",
-    "Inbox/Communicating effectively.md~",
-    "Notes/Cultura e signos.md~",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
