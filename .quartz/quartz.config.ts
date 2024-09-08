@@ -12,7 +12,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "goatcounter",
+      websiteId: "pada-zettelkasten",
     },
     locale: "en-GB",
     baseUrl: "luissimas.github.io/zettelkasten",
