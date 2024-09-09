@@ -11,8 +11,13 @@
             "id": "3ef5a38df3fbbc5a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notes/eBPF.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Notes/eBPF.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md"
+                "file": "Notes/eBPF.md"
               }
             }
           },
@@ -160,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/eBPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/eBPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,14 +209,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "3ef5a38df3fbbc5a",
   "lastOpenFiles": [
-    "Inbox/eBPF.md",
+    "Notes/eBPF.md~",
+    "Inbox/eBPF.md~",
+    "Attachments/Pasted image 20240909084338.png",
+    "Attachments/Pasted image 20240909084308.png",
+    "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
+    "Notes/eBPF.md",
     "Inbox/Zettelkasten CLI.md",
     "Inbox/Recipe manager.md",
     "Notes/It's not about time, it's about energy.md",
     "Notes/It's not about time, it's about energy.md~",
-    "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
     "Excalidraw",
     "Notes/Intensity in life.md",
     "Inbox/It's not about time, it's about energy.md~",
@@ -222,7 +234,6 @@
     "Notes/CloudNativePG.md",
     "Inbox/Atlas Operator.md",
     "Inbox/CloudNativePG.md~",
-    "Inbox/eBPF.md~",
     "eBPF.md~",
     "eBPF.md",
     "Inbox/Atlas Operator.md~",
@@ -248,8 +259,6 @@
     "Attachments/trpl04-02.svg",
     "Attachments/Prob/tabeladistribuicaonormal.png",
     "Canvases/Recipe manager.canvas",
-    "Attachments/Pasted image 20240717074029.png",
-    "Attachments/Pasted image 20240717074001.png",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",
     "Homelab.canvas"
