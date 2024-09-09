@@ -11,13 +11,8 @@
             "id": "eab45a739c0e6aba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/How to learn.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -39,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/CloudNativePG.md",
+                "file": "Inbox/eBPF.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -114,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/CloudNativePG.md",
+                "file": "Inbox/eBPF.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -175,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/CloudNativePG.md"
+                "file": "Inbox/eBPF.md"
               }
             }
           },
@@ -185,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/CloudNativePG.md",
+                "file": "Inbox/eBPF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/CloudNativePG.md",
+                "file": "Inbox/eBPF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,21 +225,22 @@
   },
   "active": "3ef5a38df3fbbc5a",
   "lastOpenFiles": [
-    "Inbox/eBPF.md~",
+    "Inbox/It's not about time, it's about energy.md",
+    "Inbox/Communicating effectively.md",
     "Inbox/eBPF.md",
+    "Notes/Type-driven design.md",
+    "Inbox/Type-driven design.md~",
+    "Inbox/Zettelkasten CLI.md",
+    "Inbox/Upgrading my PC.md",
+    "Inbox/Recipe manager.md",
+    "Notes/CloudNativePG.md",
+    "Inbox/Atlas Operator.md",
+    "Inbox/CloudNativePG.md~",
+    "Inbox/eBPF.md~",
     "eBPF.md~",
     "eBPF.md",
     "Inbox/Atlas Operator.md~",
-    "Inbox/CloudNativePG.md~",
-    "Inbox/Atlas Operator.md",
-    "Inbox/CloudNativePG.md",
-    "Inbox/Communicating effectively.md",
     "Inbox/How to learn.md",
-    "Inbox/It's not about time, it's about energy.md",
-    "Inbox/Recipe manager.md",
-    "Inbox/Zettelkasten CLI.md",
-    "Inbox/Upgrading my PC.md",
-    "Inbox/Type-driven design.md",
     "Notes/Piraeus Operator.md",
     "Inbox/Piraeus Operator.md~",
     "Notes/Kubernetes Operator.md",
@@ -264,8 +260,6 @@
     "Notes/Derivadas parciais.md~",
     "Indexes/Filosofia da ciência.md~",
     "Indexes/Cálculo Numérico.md~",
-    "Notes/Derivada.md~",
-    "Notes/Método de Simpson.md~",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
