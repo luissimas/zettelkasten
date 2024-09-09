@@ -8,41 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eab45a739c0e6aba",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3159cca69aed9544",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Piraeus Operator.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "3ef5a38df3fbbc5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Communicating effectively.md",
+                "file": "Notes/It's not about time, it's about energy.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Communicating effectively.md",
+                "file": "Notes/It's not about time, it's about energy.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -170,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Communicating effectively.md"
+                "file": "Notes/It's not about time, it's about energy.md"
               }
             }
           },
@@ -180,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Communicating effectively.md",
+                "file": "Notes/It's not about time, it's about energy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Communicating effectively.md",
+                "file": "Notes/It's not about time, it's about energy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,14 +201,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "3ef5a38df3fbbc5a",
   "lastOpenFiles": [
-    "Inbox/Communicating effectively.md~",
-    "Inbox/It's not about time, it's about energy.md",
+    "Notes/It's not about time, it's about energy.md~",
+    "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
+    "Notes/It's not about time, it's about energy.md",
+    "Excalidraw",
+    "Notes/Intensity in life.md",
+    "Inbox/It's not about time, it's about energy.md~",
     "Inbox/Zettelkasten CLI.md",
     "Inbox/Recipe manager.md",
-    "Notes/Communicating effectively.md",
     "Inbox/eBPF.md",
+    "Notes/Piraeus Operator.md",
+    "Notes/Communicating effectively.md",
+    "Notes/Avoiding fear.md~",
+    "Inbox/Communicating effectively.md~",
     "Notes/Type-driven design.md",
     "Inbox/Type-driven design.md~",
     "Inbox/Upgrading my PC.md",
@@ -242,8 +227,6 @@
     "eBPF.md",
     "Inbox/Atlas Operator.md~",
     "Inbox/How to learn.md",
-    "Notes/Piraeus Operator.md",
-    "Inbox/Piraeus Operator.md~",
     "Notes/Kubernetes Operator.md",
     "Notes/Quartz.md",
     "Notes/Tests in Rust.md",
@@ -251,16 +234,10 @@
     "Notes/Rust standard library.md",
     "Notes/Rust.md",
     "Indexes/UFSCar.md",
-    "Indexes/Álgebra linear.md~",
     "Indexes/Teoria da computação.md",
     "Indexes/Software development.md",
     "Indexes/Sistemas operacionais.md",
     "Indexes/Projeto e análise de algoritmos.md",
-    "Indexes/Programação paralela e distribuída.md",
-    "Indexes/Probabilidade e estatística.md",
-    "Notes/Derivadas parciais.md~",
-    "Indexes/Filosofia da ciência.md~",
-    "Indexes/Cálculo Numérico.md~",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
