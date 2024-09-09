@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-GB",
     baseUrl: "luissimas.github.io/zettelkasten",
-    ignorePatterns: ["Inbox", "Templates", "Canvases", "Journal", "README.md", ".scripts", ".obsidian", ".trash"],
+    ignorePatterns: ["Inbox", "Templates", "Canvases", "Excalidraw", "Journal", "README.md", ".scripts", ".obsidian", ".trash"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
