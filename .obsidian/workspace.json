@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/eBPF.md",
+                "file": "Notes/Communicating effectively.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/eBPF.md",
+                "file": "Notes/Communicating effectively.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/eBPF.md"
+                "file": "Notes/Communicating effectively.md"
               }
             }
           },
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/eBPF.md",
+                "file": "Notes/Communicating effectively.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/eBPF.md",
+                "file": "Notes/Communicating effectively.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,16 +223,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ef5a38df3fbbc5a",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Communicating effectively.md~",
     "Inbox/It's not about time, it's about energy.md",
-    "Inbox/Communicating effectively.md",
+    "Inbox/Zettelkasten CLI.md",
+    "Inbox/Recipe manager.md",
+    "Notes/Communicating effectively.md",
     "Inbox/eBPF.md",
     "Notes/Type-driven design.md",
     "Inbox/Type-driven design.md~",
-    "Inbox/Zettelkasten CLI.md",
     "Inbox/Upgrading my PC.md",
-    "Inbox/Recipe manager.md",
     "Notes/CloudNativePG.md",
     "Inbox/Atlas Operator.md",
     "Inbox/CloudNativePG.md~",
