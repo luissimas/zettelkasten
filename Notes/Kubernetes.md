@@ -4,6 +4,8 @@ created-at: 2024-03-28
 
 Kubernetes is a container orchestration system that provides tools for automating software deployment, scaling, configuration management and also provides fault tolerance capabilities.
 
+The main strength of Kubernetes is its extensibility. With this, Kubernetes grows from an orchestration engine to a full platform to deploy and manage applications. [[Kubernetes Operator|Kubernetes operators]] are the primary pattern to extend its capabilities with new functionalities and expose it to cluster users.
+
 # Core concepts
 
 [[Kubernetes node]]

@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "eBPF",
-      "path": "Notes/eBPF.md"
+      "basename": "Pacemaker",
+      "path": "Notes/Pacemaker.md"
+    },
+    {
+      "basename": "KubeVirt",
+      "path": "Inbox/KubeVirt.md"
+    },
+    {
+      "basename": "Managing multiple interests",
+      "path": "Notes/Managing multiple interests.md"
+    },
+    {
+      "basename": "Recipe manager",
+      "path": "Inbox/Recipe manager.md"
     },
     {
       "basename": "Zettelkasten CLI",
       "path": "Inbox/Zettelkasten CLI.md"
     },
     {
-      "basename": "Recipe manager",
-      "path": "Inbox/Recipe manager.md"
+      "basename": "eBPF",
+      "path": "Notes/eBPF.md"
     },
     {
       "basename": "It's not about time, it's about energy",

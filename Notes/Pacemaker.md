@@ -10,7 +10,9 @@ Pacemaker has a [[Holismo|holistic]] view of the applications it manages. It man
 
 It's worth mentioning that Pacemaker provides resource management for the cluster, but it still depends on a _cluster engine_ like [[Corosync]], Heartbeat or CMAN to provide reliable messaging, quorum and low-level cluster management facilities.
 
-A _resource_ is any service managed by Pacemaker. Resource agents are "drivers" that provide a standard interface for Pacemaker to manage services from a wide range of implementations. These are usually implemented as shell scripts. There are resource agents for [[Systemd]], OCF (Open Cluster Framework), LSB (Linux Standard Base) etc. This architecture makes Pacemaker extensible and able to manage heterogeneous resources while keeping a consistent interface to the operator.
+A _resource_ is anything that can be managed by Pacemaker. Resources can be services, [[DRBD]] devices, [[Floating IP|floating ips]] etc.
+
+Resource agents are "drivers" that provide a standard interface for Pacemaker to manage services from a wide range of implementations. These are usually implemented as shell scripts. There are resource agents for [[Systemd]], OCF (Open Cluster Framework), LSB (Linux Standard Base) etc. This architecture makes Pacemaker extensible and able to manage heterogeneous resources while keeping a consistent interface to the operator.
 
 > Anything that can be scripted can be clustered
 

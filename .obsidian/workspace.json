@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/eBPF.md",
+                "file": "Notes/Managing multiple interests.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ee39bbf49d03cea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Pacemaker.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/eBPF.md",
+                "file": "Notes/Pacemaker.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/eBPF.md"
+                "file": "Notes/Pacemaker.md"
               }
             }
           },
@@ -166,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/eBPF.md",
+                "file": "Notes/Pacemaker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/eBPF.md",
+                "file": "Notes/Pacemaker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,16 +223,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ef5a38df3fbbc5a",
+  "active": "ee39bbf49d03cea2",
   "lastOpenFiles": [
+    "Notes/DRBD.md~",
+    "Inbox/KubeVirt.md~",
+    "Notes/Pacemaker.md~",
+    "Inbox/KubeVirt.md",
+    "Attachments/Pasted image 20240913074257.png",
+    "Notes/Kubernetes.md~",
+    "Notes/Managing multiple interests.md",
+    "Inbox/Recipe manager.md",
+    "Inbox/Zettelkasten CLI.md",
+    "Notes/eBPF.md",
     "Notes/eBPF.md~",
     "Inbox/eBPF.md~",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
     "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
-    "Notes/eBPF.md",
-    "Inbox/Zettelkasten CLI.md",
-    "Inbox/Recipe manager.md",
     "Notes/It's not about time, it's about energy.md",
     "Notes/It's not about time, it's about energy.md~",
     "Excalidraw",
@@ -229,14 +250,10 @@
     "Notes/Avoiding fear.md~",
     "Inbox/Communicating effectively.md~",
     "Notes/Type-driven design.md",
-    "Inbox/Type-driven design.md~",
     "Inbox/Upgrading my PC.md",
     "Notes/CloudNativePG.md",
     "Inbox/Atlas Operator.md",
-    "Inbox/CloudNativePG.md~",
-    "eBPF.md~",
     "eBPF.md",
-    "Inbox/Atlas Operator.md~",
     "Inbox/How to learn.md",
     "Notes/Kubernetes Operator.md",
     "Notes/Quartz.md",
@@ -247,8 +264,6 @@
     "Indexes/UFSCar.md",
     "Indexes/Teoria da computação.md",
     "Indexes/Software development.md",
-    "Indexes/Sistemas operacionais.md",
-    "Indexes/Projeto e análise de algoritmos.md",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
@@ -257,7 +272,6 @@
     "Canvases/Interests.canvas",
     "Attachments/trpl04-03.svg",
     "Attachments/trpl04-02.svg",
-    "Attachments/Prob/tabeladistribuicaonormal.png",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",
