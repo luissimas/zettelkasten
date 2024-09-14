@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Recipe manager",
+      "path": "Inbox/Recipe manager.md"
+    },
+    {
+      "basename": "Zettelkasten CLI",
+      "path": "Inbox/Zettelkasten CLI.md"
+    },
+    {
       "basename": "KubeVirt",
       "path": "Notes/KubeVirt.md"
     },
@@ -9,16 +25,8 @@
       "path": "Notes/Managing multiple interests.md"
     },
     {
-      "basename": "Recipe manager",
-      "path": "Inbox/Recipe manager.md"
-    },
-    {
       "basename": "Pacemaker",
       "path": "Notes/Pacemaker.md"
-    },
-    {
-      "basename": "Zettelkasten CLI",
-      "path": "Inbox/Zettelkasten CLI.md"
     },
     {
       "basename": "eBPF",
