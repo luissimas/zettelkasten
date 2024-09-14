@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Pacemaker",
-      "path": "Notes/Pacemaker.md"
-    },
-    {
       "basename": "KubeVirt",
-      "path": "Inbox/KubeVirt.md"
+      "path": "Notes/KubeVirt.md"
     },
     {
       "basename": "Managing multiple interests",
@@ -15,6 +11,10 @@
     {
       "basename": "Recipe manager",
       "path": "Inbox/Recipe manager.md"
+    },
+    {
+      "basename": "Pacemaker",
+      "path": "Notes/Pacemaker.md"
     },
     {
       "basename": "Zettelkasten CLI",

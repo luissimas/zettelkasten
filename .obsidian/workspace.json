@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ef5a38df3fbbc5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Managing multiple interests.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "ee39bbf49d03cea2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Pacemaker.md",
+                "file": "Notes/KubeVirt.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Pacemaker.md",
+                "file": "Notes/KubeVirt.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -170,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Pacemaker.md"
+                "file": "Notes/KubeVirt.md"
               }
             }
           },
@@ -180,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Pacemaker.md",
+                "file": "Notes/KubeVirt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Pacemaker.md",
+                "file": "Notes/KubeVirt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,16 +209,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee39bbf49d03cea2",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Notes/Managing multiple interests.md",
+    "Notes/KubeVirt.md",
+    "Inbox/Untitled.md",
+    "Inbox/Recipe manager.md",
+    "Notes/Pacemaker.md",
     "Notes/DRBD.md~",
     "Inbox/KubeVirt.md~",
     "Notes/Pacemaker.md~",
-    "Inbox/KubeVirt.md",
     "Attachments/Pasted image 20240913074257.png",
     "Notes/Kubernetes.md~",
-    "Notes/Managing multiple interests.md",
-    "Inbox/Recipe manager.md",
     "Inbox/Zettelkasten CLI.md",
     "Notes/eBPF.md",
     "Notes/eBPF.md~",
@@ -248,7 +236,6 @@
     "Notes/Piraeus Operator.md",
     "Notes/Communicating effectively.md",
     "Notes/Avoiding fear.md~",
-    "Inbox/Communicating effectively.md~",
     "Notes/Type-driven design.md",
     "Inbox/Upgrading my PC.md",
     "Notes/CloudNativePG.md",
@@ -263,7 +250,6 @@
     "Notes/Rust.md",
     "Indexes/UFSCar.md",
     "Indexes/Teoria da computação.md",
-    "Indexes/Software development.md",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",

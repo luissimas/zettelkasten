@@ -2,11 +2,15 @@
 created-at: 2024-09-13
 ---
 
-KubeVirt allows us to **create and manage VMs** from [[Kubernetes]]. The idea is to keep leveraging the Kubernetes control plane and its ecosystem of operators such as [[CloudNativePG]], [[cert-manager]] and [[Prometheus operator]] even for non containerized workloads.
+KubeVirt allows us to **create and manage VMs** from [[Kubernetes]]. The idea is to keep leveraging the Kubernetes control plane and its ecosystem of [[Kubernetes Operator|operators]] and practices such as [[GitOps]] even for non containerized workloads.
+
+The core benefit of this approach is to be able to use the same underlying infrastructure for [[Observability]], storage, compute and network for both containerized and virtual machine workloads. Besides that, we can use **Kubernetes as a uniform API** for interacting with both types of workloads, reducing the operational overhead of managing two different stacks.
 
 ![[Pasted image 20240913074257.png]]
 
-It is possible to not only create new virtual machines, but to also **migrate existing VMs** to KubeVirt by importing images or snapshots. **Live migration** of VMs from across cluster nodes is also supported.
+KubeVirt is design with compatibility with the existing Kubernetes ecosystem in mind. Since **VMs are fundamentally just pods** running a [[QEMU]] process, they benefit from all the infrastructure that Kubernetes offers. We can, for example, mount disks using PVCs, load balance traffic using services etc.
+
+It is possible to not only create new virtual machines, but to also **migrate existing VMs** to KubeVirt by importing images or snapshots. **Live migration** of VMs from across cluster nodes is also supported. The live migration across cluster nodes uses the same eviction events triggered by Kubernetes when a node is being drained or unhealthy to trigger a [[KVM]] live migration.   
 
 We can, for example, create a VM by using the `VirtualMachine` CRD:
 
