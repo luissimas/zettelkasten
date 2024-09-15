@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Recipe manager",
+      "path": "Inbox/Recipe manager.md"
+    },
+    {
       "basename": "Smart pointers",
       "path": "Notes/Smart pointers.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "Visao",
       "path": "Inbox/Visao.md"
-    },
-    {
-      "basename": "Changelog",
-      "path": "Inbox/Changelog.md"
-    },
-    {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
     },
     {
       "basename": "Vetor gradiente",
@@ -43,10 +43,6 @@
     {
       "basename": "Rust",
       "path": "Notes/Rust.md"
-    },
-    {
-      "basename": "Recipe manager",
-      "path": "Inbox/Recipe manager.md"
     },
     {
       "basename": "Zettelkasten CLI",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Smart pointers.md",
+                "file": "Inbox/Go vs Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Smart pointers.md",
+                "file": "Inbox/Go vs Rust.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Smart pointers.md"
+                "file": "Inbox/Go vs Rust.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Smart pointers.md",
+                "file": "Inbox/Go vs Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Smart pointers.md",
+                "file": "Inbox/Go vs Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,11 +211,13 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
+    "Inbox/Go vs Rust.md~",
+    "Inbox/Changelog.md",
+    "Inbox/Recipe manager.md",
+    "Notes/Smart pointers.md",
     "Inbox/Smart pointers.md~",
     "Notes/Arrays and linked lists.md",
-    "Notes/Smart pointers.md",
     "Inbox/Visao.md",
-    "Inbox/Changelog.md",
     "Inbox/Go vs Rust.md",
     "Notes/Vetor gradiente.md",
     "Notes/Derivadas direcionais.md",
@@ -223,7 +225,6 @@
     "Indexes/Homelab.md",
     "index.md",
     "Notes/Rust.md",
-    "Inbox/Recipe manager.md",
     "Inbox/Zettelkasten CLI.md",
     "Notes/KubeVirt.md",
     "Notes/Managing multiple interests.md",
