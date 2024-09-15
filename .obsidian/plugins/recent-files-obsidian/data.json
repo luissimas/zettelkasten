@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "index",
-      "path": "index.md"
+      "basename": "Smart pointers",
+      "path": "Notes/Smart pointers.md"
+    },
+    {
+      "basename": "Arrays and linked lists",
+      "path": "Notes/Arrays and linked lists.md"
+    },
+    {
+      "basename": "Visao",
+      "path": "Inbox/Visao.md"
+    },
+    {
+      "basename": "Changelog",
+      "path": "Inbox/Changelog.md"
     },
     {
       "basename": "Go vs Rust",
       "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Vetor gradiente",
+      "path": "Notes/Vetor gradiente.md"
+    },
+    {
+      "basename": "Derivadas direcionais",
+      "path": "Notes/Derivadas direcionais.md"
+    },
+    {
+      "basename": "Derivadas parciais",
+      "path": "Notes/Derivadas parciais.md"
+    },
+    {
+      "basename": "Homelab",
+      "path": "Indexes/Homelab.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "Rust",
+      "path": "Notes/Rust.md"
     },
     {
       "basename": "Recipe manager",

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e96dc773f97f784a",
+        "id": "d4bb434ec5d9e613",
         "type": "tabs",
         "children": [
           {
-            "id": "4c5fb5f9a5a62772",
+            "id": "cc4c768252fdf203",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Notes/Smart pointers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index.md",
+                "file": "Notes/Smart pointers.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Notes/Smart pointers.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Notes/Smart pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Notes/Smart pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,12 +209,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4c5fb5f9a5a62772",
+  "active": "cc4c768252fdf203",
   "lastOpenFiles": [
+    "Inbox/Smart pointers.md~",
+    "Notes/Arrays and linked lists.md",
+    "Notes/Smart pointers.md",
+    "Inbox/Visao.md",
+    "Inbox/Changelog.md",
     "Inbox/Go vs Rust.md",
+    "Notes/Vetor gradiente.md",
+    "Notes/Derivadas direcionais.md",
+    "Notes/Derivadas parciais.md",
+    "Indexes/Homelab.md",
+    "index.md",
+    "Notes/Rust.md",
     "Inbox/Recipe manager.md",
     "Inbox/Zettelkasten CLI.md",
-    "Inbox/Smart pointers.md",
     "Notes/KubeVirt.md",
     "Notes/Managing multiple interests.md",
     "Notes/Pacemaker.md",
@@ -236,20 +246,9 @@
     "Inbox/It's not about time, it's about energy.md~",
     "Notes/Piraeus Operator.md",
     "Notes/Communicating effectively.md",
-    "Notes/Avoiding fear.md~",
     "Notes/Type-driven design.md",
     "Inbox/Upgrading my PC.md",
     "Notes/CloudNativePG.md",
-    "Inbox/Atlas Operator.md",
-    "eBPF.md",
-    "Inbox/How to learn.md",
-    "Notes/Kubernetes Operator.md",
-    "Notes/Quartz.md",
-    "Notes/Tests in Rust.md",
-    "Notes/Cargo.md",
-    "Notes/Rust standard library.md",
-    "Notes/Rust.md",
-    "Indexes/UFSCar.md",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",

@@ -9,3 +9,11 @@ Rust mixes features from [[Functional languages]] (mostly [[OCaml]]) with low-le
 > Fast, reliable, productive - pick three
 
 One strong advantage of having a expressive type system and a compiler that enforces this type system is that we can encode much of our program's constraints in the type system and have it verified at compile time. With that, we reduce the need for runtime checks leading to both more safety and performance.
+
+# Actionable goals
+
+- [ ] Finish The Book
+- [ ] Finish rustlings
+- [x] Write a TUI kinda app with it - Implemented [[Conway's game of life]]
+- [ ] Write a CLI with it
+- [ ] Write an HTTP API with it that access a database
