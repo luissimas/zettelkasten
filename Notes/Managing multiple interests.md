@@ -12,11 +12,15 @@ The idea is to identify my main areas of interest and prioritize them. Then, I'l
 
 Things to keep in mind:
 
-[[Parkinson's law]]
-[[Intensity in life]]
-[[Time management]]
-[[Merge interests]]
-[[Systems]]
+- [[Parkinson's law]]
+- [[Intensity in life]]
+- [[Time management]]
+- [[Merge interests]]
+- [[Systems]]
+- [[It's not about time, it's about energy]]
+- We cannot do everything, we need to sacrifice less important interests
+- Hobby seasons or the airplane technique allow us to focus deeply for a decent amount of time
+- Focus on quality and intensity of practice
 
 # Main areas
 
@@ -31,8 +35,9 @@ The [[Interests.canvas|Interests canvas]] is a better way to visualize the diffe
 
 # References
 
-https://www.youtube.com/watch?v=B_KqZ61GEb0
-https://www.youtube.com/watch?v=RQ24JDuyLNs
+[The Danger Of Having Too Many Interests](https://www.youtube.com/watch?v=B_KqZ61GEb0)
+[World's shortest guide to becoming a Polymath](https://www.youtube.com/watch?v=RQ24JDuyLNs)
+[Too Many Interests, Not Enough Time](https://www.youtube.com/watch?v=lQFOeC3maeI)
 
 # Review later
 
