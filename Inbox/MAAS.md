@@ -16,8 +16,8 @@ But it seems that there is also a way to provision VMs talking directly to libvi
 
 # References
 
+https://juju.is/docs/juju/maas
 https://maas.io/docs/about-virtual-machines
 https://canonical.com/blog/maas-kvm-pods
-https://juju.is/docs/juju/maas
 https://maas.io/tutorials/create-kvm-pods-with-maas#1-overview
 https://discourse.maas.io/t/dev-setup-maas-juju/186

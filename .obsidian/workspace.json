@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/MAAS.md",
+                "file": "Inbox/Virtualization.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/MAAS.md",
+                "file": "Inbox/Virtualization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/MAAS.md"
+                "file": "Inbox/Virtualization.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/MAAS.md",
+                "file": "Inbox/Virtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/MAAS.md",
+                "file": "Inbox/Virtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,10 +211,12 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
+    "Inbox/MAAS.md",
+    "Inbox/Virtualization.md",
+    "Notes/Linux containers.md",
     "Attachments/Pasted image 20240919094519.png",
     "Notes/MaaS.md",
     "Notes/Juju.md",
-    "Inbox/MAAS.md",
     "Inbox/Zettelkasten CLI.md",
     "Inbox/Visao.md",
     "Inbox/Go vs Rust.md",
@@ -249,7 +251,6 @@
     "Attachments/Pasted image 20240909084308.png",
     "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
     "Notes/It's not about time, it's about energy.md",
-    "Notes/Intensity in life.md",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
@@ -257,7 +258,6 @@
     "Attachments/duckdns.png",
     "Canvases/Interests.canvas",
     "Attachments/trpl04-03.svg",
-    "Attachments/trpl04-02.svg",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",

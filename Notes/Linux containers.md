@@ -9,3 +9,4 @@ LXC containers are closer to virtual machines than [[Docker]] containers. Docker
 # Resources
 
 https://www.youtube.com/watch?v=_KnmRdK69qM
+https://documentation.ubuntu.com/lxd/en/latest/explanation/instances/
