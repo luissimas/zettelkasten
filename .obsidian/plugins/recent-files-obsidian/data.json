@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2024-09-15",
-      "path": "Journal/2024-09-15.md"
+      "basename": "MAAS",
+      "path": "Inbox/MAAS.md"
+    },
+    {
+      "basename": "MaaS",
+      "path": "Notes/MaaS.md"
+    },
+    {
+      "basename": "Juju",
+      "path": "Notes/Juju.md"
+    },
+    {
+      "basename": "Zettelkasten CLI",
+      "path": "Inbox/Zettelkasten CLI.md"
     },
     {
       "basename": "Go vs Rust",
       "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "2024-09-15",
+      "path": "Journal/2024-09-15.md"
     },
     {
       "basename": "Recipe manager",
@@ -19,10 +35,6 @@
     {
       "basename": "Arrays and linked lists",
       "path": "Notes/Arrays and linked lists.md"
-    },
-    {
-      "basename": "Visao",
-      "path": "Inbox/Visao.md"
     },
     {
       "basename": "Vetor gradiente",
@@ -47,10 +59,6 @@
     {
       "basename": "Rust",
       "path": "Notes/Rust.md"
-    },
-    {
-      "basename": "Zettelkasten CLI",
-      "path": "Inbox/Zettelkasten CLI.md"
     },
     {
       "basename": "KubeVirt",

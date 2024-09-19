@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/2024-09-15.md",
+                "file": "Inbox/MAAS.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Journal/2024-09-15.md",
+                "file": "Inbox/MAAS.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/2024-09-15.md"
+                "file": "Inbox/MAAS.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/2024-09-15.md",
+                "file": "Inbox/MAAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/2024-09-15.md",
+                "file": "Inbox/MAAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,10 +211,16 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20240919094519.png",
+    "Notes/MaaS.md",
+    "Notes/Juju.md",
+    "Inbox/MAAS.md",
+    "Inbox/Zettelkasten CLI.md",
+    "Inbox/Visao.md",
     "Inbox/Go vs Rust.md",
+    "Journal/2024-09-15.md",
     "Inbox/Personal changelog.md",
     "Journal/2024-09-15.md~",
-    "Journal/2024-09-15.md",
     "Inbox/Personal changelog.md~",
     "Notes/Publishing my Zettelkasten.md~",
     "Inbox/Go vs Rust.md~",
@@ -223,14 +229,12 @@
     "Notes/Smart pointers.md",
     "Inbox/Smart pointers.md~",
     "Notes/Arrays and linked lists.md",
-    "Inbox/Visao.md",
     "Notes/Vetor gradiente.md",
     "Notes/Derivadas direcionais.md",
     "Notes/Derivadas parciais.md",
     "Indexes/Homelab.md",
     "index.md",
     "Notes/Rust.md",
-    "Inbox/Zettelkasten CLI.md",
     "Notes/KubeVirt.md",
     "Notes/Managing multiple interests.md",
     "Notes/Pacemaker.md",
@@ -246,9 +250,6 @@
     "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
     "Notes/It's not about time, it's about energy.md",
     "Notes/Intensity in life.md",
-    "Notes/Piraeus Operator.md",
-    "Notes/Communicating effectively.md",
-    "Notes/Type-driven design.md",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
