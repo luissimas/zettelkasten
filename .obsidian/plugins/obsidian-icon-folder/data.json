@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "⚙",
       "LiCalendarDays",
       "LiStickyNote",
       "LiAnchor",
-      "LiImage",
-      "LiInbox"
+      "LiImage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,6 @@
   "Templates": "LiWrench",
   "Attachments": "LiImage",
   "Indexes": "LiAnchor",
-  "Notes": "LiStickyNote"
+  "Notes": "LiStickyNote",
+  "Projects": "⚙"
 }

@@ -5,6 +5,18 @@
       "path": "Inbox/Virtualization.md"
     },
     {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Recipe manager",
+      "path": "Projects/Recipe manager.md"
+    },
+    {
+      "basename": "Zettelkasten CLI",
+      "path": "Projects/Zettelkasten CLI.md"
+    },
+    {
       "basename": "DRBD",
       "path": "Notes/DRBD.md"
     },
@@ -17,28 +29,12 @@
       "path": "Notes/MAAS.md"
     },
     {
-      "basename": "Zettelkasten CLI",
-      "path": "Inbox/Zettelkasten CLI.md"
-    },
-    {
-      "basename": "Linux containers",
-      "path": "Notes/Linux containers.md"
-    },
-    {
       "basename": "MaaS",
       "path": "Notes/MaaS.md"
     },
     {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
-    },
-    {
       "basename": "2024-09-15",
       "path": "Journal/2024-09-15.md"
-    },
-    {
-      "basename": "Recipe manager",
-      "path": "Inbox/Recipe manager.md"
     },
     {
       "basename": "Smart pointers",
