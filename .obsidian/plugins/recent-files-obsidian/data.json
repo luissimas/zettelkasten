@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Virtualization",
-      "path": "Inbox/Virtualization.md"
+      "basename": "DRBD",
+      "path": "Notes/DRBD.md"
+    },
+    {
+      "basename": "Juju",
+      "path": "Notes/Juju.md"
     },
     {
       "basename": "MAAS",
-      "path": "Inbox/MAAS.md"
+      "path": "Notes/MAAS.md"
+    },
+    {
+      "basename": "Zettelkasten CLI",
+      "path": "Inbox/Zettelkasten CLI.md"
+    },
+    {
+      "basename": "Virtualization",
+      "path": "Inbox/Virtualization.md"
     },
     {
       "basename": "Linux containers",
@@ -15,14 +27,6 @@
     {
       "basename": "MaaS",
       "path": "Notes/MaaS.md"
-    },
-    {
-      "basename": "Juju",
-      "path": "Notes/Juju.md"
-    },
-    {
-      "basename": "Zettelkasten CLI",
-      "path": "Inbox/Zettelkasten CLI.md"
     },
     {
       "basename": "Go vs Rust",

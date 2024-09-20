@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/DRBD.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/DRBD.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Virtualization.md"
+                "file": "Notes/DRBD.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/DRBD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/DRBD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,13 +211,14 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
-    "Inbox/MAAS.md",
+    "Notes/Juju.md",
+    "Notes/MAAS.md",
+    "Inbox/MAAS.md~",
+    "Inbox/Zettelkasten CLI.md",
     "Inbox/Virtualization.md",
     "Notes/Linux containers.md",
     "Attachments/Pasted image 20240919094519.png",
     "Notes/MaaS.md",
-    "Notes/Juju.md",
-    "Inbox/Zettelkasten CLI.md",
     "Inbox/Visao.md",
     "Inbox/Go vs Rust.md",
     "Journal/2024-09-15.md",
@@ -246,11 +247,9 @@
     "Attachments/Pasted image 20240913074257.png",
     "Notes/Kubernetes.md~",
     "Notes/eBPF.md",
-    "Notes/eBPF.md~",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
     "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
-    "Notes/It's not about time, it's about energy.md",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
