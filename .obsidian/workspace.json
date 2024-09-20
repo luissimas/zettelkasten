@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/DRBD.md",
+                "file": "Inbox/Virtualization.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/DRBD.md",
+                "file": "Inbox/Virtualization.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/DRBD.md"
+                "file": "Inbox/Virtualization.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/DRBD.md",
+                "file": "Inbox/Virtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/DRBD.md",
+                "file": "Inbox/Virtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,6 +211,9 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
+    "Journal/2024-09-20.md~",
+    "Journal/2024-09-20.md",
+    "Notes/DRBD.md",
     "Notes/Juju.md",
     "Notes/MAAS.md",
     "Inbox/MAAS.md~",
@@ -246,10 +249,8 @@
     "Notes/Pacemaker.md~",
     "Attachments/Pasted image 20240913074257.png",
     "Notes/Kubernetes.md~",
-    "Notes/eBPF.md",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
-    "Excalidraw/Drawing 2024-09-09 08.32.28.excalidraw.md",
     "Attachments/Pasted image 20240902071355.png",
     "Attachments/jellyfin.jpeg",
     "Attachments/homepage.jpeg",
