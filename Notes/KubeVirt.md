@@ -2,7 +2,7 @@
 created-at: 2024-09-13
 ---
 
-KubeVirt allows us to **create and manage VMs** from [[Kubernetes]]. The idea is to keep leveraging the Kubernetes control plane and its ecosystem of [[Kubernetes Operator|operators]] and practices such as [[GitOps]] even for non containerized workloads.
+KubeVirt allows us to **create and manage** [[Virtual machines]] from [[Kubernetes]]. The idea is to keep leveraging the Kubernetes control plane and its ecosystem of [[Kubernetes Operator|operators]] and practices such as [[GitOps]] even for non containerized workloads.
 
 The core benefit of this approach is to be able to use the same underlying infrastructure for [[Observability]], storage, compute and network for both containerized and virtual machine workloads. Besides that, we can use **Kubernetes as a uniform API** for interacting with both types of workloads, reducing the operational overhead of managing two different stacks.
 

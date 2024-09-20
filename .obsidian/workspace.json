@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/System containers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/System containers.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Virtualization.md"
+                "file": "Notes/System containers.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/System containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Virtualization.md",
+                "file": "Notes/System containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,15 +211,18 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
-    "Notes/Openstack.md~",
-    "Notes/Juju.md~",
     "Inbox/Virtualization.md~",
+    "Notes/System containers.md~",
+    "Inbox/Virtualization.md",
+    "Notes/Openstack.md",
+    "Notes/Openstack.md~",
+    "Attachments/Pasted image 20240920072352.png",
+    "Notes/Juju.md~",
     "Notes/Linux containers.md~",
     "Notes/Kubernetes node.md~",
     "Notes/KubeVirt.md~",
-    "Notes/Linux containers.md",
+    "Notes/System containers.md",
     "Inbox/Go vs Rust.md",
-    "Inbox/Virtualization.md",
     "Projects/Recipe manager.md",
     "Projects",
     "Projects/Zettelkasten CLI.md",
@@ -235,7 +238,6 @@
     "Journal/2024-09-15.md",
     "Inbox/Personal changelog.md",
     "Journal/2024-09-15.md~",
-    "Inbox/Personal changelog.md~",
     "Inbox/Changelog.md",
     "Notes/Smart pointers.md",
     "Notes/Arrays and linked lists.md",
@@ -247,7 +249,6 @@
     "Notes/Rust.md",
     "Notes/KubeVirt.md",
     "Notes/Managing multiple interests.md",
-    "Notes/Pacemaker.md",
     "Attachments/Pasted image 20240913074257.png",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
@@ -257,7 +258,6 @@
     "Attachments/grafana.jpeg",
     "Attachments/duckdns.png",
     "Canvases/Interests.canvas",
-    "Attachments/trpl04-03.svg",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Trabalho SD.canvas",

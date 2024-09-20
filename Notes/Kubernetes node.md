@@ -2,7 +2,7 @@
 created-at: 2024-05-19
 ---
 
-In [[Kubernetes]], a node is any machine that runs the necessary processes to be part of the cluster. These can be physical or virtual machines. A typical cluster is composed of several nodes for both redundancy and computing power.
+In [[Kubernetes]], a node is any machine that runs the necessary processes to be part of the cluster. These can be physical or [[Virtual machines]]. A typical cluster is composed of several nodes for both redundancy and computing power.
 
 There are two types of nodes that form the K8s architecture:
 

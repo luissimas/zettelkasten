@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "System containers",
+      "path": "Notes/System containers.md"
+    },
+    {
       "basename": "Virtualization",
       "path": "Inbox/Virtualization.md"
+    },
+    {
+      "basename": "Openstack",
+      "path": "Notes/Openstack.md"
     },
     {
       "basename": "Go vs Rust",
