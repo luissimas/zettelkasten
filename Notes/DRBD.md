@@ -12,4 +12,4 @@ DRBD is implemented as a [[Kernel driver]], but it also features a suite of user
 
 DRBD creates a "mini cluster" for each resource it manages. This means that each resource gets managed by two of threads and ports on each node that is replicating the data.
 
-[According to this guy](https://youtu.be/jwaqWezhugE?t=444) DRBD was design with an active-standby replication architecture in mind. It can support dual primary, but this is only done to enable live migration of virtual machines, and should not be used in every case.
+[According to this guy](https://youtu.be/jwaqWezhugE?t=444) DRBD was design with an active-standby replication architecture in mind. It can support dual primary, but this is only done to enable live migration of [[Virtual machines]], and should not be used in every case.

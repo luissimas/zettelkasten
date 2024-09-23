@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual machines",
+      "path": "Inbox/Virtual machines.md"
+    },
+    {
+      "basename": "Containers",
+      "path": "Notes/Containers.md"
+    },
+    {
       "basename": "System containers",
       "path": "Notes/System containers.md"
     },
     {
-      "basename": "Virtualization",
-      "path": "Inbox/Virtualization.md"
+      "basename": "LXC",
+      "path": "Notes/LXC.md"
     },
     {
-      "basename": "Openstack",
-      "path": "Notes/Openstack.md"
+      "basename": "Virtualization",
+      "path": "Notes/Virtualization.md"
     },
     {
       "basename": "Go vs Rust",
       "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Virtualization.excalidraw",
+      "path": "Excalidraw/Virtualization.excalidraw.md"
+    },
+    {
+      "basename": "DRBD",
+      "path": "Notes/DRBD.md"
+    },
+    {
+      "basename": "Openstack",
+      "path": "Notes/Openstack.md"
     },
     {
       "basename": "Recipe manager",
@@ -23,10 +43,6 @@
     {
       "basename": "Zettelkasten CLI",
       "path": "Projects/Zettelkasten CLI.md"
-    },
-    {
-      "basename": "DRBD",
-      "path": "Notes/DRBD.md"
     },
     {
       "basename": "Juju",

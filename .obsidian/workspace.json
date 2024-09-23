@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/System containers.md",
+                "file": "Inbox/Virtual machines.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,7 @@
       {
         "id": "84eb94bd87b4c3b4",
         "type": "tabs",
-        "dimension": 78.05397727272727,
+        "dimension": 61.36363636363637,
         "children": [
           {
             "id": "e914d2973def2678",
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/System containers.md",
+                "file": "Inbox/Virtual machines.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -148,7 +148,7 @@
       {
         "id": "ca03cd669534e650",
         "type": "tabs",
-        "dimension": 21.946022727272727,
+        "dimension": 38.63636363636363,
         "children": [
           {
             "id": "b3e5e38a55764ebc",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/System containers.md"
+                "file": "Inbox/Virtual machines.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/System containers.md",
+                "file": "Inbox/Virtual machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/System containers.md",
+                "file": "Inbox/Virtual machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,33 +211,40 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
-    "Inbox/Virtualization.md~",
     "Notes/System containers.md~",
-    "Inbox/Virtualization.md",
+    "Notes/Containers.md",
+    "Notes/System containers.md",
+    "Notes/LXC.md",
+    "Notes/Virtualization.md",
+    "Notes/Virtualization.md~",
+    "Notes/LXC.md~",
+    "Inbox/Virtual machines.md",
+    "Inbox/Containers.md~",
+    "Inbox/Go vs Rust.md",
+    "Excalidraw/Virtualization.excalidraw.md",
+    "Attachments/Pasted image 20240923084402.png",
+    "Attachments/Pasted image 20240923084342.png",
+    "Attachments/Pasted Image 20240923084029_699.png",
+    "Attachments/Pasted Image 20240923083428_612.png",
+    "Inbox/Virtual machines.md~",
+    "Notes/DRBD.md",
+    "Notes/KubeVirt.md~",
+    "Inbox/Virtualization.md~",
     "Notes/Openstack.md",
     "Notes/Openstack.md~",
     "Attachments/Pasted image 20240920072352.png",
     "Notes/Juju.md~",
     "Notes/Linux containers.md~",
-    "Notes/Kubernetes node.md~",
-    "Notes/KubeVirt.md~",
-    "Notes/System containers.md",
-    "Inbox/Go vs Rust.md",
     "Projects/Recipe manager.md",
-    "Projects",
     "Projects/Zettelkasten CLI.md",
-    "Journal/2024-09-20.md~",
     "Journal/2024-09-20.md",
-    "Notes/DRBD.md",
     "Notes/Juju.md",
     "Notes/MAAS.md",
-    "Inbox/MAAS.md~",
     "Attachments/Pasted image 20240919094519.png",
     "Notes/MaaS.md",
     "Inbox/Visao.md",
     "Journal/2024-09-15.md",
     "Inbox/Personal changelog.md",
-    "Journal/2024-09-15.md~",
     "Inbox/Changelog.md",
     "Notes/Smart pointers.md",
     "Notes/Arrays and linked lists.md",
@@ -245,18 +252,10 @@
     "Notes/Derivadas direcionais.md",
     "Notes/Derivadas parciais.md",
     "Indexes/Homelab.md",
-    "index.md",
-    "Notes/Rust.md",
-    "Notes/KubeVirt.md",
-    "Notes/Managing multiple interests.md",
     "Attachments/Pasted image 20240913074257.png",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
     "Attachments/Pasted image 20240902071355.png",
-    "Attachments/jellyfin.jpeg",
-    "Attachments/homepage.jpeg",
-    "Attachments/grafana.jpeg",
-    "Attachments/duckdns.png",
     "Canvases/Interests.canvas",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
