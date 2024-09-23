@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Virtual machines.md",
+                "file": "Notes/Openstack.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Virtual machines.md",
+                "file": "Notes/Openstack.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/Virtual machines.md"
+                "file": "Notes/Openstack.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Virtual machines.md",
+                "file": "Notes/Openstack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/Virtual machines.md",
+                "file": "Notes/Openstack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,14 +211,17 @@
   },
   "active": "cc4c768252fdf203",
   "lastOpenFiles": [
+    "Notes/Openstack.md~",
+    "Notes/MinIO.md~",
+    "Notes/Openstack.md",
+    "Notes/LXC.md",
+    "Inbox/Virtual machines.md",
     "Notes/System containers.md~",
     "Notes/Containers.md",
     "Notes/System containers.md",
-    "Notes/LXC.md",
     "Notes/Virtualization.md",
     "Notes/Virtualization.md~",
     "Notes/LXC.md~",
-    "Inbox/Virtual machines.md",
     "Inbox/Containers.md~",
     "Inbox/Go vs Rust.md",
     "Excalidraw/Virtualization.excalidraw.md",
@@ -230,8 +233,6 @@
     "Notes/DRBD.md",
     "Notes/KubeVirt.md~",
     "Inbox/Virtualization.md~",
-    "Notes/Openstack.md",
-    "Notes/Openstack.md~",
     "Attachments/Pasted image 20240920072352.png",
     "Notes/Juju.md~",
     "Notes/Linux containers.md~",

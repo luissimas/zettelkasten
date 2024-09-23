@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Openstack",
+      "path": "Notes/Openstack.md"
+    },
+    {
+      "basename": "LXC",
+      "path": "Notes/LXC.md"
+    },
+    {
       "basename": "Virtual machines",
       "path": "Inbox/Virtual machines.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "System containers",
       "path": "Notes/System containers.md"
-    },
-    {
-      "basename": "LXC",
-      "path": "Notes/LXC.md"
     },
     {
       "basename": "Virtualization",
@@ -31,10 +35,6 @@
     {
       "basename": "DRBD",
       "path": "Notes/DRBD.md"
-    },
-    {
-      "basename": "Openstack",
-      "path": "Notes/Openstack.md"
     },
     {
       "basename": "Recipe manager",
