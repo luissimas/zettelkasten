@@ -2,7 +2,7 @@
 created-at: 2024-09-19
 ---
 
-MAAS is an implementation of the [[Notes/MAAS]] concept by Canonical. It provides a way to manage bare metal servers via IPMI and PXE, allowing us to either prepare them for direct usage or provision VMs in them. MAAS can also be used as a cloud for [[Juju]] to provision both bare metal servers and VMs.
+MAAS is an implementation of the [[Notes/MAAS]] concept by Canonical. It provides a way to manage bare metal servers via IPMI and PXE, allowing us to either prepare them for direct usage or provision [[Virtual machines]] in them. MAAS can also be used as a cloud for [[Juju]] to provision both bare metal servers and VMs.
 
 The core ideia is that MAAS is able to automatically detect new machines with PXE boot available on the network. It then installs a [[Ubuntu]] image to that machine and scans it to discover the available resources such as CPU, RAM, Disks, NICs and GPUs. We can then request machines (directly or via Juju) and MAAS will boot and deliver them for service. When we're done using a machine, MAAS takes care of wiping the disks and making sure that the machine is in a clean state and ready to use again.
 
