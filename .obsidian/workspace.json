@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Openstack.md",
+                "file": "Notes/Prometheus.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2aaed9e230ed3fbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/uv.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Openstack.md",
+                "file": "Notes/uv.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Openstack.md"
+                "file": "Notes/uv.md"
               }
             }
           },
@@ -166,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Openstack.md",
+                "file": "Notes/uv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Openstack.md",
+                "file": "Notes/uv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,11 +223,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cc4c768252fdf203",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/uv.md~",
+    "Notes/Prometheus.md",
+    "Notes/uv.md",
+    "uv-x86_64-unknown-linux-gnu.tar.gz",
+    "Notes/Openstack.md",
     "Notes/Openstack.md~",
     "Notes/MinIO.md~",
-    "Notes/Openstack.md",
     "Notes/LXC.md",
     "Inbox/Virtual machines.md",
     "Notes/System containers.md~",
@@ -234,8 +252,6 @@
     "Notes/KubeVirt.md~",
     "Inbox/Virtualization.md~",
     "Attachments/Pasted image 20240920072352.png",
-    "Notes/Juju.md~",
-    "Notes/Linux containers.md~",
     "Projects/Recipe manager.md",
     "Projects/Zettelkasten CLI.md",
     "Journal/2024-09-20.md",
@@ -251,8 +267,6 @@
     "Notes/Arrays and linked lists.md",
     "Notes/Vetor gradiente.md",
     "Notes/Derivadas direcionais.md",
-    "Notes/Derivadas parciais.md",
-    "Indexes/Homelab.md",
     "Attachments/Pasted image 20240913074257.png",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
