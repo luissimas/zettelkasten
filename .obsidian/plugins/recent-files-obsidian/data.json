@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "uv",
-      "path": "Notes/uv.md"
+      "basename": "Concurrency in Rust",
+      "path": "Notes/Concurrency in Rust.md"
+    },
+    {
+      "basename": "Shared memory in Rust",
+      "path": "Notes/Shared memory in Rust.md"
+    },
+    {
+      "basename": "Message passing in Rust",
+      "path": "Notes/Message passing in Rust.md"
     },
     {
       "basename": "Prometheus",
       "path": "Notes/Prometheus.md"
+    },
+    {
+      "basename": "uv",
+      "path": "Notes/uv.md"
+    },
+    {
+      "basename": "Passagem de mensagem",
+      "path": "Notes/Passagem de mensagem.md"
+    },
+    {
+      "basename": "Memória compartilhada",
+      "path": "Notes/Memória compartilhada.md"
     },
     {
       "basename": "Openstack",

@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cc4c768252fdf203",
+            "id": "0cfa975b9d7d36d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Prometheus.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2aaed9e230ed3fbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/uv.md",
+                "file": "Notes/Concurrency in Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/uv.md",
+                "file": "Notes/Concurrency in Rust.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -170,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/uv.md"
+                "file": "Notes/Concurrency in Rust.md"
               }
             }
           },
@@ -180,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/uv.md",
+                "file": "Notes/Concurrency in Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/uv.md",
+                "file": "Notes/Concurrency in Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,9 +211,19 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Inbox/uv.md~",
+    "Inbox/Concurrency in Rust.md~",
+    "Notes/Shared memory in Rust.md",
+    "Inbox/Shared memory in Rust.md~",
+    "Notes/Message passing in Rust.md~",
+    "Notes/Concurrency in Rust.md",
+    "Notes/Message passing in Rust.md",
+    "Inbox/Message passing in Rust.md~",
     "Notes/Prometheus.md",
     "Notes/uv.md",
+    "Notes/Passagem de mensagem.md",
+    "Notes/Memória compartilhada.md",
+    "Notes/Elixir.md~",
+    "Inbox/uv.md~",
     "uv-x86_64-unknown-linux-gnu.tar.gz",
     "Notes/Openstack.md",
     "Notes/Openstack.md~",
@@ -238,19 +234,13 @@
     "Notes/Containers.md",
     "Notes/System containers.md",
     "Notes/Virtualization.md",
-    "Notes/Virtualization.md~",
-    "Notes/LXC.md~",
-    "Inbox/Containers.md~",
     "Inbox/Go vs Rust.md",
     "Excalidraw/Virtualization.excalidraw.md",
     "Attachments/Pasted image 20240923084402.png",
     "Attachments/Pasted image 20240923084342.png",
     "Attachments/Pasted Image 20240923084029_699.png",
     "Attachments/Pasted Image 20240923083428_612.png",
-    "Inbox/Virtual machines.md~",
     "Notes/DRBD.md",
-    "Notes/KubeVirt.md~",
-    "Inbox/Virtualization.md~",
     "Attachments/Pasted image 20240920072352.png",
     "Projects/Recipe manager.md",
     "Projects/Zettelkasten CLI.md",
@@ -262,11 +252,6 @@
     "Inbox/Visao.md",
     "Journal/2024-09-15.md",
     "Inbox/Personal changelog.md",
-    "Inbox/Changelog.md",
-    "Notes/Smart pointers.md",
-    "Notes/Arrays and linked lists.md",
-    "Notes/Vetor gradiente.md",
-    "Notes/Derivadas direcionais.md",
     "Attachments/Pasted image 20240913074257.png",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
