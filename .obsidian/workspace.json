@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "159c39a316cab9ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Raise the floor, not the ceiling.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Concurrency in Rust.md",
+                "file": "Notes/Raise the floor, not the ceiling.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -156,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Concurrency in Rust.md"
+                "file": "Notes/Raise the floor, not the ceiling.md"
               }
             }
           },
@@ -166,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Concurrency in Rust.md",
+                "file": "Notes/Raise the floor, not the ceiling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Concurrency in Rust.md",
+                "file": "Notes/Raise the floor, not the ceiling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,11 +225,12 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Notes/Concurrency in Rust.md",
+    "Notes/Raise the floor, not the ceiling.md",
     "Inbox/Concurrency in Rust.md~",
     "Notes/Shared memory in Rust.md",
     "Inbox/Shared memory in Rust.md~",
     "Notes/Message passing in Rust.md~",
-    "Notes/Concurrency in Rust.md",
     "Notes/Message passing in Rust.md",
     "Inbox/Message passing in Rust.md~",
     "Notes/Prometheus.md",
