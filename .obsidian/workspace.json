@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Concurrency in Rust.md",
+                "file": "Inbox/Go vs Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "159c39a316cab9ca",
+            "id": "74d86fd0a7824a6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Raise the floor, not the ceiling.md",
+                "file": "Inbox/Pattern matching.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a4c837675cfac6bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Specialization is for insects.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Raise the floor, not the ceiling.md",
+                "file": "Notes/Specialization is for insects.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -170,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Raise the floor, not the ceiling.md"
+                "file": "Notes/Specialization is for insects.md"
               }
             }
           },
@@ -180,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Raise the floor, not the ceiling.md",
+                "file": "Notes/Specialization is for insects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Raise the floor, not the ceiling.md",
+                "file": "Notes/Specialization is for insects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,6 +238,23 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Specialization is for insects.md~",
+    "Attachments/Pasted image 20241011083523.png",
+    "Notes/Managing multiple interests.md",
+    "Notes/Specialization is for insects.md",
+    "Notes/Tests in Rust.md~",
+    "Inbox/Pattern matching.md",
+    "Inbox/Go vs Rust.md",
+    "Inbox/Virtual machines.md",
+    "Notes/Trait object.md",
+    "Notes/Rust.md~",
+    "Notes/Tailscale.md~",
+    "Notes/Trait object.md~",
+    "Notes/Generics.md",
+    "Inbox/Generi.md",
+    "Notes/Smart pointers.md",
+    "Inbox/Trait object.md~",
+    "Notes/Generics.md~",
     "Notes/Concurrency in Rust.md",
     "Notes/Raise the floor, not the ceiling.md",
     "Inbox/Concurrency in Rust.md~",
@@ -232,24 +262,15 @@
     "Inbox/Shared memory in Rust.md~",
     "Notes/Message passing in Rust.md~",
     "Notes/Message passing in Rust.md",
-    "Inbox/Message passing in Rust.md~",
     "Notes/Prometheus.md",
     "Notes/uv.md",
     "Notes/Passagem de mensagem.md",
     "Notes/Memória compartilhada.md",
-    "Notes/Elixir.md~",
-    "Inbox/uv.md~",
-    "uv-x86_64-unknown-linux-gnu.tar.gz",
     "Notes/Openstack.md",
-    "Notes/Openstack.md~",
-    "Notes/MinIO.md~",
     "Notes/LXC.md",
-    "Inbox/Virtual machines.md",
-    "Notes/System containers.md~",
     "Notes/Containers.md",
     "Notes/System containers.md",
     "Notes/Virtualization.md",
-    "Inbox/Go vs Rust.md",
     "Excalidraw/Virtualization.excalidraw.md",
     "Attachments/Pasted image 20240923084402.png",
     "Attachments/Pasted image 20240923084342.png",
@@ -258,19 +279,10 @@
     "Notes/DRBD.md",
     "Attachments/Pasted image 20240920072352.png",
     "Projects/Recipe manager.md",
-    "Projects/Zettelkasten CLI.md",
-    "Journal/2024-09-20.md",
-    "Notes/Juju.md",
-    "Notes/MAAS.md",
     "Attachments/Pasted image 20240919094519.png",
-    "Notes/MaaS.md",
-    "Inbox/Visao.md",
-    "Journal/2024-09-15.md",
-    "Inbox/Personal changelog.md",
     "Attachments/Pasted image 20240913074257.png",
     "Attachments/Pasted image 20240909084338.png",
     "Attachments/Pasted image 20240909084308.png",
-    "Attachments/Pasted image 20240902071355.png",
     "Canvases/Interests.canvas",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",

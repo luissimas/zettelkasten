@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Raise the floor, not the ceiling",
-      "path": "Notes/Raise the floor, not the ceiling.md"
+      "basename": "Specialization is for insects",
+      "path": "Notes/Specialization is for insects.md"
+    },
+    {
+      "basename": "Managing multiple interests",
+      "path": "Notes/Managing multiple interests.md"
+    },
+    {
+      "basename": "Pattern matching",
+      "path": "Inbox/Pattern matching.md"
+    },
+    {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Virtual machines",
+      "path": "Inbox/Virtual machines.md"
+    },
+    {
+      "basename": "Trait object",
+      "path": "Notes/Trait object.md"
+    },
+    {
+      "basename": "Generics",
+      "path": "Notes/Generics.md"
+    },
+    {
+      "basename": "Smart pointers",
+      "path": "Notes/Smart pointers.md"
     },
     {
       "basename": "Concurrency in Rust",
       "path": "Notes/Concurrency in Rust.md"
+    },
+    {
+      "basename": "Raise the floor, not the ceiling",
+      "path": "Notes/Raise the floor, not the ceiling.md"
     },
     {
       "basename": "Shared memory in Rust",
@@ -41,10 +73,6 @@
       "path": "Notes/LXC.md"
     },
     {
-      "basename": "Virtual machines",
-      "path": "Inbox/Virtual machines.md"
-    },
-    {
       "basename": "Containers",
       "path": "Notes/Containers.md"
     },
@@ -55,10 +83,6 @@
     {
       "basename": "Virtualization",
       "path": "Notes/Virtualization.md"
-    },
-    {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
     },
     {
       "basename": "Virtualization.excalidraw",
@@ -93,10 +117,6 @@
       "path": "Journal/2024-09-15.md"
     },
     {
-      "basename": "Smart pointers",
-      "path": "Notes/Smart pointers.md"
-    },
-    {
       "basename": "Arrays and linked lists",
       "path": "Notes/Arrays and linked lists.md"
     },
@@ -127,10 +147,6 @@
     {
       "basename": "KubeVirt",
       "path": "Notes/KubeVirt.md"
-    },
-    {
-      "basename": "Managing multiple interests",
-      "path": "Notes/Managing multiple interests.md"
     },
     {
       "basename": "Pacemaker",
