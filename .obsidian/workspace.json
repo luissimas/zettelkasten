@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d4bb434ec5d9e613",
+        "id": "5502d2e3b6ac53d3",
         "type": "tabs",
         "children": [
           {
-            "id": "0cfa975b9d7d36d4",
+            "id": "79c63571c6d06b88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Go vs Rust.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "74d86fd0a7824a6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Pattern matching.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a4c837675cfac6bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Specialization is for insects.md",
+                "file": "Notes/Pattern matching.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Specialization is for insects.md",
+                "file": "Notes/Pattern matching.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -183,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Specialization is for insects.md"
+                "file": "Notes/Pattern matching.md"
               }
             }
           },
@@ -193,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Specialization is for insects.md",
+                "file": "Notes/Pattern matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Specialization is for insects.md",
+                "file": "Notes/Pattern matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,15 +209,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "79c63571c6d06b88",
   "lastOpenFiles": [
+    "Inbox/Go vs Rust.md",
+    "Notes/Specialization is for insects.md",
+    "Inbox/Pattern matching.md",
+    "Notes/Pattern matching.md",
+    "Inbox/Pattern matching.md~",
+    "Notes/Algebraic data types.md~",
     "Inbox/Specialization is for insects.md~",
     "Attachments/Pasted image 20241011083523.png",
     "Notes/Managing multiple interests.md",
-    "Notes/Specialization is for insects.md",
     "Notes/Tests in Rust.md~",
-    "Inbox/Pattern matching.md",
-    "Inbox/Go vs Rust.md",
     "Inbox/Virtual machines.md",
     "Notes/Trait object.md",
     "Notes/Rust.md~",
@@ -259,8 +235,6 @@
     "Notes/Raise the floor, not the ceiling.md",
     "Inbox/Concurrency in Rust.md~",
     "Notes/Shared memory in Rust.md",
-    "Inbox/Shared memory in Rust.md~",
-    "Notes/Message passing in Rust.md~",
     "Notes/Message passing in Rust.md",
     "Notes/Prometheus.md",
     "Notes/uv.md",

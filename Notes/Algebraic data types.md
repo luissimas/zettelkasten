@@ -26,15 +26,4 @@ impl Shape {
         }
     }
 }
-
-fn main() {
-    let circle = Shape::Circle { radius: 42 };
-    let rectangle = Shape::Rectangle {
-        width: 10,
-        height: 84,
-    };
-
-    println!("The are of the circle is {}", circle.area());
-    println!("The are of the rectangle is {}", rectangle.area());
-}
 ```

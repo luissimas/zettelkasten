@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Pattern matching",
+      "path": "Notes/Pattern matching.md"
+    },
+    {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
       "basename": "Specialization is for insects",
       "path": "Notes/Specialization is for insects.md"
     },
     {
       "basename": "Managing multiple interests",
       "path": "Notes/Managing multiple interests.md"
-    },
-    {
-      "basename": "Pattern matching",
-      "path": "Inbox/Pattern matching.md"
-    },
-    {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
     },
     {
       "basename": "Virtual machines",
