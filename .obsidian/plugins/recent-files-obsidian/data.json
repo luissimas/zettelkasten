@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "pgBadger",
+      "path": "Notes/pgBadger.md"
+    },
+    {
       "basename": "Pattern matching",
       "path": "Notes/Pattern matching.md"
+    },
+    {
+      "basename": "Distributed systems challenges",
+      "path": "Inbox/Distributed systems challenges.md"
+    },
+    {
+      "basename": "A positive attitude",
+      "path": "Inbox/A positive attitude.md"
     },
     {
       "basename": "Go vs Rust",

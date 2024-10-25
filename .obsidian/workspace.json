@@ -17,10 +17,28 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Pattern matching"
+            }
+          },
+          {
+            "id": "a85f7b69b679e74e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/pgBadger.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "pgBadger"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +58,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +75,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -63,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -71,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -95,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Pattern matching.md",
+                "file": "Notes/pgBadger.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -121,7 +147,9 @@
                   "scale": 0.6666666666666666,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of pgBadger"
             }
           },
           {
@@ -132,7 +160,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -140,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ]
@@ -156,8 +188,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Pattern matching.md"
-              }
+                "file": "Notes/pgBadger.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of pgBadger"
             }
           },
           {
@@ -166,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Pattern matching.md",
+                "file": "Notes/pgBadger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +208,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for pgBadger"
             }
           },
           {
@@ -183,10 +219,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Pattern matching.md",
+                "file": "Notes/pgBadger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from pgBadger"
             }
           }
         ],
@@ -209,12 +247,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "79c63571c6d06b88",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Notes/Pattern matching.md",
+    "Notes/pgBadger.md",
+    "Inbox/Distributed systems challenges.md",
+    "Inbox/A positive attitude.md",
     "Inbox/Go vs Rust.md",
     "Notes/Specialization is for insects.md",
     "Inbox/Pattern matching.md",
-    "Notes/Pattern matching.md",
     "Inbox/Pattern matching.md~",
     "Notes/Algebraic data types.md~",
     "Inbox/Specialization is for insects.md~",
@@ -245,14 +286,11 @@
     "Notes/Containers.md",
     "Notes/System containers.md",
     "Notes/Virtualization.md",
-    "Excalidraw/Virtualization.excalidraw.md",
     "Attachments/Pasted image 20240923084402.png",
     "Attachments/Pasted image 20240923084342.png",
     "Attachments/Pasted Image 20240923084029_699.png",
     "Attachments/Pasted Image 20240923083428_612.png",
-    "Notes/DRBD.md",
     "Attachments/Pasted image 20240920072352.png",
-    "Projects/Recipe manager.md",
     "Attachments/Pasted image 20240919094519.png",
     "Attachments/Pasted image 20240913074257.png",
     "Attachments/Pasted image 20240909084338.png",
