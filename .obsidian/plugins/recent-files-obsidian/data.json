@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "pgBadger",
-      "path": "Notes/pgBadger.md"
+      "basename": "Ansible",
+      "path": "Inbox/Ansible.md"
+    },
+    {
+      "basename": "Virtual machines",
+      "path": "Inbox/Virtual machines.md"
+    },
+    {
+      "basename": "LVM",
+      "path": "Notes/LVM.md"
     },
     {
       "basename": "Pattern matching",
       "path": "Notes/Pattern matching.md"
+    },
+    {
+      "basename": "Virtualization",
+      "path": "Notes/Virtualization.md"
+    },
+    {
+      "basename": "Containers",
+      "path": "Notes/Containers.md"
+    },
+    {
+      "basename": "System containers",
+      "path": "Notes/System containers.md"
+    },
+    {
+      "basename": "pgBadger",
+      "path": "Notes/pgBadger.md"
     },
     {
       "basename": "Distributed systems challenges",
@@ -27,10 +51,6 @@
     {
       "basename": "Managing multiple interests",
       "path": "Notes/Managing multiple interests.md"
-    },
-    {
-      "basename": "Virtual machines",
-      "path": "Inbox/Virtual machines.md"
     },
     {
       "basename": "Trait object",
@@ -83,18 +103,6 @@
     {
       "basename": "LXC",
       "path": "Notes/LXC.md"
-    },
-    {
-      "basename": "Containers",
-      "path": "Notes/Containers.md"
-    },
-    {
-      "basename": "System containers",
-      "path": "Notes/System containers.md"
-    },
-    {
-      "basename": "Virtualization",
-      "path": "Notes/Virtualization.md"
     },
     {
       "basename": "Virtualization.excalidraw",
