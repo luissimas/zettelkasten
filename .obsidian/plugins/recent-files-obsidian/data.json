@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Linstor",
+      "path": "Notes/Linstor.md"
+    },
+    {
+      "basename": "LVM",
+      "path": "Notes/LVM.md"
+    },
+    {
+      "basename": "Virtualization.excalidraw",
+      "path": "Excalidraw/Virtualization.excalidraw.md"
+    },
+    {
+      "basename": "Block device",
+      "path": "Notes/Block device.md"
+    },
+    {
+      "basename": "DRBD",
+      "path": "Notes/DRBD.md"
+    },
+    {
       "basename": "Ansible",
       "path": "Inbox/Ansible.md"
     },
     {
       "basename": "Virtual machines",
       "path": "Inbox/Virtual machines.md"
-    },
-    {
-      "basename": "LVM",
-      "path": "Notes/LVM.md"
     },
     {
       "basename": "Pattern matching",
@@ -103,14 +119,6 @@
     {
       "basename": "LXC",
       "path": "Notes/LXC.md"
-    },
-    {
-      "basename": "Virtualization.excalidraw",
-      "path": "Excalidraw/Virtualization.excalidraw.md"
-    },
-    {
-      "basename": "DRBD",
-      "path": "Notes/DRBD.md"
     },
     {
       "basename": "Recipe manager",

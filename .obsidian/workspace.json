@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Ansible.md",
+                "file": "Notes/LVM.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ansible"
+              "title": "LVM"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/pgBadger.md",
+                "file": "Inbox/Linstor.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -133,7 +133,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of pgBadger"
+              "title": "Graph of Linstor"
             }
           },
           {
@@ -184,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/pgBadger.md",
+                "file": "Inbox/Linstor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for pgBadger"
+              "title": "Backlinks for Linstor"
             }
           },
           {
@@ -233,8 +233,27 @@
   },
   "active": "ca3d47ad95a3219e",
   "lastOpenFiles": [
-    "Inbox/Virtual machines.md",
+    "Notes/Linstor.md",
+    "Notes/DaemonSet.md",
+    "Inbox/Unsafe Rust.md",
+    "Inbox/Distributed systems challenges.md",
+    "Inbox/Ansible.md",
+    "Inbox/A positive attitude.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Attachments/Linstor architecture.svg",
+    "Inbox/Linstor.md~",
+    "Attachments/Linstor architecture.png",
+    "Attachments/Linstor architecture 1.png",
     "Notes/LVM.md",
+    "Notes/Piraeus Operator.md~",
+    "Excalidraw/Linstor.excalidraw.md",
+    "Excalidraw/Virtualization.excalidraw.md",
+    "Notes/Block device.md",
+    "Notes/DRBD.md",
+    "Inbox/Virtual machines.md",
     "Inbox/LVM.md~",
     "Notes/DRBD.md~",
     "Attachments/Pasted image 20241030110320.png",
@@ -243,8 +262,6 @@
     "Notes/Containers.md",
     "Notes/System containers.md",
     "Notes/pgBadger.md",
-    "Inbox/Distributed systems challenges.md",
-    "Inbox/A positive attitude.md",
     "Inbox/Go vs Rust.md",
     "Notes/Specialization is for insects.md",
     "Inbox/Pattern matching.md",
@@ -255,29 +272,13 @@
     "Notes/Managing multiple interests.md",
     "Notes/Tests in Rust.md~",
     "Notes/Trait object.md",
-    "Notes/Rust.md~",
-    "Notes/Tailscale.md~",
-    "Notes/Trait object.md~",
     "Notes/Generics.md",
     "Inbox/Generi.md",
     "Notes/Smart pointers.md",
-    "Inbox/Trait object.md~",
-    "Notes/Concurrency in Rust.md",
-    "Notes/Raise the floor, not the ceiling.md",
-    "Notes/Shared memory in Rust.md",
-    "Notes/Message passing in Rust.md",
-    "Notes/Prometheus.md",
-    "Notes/uv.md",
-    "Notes/Passagem de mensagem.md",
-    "Notes/Memória compartilhada.md",
     "Attachments/Pasted image 20240923084402.png",
     "Attachments/Pasted image 20240923084342.png",
     "Attachments/Pasted Image 20240923084029_699.png",
     "Attachments/Pasted Image 20240923083428_612.png",
-    "Attachments/Pasted image 20240920072352.png",
-    "Attachments/Pasted image 20240919094519.png",
-    "Attachments/Pasted image 20240913074257.png",
-    "Attachments/Pasted image 20240909084338.png",
     "Canvases/Interests.canvas",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",

@@ -4,7 +4,7 @@ created-at: "2024-10-30"
 
 LVM (Logical Volume Manager) is a storage device management technology for [[Linux]] that **abstracts physical storage** devices to create **pools** of storage that are **independent of the layout of the underlying physical devices**. This enables more flexibility and control when administering storage devices.
 
-LVM provides an abstraction on top of physical storage devices to the [[Linux]] kernel. It sits between the physical block devices and the kernel to provide logical volume management.
+LVM provides an abstraction on top of physical storage devices to the [[Linux]] kernel. It sits between the physical [[Block device|block devices]] and the kernel to provide logical volume management.
 
 > Most modern Linux distributions are LVM-aware to the point of being able to have their root file systems on a logical volume.
 
