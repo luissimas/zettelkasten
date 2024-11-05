@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "LVM"
             }
+          },
+          {
+            "id": "1cbfafbeb03975ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Linstor.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Linstor"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,10 +247,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca3d47ad95a3219e",
+  "active": "1cbfafbeb03975ee",
   "lastOpenFiles": [
-    "Notes/Linstor.md",
+    "Notes/Linstor.md~",
     "Notes/DaemonSet.md",
+    "Notes/Linstor.md",
     "Inbox/Unsafe Rust.md",
     "Inbox/Distributed systems challenges.md",
     "Inbox/Ansible.md",
@@ -274,7 +291,6 @@
     "Notes/Trait object.md",
     "Notes/Generics.md",
     "Inbox/Generi.md",
-    "Notes/Smart pointers.md",
     "Attachments/Pasted image 20240923084402.png",
     "Attachments/Pasted image 20240923084342.png",
     "Attachments/Pasted Image 20240923084029_699.png",
