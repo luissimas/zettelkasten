@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Linstor",
-      "path": "Notes/Linstor.md"
+      "basename": "Orthogonality",
+      "path": "Inbox/Orthogonality.md"
+    },
+    {
+      "basename": "Ceph",
+      "path": "Inbox/Ceph.md"
     },
     {
       "basename": "LVM",
       "path": "Notes/LVM.md"
+    },
+    {
+      "basename": "Incus charm",
+      "path": "Canvases/Incus charm.canvas"
+    },
+    {
+      "basename": "Linstor",
+      "path": "Notes/Linstor.md"
     },
     {
       "basename": "Virtualization.excalidraw",

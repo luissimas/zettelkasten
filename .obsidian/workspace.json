@@ -8,33 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca3d47ad95a3219e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/LVM.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "LVM"
-            }
-          },
-          {
             "id": "1cbfafbeb03975ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Linstor.md",
+                "file": "Inbox/Ceph.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linstor"
+              "title": "Ceph"
+            }
+          },
+          {
+            "id": "88f8892e080d996d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Orthogonality.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Orthogonality"
             }
           }
         ],
@@ -247,11 +247,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1cbfafbeb03975ee",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Ceph.md",
+    "Inbox/Orthogonality.md",
+    "Notes/LVM.md",
+    "Canvases/Incus charm.canvas",
+    "Notes/Linstor.md",
+    "dev-back/dotfiles",
+    "dev-back",
     "Notes/Linstor.md~",
     "Notes/DaemonSet.md",
-    "Notes/Linstor.md",
     "Inbox/Unsafe Rust.md",
     "Inbox/Distributed systems challenges.md",
     "Inbox/Ansible.md",
@@ -264,7 +270,6 @@
     "Inbox/Linstor.md~",
     "Attachments/Linstor architecture.png",
     "Attachments/Linstor architecture 1.png",
-    "Notes/LVM.md",
     "Notes/Piraeus Operator.md~",
     "Excalidraw/Linstor.excalidraw.md",
     "Excalidraw/Virtualization.excalidraw.md",
@@ -283,14 +288,10 @@
     "Notes/Specialization is for insects.md",
     "Inbox/Pattern matching.md",
     "Inbox/Pattern matching.md~",
-    "Notes/Algebraic data types.md~",
-    "Inbox/Specialization is for insects.md~",
     "Attachments/Pasted image 20241011083523.png",
     "Notes/Managing multiple interests.md",
-    "Notes/Tests in Rust.md~",
     "Notes/Trait object.md",
     "Notes/Generics.md",
-    "Inbox/Generi.md",
     "Attachments/Pasted image 20240923084402.png",
     "Attachments/Pasted image 20240923084342.png",
     "Attachments/Pasted Image 20240923084029_699.png",
