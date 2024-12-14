@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ceph",
+      "path": "Notes/Ceph.md"
+    },
+    {
       "basename": "MetalLB",
       "path": "Inbox/MetalLB.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Tigerbeetle",
       "path": "Inbox/Tigerbeetle.md"
-    },
-    {
-      "basename": "Ceph",
-      "path": "Inbox/Ceph.md"
     },
     {
       "basename": "Go vs Rust",
