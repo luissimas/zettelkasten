@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Tigerbeetle",
-      "path": "Notes/Tigerbeetle.md"
-    },
-    {
-      "basename": "MetalLB",
-      "path": "Inbox/MetalLB.md"
+      "basename": "Orthogonality",
+      "path": "Notes/Orthogonality.md"
     },
     {
       "basename": "Idea",
@@ -17,8 +13,16 @@
       "path": "Inbox/Go vs Rust.md"
     },
     {
-      "basename": "Orthogonality",
-      "path": "Inbox/Orthogonality.md"
+      "basename": "Easy is not simple",
+      "path": "Notes/Easy is not simple.md"
+    },
+    {
+      "basename": "Tigerbeetle",
+      "path": "Notes/Tigerbeetle.md"
+    },
+    {
+      "basename": "MetalLB",
+      "path": "Inbox/MetalLB.md"
     },
     {
       "basename": "Virtual machines",
@@ -195,10 +199,6 @@
     {
       "basename": "Rust",
       "path": "Notes/Rust.md"
-    },
-    {
-      "basename": "KubeVirt",
-      "path": "Notes/KubeVirt.md"
     }
   ],
   "omittedPaths": [],
