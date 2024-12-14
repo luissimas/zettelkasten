@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Distributed systems challenges",
-      "path": "Notes/Distributed systems challenges.md"
-    },
-    {
-      "basename": "Ceph",
-      "path": "Notes/Ceph.md"
+      "basename": "Tigerbeetle",
+      "path": "Notes/Tigerbeetle.md"
     },
     {
       "basename": "MetalLB",
@@ -17,16 +13,28 @@
       "path": "Inbox/Idea.md"
     },
     {
-      "basename": "Tigerbeetle",
-      "path": "Inbox/Tigerbeetle.md"
-    },
-    {
       "basename": "Go vs Rust",
       "path": "Inbox/Go vs Rust.md"
     },
     {
       "basename": "Orthogonality",
       "path": "Inbox/Orthogonality.md"
+    },
+    {
+      "basename": "Virtual machines",
+      "path": "Inbox/Virtual machines.md"
+    },
+    {
+      "basename": "Unsafe Rust",
+      "path": "Inbox/Unsafe Rust.md"
+    },
+    {
+      "basename": "Distributed systems challenges",
+      "path": "Notes/Distributed systems challenges.md"
+    },
+    {
+      "basename": "Ceph",
+      "path": "Notes/Ceph.md"
     },
     {
       "basename": "LVM",
@@ -51,10 +59,6 @@
     {
       "basename": "Ansible",
       "path": "Notes/Ansible.md"
-    },
-    {
-      "basename": "Virtual machines",
-      "path": "Inbox/Virtual machines.md"
     },
     {
       "basename": "Pattern matching",
@@ -195,10 +199,6 @@
     {
       "basename": "KubeVirt",
       "path": "Notes/KubeVirt.md"
-    },
-    {
-      "basename": "Pacemaker",
-      "path": "Notes/Pacemaker.md"
     }
   ],
   "omittedPaths": [],
