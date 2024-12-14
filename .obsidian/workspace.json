@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Orthogonality.md",
+                "file": "Notes/MetalLB.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Orthogonality"
+              "title": "MetalLB"
             }
           }
         ],
@@ -249,15 +249,17 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Inbox/Idea.md",
-    "Inbox/Orthogonality.md~",
-    "Notes/Orthogonality.md",
-    "Inbox/4913",
+    "Attachments/Pasted image 20241214181602.png",
     "Inbox/Go vs Rust.md",
+    "Inbox/MetalLB.md~",
+    "Notes/MetalLB.md",
+    "Inbox/Idea.md",
+    "Notes/Orthogonality.md",
+    "Inbox/Orthogonality.md~",
+    "Inbox/4913",
     "Notes/Easy is not simple.md",
     "Notes/Tigerbeetle.md",
     "Inbox/Tigerbeetle.md~",
-    "Inbox/MetalLB.md",
     "Inbox/Virtual machines.md",
     "Inbox/Unsafe Rust.md",
     "Notes/Distributed systems challenges.md",
@@ -281,7 +283,6 @@
     "Inbox/A positive attitude.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Excalidraw/Scripts/Downloaded/Auto Layout.md",
-    "Excalidraw/Scripts/Downloaded",
     "Attachments/Linstor architecture.svg",
     "Attachments/Linstor architecture.png",
     "Attachments/Linstor architecture 1.png",
