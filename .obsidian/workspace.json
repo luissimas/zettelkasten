@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Ceph.md",
+                "file": "Notes/Distributed systems challenges.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ceph"
+              "title": "Distributed systems challenges"
             }
           }
         ],
@@ -249,10 +249,11 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Distributed systems challenges.md~",
+    "Notes/Ceph.md",
     "Inbox/Ceph.md~",
     "Attachments/Ceph.pdf",
     "Inbox/MetalLB.md",
-    "Notes/Ceph.md",
     "Attachments/Pasted image 20241214174219.png",
     "Attachments/Pasted image 20241214173934.png",
     "Inbox/Idea.md",
@@ -272,7 +273,7 @@
     "Notes/Linstor.md~",
     "Notes/DaemonSet.md",
     "Inbox/Unsafe Rust.md",
-    "Inbox/Distributed systems challenges.md",
+    "Notes/Distributed systems challenges.md",
     "Inbox/A positive attitude.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Excalidraw/Scripts/Downloaded/Auto Layout.md",
@@ -288,8 +289,6 @@
     "Notes/Block device.md",
     "Notes/DRBD.md",
     "Inbox/Virtual machines.md",
-    "Inbox/LVM.md~",
-    "Notes/DRBD.md~",
     "Attachments/Pasted image 20241030110320.png",
     "Notes/Pattern matching.md",
     "Notes/Virtualization.md",
