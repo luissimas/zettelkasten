@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Orthogonality",
-      "path": "Inbox/Orthogonality.md"
+      "basename": "MetalLB",
+      "path": "Inbox/MetalLB.md"
+    },
+    {
+      "basename": "Idea",
+      "path": "Inbox/Idea.md"
+    },
+    {
+      "basename": "Tigerbeetle",
+      "path": "Inbox/Tigerbeetle.md"
     },
     {
       "basename": "Ceph",
       "path": "Inbox/Ceph.md"
     },
     {
-      "basename": "LVM",
-      "path": "Notes/LVM.md"
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
     },
     {
-      "basename": "Incus charm",
-      "path": "Canvases/Incus charm.canvas"
+      "basename": "Orthogonality",
+      "path": "Inbox/Orthogonality.md"
+    },
+    {
+      "basename": "LVM",
+      "path": "Notes/LVM.md"
     },
     {
       "basename": "Linstor",
@@ -67,10 +79,6 @@
     {
       "basename": "A positive attitude",
       "path": "Inbox/A positive attitude.md"
-    },
-    {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
     },
     {
       "basename": "Specialization is for insects",
@@ -191,14 +199,6 @@
     {
       "basename": "Pacemaker",
       "path": "Notes/Pacemaker.md"
-    },
-    {
-      "basename": "eBPF",
-      "path": "Notes/eBPF.md"
-    },
-    {
-      "basename": "It's not about time, it's about energy",
-      "path": "Notes/It's not about time, it's about energy.md"
     }
   ],
   "omittedPaths": [],

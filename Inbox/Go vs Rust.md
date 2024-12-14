@@ -21,3 +21,7 @@ Go's ecosystem is more mature for cloud-native things, and this is the area were
 I want a language that aligns with the [[Princípio de Pareto]], and I think Go is that language.
 
 With that said, I started learning Rust and I enjoy it. So I'll stick with it until I finish the book and then build a couple of projects with it to get a real feel of the language. I think I missed my momentum, but I have to persist otherwise I'll always fall for the [[Shiny object syndrome]].
+
+# Reference
+
+https://kristoff.it/blog/why-go-and-not-rust/

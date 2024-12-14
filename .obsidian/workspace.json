@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Ansible.md",
+                "file": "Inbox/MetalLB.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ansible"
+              "title": "MetalLB"
             }
           }
         ],
@@ -88,6 +88,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "54042242c49b5724",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -237,16 +247,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "88f8892e080d996d",
   "lastOpenFiles": [
-    "Notes/Terraform.md",
+    "Inbox/Idea.md",
+    "Inbox/MetalLB.md",
+    "Inbox/Tigerbeetle.md",
+    "Inbox/Ceph.md",
+    "Inbox/Go vs Rust.md",
     "Notes/Ansible.md",
+    "Notes/Terraform.md",
     "Notes/Easy is not simple.md",
     "Canvases/Incus charm.canvas",
     "Notes/Switching to Ubuntu.md",
     "Attachments/Pasted image 20241128075107.png",
     "Inbox/Orthogonality.md",
-    "Inbox/Ceph.md",
     "Notes/LVM.md",
     "Notes/Linstor.md",
     "dev-back/dotfiles",
@@ -277,10 +291,6 @@
     "Notes/Virtualization.md",
     "Notes/Containers.md",
     "Notes/System containers.md",
-    "Notes/pgBadger.md",
-    "Inbox/Go vs Rust.md",
-    "Notes/Specialization is for insects.md",
-    "Inbox/Pattern matching.md",
     "Inbox/Pattern matching.md~",
     "Attachments/Pasted image 20241011083523.png",
     "Attachments/Pasted image 20240923084402.png",
