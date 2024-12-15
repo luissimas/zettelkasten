@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "LSP goto implementation",
+      "path": "Notes/LSP goto implementation.md"
+    },
+    {
+      "basename": "Load balancer",
+      "path": "Inbox/Load balancer.md"
+    },
+    {
       "basename": "MetalLB",
       "path": "Notes/MetalLB.md"
+    },
+    {
+      "basename": "Virtual machines",
+      "path": "Inbox/Virtual machines.md"
+    },
+    {
+      "basename": "Unsafe Rust",
+      "path": "Inbox/Unsafe Rust.md"
     },
     {
       "basename": "Go vs Rust",
@@ -23,14 +39,6 @@
     {
       "basename": "Tigerbeetle",
       "path": "Notes/Tigerbeetle.md"
-    },
-    {
-      "basename": "Virtual machines",
-      "path": "Inbox/Virtual machines.md"
-    },
-    {
-      "basename": "Unsafe Rust",
-      "path": "Inbox/Unsafe Rust.md"
     },
     {
       "basename": "Distributed systems challenges",
@@ -191,14 +199,6 @@
     {
       "basename": "Homelab",
       "path": "Indexes/Homelab.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
-      "basename": "Rust",
-      "path": "Notes/Rust.md"
     }
   ],
   "omittedPaths": [],
