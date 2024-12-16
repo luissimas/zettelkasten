@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/LSP goto implementation.md",
+                "file": "Notes/Headlamp.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "LSP goto implementation"
+              "title": "Headlamp"
             }
           }
         ],
@@ -249,6 +249,10 @@
   },
   "active": "88f8892e080d996d",
   "lastOpenFiles": [
+    "Notes/Node-pressure Eviction.md",
+    "Notes/LSP goto implementation.md",
+    "Node-pressure Eviction.md~",
+    "Attachments/Pasted image 20241216072856.png",
     "Inbox/Load balancer.md",
     "Notes/MetalLB.md",
     "Inbox/Virtual machines.md",
@@ -279,7 +283,6 @@
     "Notes/Linstor.md",
     "dev-back/dotfiles",
     "dev-back",
-    "Notes/Linstor.md~",
     "Notes/DaemonSet.md",
     "Inbox/A positive attitude.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
@@ -292,10 +295,6 @@
     "Notes/Block device.md",
     "Notes/DRBD.md",
     "Attachments/Pasted image 20241030110320.png",
-    "Notes/Pattern matching.md",
-    "Notes/Virtualization.md",
-    "Notes/Containers.md",
-    "Attachments/Pasted image 20241011083523.png",
     "Canvases/Interests.canvas",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",

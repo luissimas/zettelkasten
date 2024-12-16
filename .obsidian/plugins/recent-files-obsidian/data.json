@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Headlamp",
+      "path": "Notes/Headlamp.md"
+    },
+    {
+      "basename": "Node-pressure Eviction",
+      "path": "Notes/Node-pressure Eviction.md"
+    },
+    {
       "basename": "LSP goto implementation",
       "path": "Notes/LSP goto implementation.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Derivadas direcionais",
       "path": "Notes/Derivadas direcionais.md"
-    },
-    {
-      "basename": "Derivadas parciais",
-      "path": "Notes/Derivadas parciais.md"
-    },
-    {
-      "basename": "Homelab",
-      "path": "Indexes/Homelab.md"
     }
   ],
   "omittedPaths": [],
