@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual IP",
+      "path": "Notes/Virtual IP.md"
+    },
+    {
+      "basename": "Floating IP",
+      "path": "Inbox/Floating IP.md"
+    },
+    {
+      "basename": "IPVS",
+      "path": "Inbox/IPVS.md"
+    },
+    {
+      "basename": "Load balancer",
+      "path": "Inbox/Load balancer.md"
+    },
+    {
       "basename": "Headlamp",
       "path": "Notes/Headlamp.md"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "LSP goto implementation",
       "path": "Notes/LSP goto implementation.md"
-    },
-    {
-      "basename": "Load balancer",
-      "path": "Inbox/Load balancer.md"
     },
     {
       "basename": "MetalLB",
@@ -187,18 +199,6 @@
     {
       "basename": "2024-09-15",
       "path": "Journal/2024-09-15.md"
-    },
-    {
-      "basename": "Arrays and linked lists",
-      "path": "Notes/Arrays and linked lists.md"
-    },
-    {
-      "basename": "Vetor gradiente",
-      "path": "Notes/Vetor gradiente.md"
-    },
-    {
-      "basename": "Derivadas direcionais",
-      "path": "Notes/Derivadas direcionais.md"
     }
   ],
   "omittedPaths": [],
