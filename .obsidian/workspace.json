@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Floating IP.md",
-                "mode": "source",
+                "file": "Inbox/IPVS.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Floating IP"
+              "title": "IPVS"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Virtual IP.md",
+                "file": "Notes/Floating IP.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Virtual IP"
+              "title": "Floating IP"
             }
           }
         ],
@@ -262,11 +262,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "6fdab7960a8f3b65",
   "lastOpenFiles": [
-    "Inbox/Floating IP.md",
     "Notes/Virtual IP.md",
+    "Notes/Floating IP.md",
+    "Inbox/Floating IP.md~",
+    "Notes/Virtual IP.md~",
+    "Inbox/4913",
     "Inbox/IPVS.md",
+    "Attachments/ha-diagram-animated.gif",
+    "Attachments/Pasted image 20241217070458.png",
+    "Inbox/IPVS.md~",
     "Inbox/Load balancer.md",
     "Notes/Headlamp.md",
     "Notes/Node-pressure Eviction.md",
@@ -282,7 +288,6 @@
     "Inbox/MetalLB.md~",
     "Notes/Orthogonality.md",
     "Inbox/Orthogonality.md~",
-    "Inbox/4913",
     "Notes/Easy is not simple.md",
     "Notes/Tigerbeetle.md",
     "Inbox/Tigerbeetle.md~",
@@ -290,7 +295,6 @@
     "Inbox/Distributed systems challenges.md~",
     "Notes/Ceph.md",
     "Inbox/Ceph.md~",
-    "Attachments/Ceph.pdf",
     "Attachments/Pasted image 20241214174219.png",
     "Attachments/Pasted image 20241214173934.png",
     "Notes/Ansible.md",
@@ -300,17 +304,12 @@
     "Attachments/Pasted image 20241128075107.png",
     "Notes/LVM.md",
     "Notes/Linstor.md",
-    "dev-back/dotfiles",
-    "dev-back",
     "Notes/DaemonSet.md",
     "Inbox/A positive attitude.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Excalidraw/Scripts/Downloaded/Auto Layout.md",
     "Attachments/Linstor architecture.svg",
     "Attachments/Linstor architecture.png",
-    "Attachments/Linstor architecture 1.png",
-    "Excalidraw/Linstor.excalidraw.md",
-    "Attachments/Pasted image 20241030110320.png",
     "Canvases/Interests.canvas",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
