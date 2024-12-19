@@ -2,7 +2,8 @@
 created-at: 2024-08-31
 ---
 
-I'm Luís, a software developer living in Brasil 🇧🇷.I'm very passionate about a lot of things, som  of them are:
+
+I'm Luís, a software developer living in Brasil 🇧🇷.I'm very passionate about a lot of things, some of them are:
 
 - Custom keyboards
 - Text editors
@@ -11,7 +12,7 @@ I'm Luís, a software developer living in Brasil 🇧🇷.I'm very passionate ab
 - Getting better at stuff
 - Learn more about linguistics and philosophy
 
-This website is meant to be a place to share a few things, mostly through [my blog posts]({{< ref "/posts" >}} "Blog posts"). This page is mostly a resume of my professional experience and education. If you want to get in touch or discuss anything you can email me at <luissimas@protonmail.com>.
+This website is meant to be a place to share a few things, in the form of blog posts as well as notes. This page is mostly a resume of my professional experience and education. If you want to get in touch or discuss anything you can email me at <luissimas@protonmail.com>.
 
 # Professional experience
 
@@ -25,7 +26,7 @@ In 2023 I started to work on a few projects sporadically as a freelancer. I felt
 
 ## Back-end developer, Liven Tech (2022-2024)
 
-Liven is a software house in São Carlos, Brasil. Their clients range from startups to big companies in a variety of domains.
+Liven is a software house in São Carlos, Brazil. Their clients range from startups to big companies in a variety of domains.
 
 As a back-end developer at Liven I've started working mostly in the development of **REST APIs** in Node.js using Typescript and Clean Architecture. I also did a lot of work on **telecom platforms** in both Python and Node.js. It was here that I discovered that I really liked working with **infrastructure and application monitoring**, using mostly Prometheus and Grafana. Besides that, I did some work on **load testing** with Grafana K6 and optimizing performance in Python applications.
 
