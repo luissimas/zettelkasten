@@ -10,4 +10,4 @@ Doing this effectively depends on a statically typed language that provides a ri
 
 # References
 
-https://www.youtube.com/watch?v=NDIU1GSBrVI
+[The magic of Rust's type system](https://www.youtube.com/watch?v=NDIU1GSBrVI)

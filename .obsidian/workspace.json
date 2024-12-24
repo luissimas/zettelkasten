@@ -4,56 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8490cb13004d9f7e",
+        "id": "64c45dc0ab767c35",
         "type": "tabs",
         "children": [
           {
-            "id": "1cbfafbeb03975ee",
+            "id": "4a3142082680c27e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Ceph.md",
+                "file": "Notes/Unsafe Rust.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ceph"
-            }
-          },
-          {
-            "id": "88f8892e080d996d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/IPVS.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "IPVS"
-            }
-          },
-          {
-            "id": "6fdab7960a8f3b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Floating IP.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Floating IP"
+              "title": "Unsafe Rust"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -262,39 +231,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6fdab7960a8f3b65",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Notes/Virtual IP.md",
+    "Inbox/Unsafe Rust.md~",
+    "Inbox/Go vs Rust.md",
+    "Notes/Unsafe Rust.md",
+    "Inbox/4913",
+    "Notes/Borrowing.md~",
+    "Notes/Lifetimes.md~",
+    "Notes/Ownership.md~",
+    "Notes/4913",
+    "Notes/Type-driven design.md~",
+    "Inbox/Virtual machines.md",
+    "Inbox/SSL termination.md",
+    "Inbox/Load balancer.md",
+    "Inbox/IPVS.md",
+    "Inbox/Idea.md",
+    "Inbox/HAProxy.md",
     "Notes/Floating IP.md",
+    "Notes/Virtual IP.md",
     "Inbox/Floating IP.md~",
     "Notes/Virtual IP.md~",
-    "Inbox/4913",
-    "Inbox/IPVS.md",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
     "Inbox/IPVS.md~",
-    "Inbox/Load balancer.md",
     "Notes/Headlamp.md",
     "Notes/Node-pressure Eviction.md",
     "Notes/LSP goto implementation.md",
-    "Node-pressure Eviction.md~",
     "Attachments/Pasted image 20241216072856.png",
     "Notes/MetalLB.md",
-    "Inbox/Virtual machines.md",
-    "Inbox/Unsafe Rust.md",
-    "Inbox/Go vs Rust.md",
-    "Inbox/Idea.md",
     "Attachments/Pasted image 20241214181602.png",
-    "Inbox/MetalLB.md~",
     "Notes/Orthogonality.md",
-    "Inbox/Orthogonality.md~",
     "Notes/Easy is not simple.md",
     "Notes/Tigerbeetle.md",
-    "Inbox/Tigerbeetle.md~",
     "Notes/Distributed systems challenges.md",
-    "Inbox/Distributed systems challenges.md~",
     "Notes/Ceph.md",
-    "Inbox/Ceph.md~",
     "Attachments/Pasted image 20241214174219.png",
     "Attachments/Pasted image 20241214173934.png",
     "Notes/Ansible.md",
@@ -305,9 +276,7 @@
     "Notes/LVM.md",
     "Notes/Linstor.md",
     "Notes/DaemonSet.md",
-    "Inbox/A positive attitude.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
     "Attachments/Linstor architecture.svg",
     "Attachments/Linstor architecture.png",
     "Canvases/Interests.canvas",

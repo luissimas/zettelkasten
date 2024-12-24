@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Floating IP",
-      "path": "Notes/Floating IP.md"
+      "basename": "Unsafe Rust",
+      "path": "Notes/Unsafe Rust.md"
     },
     {
-      "basename": "Virtual IP",
-      "path": "Notes/Virtual IP.md"
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Virtual machines",
+      "path": "Inbox/Virtual machines.md"
+    },
+    {
+      "basename": "SSL termination",
+      "path": "Inbox/SSL termination.md"
+    },
+    {
+      "basename": "Load balancer",
+      "path": "Inbox/Load balancer.md"
     },
     {
       "basename": "IPVS",
       "path": "Inbox/IPVS.md"
     },
     {
-      "basename": "Load balancer",
-      "path": "Inbox/Load balancer.md"
+      "basename": "Idea",
+      "path": "Inbox/Idea.md"
+    },
+    {
+      "basename": "HAProxy",
+      "path": "Inbox/HAProxy.md"
+    },
+    {
+      "basename": "Floating IP",
+      "path": "Notes/Floating IP.md"
+    },
+    {
+      "basename": "Virtual IP",
+      "path": "Notes/Virtual IP.md"
     },
     {
       "basename": "Headlamp",
@@ -31,22 +55,6 @@
     {
       "basename": "MetalLB",
       "path": "Notes/MetalLB.md"
-    },
-    {
-      "basename": "Virtual machines",
-      "path": "Inbox/Virtual machines.md"
-    },
-    {
-      "basename": "Unsafe Rust",
-      "path": "Inbox/Unsafe Rust.md"
-    },
-    {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
-    },
-    {
-      "basename": "Idea",
-      "path": "Inbox/Idea.md"
     },
     {
       "basename": "Orthogonality",
@@ -191,14 +199,6 @@
     {
       "basename": "MAAS",
       "path": "Notes/MAAS.md"
-    },
-    {
-      "basename": "MaaS",
-      "path": "Notes/MaaS.md"
-    },
-    {
-      "basename": "2024-09-15",
-      "path": "Journal/2024-09-15.md"
     }
   ],
   "omittedPaths": [],
