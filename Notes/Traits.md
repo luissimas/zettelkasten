@@ -55,10 +55,28 @@ impl Summary for NewsArticle {
 }
 ```
 
-Finally, we can then specify a function that receives a type that implements the `Summary` trait. This is actually just syntax sugar for [[Trait bounds]].
+We can also specify a function that receives a type that implements the `Summary` trait. This is actually just syntax sugar for [[Trait bounds]].
 
 ```rust
 pub fn notify(item: &impl Summary) {
     println!("Breaking news! {}", item.summarize());
+}
+```
+
+Traits can also define placeholder types with associated types. Associated types allow a trait to specify some concrete types only at its implementation, not in the trait definition itself. A good example of this is the `Iterator` trait.
+
+```rust
+pub trait Iterator {
+    type Item;
+
+    fn next(&mut self) -> Option<Self::Item>;
+}
+
+impl Iterator for Counter {
+    type Item = u32;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        // ...
+    }
 }
 ```

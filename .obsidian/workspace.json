@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Unsafe Rust.md",
+                "file": "Notes/Deref coercion.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Unsafe Rust"
+              "title": "Deref coercion"
             }
           }
         ]
@@ -233,15 +233,20 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Deref coercion.md~",
+    "Notes/Traits.md",
+    "Notes/Traits.md~",
+    "Notes/Trait object.md~",
+    "Notes/Trait object.md",
+    "Notes/Smart pointers.md~",
+    "Notes/Unsafe Rust.md",
     "Inbox/Unsafe Rust.md~",
     "Inbox/Go vs Rust.md",
-    "Notes/Unsafe Rust.md",
     "Inbox/4913",
     "Notes/Borrowing.md~",
     "Notes/Lifetimes.md~",
     "Notes/Ownership.md~",
     "Notes/4913",
-    "Notes/Type-driven design.md~",
     "Inbox/Virtual machines.md",
     "Inbox/SSL termination.md",
     "Inbox/Load balancer.md",
@@ -250,11 +255,8 @@
     "Inbox/HAProxy.md",
     "Notes/Floating IP.md",
     "Notes/Virtual IP.md",
-    "Inbox/Floating IP.md~",
-    "Notes/Virtual IP.md~",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
-    "Inbox/IPVS.md~",
     "Notes/Headlamp.md",
     "Notes/Node-pressure Eviction.md",
     "Notes/LSP goto implementation.md",
@@ -274,8 +276,6 @@
     "Notes/Switching to Ubuntu.md",
     "Attachments/Pasted image 20241128075107.png",
     "Notes/LVM.md",
-    "Notes/Linstor.md",
-    "Notes/DaemonSet.md",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Attachments/Linstor architecture.svg",
     "Attachments/Linstor architecture.png",

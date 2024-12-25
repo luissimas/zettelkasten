@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Deref coercion",
+      "path": "Notes/Deref coercion.md"
+    },
+    {
+      "basename": "Traits",
+      "path": "Notes/Traits.md"
+    },
+    {
       "basename": "Unsafe Rust",
       "path": "Notes/Unsafe Rust.md"
     },
@@ -133,10 +141,6 @@
       "path": "Notes/Managing multiple interests.md"
     },
     {
-      "basename": "Trait object",
-      "path": "Notes/Trait object.md"
-    },
-    {
       "basename": "Generics",
       "path": "Notes/Generics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Juju",
       "path": "Notes/Juju.md"
-    },
-    {
-      "basename": "MAAS",
-      "path": "Notes/MAAS.md"
     }
   ],
   "omittedPaths": [],
