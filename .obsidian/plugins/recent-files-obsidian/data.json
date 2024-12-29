@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Nothing changes if nothing changes",
+      "path": "Notes/Nothing changes if nothing changes.md"
+    },
+    {
+      "basename": "Software testing",
+      "path": "Notes/Software testing.md"
+    },
+    {
       "basename": "Deref coercion",
       "path": "Notes/Deref coercion.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Recipe manager",
       "path": "Projects/Recipe manager.md"
-    },
-    {
-      "basename": "Zettelkasten CLI",
-      "path": "Projects/Zettelkasten CLI.md"
-    },
-    {
-      "basename": "Juju",
-      "path": "Notes/Juju.md"
     }
   ],
   "omittedPaths": [],

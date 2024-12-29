@@ -1,5 +1,6 @@
 ---
 created-at: "2024-07-15"
+tags: core
 ---
 
 I have a lot of interests, and I feel like [[Shiny object syndrome|I never finish anything]]. It's been a few years since I've come to realize that I have a lot of shallow knowledge about a wide range of topics but **no real experience** in any of them. It's time to sit down and **create a system to manage my multiple interests** so I can progress on what's really important.

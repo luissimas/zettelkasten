@@ -1,5 +1,6 @@
 ---
 created-at: 2023-12-06
+tags: core
 ---
 
 > Avoid testing implementation details, test behaviors
@@ -8,4 +9,7 @@ Testing implementation details leads to very fragile and expensive to maintain t
 
 By definition, refactoring should not break any tests. If your tests break while refactoring either your refactoring altered a behavior of the system or your tests are testing implementation details.
 
-This is an excellent talk about testing: https://www.youtube.com/watch?v=EZ05e7EMOLM
+# References
+
+https://matklad.github.io/2021/05/31/how-to-test.html
+[TDD, Where Did It All Go Wrong (Ian Cooper)](https://www.youtube.com/watch?v=EZ05e7EMOLM)

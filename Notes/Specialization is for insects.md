@@ -1,5 +1,6 @@
 ---
 created-at: 2024-10-11
+tags: core
 ---
 
 Today I came across this quote from [Robert A. Heinlein](https://en.wikipedia.org/wiki/Robert_A._Heinlein).

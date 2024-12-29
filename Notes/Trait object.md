@@ -24,6 +24,6 @@ impl Screen {
 }
 ```
 
-The main use case for trait objects is to be able to use store a set of **values that implement a given trait** without caring about what the concrete types are. Because we don't know that the concrete type is, we have to use some type of indirection such as `Box<T>` to store the pointer for the value on the heap.
+The main use case for trait objects is to be able to store a set of **values that implement a given trait** without caring about what the concrete types are. Because we don't know that the concrete type is, we have to use some type of indirection such as `Box<T>` to store the pointer for the value on the heap.
 
 Unlike [[Generics]], trait objects do **have a runtime cost**. Since the compiler can't know what types will be used at compile time, it has to generate extra runtime code that will perform _dynamic dispatching_. That is, handle calling the method on each struct given its pointer (usually via a lookup table).
