@@ -11,10 +11,15 @@
             "id": "d4a0919941c10d2d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Indexes/Software development.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Software development"
             }
           }
         ]
@@ -228,6 +233,15 @@
   },
   "active": "d4a0919941c10d2d",
   "lastOpenFiles": [
+    "Indexes/Software development.md~",
+    "index.md~",
+    "Notes/ORMs.md",
+    "Indexes/Software development.md",
+    "index.md",
+    "Indexes/UFSCar.md~",
+    "Projects/Zettelkasten exporter.md",
+    "Notes/Software testing.md~",
+    "Notes/Changelog.md~",
     "Notes/Nothing changes if nothing changes.md",
     "Notes/Software testing.md",
     "Notes/Deref coercion.md",
@@ -242,10 +256,6 @@
     "Inbox/Unsafe Rust.md~",
     "Inbox/Go vs Rust.md",
     "Inbox/4913",
-    "Notes/Borrowing.md~",
-    "Notes/Lifetimes.md~",
-    "Notes/Ownership.md~",
-    "Notes/4913",
     "Inbox/Virtual machines.md",
     "Inbox/SSL termination.md",
     "Inbox/Load balancer.md",
@@ -263,13 +273,8 @@
     "Notes/MetalLB.md",
     "Attachments/Pasted image 20241214181602.png",
     "Notes/Orthogonality.md",
-    "Notes/Easy is not simple.md",
-    "Notes/Tigerbeetle.md",
-    "Notes/Distributed systems challenges.md",
-    "Notes/Ceph.md",
     "Attachments/Pasted image 20241214174219.png",
     "Attachments/Pasted image 20241214173934.png",
-    "Notes/Ansible.md",
     "Canvases/Incus charm.canvas",
     "Attachments/Pasted image 20241128075107.png",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",

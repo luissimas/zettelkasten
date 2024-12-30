@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Software development",
+      "path": "Indexes/Software development.md"
+    },
+    {
+      "basename": "ORMs",
+      "path": "Notes/ORMs.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "Zettelkasten exporter",
+      "path": "Projects/Zettelkasten exporter.md"
+    },
+    {
       "basename": "Nothing changes if nothing changes",
       "path": "Notes/Nothing changes if nothing changes.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Passagem de mensagem",
       "path": "Notes/Passagem de mensagem.md"
-    },
-    {
-      "basename": "Memória compartilhada",
-      "path": "Notes/Memória compartilhada.md"
-    },
-    {
-      "basename": "Openstack",
-      "path": "Notes/Openstack.md"
-    },
-    {
-      "basename": "LXC",
-      "path": "Notes/LXC.md"
-    },
-    {
-      "basename": "Recipe manager",
-      "path": "Projects/Recipe manager.md"
     }
   ],
   "omittedPaths": [],

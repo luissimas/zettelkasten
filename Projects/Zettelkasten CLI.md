@@ -1,16 +1,16 @@
 ---
-created-at: "2024-08-30"
+created-at: "2024-12-30"
 ---
 
-I'm learning [[Rust]] for the past few weeks and I feel like I'm almost at a point where I can build something useful with it without banging my head too much. I've been wanting to aggregate the several scripts that I have to manage my [[Zettelkasten]] into a more structured CLI.
+I've been learning [[Rust]] for the past few weeks and I feel like I'm almost at a point where I can build something useful with it without banging my head too much. I've been wanting to aggregate the several scripts that I have to manage my [[Zettelkasten]] into a more structured CLI.
 
-The idea is to encapsulate several aspects of the process, from creating new notes to managing front matter metadata and applying formatting to notes.
+The idea is to encapsulate several aspects of my note-taking process. The initial set of features:
 
-Planned features:
+- [ ] Create new notes and open them in editor
+- [ ] Apply templates defined in vault
+- [ ] Read configuration from Obsidian vault config files
+- [ ] List and search notes
+- [ ] Show broken links
+- [ ] Show potential missing links
 
-- Create new notes and open the editor
-- Add tags and arbitrary attributes to notes
-- Enforce my preferred formatting
-- Manage git operations and publishing with [[Quartz]]
-- Show orphaned notes
-- Show orphaned attachments
+There's a great tool to visualize a Zettelkasten in the CLI called [rucola](https://github.com/Linus-Mussmaecher/rucola). It does part of what I want to accomplish, but it seems to be more focused on the TUI interface and in visualizing the notes. I want my tool to be CLI first and more focused on quick input.

@@ -7,7 +7,7 @@
 		{"id":"cbbda0255c86e4e6","type":"text","text":"Pull repository","x":248,"y":-200,"width":250,"height":60,"color":"4"},
 		{"id":"c9923c82c0090933","type":"text","text":"Wait `Config.CollectionInterval`","x":204,"y":0,"width":336,"height":65,"color":"4"},
 		{"id":"fa4b23b15832be7c","type":"text","text":"Fill historical data","x":-60,"y":-320,"width":250,"height":60,"color":"4"},
-		{"id":"e52fac40363537c6","type":"file","file":"Notes/Zettelkasten exporter.md","x":680,"y":-800,"width":940,"height":600}
+		{"id":"e52fac40363537c6","type":"file","file":"Projects/Zettelkasten exporter.md","x":680,"y":-800,"width":940,"height":600}
 	],
 	"edges":[
 		{"id":"09c4384ac934e5f2","fromNode":"c8e3862c65d58cf9","fromSide":"bottom","toNode":"cbc263a4515ba294","toSide":"top"},
