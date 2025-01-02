@@ -6,9 +6,11 @@ I've been learning [[Rust]] for the past few weeks and I feel like I'm almost at
 
 The idea is to encapsulate several aspects of my note-taking process. The initial set of features:
 
-- [ ] Create new notes and open them in editor
+- [X] Create new notes and open them in editor
+- [X] Read configuration file
+- [ ] Prompt to create configuration file
+- [ ] Read config from Obsidian vault
 - [ ] Apply templates defined in vault
-- [ ] Read configuration from Obsidian vault config files
 - [ ] List and search notes
 - [ ] Show broken links
 - [ ] Show potential missing links
