@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SSL termination",
+      "path": "Notes/SSL termination.md"
+    },
+    {
+      "basename": "Load balancer",
+      "path": "Inbox/Load balancer.md"
+    },
+    {
       "basename": "Software development",
       "path": "Indexes/Software development.md"
     },
@@ -43,14 +51,6 @@
     {
       "basename": "Virtual machines",
       "path": "Inbox/Virtual machines.md"
-    },
-    {
-      "basename": "SSL termination",
-      "path": "Inbox/SSL termination.md"
-    },
-    {
-      "basename": "Load balancer",
-      "path": "Inbox/Load balancer.md"
     },
     {
       "basename": "IPVS",
@@ -195,10 +195,6 @@
     {
       "basename": "uv",
       "path": "Notes/uv.md"
-    },
-    {
-      "basename": "Passagem de mensagem",
-      "path": "Notes/Passagem de mensagem.md"
     }
   ],
   "omittedPaths": [],

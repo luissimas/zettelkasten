@@ -8,9 +8,10 @@ The idea is to encapsulate several aspects of my note-taking process. The initia
 
 - [X] Create new notes and open them in editor
 - [X] Read configuration file
-- [ ] Prompt to create configuration file
+- [X] Prompt to create configuration file
 - [ ] Read config from Obsidian vault
 - [ ] Apply templates defined in vault
+- [ ] Handle non-interactive terminals
 - [ ] List and search notes
 - [ ] Show broken links
 - [ ] Show potential missing links
