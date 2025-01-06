@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/SSL termination.md",
+                "file": "Notes/IPVS.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SSL termination"
+              "title": "IPVS"
             }
           }
         ]
@@ -233,10 +233,14 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Inbox/SSL termination.md~",
-    "Inbox/Untitled.md",
-    "Notes/SSL termination.md",
+    "Inbox/Idea.md",
+    "Notes/IPVS.md",
     "Inbox/Load balancer.md",
+    "Notes/SSL termination.md",
+    "Inbox/SSL termination.md",
+    "Inbox/SSL termination.md~",
+    "Attachments/teste.png",
+    "Inbox/Untitled.md",
     "Indexes/Software development.md",
     "Journal/2025-01-02.md~",
     "Indexes/Software development.md~",
@@ -255,12 +259,9 @@
     "Notes/Traits.md~",
     "Notes/Trait object.md~",
     "Notes/Trait object.md",
-    "Notes/Smart pointers.md~",
     "Notes/Unsafe Rust.md",
     "Inbox/Go vs Rust.md",
     "Inbox/Virtual machines.md",
-    "Inbox/IPVS.md",
-    "Inbox/Idea.md",
     "Inbox/HAProxy.md",
     "Notes/Floating IP.md",
     "Notes/Virtual IP.md",
@@ -272,14 +273,12 @@
     "Attachments/Pasted image 20241216072856.png",
     "Notes/MetalLB.md",
     "Attachments/Pasted image 20241214181602.png",
-    "Notes/Orthogonality.md",
     "Attachments/Pasted image 20241214174219.png",
     "Attachments/Pasted image 20241214173934.png",
     "Canvases/Incus charm.canvas",
     "Attachments/Pasted image 20241128075107.png",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Attachments/Linstor architecture.svg",
-    "Attachments/Linstor architecture.png",
     "Canvases/Interests.canvas",
     "Canvases/Recipe manager.canvas",
     "Canvases/Zettelkasten Exporter.canvas",

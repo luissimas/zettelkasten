@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "SSL termination",
-      "path": "Notes/SSL termination.md"
+      "basename": "IPVS",
+      "path": "Notes/IPVS.md"
+    },
+    {
+      "basename": "Idea",
+      "path": "Inbox/Idea.md"
     },
     {
       "basename": "Load balancer",
       "path": "Inbox/Load balancer.md"
+    },
+    {
+      "basename": "SSL termination",
+      "path": "Notes/SSL termination.md"
     },
     {
       "basename": "Software development",
@@ -51,18 +59,6 @@
     {
       "basename": "Virtual machines",
       "path": "Inbox/Virtual machines.md"
-    },
-    {
-      "basename": "IPVS",
-      "path": "Inbox/IPVS.md"
-    },
-    {
-      "basename": "Idea",
-      "path": "Inbox/Idea.md"
-    },
-    {
-      "basename": "HAProxy",
-      "path": "Inbox/HAProxy.md"
     },
     {
       "basename": "Floating IP",
