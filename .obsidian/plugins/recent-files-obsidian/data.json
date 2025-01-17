@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linstor",
+      "path": "Notes/Linstor.md"
+    },
+    {
       "basename": "IPVS",
       "path": "Notes/IPVS.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "LVM",
       "path": "Notes/LVM.md"
-    },
-    {
-      "basename": "Linstor",
-      "path": "Notes/Linstor.md"
     },
     {
       "basename": "Virtualization.excalidraw",
