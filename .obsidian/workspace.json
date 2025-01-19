@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0073139da76846e0",
+        "id": "ca16aafbba512ab9",
         "type": "tabs",
         "children": [
           {
-            "id": "d4a0919941c10d2d",
+            "id": "df5e146e87332c11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Linstor.md",
+                "file": "Notes/D2.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linstor"
+              "title": "D2"
             }
           }
         ]
@@ -84,8 +84,7 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -232,8 +231,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d4a0919941c10d2d",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/D2.md~",
+    "Notes/D2.md",
+    "Notes/Linstor.md",
     "Notes/IPVS.md",
     "Inbox/Idea.md",
     "Inbox/Load balancer.md",
@@ -270,9 +272,7 @@
     "Attachments/Pasted image 20241217070458.png",
     "Notes/Headlamp.md",
     "Notes/Node-pressure Eviction.md",
-    "Notes/LSP goto implementation.md",
     "Attachments/Pasted image 20241216072856.png",
-    "Notes/MetalLB.md",
     "Attachments/Pasted image 20241214181602.png",
     "Attachments/Pasted image 20241214174219.png",
     "Attachments/Pasted image 20241214173934.png",
