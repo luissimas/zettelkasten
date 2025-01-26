@@ -17,3 +17,5 @@ The idea is to encapsulate several aspects of my note-taking process. The initia
 - [ ] Show potential missing links
 
 There's a great tool to visualize a Zettelkasten in the CLI called [rucola](https://github.com/Linus-Mussmaecher/rucola). It does part of what I want to accomplish, but it seems to be more focused on the TUI interface and in visualizing the notes. I want my tool to be CLI first and more focused on quick input.
+
+This might be a good library for templating: https://docs.rs/minijinja/latest/minijinja/
