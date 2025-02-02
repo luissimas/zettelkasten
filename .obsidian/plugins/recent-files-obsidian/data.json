@@ -1,6 +1,98 @@
 {
   "recentFiles": [
     {
+      "basename": "Software development",
+      "path": "Indexes/Software development.md"
+    },
+    {
+      "basename": "Software testing",
+      "path": "Notes/Software testing.md"
+    },
+    {
+      "basename": "Time management",
+      "path": "Notes/Time management.md"
+    },
+    {
+      "basename": "Tigerbeetle",
+      "path": "Notes/Tigerbeetle.md"
+    },
+    {
+      "basename": "Tests in Rust",
+      "path": "Notes/Tests in Rust.md"
+    },
+    {
+      "basename": "Storage in Kubernetes",
+      "path": "Notes/Storage in Kubernetes.md"
+    },
+    {
+      "basename": "Raise the floor, not the ceiling",
+      "path": "Notes/Raise the floor, not the ceiling.md"
+    },
+    {
+      "basename": "Python",
+      "path": "Notes/Python.md"
+    },
+    {
+      "basename": "Personal development environments",
+      "path": "Notes/Personal development environments.md"
+    },
+    {
+      "basename": "Openstack",
+      "path": "Notes/Openstack.md"
+    },
+    {
+      "basename": "O plano",
+      "path": "Notes/O plano.md"
+    },
+    {
+      "basename": "Núcleo de transformações lineares",
+      "path": "Notes/Núcleo de transformações lineares.md"
+    },
+    {
+      "basename": "Mathematics for Self-Study",
+      "path": "Notes/Mathematics for Self-Study.md"
+    },
+    {
+      "basename": "Managing multiple interests",
+      "path": "Notes/Managing multiple interests.md"
+    },
+    {
+      "basename": "Indutivismo",
+      "path": "Notes/Indutivismo.md"
+    },
+    {
+      "basename": "Holismo",
+      "path": "Notes/Holismo.md"
+    },
+    {
+      "basename": "goreleaser",
+      "path": "Notes/goreleaser.md"
+    },
+    {
+      "basename": "Goals",
+      "path": "Notes/Goals.md"
+    },
+    {
+      "basename": "Extended mind",
+      "path": "Notes/Extended mind.md"
+    },
+    {
+      "basename": "Building a Second Brain",
+      "path": "Notes/Building a Second Brain.md"
+    },
+    {
+      "basename": "Avoiding fear",
+      "path": "Notes/Avoiding fear.md"
+    },
+    {
+      "basename": "A positive attitude",
+      "path": "Notes/A positive attitude.md"
+    },
+    {
+      "basename": "Linux networking",
+      "path": "Inbox/Linux networking.md"
+    },
+    {
       "basename": "Programming languages hype",
       "path": "Notes/Programming languages hype.md"
     },
@@ -29,10 +121,6 @@
       "path": "Notes/SSL termination.md"
     },
     {
-      "basename": "Software development",
-      "path": "Indexes/Software development.md"
-    },
-    {
       "basename": "ORMs",
       "path": "Notes/ORMs.md"
     },
@@ -47,10 +135,6 @@
     {
       "basename": "Nothing changes if nothing changes",
       "path": "Notes/Nothing changes if nothing changes.md"
-    },
-    {
-      "basename": "Software testing",
-      "path": "Notes/Software testing.md"
     },
     {
       "basename": "Deref coercion",
@@ -105,10 +189,6 @@
       "path": "Notes/Easy is not simple.md"
     },
     {
-      "basename": "Tigerbeetle",
-      "path": "Notes/Tigerbeetle.md"
-    },
-    {
       "basename": "Distributed systems challenges",
       "path": "Notes/Distributed systems challenges.md"
     },
@@ -119,86 +199,6 @@
     {
       "basename": "LVM",
       "path": "Notes/LVM.md"
-    },
-    {
-      "basename": "Virtualization.excalidraw",
-      "path": "Excalidraw/Virtualization.excalidraw.md"
-    },
-    {
-      "basename": "Block device",
-      "path": "Notes/Block device.md"
-    },
-    {
-      "basename": "DRBD",
-      "path": "Notes/DRBD.md"
-    },
-    {
-      "basename": "Ansible",
-      "path": "Notes/Ansible.md"
-    },
-    {
-      "basename": "Pattern matching",
-      "path": "Notes/Pattern matching.md"
-    },
-    {
-      "basename": "Virtualization",
-      "path": "Notes/Virtualization.md"
-    },
-    {
-      "basename": "Containers",
-      "path": "Notes/Containers.md"
-    },
-    {
-      "basename": "System containers",
-      "path": "Notes/System containers.md"
-    },
-    {
-      "basename": "pgBadger",
-      "path": "Notes/pgBadger.md"
-    },
-    {
-      "basename": "A positive attitude",
-      "path": "Inbox/A positive attitude.md"
-    },
-    {
-      "basename": "Specialization is for insects",
-      "path": "Notes/Specialization is for insects.md"
-    },
-    {
-      "basename": "Managing multiple interests",
-      "path": "Notes/Managing multiple interests.md"
-    },
-    {
-      "basename": "Generics",
-      "path": "Notes/Generics.md"
-    },
-    {
-      "basename": "Smart pointers",
-      "path": "Notes/Smart pointers.md"
-    },
-    {
-      "basename": "Concurrency in Rust",
-      "path": "Notes/Concurrency in Rust.md"
-    },
-    {
-      "basename": "Raise the floor, not the ceiling",
-      "path": "Notes/Raise the floor, not the ceiling.md"
-    },
-    {
-      "basename": "Shared memory in Rust",
-      "path": "Notes/Shared memory in Rust.md"
-    },
-    {
-      "basename": "Message passing in Rust",
-      "path": "Notes/Message passing in Rust.md"
-    },
-    {
-      "basename": "Prometheus",
-      "path": "Notes/Prometheus.md"
-    },
-    {
-      "basename": "uv",
-      "path": "Notes/uv.md"
     }
   ],
   "omittedPaths": [],

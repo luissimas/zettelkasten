@@ -8,4 +8,4 @@ Pessoalmente, a ideia de brio sempre foi muito forte. Busco me desenvolver em di
 
 # References
 
-https://www.youtube.com/watch?v=vagjXnjqeas&pp=ygUEYnJpbw%3D%3D
+[Clóvis, o brio e o foda-se](https://www.youtube.com/watch?v=vagjXnjqeas&pp=ygUEYnJpbw%3D%3D)

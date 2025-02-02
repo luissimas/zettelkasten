@@ -34,3 +34,7 @@ The packages installed are:
 - `mandoc`, that provides the man commands
 - `mandoc-apropos`, that contains the apropos tools and indexes, allowing us to search man pages with `man -k` or `whatis`
 - `docs` is a meta package that ensures that the `<package>-doc` subpackages are installed and remove automatically for each package
+
+# References
+
+[Alpine Linux, APK, OpenRC, and more...](https://www.youtube.com/watch?v=EaCCB3y1ZGM)
