@@ -17,7 +17,18 @@ const config: QuartzConfig = {
     },
     locale: "en-GB",
     baseUrl: "luissimas.github.io/zettelkasten",
-    ignorePatterns: ["Inbox", "Templates", "Canvases", "Excalidraw", "Journal", "Projects", "README.md", ".scripts", ".obsidian", ".trash"],
+    ignorePatterns: [
+      "Inbox",
+      "Templates",
+      "Canvases",
+      "Excalidraw",
+      "Journal",
+      "Projects",
+      "README.md",
+      ".scripts",
+      ".obsidian",
+      ".trash",
+    ],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -73,6 +84,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.D2(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
