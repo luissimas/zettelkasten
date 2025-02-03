@@ -4,22 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "ca16aafbba512ab9",
+        "id": "d477a286ad1fa85e",
         "type": "tabs",
         "children": [
           {
-            "id": "df5e146e87332c11",
+            "id": "33b04365e3fd0437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indexes/Software development.md",
+                "file": "Notes/Deterministic Simulation Testing.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Software development"
+              "title": "Deterministic Simulation Testing"
+            }
+          },
+          {
+            "id": "b5dc860a52731ba0",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://vincent.bernat.ch/en/blog/2018-multi-tier-loadbalancer",
+                "title": "Multi-tier load-balancing with Linux",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Multi-tier load-balancing with Linux"
+            }
+          },
+          {
+            "id": "b98c9e01978a403b",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://blog.cloudflare.com/high-availability-load-balancers-with-maglev/",
+                "title": "High Availability Load Balancers with Maglev",
+                "mode": "blank"
+              },
+              "icon": "globe-2",
+              "title": "High Availability Load Balancers with Maglev"
             }
           }
         ]
@@ -41,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -105,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Inbox/Linstor.md",
+                "file": "Notes/Deterministic Simulation Testing.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -133,7 +162,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Linstor"
+              "title": "Graph of Deterministic Simulation Testing"
             }
           },
           {
@@ -184,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/Linstor.md",
+                "file": "Notes/Deterministic Simulation Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +223,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linstor"
+              "title": "Backlinks for Deterministic Simulation Testing"
             }
           },
           {
@@ -216,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 907.5,
+    "width": 633.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -231,13 +260,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "df5e146e87332c11",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Deterministic Simulation Testing.md~",
+    "Notes/Deterministic Simulation Testing.md",
+    "Inbox/Core ideas.md",
+    "Inbox/Inbox",
+    "Inbox/Go vs Rust.md",
+    "Inbox/Multi-tier load-balancing.md",
+    "Notes/Load balancer 1.md",
+    "Inbox/Multi-tier load-balancing.md~",
+    "Inbox/Load balancer.md~",
+    "Notes/Load balancer.md",
+    "Inbox/Reverse proxy.md",
+    "Inbox/Inbox/Multi-tier load-balancing.md~",
+    "Notes/Kubernetes.md~",
+    "Notes/Inbox",
+    "Notes/SSL termination.md~",
+    "Journal/2025-01-04.md~",
+    "Notes/D2.md",
+    "Indexes/Software development.md",
     "Inbox/Core ideas.md~",
-    "Notes/Brio.md~",
-    "index.md~",
     "Notes/Brio.md",
-    "Notes/Software testing.md~",
     "Notes/Software testing.md",
     "Notes/Time management.md",
     "Notes/Tigerbeetle.md",
@@ -253,22 +297,7 @@
     "Notes/Managing multiple interests.md",
     "Notes/Indutivismo.md",
     "Notes/Holismo.md",
-    "Notes/goreleaser.md",
-    "Notes/Goals.md",
-    "Notes/Extended mind.md",
-    "Notes/Building a Second Brain.md",
-    "Notes/Avoiding fear.md",
-    "Notes/A positive attitude.md",
-    "Inbox/Linux networking.md",
-    "Inbox/Core ideas.md",
-    "Inbox/Strategic thinking.md~",
-    "Inbox/Strategic thinking.md",
-    "Inbox/Programming languages hype.md~",
-    "Inbox/D2.md~",
-    "Inbox/SSL termination.md~",
     "Attachments/teste.png",
-    "Journal/2025-01-02.md~",
-    "Indexes/Software development.md~",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
     "Attachments/Pasted image 20241216072856.png",

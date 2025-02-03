@@ -11,6 +11,7 @@ The main strength of Kubernetes is its extensibility. With this, Kubernetes grow
 [[Kubernetes node]]
 [[Pod]]
 [[Deployment]]
+[[Ingress]]
 
 # Interacting with the cluster
 

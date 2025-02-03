@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Deterministic Simulation Testing",
+      "path": "Notes/Deterministic Simulation Testing.md"
+    },
+    {
+      "basename": "Core ideas",
+      "path": "Inbox/Core ideas.md"
+    },
+    {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
+      "basename": "Multi-tier load-balancing",
+      "path": "Inbox/Multi-tier load-balancing.md"
+    },
+    {
+      "basename": "Load balancer 1",
+      "path": "Notes/Load balancer 1.md"
+    },
+    {
+      "basename": "Load balancer",
+      "path": "Notes/Load balancer.md"
+    },
+    {
+      "basename": "D2",
+      "path": "Notes/D2.md"
+    },
+    {
       "basename": "Software development",
       "path": "Indexes/Software development.md"
     },
@@ -97,10 +125,6 @@
       "path": "Notes/Programming languages hype.md"
     },
     {
-      "basename": "D2",
-      "path": "Notes/D2.md"
-    },
-    {
       "basename": "Linstor",
       "path": "Notes/Linstor.md"
     },
@@ -111,10 +135,6 @@
     {
       "basename": "Idea",
       "path": "Inbox/Idea.md"
-    },
-    {
-      "basename": "Load balancer",
-      "path": "Inbox/Load balancer.md"
     },
     {
       "basename": "SSL termination",
@@ -149,10 +169,6 @@
       "path": "Notes/Unsafe Rust.md"
     },
     {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
-    },
-    {
       "basename": "Virtual machines",
       "path": "Inbox/Virtual machines.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Orthogonality",
       "path": "Notes/Orthogonality.md"
-    },
-    {
-      "basename": "Easy is not simple",
-      "path": "Notes/Easy is not simple.md"
-    },
-    {
-      "basename": "Distributed systems challenges",
-      "path": "Notes/Distributed systems challenges.md"
-    },
-    {
-      "basename": "Ceph",
-      "path": "Notes/Ceph.md"
-    },
-    {
-      "basename": "LVM",
-      "path": "Notes/LVM.md"
     }
   ],
   "omittedPaths": [],
