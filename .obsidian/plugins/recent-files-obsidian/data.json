@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Deterministic Simulation Testing",
-      "path": "Notes/Deterministic Simulation Testing.md"
+      "basename": "Parkinson's law",
+      "path": "Notes/Parkinson's law.md"
     },
     {
       "basename": "Core ideas",
       "path": "Inbox/Core ideas.md"
+    },
+    {
+      "basename": "Intensity in life",
+      "path": "Notes/Intensity in life.md"
+    },
+    {
+      "basename": "Deterministic Simulation Testing",
+      "path": "Notes/Deterministic Simulation Testing.md"
     },
     {
       "basename": "Go vs Rust",
@@ -15,10 +23,6 @@
     {
       "basename": "Multi-tier load-balancing",
       "path": "Inbox/Multi-tier load-balancing.md"
-    },
-    {
-      "basename": "Load balancer 1",
-      "path": "Notes/Load balancer 1.md"
     },
     {
       "basename": "Load balancer",
@@ -191,14 +195,6 @@
     {
       "basename": "LSP goto implementation",
       "path": "Notes/LSP goto implementation.md"
-    },
-    {
-      "basename": "MetalLB",
-      "path": "Notes/MetalLB.md"
-    },
-    {
-      "basename": "Orthogonality",
-      "path": "Notes/Orthogonality.md"
     }
   ],
   "omittedPaths": [],
