@@ -11,10 +11,15 @@
             "id": "a492346adf96b140",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Application containers.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Application containers"
             }
           }
         ]
@@ -230,6 +235,11 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Notes/System containers.md",
+    "Inbox/Application containers.md~",
+    "Notes/Application containers.md",
+    "Notes/Containers.md",
+    "Notes/Virtualization.md",
     "Inbox/Untitled Kanban.md",
     "Notes/Parkinson's law.md",
     "Inbox/Core ideas.md",
@@ -252,7 +262,6 @@
     "Journal/2025-01-04.md~",
     "Notes/D2.md",
     "Indexes/Software development.md",
-    "Inbox/Core ideas.md~",
     "Notes/Brio.md",
     "Notes/Software testing.md",
     "Notes/Time management.md",
@@ -261,11 +270,6 @@
     "Notes/Storage in Kubernetes.md",
     "Notes/Raise the floor, not the ceiling.md",
     "Notes/Python.md",
-    "Notes/Personal development environments.md",
-    "Notes/Openstack.md",
-    "Notes/O plano.md",
-    "Notes/Núcleo de transformações lineares.md",
-    "Notes/Mathematics for Self-Study.md",
     "Attachments/teste.png",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",

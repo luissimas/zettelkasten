@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Application containers",
+      "path": "Notes/Application containers.md"
+    },
+    {
+      "basename": "System containers",
+      "path": "Notes/System containers.md"
+    },
+    {
+      "basename": "Containers",
+      "path": "Notes/Containers.md"
+    },
+    {
+      "basename": "Virtualization",
+      "path": "Notes/Virtualization.md"
+    },
+    {
       "basename": "Parkinson's law",
       "path": "Notes/Parkinson's law.md"
     },
@@ -183,18 +199,6 @@
     {
       "basename": "Virtual IP",
       "path": "Notes/Virtual IP.md"
-    },
-    {
-      "basename": "Headlamp",
-      "path": "Notes/Headlamp.md"
-    },
-    {
-      "basename": "Node-pressure Eviction",
-      "path": "Notes/Node-pressure Eviction.md"
-    },
-    {
-      "basename": "LSP goto implementation",
-      "path": "Notes/LSP goto implementation.md"
     }
   ],
   "omittedPaths": [],
