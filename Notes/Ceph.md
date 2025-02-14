@@ -21,6 +21,16 @@ Ceph uses object storage at its core. It is capable of provide block devices and
 
 ![[Pasted image 20241214173934.png]]
 
+# Useful commands
+
+These are some useful commands to know about to check the state of an existing Ceph cluster. 
+
+```language
+ceph status      # Show cluster health
+ceph df          # Show storage usage
+ceph osd tree    # Show the CRUSH tree map
+```
+
 # References
 
 [[Ceph.pdf]]
