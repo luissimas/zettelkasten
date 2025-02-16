@@ -15615,7 +15615,7 @@
       }
     }
   },
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "previousRelease": "2.1.7",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,

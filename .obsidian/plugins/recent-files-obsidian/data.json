@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Configurability is the root of all evil",
+      "path": "Notes/Configurability is the root of all evil.md"
+    },
+    {
+      "basename": "Switching to Ubuntu",
+      "path": "Notes/Switching to Ubuntu.md"
+    },
+    {
+      "basename": "Fish",
+      "path": "Notes/Fish.md"
+    },
+    {
+      "basename": "Nix",
+      "path": "Inbox/Nix.md"
+    },
+    {
+      "basename": "Ceph",
+      "path": "Notes/Ceph.md"
+    },
+    {
+      "basename": "Drawing 2025-02-05 06.22.34.excalidraw",
+      "path": "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md"
+    },
+    {
+      "basename": "Virtual machines",
+      "path": "Inbox/Virtual machines.md"
+    },
+    {
+      "basename": "Strategic thinking",
+      "path": "Inbox/Strategic thinking.md"
+    },
+    {
+      "basename": "DHCP",
+      "path": "Inbox/DHCP.md"
+    },
+    {
+      "basename": "Core ideas",
+      "path": "Inbox/Core ideas.md"
+    },
+    {
+      "basename": "Idea",
+      "path": "Inbox/Idea.md"
+    },
+    {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
       "basename": "Application containers",
       "path": "Notes/Application containers.md"
     },
@@ -21,20 +69,12 @@
       "path": "Notes/Parkinson's law.md"
     },
     {
-      "basename": "Core ideas",
-      "path": "Inbox/Core ideas.md"
-    },
-    {
       "basename": "Intensity in life",
       "path": "Notes/Intensity in life.md"
     },
     {
       "basename": "Deterministic Simulation Testing",
       "path": "Notes/Deterministic Simulation Testing.md"
-    },
-    {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
     },
     {
       "basename": "Multi-tier load-balancing",
@@ -153,52 +193,12 @@
       "path": "Notes/IPVS.md"
     },
     {
-      "basename": "Idea",
-      "path": "Inbox/Idea.md"
-    },
-    {
       "basename": "SSL termination",
       "path": "Notes/SSL termination.md"
     },
     {
       "basename": "ORMs",
       "path": "Notes/ORMs.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
-      "basename": "Zettelkasten exporter",
-      "path": "Projects/Zettelkasten exporter.md"
-    },
-    {
-      "basename": "Nothing changes if nothing changes",
-      "path": "Notes/Nothing changes if nothing changes.md"
-    },
-    {
-      "basename": "Deref coercion",
-      "path": "Notes/Deref coercion.md"
-    },
-    {
-      "basename": "Traits",
-      "path": "Notes/Traits.md"
-    },
-    {
-      "basename": "Unsafe Rust",
-      "path": "Notes/Unsafe Rust.md"
-    },
-    {
-      "basename": "Virtual machines",
-      "path": "Inbox/Virtual machines.md"
-    },
-    {
-      "basename": "Floating IP",
-      "path": "Notes/Floating IP.md"
-    },
-    {
-      "basename": "Virtual IP",
-      "path": "Notes/Virtual IP.md"
     }
   ],
   "omittedPaths": [],
