@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Self-help books should not exist",
+      "path": "Notes/Self-help books should not exist.md"
+    },
+    {
       "basename": "Configurability is the root of all evil",
       "path": "Notes/Configurability is the root of all evil.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SSL termination",
       "path": "Notes/SSL termination.md"
-    },
-    {
-      "basename": "ORMs",
-      "path": "Notes/ORMs.md"
     }
   ],
   "omittedPaths": [],
