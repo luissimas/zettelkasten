@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Configurability is the root of all evil.md",
+                "file": "Notes/Self-help books should not exist.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Configurability is the root of all evil"
+              "title": "Self-help books should not exist"
             }
           }
         ]
@@ -235,17 +235,18 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Notes/Switching to Ubuntu.md",
     "Notes/Configurability is the root of all evil.md",
+    "Inbox/Self-help books should not exist.md~",
+    "Notes/Self-help books should not exist.md",
+    "Inbox/Nonfiction books.md~",
+    "Inbox/4913",
+    "Notes/Switching to Ubuntu.md",
     "Inbox/Configurability is the root of all evil.md~",
     "Notes/Fish.md",
     "Inbox/Nix.md",
     "Notes/Ceph.md",
     "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
     "Inbox/Virtual machines.md",
-    "Inbox/Nonfiction books.md~",
-    "Inbox/Nonfiction books.md",
-    "Inbox/4913",
     "Inbox/Strategic thinking.md",
     "Inbox/DHCP.md",
     "Inbox/Core ideas.md",
@@ -268,9 +269,7 @@
     "Inbox/Multi-tier load-balancing.md~",
     "Inbox/Load balancer.md~",
     "Notes/Load balancer.md",
-    "Inbox/Reverse proxy.md",
     "Inbox/Inbox/Multi-tier load-balancing.md~",
-    "Notes/Kubernetes.md~",
     "Attachments/teste.png",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
