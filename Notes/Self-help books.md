@@ -1,6 +1,5 @@
 ---
 created-at: "2025-02-16"
-tags: post
 ---
 
 I noticed that most self-help books are **excessively verbose** and padded with fluff to bump the page count. Most of those books could be a blog post if they actually tried to distill and convey the key points efficiently (but blog posts don't sell as well as books).
