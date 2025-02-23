@@ -1,4 +1,4 @@
-import { formatDate, getDate } from "./Date"
+import { formatDate, getDate, ValidDateType } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
@@ -19,6 +19,12 @@ const defaultOptions: ContentMetaOptions = {
   showComma: true,
 }
 
+const dateTypeDescription: Record<ValidDateType, string> = {
+  "created": "Created",
+  "published": "Published",
+  "modified": "Last modified",
+}
+
 export default ((opts?: Partial<ContentMetaOptions>) => {
   // Merge options with defaults
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
@@ -29,9 +35,10 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
-      }
+      cfg.displayDateTypes.forEach(dateType => {
+        const date = formatDate(getDate({ ...cfg, defaultDateType: dateType }, fileData)!, cfg.locale)
+        segments.push(`${dateTypeDescription[dateType]}: ${date}`)
+      })
 
       // Display reading time if enabled
       if (options.showReadingTime) {

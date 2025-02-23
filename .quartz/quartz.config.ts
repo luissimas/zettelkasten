@@ -30,6 +30,7 @@ const config: QuartzConfig = {
       ".trash",
     ],
     defaultDateType: "modified",
+    displayDateTypes: ["created", "modified"],
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
