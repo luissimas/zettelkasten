@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Self-help books should not exist.md",
+                "file": "Inbox/Go vs Rust.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Self-help books should not exist"
+              "title": "Go vs Rust"
             }
           }
         ]
@@ -73,16 +73,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "54042242c49b5724",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
             }
           }
         ]
@@ -233,11 +223,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "a492346adf96b140",
   "lastOpenFiles": [
+    "Notes/Self-help books should not exist.md",
     "Notes/Configurability is the root of all evil.md",
     "Inbox/Self-help books should not exist.md~",
-    "Notes/Self-help books should not exist.md",
     "Inbox/Nonfiction books.md~",
     "Inbox/4913",
     "Notes/Switching to Ubuntu.md",
