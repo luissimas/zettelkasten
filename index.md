@@ -16,8 +16,7 @@ You can explore the notes by using the search bar or by using some of the [Index
 - [[Kubernetes]]
 - [[Rust]]
 - [[Managing multiple interests]]
-- [[UFSCar]]
+- [[Specialization is for insects]]
 - [[Software testing]]
-- [[Software development]]
 
 If you're a recruiter, you might want to checkout my [[Resume]].
