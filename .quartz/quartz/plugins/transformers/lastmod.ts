@@ -62,7 +62,11 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 }
 
                 try {
-                  modified ||= await repo.getFileLatestModifiedDateAsync(file.data.filePath!)
+                  // NOTE: for some reason this was a relative path starting with '../', which made
+                  // it not being detected by git.
+                  modified ||= await repo.getFileLatestModifiedDateAsync(
+                    file.data.filePath!.replace(/\.\.\//, ""),
+                  )
                 } catch {
                   console.log(
                     chalk.yellow(

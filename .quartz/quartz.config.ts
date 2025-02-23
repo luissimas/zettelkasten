@@ -29,7 +29,7 @@ const config: QuartzConfig = {
       ".obsidian",
       ".trash",
     ],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -69,7 +69,7 @@ const config: QuartzConfig = {
       Plugin.FrontMatter(),
       Plugin.HardLineBreaks(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        priority: ["git", "frontmatter", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
