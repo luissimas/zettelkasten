@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Zettelkasten CLI",
+      "path": "Projects/Zettelkasten CLI.md"
+    },
+    {
+      "basename": "Recipe manager",
+      "path": "Projects/Recipe manager.md"
+    },
+    {
+      "basename": "Zettelkasten exporter",
+      "path": "Notes/Zettelkasten exporter.md"
+    },
+    {
       "basename": "Core ideas",
       "path": "Notes/Core ideas.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Holismo",
       "path": "Notes/Holismo.md"
-    },
-    {
-      "basename": "goreleaser",
-      "path": "Notes/goreleaser.md"
-    },
-    {
-      "basename": "Goals",
-      "path": "Notes/Goals.md"
-    },
-    {
-      "basename": "Extended mind",
-      "path": "Notes/Extended mind.md"
     }
   ],
   "omittedPaths": [],

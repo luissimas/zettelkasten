@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Core ideas.md",
+                "file": "Projects/Zettelkasten CLI.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Core ideas"
+              "title": "Zettelkasten CLI"
             }
           }
         ]
@@ -233,8 +233,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "caa448c9373b2730",
+  "active": "a492346adf96b140",
   "lastOpenFiles": [
+    "Projects/Recipe manager.md",
+    "Projects/Zettelkasten CLI.md",
+    "Notes/Zettelkasten exporter.md",
+    "Notes/Core ideas.md",
     "Inbox/Core ideas.md~",
     "Notes/Meta skill.md",
     "Inbox/Meta skill.md~",
@@ -257,7 +261,6 @@
     "Notes/Self-help books should not exist.md",
     "Notes/Configurability is the root of all evil.md",
     "Inbox/Self-help books should not exist.md~",
-    "Inbox/Nonfiction books.md~",
     "Notes/Switching to Ubuntu.md",
     "Notes/Fish.md",
     "Notes/Ceph.md",
@@ -265,7 +268,6 @@
     "Inbox/Virtual machines.md",
     "Inbox/Strategic thinking.md",
     "Inbox/DHCP.md",
-    "Notes/Core ideas.md",
     "Inbox/Idea.md",
     "Notes/Application containers.md",
     "Notes/System containers.md",
@@ -274,8 +276,6 @@
     "Inbox/Untitled Kanban.md",
     "Notes/Parkinson's law.md",
     "Notes/Intensity in life.md",
-    "Notes/Deterministic Simulation Testing.md",
-    "Inbox/Deterministic Simulation Testing.md",
     "Attachments/teste.png",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
