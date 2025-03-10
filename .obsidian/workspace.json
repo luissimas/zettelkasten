@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Meta skill.md",
+                "file": "Notes/Core ideas.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Meta skill"
+              "title": "Core ideas"
             }
           }
         ]
@@ -235,10 +235,11 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Core ideas.md~",
+    "Notes/Meta skill.md",
     "Inbox/Meta skill.md~",
     "Inbox/4913",
     "Notes/How to learn.md",
-    "Notes/Meta skill.md",
     "Canvases/How to learn.canvas",
     "Inbox/How to learn.md~",
     "Canvases/Trabalho SD.canvas",
@@ -258,14 +259,13 @@
     "Inbox/Self-help books should not exist.md~",
     "Inbox/Nonfiction books.md~",
     "Notes/Switching to Ubuntu.md",
-    "Inbox/Configurability is the root of all evil.md~",
     "Notes/Fish.md",
     "Notes/Ceph.md",
     "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
     "Inbox/Virtual machines.md",
     "Inbox/Strategic thinking.md",
     "Inbox/DHCP.md",
-    "Inbox/Core ideas.md",
+    "Notes/Core ideas.md",
     "Inbox/Idea.md",
     "Notes/Application containers.md",
     "Notes/System containers.md",
