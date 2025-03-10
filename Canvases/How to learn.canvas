@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"04d8c32a72c93c43","type":"file","file":"Notes/How to learn.md","x":80,"y":-641,"width":750,"height":671},
+		{"id":"4f8d32b72e55b8fe","type":"text","text":"Create questions that should be answered by the end","x":-680,"y":-240,"width":410,"height":100},
+		{"id":"72d45d9b335b9409","type":"text","text":"First breadth search, collect resources. Don't overthink, 2 hours maximum","x":-715,"y":-60,"width":481,"height":90},
+		{"id":"9f031462fa9d2f09","type":"text","text":"Define a project with clear goals","x":-599,"y":140,"width":250,"height":86},
+		{"id":"10c6b8748190d846","type":"text","text":"Learn just enough theory and fundamentals. Take notes along the way","x":-960,"y":340,"width":345,"height":120},
+		{"id":"987b47d5eb4e6594","type":"text","text":"Work on the project","x":-942,"y":655,"width":310,"height":60},
+		{"id":"767e4105c5325a63","type":"text","text":"Define end goal and life impact","x":-678,"y":-400,"width":406,"height":60},
+		{"id":"f7e463a4327a037f","type":"text","text":"Publish the project, get visibility and call it done","x":-234,"y":440,"width":420,"height":110},
+		{"id":"b9a27b670f50ecdb","type":"text","text":"Solidify the understanding and get closure. Answer the questions created at the start of the process and document the learning","x":426,"y":410,"width":454,"height":170}
+	],
+	"edges":[
+		{"id":"443ab26a45503e84","fromNode":"767e4105c5325a63","fromSide":"bottom","toNode":"4f8d32b72e55b8fe","toSide":"top"},
+		{"id":"4c1d60b59bff07fc","fromNode":"4f8d32b72e55b8fe","fromSide":"bottom","toNode":"72d45d9b335b9409","toSide":"top"},
+		{"id":"bfed1728681d2b8c","fromNode":"72d45d9b335b9409","fromSide":"bottom","toNode":"9f031462fa9d2f09","toSide":"top"},
+		{"id":"684001729f9e000c","fromNode":"9f031462fa9d2f09","fromSide":"left","toNode":"10c6b8748190d846","toSide":"top"},
+		{"id":"eed045ab64f63f67","fromNode":"10c6b8748190d846","fromSide":"left","toNode":"987b47d5eb4e6594","toSide":"left","label":"feel ready to practice?"},
+		{"id":"b215c6bcbc77f54a","fromNode":"987b47d5eb4e6594","fromSide":"right","toNode":"f7e463a4327a037f","toSide":"bottom","label":"done?"},
+		{"id":"e311800b9fc05567","fromNode":"f7e463a4327a037f","fromSide":"top","toNode":"9f031462fa9d2f09","toSide":"right","label":"feel like need to learn more?"},
+		{"id":"7c06b2298fcab442","fromNode":"f7e463a4327a037f","fromSide":"right","toNode":"b9a27b670f50ecdb","toSide":"left","label":"got enough?"},
+		{"id":"16b48efef9726cfe","fromNode":"987b47d5eb4e6594","fromSide":"right","toNode":"10c6b8748190d846","toSide":"right","label":"progress slows down by a lack of fundamental understanding?"}
+	]
+}

@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Meta skill",
+      "path": "Notes/Meta skill.md"
+    },
+    {
+      "basename": "How to learn",
+      "path": "Notes/How to learn.md"
+    },
+    {
+      "basename": "How to learn",
+      "path": "Canvases/How to learn.canvas"
+    },
+    {
+      "basename": "Trabalho SD",
+      "path": "Canvases/Trabalho SD.canvas"
+    },
+    {
+      "basename": "Zettelkasten Exporter",
+      "path": "Canvases/Zettelkasten Exporter.canvas"
+    },
+    {
+      "basename": "Recipe manager",
+      "path": "Canvases/Recipe manager.canvas"
+    },
+    {
+      "basename": "Interests",
+      "path": "Canvases/Interests.canvas"
+    },
+    {
+      "basename": "NixOS",
+      "path": "Notes/NixOS.md"
+    },
+    {
+      "basename": "Nix",
+      "path": "Notes/Nix.md"
+    },
+    {
+      "basename": "Go vs Rust",
+      "path": "Inbox/Go vs Rust.md"
+    },
+    {
       "basename": "Self-help books should not exist",
       "path": "Notes/Self-help books should not exist.md"
     },
@@ -15,10 +55,6 @@
     {
       "basename": "Fish",
       "path": "Notes/Fish.md"
-    },
-    {
-      "basename": "Nix",
-      "path": "Inbox/Nix.md"
     },
     {
       "basename": "Ceph",
@@ -47,10 +83,6 @@
     {
       "basename": "Idea",
       "path": "Inbox/Idea.md"
-    },
-    {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
     },
     {
       "basename": "Application containers",
@@ -167,38 +199,6 @@
     {
       "basename": "Extended mind",
       "path": "Notes/Extended mind.md"
-    },
-    {
-      "basename": "Building a Second Brain",
-      "path": "Notes/Building a Second Brain.md"
-    },
-    {
-      "basename": "Avoiding fear",
-      "path": "Notes/Avoiding fear.md"
-    },
-    {
-      "basename": "A positive attitude",
-      "path": "Notes/A positive attitude.md"
-    },
-    {
-      "basename": "Linux networking",
-      "path": "Inbox/Linux networking.md"
-    },
-    {
-      "basename": "Programming languages hype",
-      "path": "Notes/Programming languages hype.md"
-    },
-    {
-      "basename": "Linstor",
-      "path": "Notes/Linstor.md"
-    },
-    {
-      "basename": "IPVS",
-      "path": "Notes/IPVS.md"
-    },
-    {
-      "basename": "SSL termination",
-      "path": "Notes/SSL termination.md"
     }
   ],
   "omittedPaths": [],

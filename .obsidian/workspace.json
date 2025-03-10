@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Go vs Rust.md",
+                "file": "Notes/Meta skill.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go vs Rust"
+              "title": "Meta skill"
             }
           }
         ]
@@ -73,6 +73,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "9de9874c4f8f0d2f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -223,17 +233,33 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a492346adf96b140",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Meta skill.md~",
+    "Inbox/4913",
+    "Notes/How to learn.md",
+    "Notes/Meta skill.md",
+    "Canvases/How to learn.canvas",
+    "Inbox/How to learn.md~",
+    "Canvases/Trabalho SD.canvas",
+    "Canvases/Zettelkasten Exporter.canvas",
+    "Canvases/Recipe manager.canvas",
+    "Canvases/Interests.canvas",
+    "Notes/NixOS.md",
+    "Notes/NixOS.md~",
+    "https:/youtu.be/Inbox",
+    "https:/youtu.be",
+    "https:",
+    "Notes/Nix.md",
+    "Inbox/Inbox/NixOS.md~",
+    "Inbox/Go vs Rust.md",
     "Notes/Self-help books should not exist.md",
     "Notes/Configurability is the root of all evil.md",
     "Inbox/Self-help books should not exist.md~",
     "Inbox/Nonfiction books.md~",
-    "Inbox/4913",
     "Notes/Switching to Ubuntu.md",
     "Inbox/Configurability is the root of all evil.md~",
     "Notes/Fish.md",
-    "Inbox/Nix.md",
     "Notes/Ceph.md",
     "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
     "Inbox/Virtual machines.md",
@@ -241,25 +267,15 @@
     "Inbox/DHCP.md",
     "Inbox/Core ideas.md",
     "Inbox/Idea.md",
-    "Inbox/Go vs Rust.md",
     "Notes/Application containers.md",
     "Notes/System containers.md",
-    "Inbox/Application containers.md~",
     "Notes/Containers.md",
     "Notes/Virtualization.md",
     "Inbox/Untitled Kanban.md",
     "Notes/Parkinson's law.md",
     "Notes/Intensity in life.md",
     "Notes/Deterministic Simulation Testing.md",
-    "Inbox/Deterministic Simulation Testing.md~",
     "Inbox/Deterministic Simulation Testing.md",
-    "Inbox/Inbox",
-    "Inbox/Multi-tier load-balancing.md",
-    "Notes/Load balancer 1.md",
-    "Inbox/Multi-tier load-balancing.md~",
-    "Inbox/Load balancer.md~",
-    "Notes/Load balancer.md",
-    "Inbox/Inbox/Multi-tier load-balancing.md~",
     "Attachments/teste.png",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
@@ -271,10 +287,6 @@
     "Attachments/Pasted image 20241128075107.png",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "Attachments/Linstor architecture.svg",
-    "Canvases/Interests.canvas",
-    "Canvases/Recipe manager.canvas",
-    "Canvases/Zettelkasten Exporter.canvas",
-    "Canvases/Trabalho SD.canvas",
     "Homelab.canvas"
   ]
 }
