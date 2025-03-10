@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Virtual machines",
+      "path": "Notes/Virtual machines.md"
+    },
+    {
+      "basename": "KVM",
+      "path": "Notes/KVM.md"
+    },
+    {
+      "basename": "QEMU",
+      "path": "Notes/QEMU.md"
+    },
+    {
+      "basename": "libvirt",
+      "path": "Notes/libvirt.md"
+    },
+    {
+      "basename": "MAAS",
+      "path": "Notes/MAAS.md"
+    },
+    {
+      "basename": "DRBD",
+      "path": "Notes/DRBD.md"
+    },
+    {
+      "basename": "Virtualization",
+      "path": "Notes/Virtualization.md"
+    },
+    {
+      "basename": "Vagas",
+      "path": "Inbox/Vagas.md"
+    },
+    {
+      "basename": "KubeVirt",
+      "path": "Notes/KubeVirt.md"
+    },
+    {
+      "basename": "Kubernetes",
+      "path": "Notes/Kubernetes.md"
+    },
+    {
+      "basename": "Openstack",
+      "path": "Notes/Openstack.md"
+    },
+    {
       "basename": "Zettelkasten CLI",
       "path": "Projects/Zettelkasten CLI.md"
     },
@@ -81,10 +125,6 @@
       "path": "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md"
     },
     {
-      "basename": "Virtual machines",
-      "path": "Inbox/Virtual machines.md"
-    },
-    {
       "basename": "Strategic thinking",
       "path": "Inbox/Strategic thinking.md"
     },
@@ -107,10 +147,6 @@
     {
       "basename": "Containers",
       "path": "Notes/Containers.md"
-    },
-    {
-      "basename": "Virtualization",
-      "path": "Notes/Virtualization.md"
     },
     {
       "basename": "Parkinson's law",
@@ -163,42 +199,6 @@
     {
       "basename": "Raise the floor, not the ceiling",
       "path": "Notes/Raise the floor, not the ceiling.md"
-    },
-    {
-      "basename": "Python",
-      "path": "Notes/Python.md"
-    },
-    {
-      "basename": "Personal development environments",
-      "path": "Notes/Personal development environments.md"
-    },
-    {
-      "basename": "Openstack",
-      "path": "Notes/Openstack.md"
-    },
-    {
-      "basename": "O plano",
-      "path": "Notes/O plano.md"
-    },
-    {
-      "basename": "Núcleo de transformações lineares",
-      "path": "Notes/Núcleo de transformações lineares.md"
-    },
-    {
-      "basename": "Mathematics for Self-Study",
-      "path": "Notes/Mathematics for Self-Study.md"
-    },
-    {
-      "basename": "Managing multiple interests",
-      "path": "Notes/Managing multiple interests.md"
-    },
-    {
-      "basename": "Indutivismo",
-      "path": "Notes/Indutivismo.md"
-    },
-    {
-      "basename": "Holismo",
-      "path": "Notes/Holismo.md"
     }
   ],
   "omittedPaths": [],

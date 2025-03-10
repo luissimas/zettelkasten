@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "310a9f812c776e6c",
+        "id": "84ab80f1ba3bf4ff",
         "type": "tabs",
         "children": [
           {
-            "id": "a492346adf96b140",
+            "id": "25782764e106e52c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Zettelkasten CLI.md",
+                "file": "Notes/Virtual machines.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Zettelkasten CLI"
+              "title": "Virtual machines"
             }
           }
         ]
@@ -106,11 +106,11 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Parkinson's law.md",
+                "file": "Notes/Virtual machines.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
@@ -134,7 +134,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Parkinson's law"
+              "title": "Graph of Virtual machines"
             }
           },
           {
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Parkinson's law.md",
+                "file": "Notes/Virtual machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Parkinson's law"
+              "title": "Backlinks for Virtual machines"
             }
           },
           {
@@ -217,8 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 633.5,
-    "collapsed": true
+    "width": 633.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,10 +232,29 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a492346adf96b140",
+  "active": "25782764e106e52c",
   "lastOpenFiles": [
-    "Projects/Recipe manager.md",
+    "Notes/Virtual machines.md~",
+    "Inbox/Vagas.md~",
+    "Notes/KVM.md",
+    "Notes/Virtual machines.md",
+    "Notes/QEMU.md",
+    "Notes/libvirt.md",
+    "Notes/MAAS.md",
+    "Notes/DRBD.md",
+    "Notes/Virtualization.md",
+    "Inbox/Vagas.md",
+    "Notes/KubeVirt.md",
+    "Notes/Kubernetes.md",
+    "Notes/Openstack.md",
+    "Inbox/Inbox/libvirt.md~",
+    "Inbox/Virtual machines.md~",
+    "Inbox/Inbox/QEMU.md~",
+    "Inbox/Inbox/KVM.md~",
+    "Inbox/Untitled Kanban.md",
     "Projects/Zettelkasten CLI.md",
+    "Inbox/Inbox/Inbox",
+    "Projects/Recipe manager.md",
     "Notes/Zettelkasten exporter.md",
     "Notes/Core ideas.md",
     "Inbox/Core ideas.md~",
@@ -251,31 +269,12 @@
     "Canvases/Recipe manager.canvas",
     "Canvases/Interests.canvas",
     "Notes/NixOS.md",
-    "Notes/NixOS.md~",
-    "https:/youtu.be/Inbox",
-    "https:/youtu.be",
-    "https:",
     "Notes/Nix.md",
-    "Inbox/Inbox/NixOS.md~",
     "Inbox/Go vs Rust.md",
     "Notes/Self-help books should not exist.md",
     "Notes/Configurability is the root of all evil.md",
-    "Inbox/Self-help books should not exist.md~",
     "Notes/Switching to Ubuntu.md",
     "Notes/Fish.md",
-    "Notes/Ceph.md",
-    "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
-    "Inbox/Virtual machines.md",
-    "Inbox/Strategic thinking.md",
-    "Inbox/DHCP.md",
-    "Inbox/Idea.md",
-    "Notes/Application containers.md",
-    "Notes/System containers.md",
-    "Notes/Containers.md",
-    "Notes/Virtualization.md",
-    "Inbox/Untitled Kanban.md",
-    "Notes/Parkinson's law.md",
-    "Notes/Intensity in life.md",
     "Attachments/teste.png",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
