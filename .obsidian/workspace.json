@@ -11,15 +11,12 @@
             "id": "25782764e106e52c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notes/Virtual machines.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "file": "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Virtual machines"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-05 06.22.34.excalidraw"
             }
           }
         ]
@@ -106,7 +103,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Notes/Virtual machines.md",
+                "file": "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -134,7 +131,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Virtual machines"
+              "title": "Graph of Drawing 2025-02-05 06.22.34.excalidraw"
             }
           },
           {
@@ -185,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Virtual machines.md",
+                "file": "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +192,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Virtual machines"
+              "title": "Backlinks for Drawing 2025-02-05 06.22.34.excalidraw"
             }
           },
           {
@@ -217,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 633.5
+    "width": 633.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,10 +232,14 @@
   },
   "active": "25782764e106e52c",
   "lastOpenFiles": [
+    "Notes/Ceph.md~",
+    "Notes/Software-defined storage.md",
+    "Inbox/Software-defined storage.md~",
+    "Attachments/Pasted image 20250320105554.png",
+    "Notes/Virtual machines.md",
     "Notes/Virtual machines.md~",
     "Inbox/Vagas.md~",
     "Notes/KVM.md",
-    "Notes/Virtual machines.md",
     "Notes/QEMU.md",
     "Notes/libvirt.md",
     "Notes/MAAS.md",
@@ -260,10 +262,8 @@
     "Inbox/Core ideas.md~",
     "Notes/Meta skill.md",
     "Inbox/Meta skill.md~",
-    "Inbox/4913",
     "Notes/How to learn.md",
     "Canvases/How to learn.canvas",
-    "Inbox/How to learn.md~",
     "Canvases/Trabalho SD.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Recipe manager.canvas",
@@ -274,7 +274,6 @@
     "Notes/Self-help books should not exist.md",
     "Notes/Configurability is the root of all evil.md",
     "Notes/Switching to Ubuntu.md",
-    "Notes/Fish.md",
     "Attachments/teste.png",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",
@@ -285,7 +284,6 @@
     "Canvases/Incus charm.canvas",
     "Attachments/Pasted image 20241128075107.png",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
-    "Attachments/Linstor architecture.svg",
     "Homelab.canvas"
   ]
 }

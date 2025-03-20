@@ -1,5 +1,5 @@
 ---
-created-at: 2024-11-11
+created-at: "2024-11-11"
 ---
 
 Ceph is a [[Software-defined storage]] solution. Probably the most **reliable** and widely used, with the greatest **scaling** potential. Fully decentralized with **no single point of failure**. It can provide both [[Block storage|block]] and [[Object storage|object]] storage, as well as a [[Sistema de arquivos|filesystem]].
