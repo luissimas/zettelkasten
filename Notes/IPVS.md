@@ -16,7 +16,7 @@ It's worth noting that, since IPVS runs in the Kernel, we won't be able to see a
 
 The load balancer changes the packet's destination address to the address of one of the backend servers. If the load balancer ingress IP and the backend servers are on the same network, an SNAT rule must be created to also change the source IP of the packet to the IP of the load balancer.
 
-The `-b mh-port` flag adds the source port number to the Maglev hash computation. Using the source IP and source port is better than just the IP because different connections from the same host can be load balanced to different backend servers, while still ensuring that packets for a single connection always go to the same backend server.
+The `-b mh-port` flag adds the source port number to the [[Maglev]] hash computation. Using the source IP and source port is better than just the IP because different connections from the same host can be load balanced to different backend servers, while still ensuring that packets for a single connection always go to the same backend server.
 
 ```shell
 export LB="10.186.181.200"
