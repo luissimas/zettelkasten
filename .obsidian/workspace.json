@@ -11,12 +11,15 @@
             "id": "25782764e106e52c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md"
+                "file": "Notes/Multi-tier load-balancing.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-05 06.22.34.excalidraw"
+              "icon": "lucide-file",
+              "title": "Multi-tier load-balancing"
             }
           }
         ]
@@ -230,8 +233,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "25782764e106e52c",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Multi-tier load-balancing.md~",
+    "Notes/Multi-tier load-balancing.md",
+    "Inbox/Linux networking.md",
+    "Inbox/Strategic thinking.md",
+    "Inbox/Software-defined networking.md",
+    "Inbox/OVS.md",
+    "Notes/Maglev.md",
+    "Notes/Load balancer.md",
+    "Notes/ECMP.md",
+    "Inbox/DHCP.md",
+    "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
     "Notes/Ceph.md~",
     "Notes/Software-defined storage.md",
     "Inbox/Software-defined storage.md~",
@@ -257,23 +271,11 @@
     "Projects/Zettelkasten CLI.md",
     "Inbox/Inbox/Inbox",
     "Projects/Recipe manager.md",
-    "Notes/Zettelkasten exporter.md",
-    "Notes/Core ideas.md",
-    "Inbox/Core ideas.md~",
-    "Notes/Meta skill.md",
-    "Inbox/Meta skill.md~",
-    "Notes/How to learn.md",
     "Canvases/How to learn.canvas",
     "Canvases/Trabalho SD.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Recipe manager.canvas",
     "Canvases/Interests.canvas",
-    "Notes/NixOS.md",
-    "Notes/Nix.md",
-    "Inbox/Go vs Rust.md",
-    "Notes/Self-help books should not exist.md",
-    "Notes/Configurability is the root of all evil.md",
-    "Notes/Switching to Ubuntu.md",
     "Attachments/teste.png",
     "Attachments/ha-diagram-animated.gif",
     "Attachments/Pasted image 20241217070458.png",

@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Multi-tier load-balancing",
+      "path": "Notes/Multi-tier load-balancing.md"
+    },
+    {
+      "basename": "Linux networking",
+      "path": "Inbox/Linux networking.md"
+    },
+    {
+      "basename": "Strategic thinking",
+      "path": "Inbox/Strategic thinking.md"
+    },
+    {
+      "basename": "Software-defined networking",
+      "path": "Inbox/Software-defined networking.md"
+    },
+    {
+      "basename": "OVS",
+      "path": "Inbox/OVS.md"
+    },
+    {
+      "basename": "Maglev",
+      "path": "Notes/Maglev.md"
+    },
+    {
+      "basename": "Load balancer",
+      "path": "Notes/Load balancer.md"
+    },
+    {
+      "basename": "ECMP",
+      "path": "Notes/ECMP.md"
+    },
+    {
+      "basename": "DHCP",
+      "path": "Inbox/DHCP.md"
+    },
+    {
       "basename": "Drawing 2025-02-05 06.22.34.excalidraw",
       "path": "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md"
     },
@@ -129,14 +165,6 @@
       "path": "Notes/Ceph.md"
     },
     {
-      "basename": "Strategic thinking",
-      "path": "Inbox/Strategic thinking.md"
-    },
-    {
-      "basename": "DHCP",
-      "path": "Inbox/DHCP.md"
-    },
-    {
       "basename": "Idea",
       "path": "Inbox/Idea.md"
     },
@@ -165,40 +193,12 @@
       "path": "Notes/Deterministic Simulation Testing.md"
     },
     {
-      "basename": "Multi-tier load-balancing",
-      "path": "Inbox/Multi-tier load-balancing.md"
-    },
-    {
-      "basename": "Load balancer",
-      "path": "Notes/Load balancer.md"
-    },
-    {
       "basename": "D2",
       "path": "Notes/D2.md"
     },
     {
       "basename": "Software development",
       "path": "Indexes/Software development.md"
-    },
-    {
-      "basename": "Software testing",
-      "path": "Notes/Software testing.md"
-    },
-    {
-      "basename": "Time management",
-      "path": "Notes/Time management.md"
-    },
-    {
-      "basename": "Tigerbeetle",
-      "path": "Notes/Tigerbeetle.md"
-    },
-    {
-      "basename": "Tests in Rust",
-      "path": "Notes/Tests in Rust.md"
-    },
-    {
-      "basename": "Storage in Kubernetes",
-      "path": "Notes/Storage in Kubernetes.md"
     }
   ],
   "omittedPaths": [],
