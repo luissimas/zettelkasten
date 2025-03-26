@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "How to learn",
+      "path": "Canvases/How to learn.canvas"
+    },
+    {
+      "basename": "How to learn",
+      "path": "Notes/How to learn.md"
+    },
+    {
       "basename": "Multi-tier load-balancing",
       "path": "Notes/Multi-tier load-balancing.md"
     },
@@ -14,7 +22,7 @@
     },
     {
       "basename": "Software-defined networking",
-      "path": "Inbox/Software-defined networking.md"
+      "path": "Notes/Software-defined networking.md"
     },
     {
       "basename": "OVS",
@@ -109,14 +117,6 @@
       "path": "Notes/Meta skill.md"
     },
     {
-      "basename": "How to learn",
-      "path": "Notes/How to learn.md"
-    },
-    {
-      "basename": "How to learn",
-      "path": "Canvases/How to learn.canvas"
-    },
-    {
       "basename": "Trabalho SD",
       "path": "Canvases/Trabalho SD.canvas"
     },
@@ -141,10 +141,6 @@
       "path": "Notes/Nix.md"
     },
     {
-      "basename": "Go vs Rust",
-      "path": "Inbox/Go vs Rust.md"
-    },
-    {
       "basename": "Self-help books should not exist",
       "path": "Notes/Self-help books should not exist.md"
     },
@@ -163,10 +159,6 @@
     {
       "basename": "Ceph",
       "path": "Notes/Ceph.md"
-    },
-    {
-      "basename": "Idea",
-      "path": "Inbox/Idea.md"
     },
     {
       "basename": "Application containers",

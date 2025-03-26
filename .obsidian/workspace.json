@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25782764e106e52c",
+            "id": "7b74002ff0734508",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Multi-tier load-balancing.md",
+                "file": "Notes/Software-defined networking.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Multi-tier load-balancing"
+              "title": "Software-defined networking"
             }
           }
         ]
@@ -73,16 +73,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "9de9874c4f8f0d2f",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
             }
           }
         ]
@@ -235,11 +225,20 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Inbox/Multi-tier load-balancing.md~",
+    "Inbox/Software-defined networking.md~",
+    "Inbox/Incus OVN.md",
+    "Notes/Software-defined storage.md",
+    "Notes/Software-defined networking.md",
+    "Inbox/Vagas.md",
+    "Inbox/Go vs Rust.md",
+    "Inbox/Idea.md",
+    "Canvases/How to learn.canvas",
+    "Notes/How to learn.md~",
+    "Notes/How to learn.md",
     "Notes/Multi-tier load-balancing.md",
+    "Inbox/Multi-tier load-balancing.md~",
     "Inbox/Linux networking.md",
     "Inbox/Strategic thinking.md",
-    "Inbox/Software-defined networking.md",
     "Inbox/OVS.md",
     "Notes/Maglev.md",
     "Notes/Load balancer.md",
@@ -247,7 +246,6 @@
     "Inbox/DHCP.md",
     "Excalidraw/Drawing 2025-02-05 06.22.34.excalidraw.md",
     "Notes/Ceph.md~",
-    "Notes/Software-defined storage.md",
     "Inbox/Software-defined storage.md~",
     "Attachments/Pasted image 20250320105554.png",
     "Notes/Virtual machines.md",
@@ -259,19 +257,11 @@
     "Notes/MAAS.md",
     "Notes/DRBD.md",
     "Notes/Virtualization.md",
-    "Inbox/Vagas.md",
     "Notes/KubeVirt.md",
     "Notes/Kubernetes.md",
-    "Notes/Openstack.md",
     "Inbox/Inbox/libvirt.md~",
     "Inbox/Virtual machines.md~",
     "Inbox/Inbox/QEMU.md~",
-    "Inbox/Inbox/KVM.md~",
-    "Inbox/Untitled Kanban.md",
-    "Projects/Zettelkasten CLI.md",
-    "Inbox/Inbox/Inbox",
-    "Projects/Recipe manager.md",
-    "Canvases/How to learn.canvas",
     "Canvases/Trabalho SD.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Recipe manager.canvas",
