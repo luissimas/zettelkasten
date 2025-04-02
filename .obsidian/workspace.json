@@ -8,21 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b74002ff0734508",
+            "id": "d56d5105fa0a0ab4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Software-defined networking.md",
+                "file": "Inbox/Incus OVN.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Software-defined networking"
+              "title": "Incus OVN"
+            }
+          },
+          {
+            "id": "df3e347ed8284caf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Making decisions.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Making decisions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +89,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "92124e35ff8296da",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -225,10 +251,17 @@
   },
   "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Inbox/Software-defined networking.md~",
+    "Notes/The art of finishing.md",
+    "Notes/Making decisions.md",
     "Inbox/Incus OVN.md",
-    "Notes/Software-defined storage.md",
+    "Excalidraw/Drawing 2025-04-02 07.37.38.excalidraw.md",
+    "Inbox/The art of finishing.md~",
+    "Notes/Ceph.md",
+    "Inbox/Cybersecurity.md",
+    "Notes/Binary search.md",
     "Notes/Software-defined networking.md",
+    "Inbox/Software-defined networking.md~",
+    "Notes/Software-defined storage.md",
     "Inbox/Vagas.md",
     "Inbox/Go vs Rust.md",
     "Inbox/Idea.md",
@@ -254,14 +287,8 @@
     "Notes/KVM.md",
     "Notes/QEMU.md",
     "Notes/libvirt.md",
-    "Notes/MAAS.md",
-    "Notes/DRBD.md",
-    "Notes/Virtualization.md",
-    "Notes/KubeVirt.md",
-    "Notes/Kubernetes.md",
     "Inbox/Inbox/libvirt.md~",
     "Inbox/Virtual machines.md~",
-    "Inbox/Inbox/QEMU.md~",
     "Canvases/Trabalho SD.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Recipe manager.canvas",

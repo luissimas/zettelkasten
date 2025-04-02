@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "Making decisions",
+      "path": "Notes/Making decisions.md"
+    },
+    {
+      "basename": "The art of finishing",
+      "path": "Notes/The art of finishing.md"
+    },
+    {
+      "basename": "Incus OVN",
+      "path": "Inbox/Incus OVN.md"
+    },
+    {
+      "basename": "Drawing 2025-04-02 07.37.38.excalidraw",
+      "path": "Excalidraw/Drawing 2025-04-02 07.37.38.excalidraw.md"
+    },
+    {
+      "basename": "Ceph",
+      "path": "Notes/Ceph.md"
+    },
+    {
+      "basename": "Cybersecurity",
+      "path": "Inbox/Cybersecurity.md"
+    },
+    {
+      "basename": "Binary search",
+      "path": "Notes/Binary search.md"
+    },
+    {
+      "basename": "Software-defined networking",
+      "path": "Notes/Software-defined networking.md"
+    },
+    {
       "basename": "How to learn",
       "path": "Canvases/How to learn.canvas"
     },
@@ -19,10 +51,6 @@
     {
       "basename": "Strategic thinking",
       "path": "Inbox/Strategic thinking.md"
-    },
-    {
-      "basename": "Software-defined networking",
-      "path": "Notes/Software-defined networking.md"
     },
     {
       "basename": "OVS",
@@ -157,10 +185,6 @@
       "path": "Notes/Fish.md"
     },
     {
-      "basename": "Ceph",
-      "path": "Notes/Ceph.md"
-    },
-    {
       "basename": "Application containers",
       "path": "Notes/Application containers.md"
     },
@@ -175,22 +199,6 @@
     {
       "basename": "Parkinson's law",
       "path": "Notes/Parkinson's law.md"
-    },
-    {
-      "basename": "Intensity in life",
-      "path": "Notes/Intensity in life.md"
-    },
-    {
-      "basename": "Deterministic Simulation Testing",
-      "path": "Notes/Deterministic Simulation Testing.md"
-    },
-    {
-      "basename": "D2",
-      "path": "Notes/D2.md"
-    },
-    {
-      "basename": "Software development",
-      "path": "Indexes/Software development.md"
     }
   ],
   "omittedPaths": [],
