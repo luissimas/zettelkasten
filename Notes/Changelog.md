@@ -6,6 +6,11 @@ This is my personal changelog. The purpose of this is to track what I've been wo
 
 I started this changelog in 2024-12-30, and decided to not include anything before that because it's hard to keep track of things that happened in the past without writing them down, and that's the whole point of this changelog.
 
+# 2025-03
+
+- Finished the [[Linstor]] driver for [[Incus]]. It was really fun to work with, specially because I got the chance to meet new people while doing it
+- Did a lot of work to add OVN support to the [Incus charm](https://github.com/cloudlabs-ufscar/incus-charm). I think I finally understand the basics of [[OVN]], at least from a user's POV
+
 # 2025-01
 
 - Started working on integrating [[Linstor]] into [[Incus]]: https://github.com/lxc/incus/pull/1621
