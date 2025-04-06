@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Resume",
+      "path": "Notes/Resume.md"
+    },
+    {
       "basename": "Making decisions",
       "path": "Notes/Making decisions.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Containers",
       "path": "Notes/Containers.md"
-    },
-    {
-      "basename": "Parkinson's law",
-      "path": "Notes/Parkinson's law.md"
     }
   ],
   "omittedPaths": [],
