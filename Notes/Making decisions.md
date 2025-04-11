@@ -12,3 +12,4 @@ Inaction usually feels like the safest bet, but we have to remind ourselves that
 # Reference
 
 [How to Make Difficult Decisions (without overthinking)](https://www.youtube.com/watch?v=XILu7hxDr2w)
+[How to Make Better Decisions — Decision-Making Mental Models — Using Intuition](https://www.youtube.com/watch?v=vjZH7nmsHpk)

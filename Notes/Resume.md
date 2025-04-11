@@ -42,7 +42,8 @@ This research group is focused in researching and developing software that plays
 I'm currently working at Luizalabs building Magalu Cloud: the first brazilian public cloud with multiple data centers. Although still a developer, I'm now involved in a wider range of topics that go from underlying hardware infrastructure to internal developer tooling. During my time here, I work mostly on the following:
 
 - Designing and implementing processes for test, validation and release via CI/CD pipelines
-- Contributing new features and bug fixes to open source projects such as Incus and Juju
+- Implementing and maintaining libraries and tools to improve the internal developer experience
+- Contributing new features and bug fixes to open source projects such as Incus and Juju using Go
 - Developing automation solutions for deploying and operating critical services
 
 ## Software developer freelancer, Upwork (2023-Present)
