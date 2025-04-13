@@ -1,15 +1,58 @@
 ---
 created-at: 2020-11-25
 ---
-Recursion is a technique for solving problems that evolves around the idea of a function that calls itself itself until the output reaches a *base case*, then the functions start to return the values to the ones that called them. This is one of the mos elegant ways of solving problems, it can be very efficient and we can solve a lot of problems using few lines of code.
 
- ## Base case
- Base cases are very important in recursive functions, without them we'll end up with infinite loops. To prevent that we always have to break the problem in a base case and a recursive base. The function will call itself until it eventually reaches a base case, then the values can be returned to the ones that called them.
- 
- ## Stack
-Stack is a simple way to arrange data one on top of each other. Computers have a *call stack* to organize the function calls, the last call is always put on top of the stack, and when the function returns, it gets removed from the stack. This is very important when it comes down to *recursion*, because each call of the function gets put on top of the stack to be executed while the previous function is paused, until the last function reaches the *base case*, then the values are returned to the previous functions, that uses this value to return another value to the previous and so on.
+Recursion is when a concept is defined in terms of itself. Recursion is common in Mathematics or Computer Science, usually in scenarios in which a function is used in its own definition.
 
-# Performance
-The main drawback from the recursive approach is that when we call a function, all its variables are stored in the stack, so for each call we have to store all the variables "again". This can become a problem when a program has a lot of recursive calls.
+In programming, recursion can be a very efficient and elegant way to solve problems. [[Functional programming languages]] use recursion extensively as a way to iterate over data structures.
 
->Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation.
+The typical blueprint to solve problems using recursion is:
+
+- Identify the base case: this is the simplest case of the problem, usually an atomic case which cannot be decomposed further down (e.g. empty list, empty tree etc)
+- Identify the recursive case: how can we decompose the problem into smaller parts that can be solved in the same manner and them composed to form the final solution?
+
+If we can define those two, then we just defined the solution of the problem recursively.
+
+Recursion really feels like magic in some cases. It's often hard to think about the whole problem and all the intermediary steps to solve it. With recursion, we just need to think about the simplest case (which is often trivial), and then think of a generic case that can be defined in terms of itself (this is often the tricky part).
+
+The main drawback of recursion when compared with alternative approaches to solve problems (usually using iteration) is that it can consume more memory due to the increased number of function calls. This can be mitigated in some cases by languages that implement [[Call stack optimization]], but in most cases that optimization won't be possible due to either the language or the problem itself.
+
+# Example
+
+This is a [LeetCode problem](leetcode.com/problems/convert-sorted-array-to-binary-search-tree) that can be solved very easily with recursion.
+
+> Given an integer array nums where the elements are sorted in ascending order, convert it to a binary search tree.
+
+So, the base case here is that an empty list results in an empty tree. The recursive case is that a list results in a tree with the middle element as the root and the left and right children are trees created from applying the same process to the left and right portions of the list.
+
+Implementing this in [[Python]] yields a very simple to understand solution:
+
+```python
+def sorted_array_to_bst(self, nums: List[int]) -> Optional[TreeNode]:
+    if len(nums) == 0:
+        return None
+
+    mid = len(nums) // 2
+    return TreeNode(
+        val=nums[mid],
+        left=self.sorted_array_to_bst(nums[:mid]),
+        right=self.sorted_array_to_bst(nums[mid+1:]),
+    )
+```
+
+The same solution in [[Elixir]] is equally simple:
+
+```elixir
+defmodule Solution do
+  @spec sorted_array_to_bst(nums :: [integer]) :: TreeNode.t | nil
+  def sorted_array_to_bst([]), do: nil
+  def sorted_array_to_bst([head | tail] = nums) do
+    {left, [mid | right]} = Enum.split(nums, div(length(nums), 2))
+    %TreeNode{
+        val: mid, 
+        left: sorted_array_to_bst(left), 
+        right: sorted_array_to_bst(right),
+    }
+  end
+end
+```
