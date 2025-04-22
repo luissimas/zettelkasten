@@ -11,7 +11,7 @@ I'm Luís, a backend focused software developer living in Brasil 🇧🇷. I'm v
 - Getting better at stuff
 - Learn more about linguistics and philosophy
 
-This website is meant to be a place to share a few things, in the form of blog posts as well as notes. This page is mostly a resume of my professional experience and education. If you want to get in touch or discuss anything you can email me at <luissimas@protonmail.com>.
+This website is meant to be a place to share a few things, in the form of blog posts as well as notes. This page is mostly a resume of my professional experience and education. If you want to get in touch or discuss anything you can email me at <luissimas@protonmail.com>. If you're interested in my projects and open source contributions, check out my [GitHub](https://github.com/luissimas).
 
 # Technical Skills
 

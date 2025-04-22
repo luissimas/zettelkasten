@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2025-04-18 08.20.19.excalidraw",
+      "path": "Excalidraw/Drawing 2025-04-18 08.20.19.excalidraw.md"
+    },
+    {
+      "basename": "Learning plan 2025",
+      "path": "Inbox/Learning plan 2025.md"
+    },
+    {
+      "basename": "How to learn",
+      "path": "Canvases/How to learn.canvas"
+    },
+    {
+      "basename": "Learning Go",
+      "path": "Notes/Learning Go.md"
+    },
+    {
+      "basename": "Learn Go with tests",
+      "path": "Notes/Learn Go with tests.md"
+    },
+    {
       "basename": "Resume",
       "path": "Notes/Resume.md"
     },
@@ -13,10 +33,6 @@
       "path": "Notes/The art of finishing.md"
     },
     {
-      "basename": "Incus OVN",
-      "path": "Inbox/Incus OVN.md"
-    },
-    {
       "basename": "Drawing 2025-04-02 07.37.38.excalidraw",
       "path": "Excalidraw/Drawing 2025-04-02 07.37.38.excalidraw.md"
     },
@@ -25,20 +41,12 @@
       "path": "Notes/Ceph.md"
     },
     {
-      "basename": "Cybersecurity",
-      "path": "Inbox/Cybersecurity.md"
-    },
-    {
       "basename": "Binary search",
       "path": "Notes/Binary search.md"
     },
     {
       "basename": "Software-defined networking",
       "path": "Notes/Software-defined networking.md"
-    },
-    {
-      "basename": "How to learn",
-      "path": "Canvases/How to learn.canvas"
     },
     {
       "basename": "How to learn",
@@ -187,18 +195,6 @@
     {
       "basename": "Fish",
       "path": "Notes/Fish.md"
-    },
-    {
-      "basename": "Application containers",
-      "path": "Notes/Application containers.md"
-    },
-    {
-      "basename": "System containers",
-      "path": "Notes/System containers.md"
-    },
-    {
-      "basename": "Containers",
-      "path": "Notes/Containers.md"
     }
   ],
   "omittedPaths": [],
