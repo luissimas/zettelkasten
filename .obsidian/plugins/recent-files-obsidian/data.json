@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "System design",
-      "path": "Notes/System design.md"
-    },
-    {
       "basename": "Scalability",
       "path": "Inbox/Scalability.md"
+    },
+    {
+      "basename": "Nubank",
+      "path": "Inbox/Nubank.md"
+    },
+    {
+      "basename": "System design",
+      "path": "Notes/System design.md"
     },
     {
       "basename": "Go",
@@ -195,10 +199,6 @@
     {
       "basename": "Self-help books should not exist",
       "path": "Notes/Self-help books should not exist.md"
-    },
-    {
-      "basename": "Configurability is the root of all evil",
-      "path": "Notes/Configurability is the root of all evil.md"
     }
   ],
   "omittedPaths": [],
