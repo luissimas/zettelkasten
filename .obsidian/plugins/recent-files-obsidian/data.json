@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "System design",
+      "path": "Notes/System design.md"
+    },
+    {
+      "basename": "Scalability",
+      "path": "Inbox/Scalability.md"
+    },
+    {
       "basename": "Go",
       "path": "Notes/Go.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Configurability is the root of all evil",
       "path": "Notes/Configurability is the root of all evil.md"
-    },
-    {
-      "basename": "Switching to Ubuntu",
-      "path": "Notes/Switching to Ubuntu.md"
-    },
-    {
-      "basename": "Fish",
-      "path": "Notes/Fish.md"
     }
   ],
   "omittedPaths": [],

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Go.md",
+                "file": "Notes/System design.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Go"
+              "title": "System design"
             }
           }
         ]
@@ -85,13 +85,11 @@
               "title": "Recent Files"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 439.5,
-    "collapsed": true
+    "width": 439.5
   },
   "right": {
     "id": "38b38f8980b9bea9",
@@ -235,10 +233,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bb7ac428325fa3e7",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
-    "Inbox/Learning plan 2025.md",
+    "Inbox/Scalability.md",
     "Notes/Go.md",
+    "Inbox/Learning plan 2025.md",
     "Excalidraw/Drawing 2025-04-18 08.20.19.excalidraw.md",
     "Inbox/Board vagas.md",
     "Canvases/How to learn.canvas",
@@ -268,7 +267,6 @@
     "Inbox/Linux networking.md",
     "Inbox/Strategic thinking.md",
     "Inbox/OVS.md",
-    "Notes/Maglev.md",
     "Notes/Ceph.md~",
     "Inbox/Software-defined storage.md~",
     "Attachments/Pasted image 20250320105554.png",
