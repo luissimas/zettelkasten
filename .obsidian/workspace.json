@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Scalability.md",
+                "file": "Notes/Latency vs Throughput.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Scalability"
+              "title": "Latency vs Throughput"
             }
           }
         ]
@@ -233,8 +233,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "bb7ac428325fa3e7",
+  "active": "caa448c9373b2730",
   "lastOpenFiles": [
+    "Inbox/Database sharding.md~",
+    "Inbox/Latency vs Throughput.md~",
+    "Inbox/Self hosted AI.md",
     "Inbox/Nubank.md",
     "Notes/System design.md",
     "Inbox/Scalability.md",
@@ -264,15 +267,12 @@
     "Inbox/Idea.md",
     "Notes/How to learn.md~",
     "Notes/How to learn.md",
-    "Notes/Multi-tier load-balancing.md",
     "Inbox/Multi-tier load-balancing.md~",
-    "Inbox/Linux networking.md",
     "Notes/Ceph.md~",
     "Inbox/Software-defined storage.md~",
     "Attachments/Pasted image 20250320105554.png",
     "Notes/Virtual machines.md~",
     "Inbox/Vagas.md~",
-    "Inbox/Inbox/libvirt.md~",
     "Canvases/Trabalho SD.canvas",
     "Canvases/Zettelkasten Exporter.canvas",
     "Canvases/Recipe manager.canvas",

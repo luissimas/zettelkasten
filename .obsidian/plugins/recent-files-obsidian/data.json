@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Latency vs Throughput",
+      "path": "Notes/Latency vs Throughput.md"
+    },
+    {
+      "basename": "Self hosted AI",
+      "path": "Inbox/Self hosted AI.md"
+    },
+    {
       "basename": "Scalability",
       "path": "Inbox/Scalability.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "NixOS",
       "path": "Notes/NixOS.md"
-    },
-    {
-      "basename": "Nix",
-      "path": "Notes/Nix.md"
-    },
-    {
-      "basename": "Self-help books should not exist",
-      "path": "Notes/Self-help books should not exist.md"
     }
   ],
   "omittedPaths": [],
